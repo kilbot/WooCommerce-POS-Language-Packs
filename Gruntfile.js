@@ -23,8 +23,7 @@ module.exports = function(grunt) {
                     {
                         expand: true,
                         cwd: 'languages/',
-                        src: [ po, name + '.mo' ],
-                        dest: './'
+                        src: [ po, name + '.mo' ]
                     }
                 ]
             });

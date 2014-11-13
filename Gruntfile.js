@@ -17,14 +17,14 @@ module.exports = function(grunt) {
 
             grunt.config('compress.' + name, {
                 options: {
-                    archive: 'packages/' + name + '.zip'
+                    archive: 'packages/' + locale + '.zip'
                 },
                 files: [
                     {
                         expand: true,
                         cwd: 'languages/',
                         src: [ po, name + '.mo' ],
-                        dest: name
+                        dest: locale
                     }
                 ]
             });

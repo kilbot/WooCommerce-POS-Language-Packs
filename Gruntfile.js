@@ -3,14 +3,17 @@ module.exports = function(grunt) {
     // load all grunt tasks matching the `grunt-*` pattern
     require('load-grunt-tasks')(grunt);
 
-    grunt.registerTask('default', 'Package po & mo files', function() {
-        var locales = [];
+    grunt.registerTask('default', 'Package translation files', function() {
+        var pkg = grunt.file.readJSON('package.json');
+        pkg.locales = {};
 
-        grunt.config('po2mo.files', { src: 'languages/*.po', expand: true});
+        grunt.config('po2mo.files', { src: 'languages/*.po', expand: true });
 
         grunt.file.expand({ cwd: 'languages/' }, '*.po').forEach(function(po){
             var name = po.replace('.po', '');
-            locales.push( name.replace('woocommerce-pos-', '') );
+            var locale = name.replace('woocommerce-pos-', '');
+            var date = grunt.file.read('languages/' + po).match(/"PO-Revision-Date: (.*)\\n"/);
+            pkg.locales[locale] = date[1];
 
             grunt.config('compress.' + name, {
                 options: {
@@ -30,8 +33,6 @@ module.exports = function(grunt) {
         grunt.task.run('po2mo');
         grunt.task.run('compress');
 
-        var pkg = grunt.file.readJSON('package.json');
-        pkg.locales = locales;
         grunt.file.write('package.json', JSON.stringify(pkg, null, 2));
 
     });

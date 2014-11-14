@@ -1,0 +1,136 @@
+# Translation of WooCommerce POS Pro in Norwegian (Bokmål)
+# This file is distributed under the same license as the WooCommerce POS Pro package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2014-09-08 19:58:38+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: WooCommerce POS Pro\n"
+
+#: admin/class-pro-admin.php:350
+msgid "<strong>WooCommerce POS Pro</strong> requires <a href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce POS</a>. Please install and activate WooCommerce POS before activating WooCommerce POS Pro."
+msgstr ""
+
+#: admin/includes/class-pro-admin-hooks.php:41
+msgctxt "Payment gateway status"
+msgid "Online Store"
+msgstr ""
+
+#: admin/includes/class-pro-admin-hooks.php:42
+msgctxt "Payment gateway status"
+msgid "POS"
+msgstr ""
+
+#: admin/class-pro-admin.php:475 admin/includes/class-pro-settings.php:48
+msgid "POS"
+msgstr ""
+
+#: admin/includes/class-pro-admin-hooks.php:58
+msgid "Enabled"
+msgstr ""
+
+#: admin/class-pro-admin.php:402
+msgid "<b>Warning!</b> You're blocking external requests which means you won't be able to get %s updates. Please add %s to %s."
+msgstr "<b>Advarsel!</b>Du blokkerer eksterne forespørsler. Det betyr at du ikke vil få %s oppdateringer. Vennligst legg %s til %s."
+
+#: admin/class-pro-admin.php:492
+msgid "Settings"
+msgstr "Innstillinger"
+
+#: admin/class-pro-admin.php:493
+msgid "Pro Support"
+msgstr "Pro Support"
+
+#: admin/class-pro-admin.php:507
+msgid "The WooCommerce POS Pro License Key has not been activated, so the plugin is inactive! %sClick here%s to activate the license key and the plugin."
+msgstr "Lisensnøkkelen for WooCommerce POS Pro har ikke blitt aktivert, så pluginen er inaktiv. %sKlikk her%s for å aktivere lisensnøkkelen og pluginen."
+
+#: admin/includes/class-pro-update.php:375
+msgid "The license key for %s has expired. You can reactivate or purchase a license key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Lisensnøkkelen for %s har løpt ut. En ny lisens kan kjøpes og aktiveres fra <a href=\"%s\" target=\"_blank\">din konto</a> hos WooPOS."
+
+#: admin/includes/class-pro-update.php:390
+msgid "The subscription for %s is on-hold. You can reactivate the subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Abbonenmentet på %s er satt på pause. Det kan settes i gang i <a href=\"%s\" target=\"_blank\">din konto</a> hos WooPOS."
+
+#: admin/includes/class-pro-update.php:405
+msgid "The subscription for %s has been cancelled. You can renew the subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</a>. A new license key will be emailed to you after your order has been completed."
+msgstr "Abbonementet %s har blitt kansellert. Det kan fornyes fra <a href=\"%s\" target=\"_blank\">din konto</a>. En ny lisensnøkkel vil bli sendt deg på epost etter et ordren er behandlet hos oss."
+
+#: admin/includes/class-pro-update.php:420
+msgid "The subscription for %s has expired. You can reactivate the subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Abbonementet på %s has løpt ut. Fortvil ikke, det kan reaktiveres fra <a href=\"%s\" target=\"_blank\">din konto</a> hos oss."
+
+#: admin/includes/class-pro-update.php:435
+msgid "The subscription for %s has been suspended. You can reactivate the subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Abbonementet på %s har blitt suspendert. Dette kan re-aktiveres i <a href=\"%s\" target=\"_blank\">kontoen din</a>."
+
+#: admin/includes/class-pro-update.php:450
+msgid "The subscription for %s is still pending. You can check on the status of the subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Abbonementet på %s avventes fortsatt. Statusen på abbonement og andre tjenester finner du under <a href=\"%s\" target=\"_blank\">din konto</a>."
+
+#: admin/includes/class-pro-update.php:465
+msgid "The subscription for %s has been placed in the trash and will be deleted soon. You can purchase a new subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Abbonementet på %s har blitt kastet, og vil slettes snart. Nye abbonement kan tegnes under <a href=\"%s\" target=\"_blank\">din konto</a>."
+
+#: admin/includes/class-pro-update.php:480
+msgid "A subscription for %s could not be found. You can purchase a subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Vi fant ikke abbonementet på %s. Du kan kjøpe et abbonement i  <a href=\"%s\" target=\"_blank\">din konto</a>."
+
+#: admin/includes/class-pro-update.php:495
+msgid "A license key for %s could not be found. Maybe you forgot to enter a license key when setting up %s, or the key was deactivated in your account. You can reactivate or purchase a license key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Vi fant ingen lisensnøkkel for %s. Kanskje du glemte å skrive inn lisensnøkkel mens du satte opp %s. Du kan reaktivere eller kjøpe ny lisens i <a href=\"%s\" target=\"_blank\">din konto</a>."
+
+#: admin/includes/class-pro-update.php:510
+msgid "Download permission for %s has been revoked possibly due to a license key or subscription expiring. You can reactivate or purchase a license key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Nedlastingen av %s har blitt stanset, mest sansynlig pga. at lisensnøkkel eller abbonement har utløpt . Alt dette kan reaktiveres  og fikses fra <a href=\"%s\" target=\"_blank\">din konto</a> hos os"
+
+#: admin/includes/class-pro-update.php:525
+msgid "%s has not been activated. Go to the settings page and enter the license key and license email to activate %s."
+msgstr ""
+
+#: admin/includes/class-pro-update.php:540
+msgid "You changed the subscription for %s, so you will need to enter your new API License Key in the settings page. The License Key should have arrived in your email inbox, if not you can get it by logging into your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Du har forandret abbonementet fo %s. Du er derfor nødt til å taste inn din nye API-lisensnøkkel under «Innstillinger». Lisensnøkkelen skal du ha mottatt på epost. Hvis ikke, kan du hente den med å logge deg på  <a href=\"%s\" target=\"_blank\">kontoen din</a>."
+
+#: admin/includes/settings/class-settings-license.php:24
+msgid "Pro License"
+msgstr "Pro-lisens"
+
+#: admin/includes/settings/class-settings-license.php:50
+msgid "WooCommerce POS Pro License Activation"
+msgstr "Lisens-aktivering for WooCommerce POS Pro "
+
+#: admin/includes/settings/class-settings-license.php:52
+msgid "License Key"
+msgstr "Lisens-nøkkel"
+
+#: admin/includes/settings/class-settings-license.php:61
+msgid "License Email"
+msgstr "Lisens-epost"
+
+#: admin/includes/settings/class-settings-license.php:107
+msgid "Plugin activated. "
+msgstr "Pluginen er aktivert."
+
+#: admin/includes/settings/class-settings-license.php:186
+msgid "The license could not be deactivated. Use the License Deactivation button to manually deactivate the license before activating a new license."
+msgstr "Lisensen kunne ikke deaktiveres. Bruk knappen merket «Deaktivere lisens», for å manuellt deaktivere, før en ny lisens kan aktiveres."
+
+msgid "WooCommerce POS Pro"
+msgstr "WooCommerce POS Pro"
+
+msgid "https://woopos.com.au/pro"
+msgstr "https://woopos.com.au/pro"
+
+msgid "WooCommerce POS Pro adds extra functionality to the free plugin."
+msgstr "WooCommerce POS Pro gir deg ekstra funksjoner som ikke er i gratis-versjonen."
+
+msgid "kilbot"
+msgstr "kilbot"
+
+msgid "http://www.kilbot.com.au"
+msgstr "http://www.kilbot.com.au"

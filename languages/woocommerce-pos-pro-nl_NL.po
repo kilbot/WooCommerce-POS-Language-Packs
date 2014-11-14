@@ -1,0 +1,136 @@
+# Translation of WooCommerce POS Pro in Dutch
+# This file is distributed under the same license as the WooCommerce POS Pro package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2014-06-29 10:56:02+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: WooCommerce POS Pro\n"
+
+#: admin/class-pro-admin.php:350
+msgid "<strong>WooCommerce POS Pro</strong> requires <a href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce POS</a>. Please install and activate WooCommerce POS before activating WooCommerce POS Pro."
+msgstr ""
+
+#: admin/includes/class-pro-admin-hooks.php:41
+msgctxt "Payment gateway status"
+msgid "Online Store"
+msgstr ""
+
+#: admin/includes/class-pro-admin-hooks.php:42
+msgctxt "Payment gateway status"
+msgid "POS"
+msgstr ""
+
+#: admin/class-pro-admin.php:475 admin/includes/class-pro-settings.php:48
+msgid "POS"
+msgstr ""
+
+#: admin/includes/class-pro-admin-hooks.php:58
+msgid "Enabled"
+msgstr ""
+
+#: admin/class-pro-admin.php:402
+msgid "<b>Warning!</b> You're blocking external requests which means you won't be able to get %s updates. Please add %s to %s."
+msgstr "<b>Let op!</b> Toegang van buiten is geblokkeerd waardoor je geen %s updates krijgt. Voeg %s toe aan %s."
+
+#: admin/class-pro-admin.php:492
+msgid "Settings"
+msgstr "Instellingen"
+
+#: admin/class-pro-admin.php:493
+msgid "Pro Support"
+msgstr "Pro Support"
+
+#: admin/class-pro-admin.php:507
+msgid "The WooCommerce POS Pro License Key has not been activated, so the plugin is inactive! %sClick here%s to activate the license key and the plugin."
+msgstr "De WooCommerce KASSA Pro Licentie key is niet geactiveerd, De plugin is daardoor ook niet geactiveerd! %sKlik hier%s om de key en plugin te activeren."
+
+#: admin/includes/class-pro-update.php:375
+msgid "The license key for %s has expired. You can reactivate or purchase a license key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "De licentie key voor %s is verlopen. Gebruik je account om een key opnieuw te activeren of om een nieuwe te kopen <a href=\"%s\" target=\"_blank\">dashboard</a>."
+
+#: admin/includes/class-pro-update.php:390
+msgid "The subscription for %s is on-hold. You can reactivate the subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Het abonnement op %s is stop gezet. Gebruik je account om je abonnement te activeren <a href=\"%s\" target=\"_blank\">dashboard</a>."
+
+#: admin/includes/class-pro-update.php:405
+msgid "The subscription for %s has been cancelled. You can renew the subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</a>. A new license key will be emailed to you after your order has been completed."
+msgstr "Het abonnement op %s is afgelopen. Gebruik je account om het te verlengen <a href=\"%s\" target=\"_blank\">dashboard</a>. Als je order afgehandeld is ontvang je een nieuwe licentie key per email."
+
+#: admin/includes/class-pro-update.php:420
+msgid "The subscription for %s has expired. You can reactivate the subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Het abonnement op %s is verlopen. Gebruik je account om het te verlengen <a href=\"%s\" target=\"_blank\">dashboard</a>."
+
+#: admin/includes/class-pro-update.php:435
+msgid "The subscription for %s has been suspended. You can reactivate the subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Het abonnement op %s is tijdelijk stop gezet.Gebruik je account om het te verlengen <a href=\"%s\" target=\"_blank\">dashboard</a>."
+
+#: admin/includes/class-pro-update.php:450
+msgid "The subscription for %s is still pending. You can check on the status of the subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Het abonnement op %s is nog in behandeling. Gebruik je account om de status te bekijken <a href=\"%s\" target=\"_blank\">dashboard</a>."
+
+#: admin/includes/class-pro-update.php:465
+msgid "The subscription for %s has been placed in the trash and will be deleted soon. You can purchase a new subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Het abonnement op %s zit in de prullenbak en zal binnenkort definitief verwijderd worden. Gebruik je account on een nieuwe licentie te kopen <a href=\"%s\" target=\"_blank\">dashboard</a>."
+
+#: admin/includes/class-pro-update.php:480
+msgid "A subscription for %s could not be found. You can purchase a subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Er kan geen abonnement op %s gevonden worden. Gebruik je account on een nieuwe licentie te kopen <a href=\"%s\" target=\"_blank\">dashboard</a>."
+
+#: admin/includes/class-pro-update.php:495
+msgid "A license key for %s could not be found. Maybe you forgot to enter a license key when setting up %s, or the key was deactivated in your account. You can reactivate or purchase a license key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Er kan geen licentie key voor %s gevonden worden. Ben je vergeten deze in te voeren bij na het installeren van %s, of staat deze inactief in je account?. Gebruik je account om een key opnieuw te activeren of om een nieuwe te kopen <a href=\"%s\" target=\"_blank\">dashboard</a>."
+
+#: admin/includes/class-pro-update.php:510
+msgid "Download permission for %s has been revoked possibly due to a license key or subscription expiring. You can reactivate or purchase a license key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Downloaden van %s kan niet meer, mogelijk doordat de licentie key of het abonnement verloopt. Gebruik je account om een key opnieuw te activeren of om een nieuwe te kopen <a href=\"%s\" target=\"_blank\">dashboard</a>."
+
+#: admin/includes/class-pro-update.php:525
+msgid "%s has not been activated. Go to the settings page and enter the license key and license email to activate %s."
+msgstr "%s is niet geactiveerd. Ga naar de Instellingen pagina en voer de licentie key en email in.om %s te activeren."
+
+#: admin/includes/class-pro-update.php:540
+msgid "You changed the subscription for %s, so you will need to enter your new API License Key in the settings page. The License Key should have arrived in your email inbox, if not you can get it by logging into your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Het abonnement op %s is gewijzigd, je moet een nieuwe licentie key invullen op de Instellingen pagina. De licentie key zou in je email inbox moeten zitten, zo niet, dan kan je hem ophalen door in te loggen op je account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+
+#: admin/includes/settings/class-settings-license.php:24
+msgid "Pro License"
+msgstr "Pro Licentie"
+
+#: admin/includes/settings/class-settings-license.php:50
+msgid "WooCommerce POS Pro License Activation"
+msgstr "WooCommerce KASSA Pro Licentie activeren"
+
+#: admin/includes/settings/class-settings-license.php:52
+msgid "License Key"
+msgstr "Licentie key"
+
+#: admin/includes/settings/class-settings-license.php:61
+msgid "License Email"
+msgstr "Licentie email"
+
+#: admin/includes/settings/class-settings-license.php:107
+msgid "Plugin activated. "
+msgstr "Plugin geactiveerd."
+
+#: admin/includes/settings/class-settings-license.php:186
+msgid "The license could not be deactivated. Use the License Deactivation button to manually deactivate the license before activating a new license."
+msgstr "De licentie key kan niet worden gedeactiveerd. Gevruik de Licentie Deactiveren knop om de licentie handmatig te deactiveren voor een nieuwe licentie te activeren."
+
+msgid "WooCommerce POS Pro"
+msgstr "WooCommerce KASSA Pro"
+
+msgid "https://woopos.com.au/pro"
+msgstr "https://woopos.com.au/pro"
+
+msgid "WooCommerce POS Pro adds extra functionality to the free plugin."
+msgstr "WooCommerce KASSA Pro voegt extra functionaliteit toe aan de gratis plugin."
+
+msgid "kilbot"
+msgstr "kilbot"
+
+msgid "http://www.kilbot.com.au"
+msgstr "http://www.kilbot.com.au"

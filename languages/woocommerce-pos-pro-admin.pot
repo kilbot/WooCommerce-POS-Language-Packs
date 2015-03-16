@@ -1,4 +1,4 @@
-# Copyright (C) 2015 kilbot
+# Copyright (c) 2015 kilbot
 # This file is distributed under the Copyright 2015 The Kilbot Factory.
 msgid ""
 msgstr ""

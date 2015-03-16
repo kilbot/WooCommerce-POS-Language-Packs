@@ -1,73 +1,101 @@
 module.exports = function(grunt) {
 
-    // load all grunt tasks matching the `grunt-*` pattern
-    require('load-grunt-tasks')(grunt);
+  // load all grunt tasks matching the `grunt-*` pattern
+  require('load-grunt-tasks')(grunt);
 
-    grunt.registerTask('default', 'Package translation files', function() {
-        var packages = {},
-            pkg = grunt.file.readJSON('package.json');
+  var locales = [
+    'da_DK',
+    'de_DE',
+    'el',
+    'es_ES',
+    'fr_FR',
+    'it_IT',
+    'nb_NO',
+    'nl_NL',
+    'pt_BR',
+    'pt_PT',
+    'sv_SE',
+    'zh_CN'
+  ];
 
-        pkg.locales = {};
-        pkg.pro_locales = {};
+  grunt.initConfig({
 
-        grunt.file.expand({ cwd: 'languages/' }, '*.po').forEach(function(po){
-            var name = po.replace('.po', ''),
-                match = name.match(/(.*)-(.*)/),
-                slug = match[1].replace('-admin', ''),
-                locale = match[2],
-                package = slug + '-' + locale,
-                date = grunt.file.read('languages/' + po).match(/"PO-Revision-Date: (.*)\\n"/);
+    clean: {
+      mo: ['languages/**/*.mo']
+    }
 
-            if( slug === 'woocommerce-pos' ){
-                if( pkg.locales.hasOwnProperty( locale ) ){
-                    var d1 = new Date(pkg.locales[locale]);
-                    var d2 = new Date(date[1]);
-                    if( d1 < d2 ) {
-                        pkg.locales[locale] = date[1];
-                    }
-                } else {
-                    pkg.locales[locale] = date[1];
-                }
-            } else if( slug === 'woocommerce-pos-pro' ) {
-                if( pkg.pro_locales.hasOwnProperty( locale ) ){
-                    var d1 = new Date(pkg.locales[locale]);
-                    var d2 = new Date(date[1]);
-                    if( d1 < d2 ) {
-                        pkg.pro_locales[locale] = date[1];
-                    }
-                } else {
-                    pkg.pro_locales[locale] = date[1];
-                }
-            }
+  });
 
-            if( packages.hasOwnProperty( package ) ){
-                packages[package].files[0].src.push( po, name + '.mo' );
-            } else {
-                packages[package] = {
-                    options: {
-                        archive: 'packages/' + package + '.zip'
-                    },
-                    files: [
-                        {
-                            expand: true,
-                            cwd: 'languages/',
-                            src: [ po, name + '.mo' ]
-                        }
-                    ]
-                }
-            }
-        });
+  grunt.registerTask('msgmerge', 'Init or merge the po files for each locale', function () {
 
-        grunt.config('po2mo.files', { src: 'languages/*.po', expand: true });
-        grunt.config('compress', packages );
-        grunt.config('clean', ['languages/*.mo']);
+    var msgmerge = require('./grunt/msgmerge')(grunt);
 
-        grunt.task.run('po2mo');
-        grunt.task.run('compress');
-        grunt.task.run('clean');
+    msgmerge.options = {
+      locales: locales,
+      cwd: 'languages/'
+    }
 
-        grunt.file.write('package.json', JSON.stringify(pkg, null, 2));
+    var done = this.async();
+    msgmerge.start(done);
 
+  });
+
+  grunt.registerTask('timestamp', 'Add timestamp to package.json', function () {
+
+    var pkg = grunt.file.readJSON('package.json');
+
+    pkg.locales = {};
+    pkg.pro_locales = {};
+
+    var latest = function(locale, slug){
+      var po1 = 'languages/' + locale + '/' + slug + '-' + locale + '.po';
+      var po2 = 'languages/' + locale + '/' + slug + '-admin-' + locale + '.po';
+
+      rev1 = grunt.file.read(po1).match(/"PO-Revision-Date: (.*)\\n"/);
+      rev2 = grunt.file.read(po2).match(/"PO-Revision-Date: (.*)\\n"/);
+
+      if(new Date(rev1[1]) > new Date(rev2[1])){
+        return rev1[1];
+      }
+      return rev2[1];
+    };
+
+    locales.forEach(function(locale){
+      pkg.locales[locale] = latest(locale, 'woocommerce-pos');
+      pkg.pro_locales[locale] = latest(locale, 'woocommerce-pos-pro');
     });
+
+    grunt.file.write('package.json', JSON.stringify(pkg, null, 2));
+
+  });
+
+  grunt.registerTask('package', 'Zip .mo files', function () {
+    var compress = {};
+
+    var options = function(locale, slug){
+      return {
+        options: { archive: 'packages/' + slug + '-' + locale + '.zip' },
+        files: [{
+          expand: true,
+          cwd: 'languages/' + locale,
+          src: [
+            slug + '-' + locale + '.mo',
+            slug + '-admin-' + locale + '.mo'
+          ]
+        }]
+      }
+    };
+
+    locales.forEach(function(locale){
+      compress[locale] = options(locale, 'woocommerce-pos');
+      compress['pro-' + locale] = options(locale, 'woocommerce-pos-pro');
+    });
+
+    grunt.config('compress', compress);
+    grunt.task.run('compress');
+
+  });
+
+  grunt.registerTask('default', ['msgmerge', 'timestamp', 'package', 'clean']);
 
 };

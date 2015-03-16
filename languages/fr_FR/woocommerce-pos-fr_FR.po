@@ -1,0 +1,349 @@
+# Translation of WooCommerce POS in French (France)
+# This file is distributed under the same license as the WooCommerce POS package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce POS\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
+"Packs/issues\n"
+"POT-Creation-Date: 2015-03-13 04:49:19+00:00\n"
+"PO-Revision-Date: 2014-06-09 11:10:47+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/0.1\n"
+
+#: includes/class-wc-pos-ajax.php:127
+msgid "There is no settings id"
+msgstr ""
+
+#: includes/class-wc-pos-ajax.php:137
+msgid "No handler found for %s settings"
+msgstr ""
+
+#: includes/class-wc-pos-ajax.php:157
+#, fuzzy
+msgid "Settings error"
+msgstr "Paramètres"
+
+#: includes/class-wc-pos-ajax.php:177
+msgid "Email sent!"
+msgstr ""
+
+#: includes/class-wc-pos-ajax.php:181
+msgid "Error sending email"
+msgstr ""
+
+#: includes/class-wc-pos-ajax.php:197
+msgid "Invalid security nonce"
+msgstr ""
+
+#: includes/class-wc-pos-gateways.php:81
+msgid "Online Store"
+msgstr ""
+
+#: includes/class-wc-pos-gateways.php:82
+#: includes/class-wc-pos-template.php:144
+msgid "POS"
+msgstr ""
+
+#: includes/class-wc-pos-i18n.php:301
+msgid "To Pay"
+msgstr ""
+
+#: includes/class-wc-pos-i18n.php:309 includes/views/pos/cart.php:129
+msgid "Discount"
+msgstr "Remise"
+
+#: includes/class-wc-pos-i18n.php:315
+msgid "Process Payment"
+msgstr ""
+
+#: includes/class-wc-pos-i18n.php:319
+msgid "Return to Sale"
+msgstr ""
+
+#: includes/class-wc-pos-i18n.php:323
+msgid "Void"
+msgstr "Annuler"
+
+#: includes/class-wc-pos-i18n.php:329
+msgid "Loading&hellip;"
+msgstr ""
+
+#: includes/class-wc-pos-i18n.php:331
+msgid "Your browser is not supported!"
+msgstr ""
+
+#: includes/class-wc-pos-status.php:19
+msgid "WC Version"
+msgstr ""
+
+#: includes/class-wc-pos-status.php:22
+msgid "WooCommerce >= %s required"
+msgstr ""
+
+#: includes/class-wc-pos-status.php:28
+msgid "WC REST API"
+msgstr ""
+
+#: includes/class-wc-pos-status.php:30
+msgid "API is active"
+msgstr ""
+
+#: includes/class-wc-pos-status.php:31
+msgid "Access to the REST API is required"
+msgstr ""
+
+#: includes/class-wc-pos.php:110
+msgid "User not authorized to access WooCommerce POS"
+msgstr ""
+
+#: includes/gateways/class-wc-pos-card.php:20
+msgid "Card"
+msgstr ""
+
+#: includes/gateways/class-wc-pos-card.php:52
+#: includes/gateways/class-wc-pos-card.php:55
+#: includes/gateways/class-wc-pos-card.php:78
+#: includes/gateways/class-wc-pos-card.php:112
+msgid "Cashback"
+msgstr ""
+
+#: includes/gateways/class-wc-pos-cash.php:20
+msgid "Cash"
+msgstr ""
+
+#: includes/gateways/class-wc-pos-cash.php:52
+#: includes/gateways/class-wc-pos-cash.php:55
+#: includes/gateways/class-wc-pos-cash.php:104
+msgid "Amount Tendered"
+msgstr ""
+
+#: includes/gateways/class-wc-pos-cash.php:60
+msgid "Change"
+msgstr ""
+
+#: includes/products/class-wc-pos-visibility.php:70
+msgid "POS Only"
+msgstr ""
+
+#: includes/products/class-wc-pos-visibility.php:71
+msgid "Online Only"
+msgstr ""
+
+#: includes/views/modals/browser.php:2
+msgid "Sorry, it seems your browser is not supported by WooCommerce POS. "
+msgstr ""
+
+#: includes/views/modals/browser.php:3
+msgid ""
+"If possible, please <a href=\"http://browsehappy.com/\">update your browser</"
+"a>, we recommend either Chrome or Firefox."
+msgstr ""
+
+#: includes/views/modals/browser.php:7
+msgid ""
+"If you believe you have received this message in error please contact "
+"support via <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</"
+"a>"
+msgstr ""
+
+#: includes/views/pos/checkout.php:26
+msgid "No payment gateways enabled."
+msgstr ""
+
+#: includes/views/pos/products.php:13
+msgid "Scan Barcode"
+msgstr ""
+
+#: includes/views/print/receipt.php:98
+msgid "Billing Address"
+msgstr ""
+
+#: includes/views/print/receipt.php:101
+msgid "Shipping Address"
+msgstr ""
+
+#: includes/views/print/receipt.php:106
+msgid "Order Number"
+msgstr ""
+
+#: includes/views/print/receipt.php:110
+msgid "Order Date"
+msgstr ""
+
+#: includes/views/print/receipt.php:114
+msgid "Payment Method"
+msgstr ""
+
+#: includes/views/print/receipt.php:125
+msgid "Telephone"
+msgstr ""
+
+#: includes/views/support.php:11
+msgid "Support Form"
+msgstr ""
+
+#: includes/views/support.php:28
+msgid "Describe your problem here ..."
+msgstr ""
+
+#: includes/views/support.php:32
+msgid "Append POS system report"
+msgstr ""
+
+#: includes/views/template.php:12
+msgid "Point of Sale"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A simple front-end for taking WooCommerce orders at the Point of Sale. "
+"Requires <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</"
+"a>."
+msgstr ""
+
+#: includes/class-wc-pos-i18n.php:289
+msgctxt "system status: browser capabilities"
+msgid "Browser"
+msgstr ""
+
+#: includes/class-wc-pos-i18n.php:295
+msgctxt "keyboard shortcuts"
+msgid "HotKeys"
+msgstr ""
+
+#: includes/views/help.php:7
+msgctxt "keyboard shortcuts"
+msgid "Hotkeys"
+msgstr ""
+
+#: includes/class-wc-pos-i18n.php:306
+#, fuzzy
+msgctxt "system status: delete local records"
+msgid "Clear"
+msgstr "effacer"
+
+#: includes/class-wc-pos-i18n.php:317
+msgctxt "restore default settings"
+msgid "Restore defaults"
+msgstr ""
+
+#: includes/class-wc-pos-i18n.php:318
+msgctxt "Numpad return key"
+msgid "return"
+msgstr ""
+
+#: includes/class-wc-pos-i18n.php:335
+msgctxt "eg: 23 records"
+msgid "record |||| records"
+msgstr ""
+
+#: includes/class-wc-pos-params.php:75
+msgctxt "Product tab: 'On Sale' products"
+msgid "On Sale"
+msgstr ""
+
+#: includes/gateways/class-wc-pos-cash.php:106
+msgctxt "Money returned from cash sale"
+msgid "Change"
+msgstr ""
+
+#: includes/views/pos/cart.php:9
+#, fuzzy
+msgctxt "Abbreviation of Quantity"
+msgid "Qty"
+msgstr "Qté"
+
+#: includes/views/pos/cart.php:107 includes/views/pos/cart.php:118
+#: includes/views/pos/receipt.php:65 includes/views/pos/receipt.php:74
+#: includes/views/print/receipt.php:186 includes/views/print/receipt.php:195
+msgctxt "abbreviation for includes (tax)"
+msgid "incl."
+msgstr ""
+
+#~ msgid "WooCommerce POS"
+#~ msgstr "WooCommerce POS"
+
+#~ msgid "View POS"
+#~ msgstr "Voir POS"
+
+#~ msgid "Order &ndash; %s"
+#~ msgstr "Commande &ndash; %s"
+
+#~ msgid "Product"
+#~ msgstr "Produit"
+
+#~ msgid "Price"
+#~ msgstr "Prix"
+
+#~ msgid "Total"
+#~ msgstr "Total"
+
+#~ msgid "Cart is empty"
+#~ msgstr "Panier est vide"
+
+#~ msgid "Cart Subtotal"
+#~ msgstr "Sous-total"
+
+#~ msgid "Cart Discount"
+#~ msgstr "Remise Panier"
+
+#~ msgid "Order Discount"
+#~ msgstr "Remise"
+
+#~ msgid "Order Total"
+#~ msgstr "Total"
+
+#~ msgid "Note"
+#~ msgstr "Note"
+
+#~ msgid "Checkout"
+#~ msgstr "Commande"
+
+#~ msgid "Print"
+#~ msgstr "Imprimer"
+
+#~ msgid "New Order"
+#~ msgstr "Nouveau Commande"
+
+#~ msgid "View Products"
+#~ msgstr "Voir Produits"
+
+#~ msgid "Add Product"
+#~ msgstr "Ajouter Produit"
+
+#~ msgid "View Orders"
+#~ msgstr "Voir la Commandes"
+
+#~ msgid "View Customers"
+#~ msgstr "Voir Clients"
+
+#~ msgid "Howdy"
+#~ msgstr "Bonjour"
+
+#~ msgid "Logout"
+#~ msgstr "Se déconnecter"
+
+#~ msgid "Okay"
+#~ msgstr "Bien"
+
+#~ msgid "Search for products"
+#~ msgstr "Recherche de produits"
+
+#~ msgid "Page %s of %s"
+#~ msgstr "Page %s sur %s"
+
+#~ msgid "Showing %s of %s products"
+#~ msgstr "Affichage de %s sur %s produits"
+
+#~ msgid "Last updated %s"
+#~ msgstr "Dernière mise à jour %s"
+
+#~ msgid "Your browser does not support indexeddb"
+#~ msgstr "Votre navigateur ne supporte pas IndexedDB"
+
+#~ msgctxt "%d in stock"
+#~ msgid "in stock"
+#~ msgstr "en stock"

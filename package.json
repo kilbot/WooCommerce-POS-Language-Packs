@@ -1,13 +1,13 @@
 {
   "name": "woocommerce-pos-language-packs",
-  "version": "0.3.4",
+  "version": "0.1.1",
   "dependencies": {},
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-clean": "^0.6.0",
-    "grunt-contrib-compress": "^0.12.0",
-    "grunt-po2mo": "0.1.0",
-    "load-grunt-tasks": "^1.0.0"
+    "grunt-contrib-compress": "^0.13.0",
+    "grunt-po2mo": "0.1.2",
+    "load-grunt-tasks": "^3.1.0"
   },
   "locales": {
     "da_DK": "2014-11-14 12:12:49+0000",

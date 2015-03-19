@@ -29,11 +29,11 @@ msgstr ""
 
 #: includes/class-wc-pos-ajax.php:177
 msgid "Email sent!"
-msgstr ""
+msgstr "S'ha enviat el correu"
 
 #: includes/class-wc-pos-ajax.php:181
 msgid "Error sending email"
-msgstr ""
+msgstr "No s'ha pogut enviar el correu"
 
 #: includes/class-wc-pos-ajax.php:197
 msgid "Invalid security nonce"
@@ -41,12 +41,12 @@ msgstr ""
 
 #: includes/class-wc-pos-gateways.php:81
 msgid "Online Store"
-msgstr ""
+msgstr "Botiga Online"
 
 #: includes/class-wc-pos-gateways.php:82
 #: includes/class-wc-pos-template.php:144
 msgid "POS"
-msgstr ""
+msgstr "POS"
 
 #: includes/class-wc-pos-i18n.php:301
 msgid "To Pay"
@@ -54,35 +54,35 @@ msgstr ""
 
 #: includes/class-wc-pos-i18n.php:309 includes/views/pos/cart.php:129
 msgid "Discount"
-msgstr ""
+msgstr "Descompte"
 
 #: includes/class-wc-pos-i18n.php:315
 msgid "Process Payment"
-msgstr ""
+msgstr "Realitza el pagament"
 
 #: includes/class-wc-pos-i18n.php:319
 msgid "Return to Sale"
-msgstr ""
+msgstr "Torna a les vendes"
 
 #: includes/class-wc-pos-i18n.php:323
 msgid "Void"
-msgstr ""
+msgstr "Buida"
 
 #: includes/class-wc-pos-i18n.php:329
 msgid "Loading&hellip;"
-msgstr ""
+msgstr "S'està carregant&hellip;"
 
 #: includes/class-wc-pos-i18n.php:331
 msgid "Your browser is not supported!"
-msgstr ""
+msgstr "No funciona amb el seu navegador"
 
 #: includes/class-wc-pos-status.php:19
 msgid "WC Version"
-msgstr ""
+msgstr "Versió de WC"
 
 #: includes/class-wc-pos-status.php:22
 msgid "WooCommerce >= %s required"
-msgstr ""
+msgstr "WooCommerce >= %s és necessari"
 
 #: includes/class-wc-pos-status.php:28
 msgid "WC REST API"
@@ -98,142 +98,147 @@ msgstr ""
 
 #: includes/class-wc-pos.php:110
 msgid "User not authorized to access WooCommerce POS"
-msgstr ""
+msgstr "Aquest usuari no pot accedir a WooCommerce POS"
 
 #: includes/gateways/class-wc-pos-card.php:20
 msgid "Card"
-msgstr ""
+msgstr "Targeta"
 
 #: includes/gateways/class-wc-pos-card.php:52
 #: includes/gateways/class-wc-pos-card.php:55
 #: includes/gateways/class-wc-pos-card.php:78
 #: includes/gateways/class-wc-pos-card.php:112
 msgid "Cashback"
-msgstr ""
+msgstr "Devolució"
 
 #: includes/gateways/class-wc-pos-cash.php:20
 msgid "Cash"
-msgstr ""
+msgstr "Efectiu"
 
 #: includes/gateways/class-wc-pos-cash.php:52
 #: includes/gateways/class-wc-pos-cash.php:55
 #: includes/gateways/class-wc-pos-cash.php:104
 msgid "Amount Tendered"
-msgstr ""
+msgstr "Import rebut"
 
 #: includes/gateways/class-wc-pos-cash.php:60
 msgid "Change"
-msgstr ""
+msgstr "Canvi"
 
 #: includes/products/class-wc-pos-visibility.php:70
 msgid "POS Only"
-msgstr ""
+msgstr "Només al Pos"
 
 #: includes/products/class-wc-pos-visibility.php:71
 msgid "Online Only"
-msgstr ""
+msgstr "Només a la botiga Online"
 
 #: includes/views/modals/browser.php:2
 msgid "Sorry, it seems your browser is not supported by WooCommerce POS. "
-msgstr ""
+msgstr "Sembla que el seu navegador no és compatible amb Woocommerce Pos."
 
 #: includes/views/modals/browser.php:3
 msgid ""
 "If possible, please <a href=\"http://browsehappy.com/\">update your browser</"
 "a>, we recommend either Chrome or Firefox."
-msgstr ""
+msgstr "Us recomanem que <a href=\"http://browsehappy.com/\">actualitzeu el vostre navegador</"
+"a>, us recomanem Firefox o Chrome."
 
 #: includes/views/modals/browser.php:7
 msgid ""
 "If you believe you have received this message in error please contact "
 "support via <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</"
 "a>"
-msgstr ""
+msgstr "Si creieu que heu rebut aquest missatge per error, si us plau "
+"demaneu suport via <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</"
+"a>"
 
 #: includes/views/pos/checkout.php:26
 msgid "No payment gateways enabled."
-msgstr ""
+msgstr "No hi ha cap mètode de pagament habilitat"
 
 #: includes/views/pos/products.php:13
 msgid "Scan Barcode"
-msgstr ""
+msgstr "Escanneja el codi de barres"
 
 #: includes/views/print/receipt.php:98
 msgid "Billing Address"
-msgstr ""
+msgstr "Adreça de facturació"
 
 #: includes/views/print/receipt.php:101
 msgid "Shipping Address"
-msgstr ""
+msgstr "Adreça d'enviament"
 
 #: includes/views/print/receipt.php:106
 msgid "Order Number"
-msgstr ""
+msgstr "Número de comanda"
 
 #: includes/views/print/receipt.php:110
 msgid "Order Date"
-msgstr ""
+msgstr "Data"
 
 #: includes/views/print/receipt.php:114
 msgid "Payment Method"
-msgstr ""
+msgstr "Mètode de pagament"
 
 #: includes/views/print/receipt.php:125
 msgid "Telephone"
-msgstr ""
+msgstr "Telèfon"
 
 #: includes/views/support.php:11
 msgid "Support Form"
-msgstr ""
+msgstr "Formulari de suport"
 
 #: includes/views/support.php:28
 msgid "Describe your problem here ..."
-msgstr ""
+msgstr "Descriviu el vostre problema..."
 
 #: includes/views/support.php:32
 msgid "Append POS system report"
-msgstr ""
+msgstr "Afegiu-hi l'informe del sistema de POS"
 
 #: includes/views/template.php:12
 msgid "Point of Sale"
-msgstr ""
+msgstr "Punt de venda"
 
 #. Description of the plugin/theme
 msgid ""
 "A simple front-end for taking WooCommerce orders at the Point of Sale. "
 "Requires <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</"
 "a>."
-msgstr ""
+msgstr "Un Punt de Venda senzill per a fer comandes de WooCommerce. "
+"Necessita <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</"
+"a>."
 
 #: includes/class-wc-pos-i18n.php:289
 msgctxt "system status: browser capabilities"
 msgid "Browser"
-msgstr ""
+msgstr "Navegador"
 
 #: includes/class-wc-pos-i18n.php:295
 msgctxt "keyboard shortcuts"
 msgid "HotKeys"
-msgstr ""
+msgstr "Tecles d'accès ràpid"
 
 #: includes/views/help.php:7
 msgctxt "keyboard shortcuts"
 msgid "Hotkeys"
-msgstr ""
+msgstr "Tecles d'accès ràpid"
 
 #: includes/class-wc-pos-i18n.php:306
 msgctxt "system status: delete local records"
 msgid "Clear"
-msgstr ""
+msgstr "Neteja"
 
 #: includes/class-wc-pos-i18n.php:317
 msgctxt "restore default settings"
 msgid "Restore defaults"
-msgstr ""
+msgstr "Restaura els valors per defecte"
 
 #: includes/class-wc-pos-i18n.php:318
 msgctxt "Numpad return key"
 msgid "return"
-msgstr ""
+msgstr "intro"
 
 #: includes/class-wc-pos-i18n.php:335
 msgctxt "eg: 23 records"
@@ -243,21 +248,21 @@ msgstr ""
 #: includes/class-wc-pos-params.php:75
 msgctxt "Product tab: 'On Sale' products"
 msgid "On Sale"
-msgstr ""
+msgstr "En venda"
 
 #: includes/gateways/class-wc-pos-cash.php:106
 msgctxt "Money returned from cash sale"
 msgid "Change"
-msgstr ""
+msgstr "Canvi"
 
 #: includes/views/pos/cart.php:9
 msgctxt "Abbreviation of Quantity"
 msgid "Qty"
-msgstr ""
+msgstr "Qtat"
 
 #: includes/views/pos/cart.php:107 includes/views/pos/cart.php:118
 #: includes/views/pos/receipt.php:65 includes/views/pos/receipt.php:74
 #: includes/views/print/receipt.php:186 includes/views/print/receipt.php:195
 msgctxt "abbreviation for includes (tax)"
 msgid "incl."
-msgstr ""
+msgstr "incl."

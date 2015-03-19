@@ -98,63 +98,68 @@ msgid ""
 "Payment Gateways enabled here will be available at the Point of Sale. "
 "Payment Gateways enabled on the settings page will be available in your "
 "Online Store. "
-msgstr ""
+msgstr "Les passarel·les de pagament que habiliteu aquí estaran disponibles pel POS"
+"Les passarel·les de pagament habilitades als paràmetrs estaran disponibles a la "
+"botiga online. "
 
 #: includes/admin/settings/views/checkout.php:49
 msgid ""
 "It is your responsibility to ensure the security of your customer's "
 "information. Transmitting credit card or other sensitive information should "
 "only be done using a secure connnection."
-msgstr ""
+msgstr "És responsabilitat seva garantir la seguretat de la informació dels clients"
+"la transmissió del número de targeta o informació sensible s'hauria de fer "
+"mitjançant una connexió segura. "
 
 #: includes/admin/settings/views/checkout.php:56
 msgid "Gateway Display"
-msgstr ""
+msgstr "Mostra les passarel·les de pagament"
 
 #: includes/admin/settings/views/checkout.php:64
 msgid "Online Status"
-msgstr ""
+msgstr "Online"
 
 #: includes/admin/settings/views/checkout.php:65
 msgid "POS Status"
-msgstr ""
+msgstr "Estat del POS"
 
 #: includes/admin/settings/views/checkout.php:66
 msgid "POS Settings"
-msgstr ""
+msgstr "Paràmetres del POS"
 
 #: includes/admin/settings/views/checkout.php:113
 msgid "Payment method title."
-msgstr ""
+msgstr "Títol del mètode de pagament"
 
 #: includes/admin/settings/views/checkout.php:120
 msgid "Payment method description that will be shown in the POS."
-msgstr ""
+msgstr "Descripció del mètode de pagament que es mostrarà al POS"
 
 #: includes/admin/settings/views/checkout.php:126
 msgid "Icon"
-msgstr ""
+msgstr "Icona"
 
 #: includes/admin/settings/views/general.php:13
 msgid "Product Visibility"
-msgstr ""
+msgstr "Visibilitat del producte"
 
 #: includes/admin/settings/views/general.php:17
 msgid "Enable <a href=\"%s\">POS Only products</a>"
-msgstr ""
+msgstr "Permet <a href=\"%s\">Productes exclusius pel POS</a>"
 
 #: includes/admin/settings/views/general.php:23
 msgid "Default POS Customer"
-msgstr ""
+msgstr "Client predeterminat del POS"
 
 #: includes/admin/settings/views/general.php:24
 msgid ""
 "The default customer for POS orders, eg: Guest or create a new customer."
 msgstr ""
+"El client predeterminat per les comandes fetes pel POS. Ex: invitat o creeu un nou client."
 
 #: includes/admin/settings/views/general.php:35
 msgid "Discount Quick Keys"
-msgstr ""
+msgstr "Descomptes ràpids"
 
 #: includes/admin/settings/views/general.php:36
 msgid "Configure discount keys for quick numpad entry"

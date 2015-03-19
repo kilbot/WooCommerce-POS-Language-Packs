@@ -4,6 +4,7 @@ module.exports = function(grunt) {
   require('load-grunt-tasks')(grunt);
 
   var locales = [
+    'ca',
     'da_DK',
     'de_DE',
     'el',

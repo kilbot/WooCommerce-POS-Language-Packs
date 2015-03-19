@@ -18,33 +18,33 @@ msgstr ""
 #: includes/admin/class-wc-pos-menu.php:34
 #: includes/admin/class-wc-pos-menu.php:35
 msgid "POS"
-msgstr ""
+msgstr "POS"
 
 #: includes/admin/class-wc-pos-menu.php:44
 #: includes/admin/class-wc-pos-menu.php:45
 msgid "View POS"
-msgstr ""
+msgstr "Vés al POS"
 
 #: includes/admin/class-wc-pos-menu.php:53
 #: includes/admin/settings/views/checkout.php:88
 msgid "Upgrade to Pro"
-msgstr ""
+msgstr "Actualitza a la versió PRO"
 
 #: includes/admin/settings/class-wc-pos-access.php:58
 msgid "POS Access"
-msgstr ""
+msgstr "Accès al POS"
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:24
 msgid "Help screen"
-msgstr ""
+msgstr "Ajuda"
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:28
 msgid "Barcode search"
-msgstr ""
+msgstr "Cerca per codi de barres"
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:32
 msgid "Sync with server"
-msgstr ""
+msgstr "Sincronitza amb el servidor"
 
 #: includes/admin/settings/views/access.php:7
 msgid "Grant POS Access"
@@ -54,32 +54,33 @@ msgstr ""
 msgid ""
 "By default, access to the POS is limited to Administrator and Shop Manager "
 "roles."
-msgstr ""
+msgstr "Per defecte, l'accès al POS està limitat als rols d'Administrador i Gestor de la botiga."
 
 #: includes/admin/settings/views/access.php:11
 msgid ""
 "It is recommended that you <strong>do not change</strong> the default "
 "settings unless you are fully aware of the consequences."
-msgstr ""
+msgstr "Us recomanem que <strong>no feu canvis</strong> als paràmetres "
+"per defecte, si no teniu clares les conseqüències."
 
 #: includes/admin/settings/views/access.php:12
 #: includes/admin/settings/views/checkout.php:50
 #: includes/admin/settings/views/hotkeys.php:6
 msgid ""
 "For more information please visit <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
-msgstr ""
+msgstr "Més informació a: <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
 
 #: includes/admin/settings/views/checkout.php:13
 msgid "Completed Order Status"
-msgstr ""
+msgstr "Estat de comanda completada"
 
 #: includes/admin/settings/views/checkout.php:14
 msgid "Change the default order status for POS sales"
-msgstr ""
+msgstr "Canvia l'estat de les comandes realitzades des del POS"
 
 #: includes/admin/settings/views/checkout.php:27
 msgid "Order Emails"
-msgstr ""
+msgstr "Correus de les comandes"
 
 #: includes/admin/settings/views/checkout.php:28
 msgid "blah"
@@ -89,7 +90,8 @@ msgstr ""
 msgid ""
 "Installed gateways are listed below. Drag and drop gateways to control their "
 "display order at the Point of Sale. "
-msgstr ""
+msgstr "S'han instal·lat les següents passarel·les de pagament. Ordeneu-les segons"
+"vulgueu qe es mostrin al Point of Sale. "
 
 #: includes/admin/settings/views/checkout.php:45
 msgid ""

@@ -163,11 +163,11 @@ msgstr "Descomptes ràpids"
 
 #: includes/admin/settings/views/general.php:36
 msgid "Configure discount keys for quick numpad entry"
-msgstr ""
+msgstr "Configureu tecles de descompte escrivint des del teclat numèric"
 
 #: includes/admin/settings/views/hotkeys.php:1
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Dreceres del teclat"
 
 #: includes/admin/settings/views/hotkeys.php:4
 msgid ""
@@ -212,14 +212,14 @@ msgstr ""
 #: includes/admin/settings/class-wc-pos-hotkeys.php:19
 msgctxt "keyboard shortcuts"
 msgid "HotKeys"
-msgstr ""
+msgstr "Tecles d'accès ràpid"
 
 #: includes/admin/settings/views/checkout.php:130
 msgctxt "POS checkout settings"
 msgid "Show payment gateway icon."
-msgstr ""
+msgstr "Mostra la icona de la passarel·la de pagament"
 
 #: includes/admin/settings/views/general.php:29
 msgctxt "Default customer setting"
 msgid "Use cashier account"
-msgstr ""
+msgstr "Utilitze elc ompte del caixer"

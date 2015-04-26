@@ -1,0 +1,714 @@
+# Translation of WooCommerce POS in Norwegian (Bokmål)
+# This file is distributed under the same license as the WooCommerce POS package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce POS\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
+"Packs/issues\n"
+"POT-Creation-Date: 2015-03-13 04:49:19+00:00\n"
+"PO-Revision-Date: 2014-08-24 20:41:04+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+
+#: includes/class-wc-pos-ajax.php:127
+#, fuzzy
+msgid "There is no settings id"
+msgstr "Det skjedde en feil under sendingen av eposten"
+
+#: includes/class-wc-pos-ajax.php:137
+msgid "No handler found for %s settings"
+msgstr ""
+
+#: includes/class-wc-pos-ajax.php:157
+#, fuzzy
+msgid "Settings error"
+msgstr "Innstillinger"
+
+#: includes/class-wc-pos-ajax.php:177
+#, fuzzy
+msgid "Email sent!"
+msgstr "Epost er sendt"
+
+#: includes/class-wc-pos-ajax.php:181
+#, fuzzy
+msgid "Error sending email"
+msgstr "Det skjedde en feil under sendingen av eposten"
+
+#: includes/class-wc-pos-ajax.php:197
+msgid "Invalid security nonce"
+msgstr ""
+
+#: includes/class-wc-pos-gateways.php:81
+#, fuzzy
+msgid "Online Store"
+msgstr "Nettbutikk"
+
+#: includes/class-wc-pos-gateways.php:82
+#: includes/class-wc-pos-template.php:144
+msgid "POS"
+msgstr "Kasseapparat"
+
+#: includes/class-wc-pos-i18n.php:301
+msgid "To Pay"
+msgstr "Å betale"
+
+#: includes/class-wc-pos-i18n.php:309 includes/views/pos/cart.php:129
+msgid "Discount"
+msgstr "Rabatt"
+
+#: includes/class-wc-pos-i18n.php:315
+msgid "Process Payment"
+msgstr "Prosesser betalingen"
+
+#: includes/class-wc-pos-i18n.php:319
+msgid "Return to Sale"
+msgstr "Tilbake til salg"
+
+#: includes/class-wc-pos-i18n.php:323
+msgid "Void"
+msgstr "Annullér"
+
+#: includes/class-wc-pos-i18n.php:329
+msgid "Loading&hellip;"
+msgstr ""
+
+#: includes/class-wc-pos-i18n.php:331
+msgid "Your browser is not supported!"
+msgstr "Nettleseren din støttes ikke!"
+
+#: includes/class-wc-pos-status.php:19
+#, fuzzy
+msgid "WC Version"
+msgstr "WooCommerce versjon"
+
+#: includes/class-wc-pos-status.php:22
+#, fuzzy
+msgid "WooCommerce >= %s required"
+msgstr "WooCommerce >= 2.1 kreves"
+
+#: includes/class-wc-pos-status.php:28
+msgid "WC REST API"
+msgstr "WC REST API"
+
+#: includes/class-wc-pos-status.php:30
+msgid "API is active"
+msgstr "API er aktivert"
+
+#: includes/class-wc-pos-status.php:31
+msgid "Access to the REST API is required"
+msgstr "Det kreves tilgang til REST API"
+
+#: includes/class-wc-pos.php:110
+#, fuzzy
+msgid "User not authorized to access WooCommerce POS"
+msgstr "Brukeren er ikke autorisert til å bruke WooCommerce POS"
+
+#: includes/gateways/class-wc-pos-card.php:20
+msgid "Card"
+msgstr "Kort"
+
+#: includes/gateways/class-wc-pos-card.php:52
+#: includes/gateways/class-wc-pos-card.php:55
+#: includes/gateways/class-wc-pos-card.php:78
+#: includes/gateways/class-wc-pos-card.php:112
+msgid "Cashback"
+msgstr "Kreditering"
+
+#: includes/gateways/class-wc-pos-cash.php:20
+msgid "Cash"
+msgstr "Kontant"
+
+#: includes/gateways/class-wc-pos-cash.php:52
+#: includes/gateways/class-wc-pos-cash.php:55
+#: includes/gateways/class-wc-pos-cash.php:104
+msgid "Amount Tendered"
+msgstr "Beløp"
+
+#: includes/gateways/class-wc-pos-cash.php:60
+#, fuzzy
+msgid "Change"
+msgstr "Veksel"
+
+#: includes/products/class-wc-pos-visibility.php:70
+msgid "POS Only"
+msgstr "kun kasse"
+
+#: includes/products/class-wc-pos-visibility.php:71
+msgid "Online Only"
+msgstr "Kun nettbutikk"
+
+#: includes/views/modals/browser.php:2
+#, fuzzy
+msgid "Sorry, it seems your browser is not supported by WooCommerce POS. "
+msgstr "Vi beklager, nettleseren din støttes ikke av WooCommerce POS."
+
+#: includes/views/modals/browser.php:3
+msgid ""
+"If possible, please <a href=\"http://browsehappy.com/\">update your browser</"
+"a>, we recommend either Chrome or Firefox."
+msgstr ""
+"Hvis du har mulighet, vennligst <a href=\"http://browsehappy.com/\">oppdater "
+"nettleseren.</a> Vi anbefaler Chrome eller Firefox."
+
+#: includes/views/modals/browser.php:7
+#, fuzzy
+msgid ""
+"If you believe you have received this message in error please contact "
+"support via <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</"
+"a>"
+msgstr ""
+"Hvis du mener at denne beskjeden har kommet ved en feil, vennligst kontakt "
+"vår support: <a href=\"http://woopos.com.au\">woopos.com.au</a>"
+
+#: includes/views/pos/checkout.php:26
+msgid "No payment gateways enabled."
+msgstr "Ingen betalingsmetoder er aktivert"
+
+#: includes/views/pos/products.php:13
+msgid "Scan Barcode"
+msgstr "Scann strekkode"
+
+#: includes/views/print/receipt.php:98
+msgid "Billing Address"
+msgstr "Faktura-adresse"
+
+#: includes/views/print/receipt.php:101
+msgid "Shipping Address"
+msgstr "Post-adresse"
+
+#: includes/views/print/receipt.php:106
+msgid "Order Number"
+msgstr "Ordrenummer"
+
+#: includes/views/print/receipt.php:110
+msgid "Order Date"
+msgstr "Ordredato"
+
+#: includes/views/print/receipt.php:114
+msgid "Payment Method"
+msgstr "Betalingsmetode"
+
+#: includes/views/print/receipt.php:125
+msgid "Telephone"
+msgstr "Telefon"
+
+#: includes/views/support.php:11
+#, fuzzy
+msgid "Support Form"
+msgstr " WooPOS supportskjema"
+
+#: includes/views/support.php:28
+msgid "Describe your problem here ..."
+msgstr "Beskriv problemet ditt her ..."
+
+#: includes/views/support.php:32
+msgid "Append POS system report"
+msgstr "Legg til POS systemrapport"
+
+#: includes/views/template.php:12
+msgid "Point of Sale"
+msgstr "Kasse"
+
+#. Description of the plugin/theme
+msgid ""
+"A simple front-end for taking WooCommerce orders at the Point of Sale. "
+"Requires <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</"
+"a>."
+msgstr ""
+
+#: includes/class-wc-pos-i18n.php:289
+msgctxt "system status: browser capabilities"
+msgid "Browser"
+msgstr ""
+
+#: includes/class-wc-pos-i18n.php:295
+msgctxt "keyboard shortcuts"
+msgid "HotKeys"
+msgstr ""
+
+#: includes/views/help.php:7
+msgctxt "keyboard shortcuts"
+msgid "Hotkeys"
+msgstr ""
+
+#: includes/class-wc-pos-i18n.php:306
+#, fuzzy
+msgctxt "system status: delete local records"
+msgid "Clear"
+msgstr "slett"
+
+#: includes/class-wc-pos-i18n.php:317
+msgctxt "restore default settings"
+msgid "Restore defaults"
+msgstr ""
+
+#: includes/class-wc-pos-i18n.php:318
+msgctxt "Numpad return key"
+msgid "return"
+msgstr ""
+
+#: includes/class-wc-pos-i18n.php:335
+msgctxt "eg: 23 records"
+msgid "record |||| records"
+msgstr ""
+
+#: includes/class-wc-pos-params.php:75
+msgctxt "Product tab: 'On Sale' products"
+msgid "On Sale"
+msgstr "Salg"
+
+#: includes/gateways/class-wc-pos-cash.php:106
+msgctxt "Money returned from cash sale"
+msgid "Change"
+msgstr "Veksel"
+
+#: includes/views/pos/cart.php:9
+#, fuzzy
+msgctxt "Abbreviation of Quantity"
+msgid "Qty"
+msgstr "Ant"
+
+#: includes/views/pos/cart.php:107 includes/views/pos/cart.php:118
+#: includes/views/pos/receipt.php:65 includes/views/pos/receipt.php:74
+#: includes/views/print/receipt.php:186 includes/views/print/receipt.php:195
+msgctxt "abbreviation for includes (tax)"
+msgid "incl."
+msgstr "inkl."
+
+#~ msgid "Paid"
+#~ msgstr "Betalt"
+
+#~ msgid "Refresh"
+#~ msgstr "Last inn på nytt"
+
+#~ msgctxt "Product tab: 'All' products"
+#~ msgid "All"
+#~ msgstr "Alle"
+
+#~ msgctxt "Product tab: 'Featured' products"
+#~ msgid "Featured"
+#~ msgstr "Fremhevede"
+
+#~ msgid "Online"
+#~ msgstr "Nettbutikk"
+
+#~ msgid "POS & Online"
+#~ msgstr "Kasse og online"
+
+#~ msgid "POS visibility"
+#~ msgstr "Kassens synlighet"
+
+#~ msgid "Checkout Options"
+#~ msgstr "Betalingsvalg"
+
+#~ msgid ""
+#~ "It is your responsibility to ensure the security of your customer's "
+#~ "information. Transmitting credit card or other sensitive information "
+#~ "should only be done using a secure connnection. For more information "
+#~ "please visit <a href=\"http://woopos.com.au/docs/security\">http://woopos."
+#~ "com.au/docs/security</a>"
+#~ msgstr ""
+#~ "Det er ditt ansvar å sørge for sikkerheten til informasjonen om dine "
+#~ "kunder. Å sende kredittkort- eller annen informasjon bør kun gjøres over "
+#~ "en sikker forbindelse. For mer informasjon, besøk gjerne  <a href="
+#~ "\"http://woopos.com.au/docs/security\">http://woopos.com.au/docs/"
+#~ "security</a>"
+
+#~ msgid "Debit & Credit Card sales using an external EFTPOS machine."
+#~ msgstr "Bank og kredittkort-salg benytter en ekstern EFTPOS enhet."
+
+#~ msgid "Description"
+#~ msgstr "Beskrivelse"
+
+#~ msgid "Payment method description that will be shown in the POS."
+#~ msgstr "Beskrivelse av betalingsmetode som vil bli vist i kassen."
+
+#~ msgid "Cash sales at the Point of Sale."
+#~ msgstr "Kontantsalg i kassen"
+
+#~ msgid "Quantity"
+#~ msgstr "Antall"
+
+#~ msgid "Item Price"
+#~ msgstr "Enhetspris"
+
+#~ msgid "Email Receipt"
+#~ msgstr "Kvittering på epost"
+
+#~ msgid "Email Address"
+#~ msgstr "Epost-adresse"
+
+#~ msgid "Close"
+#~ msgstr "Lukk"
+
+#~ msgid "Receipt"
+#~ msgstr "Kvittering"
+
+#~ msgid ""
+#~ "Installed gateways are listed below. Drag and drop gateways to control "
+#~ "their display order at the Point of Sale. "
+#~ msgstr ""
+#~ "Installerte betalingsmetoder er listet nedenfor. Dra og slipp "
+#~ "betalingsmetodene for å bestemme rekkefølgen de er synlig i kassen"
+
+#~ msgid ""
+#~ "Payment Gateways enabled here will be available at the Point of Sale. "
+#~ "Payment Gateways enabled on the settings page will be available in your "
+#~ "Online Store. "
+#~ msgstr ""
+#~ "Betalingsmetoder som er aktivert her vil være tilgjengelige i kassen. "
+#~ "Betalingsmetoder aktivert på instillings-siden vil være tilgjengelig i "
+#~ "din butikk på nettet."
+
+#~ msgid "Action not permitted"
+#~ msgstr "Handlingen er ikke tillatt"
+
+#~ msgid "API Authentication"
+#~ msgstr "API autentifisering"
+
+#~ msgid "Authentication Passed"
+#~ msgstr "Autentifisering godkjent"
+
+#~ msgid "Authentication Failed"
+#~ msgstr "Autentifiseringen ble ikke godkjent"
+
+#~ msgid "Title"
+#~ msgstr "Tittel"
+
+#~ msgid "Payment method title."
+#~ msgstr "Navn på betalingsmetode"
+
+#~ msgid "Downloading products"
+#~ msgstr "Laster ned produkter"
+
+#~ msgid ""
+#~ "While you're waiting&hellip; why not read over the <a href=\"http://"
+#~ "woopos.com.au/docs\" target=\"_blank\">WooCommerce POS documentation</a>."
+#~ msgstr ""
+#~ "Mens du venter&hellip; hvorfor ikke lese over  <a href=\"http://woopos."
+#~ "com.au/docs\" target=\"_blank\">dokumentasjonen over WooCommerce POS</a>."
+
+#~ msgctxt "Payment gateway status"
+#~ msgid "POS"
+#~ msgstr "Kasse"
+
+#~ msgctxt "Settings tab label"
+#~ msgid "Checkout"
+#~ msgstr "Utsjekk"
+
+#~ msgid "Payment Gateways"
+#~ msgstr "Betalingsmetoder"
+
+#~ msgid "Gateway Display"
+#~ msgstr "Visning av betalingsmetode"
+
+#~ msgid "Default"
+#~ msgstr "Default"
+
+#~ msgid "Gateway"
+#~ msgstr "Betalingsmetode"
+
+#~ msgid "Gateway ID"
+#~ msgstr "Metode ID"
+
+#~ msgid "Status"
+#~ msgstr "Status"
+
+#~ msgid "Enabled"
+#~ msgstr "Aktivert"
+
+#~ msgid "Grant POS Access"
+#~ msgstr "Tillat kasse-tilgang"
+
+#~ msgid "Select which user roles have access to the POS."
+#~ msgstr "Velg hvilke bruker-roller som har tilgang til kassen"
+
+#~ msgid "Select user roles"
+#~ msgstr "Velg brukerroller"
+
+#~ msgid ""
+#~ "The default customer for POS orders, eg: Guest or create a new customer."
+#~ msgstr ""
+#~ "Standard kundetype for kasse-ordrer. Feks. «Gjest» eller «Lag ny kunde»"
+
+#~ msgid "You do not have sufficient permissions to access this page."
+#~ msgstr "Du har ikke tilstrekkelige tillatelser til å se denne siden"
+
+#~ msgid "WooCommerce POS is storing your products locally."
+#~ msgstr "WooCommerce POS lagrer produktene dine lokalt."
+
+#~ msgid ""
+#~ "This could take some time depending on the number of products you have, "
+#~ "the speed of your connection and the speed of your server."
+#~ msgstr ""
+#~ "Dette kan ta litt tid, avhengig av antall produkter, hastigheten på "
+#~ "nettet ditt, og hvor rask serveren din er."
+
+#~ msgid "Download complete!"
+#~ msgstr "Nedlasting komplett!"
+
+#~ msgid "Error"
+#~ msgstr "Error"
+
+#~ msgid "Error connecting to the WooCommerce REST API."
+#~ msgstr "Det skjedde en feil under tilkoblingen til WooCommerce REST API."
+
+#~ msgid "Please check the <a href=\"%s\">POS System Status</a>."
+#~ msgstr "Vennligst kontroller <a href=\"%s\">POS System Status</a>."
+
+#~ msgid ""
+#~ "Error connecting to the server. Either your server is down or it is "
+#~ "overloaded."
+#~ msgstr ""
+#~ "Feil under tilkobling til serveren. Enten er den nede, eller så er den "
+#~ "overbelastet."
+
+#~ msgid "Please report the problem via the <a href=\"%s\">Support</a> page."
+#~ msgstr ""
+#~ "Vennligst rapporter problemet via <a href=\"%s\">support-siden</a> page."
+
+#~ msgid "There was a problem connecting to the local database."
+#~ msgstr "Det oppstod et problem under tilkoblingen til den lokale databasen."
+
+#~ msgid "There was a problem downloading the products."
+#~ msgstr "Det oppstod et problem under nedlastingen av produktene."
+
+#~ msgid "There has been an error."
+#~ msgstr "Det skjedde en feil. Tenk på noe vakkert. Trekk pusten dypt."
+
+#~ msgid "Upgrade to Pro"
+#~ msgstr "Oppgrader til Pro"
+
+#~ msgid "No matches found"
+#~ msgstr "Ingen treff"
+
+#~ msgid "Please enter 1 more character"
+#~ msgstr "Vennligst skriv inn 1 tegn til"
+
+#~ msgid "Please enter %d more characters"
+#~ msgstr "Vennligst skriv inn %d  flere tegn"
+
+#~ msgid "Please delete 1 character"
+#~ msgstr "Vennligst fjern 1 tegn"
+
+#~ msgid "Please delete %d characters"
+#~ msgstr "Vennligst fjern %d tegn"
+
+#~ msgid "You can only select 1 item"
+#~ msgstr "Du kan velge maks 1 elementer"
+
+#~ msgid "You can only select %d items"
+#~ msgstr "Du kan velge maks %d elementer"
+
+#~ msgid "Loading more results"
+#~ msgstr "Laster flere resultater"
+
+#~ msgid "Searching"
+#~ msgstr "Søker"
+
+#~ msgid "Action failed. Please refresh the page and retry."
+#~ msgstr "Noe gikk galt. Vennligst last inn siden på nytt."
+
+#~ msgid "Your settings have been saved."
+#~ msgstr "Innstillingene dine har blitt lagret."
+
+#~ msgid "Select a page&hellip;"
+#~ msgstr "Velg en page&hellip;"
+
+#~ msgid "General"
+#~ msgstr "Generelt"
+
+#~ msgid "General Options"
+#~ msgstr "Generelle innstillinger"
+
+#~ msgid "Default POS Customer"
+#~ msgstr "Forvalgt kassekunde"
+
+#~ msgid "Guest"
+#~ msgstr "Gjest"
+
+#~ msgid "Save changes"
+#~ msgstr "Lagre endringer"
+
+#~ msgid "Customer"
+#~ msgstr "Kunde"
+
+#~ msgid ""
+#~ "<strong>WooCommerce POS</strong> requires <a href=\"http://wordpress.org/"
+#~ "plugins/woocommerce/\">WooCommerce</a>. Please install and activate "
+#~ "WooCommerce before activating WooCommerce POS."
+#~ msgstr ""
+#~ "<strong>WooCommerce POS</strong> krever <a href=\"http://wordpress.org/"
+#~ "plugins/woocommerce/\">WooCommerce</a>. Vennligst installer og aktiver "
+#~ "WooCommerce før du aktiverer WooCommerce POS"
+
+#~ msgid ""
+#~ "<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks "
+#~ "to work correctly. Please enable <a href=\"%s\">permalinks</a>."
+#~ msgstr ""
+#~ "<strong>WooCommerce REST API</strong> krever <em>pretty</em> permalinks "
+#~ "for å fungere ordentlig. Vennligs aktiver <a href=\"%s\">permalinks</a>."
+
+#~ msgid "Send"
+#~ msgstr "Send"
+
+#~ msgid "WooCommerce POS"
+#~ msgstr "WooCommerce POS"
+
+#~ msgid "View POS"
+#~ msgstr "Vis kassa"
+
+#~ msgid "Please enter your name"
+#~ msgstr "Vennligst skriv inn navnet ditt"
+
+#~ msgid "Please enter a valid email address"
+#~ msgstr "Vennligst skriv en gyldig epost-adresse"
+
+#~ msgid "Please enter your message"
+#~ msgstr "Vennligst skriv din melding"
+
+#~ msgid "There was a problem sending your email."
+#~ msgstr "Det oppstod en feil under sendingen."
+
+#~ msgid "Update"
+#~ msgstr "Oppdater"
+
+#~ msgid "Enable REST API"
+#~ msgstr "Aktiver REST API"
+
+#~ msgid "Order &ndash; %s"
+#~ msgstr "Ordre &ndash; %s"
+
+#~ msgid "Product"
+#~ msgstr "Produkt"
+
+#~ msgid "Price"
+#~ msgstr "Pris"
+
+#~ msgid "Total"
+#~ msgstr "Total"
+
+#~ msgid "Cart is empty"
+#~ msgstr "Handlekurven er tom"
+
+#~ msgid "Cart Subtotal"
+#~ msgstr "Subtotal"
+
+#~ msgid "Cart Discount"
+#~ msgstr "Rabatt"
+
+#~ msgid "Order Discount"
+#~ msgstr "Ordrerabatt"
+
+#~ msgid "Order Total"
+#~ msgstr "Totalt denne ordre"
+
+#~ msgid "Note"
+#~ msgstr "Notat"
+
+#~ msgid "Checkout"
+#~ msgstr "Utsjekk"
+
+#~ msgid "Print"
+#~ msgstr "Print"
+
+#~ msgid "New Order"
+#~ msgstr "Ny ordre"
+
+#~ msgid "Need help? Visit the <a href=\"%s\">support</a> page"
+#~ msgstr "Trenger du hjelp? Besøk <a href=\"%s\">support-siden.</a>"
+
+#~ msgid "View Products"
+#~ msgstr "Vis produkter"
+
+#~ msgid "Add Product"
+#~ msgstr "Legg til produkt"
+
+#~ msgid "View Orders"
+#~ msgstr "Vis ordrer"
+
+#~ msgid "View Customers"
+#~ msgstr "Vis kunder"
+
+#~ msgid "Support"
+#~ msgstr "Support"
+
+#~ msgid "Menu"
+#~ msgstr "Meny"
+
+#~ msgid "Howdy"
+#~ msgstr "Heisann"
+
+#~ msgid "Logout"
+#~ msgstr "Logg ut"
+
+#~ msgid "Okay"
+#~ msgstr "OK"
+
+#~ msgid "Search for products"
+#~ msgstr "Produktsøk"
+
+#~ msgid "No products found"
+#~ msgstr "Ingen produkter funnet"
+
+#~ msgid "Page %s of %s"
+#~ msgstr "Side %s av %s"
+
+#~ msgid "Showing %s of %s products"
+#~ msgstr "Viser %s av %s produkter"
+
+#~ msgid "Last updated %s"
+#~ msgstr "Sist oppdatert %s"
+
+#~ msgid "sync"
+#~ msgstr "sync"
+
+#~ msgid "Your browser does not support indexeddb"
+#~ msgstr "Nettleseren din støtter ikke indexeddb"
+
+#~ msgid "Name"
+#~ msgstr "Navn"
+
+#~ msgid "Your name"
+#~ msgstr "Ditt navn"
+
+#~ msgid "Email"
+#~ msgstr "Epost"
+
+#~ msgid "Your email"
+#~ msgstr "Din epost"
+
+#~ msgid "Message"
+#~ msgstr "Melding"
+
+#~ msgid "Thank you!"
+#~ msgstr "Tusen takk!"
+
+#~ msgid "Your form has been sent"
+#~ msgstr "Skjemaet har blitt sendt"
+
+#~ msgid "We will get back to you as soon as possible"
+#~ msgstr "Vi kommer tilbake til deg så snart som mulig"
+
+#~ msgid "POS System Status"
+#~ msgstr "System Status WooPOS"
+
+#~ msgid "https://woopos.com.au"
+#~ msgstr "https://woopos.com.au"
+
+#~ msgid "kilbot"
+#~ msgstr "kilbot"
+
+#~ msgid "http://www.kilbot.com.au"
+#~ msgstr "http://www.kilbot.com.au"
+
+#~ msgctxt "Order date parsed by strftime"
+#~ msgid "%b %d, %Y @ %I:%M %p"
+#~ msgstr "%b %d, %Y @ %I:%M %p"
+
+#~ msgctxt "%d in stock"
+#~ msgid "in stock"
+#~ msgstr "i beholdning"

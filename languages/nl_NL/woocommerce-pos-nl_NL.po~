@@ -1,0 +1,742 @@
+# Translation of WooCommerce POS in Dutch
+# This file is distributed under the same license as the WooCommerce POS package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce POS\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
+"Packs/issues\n"
+"POT-Creation-Date: 2015-03-13 04:49:19+00:00\n"
+"PO-Revision-Date: 2014-10-20 15:47:55+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+
+#: includes/class-wc-pos-ajax.php:127
+#, fuzzy
+msgid "There is no settings id"
+msgstr "Fout bij het verzenden van de email"
+
+#: includes/class-wc-pos-ajax.php:137
+msgid "No handler found for %s settings"
+msgstr ""
+
+#: includes/class-wc-pos-ajax.php:157
+#, fuzzy
+msgid "Settings error"
+msgstr "Instellingen"
+
+#: includes/class-wc-pos-ajax.php:177
+#, fuzzy
+msgid "Email sent!"
+msgstr "Email verzonden"
+
+#: includes/class-wc-pos-ajax.php:181
+#, fuzzy
+msgid "Error sending email"
+msgstr "Fout bij het verzenden van de email"
+
+#: includes/class-wc-pos-ajax.php:197
+msgid "Invalid security nonce"
+msgstr ""
+
+#: includes/class-wc-pos-gateways.php:81
+#, fuzzy
+msgid "Online Store"
+msgstr "Webwinkel"
+
+#: includes/class-wc-pos-gateways.php:82
+#: includes/class-wc-pos-template.php:144
+msgid "POS"
+msgstr "KASSA"
+
+#: includes/class-wc-pos-i18n.php:301
+msgid "To Pay"
+msgstr "Te betalen"
+
+#: includes/class-wc-pos-i18n.php:309 includes/views/pos/cart.php:129
+msgid "Discount"
+msgstr "Korting"
+
+#: includes/class-wc-pos-i18n.php:315
+msgid "Process Payment"
+msgstr "Betaling in behandeling"
+
+#: includes/class-wc-pos-i18n.php:319
+msgid "Return to Sale"
+msgstr "Terug naar Verkoop"
+
+#: includes/class-wc-pos-i18n.php:323
+msgid "Void"
+msgstr "Verwijder"
+
+#: includes/class-wc-pos-i18n.php:329
+msgid "Loading&hellip;"
+msgstr ""
+
+#: includes/class-wc-pos-i18n.php:331
+msgid "Your browser is not supported!"
+msgstr "Deze browser wordt niet ondersteund!"
+
+#: includes/class-wc-pos-status.php:19
+#, fuzzy
+msgid "WC Version"
+msgstr "WooCommerce Version"
+
+#: includes/class-wc-pos-status.php:22
+#, fuzzy
+msgid "WooCommerce >= %s required"
+msgstr "WooCommerce >= 2.1 vereist"
+
+#: includes/class-wc-pos-status.php:28
+msgid "WC REST API"
+msgstr "WC REST API"
+
+#: includes/class-wc-pos-status.php:30
+msgid "API is active"
+msgstr "API is active"
+
+#: includes/class-wc-pos-status.php:31
+msgid "Access to the REST API is required"
+msgstr "Toegang tot de REST API is vereist"
+
+#: includes/class-wc-pos.php:110
+#, fuzzy
+msgid "User not authorized to access WooCommerce POS"
+msgstr "Deze gebruiker mag WooCommerce KASSA niet beheren"
+
+#: includes/gateways/class-wc-pos-card.php:20
+msgid "Card"
+msgstr "PIN"
+
+#: includes/gateways/class-wc-pos-card.php:52
+#: includes/gateways/class-wc-pos-card.php:55
+#: includes/gateways/class-wc-pos-card.php:78
+#: includes/gateways/class-wc-pos-card.php:112
+msgid "Cashback"
+msgstr "Teruggave"
+
+#: includes/gateways/class-wc-pos-cash.php:20
+msgid "Cash"
+msgstr "Kontant"
+
+#: includes/gateways/class-wc-pos-cash.php:52
+#: includes/gateways/class-wc-pos-cash.php:55
+#: includes/gateways/class-wc-pos-cash.php:104
+msgid "Amount Tendered"
+msgstr "Ontvangen bedrag"
+
+#: includes/gateways/class-wc-pos-cash.php:60
+#, fuzzy
+msgid "Change"
+msgstr "Wisselgeld"
+
+#: includes/products/class-wc-pos-visibility.php:70
+msgid "POS Only"
+msgstr "Alleen KASSA verkoop"
+
+#: includes/products/class-wc-pos-visibility.php:71
+msgid "Online Only"
+msgstr "Alleen online"
+
+#: includes/views/modals/browser.php:2
+#, fuzzy
+msgid "Sorry, it seems your browser is not supported by WooCommerce POS. "
+msgstr ""
+"Sorry, het lijkt er op dat WooCommerce KASSA deze browser niet ondersteund."
+
+#: includes/views/modals/browser.php:3
+msgid ""
+"If possible, please <a href=\"http://browsehappy.com/\">update your browser</"
+"a>, we recommend either Chrome or Firefox."
+msgstr ""
+"Kies, indien mogelijk, <a href=\"http://browsehappy.com/\">een andere "
+"browser</a>, Chrome of Firefox hebben de voorkeur."
+
+#: includes/views/modals/browser.php:7
+#, fuzzy
+msgid ""
+"If you believe you have received this message in error please contact "
+"support via <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</"
+"a>"
+msgstr ""
+"Neem contact op met support op <a href=\"http://woopos.com.au\">woopos.com."
+"au</a>als je deze foutmelding niet had verwacht"
+
+#: includes/views/pos/checkout.php:26
+msgid "No payment gateways enabled."
+msgstr "Er zijn geen betaal gateways beschikbaar."
+
+#: includes/views/pos/products.php:13
+msgid "Scan Barcode"
+msgstr "Scan de streepjescode"
+
+#: includes/views/print/receipt.php:98
+msgid "Billing Address"
+msgstr "Factuuradres"
+
+#: includes/views/print/receipt.php:101
+msgid "Shipping Address"
+msgstr "Verzendadres"
+
+#: includes/views/print/receipt.php:106
+msgid "Order Number"
+msgstr "Bestelnummer"
+
+#: includes/views/print/receipt.php:110
+msgid "Order Date"
+msgstr "Besteldatum"
+
+#: includes/views/print/receipt.php:114
+msgid "Payment Method"
+msgstr "Betaalmethode"
+
+#: includes/views/print/receipt.php:125
+msgid "Telephone"
+msgstr "Telefoon"
+
+#: includes/views/support.php:11
+#, fuzzy
+msgid "Support Form"
+msgstr "KASSA support formulier"
+
+#: includes/views/support.php:28
+msgid "Describe your problem here ..."
+msgstr "Omschrijf je probleem..."
+
+#: includes/views/support.php:32
+msgid "Append POS system report"
+msgstr "Stuur KASSA systeem rapport mee"
+
+#: includes/views/template.php:12
+msgid "Point of Sale"
+msgstr "KASSA"
+
+#. Description of the plugin/theme
+msgid ""
+"A simple front-end for taking WooCommerce orders at the Point of Sale. "
+"Requires <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</"
+"a>."
+msgstr ""
+"Een eenvoudig front-end om WooCommerce aankopen te doen aan de kassa. <a "
+"href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a> moet "
+"geïnstalleerd zijn."
+
+#: includes/class-wc-pos-i18n.php:289
+msgctxt "system status: browser capabilities"
+msgid "Browser"
+msgstr ""
+
+#: includes/class-wc-pos-i18n.php:295
+msgctxt "keyboard shortcuts"
+msgid "HotKeys"
+msgstr ""
+
+#: includes/views/help.php:7
+msgctxt "keyboard shortcuts"
+msgid "Hotkeys"
+msgstr ""
+
+#: includes/class-wc-pos-i18n.php:306
+#, fuzzy
+msgctxt "system status: delete local records"
+msgid "Clear"
+msgstr "wis"
+
+#: includes/class-wc-pos-i18n.php:317
+msgctxt "restore default settings"
+msgid "Restore defaults"
+msgstr ""
+
+#: includes/class-wc-pos-i18n.php:318
+msgctxt "Numpad return key"
+msgid "return"
+msgstr ""
+
+#: includes/class-wc-pos-i18n.php:335
+msgctxt "eg: 23 records"
+msgid "record |||| records"
+msgstr ""
+
+#: includes/class-wc-pos-params.php:75
+msgctxt "Product tab: 'On Sale' products"
+msgid "On Sale"
+msgstr "Aanbiedingen"
+
+#: includes/gateways/class-wc-pos-cash.php:106
+msgctxt "Money returned from cash sale"
+msgid "Change"
+msgstr "Wisselgeld"
+
+#: includes/views/pos/cart.php:9
+#, fuzzy
+msgctxt "Abbreviation of Quantity"
+msgid "Qty"
+msgstr "Aantal"
+
+#: includes/views/pos/cart.php:107 includes/views/pos/cart.php:118
+#: includes/views/pos/receipt.php:65 includes/views/pos/receipt.php:74
+#: includes/views/print/receipt.php:186 includes/views/print/receipt.php:195
+msgctxt "abbreviation for includes (tax)"
+msgid "incl."
+msgstr "incl."
+
+#~ msgid ""
+#~ "WooCommerce 2.2 changed the way order statuses are handled which affected "
+#~ "the display of POS orders in the admin. Please update any orders with "
+#~ "status <em>Published</em> to the correct status (eg: <em>Completed</em>). "
+#~ "<a class=\"button-primary\" href=\"%s\">Check your POS orders</a>"
+#~ msgstr ""
+#~ "In WooCommerce 2.2 is de manier waarop de orderstatus wordt afgehandeld, "
+#~ "veranderd. Dit had invloed op de weergave van KASSA orders in het admin "
+#~ "scherm. Als er orders in de status <em>Published</em> staan, verander die "
+#~ "dan in de correcte status (<em>Completed</em>). <a class=\"button-primary"
+#~ "\" href=\"%s\">Controleer je KASSA orders</a>"
+
+#~ msgid ""
+#~ "You are now being redirected offsite to complete the payment.<br><a "
+#~ "target=\"_blank\" href=\"%s\" data-redirect=\"true\">Click here</a> if "
+#~ "you are not redirected automatically."
+#~ msgstr ""
+#~ "Je verlaat nu de site om de betaling af te voltooien.<br><a target="
+#~ "\"_blank\" href=\"%s\" data-redirect=\"true\">Klik hier</a> als je niet "
+#~ "vanzelf doorgestuurd wordt."
+
+#~ msgid "There was an error processing the payment"
+#~ msgstr "De betaling kon niet verwerkt worden"
+
+#~ msgid "Search"
+#~ msgstr "Zoeken"
+
+#~ msgid "Paid"
+#~ msgstr "Voldaan"
+
+#~ msgid "Refresh"
+#~ msgstr "Ververs"
+
+#~ msgctxt "Product tab: 'All' products"
+#~ msgid "All"
+#~ msgstr "Alle"
+
+#~ msgctxt "Product tab: 'Featured' products"
+#~ msgid "Featured"
+#~ msgstr "Aanbevolen"
+
+#~ msgid "Online"
+#~ msgstr "Online"
+
+#~ msgid "POS & Online"
+#~ msgstr "Kassa & Online"
+
+#~ msgid "POS visibility"
+#~ msgstr "zichtbaarheid KASSA"
+
+#~ msgid "Checkout Options"
+#~ msgstr "Betaal Opties"
+
+#~ msgid ""
+#~ "It is your responsibility to ensure the security of your customer's "
+#~ "information. Transmitting credit card or other sensitive information "
+#~ "should only be done using a secure connnection. For more information "
+#~ "please visit <a href=\"http://woopos.com.au/docs/security\">http://woopos."
+#~ "com.au/docs/security</a>"
+#~ msgstr ""
+#~ "De veiligheid van de klant gegevens is jou verantwoordelijkheid. Gebruik "
+#~ "een veilige verbinding om creditcard gegevens en andere gevoelige "
+#~ "gegevens te versturen. Bezoek <a href=\"http://woopos.com.au/docs/security"
+#~ "\">http://woopos.com.au/docs/security</a> voor meer informatie."
+
+#~ msgid "Debit & Credit Card sales using an external EFTPOS machine."
+#~ msgstr "Debit & Credit Card verkopen via een extern EFT apparaat."
+
+#~ msgid "Description"
+#~ msgstr "Omschrijving"
+
+#~ msgid "Payment method description that will be shown in the POS."
+#~ msgstr ""
+#~ "Omschrijving van de betalingsmethode zoals in KASSA te zien zal zijn."
+
+#~ msgid "Cash sales at the Point of Sale."
+#~ msgstr "Contante kassa verkoop"
+
+#~ msgid "Quantity"
+#~ msgstr "Hoeveelheid"
+
+#~ msgid "Item Price"
+#~ msgstr "Prijs per stuk"
+
+#~ msgid "Email Receipt"
+#~ msgstr "Email de bon"
+
+#~ msgid "Email Address"
+#~ msgstr "Email adres"
+
+#~ msgid "Close"
+#~ msgstr "Sluiten"
+
+#~ msgid "Receipt"
+#~ msgstr "Bon"
+
+#~ msgid ""
+#~ "Installed gateways are listed below. Drag and drop gateways to control "
+#~ "their display order at the Point of Sale. "
+#~ msgstr ""
+#~ "Hieronder een lijst van betaal gateways. Versleep ze om de volgorde te "
+#~ "bepalen."
+
+#~ msgid ""
+#~ "Payment Gateways enabled here will be available at the Point of Sale. "
+#~ "Payment Gateways enabled on the settings page will be available in your "
+#~ "Online Store. "
+#~ msgstr ""
+#~ "Maak hier de betaal gateways bekend binnen KASSA. Betaalgateways zijn ook "
+#~ "zichtbaar in de Webwinkel."
+
+#~ msgid "Action not permitted"
+#~ msgstr "Niet toegestaan."
+
+#~ msgid "API Authentication"
+#~ msgstr "API Authenticatie"
+
+#~ msgid "Authentication Passed"
+#~ msgstr "Authenticatie geslaagd"
+
+#~ msgid "Authentication Failed"
+#~ msgstr "Authenticatie niet geslaagd"
+
+#~ msgid "Title"
+#~ msgstr "Aanhef"
+
+#~ msgid "Payment method title."
+#~ msgstr "Naam van de betaal methode."
+
+#~ msgid "Downloading products"
+#~ msgstr "Producten downloaden"
+
+#~ msgid ""
+#~ "While you're waiting&hellip; why not read over the <a href=\"http://"
+#~ "woopos.com.au/docs\" target=\"_blank\">WooCommerce POS documentation</a>."
+#~ msgstr ""
+#~ "Als je toch moet wachten op &hellip; lees dan de <a href=\"http://woopos."
+#~ "com.au/docs\" target=\"_blank\">WooCommerce KASSA documentatie</a>."
+
+#~ msgctxt "Payment gateway status"
+#~ msgid "POS"
+#~ msgstr "KASSA"
+
+#~ msgctxt "Settings tab label"
+#~ msgid "Checkout"
+#~ msgstr "Afrekenen"
+
+#~ msgid "Payment Gateways"
+#~ msgstr "Betaal gateways"
+
+#~ msgid "Gateway Display"
+#~ msgstr "Betaal gateway overzicht"
+
+#~ msgid "Default"
+#~ msgstr "Default"
+
+#~ msgid "Gateway"
+#~ msgstr "Gateway"
+
+#~ msgid "Gateway ID"
+#~ msgstr "Gateway ID"
+
+#~ msgid "Status"
+#~ msgstr "Status"
+
+#~ msgid "Enabled"
+#~ msgstr "Beschikbaar"
+
+#~ msgid "Grant POS Access"
+#~ msgstr "Geef toegang tot KASSA"
+
+#~ msgid "Select which user roles have access to the POS."
+#~ msgstr "Geef de rollen die toegang tot KASSA hebben."
+
+#~ msgid "Select user roles"
+#~ msgstr "Kies rollen"
+
+#~ msgid ""
+#~ "The default customer for POS orders, eg: Guest or create a new customer."
+#~ msgstr ""
+#~ "The default klant voor KASSA aankopen, bv: Guest of maak een ander aan."
+
+#~ msgid "You do not have sufficient permissions to access this page."
+#~ msgstr "Je hebt niet voldoende rechten om deze pagina te zien."
+
+#~ msgid "WooCommerce POS is storing your products locally."
+#~ msgstr "WooCommerce KASSA slaat de artikelen lokaal op."
+
+#~ msgid ""
+#~ "This could take some time depending on the number of products you have, "
+#~ "the speed of your connection and the speed of your server."
+#~ msgstr ""
+#~ "Dit kan enige tijd in beslag nemen afhankelijk van het aantal artikelen, "
+#~ "de snelheid van de verbinding en van de server."
+
+#~ msgid "Download complete!"
+#~ msgstr "Download klaar!"
+
+#~ msgid "Error"
+#~ msgstr "Fout"
+
+#~ msgid "Error connecting to the WooCommerce REST API."
+#~ msgstr "Kan niet verbinden met de WooCommerce REST API."
+
+#~ msgid "Please check the <a href=\"%s\">POS System Status</a>."
+#~ msgstr "Controleer de <a href=\"%s\">KASSA Systeem Status</a>."
+
+#~ msgid ""
+#~ "Error connecting to the server. Either your server is down or it is "
+#~ "overloaded."
+#~ msgstr ""
+#~ "Kan niet met de server verbinden. De server kan down zijn of overbelast."
+
+#~ msgid "Please report the problem via the <a href=\"%s\">Support</a> page."
+#~ msgstr "Rapporteer het probleem via de <a href=\"%s\">Support</a> pagina."
+
+#~ msgid "There was a problem connecting to the local database."
+#~ msgstr "Verbinden met de lokale database gaat niet."
+
+#~ msgid "There was a problem downloading the products."
+#~ msgstr "De artikelen konden niet worden gedownload."
+
+#~ msgid "There has been an error."
+#~ msgstr "Er is een fout opgetreden."
+
+#~ msgid "Upgrade to Pro"
+#~ msgstr "Upgrade naar Pro"
+
+#~ msgid "No matches found"
+#~ msgstr "Geen resultaten gevonden"
+
+#~ msgid "Please enter 1 more character"
+#~ msgstr "Vul nog een letter meer in"
+
+#~ msgid "Please enter %d more characters"
+#~ msgstr "Vul %d letters meer in"
+
+#~ msgid "Please delete 1 character"
+#~ msgstr "Vul 1 karakter minder in"
+
+#~ msgid "Please delete %d characters"
+#~ msgstr "Vul %d karakters minder in"
+
+#~ msgid "You can only select 1 item"
+#~ msgstr "Maximaal 1 item toegestaan"
+
+#~ msgid "You can only select %d items"
+#~ msgstr "Maximaal %d items toegestaan"
+
+#~ msgid "Loading more results"
+#~ msgstr "Meer resultaten laden"
+
+#~ msgid "Searching"
+#~ msgstr "Zoeken"
+
+#~ msgid "Action failed. Please refresh the page and retry."
+#~ msgstr "Mislukt. Ververs de pagina en probeer opnieuw."
+
+#~ msgid "Your settings have been saved."
+#~ msgstr "De instellingen zijn opgeslagen."
+
+#~ msgid "Select a page&hellip;"
+#~ msgstr "Kies een pagina&hellip;"
+
+#~ msgid "General"
+#~ msgstr "Algemeen"
+
+#~ msgid "General Options"
+#~ msgstr "Algemene opties"
+
+#~ msgid "Default POS Customer"
+#~ msgstr "Standaard KASSA klant"
+
+#~ msgid "Guest"
+#~ msgstr "Gast"
+
+#~ msgid "Save changes"
+#~ msgstr "Bewaar wijzigingen"
+
+#~ msgid "Customer"
+#~ msgstr "Klant"
+
+#~ msgid ""
+#~ "<strong>WooCommerce POS</strong> requires <a href=\"http://wordpress.org/"
+#~ "plugins/woocommerce/\">WooCommerce</a>. Please install and activate "
+#~ "WooCommerce before activating WooCommerce POS."
+#~ msgstr ""
+#~ "<strong>WooCommerce KASSA</strong> vereist <a href=\"http://wordpress.org/"
+#~ "plugins/woocommerce/\">WooCommerce</a>. Installeer en activeer "
+#~ "WooCommerce voordat je WooCommerce KASSA activeert."
+
+#~ msgid ""
+#~ "<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks "
+#~ "to work correctly. Please enable <a href=\"%s\">permalinks</a>."
+#~ msgstr ""
+#~ "<strong>WooCommerce REST API</strong> vereist <em>nette</em> permalinks "
+#~ "om te goed werken. Schakel die in <a href=\"%s\">permalinks</a>."
+
+#~ msgid "Send"
+#~ msgstr "Verstuur"
+
+#~ msgid "WooCommerce POS"
+#~ msgstr "WooCommerce KASSA"
+
+#~ msgid "View POS"
+#~ msgstr "Bekijk KASSA"
+
+#~ msgid "Please enter your name"
+#~ msgstr "Vul je naam in"
+
+#~ msgid "Please enter a valid email address"
+#~ msgstr "Vul je emailadres in"
+
+#~ msgid "Please enter your message"
+#~ msgstr "Vul je bericht in"
+
+#~ msgid "There was a problem sending your email."
+#~ msgstr "Je email kon niet worden verzonden."
+
+#~ msgid "Update"
+#~ msgstr "Update"
+
+#~ msgid "Enable REST API"
+#~ msgstr "Schakel de REST API in"
+
+#~ msgid "Order &ndash; %s"
+#~ msgstr "Bestelling &ndash; %s"
+
+#~ msgid "Product"
+#~ msgstr "Product"
+
+#~ msgid "Price"
+#~ msgstr "Prijs"
+
+#~ msgid "Total"
+#~ msgstr "Totaal"
+
+#~ msgid "Cart is empty"
+#~ msgstr "Winkelwagen is nog leeg"
+
+#~ msgid "Cart Subtotal"
+#~ msgstr "Winkelwagen Subtotaal"
+
+#~ msgid "Cart Discount"
+#~ msgstr "Winkelwagen korting"
+
+#~ msgid "Order Discount"
+#~ msgstr "Korting"
+
+#~ msgid "Order Total"
+#~ msgstr "Bestelling Totaal"
+
+#~ msgid "Note"
+#~ msgstr "Opmerking"
+
+#~ msgid "Checkout"
+#~ msgstr "Afrekenen"
+
+#~ msgid "Print"
+#~ msgstr "Afdrukken"
+
+#~ msgid "New Order"
+#~ msgstr "Nieuwe Bestelling"
+
+#~ msgid "Need help? Visit the <a href=\"%s\">support</a> page"
+#~ msgstr "Hulp nodig? Ga naar de <a href=\"%s\">support</a> pagina"
+
+#~ msgid "View Products"
+#~ msgstr "Bekijk Producten"
+
+#~ msgid "Add Product"
+#~ msgstr "Product toevoegen"
+
+#~ msgid "View Orders"
+#~ msgstr "Bekijk Bestellingen"
+
+#~ msgid "View Customers"
+#~ msgstr "Bekijk Klanten"
+
+#~ msgid "Support"
+#~ msgstr "Ondersteuning"
+
+#~ msgid "Menu"
+#~ msgstr "Menu"
+
+#~ msgid "Howdy"
+#~ msgstr "Hallo"
+
+#~ msgid "Logout"
+#~ msgstr "Uitloggen"
+
+#~ msgid "Okay"
+#~ msgstr "OK"
+
+#~ msgid "Search for products"
+#~ msgstr "Zoek producten"
+
+#~ msgid "No products found"
+#~ msgstr "Product niet gevonden"
+
+#~ msgid "Page %s of %s"
+#~ msgstr "Pagina %s van %s"
+
+#~ msgid "Showing %s of %s products"
+#~ msgstr "Er worden %s van %s producten getoond"
+
+#~ msgid "Last updated %s"
+#~ msgstr "Voor het laatst bijgewerkt %s"
+
+#~ msgid "sync"
+#~ msgstr "synchoniseer"
+
+#~ msgid "Your browser does not support indexeddb"
+#~ msgstr "Deze browser ondersteunt geen IndexedDB"
+
+#~ msgid "Name"
+#~ msgstr "Naam"
+
+#~ msgid "Your name"
+#~ msgstr "Je naam"
+
+#~ msgid "Email"
+#~ msgstr "Emailadres"
+
+#~ msgid "Your email"
+#~ msgstr "Je emailadres"
+
+#~ msgid "Message"
+#~ msgstr "Bericht"
+
+#~ msgid "Thank you!"
+#~ msgstr "Bedankt!"
+
+#~ msgid "Your form has been sent"
+#~ msgstr "Het formulier is verzonden"
+
+#~ msgid "We will get back to you as soon as possible"
+#~ msgstr "Je hoort zo gauw mogelijk van ons"
+
+#~ msgid "POS System Status"
+#~ msgstr "POS System Status"
+
+#~ msgid "https://woopos.com.au"
+#~ msgstr "https://woopos.com.au"
+
+#~ msgid "kilbot"
+#~ msgstr "kilbot"
+
+#~ msgid "http://www.kilbot.com.au"
+#~ msgstr "http://www.kilbot.com.au"
+
+#~ msgctxt "Order date parsed by strftime"
+#~ msgid "%b %d, %Y @ %I:%M %p"
+#~ msgstr "%b %d, %Y @ %I:%M %p"
+
+#~ msgctxt "%d in stock"
+#~ msgid "in stock"
+#~ msgstr "in voorraad"

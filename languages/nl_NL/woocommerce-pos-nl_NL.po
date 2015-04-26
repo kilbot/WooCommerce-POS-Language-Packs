@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-03-13 04:49:19+00:00\n"
+"POT-Creation-Date: 2015-04-23 12:56:34+00:00\n"
 "PO-Revision-Date: 2014-10-20 15:47:55+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,31 +13,50 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/0.1\n"
 
-#: includes/class-wc-pos-ajax.php:127
+#: includes/api/class-wc-pos-orders.php:385
+msgid "There was an error processing the payment"
+msgstr "De betaling kon niet verwerkt worden"
+
+#: includes/api/class-wc-pos-orders.php:411
+#, fuzzy
+msgid ""
+"You are now being redirected offsite to complete the payment.<br><a target="
+"\"_blank\" href=\"%s\">Click here</a> if you are not redirected "
+"automatically."
+msgstr ""
+"Je verlaat nu de site om de betaling af te voltooien.<br><a target=\"_blank"
+"\" href=\"%s\" data-redirect=\"true\">Klik hier</a> als je niet vanzelf "
+"doorgestuurd wordt."
+
+#: includes/api/class-wc-pos-orders.php:425
+msgid "POS Transaction completed."
+msgstr ""
+
+#: includes/class-wc-pos-ajax.php:128
 #, fuzzy
 msgid "There is no settings id"
 msgstr "Fout bij het verzenden van de email"
 
-#: includes/class-wc-pos-ajax.php:137
+#: includes/class-wc-pos-ajax.php:138
 msgid "No handler found for %s settings"
 msgstr ""
 
-#: includes/class-wc-pos-ajax.php:157
+#: includes/class-wc-pos-ajax.php:158
 #, fuzzy
 msgid "Settings error"
 msgstr "Instellingen"
 
-#: includes/class-wc-pos-ajax.php:177
+#: includes/class-wc-pos-ajax.php:174 includes/class-wc-pos-ajax.php:195
 #, fuzzy
-msgid "Email sent!"
+msgid "Email sent"
 msgstr "Email verzonden"
 
-#: includes/class-wc-pos-ajax.php:181
+#: includes/class-wc-pos-ajax.php:179 includes/class-wc-pos-ajax.php:200
 #, fuzzy
-msgid "Error sending email"
-msgstr "Fout bij het verzenden van de email"
+msgid "There was an error sending the email"
+msgstr "Je email kon niet worden verzonden."
 
-#: includes/class-wc-pos-ajax.php:197
+#: includes/class-wc-pos-ajax.php:215
 msgid "Invalid security nonce"
 msgstr ""
 
@@ -47,7 +66,7 @@ msgid "Online Store"
 msgstr "Webwinkel"
 
 #: includes/class-wc-pos-gateways.php:82
-#: includes/class-wc-pos-template.php:144
+#: includes/class-wc-pos-template.php:150
 msgid "POS"
 msgstr "KASSA"
 
@@ -55,27 +74,39 @@ msgstr "KASSA"
 msgid "To Pay"
 msgstr "Te betalen"
 
-#: includes/class-wc-pos-i18n.php:309 includes/views/pos/cart.php:129
+#: includes/class-wc-pos-i18n.php:302
+msgid "Paid"
+msgstr "Voldaan"
+
+#: includes/class-wc-pos-i18n.php:303
+msgid "Unpaid"
+msgstr ""
+
+#: includes/class-wc-pos-i18n.php:304
+msgid "Email Receipt"
+msgstr "Email de bon"
+
+#: includes/class-wc-pos-i18n.php:313 includes/views/pos/cart.php:129
 msgid "Discount"
 msgstr "Korting"
 
-#: includes/class-wc-pos-i18n.php:315
+#: includes/class-wc-pos-i18n.php:319
 msgid "Process Payment"
 msgstr "Betaling in behandeling"
 
-#: includes/class-wc-pos-i18n.php:319
+#: includes/class-wc-pos-i18n.php:323
 msgid "Return to Sale"
 msgstr "Terug naar Verkoop"
 
-#: includes/class-wc-pos-i18n.php:323
+#: includes/class-wc-pos-i18n.php:327
 msgid "Void"
 msgstr "Verwijder"
 
-#: includes/class-wc-pos-i18n.php:329
+#: includes/class-wc-pos-i18n.php:335
 msgid "Loading&hellip;"
 msgstr ""
 
-#: includes/class-wc-pos-i18n.php:331
+#: includes/class-wc-pos-i18n.php:337
 msgid "Your browser is not supported!"
 msgstr "Deze browser wordt niet ondersteund!"
 
@@ -101,7 +132,7 @@ msgstr "API is active"
 msgid "Access to the REST API is required"
 msgstr "Toegang tot de REST API is vereist"
 
-#: includes/class-wc-pos.php:110
+#: includes/class-wc-pos.php:111
 #, fuzzy
 msgid "User not authorized to access WooCommerce POS"
 msgstr "Deze gebruiker mag WooCommerce KASSA niet beheren"
@@ -131,14 +162,6 @@ msgstr "Ontvangen bedrag"
 #, fuzzy
 msgid "Change"
 msgstr "Wisselgeld"
-
-#: includes/products/class-wc-pos-visibility.php:70
-msgid "POS Only"
-msgstr "Alleen KASSA verkoop"
-
-#: includes/products/class-wc-pos-visibility.php:71
-msgid "Online Only"
-msgstr "Alleen online"
 
 #: includes/views/modals/browser.php:2
 #, fuzzy
@@ -196,6 +219,11 @@ msgstr "Betaalmethode"
 msgid "Telephone"
 msgstr "Telefoon"
 
+#: includes/views/print/receipt.php:134
+#, fuzzy
+msgid "Qty"
+msgstr "Aantal"
+
 #: includes/views/support.php:11
 #, fuzzy
 msgid "Support Form"
@@ -238,23 +266,28 @@ msgctxt "keyboard shortcuts"
 msgid "Hotkeys"
 msgstr ""
 
-#: includes/class-wc-pos-i18n.php:306
+#: includes/class-wc-pos-i18n.php:305
+msgctxt "order status, ie: open order in cart"
+msgid "Open"
+msgstr ""
+
+#: includes/class-wc-pos-i18n.php:310
 #, fuzzy
 msgctxt "system status: delete local records"
 msgid "Clear"
 msgstr "wis"
 
-#: includes/class-wc-pos-i18n.php:317
+#: includes/class-wc-pos-i18n.php:321
 msgctxt "restore default settings"
 msgid "Restore defaults"
 msgstr ""
 
-#: includes/class-wc-pos-i18n.php:318
+#: includes/class-wc-pos-i18n.php:322
 msgctxt "Numpad return key"
 msgid "return"
 msgstr ""
 
-#: includes/class-wc-pos-i18n.php:335
+#: includes/class-wc-pos-i18n.php:341
 msgctxt "eg: 23 records"
 msgid "record |||| records"
 msgstr ""
@@ -269,18 +302,28 @@ msgctxt "Money returned from cash sale"
 msgid "Change"
 msgstr "Wisselgeld"
 
-#: includes/views/pos/cart.php:9
+#: includes/views/pos/cart.php:9 includes/views/pos/receipt.php:10
 #, fuzzy
 msgctxt "Abbreviation of Quantity"
 msgid "Qty"
 msgstr "Aantal"
 
 #: includes/views/pos/cart.php:107 includes/views/pos/cart.php:118
-#: includes/views/pos/receipt.php:65 includes/views/pos/receipt.php:74
+#: includes/views/pos/receipt.php:62 includes/views/pos/receipt.php:72
 #: includes/views/print/receipt.php:186 includes/views/print/receipt.php:195
 msgctxt "abbreviation for includes (tax)"
 msgid "incl."
 msgstr "incl."
+
+#, fuzzy
+#~ msgid "Error sending email"
+#~ msgstr "Fout bij het verzenden van de email"
+
+#~ msgid "POS Only"
+#~ msgstr "Alleen KASSA verkoop"
+
+#~ msgid "Online Only"
+#~ msgstr "Alleen online"
 
 #~ msgid ""
 #~ "WooCommerce 2.2 changed the way order statuses are handled which affected "
@@ -294,23 +337,8 @@ msgstr "incl."
 #~ "dan in de correcte status (<em>Completed</em>). <a class=\"button-primary"
 #~ "\" href=\"%s\">Controleer je KASSA orders</a>"
 
-#~ msgid ""
-#~ "You are now being redirected offsite to complete the payment.<br><a "
-#~ "target=\"_blank\" href=\"%s\" data-redirect=\"true\">Click here</a> if "
-#~ "you are not redirected automatically."
-#~ msgstr ""
-#~ "Je verlaat nu de site om de betaling af te voltooien.<br><a target="
-#~ "\"_blank\" href=\"%s\" data-redirect=\"true\">Klik hier</a> als je niet "
-#~ "vanzelf doorgestuurd wordt."
-
-#~ msgid "There was an error processing the payment"
-#~ msgstr "De betaling kon niet verwerkt worden"
-
 #~ msgid "Search"
 #~ msgstr "Zoeken"
-
-#~ msgid "Paid"
-#~ msgstr "Voldaan"
 
 #~ msgid "Refresh"
 #~ msgstr "Ververs"
@@ -365,9 +393,6 @@ msgstr "incl."
 
 #~ msgid "Item Price"
 #~ msgstr "Prijs per stuk"
-
-#~ msgid "Email Receipt"
-#~ msgstr "Email de bon"
 
 #~ msgid "Email Address"
 #~ msgstr "Email adres"
@@ -597,9 +622,6 @@ msgstr "incl."
 
 #~ msgid "Please enter your message"
 #~ msgstr "Vul je bericht in"
-
-#~ msgid "There was a problem sending your email."
-#~ msgstr "Je email kon niet worden verzonden."
 
 #~ msgid "Update"
 #~ msgstr "Update"

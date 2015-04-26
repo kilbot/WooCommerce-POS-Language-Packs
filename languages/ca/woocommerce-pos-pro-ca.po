@@ -5,15 +5,15 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS Pro 0.4.0-alpha\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-03-13 04:49:21+00:00\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2015-04-07 15:16:18+00:00\n"
 "PO-Revision-Date: 2015-03-13 04:49:21+00:00\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
-"X-Generator: grunt-wp-i18n 0.4.9\n"
 "Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: grunt-wp-i18n 0.4.9\n"
 
 #: includes/class-wc-pos-pro-stores.php:40
 #: includes/class-wc-pos-pro-stores.php:42
@@ -65,19 +65,19 @@ msgstr ""
 #. translators: woocommerce
 #. translators: woocommerce
 #: includes/class-wc-pos-pro-template.php:98 includes/views/customers.php:14
-#: includes/views/customers.php:70
+#: includes/views/customers.php:74
 msgid "Email"
 msgstr ""
 
-#: includes/class-wc-pos-pro.php:93
+#: includes/class-wc-pos-pro.php:92
 msgid "Save Changes"
 msgstr ""
 
-#: includes/views/customers.php:25 includes/views/customers.php:58
+#: includes/views/customers.php:25 includes/views/customers.php:62
 msgid "Add New Customer"
 msgstr ""
 
-#: includes/views/customers.php:58
+#: includes/views/customers.php:62
 msgid "Edit Customer"
 msgstr ""
 
@@ -85,7 +85,7 @@ msgstr ""
 msgid "Add Customer"
 msgstr ""
 
-#: includes/views/products.php:66
+#: includes/views/products.php:82
 msgid "On Sale?"
 msgstr ""
 

@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS Pro\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-03-13 04:49:21+00:00\n"
+"POT-Creation-Date: 2015-04-07 15:16:18+00:00\n"
 "PO-Revision-Date: 2015-03-11 17:38+0100\n"
 "Last-Translator: 123DEV <123dev@123dev.net>\n"
 "Language-Team: 123 DEV - 123dev.net <123dev@123dev.net>\n"
@@ -66,20 +66,20 @@ msgstr ""
 #. translators: woocommerce
 #. translators: woocommerce
 #: includes/class-wc-pos-pro-template.php:98 includes/views/customers.php:14
-#: includes/views/customers.php:70
+#: includes/views/customers.php:74
 msgid "Email"
 msgstr ""
 
-#: includes/class-wc-pos-pro.php:93
+#: includes/class-wc-pos-pro.php:92
 msgid "Save Changes"
 msgstr ""
 
-#: includes/views/customers.php:25 includes/views/customers.php:58
+#: includes/views/customers.php:25 includes/views/customers.php:62
 #, fuzzy
 msgid "Add New Customer"
 msgstr "Ajouter un client"
 
-#: includes/views/customers.php:58
+#: includes/views/customers.php:62
 #, fuzzy
 msgid "Edit Customer"
 msgstr "Ajouter un client"
@@ -88,7 +88,7 @@ msgstr "Ajouter un client"
 msgid "Add Customer"
 msgstr "Ajouter un client"
 
-#: includes/views/products.php:66
+#: includes/views/products.php:82
 msgid "On Sale?"
 msgstr ""
 

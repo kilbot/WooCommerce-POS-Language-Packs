@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-03-13 04:49:19+00:00\n"
+"POT-Creation-Date: 2015-04-23 12:56:34+00:00\n"
 "PO-Revision-Date: 2014-10-11 17:38:04+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,31 +13,50 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/0.1\n"
 
-#: includes/class-wc-pos-ajax.php:127
+#: includes/api/class-wc-pos-orders.php:385
+msgid "There was an error processing the payment"
+msgstr "Υπήρξε ένα σφάλμα κατά την επεξεργασία της πληρωμής"
+
+#: includes/api/class-wc-pos-orders.php:411
+#, fuzzy
+msgid ""
+"You are now being redirected offsite to complete the payment.<br><a target="
+"\"_blank\" href=\"%s\">Click here</a> if you are not redirected "
+"automatically."
+msgstr ""
+"Μεταφέρεστε τώρα εκτός αυτής της σελίδας για ολοκλήρωση της πληρωμής. <br><a "
+"target=\"_blank\" href=\"%s\" data-redirect=\"true\">Κάντε κλικ εδώ</a> αν "
+"δεν μεταφερθείτε αυτόματα."
+
+#: includes/api/class-wc-pos-orders.php:425
+msgid "POS Transaction completed."
+msgstr ""
+
+#: includes/class-wc-pos-ajax.php:128
 #, fuzzy
 msgid "There is no settings id"
 msgstr "Υπήρξε ένα σφάλμα κατά την αποστολή του email"
 
-#: includes/class-wc-pos-ajax.php:137
+#: includes/class-wc-pos-ajax.php:138
 msgid "No handler found for %s settings"
 msgstr ""
 
-#: includes/class-wc-pos-ajax.php:157
+#: includes/class-wc-pos-ajax.php:158
 #, fuzzy
 msgid "Settings error"
 msgstr "Ρυθμίσεις"
 
-#: includes/class-wc-pos-ajax.php:177
+#: includes/class-wc-pos-ajax.php:174 includes/class-wc-pos-ajax.php:195
 #, fuzzy
-msgid "Email sent!"
+msgid "Email sent"
 msgstr "Το Email εστάλη"
 
-#: includes/class-wc-pos-ajax.php:181
+#: includes/class-wc-pos-ajax.php:179 includes/class-wc-pos-ajax.php:200
 #, fuzzy
-msgid "Error sending email"
-msgstr "Υπήρξε ένα σφάλμα κατά την αποστολή του email"
+msgid "There was an error sending the email"
+msgstr "Υπήρξε ένα πρόβλημα με την αποστολή e-mail σας."
 
-#: includes/class-wc-pos-ajax.php:197
+#: includes/class-wc-pos-ajax.php:215
 msgid "Invalid security nonce"
 msgstr ""
 
@@ -47,7 +66,7 @@ msgid "Online Store"
 msgstr "Ηλεκτρονικό Κατάστημα"
 
 #: includes/class-wc-pos-gateways.php:82
-#: includes/class-wc-pos-template.php:144
+#: includes/class-wc-pos-template.php:150
 msgid "POS"
 msgstr "POS"
 
@@ -55,27 +74,39 @@ msgstr "POS"
 msgid "To Pay"
 msgstr "Υπόλοιπο"
 
-#: includes/class-wc-pos-i18n.php:309 includes/views/pos/cart.php:129
+#: includes/class-wc-pos-i18n.php:302
+msgid "Paid"
+msgstr "Πληρωμένο"
+
+#: includes/class-wc-pos-i18n.php:303
+msgid "Unpaid"
+msgstr ""
+
+#: includes/class-wc-pos-i18n.php:304
+msgid "Email Receipt"
+msgstr "Απόδειξη Email"
+
+#: includes/class-wc-pos-i18n.php:313 includes/views/pos/cart.php:129
 msgid "Discount"
 msgstr "Έκπτωση"
 
-#: includes/class-wc-pos-i18n.php:315
+#: includes/class-wc-pos-i18n.php:319
 msgid "Process Payment"
 msgstr "Διαδικασία Πληρωμής"
 
-#: includes/class-wc-pos-i18n.php:319
+#: includes/class-wc-pos-i18n.php:323
 msgid "Return to Sale"
 msgstr "Επιστροφή στην Πώληση "
 
-#: includes/class-wc-pos-i18n.php:323
+#: includes/class-wc-pos-i18n.php:327
 msgid "Void"
 msgstr "Ακύρωση"
 
-#: includes/class-wc-pos-i18n.php:329
+#: includes/class-wc-pos-i18n.php:335
 msgid "Loading&hellip;"
 msgstr ""
 
-#: includes/class-wc-pos-i18n.php:331
+#: includes/class-wc-pos-i18n.php:337
 msgid "Your browser is not supported!"
 msgstr "Ο φυλλομετρητής (browser) σας δεν υποστηρίζεται!"
 
@@ -101,7 +132,7 @@ msgstr "API ενεργοποιημένο"
 msgid "Access to the REST API is required"
 msgstr "Απαιτείται η πρόσβαση στο REST API "
 
-#: includes/class-wc-pos.php:110
+#: includes/class-wc-pos.php:111
 #, fuzzy
 msgid "User not authorized to access WooCommerce POS"
 msgstr ""
@@ -132,14 +163,6 @@ msgstr "Προσφερόμενο Ποσό"
 #, fuzzy
 msgid "Change"
 msgstr "Ρέστα"
-
-#: includes/products/class-wc-pos-visibility.php:70
-msgid "POS Only"
-msgstr "Μόνο POS"
-
-#: includes/products/class-wc-pos-visibility.php:71
-msgid "Online Only"
-msgstr "Online Μόνο"
 
 #: includes/views/modals/browser.php:2
 #, fuzzy
@@ -198,6 +221,11 @@ msgstr "Μέθοδος Πληρωμής"
 msgid "Telephone"
 msgstr "Τηλέφωνο"
 
+#: includes/views/print/receipt.php:134
+#, fuzzy
+msgid "Qty"
+msgstr "Ποσότητα "
+
 #: includes/views/support.php:11
 #, fuzzy
 msgid "Support Form"
@@ -240,23 +268,28 @@ msgctxt "keyboard shortcuts"
 msgid "Hotkeys"
 msgstr ""
 
-#: includes/class-wc-pos-i18n.php:306
+#: includes/class-wc-pos-i18n.php:305
+msgctxt "order status, ie: open order in cart"
+msgid "Open"
+msgstr ""
+
+#: includes/class-wc-pos-i18n.php:310
 #, fuzzy
 msgctxt "system status: delete local records"
 msgid "Clear"
 msgstr "καθαρισμός"
 
-#: includes/class-wc-pos-i18n.php:317
+#: includes/class-wc-pos-i18n.php:321
 msgctxt "restore default settings"
 msgid "Restore defaults"
 msgstr ""
 
-#: includes/class-wc-pos-i18n.php:318
+#: includes/class-wc-pos-i18n.php:322
 msgctxt "Numpad return key"
 msgid "return"
 msgstr ""
 
-#: includes/class-wc-pos-i18n.php:335
+#: includes/class-wc-pos-i18n.php:341
 msgctxt "eg: 23 records"
 msgid "record |||| records"
 msgstr ""
@@ -271,18 +304,28 @@ msgctxt "Money returned from cash sale"
 msgid "Change"
 msgstr "Ρέστα"
 
-#: includes/views/pos/cart.php:9
+#: includes/views/pos/cart.php:9 includes/views/pos/receipt.php:10
 #, fuzzy
 msgctxt "Abbreviation of Quantity"
 msgid "Qty"
 msgstr "Ποσότητα "
 
 #: includes/views/pos/cart.php:107 includes/views/pos/cart.php:118
-#: includes/views/pos/receipt.php:65 includes/views/pos/receipt.php:74
+#: includes/views/pos/receipt.php:62 includes/views/pos/receipt.php:72
 #: includes/views/print/receipt.php:186 includes/views/print/receipt.php:195
 msgctxt "abbreviation for includes (tax)"
 msgid "incl."
 msgstr "συμπεριλαμβάνεται"
+
+#, fuzzy
+#~ msgid "Error sending email"
+#~ msgstr "Υπήρξε ένα σφάλμα κατά την αποστολή του email"
+
+#~ msgid "POS Only"
+#~ msgstr "Μόνο POS"
+
+#~ msgid "Online Only"
+#~ msgstr "Online Μόνο"
 
 #~ msgid ""
 #~ "WooCommerce 2.2 changed the way order statuses are handled which affected "
@@ -297,23 +340,8 @@ msgstr "συμπεριλαμβάνεται"
 #~ "em> στην σωστή κατάσταση (πχ: <em>Ολοκληρώθηκε</em>). <a class=\"button-"
 #~ "primary\" href=\"%s\">Ελέγξτε τις παραγγελίες σας μέσω POS</a>"
 
-#~ msgid ""
-#~ "You are now being redirected offsite to complete the payment.<br><a "
-#~ "target=\"_blank\" href=\"%s\" data-redirect=\"true\">Click here</a> if "
-#~ "you are not redirected automatically."
-#~ msgstr ""
-#~ "Μεταφέρεστε τώρα εκτός αυτής της σελίδας για ολοκλήρωση της πληρωμής. "
-#~ "<br><a target=\"_blank\" href=\"%s\" data-redirect=\"true\">Κάντε κλικ "
-#~ "εδώ</a> αν δεν μεταφερθείτε αυτόματα."
-
-#~ msgid "There was an error processing the payment"
-#~ msgstr "Υπήρξε ένα σφάλμα κατά την επεξεργασία της πληρωμής"
-
 #~ msgid "Search"
 #~ msgstr "Αναζήτηση"
-
-#~ msgid "Paid"
-#~ msgstr "Πληρωμένο"
 
 #~ msgid "Refresh"
 #~ msgstr "Ανανέωση "
@@ -370,9 +398,6 @@ msgstr "συμπεριλαμβάνεται"
 
 #~ msgid "Item Price"
 #~ msgstr "Τιμή Προϊόντος "
-
-#~ msgid "Email Receipt"
-#~ msgstr "Απόδειξη Email"
 
 #~ msgid "Email Address"
 #~ msgstr "Διεύθυνση Email"
@@ -612,9 +637,6 @@ msgstr "συμπεριλαμβάνεται"
 
 #~ msgid "Please enter your message"
 #~ msgstr "Παρακαλώ εισάγετε το μήνυμά σας"
-
-#~ msgid "There was a problem sending your email."
-#~ msgstr "Υπήρξε ένα πρόβλημα με την αποστολή e-mail σας."
 
 #~ msgid "Update"
 #~ msgstr "Αναβάθμιση"

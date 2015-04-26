@@ -1,0 +1,108 @@
+# Translation of WooCommerce POS Pro in Portuguese (Brazil)
+# This file is distributed under the same license as the WooCommerce POS Pro package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce POS Pro\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
+"Packs/issues\n"
+"POT-Creation-Date: 2015-03-13 04:49:21+00:00\n"
+"PO-Revision-Date: 2014-11-14 13:55:31+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: GlotPress/0.1\n"
+
+#: includes/class-wc-pos-pro-stores.php:40
+#: includes/class-wc-pos-pro-stores.php:42
+#: includes/class-wc-pos-pro-stores.php:48
+msgid "Stores"
+msgstr ""
+
+#: includes/class-wc-pos-pro-stores.php:41
+#: includes/class-wc-pos-pro-stores.php:85
+#: includes/widgets/class-wc-pos-pro-hours.php:82
+msgid "Store"
+msgstr ""
+
+#: includes/class-wc-pos-pro-stores.php:43
+#: includes/class-wc-pos-pro-stores.php:44
+msgid "Add New Store"
+msgstr ""
+
+#: includes/class-wc-pos-pro-stores.php:45
+msgid "New Store"
+msgstr ""
+
+#: includes/class-wc-pos-pro-stores.php:46
+msgid "Edit Store"
+msgstr ""
+
+#: includes/class-wc-pos-pro-stores.php:47
+msgid "View Store"
+msgstr ""
+
+#: includes/class-wc-pos-pro-stores.php:49
+msgid "Search Stores"
+msgstr ""
+
+#: includes/class-wc-pos-pro-stores.php:50
+msgid "Parent Store:"
+msgstr ""
+
+#: includes/class-wc-pos-pro-stores.php:51
+msgid "No Stores found."
+msgstr ""
+
+#: includes/class-wc-pos-pro-stores.php:52
+msgid "No Stores found in Trash."
+msgstr ""
+
+#. translators: woocommerce
+#. translators: wordpress
+#. translators: woocommerce
+#. translators: woocommerce
+#: includes/class-wc-pos-pro-template.php:98 includes/views/customers.php:14
+#: includes/views/customers.php:70
+msgid "Email"
+msgstr ""
+
+#: includes/class-wc-pos-pro.php:93
+msgid "Save Changes"
+msgstr ""
+
+#: includes/views/customers.php:25 includes/views/customers.php:58
+#, fuzzy
+msgid "Add New Customer"
+msgstr "Adicionar ao Cliente"
+
+#: includes/views/customers.php:58
+#, fuzzy
+msgid "Edit Customer"
+msgstr "Adicionar ao Cliente"
+
+#: includes/views/pos.php:13
+msgid "Add Customer"
+msgstr "Adicionar ao Cliente"
+
+#: includes/views/products.php:66
+msgid "On Sale?"
+msgstr ""
+
+#: includes/widgets/class-wc-pos-pro-hours.php:17
+msgid "Store Opening Hours"
+msgstr ""
+
+#: includes/widgets/class-wc-pos-pro-hours.php:18
+msgid "Display store hours set in WooCommerce POS"
+msgstr ""
+
+#: includes/widgets/class-wc-pos-pro-hours.php:88
+msgid "No stores. <a href=\"%s\">Create a new store</a>."
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"WooCommerce POS Pro adds extra functionality to the free plugin. Requires <a "
+"href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce POS</a>."
+msgstr ""

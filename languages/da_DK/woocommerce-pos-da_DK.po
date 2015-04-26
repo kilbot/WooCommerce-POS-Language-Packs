@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-03-13 04:49:19+00:00\n"
+"POT-Creation-Date: 2015-04-23 12:56:34+00:00\n"
 "PO-Revision-Date: 2014-08-24 08:37:40+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,31 +13,47 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/0.1\n"
 
-#: includes/class-wc-pos-ajax.php:127
+#: includes/api/class-wc-pos-orders.php:385
+#, fuzzy
+msgid "There was an error processing the payment"
+msgstr "Der var et problem med at hente produkterne."
+
+#: includes/api/class-wc-pos-orders.php:411
+msgid ""
+"You are now being redirected offsite to complete the payment.<br><a target="
+"\"_blank\" href=\"%s\">Click here</a> if you are not redirected "
+"automatically."
+msgstr ""
+
+#: includes/api/class-wc-pos-orders.php:425
+msgid "POS Transaction completed."
+msgstr ""
+
+#: includes/class-wc-pos-ajax.php:128
 #, fuzzy
 msgid "There is no settings id"
 msgstr "Der skete en fejl ved forsendelsen af e-mailen"
 
-#: includes/class-wc-pos-ajax.php:137
+#: includes/class-wc-pos-ajax.php:138
 msgid "No handler found for %s settings"
 msgstr ""
 
-#: includes/class-wc-pos-ajax.php:157
+#: includes/class-wc-pos-ajax.php:158
 #, fuzzy
 msgid "Settings error"
 msgstr "Indstillinger"
 
-#: includes/class-wc-pos-ajax.php:177
+#: includes/class-wc-pos-ajax.php:174 includes/class-wc-pos-ajax.php:195
 #, fuzzy
-msgid "Email sent!"
+msgid "Email sent"
 msgstr "E-mail sendt"
 
-#: includes/class-wc-pos-ajax.php:181
+#: includes/class-wc-pos-ajax.php:179 includes/class-wc-pos-ajax.php:200
 #, fuzzy
-msgid "Error sending email"
-msgstr "Der skete en fejl ved forsendelsen af e-mailen"
+msgid "There was an error sending the email"
+msgstr "Der var et problem med at sende din e-mail."
 
-#: includes/class-wc-pos-ajax.php:197
+#: includes/class-wc-pos-ajax.php:215
 msgid "Invalid security nonce"
 msgstr ""
 
@@ -47,7 +63,7 @@ msgid "Online Store"
 msgstr "Online butik"
 
 #: includes/class-wc-pos-gateways.php:82
-#: includes/class-wc-pos-template.php:144
+#: includes/class-wc-pos-template.php:150
 msgid "POS"
 msgstr "POS"
 
@@ -55,27 +71,39 @@ msgstr "POS"
 msgid "To Pay"
 msgstr "At betale"
 
-#: includes/class-wc-pos-i18n.php:309 includes/views/pos/cart.php:129
+#: includes/class-wc-pos-i18n.php:302
+msgid "Paid"
+msgstr "Betalt"
+
+#: includes/class-wc-pos-i18n.php:303
+msgid "Unpaid"
+msgstr ""
+
+#: includes/class-wc-pos-i18n.php:304
+msgid "Email Receipt"
+msgstr "E-mail kvittering"
+
+#: includes/class-wc-pos-i18n.php:313 includes/views/pos/cart.php:129
 msgid "Discount"
 msgstr "Rabat"
 
-#: includes/class-wc-pos-i18n.php:315
+#: includes/class-wc-pos-i18n.php:319
 msgid "Process Payment"
 msgstr "Behandl betaling"
 
-#: includes/class-wc-pos-i18n.php:319
+#: includes/class-wc-pos-i18n.php:323
 msgid "Return to Sale"
 msgstr "Retur til salg"
 
-#: includes/class-wc-pos-i18n.php:323
+#: includes/class-wc-pos-i18n.php:327
 msgid "Void"
 msgstr "Slet"
 
-#: includes/class-wc-pos-i18n.php:329
+#: includes/class-wc-pos-i18n.php:335
 msgid "Loading&hellip;"
 msgstr ""
 
-#: includes/class-wc-pos-i18n.php:331
+#: includes/class-wc-pos-i18n.php:337
 msgid "Your browser is not supported!"
 msgstr "Din browser er ikke understøttet!"
 
@@ -101,7 +129,7 @@ msgstr "API er aktivt"
 msgid "Access to the REST API is required"
 msgstr "Adgang til REST API er krævet"
 
-#: includes/class-wc-pos.php:110
+#: includes/class-wc-pos.php:111
 #, fuzzy
 msgid "User not authorized to access WooCommerce POS"
 msgstr "Bruger har ikke rettigheder til at styre WooCommerce POS"
@@ -131,14 +159,6 @@ msgstr "Beløb betalt"
 #, fuzzy
 msgid "Change"
 msgstr "Byttepenge"
-
-#: includes/products/class-wc-pos-visibility.php:70
-msgid "POS Only"
-msgstr "POS kun"
-
-#: includes/products/class-wc-pos-visibility.php:71
-msgid "Online Only"
-msgstr "Kun online"
 
 #: includes/views/modals/browser.php:2
 #, fuzzy
@@ -197,6 +217,11 @@ msgstr "Betalingsmetode"
 msgid "Telephone"
 msgstr "Telefon"
 
+#: includes/views/print/receipt.php:134
+#, fuzzy
+msgid "Qty"
+msgstr "Antal"
+
 #: includes/views/support.php:11
 #, fuzzy
 msgid "Support Form"
@@ -236,23 +261,28 @@ msgctxt "keyboard shortcuts"
 msgid "Hotkeys"
 msgstr ""
 
-#: includes/class-wc-pos-i18n.php:306
+#: includes/class-wc-pos-i18n.php:305
+msgctxt "order status, ie: open order in cart"
+msgid "Open"
+msgstr ""
+
+#: includes/class-wc-pos-i18n.php:310
 #, fuzzy
 msgctxt "system status: delete local records"
 msgid "Clear"
 msgstr "nulstil"
 
-#: includes/class-wc-pos-i18n.php:317
+#: includes/class-wc-pos-i18n.php:321
 msgctxt "restore default settings"
 msgid "Restore defaults"
 msgstr ""
 
-#: includes/class-wc-pos-i18n.php:318
+#: includes/class-wc-pos-i18n.php:322
 msgctxt "Numpad return key"
 msgid "return"
 msgstr ""
 
-#: includes/class-wc-pos-i18n.php:335
+#: includes/class-wc-pos-i18n.php:341
 msgctxt "eg: 23 records"
 msgid "record |||| records"
 msgstr ""
@@ -267,21 +297,28 @@ msgctxt "Money returned from cash sale"
 msgid "Change"
 msgstr "Byttepenge"
 
-#: includes/views/pos/cart.php:9
+#: includes/views/pos/cart.php:9 includes/views/pos/receipt.php:10
 #, fuzzy
 msgctxt "Abbreviation of Quantity"
 msgid "Qty"
 msgstr "Antal"
 
 #: includes/views/pos/cart.php:107 includes/views/pos/cart.php:118
-#: includes/views/pos/receipt.php:65 includes/views/pos/receipt.php:74
+#: includes/views/pos/receipt.php:62 includes/views/pos/receipt.php:72
 #: includes/views/print/receipt.php:186 includes/views/print/receipt.php:195
 msgctxt "abbreviation for includes (tax)"
 msgid "incl."
 msgstr "Inkl."
 
-#~ msgid "Paid"
-#~ msgstr "Betalt"
+#, fuzzy
+#~ msgid "Error sending email"
+#~ msgstr "Der skete en fejl ved forsendelsen af e-mailen"
+
+#~ msgid "POS Only"
+#~ msgstr "POS kun"
+
+#~ msgid "Online Only"
+#~ msgstr "Kun online"
 
 #~ msgid "Refresh"
 #~ msgstr "Opdater"
@@ -335,9 +372,6 @@ msgstr "Inkl."
 
 #~ msgid "Item Price"
 #~ msgstr "Pris"
-
-#~ msgid "Email Receipt"
-#~ msgstr "E-mail kvittering"
 
 #~ msgid "Email Address"
 #~ msgstr "E-mail adresse"
@@ -473,9 +507,6 @@ msgstr "Inkl."
 #~ msgid "There was a problem connecting to the local database."
 #~ msgstr "Der var et problem med at tilslutte til den lokale database."
 
-#~ msgid "There was a problem downloading the products."
-#~ msgstr "Der var et problem med at hente produkterne."
-
 #~ msgid "There has been an error."
 #~ msgstr "Der indtraf en fejl."
 
@@ -570,9 +601,6 @@ msgstr "Inkl."
 
 #~ msgid "Please enter your message"
 #~ msgstr "Indtast din besked"
-
-#~ msgid "There was a problem sending your email."
-#~ msgstr "Der var et problem med at sende din e-mail."
 
 #~ msgid "Update"
 #~ msgstr "Opdater"

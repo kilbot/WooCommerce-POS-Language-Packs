@@ -5,50 +5,46 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS 0.4-alpha\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-04-23 12:56:35+00:00\n"
-"PO-Revision-Date: 2015-03-13 04:49:20+00:00\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: ca\n"
+"POT-Creation-Date: 2015-03-13 04:49:20+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-03-13 04:49:20+00:00\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
 "X-Generator: grunt-wp-i18n 0.5.0\n"
+"Language: ca\n"
 
 #: includes/admin/class-wc-pos-menu.php:34
 #: includes/admin/class-wc-pos-menu.php:35
 msgid "POS"
-msgstr ""
+msgstr "POS"
 
 #: includes/admin/class-wc-pos-menu.php:44
 #: includes/admin/class-wc-pos-menu.php:45
 msgid "View POS"
-msgstr ""
+msgstr "Vés al POS"
 
 #: includes/admin/class-wc-pos-menu.php:53
 #: includes/admin/settings/views/checkout.php:88
 msgid "Upgrade to Pro"
-msgstr ""
+msgstr "Actualitza a la versió PRO"
 
 #: includes/admin/settings/class-wc-pos-access.php:58
 msgid "POS Access"
-msgstr ""
+msgstr "Accès al POS"
 
-#: includes/admin/settings/class-wc-pos-hotkeys.php:44
+#: includes/admin/settings/class-wc-pos-hotkeys.php:24
 msgid "Help screen"
-msgstr ""
+msgstr "Ajuda"
 
-#: includes/admin/settings/class-wc-pos-hotkeys.php:45
+#: includes/admin/settings/class-wc-pos-hotkeys.php:28
 msgid "Barcode search"
-msgstr ""
+msgstr "Cerca per codi de barres"
 
-#: includes/admin/settings/class-wc-pos-hotkeys.php:47
-msgid "New order"
-msgstr ""
-
-#: includes/admin/settings/class-wc-pos-hotkeys.php:48
+#: includes/admin/settings/class-wc-pos-hotkeys.php:32
 msgid "Sync with server"
-msgstr ""
+msgstr "Sincronitza amb el servidor"
 
 #: includes/admin/settings/views/access.php:7
 msgid "Grant POS Access"
@@ -58,121 +54,120 @@ msgstr ""
 msgid ""
 "By default, access to the POS is limited to Administrator and Shop Manager "
 "roles."
-msgstr ""
+msgstr "Per defecte, l'accès al POS està limitat als rols d'Administrador i Gestor de la botiga."
 
 #: includes/admin/settings/views/access.php:11
 msgid ""
 "It is recommended that you <strong>do not change</strong> the default "
 "settings unless you are fully aware of the consequences."
-msgstr ""
+msgstr "Us recomanem que <strong>no feu canvis</strong> als paràmetres "
+"per defecte, si no teniu clares les conseqüències."
 
 #: includes/admin/settings/views/access.php:12
 #: includes/admin/settings/views/checkout.php:50
 #: includes/admin/settings/views/hotkeys.php:6
 msgid ""
 "For more information please visit <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
-msgstr ""
+msgstr "Més informació a: <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
 
 #: includes/admin/settings/views/checkout.php:13
 msgid "Completed Order Status"
-msgstr ""
+msgstr "Estat de comanda completada"
 
 #: includes/admin/settings/views/checkout.php:14
 msgid "Change the default order status for POS sales"
-msgstr ""
+msgstr "Canvia l'estat de les comandes realitzades des del POS"
 
 #: includes/admin/settings/views/checkout.php:27
 msgid "Order Emails"
-msgstr ""
+msgstr "Correus de les comandes"
 
 #: includes/admin/settings/views/checkout.php:28
-msgid "Send WooCommerce notification emails for POS orders"
+msgid "blah"
 msgstr ""
 
 #: includes/admin/settings/views/checkout.php:44
 msgid ""
 "Installed gateways are listed below. Drag and drop gateways to control their "
 "display order at the Point of Sale. "
-msgstr ""
+msgstr "S'han instal·lat les següents passarel·les de pagament. Ordeneu-les segons"
+"vulgueu qe es mostrin al Point of Sale. "
 
 #: includes/admin/settings/views/checkout.php:45
 msgid ""
 "Payment Gateways enabled here will be available at the Point of Sale. "
 "Payment Gateways enabled on the settings page will be available in your "
 "Online Store. "
-msgstr ""
+msgstr "Les passarel·les de pagament que habiliteu aquí estaran disponibles pel POS"
+"Les passarel·les de pagament habilitades als paràmetrs estaran disponibles a la "
+"botiga online. "
 
 #: includes/admin/settings/views/checkout.php:49
 msgid ""
 "It is your responsibility to ensure the security of your customer's "
 "information. Transmitting credit card or other sensitive information should "
 "only be done using a secure connnection."
-msgstr ""
+msgstr "És la vostra responsabilitat garantir la seguretat de la informació dels clients"
+"la transmissió del número de targeta o informació sensible s'hauria de fer "
+"mitjançant una connexió segura. "
 
 #: includes/admin/settings/views/checkout.php:56
 msgid "Gateway Display"
-msgstr ""
+msgstr "Mostra les passarel·les de pagament"
 
 #: includes/admin/settings/views/checkout.php:64
 msgid "Online Status"
-msgstr ""
+msgstr "Online"
 
 #: includes/admin/settings/views/checkout.php:65
 msgid "POS Status"
-msgstr ""
+msgstr "Estat del POS"
 
 #: includes/admin/settings/views/checkout.php:66
 msgid "POS Settings"
-msgstr ""
+msgstr "Paràmetres del POS"
 
 #: includes/admin/settings/views/checkout.php:113
 msgid "Payment method title."
-msgstr ""
+msgstr "Títol del mètode de pagament"
 
 #: includes/admin/settings/views/checkout.php:120
 msgid "Payment method description that will be shown in the POS."
-msgstr ""
+msgstr "Descripció del mètode de pagament que es mostrarà al POS"
 
 #: includes/admin/settings/views/checkout.php:126
 msgid "Icon"
-msgstr ""
+msgstr "Icona"
 
 #: includes/admin/settings/views/general.php:13
 msgid "Product Visibility"
-msgstr ""
+msgstr "Visibilitat del producte"
 
 #: includes/admin/settings/views/general.php:17
 msgid "Enable <a href=\"%s\">POS Only products</a>"
-msgstr ""
+msgstr "Permet <a href=\"%s\">Productes exclusius pel POS</a>"
 
 #: includes/admin/settings/views/general.php:23
-msgid "Allow Decimal Quantity"
-msgstr ""
+msgid "Default POS Customer"
+msgstr "Client predeterminat del POS"
 
 #: includes/admin/settings/views/general.php:24
-msgid "Allows items to have decimal values in the quantity field, eg: 0.25"
-msgstr ""
-
-#: includes/admin/settings/views/general.php:34
-msgid "Default POS Customer"
-msgstr ""
-
-#: includes/admin/settings/views/general.php:35
 msgid ""
 "The default customer for POS orders, eg: Guest or create a new customer."
 msgstr ""
+"El client predeterminat per les comandes fetes pel POS. Ex: invitat o creeu un nou client."
 
-#: includes/admin/settings/views/general.php:46
+#: includes/admin/settings/views/general.php:35
 msgid "Discount Quick Keys"
-msgstr ""
+msgstr "Descomptes ràpids"
 
-#: includes/admin/settings/views/general.php:47
+#: includes/admin/settings/views/general.php:36
 msgid "Configure discount keys for quick numpad entry"
-msgstr ""
+msgstr "Configureu tecles de descompte escrivint des del teclat numèric"
 
 #: includes/admin/settings/views/hotkeys.php:1
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Dreceres del teclat"
 
 #: includes/admin/settings/views/hotkeys.php:4
 msgid ""
@@ -208,42 +203,25 @@ msgid ""
 "<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to "
 "work correctly. Please <a href=\"%s\">enable permalinks</a>."
 msgstr ""
-
-#: includes/products/class-wc-pos-visibility.php:21
-msgid "POS & Online"
-msgstr ""
-
-#: includes/products/class-wc-pos-visibility.php:22
-#: includes/products/class-wc-pos-visibility.php:85
-msgid "POS Only"
-msgstr ""
-
-#: includes/products/class-wc-pos-visibility.php:23
-#: includes/products/class-wc-pos-visibility.php:86
-msgid "Online Only"
-msgstr ""
-
-#: includes/products/views/post-metabox-visibility-select.php:11
-#: includes/products/views/quick-edit-visibility-select.php:14
-msgid "POS visibility"
-msgstr ""
+"La <strong>REST API de WooCommerce</strong> necessita <em>bastants</em> enllaços permanents "
+"per fncionar correctament. Habiliteu els <a href=\"%s\">enllaços permanents</a>."
 
 #: includes/admin/class-wc-pos-permalink.php:28
 msgctxt "Permalink setting, eg: /pos"
 msgid "POS base"
-msgstr ""
+msgstr "POS base"
 
-#: includes/admin/settings/class-wc-pos-hotkeys.php:21
+#: includes/admin/settings/class-wc-pos-hotkeys.php:19
 msgctxt "keyboard shortcuts"
 msgid "HotKeys"
-msgstr ""
+msgstr "Tecles d'accès ràpid"
 
 #: includes/admin/settings/views/checkout.php:130
 msgctxt "POS checkout settings"
 msgid "Show payment gateway icon."
-msgstr ""
+msgstr "Mostra la icona de la passarel·la de pagament"
 
-#: includes/admin/settings/views/general.php:40
+#: includes/admin/settings/views/general.php:29
 msgctxt "Default customer setting"
 msgid "Use cashier account"
-msgstr ""
+msgstr "Utilitze el compte del caixer"

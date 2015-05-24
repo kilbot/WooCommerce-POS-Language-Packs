@@ -84,7 +84,7 @@ msgstr ""
 msgid ""
 "For more information please visit <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
 msgstr ""
-"Bezoek <a href=\"%1$s\" target=\"_blank\">%1$s</a> voor meer informatie"
+"Bezoek <a href=\"%1$s\" target=\"_blank\">%1$s</a> voor meer informatie."
 
 #: includes/admin/settings/views/checkout.php:13
 msgid "Completed Order Status"
@@ -130,7 +130,7 @@ msgstr ""
 
 #: includes/admin/settings/views/checkout.php:56
 msgid "Gateway Display"
-msgstr "Betaalmethode Overzicht"
+msgstr "Betaalmethoden Overzicht"
 
 #: includes/admin/settings/views/checkout.php:64
 msgid "Online Status"
@@ -198,87 +198,98 @@ msgid ""
 "You can trigger certain events in WooCommerce POS using keyboard shortcuts "
 "(HotKeys)."
 msgstr ""
+"Je kunt bepaalde gebeurtenissen triggeren in WooCommerce KASSA door middel van sneltoetsen "
+"(HotKeys)."
 
 #: includes/admin/settings/views/hotkeys.php:5
 msgid ""
 "HotKeys can also be used as a prefix for your barcode scanner or card reader."
 msgstr ""
+"Sneltoetsen kunne ook worden gebruikt als een prefix voor je barcodescanner of cardlezer."
 
 #: includes/admin/settings/views/tools.php:33
 msgid "Receipt Template"
-msgstr ""
+msgstr "Kassabon template"
 
 #: includes/admin/settings/views/tools.php:36
 msgid "View Sample Receipt"
-msgstr ""
+msgstr "Bekijk voorbeeld kassabon"
 
 #: includes/admin/settings/views/tools.php:38
 msgid "<strong class=\"red\">Template path:</strong> %s"
-msgstr ""
+msgstr "<strong class=\"red\">Template pad:</strong> %s"
 
 #: includes/admin/views/order-details.php:2
 msgid "Order type"
-msgstr ""
+msgstr "Order type"
 
 #: includes/admin/views/settings.php:12
 msgid ""
 "There has been an error loading the settings, please contact <a href="
 "\"mailto:support@woopos.com.au\">support</a>"
 msgstr ""
+"Er is een fout opgetreden bij het inlezen van de instellingen, neem contact op met <a href="
+"\"mailto:support@woopos.com.au\">support</a>"
 
 #: includes/class-wc-pos-activator.php:145
 msgid ""
 "<strong>WooCommerce POS</strong> requires <a href=\"%s\">WooCommerce</a>. "
 "Please <a href=\"%s\">install and activate WooCommerce</a>"
 msgstr ""
+"<strong>WooCommerce KASSA</strong> vereist <a href=\"%s\">WooCommerce</a>. "
+"<a href=\"%s\">installeer en activeer WooCommerce</a>"
 
 #: includes/class-wc-pos-activator.php:164
 msgid ""
 "<strong>WooCommerce POS</strong> requires the WooCommerce REST API. Please "
 "<a href=\"%s\">enable the REST API</a>"
 msgstr ""
+"<strong>WooCommerce KASSA</strong> vereist de WooCommerce REST API. "
+"<a href=\"%s\">Enable de REST API</a>"
 
 #: includes/class-wc-pos-activator.php:181
 msgid ""
 "<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to "
 "work correctly. Please <a href=\"%s\">enable permalinks</a>."
 msgstr ""
+"<strong>WooCommerce REST API</strong> vereist <em>pretty</em> permalinks om "
+"zijn werk te doen. <a href=\"%s\">Enable permalinks</a>."
 
 #: includes/products/class-wc-pos-visibility.php:23
 msgid "POS & Online"
-msgstr ""
+msgstr "Zowel KASSA en Online"
 
 #: includes/products/class-wc-pos-visibility.php:24
 #: includes/products/class-wc-pos-visibility.php:87
-msgid "POS Only"
-msgstr ""
+msgid "POS only"
+msgstr "Alleen KASSA"
 
 #: includes/products/class-wc-pos-visibility.php:25
 #: includes/products/class-wc-pos-visibility.php:88
-msgid "Online Only"
-msgstr ""
+msgid "Online only"
+msgstr "Alleen Online"
 
 #: includes/products/views/post-metabox-visibility-select.php:11
 #: includes/products/views/quick-edit-visibility-select.php:14
 msgid "POS visibility"
-msgstr ""
+msgstr "KASSA zichtbaarheid"
 
 #: includes/admin/class-wc-pos-permalink.php:28
 msgctxt "Permalink setting, eg: /pos"
 msgid "POS base"
-msgstr ""
+msgstr "KASSA base"
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:21
 msgctxt "keyboard shortcuts"
 msgid "HotKeys"
-msgstr ""
+msgstr "Sneltoetsen"
 
 #: includes/admin/settings/views/checkout.php:134
 msgctxt "POS checkout settings"
 msgid "Show payment gateway icon."
-msgstr ""
+msgstr "Toon betaalmethode icoon."
 
 #: includes/admin/settings/views/general.php:40
 msgctxt "Default customer setting"
 msgid "Use cashier account"
-msgstr ""
+msgstr "Gebruik Kassier account"

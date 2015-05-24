@@ -261,12 +261,12 @@ msgstr "Zowel KASSA en Online"
 
 #: includes/products/class-wc-pos-visibility.php:24
 #: includes/products/class-wc-pos-visibility.php:87
-msgid "POS only"
+msgid "POS Only"
 msgstr "Alleen KASSA"
 
 #: includes/products/class-wc-pos-visibility.php:25
 #: includes/products/class-wc-pos-visibility.php:88
-msgid "Online only"
+msgid "Online Only"
 msgstr "Alleen Online"
 
 #: includes/products/views/post-metabox-visibility-select.php:11

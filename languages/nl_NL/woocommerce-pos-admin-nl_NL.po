@@ -38,11 +38,11 @@ msgstr "Upgraden naar Pro"
 #: includes/admin/class-wc-pos-orders.php:90
 #: includes/admin/views/order-details.php:4
 msgid "Online"
-msgstr ""
+msgstr "Online"
 
 #: includes/admin/settings/class-wc-pos-access.php:58
 msgid "POS Access"
-msgstr "KASSA toegang"
+msgstr "Toegang tot KASSA"
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:41
 msgid "Help screen"
@@ -50,11 +50,11 @@ msgstr "Help scherm"
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:42
 msgid "Barcode search"
-msgstr "Barcode zoeken"
+msgstr "Zoek op barcode"
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:44
 msgid "New order"
-msgstr "Nieuwe verkoop"
+msgstr "Nieuwe klant"
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:45
 msgid "Sync with server"
@@ -62,19 +62,21 @@ msgstr "Sync. met de server"
 
 #: includes/admin/settings/views/access.php:7
 msgid "Grant POS Access"
-msgstr "Geef KASSA toegang"
+msgstr "Geef toegang tot KASSA"
 
 #: includes/admin/settings/views/access.php:10
 msgid ""
 "By default, access to the POS is limited to Administrator and Shop Manager "
 "roles."
-msgstr ""
+msgstr "Standaard is toegang tot KASSA beperkt tot Administrator en Shopmanager"
 
 #: includes/admin/settings/views/access.php:11
 msgid ""
 "It is recommended that you <strong>do not change</strong> the default "
 "settings unless you are fully aware of the consequences."
 msgstr ""
+"Aanbevolen wordt de standaard instellingen <strong>niet</strong> te wijzigen "
+"als je niet volledig op de hoogte bent van de mogelijke gevolgen."
 
 #: includes/admin/settings/views/access.php:12
 #: includes/admin/settings/views/checkout.php:50
@@ -82,22 +84,23 @@ msgstr ""
 msgid ""
 "For more information please visit <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
 msgstr ""
+"Bezoek <a href=\"%1$s\" target=\"_blank\">%1$s</a> voor meer informatie"
 
 #: includes/admin/settings/views/checkout.php:13
 msgid "Completed Order Status"
-msgstr ""
+msgstr "Status voor voltooide verkoop"
 
 #: includes/admin/settings/views/checkout.php:14
 msgid "Change the default order status for POS sales"
-msgstr ""
+msgstr "Verander de standaard status voor KASSA verkopen"
 
 #: includes/admin/settings/views/checkout.php:27
 msgid "Order Emails"
-msgstr ""
+msgstr "Stuur Emails na verkoop"
 
 #: includes/admin/settings/views/checkout.php:28
 msgid "Send WooCommerce notification emails for POS orders"
-msgstr ""
+msgstr "Stuur WooCommerce kennisgevings emails voor KASSA verkopen"
 
 #: includes/admin/settings/views/checkout.php:44
 msgid ""

@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS Pro 0.4.0-alpha\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-04-07 15:16:18+00:00\n"
+"POT-Creation-Date: 2015-05-23 14:32:55+00:00\n"
 "PO-Revision-Date: 2015-03-13 04:49:21+00:00\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -15,48 +15,56 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: grunt-wp-i18n 0.4.9\n"
 
-#: includes/class-wc-pos-pro-stores.php:40
-#: includes/class-wc-pos-pro-stores.php:42
+#: includes/class-wc-pos-pro-i18n.php:103
+msgid "Activate"
+msgstr ""
+
+#: includes/class-wc-pos-pro-i18n.php:104
+msgid "Deactivate"
+msgstr ""
+
+#: includes/class-wc-pos-pro-stores.php:46
 #: includes/class-wc-pos-pro-stores.php:48
+#: includes/class-wc-pos-pro-stores.php:54
 msgid "Stores"
 msgstr ""
 
-#: includes/class-wc-pos-pro-stores.php:41
-#: includes/class-wc-pos-pro-stores.php:85
+#: includes/class-wc-pos-pro-stores.php:47
+#: includes/class-wc-pos-pro-stores.php:91
 #: includes/widgets/class-wc-pos-pro-hours.php:82
 msgid "Store"
 msgstr ""
 
-#: includes/class-wc-pos-pro-stores.php:43
-#: includes/class-wc-pos-pro-stores.php:44
+#: includes/class-wc-pos-pro-stores.php:49
+#: includes/class-wc-pos-pro-stores.php:50
 msgid "Add New Store"
 msgstr ""
 
-#: includes/class-wc-pos-pro-stores.php:45
+#: includes/class-wc-pos-pro-stores.php:51
 msgid "New Store"
 msgstr ""
 
-#: includes/class-wc-pos-pro-stores.php:46
+#: includes/class-wc-pos-pro-stores.php:52
 msgid "Edit Store"
 msgstr ""
 
-#: includes/class-wc-pos-pro-stores.php:47
+#: includes/class-wc-pos-pro-stores.php:53
 msgid "View Store"
 msgstr ""
 
-#: includes/class-wc-pos-pro-stores.php:49
+#: includes/class-wc-pos-pro-stores.php:55
 msgid "Search Stores"
 msgstr ""
 
-#: includes/class-wc-pos-pro-stores.php:50
+#: includes/class-wc-pos-pro-stores.php:56
 msgid "Parent Store:"
 msgstr ""
 
-#: includes/class-wc-pos-pro-stores.php:51
+#: includes/class-wc-pos-pro-stores.php:57
 msgid "No Stores found."
 msgstr ""
 
-#: includes/class-wc-pos-pro-stores.php:52
+#: includes/class-wc-pos-pro-stores.php:58
 msgid "No Stores found in Trash."
 msgstr ""
 
@@ -65,12 +73,8 @@ msgstr ""
 #. translators: woocommerce
 #. translators: woocommerce
 #: includes/class-wc-pos-pro-template.php:98 includes/views/customers.php:14
-#: includes/views/customers.php:74
+#: includes/views/customers.php:74 includes/views/print/receipt.php:156
 msgid "Email"
-msgstr ""
-
-#: includes/class-wc-pos-pro.php:92
-msgid "Save Changes"
 msgstr ""
 
 #: includes/views/customers.php:25 includes/views/customers.php:62
@@ -85,7 +89,59 @@ msgstr ""
 msgid "Add Customer"
 msgstr ""
 
-#: includes/views/products.php:82
+#: includes/views/print/receipt.php:4
+msgid "Pro Receipt"
+msgstr ""
+
+#: includes/views/print/receipt.php:135
+msgid "Billing Address"
+msgstr ""
+
+#: includes/views/print/receipt.php:138
+msgid "Shipping Address"
+msgstr ""
+
+#: includes/views/print/receipt.php:143
+msgid "Order Number"
+msgstr ""
+
+#: includes/views/print/receipt.php:147
+msgid "Order Date"
+msgstr ""
+
+#: includes/views/print/receipt.php:151
+msgid "Payment Method"
+msgstr ""
+
+#: includes/views/print/receipt.php:162
+msgid "Telephone"
+msgstr ""
+
+#: includes/views/print/receipt.php:171
+msgid "Qty"
+msgstr ""
+
+#: includes/views/print/receipt.php:172
+msgid "Price"
+msgstr ""
+
+#: includes/views/print/receipt.php:203
+msgid "Cart Subtotal"
+msgstr ""
+
+#: includes/views/print/receipt.php:208
+msgid "Cart Discount"
+msgstr ""
+
+#: includes/views/print/receipt.php:249
+msgid "Order Discount"
+msgstr ""
+
+#: includes/views/print/receipt.php:254
+msgid "Order Total"
+msgstr ""
+
+#: includes/views/products.php:86
 msgid "On Sale?"
 msgstr ""
 
@@ -105,4 +161,9 @@ msgstr ""
 msgid ""
 "WooCommerce POS Pro adds extra functionality to the free plugin. Requires <a "
 "href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce POS</a>."
+msgstr ""
+
+#: includes/views/print/receipt.php:230 includes/views/print/receipt.php:240
+msgctxt "abbreviation for includes (tax)"
+msgid "incl."
 msgstr ""

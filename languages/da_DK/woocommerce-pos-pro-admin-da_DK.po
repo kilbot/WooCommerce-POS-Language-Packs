@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS Pro Admin\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-03-13 04:49:21+00:00\n"
+"POT-Creation-Date: 2015-05-23 14:32:55+00:00\n"
 "PO-Revision-Date: 2014-11-14 13:36:03+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,34 +13,60 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/0.1\n"
 
-#: includes/admin/class-wc-pos-pro-am.php:76
-msgid "License Activation"
-msgstr "Licens aktivering"
-
-#: includes/admin/class-wc-pos-pro-am.php:77
-msgid "License Key"
-msgstr "Licensnøgle"
-
-#: includes/admin/class-wc-pos-pro-am.php:78
-msgid "License Email"
-msgstr "Licens e-mail"
-
-#: includes/admin/class-wc-pos-pro-am.php:142
+#: includes/admin/class-wc-pos-pro-am.php:109
 msgid ""
 "<b>Warning!</b> You're blocking external requests which means you won't be "
 "able to get %s updates. Please add %s to %s."
 msgstr ""
 
-#: includes/admin/class-wc-pos-pro-am.php:153
+#: includes/admin/class-wc-pos-pro-am.php:124
 msgid "The %s License Key has not been activated, so the plugin is inactive!"
 msgstr ""
 
-#: includes/admin/class-wc-pos-pro-am.php:159
+#: includes/admin/class-wc-pos-pro-am.php:125
 msgid ""
 " <a href=\"%s\">Click here</a> to activate the license key and the plugin."
 msgstr ""
 
 #: includes/admin/class-wc-pos-pro-am.php:249
+msgid "Unable to connect to the activation server"
+msgstr ""
+
+#: includes/admin/class-wc-pos-pro-am.php:284
+msgid "Unable to parse the server response"
+msgstr ""
+
+#: includes/admin/class-wc-pos-pro-am.php:296
+msgid "Invalid Request"
+msgstr ""
+
+#: includes/admin/class-wc-pos-pro-am.php:298
+#: includes/admin/class-wc-pos-pro-am.php:302
+#, fuzzy
+msgid "Invalid License Key"
+msgstr "Licensnøgle"
+
+#: includes/admin/class-wc-pos-pro-am.php:299
+msgid "Activation error"
+msgstr ""
+
+#: includes/admin/class-wc-pos-pro-am.php:300
+msgid "Exceeded maximum number of activations"
+msgstr ""
+
+#: includes/admin/class-wc-pos-pro-am.php:301
+msgid "Invalid Instance ID"
+msgstr ""
+
+#: includes/admin/class-wc-pos-pro-am.php:303
+msgid "Subscription is not active"
+msgstr ""
+
+#: includes/admin/class-wc-pos-pro-am.php:306
+msgid "Invalid Response"
+msgstr ""
+
+#: includes/admin/class-wc-pos-pro-am.php:321
 msgid ""
 "A license key for %s could not be found. Maybe you forgot to enter a license "
 "key when setting up %s, or the key was deactivated in your account. You can "
@@ -48,72 +74,72 @@ msgid ""
 "\"_blank\">dashboard</a>."
 msgstr ""
 
-#: includes/admin/class-wc-pos-pro-am.php:252
+#: includes/admin/class-wc-pos-pro-am.php:322
 msgid ""
 "The license key for %s has expired. You can reactivate or purchase a license "
 "key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
 msgstr ""
 
-#: includes/admin/class-wc-pos-pro-am.php:255
+#: includes/admin/class-wc-pos-pro-am.php:323
 msgid ""
 "The subscription for %s is on-hold. You can reactivate the subscription from "
 "your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
 msgstr ""
 
-#: includes/admin/class-wc-pos-pro-am.php:258
+#: includes/admin/class-wc-pos-pro-am.php:324
 msgid ""
 "The subscription for %s has been cancelled. You can renew the subscription "
 "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>. A new "
 "license key will be emailed to you after your order has been completed."
 msgstr ""
 
-#: includes/admin/class-wc-pos-pro-am.php:261
+#: includes/admin/class-wc-pos-pro-am.php:325
 msgid ""
 "The subscription for %s has expired. You can reactivate the subscription "
 "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
 msgstr ""
 
-#: includes/admin/class-wc-pos-pro-am.php:264
+#: includes/admin/class-wc-pos-pro-am.php:326
 msgid ""
 "The subscription for %s has been suspended. You can reactivate the "
 "subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
 "a>."
 msgstr ""
 
-#: includes/admin/class-wc-pos-pro-am.php:267
+#: includes/admin/class-wc-pos-pro-am.php:327
 msgid ""
 "The subscription for %s is still pending. You can check on the status of the "
 "subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
 "a>."
 msgstr ""
 
-#: includes/admin/class-wc-pos-pro-am.php:270
+#: includes/admin/class-wc-pos-pro-am.php:328
 msgid ""
 "The subscription for %s has been placed in the trash and will be deleted "
 "soon. You can purchase a new subscription from your account <a href=\"%s\" "
 "target=\"_blank\">dashboard</a>."
 msgstr ""
 
-#: includes/admin/class-wc-pos-pro-am.php:273
+#: includes/admin/class-wc-pos-pro-am.php:329
 msgid ""
 "A subscription for %s could not be found. You can purchase a subscription "
 "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
 msgstr ""
 
-#: includes/admin/class-wc-pos-pro-am.php:276
+#: includes/admin/class-wc-pos-pro-am.php:330
 msgid ""
 "%s has not been activated. Go to the settings page and enter the license key "
 "and license email to activate %s."
 msgstr ""
 
-#: includes/admin/class-wc-pos-pro-am.php:279
+#: includes/admin/class-wc-pos-pro-am.php:331
 msgid ""
 "Download permission for %s has been revoked possibly due to a license key or "
 "subscription expiring. You can reactivate or purchase a license key from "
 "your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
 msgstr ""
 
-#: includes/admin/class-wc-pos-pro-am.php:282
+#: includes/admin/class-wc-pos-pro-am.php:332
 msgid ""
 "You changed the subscription for %s, so you will need to enter your new API "
 "License Key in the settings page. The License Key should have arrived in "
@@ -146,63 +172,59 @@ msgstr ""
 msgid "Sales by payment method"
 msgstr ""
 
-#: includes/admin/class-wc-pos-pro-stores.php:63
+#: includes/admin/class-wc-pos-pro-stores.php:62
 msgid "Stores"
 msgstr ""
 
-#: includes/admin/class-wc-pos-pro-stores.php:130
+#: includes/admin/class-wc-pos-pro-stores.php:129
 msgid "Open POS"
 msgstr ""
 
-#: includes/admin/class-wc-pos-pro-stores.php:149
+#: includes/admin/class-wc-pos-pro-stores.php:148
 msgid "Store"
 msgstr ""
 
-#: includes/admin/class-wc-pos-pro-stores.php:166
+#: includes/admin/class-wc-pos-pro-stores.php:165
 msgid "Preview Receipt"
 msgstr ""
 
-#: includes/admin/class-wc-pos-pro-stores.php:181
+#: includes/admin/class-wc-pos-pro-stores.php:180
 msgid "Opening Hours"
 msgstr ""
 
-#: includes/admin/class-wc-pos-pro-stores.php:190
+#: includes/admin/class-wc-pos-pro-stores.php:189
 msgid "Logo"
 msgstr ""
 
-#: includes/admin/class-wc-pos-pro-stores.php:213
+#: includes/admin/class-wc-pos-pro-stores.php:212
 msgid "Receipt Options"
 msgstr ""
 
-#: includes/admin/class-wc-pos-pro-stores.php:270
+#: includes/admin/class-wc-pos-pro-stores.php:269
 msgid "Set featured image"
 msgstr ""
 
-#: includes/admin/class-wc-pos-pro-stores.php:270
-#: includes/admin/class-wc-pos-pro-stores.php:286
+#: includes/admin/class-wc-pos-pro-stores.php:269
+#: includes/admin/class-wc-pos-pro-stores.php:285
 msgid "Set store logo"
 msgstr ""
 
-#: includes/admin/class-wc-pos-pro-stores.php:271
+#: includes/admin/class-wc-pos-pro-stores.php:270
 msgid "Remove featured image"
 msgstr ""
 
-#: includes/admin/class-wc-pos-pro-stores.php:271
+#: includes/admin/class-wc-pos-pro-stores.php:270
 msgid "Remove store logo"
 msgstr ""
 
-#: includes/admin/class-wc-pos-pro-stores.php:285
+#: includes/admin/class-wc-pos-pro-stores.php:284
 msgid "Set Store Logo"
 msgstr ""
 
-#: includes/admin/class-wc-pos-pro-stores.php:362
+#: includes/admin/class-wc-pos-pro-stores.php:361
 msgid ""
 "Please <a href=\"%s\">read the docs</a> for information on how to customize "
 "your POS receipts."
-msgstr ""
-
-#: includes/admin/class-wc-pos-pro-stores.php:363
-msgid "Print Sample Receipt"
 msgstr ""
 
 #: includes/admin/reports/class-wc-pos-pro-cashier.php:143
@@ -303,6 +325,22 @@ msgstr "Licensnøgle"
 msgid "Pro License Activation"
 msgstr "Licens aktivering"
 
+#: includes/admin/settings/views/license.php:12
+msgid "Thank you!"
+msgstr ""
+
+#: includes/admin/settings/views/license.php:13
+msgid "Your license is active"
+msgstr ""
+
+#: includes/admin/settings/views/license.php:19
+msgid "License Email"
+msgstr "Licens e-mail"
+
+#: includes/admin/settings/views/license.php:27
+msgid "License Key"
+msgstr "Licensnøgle"
+
 #: includes/admin/views/stores/address.php:55
 msgid "loading"
 msgstr ""
@@ -369,8 +407,11 @@ msgid ""
 "\">change the tax rate</a> in WooCommerce settings."
 msgstr ""
 
-#: includes/class-wc-pos-pro-activator.php:126
+#: includes/class-wc-pos-pro-activator.php:115
 msgid ""
 "<strong>WooCommerce POS Pro</strong> requires <a href=\"%s\">WooCommerce "
 "POS</a>. Please <a href=\"%s\">install and activate WooCommerce POS</a>"
 msgstr ""
+
+#~ msgid "License Activation"
+#~ msgstr "Licens aktivering"

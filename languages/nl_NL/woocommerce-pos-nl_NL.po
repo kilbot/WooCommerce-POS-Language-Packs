@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-04-23 12:56:34+00:00\n"
+"POT-Creation-Date: 2015-05-23 14:33:24+00:00\n"
 "PO-Revision-Date: 2014-10-20 15:47:55+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,100 +13,91 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/0.1\n"
 
-#: includes/api/class-wc-pos-orders.php:385
+#: includes/api/class-wc-pos-orders.php:479
 msgid "There was an error processing the payment"
 msgstr "De betaling kon niet verwerkt worden"
 
-#: includes/api/class-wc-pos-orders.php:411
+#: includes/api/class-wc-pos-orders.php:505
+msgid "You are now being redirected offsite to complete the payment. "
+msgstr ""
+
+#: includes/api/class-wc-pos-orders.php:506
 #, fuzzy
-msgid ""
-"You are now being redirected offsite to complete the payment.<br><a target="
-"\"_blank\" href=\"%s\">Click here</a> if you are not redirected "
-"automatically."
+msgid "<a href=\"%s\">Click here</a> if you are not redirected automatically. "
 msgstr ""
 "Je verlaat nu de site om de betaling af te voltooien.<br><a target=\"_blank"
 "\" href=\"%s\" data-redirect=\"true\">Klik hier</a> als je niet vanzelf "
 "doorgestuurd wordt."
 
-#: includes/api/class-wc-pos-orders.php:425
+#: includes/api/class-wc-pos-orders.php:520
 msgid "POS Transaction completed."
 msgstr ""
 
-#: includes/class-wc-pos-ajax.php:128
+#: includes/class-wc-pos-ajax.php:104
 #, fuzzy
 msgid "There is no settings id"
 msgstr "Fout bij het verzenden van de email"
 
-#: includes/class-wc-pos-ajax.php:138
+#: includes/class-wc-pos-ajax.php:123
 msgid "No handler found for %s settings"
 msgstr ""
 
-#: includes/class-wc-pos-ajax.php:158
+#: includes/class-wc-pos-ajax.php:146
 #, fuzzy
 msgid "Settings error"
 msgstr "Instellingen"
 
-#: includes/class-wc-pos-ajax.php:174 includes/class-wc-pos-ajax.php:195
+#: includes/class-wc-pos-ajax.php:165 includes/class-wc-pos-ajax.php:186
 #, fuzzy
 msgid "Email sent"
 msgstr "Email verzonden"
 
-#: includes/class-wc-pos-ajax.php:179 includes/class-wc-pos-ajax.php:200
+#: includes/class-wc-pos-ajax.php:170 includes/class-wc-pos-ajax.php:191
 #, fuzzy
 msgid "There was an error sending the email"
 msgstr "Je email kon niet worden verzonden."
 
-#: includes/class-wc-pos-ajax.php:215
+#: includes/class-wc-pos-ajax.php:206
 msgid "Invalid security nonce"
 msgstr ""
 
-#: includes/class-wc-pos-gateways.php:81
-#, fuzzy
-msgid "Online Store"
-msgstr "Webwinkel"
-
-#: includes/class-wc-pos-gateways.php:82
-#: includes/class-wc-pos-template.php:150
-msgid "POS"
-msgstr "KASSA"
-
-#: includes/class-wc-pos-i18n.php:301
+#: includes/class-wc-pos-i18n.php:330
 msgid "To Pay"
 msgstr "Te betalen"
 
-#: includes/class-wc-pos-i18n.php:302
+#: includes/class-wc-pos-i18n.php:331
 msgid "Paid"
 msgstr "Voldaan"
 
-#: includes/class-wc-pos-i18n.php:303
+#: includes/class-wc-pos-i18n.php:332
 msgid "Unpaid"
 msgstr ""
 
-#: includes/class-wc-pos-i18n.php:304
+#: includes/class-wc-pos-i18n.php:333
 msgid "Email Receipt"
 msgstr "Email de bon"
 
-#: includes/class-wc-pos-i18n.php:313 includes/views/pos/cart.php:129
-msgid "Discount"
-msgstr "Korting"
-
-#: includes/class-wc-pos-i18n.php:319
+#: includes/class-wc-pos-i18n.php:349
 msgid "Process Payment"
 msgstr "Betaling in behandeling"
 
-#: includes/class-wc-pos-i18n.php:323
+#: includes/class-wc-pos-i18n.php:353
 msgid "Return to Sale"
 msgstr "Terug naar Verkoop"
 
-#: includes/class-wc-pos-i18n.php:327
+#: includes/class-wc-pos-i18n.php:355
+msgid "Send"
+msgstr "Verstuur"
+
+#: includes/class-wc-pos-i18n.php:357
 msgid "Void"
 msgstr "Verwijder"
 
-#: includes/class-wc-pos-i18n.php:335
+#: includes/class-wc-pos-i18n.php:365
 msgid "Loading&hellip;"
 msgstr ""
 
-#: includes/class-wc-pos-i18n.php:337
+#: includes/class-wc-pos-i18n.php:367
 msgid "Your browser is not supported!"
 msgstr "Deze browser wordt niet ondersteund!"
 
@@ -132,7 +123,11 @@ msgstr "API is active"
 msgid "Access to the REST API is required"
 msgstr "Toegang tot de REST API is vereist"
 
-#: includes/class-wc-pos.php:111
+#: includes/class-wc-pos-template.php:152
+msgid "POS"
+msgstr "KASSA"
+
+#: includes/class-wc-pos.php:115
 #, fuzzy
 msgid "User not authorized to access WooCommerce POS"
 msgstr "Deze gebruiker mag WooCommerce KASSA niet beheren"
@@ -154,14 +149,9 @@ msgstr "Kontant"
 
 #: includes/gateways/class-wc-pos-cash.php:52
 #: includes/gateways/class-wc-pos-cash.php:55
-#: includes/gateways/class-wc-pos-cash.php:104
+#: includes/gateways/class-wc-pos-cash.php:100
 msgid "Amount Tendered"
 msgstr "Ontvangen bedrag"
-
-#: includes/gateways/class-wc-pos-cash.php:60
-#, fuzzy
-msgid "Change"
-msgstr "Wisselgeld"
 
 #: includes/views/modals/browser.php:2
 #, fuzzy
@@ -195,34 +185,47 @@ msgstr "Er zijn geen betaal gateways beschikbaar."
 msgid "Scan Barcode"
 msgstr "Scan de streepjescode"
 
-#: includes/views/print/receipt.php:98
+#: includes/views/pos/products.php:81
+#, fuzzy
+msgid "Showing %s of %s"
+msgstr "Er worden %s van %s producten getoond"
+
+#: includes/views/pos/products.php:82
+msgid "%s in queue"
+msgstr ""
+
+#: includes/views/print/receipt.php:96
 msgid "Billing Address"
 msgstr "Factuuradres"
 
-#: includes/views/print/receipt.php:101
+#: includes/views/print/receipt.php:99
 msgid "Shipping Address"
 msgstr "Verzendadres"
 
-#: includes/views/print/receipt.php:106
+#: includes/views/print/receipt.php:104
 msgid "Order Number"
 msgstr "Bestelnummer"
 
-#: includes/views/print/receipt.php:110
+#: includes/views/print/receipt.php:108
 msgid "Order Date"
 msgstr "Besteldatum"
 
-#: includes/views/print/receipt.php:114
+#: includes/views/print/receipt.php:112
 msgid "Payment Method"
 msgstr "Betaalmethode"
 
-#: includes/views/print/receipt.php:125
+#: includes/views/print/receipt.php:123
 msgid "Telephone"
 msgstr "Telefoon"
 
-#: includes/views/print/receipt.php:134
+#: includes/views/print/receipt.php:132
 #, fuzzy
 msgid "Qty"
 msgstr "Aantal"
+
+#: includes/views/print/receipt.php:169
+msgid "Cart Discount"
+msgstr "Winkelwagen korting"
 
 #: includes/views/support.php:11
 #, fuzzy
@@ -251,12 +254,12 @@ msgstr ""
 "href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a> moet "
 "geïnstalleerd zijn."
 
-#: includes/class-wc-pos-i18n.php:289
+#: includes/class-wc-pos-i18n.php:318
 msgctxt "system status: browser capabilities"
 msgid "Browser"
 msgstr ""
 
-#: includes/class-wc-pos-i18n.php:295
+#: includes/class-wc-pos-i18n.php:324
 msgctxt "keyboard shortcuts"
 msgid "HotKeys"
 msgstr ""
@@ -266,41 +269,42 @@ msgctxt "keyboard shortcuts"
 msgid "Hotkeys"
 msgstr ""
 
-#: includes/class-wc-pos-i18n.php:305
+#: includes/class-wc-pos-i18n.php:334
 msgctxt "order status, ie: open order in cart"
 msgid "Open"
 msgstr ""
 
-#: includes/class-wc-pos-i18n.php:310
+#: includes/class-wc-pos-i18n.php:335
+#: includes/gateways/class-wc-pos-cash.php:102
+msgctxt "Money returned from cash sale"
+msgid "Change"
+msgstr "Wisselgeld"
+
+#: includes/class-wc-pos-i18n.php:340
 #, fuzzy
 msgctxt "system status: delete local records"
 msgid "Clear"
 msgstr "wis"
 
-#: includes/class-wc-pos-i18n.php:321
+#: includes/class-wc-pos-i18n.php:351
 msgctxt "restore default settings"
 msgid "Restore defaults"
 msgstr ""
 
-#: includes/class-wc-pos-i18n.php:322
+#: includes/class-wc-pos-i18n.php:352
 msgctxt "Numpad return key"
 msgid "return"
 msgstr ""
 
-#: includes/class-wc-pos-i18n.php:341
+#: includes/class-wc-pos-i18n.php:371
 msgctxt "eg: 23 records"
 msgid "record |||| records"
 msgstr ""
 
-#: includes/class-wc-pos-params.php:75
+#: includes/class-wc-pos-params.php:74
 msgctxt "Product tab: 'On Sale' products"
 msgid "On Sale"
 msgstr "Aanbiedingen"
-
-#: includes/gateways/class-wc-pos-cash.php:106
-msgctxt "Money returned from cash sale"
-msgid "Change"
-msgstr "Wisselgeld"
 
 #: includes/views/pos/cart.php:9 includes/views/pos/receipt.php:10
 #, fuzzy
@@ -308,12 +312,23 @@ msgctxt "Abbreviation of Quantity"
 msgid "Qty"
 msgstr "Aantal"
 
-#: includes/views/pos/cart.php:107 includes/views/pos/cart.php:118
-#: includes/views/pos/receipt.php:62 includes/views/pos/receipt.php:72
-#: includes/views/print/receipt.php:186 includes/views/print/receipt.php:195
+#: includes/views/pos/cart.php:116 includes/views/pos/cart.php:127
+#: includes/views/pos/receipt.php:84 includes/views/pos/receipt.php:94
+#: includes/views/print/receipt.php:191 includes/views/print/receipt.php:201
 msgctxt "abbreviation for includes (tax)"
 msgid "incl."
 msgstr "incl."
+
+#, fuzzy
+#~ msgid "Online Store"
+#~ msgstr "Webwinkel"
+
+#~ msgid "Discount"
+#~ msgstr "Korting"
+
+#, fuzzy
+#~ msgid "Change"
+#~ msgstr "Wisselgeld"
 
 #, fuzzy
 #~ msgid "Error sending email"
@@ -605,9 +620,6 @@ msgstr "incl."
 #~ "<strong>WooCommerce REST API</strong> vereist <em>nette</em> permalinks "
 #~ "om te goed werken. Schakel die in <a href=\"%s\">permalinks</a>."
 
-#~ msgid "Send"
-#~ msgstr "Verstuur"
-
 #~ msgid "WooCommerce POS"
 #~ msgstr "WooCommerce KASSA"
 
@@ -646,9 +658,6 @@ msgstr "incl."
 
 #~ msgid "Cart Subtotal"
 #~ msgstr "Winkelwagen Subtotaal"
-
-#~ msgid "Cart Discount"
-#~ msgstr "Winkelwagen korting"
 
 #~ msgid "Order Discount"
 #~ msgstr "Korting"
@@ -706,9 +715,6 @@ msgstr "incl."
 
 #~ msgid "Page %s of %s"
 #~ msgstr "Pagina %s van %s"
-
-#~ msgid "Showing %s of %s products"
-#~ msgstr "Er worden %s van %s producten getoond"
 
 #~ msgid "Last updated %s"
 #~ msgstr "Voor het laatst bijgewerkt %s"

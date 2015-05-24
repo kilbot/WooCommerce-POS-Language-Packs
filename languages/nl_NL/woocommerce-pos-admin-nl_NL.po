@@ -15,7 +15,7 @@ msgstr ""
 
 #: includes/admin/class-wc-pos-gateways.php:31
 msgid "Online Store"
-msgstr ""
+msgstr "Online winkel"
 
 #: includes/admin/class-wc-pos-gateways.php:32
 #: includes/admin/class-wc-pos-menu.php:34
@@ -23,7 +23,7 @@ msgstr ""
 #: includes/admin/class-wc-pos-orders.php:89
 #: includes/admin/views/order-details.php:5
 msgid "POS"
-msgstr ""
+msgstr "KASSA"
 
 #: includes/admin/class-wc-pos-menu.php:44
 #: includes/admin/class-wc-pos-menu.php:45
@@ -33,7 +33,7 @@ msgstr "Bekijk KASSA"
 #: includes/admin/class-wc-pos-menu.php:53
 #: includes/admin/settings/views/checkout.php:92
 msgid "Upgrade to Pro"
-msgstr "Upgrade naar Pro"
+msgstr "Upgraden naar Pro"
 
 #: includes/admin/class-wc-pos-orders.php:90
 #: includes/admin/views/order-details.php:4
@@ -42,27 +42,27 @@ msgstr ""
 
 #: includes/admin/settings/class-wc-pos-access.php:58
 msgid "POS Access"
-msgstr ""
+msgstr "KASSA toegang"
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:41
 msgid "Help screen"
-msgstr ""
+msgstr "Help scherm"
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:42
 msgid "Barcode search"
-msgstr ""
+msgstr "Barcode zoeken"
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:44
 msgid "New order"
-msgstr ""
+msgstr "Nieuwe verkoop"
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:45
 msgid "Sync with server"
-msgstr ""
+msgstr "Sync. met de server"
 
 #: includes/admin/settings/views/access.php:7
 msgid "Grant POS Access"
-msgstr ""
+msgstr "Geef KASSA toegang"
 
 #: includes/admin/settings/views/access.php:10
 msgid ""

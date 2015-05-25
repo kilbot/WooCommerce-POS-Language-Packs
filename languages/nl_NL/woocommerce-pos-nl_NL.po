@@ -15,28 +15,27 @@ msgstr ""
 
 #: includes/api/class-wc-pos-orders.php:479
 msgid "There was an error processing the payment"
-msgstr "De betaling kon niet verwerkt worden"
+msgstr "De betaling kon niet verwerkt worden."
 
 #: includes/api/class-wc-pos-orders.php:505
 msgid "You are now being redirected offsite to complete the payment. "
-msgstr ""
+msgstr "Je wordt nu doorgestuurd naar een externe pagina om de betaling af te maken. "
 
 #: includes/api/class-wc-pos-orders.php:506
 #, fuzzy
 msgid "<a href=\"%s\">Click here</a> if you are not redirected automatically. "
 msgstr ""
-"Je verlaat nu de site om de betaling af te voltooien.<br><a target=\"_blank"
 "\" href=\"%s\" data-redirect=\"true\">Klik hier</a> als je niet vanzelf "
 "doorgestuurd wordt."
 
 #: includes/api/class-wc-pos-orders.php:520
 msgid "POS Transaction completed."
-msgstr ""
+msgstr "KASSA verkoop voltooid."
 
 #: includes/class-wc-pos-ajax.php:104
 #, fuzzy
 msgid "There is no settings id"
-msgstr "Fout bij het verzenden van de email"
+msgstr ""
 
 #: includes/class-wc-pos-ajax.php:123
 msgid "No handler found for %s settings"
@@ -45,7 +44,7 @@ msgstr ""
 #: includes/class-wc-pos-ajax.php:146
 #, fuzzy
 msgid "Settings error"
-msgstr "Instellingen"
+msgstr "fout bij Instellingen"
 
 #: includes/class-wc-pos-ajax.php:165 includes/class-wc-pos-ajax.php:186
 #, fuzzy
@@ -59,7 +58,7 @@ msgstr "Je email kon niet worden verzonden."
 
 #: includes/class-wc-pos-ajax.php:206
 msgid "Invalid security nonce"
-msgstr ""
+msgstr "ongeldig token"
 
 #: includes/class-wc-pos-i18n.php:330
 msgid "To Pay"
@@ -71,11 +70,11 @@ msgstr "Voldaan"
 
 #: includes/class-wc-pos-i18n.php:332
 msgid "Unpaid"
-msgstr ""
+msgstr "Nog te voldoen"
 
 #: includes/class-wc-pos-i18n.php:333
 msgid "Email Receipt"
-msgstr "Email de bon"
+msgstr "Email de kassabon"
 
 #: includes/class-wc-pos-i18n.php:349
 msgid "Process Payment"
@@ -99,17 +98,17 @@ msgstr ""
 
 #: includes/class-wc-pos-i18n.php:367
 msgid "Your browser is not supported!"
-msgstr "Deze browser wordt niet ondersteund!"
+msgstr "Je browser wordt niet ondersteund!"
 
 #: includes/class-wc-pos-status.php:19
 #, fuzzy
 msgid "WC Version"
-msgstr "WooCommerce Version"
+msgstr "WooCommerce Versie"
 
 #: includes/class-wc-pos-status.php:22
 #, fuzzy
 msgid "WooCommerce >= %s required"
-msgstr "WooCommerce >= 2.1 vereist"
+msgstr "WooCommerce >= 2.1 is vereist"
 
 #: includes/class-wc-pos-status.php:28
 msgid "WC REST API"
@@ -117,7 +116,7 @@ msgstr "WC REST API"
 
 #: includes/class-wc-pos-status.php:30
 msgid "API is active"
-msgstr "API is active"
+msgstr "API is actief"
 
 #: includes/class-wc-pos-status.php:31
 msgid "Access to the REST API is required"
@@ -130,7 +129,7 @@ msgstr "KASSA"
 #: includes/class-wc-pos.php:115
 #, fuzzy
 msgid "User not authorized to access WooCommerce POS"
-msgstr "Deze gebruiker mag WooCommerce KASSA niet beheren"
+msgstr "Deze gebruiker mag WooCommerce KASSA niet gebruiken"
 
 #: includes/gateways/class-wc-pos-card.php:20
 msgid "Card"
@@ -141,7 +140,7 @@ msgstr "PIN"
 #: includes/gateways/class-wc-pos-card.php:78
 #: includes/gateways/class-wc-pos-card.php:112
 msgid "Cashback"
-msgstr "Teruggave"
+msgstr "Terug"
 
 #: includes/gateways/class-wc-pos-cash.php:20
 msgid "Cash"
@@ -151,13 +150,13 @@ msgstr "Kontant"
 #: includes/gateways/class-wc-pos-cash.php:55
 #: includes/gateways/class-wc-pos-cash.php:100
 msgid "Amount Tendered"
-msgstr "Ontvangen bedrag"
+msgstr "Gegeven"
 
 #: includes/views/modals/browser.php:2
 #, fuzzy
 msgid "Sorry, it seems your browser is not supported by WooCommerce POS. "
 msgstr ""
-"Sorry, het lijkt er op dat WooCommerce KASSA deze browser niet ondersteund."
+"Sorry, het lijkt er op dat WooCommerce KASSA je browser niet ondersteund. "
 
 #: includes/views/modals/browser.php:3
 msgid ""
@@ -165,7 +164,7 @@ msgid ""
 "a>, we recommend either Chrome or Firefox."
 msgstr ""
 "Kies, indien mogelijk, <a href=\"http://browsehappy.com/\">een andere "
-"browser</a>, Chrome of Firefox hebben de voorkeur."
+"browser</a>; Chrome of Firefox hebben de voorkeur."
 
 #: includes/views/modals/browser.php:7
 #, fuzzy
@@ -175,15 +174,15 @@ msgid ""
 "a>"
 msgstr ""
 "Neem contact op met support op <a href=\"http://woopos.com.au\">woopos.com."
-"au</a>als je deze foutmelding niet had verwacht"
+"au</a>als je deze foutmelding niet had verwacht."
 
 #: includes/views/pos/checkout.php:26
 msgid "No payment gateways enabled."
-msgstr "Er zijn geen betaal gateways beschikbaar."
+msgstr "Er zijn geen betaalmethoden beschikbaar."
 
 #: includes/views/pos/products.php:13
 msgid "Scan Barcode"
-msgstr "Scan de streepjescode"
+msgstr "Scan de barcode"
 
 #: includes/views/pos/products.php:81
 #, fuzzy
@@ -192,7 +191,7 @@ msgstr "Er worden %s van %s producten getoond"
 
 #: includes/views/pos/products.php:82
 msgid "%s in queue"
-msgstr ""
+msgstr "%s staat in de wachtrij"
 
 #: includes/views/print/receipt.php:96
 msgid "Billing Address"
@@ -204,11 +203,11 @@ msgstr "Verzendadres"
 
 #: includes/views/print/receipt.php:104
 msgid "Order Number"
-msgstr "Bestelnummer"
+msgstr "Bonnummer"
 
 #: includes/views/print/receipt.php:108
 msgid "Order Date"
-msgstr "Besteldatum"
+msgstr "Verkoopdatum"
 
 #: includes/views/print/receipt.php:112
 msgid "Payment Method"
@@ -234,7 +233,7 @@ msgstr "KASSA support formulier"
 
 #: includes/views/support.php:28
 msgid "Describe your problem here ..."
-msgstr "Omschrijf je probleem..."
+msgstr "Beschrijf je probleem..."
 
 #: includes/views/support.php:32
 msgid "Append POS system report"
@@ -250,29 +249,29 @@ msgid ""
 "Requires <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</"
 "a>."
 msgstr ""
-"Een eenvoudig front-end om WooCommerce aankopen te doen aan de kassa. <a "
-"href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a> moet "
+"Een eenvoudig front-end om WooCommerce aankopen te doen aan een kassa. <a "
+"href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a> moet wel "
 "geïnstalleerd zijn."
 
 #: includes/class-wc-pos-i18n.php:318
 msgctxt "system status: browser capabilities"
 msgid "Browser"
-msgstr ""
+msgstr "Browser"
 
 #: includes/class-wc-pos-i18n.php:324
 msgctxt "keyboard shortcuts"
 msgid "HotKeys"
-msgstr ""
+msgstr "Sneltoetsen"
 
 #: includes/views/help.php:7
 msgctxt "keyboard shortcuts"
 msgid "Hotkeys"
-msgstr ""
+msgstr "Sneltoetsen"
 
 #: includes/class-wc-pos-i18n.php:334
 msgctxt "order status, ie: open order in cart"
 msgid "Open"
-msgstr ""
+msgstr "Open"
 
 #: includes/class-wc-pos-i18n.php:335
 #: includes/gateways/class-wc-pos-cash.php:102
@@ -289,12 +288,12 @@ msgstr "wis"
 #: includes/class-wc-pos-i18n.php:351
 msgctxt "restore default settings"
 msgid "Restore defaults"
-msgstr ""
+msgstr "Terug naar standaard instellingen"
 
 #: includes/class-wc-pos-i18n.php:352
 msgctxt "Numpad return key"
 msgid "return"
-msgstr ""
+msgstr "ENTER"
 
 #: includes/class-wc-pos-i18n.php:371
 msgctxt "eg: 23 records"
@@ -304,7 +303,7 @@ msgstr ""
 #: includes/class-wc-pos-params.php:74
 msgctxt "Product tab: 'On Sale' products"
 msgid "On Sale"
-msgstr "Aanbiedingen"
+msgstr "Aanbieding"
 
 #: includes/views/pos/cart.php:9 includes/views/pos/receipt.php:10
 #, fuzzy

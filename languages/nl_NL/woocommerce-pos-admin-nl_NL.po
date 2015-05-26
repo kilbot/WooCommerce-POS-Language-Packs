@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2015-05-26 16:30CET\n"
 "Last-Translator: Egbert Jan van den Bussche <egbert@vandenbussche.nl>\n"
 "Language-Team: Team Name <team@vandenbussche.nl>\n"
 "X-Generator: grunt-wp-i18n 0.5.2\n"
@@ -29,7 +29,7 @@ msgstr "KASSA"
 #: includes/admin/class-wc-pos-menu.php:44
 #: includes/admin/class-wc-pos-menu.php:45
 msgid "View POS"
-msgstr "Ga naar KASSA"
+msgstr "Start KASSA"
 
 #: includes/admin/class-wc-pos-menu.php:53
 #: includes/admin/settings/views/checkout.php:92

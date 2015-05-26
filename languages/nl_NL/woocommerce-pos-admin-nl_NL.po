@@ -43,7 +43,7 @@ msgstr "Online"
 
 #: includes/admin/settings/class-wc-pos-access.php:58
 msgid "POS Access"
-msgstr "Toegang naar KASSA"
+msgstr "KASSA toegang"
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:41
 msgid "Help screen"
@@ -129,7 +129,7 @@ msgid ""
 "only be done using a secure connnection."
 msgstr ""
 "Onthoud dat je verantwoordelijk bent voor de veiligheid van de klantgegevens. "
-"Verzend gevoelige informatie zoals credit card gegevens alleen over een veilige verbinding dus. "
+"Verzend gevoelige informatie zoals credit card gegevens dus alleen over een veilige verbinding. "
 
 #: includes/admin/settings/views/checkout.php:56
 msgid "Gateway Display"
@@ -208,7 +208,7 @@ msgid ""
 "HotKeys can also be used as a prefix for your barcode scanner or card "
 "reader."
 msgstr ""
-"Sneltoetsen kunne ook worden gebruikt als een prefix voor je barcodescanner of kaartlezer."
+"Sneltoetsen kunnen ook worden gebruikt als een prefix voor je barcodescanner of kaartlezer."
 
 #: includes/admin/settings/views/tools.php:33
 msgid "Receipt Template"

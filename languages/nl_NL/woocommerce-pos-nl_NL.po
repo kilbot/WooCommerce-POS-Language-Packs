@@ -24,7 +24,7 @@ msgstr "Je wordt nu doorgestuurd naar een externe pagina om de betaling af te ro
 
 #: includes/api/class-wc-pos-orders.php:506
 msgid "<a href=\"%s\">Click here</a> if you are not redirected automatically. "
-msgid "<a href=\"%s\">Klik hier</a> als je niet automatisch doorgestuurd wordt. "
+msgstr "<a href=\"%s\">Klik hier</a> als je niet automatisch doorgestuurd wordt. "
 
 #: includes/api/class-wc-pos-orders.php:520
 msgid "POS Transaction completed."

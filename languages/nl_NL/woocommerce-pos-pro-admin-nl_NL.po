@@ -32,7 +32,7 @@ msgstr " <a href=\"%s\">Klik hier</a> om de licentie key en dus de plugin te act
 
 #: includes/admin/class-wc-pos-pro-am.php:249
 msgid "Unable to connect to the activation server"
-msgstr "Kan geen verbinfing maken met de licentie server"
+msgstr "Kan geen verbinding maken met de licentie server"
 
 #: includes/admin/class-wc-pos-pro-am.php:284
 msgid "Unable to parse the server response"
@@ -94,7 +94,7 @@ msgid ""
 "The subscription for %s is on-hold. You can reactivate the subscription "
 "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
 msgstr ""
-"Je abonnement op %s staat on-hold. Je kan je abonnement weer activeren "
+"Je abonnement op %s staat on hold. Je kan je abonnement weer activeren "
 "in je account <a href=\"%s\" target=\"_blank\">dashboard</a>."
 
 #: includes/admin/class-wc-pos-pro-am.php:324
@@ -131,7 +131,7 @@ msgid ""
 "the subscription from your account <a href=\"%s\" "
 "target=\"_blank\">dashboard</a>."
 msgstr ""
-"Je abonnment op %s staat in de wacht. Je kan de status van "
+"Je abonnment op %s wacht nog op behandeling. Je kan de status van "
 "je abonnement controleren in je account <a href=\"%s\" "
 "target=\"_blank\">dashboard</a>."
 
@@ -159,7 +159,7 @@ msgid ""
 "key and license email to activate %s."
 msgstr ""
 "%s is niet geaactiveerd. Ga naarde instellingen pagina en geef de "
-"licentie key and licentie emailadres om %s te activeren."
+"licentie key and het licentie emailadres om %s te activeren."
 
 #: includes/admin/class-wc-pos-pro-am.php:331
 msgid ""
@@ -167,7 +167,7 @@ msgid ""
 "or subscription expiring. You can reactivate or purchase a license key from "
 "your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
 msgstr ""
-"De toestemming om %s te downloaden is ingetrokken waarschijnlijk omdat de licentie key of het abonnement "
+"De toestemming om %s te downloaden is ingetrokken, waarschijnlijk omdat de licentie key of het abonnement "
 "is verlopen. Je kan en licentie key kopen of vernieuwen in je "
 "account <a href=\"%s\" target=\"_blank\">dashboard</a>."
 
@@ -398,7 +398,7 @@ msgstr ""
 
 #: includes/admin/views/stores/receipt-options.php:9
 msgid "Complimentary Close"
-msgstr "Ook gesloten op"
+msgstr "Afsluitingstekst"
 
 #: includes/admin/views/stores/receipt-options.php:10
 msgid ""
@@ -414,27 +414,27 @@ msgstr "Retouren"
 
 #: includes/admin/views/stores/receipt-options.php:14
 msgid "Returns policy, terms and conditions"
-msgstr "Voorwaarden voor retouren"
+msgstr "Voorwaarden voor retournering"
 
 #: includes/admin/views/stores/receipt-options.php:17
 msgid "Footer"
-msgstr "Footer"
+msgstr "Voetnoot"
 
 #: includes/admin/views/stores/receipt-options.php:18
 msgid "Further footer information, e.g. copyright or branding"
-msgstr "Meer footer, b.v. copyright of merk"
+msgstr "b.v. copyright, merk of tot ziens!"
 
 #: includes/admin/views/stores/tax-rate.php:8
 msgid "Calculate Tax Based On"
-msgstr "Bereken belasting over"
+msgstr "Bereken belasting uitgaande van"
 
 #: includes/admin/views/stores/tax-rate.php:10
 msgid "this store address"
-msgstr "Adres van dit filiaal"
+msgstr "locatie van dit filiaal"
 
 #: includes/admin/views/stores/tax-rate.php:11
 msgid "base location"
-msgstr "Plaats van vestiging"
+msgstr "locatie van de hoofdvestiging"
 
 #: includes/admin/views/stores/tax-rate.php:39
 msgid "No tax rates set"
@@ -445,7 +445,7 @@ msgid ""
 "The tax rates above will be used at the point of sale. You can <a "
 "href=\"%s\">change the tax rate</a> in WooCommerce settings."
 msgstr ""
-"De belastingtarieven hierboven wordne voor winkel verkopen gebruikt. J kan de <a "
+"De belastingtarieven hierboven worden voor winkel verkopen gebruikt. J kan de <a "
 "href=\"%s\"> belastingtarieven</a> in de WooCommerce instellingen aanpassen."
 
 #: includes/class-wc-pos-pro-activator.php:115

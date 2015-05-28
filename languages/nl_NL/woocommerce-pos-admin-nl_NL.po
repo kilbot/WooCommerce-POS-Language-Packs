@@ -165,7 +165,7 @@ msgstr "Zichtbaarheid van de artikelen"
 
 #: includes/admin/settings/views/general.php:17
 msgid "Enable <a href=\"%s\">POS Only products</a>"
-msgstr "Sta het gebruik van <a href=\"%s\">artikelen alleen voor KASSA/a> toe"
+msgstr "Sta het gebruik van <a href=\"%s\">artikelen alleen voor KASSA</a> toe"
 
 #: includes/admin/settings/views/general.php:23
 msgid "Allow Decimal Quantity"

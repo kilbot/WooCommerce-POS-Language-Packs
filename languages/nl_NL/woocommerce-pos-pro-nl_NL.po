@@ -24,46 +24,46 @@ msgstr "Deactiveer"
 #: includes/class-wc-pos-pro-stores.php:48
 #: includes/class-wc-pos-pro-stores.php:54
 msgid "Stores"
-msgstr "Filialen"
+msgstr "Vestigingen"
 
 #: includes/class-wc-pos-pro-stores.php:47
 #: includes/class-wc-pos-pro-stores.php:91
 #: includes/widgets/class-wc-pos-pro-hours.php:82
 msgid "Store"
-msgstr "Filiaal"
+msgstr "Vestiging"
 
 #: includes/class-wc-pos-pro-stores.php:49
 #: includes/class-wc-pos-pro-stores.php:50
 msgid "Add New Store"
-msgstr "Voeg een filiaal toe"
+msgstr "Voeg een vestiging toe"
 
 #: includes/class-wc-pos-pro-stores.php:51
 msgid "New Store"
-msgstr "Nieuw filiaal"
+msgstr "Nieuwe vestiging"
 
 #: includes/class-wc-pos-pro-stores.php:52
 msgid "Edit Store"
-msgstr "Bewerkt filiaal"
+msgstr "Bewerkt vestiging"
 
 #: includes/class-wc-pos-pro-stores.php:53
 msgid "View Store"
-msgstr "Bekijk filiaal"
+msgstr "Bekijk vestiging"
 
 #: includes/class-wc-pos-pro-stores.php:55
 msgid "Search Stores"
-msgstr "Zoek filiaal"
+msgstr "Zoek vestiging"
 
 #: includes/class-wc-pos-pro-stores.php:56
 msgid "Parent Store:"
-msgstr "Hoofdfiliaal:"
+msgstr "Hoofdvestiging:"
 
 #: includes/class-wc-pos-pro-stores.php:57
 msgid "No Stores found."
-msgstr "Geen filialen gevonden."
+msgstr "Geen vestigingen gevonden."
 
 #: includes/class-wc-pos-pro-stores.php:58
 msgid "No Stores found in Trash."
-msgstr "Geen filialen in de prullenbak."
+msgstr "Geen vestigingen in de prullenbak."
 
 #: includes/class-wc-pos-pro-template.php:98 includes/views/customers.php:14
 #: includes/views/customers.php:74 includes/views/print/receipt.php:156

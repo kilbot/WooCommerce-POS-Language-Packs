@@ -23,7 +23,8 @@ module.exports = function(grunt) {
   grunt.initConfig({
 
     clean: {
-      mo: ['languages/**/*.mo']
+      mo: ['languages/**/*.mo'],
+      po: ['languages/**/*.po~']
     }
 
   });

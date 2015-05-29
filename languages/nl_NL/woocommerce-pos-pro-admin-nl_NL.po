@@ -190,11 +190,11 @@ msgstr ""
 #: includes/admin/reports/class-wc-pos-pro-sales.php:504
 #: includes/admin/reports/class-wc-pos-pro-sales.php:506
 msgid "POS"
-msgstr "KASSA"
+msgstr "KASSA(POS)"
 
 #: includes/admin/class-wc-pos-pro-reports.php:30
 msgid "POS vs Online"
-msgstr "Winkel vs WEB verkoop"
+msgstr "KASSA vs WEB verkoop"
 
 #: includes/admin/class-wc-pos-pro-reports.php:36
 msgid "Sales by cashier"
@@ -202,7 +202,7 @@ msgstr "Verkopen per kassier"
 
 #: includes/admin/class-wc-pos-pro-reports.php:42
 msgid "Sales by store"
-msgstr "Verkopen per filiaal"
+msgstr "Verkopen per vestiging"
 
 #: includes/admin/class-wc-pos-pro-reports.php:48
 msgid "Sales by payment method"
@@ -210,7 +210,7 @@ msgstr "Verkopen per betaalmethode"
 
 #: includes/admin/class-wc-pos-pro-stores.php:62
 msgid "Stores"
-msgstr "Filialen"
+msgstr "Vestigingen"
 
 #: includes/admin/class-wc-pos-pro-stores.php:129
 msgid "Open POS"
@@ -218,7 +218,7 @@ msgstr "Open KASSA"
 
 #: includes/admin/class-wc-pos-pro-stores.php:148
 msgid "Store"
-msgstr "Filiaal"
+msgstr "Vestiging"
 
 #: includes/admin/class-wc-pos-pro-stores.php:165
 msgid "Preview Receipt"
@@ -243,7 +243,7 @@ msgstr "Kies featured image"
 #: includes/admin/class-wc-pos-pro-stores.php:269
 #: includes/admin/class-wc-pos-pro-stores.php:285
 msgid "Set store logo"
-msgstr "Kies filiaal logo"
+msgstr "Kies vestigingslogo"
 
 #: includes/admin/class-wc-pos-pro-stores.php:270
 msgid "Remove featured image"
@@ -251,11 +251,11 @@ msgstr "Verwijder featured image"
 
 #: includes/admin/class-wc-pos-pro-stores.php:270
 msgid "Remove store logo"
-msgstr "Verwijder filiaal logo"
+msgstr "Verwijder vestigingslogo"
 
 #: includes/admin/class-wc-pos-pro-stores.php:284
 msgid "Set Store Logo"
-msgstr "Kies filiaal logo"
+msgstr "Kies vestigingslogo"
 
 #: includes/admin/class-wc-pos-pro-stores.php:361
 msgid ""
@@ -422,7 +422,7 @@ msgstr "Voetnoot"
 
 #: includes/admin/views/stores/receipt-options.php:18
 msgid "Further footer information, e.g. copyright or branding"
-msgstr "b.v. copyright, merk of tot ziens!"
+msgstr "b.v. copyright, merk of gewoon 'tot ziens!'"
 
 #: includes/admin/views/stores/tax-rate.php:8
 msgid "Calculate Tax Based On"
@@ -430,7 +430,7 @@ msgstr "Bereken belasting uitgaande van"
 
 #: includes/admin/views/stores/tax-rate.php:10
 msgid "this store address"
-msgstr "locatie van dit filiaal"
+msgstr "vestigingsplaats"
 
 #: includes/admin/views/stores/tax-rate.php:11
 msgid "base location"
@@ -453,5 +453,5 @@ msgid ""
 "<strong>WooCommerce POS Pro</strong> requires <a href=\"%s\">WooCommerce "
 "POS</a>. Please <a href=\"%s\">install and activate WooCommerce POS</a>"
 msgstr ""
-"<strong>WooCommerce KASSA Pro</strong> vereist <a href=\"%s\">WooCommerce "
-"KASSA</a>. <a href=\"%s\">installeer en activeer WooCommerce KASSA</a>"
+"<strong>WooCommerce KASSA(POS) Pro</strong> vereist <a href=\"%s\">WooCommerce "
+"KASSA(POS)</a>. <a href=\"%s\">installeer en activeer WooCommerce KASSA(POS)</a>"

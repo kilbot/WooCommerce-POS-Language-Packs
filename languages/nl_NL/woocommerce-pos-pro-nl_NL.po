@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS Pro 0.4.0-beta\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-05-23 14:32:55+0000\n"
+"POT-Creation-Date: 2015-05-29 17:35:38+00:00\n"
 "PO-Revision-Date: 2015-05-29 15:30:00+0000\n"
 "Last-Translator: Egbert Jan van den Bussche <egbert@vandenbussche.nl>\n"
 "Language-Team: Team Name <team@vandenbussche.nl>\n"
@@ -65,12 +65,12 @@ msgstr "Geen vestigingen gevonden."
 msgid "No Stores found in Trash."
 msgstr "Geen vestigingen in de prullenbak."
 
-#: includes/class-wc-pos-pro-template.php:98 includes/views/customers.php:14
-#: includes/views/customers.php:74 includes/views/print/receipt.php:156
 #. translators: woocommerce
 #. translators: wordpress
 #. translators: woocommerce
 #. translators: woocommerce
+#: includes/class-wc-pos-pro-template.php:102 includes/views/customers.php:14
+#: includes/views/customers.php:74 includes/views/print/receipt.php:173
 msgid "Email"
 msgstr "Email"
 
@@ -90,51 +90,51 @@ msgstr "Voeg klant toe"
 msgid "Pro Receipt"
 msgstr "Pro kassabon"
 
-#: includes/views/print/receipt.php:135
+#: includes/views/print/receipt.php:152
 msgid "Billing Address"
 msgstr "Faktuuradres"
 
-#: includes/views/print/receipt.php:138
+#: includes/views/print/receipt.php:155
 msgid "Shipping Address"
 msgstr "Verzendadres"
 
-#: includes/views/print/receipt.php:143
+#: includes/views/print/receipt.php:160
 msgid "Order Number"
 msgstr "Kassabon nummer"
 
-#: includes/views/print/receipt.php:147
+#: includes/views/print/receipt.php:164
 msgid "Order Date"
 msgstr "Verkoopdatum"
 
-#: includes/views/print/receipt.php:151
+#: includes/views/print/receipt.php:168
 msgid "Payment Method"
 msgstr "Betaalmethode"
 
-#: includes/views/print/receipt.php:162
+#: includes/views/print/receipt.php:179
 msgid "Telephone"
 msgstr "Telefoon"
 
-#: includes/views/print/receipt.php:171
+#: includes/views/print/receipt.php:188
 msgid "Qty"
 msgstr "Aantal"
 
-#: includes/views/print/receipt.php:172
+#: includes/views/print/receipt.php:189
 msgid "Price"
 msgstr "Prijs"
 
-#: includes/views/print/receipt.php:203
+#: includes/views/print/receipt.php:220
 msgid "Cart Subtotal"
 msgstr "Subtotaal"
 
-#: includes/views/print/receipt.php:208
+#: includes/views/print/receipt.php:225
 msgid "Cart Discount"
 msgstr "Korting"
 
-#: includes/views/print/receipt.php:249
+#: includes/views/print/receipt.php:266
 msgid "Order Discount"
 msgstr "Korting totaal"
 
-#: includes/views/print/receipt.php:254
+#: includes/views/print/receipt.php:271
 msgid "Order Total"
 msgstr "Verkopen totaal"
 
@@ -156,15 +156,14 @@ msgstr "Geen filialen. <a href=\"%s\">Maak een filiaal aan</a>."
 
 #. Description of the plugin/theme
 msgid ""
-"WooCommerce POS Pro adds extra functionality to the free plugin. Requires "
-"<a href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce "
-"POS</a>."
+"WooCommerce POS Pro adds extra functionality to the free plugin. Requires <a "
+"href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce POS</a>."
 msgstr ""
 "WooCommerce KASSA Pro voegt extra functionaliteit toe aan de gratis plugin. "
 "Vereist <a href=\"http://wordpress.org/plugins/woocommerce-pos/"
 "\">WooCommerce KASSA</a>."
 
-#: includes/views/print/receipt.php:230 includes/views/print/receipt.php:240
+#: includes/views/print/receipt.php:247 includes/views/print/receipt.php:257
 msgctxt "abbreviation for includes (tax)"
 msgid "incl."
 msgstr "incl."

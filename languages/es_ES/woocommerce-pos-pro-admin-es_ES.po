@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS Pro Admin\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-05-23 14:32:55+00:00\n"
+"POT-Creation-Date: 2015-05-29 17:35:38+00:00\n"
 "PO-Revision-Date: 2015-05-29 13:40:58+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -74,9 +74,9 @@ msgid ""
 "\"_blank\">dashboard</a>."
 msgstr ""
 "No se pudo encontrar una clave de licencia para %s . Quizás olvidó "
-"introducir una clave de licencia al instalar %s, o la clave fue "
-"desactivado en su cuenta. Puede reactivar o comprar una clave de licencia "
-"desde su cuenta <a href=\"%s\" target=\"_blank\">dashboard</a>."
+"introducir una clave de licencia al instalar %s, o la clave fue desactivado "
+"en su cuenta. Puede reactivar o comprar una clave de licencia desde su "
+"cuenta <a href=\"%s\" target=\"_blank\">dashboard</a>."
 
 #: includes/admin/class-wc-pos-pro-am.php:322
 msgid ""
@@ -92,9 +92,8 @@ msgid ""
 "The subscription for %s is on-hold. You can reactivate the subscription from "
 "your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
 msgstr ""
-"La suscripción para %s está en espera. Puede volver a activar la "
-"suscripción desde su cuenta <a href=\"%s\" target=\"_blank\">dashboard</"
-"a>."
+"La suscripción para %s está en espera. Puede volver a activar la suscripción "
+"desde su cuenta <a href=\"%s\" target=\"_blank\">dashboard</a>."
 
 #: includes/admin/class-wc-pos-pro-am.php:324
 msgid ""
@@ -103,9 +102,9 @@ msgid ""
 "license key will be emailed to you after your order has been completed."
 msgstr ""
 "La suscripción para %s ha sido cancelada. Usted puede renovar  la "
-"suscripción desde su cuenta <a href=\"%s\" target=\"_blank\">dashboard</"
-"a>. Una nueva clave de licencia será enviada por correo electrónico "
-"después de que su pedido sea completado."
+"suscripción desde su cuenta <a href=\"%s\" target=\"_blank\">dashboard</a>. "
+"Una nueva clave de licencia será enviada por correo electrónico después de "
+"que su pedido sea completado."
 
 #: includes/admin/class-wc-pos-pro-am.php:325
 msgid ""
@@ -122,8 +121,7 @@ msgid ""
 "a>."
 msgstr ""
 "La suscripción para %s se ha suspendido. Puede volver a activar la "
-"suscripción desde su cuenta <a href=\"%s\" target=\"_blank\">dashboard</"
-"a>."
+"suscripción desde su cuenta <a href=\"%s\" target=\"_blank\">dashboard</a>."
 
 #: includes/admin/class-wc-pos-pro-am.php:327
 msgid ""
@@ -131,8 +129,8 @@ msgid ""
 "subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
 "a>."
 msgstr ""
-"La suscripción para %s aún está pendiente. Usted puede comprobar el "
-"estado de la suscripción desde su cuenta <a href=\"%s\" target=\"_blank"
+"La suscripción para %s aún está pendiente. Usted puede comprobar el estado "
+"de la suscripción desde su cuenta <a href=\"%s\" target=\"_blank"
 "\">dashboard</a>."
 
 #: includes/admin/class-wc-pos-pro-am.php:328
@@ -142,8 +140,8 @@ msgid ""
 "target=\"_blank\">dashboard</a>."
 msgstr ""
 "La suscripción para %s se ha colocado en la papelera y se borrará pronto. "
-"Puede adquirir una nueva suscripción desde su cuenta <a href=\"%s\" "
-"target=\"_blank\">dashboard</a>."
+"Puede adquirir una nueva suscripción desde su cuenta <a href=\"%s\" target="
+"\"_blank\">dashboard</a>."
 
 #: includes/admin/class-wc-pos-pro-am.php:329
 msgid ""
@@ -151,16 +149,15 @@ msgid ""
 "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
 msgstr ""
 "La suscripción para %s no se ha podido encontrar. Usted puede comprar una "
-"suscripción desde su cuenta <a href=\"%s\" target=\"_blank\">dashboard</"
-"a>."
+"suscripción desde su cuenta <a href=\"%s\" target=\"_blank\">dashboard</a>."
 
 #: includes/admin/class-wc-pos-pro-am.php:330
 msgid ""
 "%s has not been activated. Go to the settings page and enter the license key "
 "and license email to activate %s."
 msgstr ""
-"%s no se ha activado. Ir a la página de configuración e introduzca la "
-"clave y el correo electrónico de licencia para activar %s."
+"%s no se ha activado. Ir a la página de configuración e introduzca la clave "
+"y el correo electrónico de licencia para activar %s."
 
 #: includes/admin/class-wc-pos-pro-am.php:331
 msgid ""
@@ -170,8 +167,8 @@ msgid ""
 msgstr ""
 "El permiso de descarga para %s ha sido revocado posiblemente por que la "
 "clave de licencia o la suscripción ha expirado. Usted puede reactivar o "
-"comprar una clave de licencia desde su cuenta <a href=\"%s\" target="
-"\"_blank\">dashboard</a>."
+"comprar una clave de licencia desde su cuenta <a href=\"%s\" target=\"_blank"
+"\">dashboard</a>."
 
 #: includes/admin/class-wc-pos-pro-am.php:332
 msgid ""
@@ -180,11 +177,10 @@ msgid ""
 "your email inbox, if not you can get it by logging into your account <a href="
 "\"%s\" target=\"_blank\">dashboard</a>."
 msgstr ""
-"Usted cambió la suscripción para %s, por lo que necesitará entrar su "
-"nueva clave de licencia API en la página de configuración. La clave de "
-"licencia debería haber llegado a su buzón de correo electrónico, si no la "
-"puede conseguir, acceda a su cuenta <a href=\"%s\" target=\"_blank"
-"\">dashboard</a>."
+"Usted cambió la suscripción para %s, por lo que necesitará entrar su nueva "
+"clave de licencia API en la página de configuración. La clave de licencia "
+"debería haber llegado a su buzón de correo electrónico, si no la puede "
+"conseguir, acceda a su cuenta <a href=\"%s\" target=\"_blank\">dashboard</a>."
 
 #: includes/admin/class-wc-pos-pro-reports.php:27
 #: includes/admin/reports/class-wc-pos-pro-sales.php:498
@@ -239,28 +235,28 @@ msgstr ""
 msgid "Receipt Options"
 msgstr ""
 
-#: includes/admin/class-wc-pos-pro-stores.php:269
+#: includes/admin/class-wc-pos-pro-stores.php:277
 msgid "Set featured image"
 msgstr ""
 
-#: includes/admin/class-wc-pos-pro-stores.php:269
-#: includes/admin/class-wc-pos-pro-stores.php:285
+#: includes/admin/class-wc-pos-pro-stores.php:277
+#: includes/admin/class-wc-pos-pro-stores.php:293
 msgid "Set store logo"
 msgstr ""
 
-#: includes/admin/class-wc-pos-pro-stores.php:270
+#: includes/admin/class-wc-pos-pro-stores.php:278
 msgid "Remove featured image"
 msgstr ""
 
-#: includes/admin/class-wc-pos-pro-stores.php:270
+#: includes/admin/class-wc-pos-pro-stores.php:278
 msgid "Remove store logo"
 msgstr ""
 
-#: includes/admin/class-wc-pos-pro-stores.php:284
+#: includes/admin/class-wc-pos-pro-stores.php:292
 msgid "Set Store Logo"
 msgstr ""
 
-#: includes/admin/class-wc-pos-pro-stores.php:361
+#: includes/admin/class-wc-pos-pro-stores.php:369
 msgid ""
 "Please <a href=\"%s\">read the docs</a> for information on how to customize "
 "your POS receipts."
@@ -446,7 +442,7 @@ msgid ""
 "\">change the tax rate</a> in WooCommerce settings."
 msgstr ""
 
-#: includes/class-wc-pos-pro-activator.php:115
+#: includes/class-wc-pos-pro-activator.php:145
 msgid ""
 "<strong>WooCommerce POS Pro</strong> requires <a href=\"%s\">WooCommerce "
 "POS</a>. Please <a href=\"%s\">install and activate WooCommerce POS</a>"

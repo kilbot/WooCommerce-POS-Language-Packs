@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS Pro 0.4.0-beta\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-05-23 14:32:55+0000\n"
+"POT-Creation-Date: 2015-05-29 17:35:38+00:00\n"
 "PO-Revision-Date: 2015-05-28 15:45:00+0000\n"
 "Last-Translator: Egbert Jan van den Bussche <egbert@vandenbussche.nl>\n"
 "Language-Team: Team Name <team@vandenbussche.nl>\n"
@@ -70,10 +70,10 @@ msgstr "Onjuist antwoord"
 
 #: includes/admin/class-wc-pos-pro-am.php:321
 msgid ""
-"A license key for %s could not be found. Maybe you forgot to enter a "
-"license key when setting up %s, or the key was deactivated in your account. "
-"You can reactivate or purchase a license key from your account <a "
-"href=\"%s\" target=\"_blank\">dashboard</a>."
+"A license key for %s could not be found. Maybe you forgot to enter a license "
+"key when setting up %s, or the key was deactivated in your account. You can "
+"reactivate or purchase a license key from your account <a href=\"%s\" target="
+"\"_blank\">dashboard</a>."
 msgstr ""
 "Er kon geen licentie key voor %s gevonden worden. Heb je vergeten een "
 "license key aan te maken tijdens de installatie van %s, of is de key soms "
@@ -82,9 +82,8 @@ msgstr ""
 
 #: includes/admin/class-wc-pos-pro-am.php:322
 msgid ""
-"The license key for %s has expired. You can reactivate or purchase a "
-"license key from your account <a href=\"%s\" "
-"target=\"_blank\">dashboard</a>."
+"The license key for %s has expired. You can reactivate or purchase a license "
+"key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
 msgstr ""
 "De licentie key voor %s is verlopen. Je kan een licentie key kopen of "
 "opnieuw activeren in je account <a href=\"%s\" target=\"_blank\">dashboard</"
@@ -92,11 +91,11 @@ msgstr ""
 
 #: includes/admin/class-wc-pos-pro-am.php:323
 msgid ""
-"The subscription for %s is on-hold. You can reactivate the subscription "
-"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+"The subscription for %s is on-hold. You can reactivate the subscription from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
 msgstr ""
-"Je abonnement op %s staat on hold. Je kan je abonnement weer activeren "
-"in je account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+"Je abonnement op %s staat on hold. Je kan je abonnement weer activeren in je "
+"account <a href=\"%s\" target=\"_blank\">dashboard</a>."
 
 #: includes/admin/class-wc-pos-pro-am.php:324
 msgid ""
@@ -119,21 +118,21 @@ msgstr ""
 #: includes/admin/class-wc-pos-pro-am.php:326
 msgid ""
 "The subscription for %s has been suspended. You can reactivate the "
-"subscription from your account <a href=\"%s\" "
-"target=\"_blank\">dashboard</a>."
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
 msgstr ""
 "Je abonnment op %s is tijdelijk gestopt. Je kan le abonnement weer activeren "
 "in je account <a href=\"%s\" target=\"_blank\">dashboard</a>."
 
 #: includes/admin/class-wc-pos-pro-am.php:327
 msgid ""
-"The subscription for %s is still pending. You can check on the status of "
-"the subscription from your account <a href=\"%s\" "
-"target=\"_blank\">dashboard</a>."
+"The subscription for %s is still pending. You can check on the status of the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
 msgstr ""
-"Je abonnment op %s wacht nog op behandeling. Je kan de status van "
-"je abonnement controleren in je account <a href=\"%s\" "
-"target=\"_blank\">dashboard</a>."
+"Je abonnment op %s wacht nog op behandeling. Je kan de status van je "
+"abonnement controleren in je account <a href=\"%s\" target=\"_blank"
+"\">dashboard</a>."
 
 #: includes/admin/class-wc-pos-pro-am.php:328
 msgid ""
@@ -155,28 +154,28 @@ msgstr ""
 
 #: includes/admin/class-wc-pos-pro-am.php:330
 msgid ""
-"%s has not been activated. Go to the settings page and enter the license "
-"key and license email to activate %s."
+"%s has not been activated. Go to the settings page and enter the license key "
+"and license email to activate %s."
 msgstr ""
-"%s is niet geaactiveerd. Ga naarde instellingen pagina en geef de "
-"licentie key and het licentie emailadres om %s te activeren."
+"%s is niet geaactiveerd. Ga naarde instellingen pagina en geef de licentie "
+"key and het licentie emailadres om %s te activeren."
 
 #: includes/admin/class-wc-pos-pro-am.php:331
 msgid ""
-"Download permission for %s has been revoked possibly due to a license key "
-"or subscription expiring. You can reactivate or purchase a license key from "
+"Download permission for %s has been revoked possibly due to a license key or "
+"subscription expiring. You can reactivate or purchase a license key from "
 "your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
 msgstr ""
-"De toestemming om %s te downloaden is ingetrokken, waarschijnlijk omdat de licentie key of het abonnement "
-"is verlopen. Je kan en licentie key kopen of vernieuwen in je "
-"account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+"De toestemming om %s te downloaden is ingetrokken, waarschijnlijk omdat de "
+"licentie key of het abonnement is verlopen. Je kan en licentie key kopen of "
+"vernieuwen in je account <a href=\"%s\" target=\"_blank\">dashboard</a>."
 
 #: includes/admin/class-wc-pos-pro-am.php:332
 msgid ""
 "You changed the subscription for %s, so you will need to enter your new API "
 "License Key in the settings page. The License Key should have arrived in "
-"your email inbox, if not you can get it by logging into your account <a "
-"href=\"%s\" target=\"_blank\">dashboard</a>."
+"your email inbox, if not you can get it by logging into your account <a href="
+"\"%s\" target=\"_blank\">dashboard</a>."
 msgstr ""
 "Je hebt je abonnement op %s aangepast. Je zal de je nieuwe licentie key op "
 "de instellingen pagina moeten invullen. De licentie key zou al in je inbox "
@@ -236,28 +235,28 @@ msgstr "Logo"
 msgid "Receipt Options"
 msgstr "Kassabon opties"
 
-#: includes/admin/class-wc-pos-pro-stores.php:269
+#: includes/admin/class-wc-pos-pro-stores.php:277
 msgid "Set featured image"
 msgstr "Kies featured image"
 
-#: includes/admin/class-wc-pos-pro-stores.php:269
-#: includes/admin/class-wc-pos-pro-stores.php:285
+#: includes/admin/class-wc-pos-pro-stores.php:277
+#: includes/admin/class-wc-pos-pro-stores.php:293
 msgid "Set store logo"
 msgstr "Kies filiaal logo"
 
-#: includes/admin/class-wc-pos-pro-stores.php:270
+#: includes/admin/class-wc-pos-pro-stores.php:278
 msgid "Remove featured image"
 msgstr "Verwijder featured image"
 
-#: includes/admin/class-wc-pos-pro-stores.php:270
+#: includes/admin/class-wc-pos-pro-stores.php:278
 msgid "Remove store logo"
 msgstr "Verwijder filiaal logo"
 
-#: includes/admin/class-wc-pos-pro-stores.php:284
+#: includes/admin/class-wc-pos-pro-stores.php:292
 msgid "Set Store Logo"
 msgstr "Kies filiaal logo"
 
-#: includes/admin/class-wc-pos-pro-stores.php:361
+#: includes/admin/class-wc-pos-pro-stores.php:369
 msgid ""
 "Please <a href=\"%s\">read the docs</a> for information on how to customize "
 "your POS receipts."
@@ -393,8 +392,8 @@ msgstr "Gesloten op feestdagen"
 
 #: includes/admin/views/stores/opening-hours.php:27
 msgid ""
-"You can add opening hours to your website using a widget. <a "
-"href=\"%s\">Read the docs</a> for more information."
+"You can add opening hours to your website using a widget. <a href=\"%s"
+"\">Read the docs</a> for more information."
 msgstr ""
 "Je kan de openingstijden in een widget in je website plaatsen. <a href=\"%s"
 "\">zie de docs</a> voor uitleg."
@@ -445,13 +444,14 @@ msgstr "Er zijn geen belastingtarieven ingesteld"
 
 #: includes/admin/views/stores/tax-rate.php:43
 msgid ""
-"The tax rates above will be used at the point of sale. You can <a "
-"href=\"%s\">change the tax rate</a> in WooCommerce settings."
+"The tax rates above will be used at the point of sale. You can <a href=\"%s"
+"\">change the tax rate</a> in WooCommerce settings."
 msgstr ""
-"De belastingtarieven hierboven worden voor winkel verkopen gebruikt. J kan de <a "
-"href=\"%s\"> belastingtarieven</a> in de WooCommerce instellingen aanpassen."
+"De belastingtarieven hierboven worden voor winkel verkopen gebruikt. J kan "
+"de <a href=\"%s\"> belastingtarieven</a> in de WooCommerce instellingen "
+"aanpassen."
 
-#: includes/class-wc-pos-pro-activator.php:115
+#: includes/class-wc-pos-pro-activator.php:145
 msgid ""
 "<strong>WooCommerce POS Pro</strong> requires <a href=\"%s\">WooCommerce "
 "POS</a>. Please <a href=\"%s\">install and activate WooCommerce POS</a>"

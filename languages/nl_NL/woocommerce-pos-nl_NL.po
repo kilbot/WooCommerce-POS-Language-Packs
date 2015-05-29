@@ -6,7 +6,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
 "POT-Creation-Date: 2015-05-29 17:35:55+00:00\n"
-"PO-Revision-Date: 2015-05-26 16:30:00+0000\n"
+"PO-Revision-Date: 2015-05-30 16:30:00+0000\n"
 "Last-Translator: Egbert Jan van den Bussche <egbert@vandenbussche.nl>\n"
 "Language-Team: Team Name <team@vandenbussche.nl>\n"
 "Language: \n"
@@ -56,7 +56,7 @@ msgstr "Er is een fout opgetreden bij het versturen van de email"
 
 #: includes/class-wc-pos-ajax.php:206
 msgid "Invalid security nonce"
-msgstr "Ongeldig token"
+msgstr "Ongeldig security token"
 
 #: includes/class-wc-pos-i18n.php:332
 msgid "To Pay"
@@ -145,9 +145,7 @@ msgstr "Gegeven"
 
 #: includes/views/modals/browser.php:2
 msgid "Sorry, it seems your browser is not supported by WooCommerce POS. "
-msgstr ""
-"Sorry, het ziet er naar uit dat je browser niet ondersteund wordt door "
-"KASSA. "
+msgstr "Sorry, het ziet er naar uit dat KASSA je browser niet ondersteund. "
 
 #: includes/views/modals/browser.php:3
 msgid ""

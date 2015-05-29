@@ -6,7 +6,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
 "POT-Creation-Date: 2015-05-29 17:35:56+00:00\n"
-"PO-Revision-Date: 2015-05-28 16:30:00+0000\n"
+"PO-Revision-Date: 2015-05-30 16:30:00+0000\n"
 "Last-Translator: Egbert Jan van den Bussche <egbert@vandenbussche.nl>\n"
 "Language-Team: Team Name <team@vandenbussche.nl>\n"
 "Language: \n"
@@ -25,7 +25,7 @@ msgstr "Webwinkel"
 #: includes/admin/class-wc-pos-orders.php:89
 #: includes/admin/views/order-details.php:5
 msgid "POS"
-msgstr "KASSA"
+msgstr "KASSA(POS)"
 
 #: includes/admin/class-wc-pos-menu.php:44
 #: includes/admin/class-wc-pos-menu.php:45
@@ -64,7 +64,7 @@ msgstr "Sync. met de server"
 
 #: includes/admin/settings/views/access.php:7
 msgid "Grant POS Access"
-msgstr "Geef toegang tot KASSA"
+msgstr "Verleen toegang tot KASSA"
 
 #: includes/admin/settings/views/access.php:10
 msgid ""
@@ -91,7 +91,7 @@ msgstr ""
 
 #: includes/admin/settings/views/checkout.php:13
 msgid "Completed Order Status"
-msgstr "Status voor voltooide verkoop"
+msgstr "Eindstatus van voltooide verkoop"
 
 #: includes/admin/settings/views/checkout.php:14
 msgid "Change the default order status for POS sales"
@@ -244,7 +244,7 @@ msgid ""
 "<strong>WooCommerce POS</strong> requires <a href=\"%s\">WooCommerce</a>. "
 "Please <a href=\"%s\">install and activate WooCommerce</a>"
 msgstr ""
-"<strong>WooCommerce KASSA</strong> vereist <a href=\"%s\">WooCommerce</a>. "
+"<strong>WooCommerce KASSA(POS)</strong> vereist <a href=\"%s\">WooCommerce</a>. "
 "<a href=\"%s\">installeer en activeer WooCommerce</a>"
 
 #: includes/class-wc-pos-activator.php:192
@@ -252,8 +252,8 @@ msgid ""
 "<strong>WooCommerce POS</strong> requires the WooCommerce REST API. Please "
 "<a href=\"%s\">enable the REST API</a>"
 msgstr ""
-"<strong>WooCommerce KASSA</strong> vereist de WooCommerce REST API. <a href="
-"\"%s\">Enable de REST API</a>"
+"<strong>WooCommerce KASSA(POS)</strong> vereist de WooCommerce REST API. "
+"<a href=\"%s\">Enable de REST API</a>"
 
 #: includes/class-wc-pos-activator.php:209
 msgid ""

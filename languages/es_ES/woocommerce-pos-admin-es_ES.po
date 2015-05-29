@@ -6,7 +6,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
 "POT-Creation-Date: 2015-05-23 14:33:25+00:00\n"
-"PO-Revision-Date: 2014-11-14 12:09:15+0000\n"
+"PO-Revision-Date: 2015-05-29 12:09:15+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,7 +15,7 @@ msgstr ""
 
 #: includes/admin/class-wc-pos-gateways.php:31
 msgid "Online Store"
-msgstr ""
+msgstr "Tienda online"
 
 #: includes/admin/class-wc-pos-gateways.php:32
 #: includes/admin/class-wc-pos-menu.php:34
@@ -38,7 +38,7 @@ msgstr "Actualiza a PRO"
 #: includes/admin/class-wc-pos-orders.php:90
 #: includes/admin/views/order-details.php:4
 msgid "Online"
-msgstr ""
+msgstr "En linea"
 
 #: includes/admin/settings/class-wc-pos-access.php:58
 msgid "POS Access"
@@ -237,7 +237,7 @@ msgstr ""
 
 #: includes/products/class-wc-pos-visibility.php:23
 msgid "POS & Online"
-msgstr ""
+msgstr "POS & En linea"
 
 #: includes/products/class-wc-pos-visibility.php:24
 #: includes/products/class-wc-pos-visibility.php:87
@@ -252,7 +252,7 @@ msgstr ""
 #: includes/products/views/post-metabox-visibility-select.php:11
 #: includes/products/views/quick-edit-visibility-select.php:14
 msgid "POS visibility"
-msgstr ""
+msgstr "Visible en POS"
 
 #: includes/admin/class-wc-pos-permalink.php:28
 msgctxt "Permalink setting, eg: /pos"

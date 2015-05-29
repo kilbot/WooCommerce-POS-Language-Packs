@@ -154,7 +154,7 @@ msgstr "Toon winkeltijden in WooCommerce KASSA"
 
 #: includes/widgets/class-wc-pos-pro-hours.php:88
 msgid "No stores. <a href=\"%s\">Create a new store</a>."
-msgstr "Geen filialen. <a href=\"%s\">Maak een filiaal aan</a>."
+msgstr "Geen vestigingen. <a href=\"%s\">Maak een vestiging aan</a>."
 
 #. Description of the plugin/theme
 msgid ""
@@ -162,9 +162,9 @@ msgid ""
 "<a href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce "
 "POS</a>."
 msgstr ""
-"WooCommerce KASSA Pro voegt extra functionaliteit toe aan de gratis plugin. Vereist "
+"WooCommerce KASSA(POS) Pro voegt extra functionaliteit toe aan de gratis plugin. Vereist "
 "<a href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce "
-"KASSA</a>."
+"KASSA(POS)</a>."
 
 #: includes/views/print/receipt.php:230 includes/views/print/receipt.php:240
 msgctxt "abbreviation for includes (tax)"

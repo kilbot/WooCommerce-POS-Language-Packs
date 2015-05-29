@@ -52,7 +52,7 @@ msgstr "Er is een fout opgetreden bij het versturen van de email"
 
 #: includes/class-wc-pos-ajax.php:206
 msgid "Invalid security nonce"
-msgstr "Ongeldig token"
+msgstr "Ongeldig security token"
 
 #: includes/class-wc-pos-i18n.php:330
 msgid "To Pay"
@@ -145,7 +145,7 @@ msgstr "Gegeven"
 
 #: includes/views/modals/browser.php:2
 msgid "Sorry, it seems your browser is not supported by WooCommerce POS. "
-msgstr "Sorry, het ziet er naar uit dat je browser niet ondersteund wordt door KASSA. "
+msgstr "Sorry, het ziet er naar uit dat KASSA je browser niet ondersteund. "
 
 #: includes/views/modals/browser.php:3
 msgid ""

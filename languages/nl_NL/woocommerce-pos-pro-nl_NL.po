@@ -22,17 +22,20 @@ msgstr "Activeer"
 msgid "Deactivate"
 msgstr "Deactiveer"
 
-#: includes/class-wc-pos-pro-stores.php:46 includes/class-wc-pos-pro-stores.php:48
+#: includes/class-wc-pos-pro-stores.php:46
+#: includes/class-wc-pos-pro-stores.php:48
 #: includes/class-wc-pos-pro-stores.php:54
 msgid "Stores"
 msgstr "Vestigingen"
 
-#: includes/class-wc-pos-pro-stores.php:47 includes/class-wc-pos-pro-stores.php:91
+#: includes/class-wc-pos-pro-stores.php:47
+#: includes/class-wc-pos-pro-stores.php:91
 #: includes/widgets/class-wc-pos-pro-hours.php:82
 msgid "Store"
 msgstr "Vestiging"
 
-#: includes/class-wc-pos-pro-stores.php:49 includes/class-wc-pos-pro-stores.php:50
+#: includes/class-wc-pos-pro-stores.php:49
+#: includes/class-wc-pos-pro-stores.php:50
 msgid "Add New Store"
 msgstr "Voeg een vestiging toe"
 
@@ -68,12 +71,15 @@ msgstr "Geen vestigingen in de prullenbak."
 #. translators: wordpress
 #. translators: woocommerce
 #. translators: woocommerce
-#: includes/class-wc-pos-pro-template.php:98 includes/views/customers.php:14
-#: includes/views/customers.php:74 includes/views/print/receipt.php:156
+#: includes/class-wc-pos-pro-template.php:98
+#: includes/views/customers.php:14
+#: includes/views/customers.php:74
+#: includes/views/print/receipt.php:156
 msgid "Email"
 msgstr "Email"
 
-#: includes/views/customers.php:25 includes/views/customers.php:62
+#: includes/views/customers.php:25
+#: includes/views/customers.php:62
 msgid "Add New Customer"
 msgstr "Voeg nieuwe klant toe"
 
@@ -161,7 +167,8 @@ msgstr ""
 "WooCommerce KASSA(POS) Pro voegt extra functionaliteit toe aan de gratis plugin. Vereist "
 "<a href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce KASSA(POS)</a>."
 
-#: includes/views/print/receipt.php:230 includes/views/print/receipt.php:240
+#: includes/views/print/receipt.php:230
+#: includes/views/print/receipt.php:240
 msgctxt "abbreviation for includes (tax)"
 msgid "incl."
 msgstr "incl."

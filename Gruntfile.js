@@ -83,7 +83,9 @@ module.exports = function(grunt) {
           expand: true,
           cwd: 'languages/' + locale,
           src: [
+            slug + '-' + locale + '.po',
             slug + '-' + locale + '.mo',
+            slug + '-admin-' + locale + '.po',
             slug + '-admin-' + locale + '.mo'
           ]
         }]

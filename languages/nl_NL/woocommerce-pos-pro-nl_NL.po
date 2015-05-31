@@ -146,11 +146,11 @@ msgstr "Aanbieding?"
 
 #: includes/widgets/class-wc-pos-pro-hours.php:17
 msgid "Store Opening Hours"
-msgstr "Winkel openingstijden"
+msgstr "Openingstijden"
 
 #: includes/widgets/class-wc-pos-pro-hours.php:18
 msgid "Display store hours set in WooCommerce POS"
-msgstr "Toon winkeltijden in WooCommerce KASSA"
+msgstr "Toon openingstijden in WooCommerce KASSA"
 
 #: includes/widgets/class-wc-pos-pro-hours.php:88
 msgid "No stores. <a href=\"%s\">Create a new store</a>."

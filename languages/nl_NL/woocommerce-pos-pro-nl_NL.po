@@ -45,7 +45,7 @@ msgstr "Nieuwe vestiging"
 
 #: includes/class-wc-pos-pro-stores.php:52
 msgid "Edit Store"
-msgstr "Bewerkt vestiging"
+msgstr "Bewerk vestiging"
 
 #: includes/class-wc-pos-pro-stores.php:53
 msgid "View Store"
@@ -153,7 +153,7 @@ msgstr "Openingstijden"
 
 #: includes/widgets/class-wc-pos-pro-hours.php:18
 msgid "Display store hours set in WooCommerce POS"
-msgstr "Toon openingstijden in KASSA"
+msgstr "Toon de openingstijden die in KASSA staan"
 
 #: includes/widgets/class-wc-pos-pro-hours.php:88
 msgid "No stores. <a href=\"%s\">Create a new store</a>."

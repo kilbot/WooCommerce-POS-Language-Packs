@@ -10,6 +10,7 @@ module.exports = function(grunt) {
     'de_DE',
     'el',
     'es_ES',
+    'fi',
     'fr_FR',
     'it_IT',
     'nb_NO',

@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS Pro 0.4.0-beta\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-05-29 17:35:38+00:00\n"
+"POT-Creation-Date: 2015-06-02 07:55:30+00:00\n"
 "PO-Revision-Date: 2015-05-30 15:45:00+0000\n"
 "Last-Translator: Egbert Jan van den Bussche <egbert@vandenbussche.nl>\n"
 "Language-Team: Team Name <team@vandenbussche.nl>\n"
@@ -198,14 +198,6 @@ msgstr "KASSA vs WEB verkoop"
 #: includes/admin/class-wc-pos-pro-reports.php:36
 msgid "Sales by cashier"
 msgstr "Verkopen per kassier"
-
-#: includes/admin/class-wc-pos-pro-reports.php:42
-msgid "Sales by store"
-msgstr "Verkopen per vestiging"
-
-#: includes/admin/class-wc-pos-pro-reports.php:48
-msgid "Sales by payment method"
-msgstr "Verkopen per betaalmethode"
 
 #: includes/admin/class-wc-pos-pro-stores.php:62
 msgid "Stores"
@@ -456,5 +448,12 @@ msgid ""
 "<strong>WooCommerce POS Pro</strong> requires <a href=\"%s\">WooCommerce "
 "POS</a>. Please <a href=\"%s\">install and activate WooCommerce POS</a>"
 msgstr ""
-"<strong>WooCommerce KASSA(POS) Pro</strong> vereist <a href=\"%s\">WooCommerce "
-"KASSA(POS)</a>. <a href=\"%s\">installeer en activeer WooCommerce KASSA(POS)</a>"
+"<strong>WooCommerce KASSA(POS) Pro</strong> vereist <a href=\"%s"
+"\">WooCommerce KASSA(POS)</a>. <a href=\"%s\">installeer en activeer "
+"WooCommerce KASSA(POS)</a>"
+
+#~ msgid "Sales by store"
+#~ msgstr "Verkopen per vestiging"
+
+#~ msgid "Sales by payment method"
+#~ msgstr "Verkopen per betaalmethode"

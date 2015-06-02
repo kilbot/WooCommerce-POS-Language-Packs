@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-05-29 17:35:55+00:00\n"
+"POT-Creation-Date: 2015-06-02 04:17:17+00:00\n"
 "PO-Revision-Date: 2014-10-11 17:51:17+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,15 +13,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/0.1\n"
 
-#: includes/api/class-wc-pos-orders.php:492
+#: includes/api/class-wc-pos-orders.php:497
 msgid "There was an error processing the payment"
 msgstr "Hubo un error al procesar el pago."
 
-#: includes/api/class-wc-pos-orders.php:518
+#: includes/api/class-wc-pos-orders.php:523
 msgid "You are now being redirected offsite to complete the payment. "
 msgstr ""
 
-#: includes/api/class-wc-pos-orders.php:519
+#: includes/api/class-wc-pos-orders.php:524
 #, fuzzy
 msgid "<a href=\"%s\">Click here</a> if you are not redirected automatically. "
 msgstr ""
@@ -29,7 +29,7 @@ msgstr ""
 "target=\"_blank\" href=\"%s\" data-redirect=\"true\">Click aquí</a> isi no "
 "es redirigido automáticamente."
 
-#: includes/api/class-wc-pos-orders.php:533
+#: includes/api/class-wc-pos-orders.php:538
 msgid "POS Transaction completed."
 msgstr ""
 
@@ -47,17 +47,17 @@ msgstr ""
 msgid "Settings error"
 msgstr "Configuración"
 
-#: includes/class-wc-pos-ajax.php:165 includes/class-wc-pos-ajax.php:186
+#: includes/class-wc-pos-ajax.php:165 includes/class-wc-pos-ajax.php:187
 #, fuzzy
 msgid "Email sent"
 msgstr "Correo enviado"
 
-#: includes/class-wc-pos-ajax.php:170 includes/class-wc-pos-ajax.php:191
+#: includes/class-wc-pos-ajax.php:170 includes/class-wc-pos-ajax.php:192
 #, fuzzy
 msgid "There was an error sending the email"
 msgstr "Hubo un problema al enviar su correo electrónico."
 
-#: includes/class-wc-pos-ajax.php:206
+#: includes/class-wc-pos-ajax.php:207
 msgid "Invalid security nonce"
 msgstr ""
 
@@ -76,6 +76,14 @@ msgstr ""
 #: includes/class-wc-pos-i18n.php:335
 msgid "Email Receipt"
 msgstr "Email Recibo"
+
+#. translators: wordpress
+#. translators: woocommerce
+#. translators: wordpress
+#: includes/class-wc-pos-i18n.php:346 includes/views/print/receipt.php:130
+#: includes/views/support.php:23
+msgid "Email"
+msgstr "Email"
 
 #: includes/class-wc-pos-i18n.php:351
 msgid "Process Payment"
@@ -134,8 +142,8 @@ msgstr "Tarjeta"
 
 #: includes/gateways/class-wc-pos-card.php:52
 #: includes/gateways/class-wc-pos-card.php:55
-#: includes/gateways/class-wc-pos-card.php:78
-#: includes/gateways/class-wc-pos-card.php:112
+#: includes/gateways/class-wc-pos-card.php:82
+#: includes/gateways/class-wc-pos-card.php:116
 msgid "Cashback"
 msgstr "Devolución"
 
@@ -199,10 +207,6 @@ msgstr "Dirección factura"
 msgid "Shipping Address"
 msgstr "Dirección envío"
 
-#: includes/views/print/receipt.php:117
-msgid "Order Number"
-msgstr "Numero pedido"
-
 #: includes/views/print/receipt.php:121
 msgid "Order Date"
 msgstr "Fecha pedido"
@@ -210,19 +214,6 @@ msgstr "Fecha pedido"
 #: includes/views/print/receipt.php:125
 msgid "Payment Method"
 msgstr "Método de pago"
-
-#: includes/views/print/receipt.php:136
-msgid "Telephone"
-msgstr "Teléfono"
-
-#: includes/views/print/receipt.php:145
-#, fuzzy
-msgid "Qty"
-msgstr "Cant"
-
-#: includes/views/print/receipt.php:182
-msgid "Cart Discount"
-msgstr "Descuento cesta"
 
 #: includes/views/support.php:11
 #, fuzzy
@@ -304,6 +295,7 @@ msgid "On Sale"
 msgstr "En venta"
 
 #: includes/views/pos/cart.php:9 includes/views/pos/receipt.php:10
+#: includes/views/print/receipt.php:145
 #, fuzzy
 msgctxt "Abbreviation of Quantity"
 msgid "Qty"
@@ -315,6 +307,19 @@ msgstr "Cant"
 msgctxt "abbreviation for includes (tax)"
 msgid "incl."
 msgstr "incl."
+
+#~ msgid "Order Number"
+#~ msgstr "Numero pedido"
+
+#~ msgid "Telephone"
+#~ msgstr "Teléfono"
+
+#, fuzzy
+#~ msgid "Qty"
+#~ msgstr "Cant"
+
+#~ msgid "Cart Discount"
+#~ msgstr "Descuento cesta"
 
 #, fuzzy
 #~ msgid "Online Store"
@@ -742,9 +747,6 @@ msgstr "incl."
 
 #~ msgid "Your name"
 #~ msgstr "Su nombre"
-
-#~ msgid "Email"
-#~ msgstr "Email"
 
 #~ msgid "Your email"
 #~ msgstr "Su email"

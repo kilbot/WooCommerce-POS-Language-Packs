@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS 0.4.0-beta\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-05-29 17:35:55+00:00\n"
+"POT-Creation-Date: 2015-06-02 04:17:17+00:00\n"
 "PO-Revision-Date: 2015-05-30 16:30:00+0000\n"
 "Last-Translator: Egbert Jan van den Bussche <egbert@vandenbussche.nl>\n"
 "Language-Team: Team Name <team@vandenbussche.nl>\n"
@@ -15,22 +15,22 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: grunt-wp-i18n 0.5.2\n"
 
-#: includes/api/class-wc-pos-orders.php:492
+#: includes/api/class-wc-pos-orders.php:497
 msgid "There was an error processing the payment"
 msgstr "De betaling kon niet verwerkt worden."
 
-#: includes/api/class-wc-pos-orders.php:518
+#: includes/api/class-wc-pos-orders.php:523
 msgid "You are now being redirected offsite to complete the payment. "
 msgstr ""
 "Je wordt nu doorgestuurd naar een externe pagina om de betaling af te "
 "ronden. "
 
-#: includes/api/class-wc-pos-orders.php:519
+#: includes/api/class-wc-pos-orders.php:524
 msgid "<a href=\"%s\">Click here</a> if you are not redirected automatically. "
 msgstr ""
 "<a href=\"%s\">Klik hier</a> als je niet automatisch doorgestuurd wordt. "
 
-#: includes/api/class-wc-pos-orders.php:533
+#: includes/api/class-wc-pos-orders.php:538
 msgid "POS Transaction completed."
 msgstr "KASSA verkoop voltooid."
 
@@ -46,15 +46,15 @@ msgstr "Geen handler gevonden voor %s instelingen"
 msgid "Settings error"
 msgstr "Fout in de instellingen"
 
-#: includes/class-wc-pos-ajax.php:165 includes/class-wc-pos-ajax.php:186
+#: includes/class-wc-pos-ajax.php:165 includes/class-wc-pos-ajax.php:187
 msgid "Email sent"
 msgstr "Email verzonden"
 
-#: includes/class-wc-pos-ajax.php:170 includes/class-wc-pos-ajax.php:191
+#: includes/class-wc-pos-ajax.php:170 includes/class-wc-pos-ajax.php:192
 msgid "There was an error sending the email"
 msgstr "Er is een fout opgetreden bij het versturen van de email"
 
-#: includes/class-wc-pos-ajax.php:206
+#: includes/class-wc-pos-ajax.php:207
 msgid "Invalid security nonce"
 msgstr "Ongeldig security token"
 
@@ -73,6 +73,15 @@ msgstr "Niet betaald"
 #: includes/class-wc-pos-i18n.php:335
 msgid "Email Receipt"
 msgstr "Mail de kassabon"
+
+#. translators: wordpress
+#. translators: woocommerce
+#. translators: wordpress
+#: includes/class-wc-pos-i18n.php:346 includes/views/print/receipt.php:130
+#: includes/views/support.php:23
+#, fuzzy
+msgid "Email"
+msgstr "Email verzonden"
 
 #: includes/class-wc-pos-i18n.php:351
 msgid "Process Payment"
@@ -128,8 +137,8 @@ msgstr "PIN"
 
 #: includes/gateways/class-wc-pos-card.php:52
 #: includes/gateways/class-wc-pos-card.php:55
-#: includes/gateways/class-wc-pos-card.php:78
-#: includes/gateways/class-wc-pos-card.php:112
+#: includes/gateways/class-wc-pos-card.php:82
+#: includes/gateways/class-wc-pos-card.php:116
 msgid "Cashback"
 msgstr "Terug"
 
@@ -188,10 +197,6 @@ msgstr "Faktuuradres"
 msgid "Shipping Address"
 msgstr "Verzendadres"
 
-#: includes/views/print/receipt.php:117
-msgid "Order Number"
-msgstr "Bonnummer"
-
 #: includes/views/print/receipt.php:121
 msgid "Order Date"
 msgstr "Verkoopdatum"
@@ -199,18 +204,6 @@ msgstr "Verkoopdatum"
 #: includes/views/print/receipt.php:125
 msgid "Payment Method"
 msgstr "Betaalmethode"
-
-#: includes/views/print/receipt.php:136
-msgid "Telephone"
-msgstr "Telefoon"
-
-#: includes/views/print/receipt.php:145
-msgid "Qty"
-msgstr "Aantal"
-
-#: includes/views/print/receipt.php:182
-msgid "Cart Discount"
-msgstr "Kortingen"
 
 #: includes/views/support.php:11
 msgid "Support Form"
@@ -290,6 +283,7 @@ msgid "On Sale"
 msgstr "Aanbieding"
 
 #: includes/views/pos/cart.php:9 includes/views/pos/receipt.php:10
+#: includes/views/print/receipt.php:145
 msgctxt "Abbreviation of Quantity"
 msgid "Qty"
 msgstr "Aant."
@@ -300,6 +294,18 @@ msgstr "Aant."
 msgctxt "abbreviation for includes (tax)"
 msgid "incl."
 msgstr "incl."
+
+#~ msgid "Order Number"
+#~ msgstr "Bonnummer"
+
+#~ msgid "Telephone"
+#~ msgstr "Telefoon"
+
+#~ msgid "Qty"
+#~ msgstr "Aantal"
+
+#~ msgid "Cart Discount"
+#~ msgstr "Kortingen"
 
 #~ msgid "Loading&hellip;"
 #~ msgstr "Loading&hellip;"

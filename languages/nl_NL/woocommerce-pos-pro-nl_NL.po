@@ -3,16 +3,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce POS Pro 0.4.0-beta\n"
-"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
-"POT-Creation-Date: 2015-05-23 14:32:55+00:00\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
+"Packs/issues\n"
+"POT-Creation-Date: 2015-06-02 07:55:30+00:00\n"
 "PO-Revision-Date: 2015-06-02 12:17+0100\n"
 "Last-Translator: Egbert Jan van den Bussche <egbert@vandenbussche.nl>\n"
 "Language-Team: Team Name <team@vandenbussche.nl>\n"
-"X-Generator: Poedit 1.8.1\n"
 "Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
 
 #: includes/class-wc-pos-pro-i18n.php:103
 msgid "Activate"
@@ -22,45 +23,48 @@ msgstr "Activeer"
 msgid "Deactivate"
 msgstr "Deactiveer"
 
-#: includes/class-wc-pos-pro-stores.php:46 includes/class-wc-pos-pro-stores.php:48
-#: includes/class-wc-pos-pro-stores.php:54
+#: includes/class-wc-pos-pro-stores.php:43
+#: includes/class-wc-pos-pro-stores.php:45
+#: includes/class-wc-pos-pro-stores.php:51
 msgid "Stores"
 msgstr "Vestigingen"
 
-#: includes/class-wc-pos-pro-stores.php:47 includes/class-wc-pos-pro-stores.php:91
+#: includes/class-wc-pos-pro-stores.php:44
+#: includes/class-wc-pos-pro-stores.php:88
 #: includes/widgets/class-wc-pos-pro-hours.php:82
 msgid "Store"
 msgstr "Vestiging"
 
-#: includes/class-wc-pos-pro-stores.php:49 includes/class-wc-pos-pro-stores.php:50
+#: includes/class-wc-pos-pro-stores.php:46
+#: includes/class-wc-pos-pro-stores.php:47
 msgid "Add New Store"
 msgstr "Voeg een vestiging toe"
 
-#: includes/class-wc-pos-pro-stores.php:51
+#: includes/class-wc-pos-pro-stores.php:48
 msgid "New Store"
 msgstr "Nieuwe vestiging"
 
-#: includes/class-wc-pos-pro-stores.php:52
+#: includes/class-wc-pos-pro-stores.php:49
 msgid "Edit Store"
 msgstr "Bewerk vestiging"
 
-#: includes/class-wc-pos-pro-stores.php:53
+#: includes/class-wc-pos-pro-stores.php:50
 msgid "View Store"
 msgstr "Bekijk vestiging"
 
-#: includes/class-wc-pos-pro-stores.php:55
+#: includes/class-wc-pos-pro-stores.php:52
 msgid "Search Stores"
 msgstr "Zoek vestiging"
 
-#: includes/class-wc-pos-pro-stores.php:56
+#: includes/class-wc-pos-pro-stores.php:53
 msgid "Parent Store:"
 msgstr "Hoofdvestiging:"
 
-#: includes/class-wc-pos-pro-stores.php:57
+#: includes/class-wc-pos-pro-stores.php:54
 msgid "No Stores found."
 msgstr "Geen vestigingen gevonden."
 
-#: includes/class-wc-pos-pro-stores.php:58
+#: includes/class-wc-pos-pro-stores.php:55
 msgid "No Stores found in Trash."
 msgstr "Geen vestigingen in de prullenbak."
 
@@ -68,8 +72,9 @@ msgstr "Geen vestigingen in de prullenbak."
 #. translators: wordpress
 #. translators: woocommerce
 #. translators: woocommerce
-#: includes/class-wc-pos-pro-template.php:98 includes/views/customers.php:14
-#: includes/views/customers.php:74 includes/views/print/receipt.php:156
+#. translators: woocommerce
+#: includes/class-wc-pos-pro-template.php:102 includes/views/customers.php:14
+#: includes/views/customers.php:74 includes/views/print/receipt.php:173
 msgid "Email"
 msgstr "Email"
 
@@ -86,20 +91,9 @@ msgid "Add Customer"
 msgstr "Voeg klant toe"
 
 #: includes/views/print/receipt.php:4
-msgid "Pro Receipt"
+#, fuzzy
+msgid "Receipt"
 msgstr "Pro kassabon"
-
-#: includes/views/print/receipt.php:152
-msgid "Billing Address"
-msgstr "Faktuuradres"
-
-#: includes/views/print/receipt.php:155
-msgid "Shipping Address"
-msgstr "Verzendadres"
-
-#: includes/views/print/receipt.php:160
-msgid "Order Number"
-msgstr "Kassabon nummer"
 
 #: includes/views/print/receipt.php:164
 msgid "Order Date"
@@ -109,33 +103,9 @@ msgstr "Verkoopdatum"
 msgid "Payment Method"
 msgstr "Betaalmethode"
 
-#: includes/views/print/receipt.php:179
-msgid "Telephone"
-msgstr "Telefoon"
-
-#: includes/views/print/receipt.php:188
-msgid "Qty"
-msgstr "Aantal"
-
-#: includes/views/print/receipt.php:189
-msgid "Price"
-msgstr "Prijs"
-
 #: includes/views/print/receipt.php:220
 msgid "Cart Subtotal"
 msgstr "Subtotaal"
-
-#: includes/views/print/receipt.php:225
-msgid "Cart Discount"
-msgstr "Korting"
-
-#: includes/views/print/receipt.php:266
-msgid "Order Discount"
-msgstr "Korting totaal"
-
-#: includes/views/print/receipt.php:271
-msgid "Order Total"
-msgstr "Verkopen totaal"
 
 #: includes/views/products.php:86
 msgid "On Sale?"
@@ -155,13 +125,44 @@ msgstr "Geen vestigingen. <a href=\"%s\">Maak een vestiging aan</a>."
 
 #. Description of the plugin/theme
 msgid ""
-"WooCommerce POS Pro adds extra functionality to the free plugin. Requires <a href="
-"\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce POS</a>."
+"WooCommerce POS Pro adds extra functionality to the free plugin. Requires <a "
+"href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce POS</a>."
 msgstr ""
-"WooCommerce KASSA(POS) Pro voegt extra functionaliteit toe aan de gratis plugin. Vereist "
-"<a href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce KASSA(POS)</a>."
+"WooCommerce KASSA(POS) Pro voegt extra functionaliteit toe aan de gratis "
+"plugin. Vereist <a href=\"http://wordpress.org/plugins/woocommerce-pos/"
+"\">WooCommerce KASSA(POS)</a>."
 
-#: includes/views/print/receipt.php:230 includes/views/print/receipt.php:240
+#: includes/views/print/receipt.php:188
+#, fuzzy
+msgctxt "Abbreviation of Quantity"
+msgid "Qty"
+msgstr "Aantal"
+
+#: includes/views/print/receipt.php:247 includes/views/print/receipt.php:257
 msgctxt "abbreviation for includes (tax)"
 msgid "incl."
 msgstr "incl."
+
+#~ msgid "Billing Address"
+#~ msgstr "Faktuuradres"
+
+#~ msgid "Shipping Address"
+#~ msgstr "Verzendadres"
+
+#~ msgid "Order Number"
+#~ msgstr "Kassabon nummer"
+
+#~ msgid "Telephone"
+#~ msgstr "Telefoon"
+
+#~ msgid "Price"
+#~ msgstr "Prijs"
+
+#~ msgid "Cart Discount"
+#~ msgstr "Korting"
+
+#~ msgid "Order Discount"
+#~ msgstr "Korting totaal"
+
+#~ msgid "Order Total"
+#~ msgstr "Verkopen totaal"

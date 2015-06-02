@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS Pro 0.4.0-alpha\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-05-29 17:35:38+00:00\n"
+"POT-Creation-Date: 2015-06-02 07:55:30+00:00\n"
 "PO-Revision-Date: 2015-03-13 04:49:21+00:00\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -23,53 +23,54 @@ msgstr ""
 msgid "Deactivate"
 msgstr ""
 
-#: includes/class-wc-pos-pro-stores.php:46
-#: includes/class-wc-pos-pro-stores.php:48
-#: includes/class-wc-pos-pro-stores.php:54
+#: includes/class-wc-pos-pro-stores.php:43
+#: includes/class-wc-pos-pro-stores.php:45
+#: includes/class-wc-pos-pro-stores.php:51
 msgid "Stores"
 msgstr ""
 
-#: includes/class-wc-pos-pro-stores.php:47
-#: includes/class-wc-pos-pro-stores.php:91
+#: includes/class-wc-pos-pro-stores.php:44
+#: includes/class-wc-pos-pro-stores.php:88
 #: includes/widgets/class-wc-pos-pro-hours.php:82
 msgid "Store"
 msgstr ""
 
-#: includes/class-wc-pos-pro-stores.php:49
-#: includes/class-wc-pos-pro-stores.php:50
+#: includes/class-wc-pos-pro-stores.php:46
+#: includes/class-wc-pos-pro-stores.php:47
 msgid "Add New Store"
 msgstr ""
 
-#: includes/class-wc-pos-pro-stores.php:51
+#: includes/class-wc-pos-pro-stores.php:48
 msgid "New Store"
 msgstr ""
 
-#: includes/class-wc-pos-pro-stores.php:52
+#: includes/class-wc-pos-pro-stores.php:49
 msgid "Edit Store"
 msgstr ""
 
-#: includes/class-wc-pos-pro-stores.php:53
+#: includes/class-wc-pos-pro-stores.php:50
 msgid "View Store"
 msgstr ""
 
-#: includes/class-wc-pos-pro-stores.php:55
+#: includes/class-wc-pos-pro-stores.php:52
 msgid "Search Stores"
 msgstr ""
 
-#: includes/class-wc-pos-pro-stores.php:56
+#: includes/class-wc-pos-pro-stores.php:53
 msgid "Parent Store:"
 msgstr ""
 
-#: includes/class-wc-pos-pro-stores.php:57
+#: includes/class-wc-pos-pro-stores.php:54
 msgid "No Stores found."
 msgstr ""
 
-#: includes/class-wc-pos-pro-stores.php:58
+#: includes/class-wc-pos-pro-stores.php:55
 msgid "No Stores found in Trash."
 msgstr ""
 
 #. translators: woocommerce
 #. translators: wordpress
+#. translators: woocommerce
 #. translators: woocommerce
 #. translators: woocommerce
 #: includes/class-wc-pos-pro-template.php:102 includes/views/customers.php:14
@@ -90,19 +91,7 @@ msgid "Add Customer"
 msgstr ""
 
 #: includes/views/print/receipt.php:4
-msgid "Pro Receipt"
-msgstr ""
-
-#: includes/views/print/receipt.php:152
-msgid "Billing Address"
-msgstr ""
-
-#: includes/views/print/receipt.php:155
-msgid "Shipping Address"
-msgstr ""
-
-#: includes/views/print/receipt.php:160
-msgid "Order Number"
+msgid "Receipt"
 msgstr ""
 
 #: includes/views/print/receipt.php:164
@@ -113,32 +102,8 @@ msgstr ""
 msgid "Payment Method"
 msgstr ""
 
-#: includes/views/print/receipt.php:179
-msgid "Telephone"
-msgstr ""
-
-#: includes/views/print/receipt.php:188
-msgid "Qty"
-msgstr ""
-
-#: includes/views/print/receipt.php:189
-msgid "Price"
-msgstr ""
-
 #: includes/views/print/receipt.php:220
 msgid "Cart Subtotal"
-msgstr ""
-
-#: includes/views/print/receipt.php:225
-msgid "Cart Discount"
-msgstr ""
-
-#: includes/views/print/receipt.php:266
-msgid "Order Discount"
-msgstr ""
-
-#: includes/views/print/receipt.php:271
-msgid "Order Total"
 msgstr ""
 
 #: includes/views/products.php:86
@@ -161,6 +126,11 @@ msgstr ""
 msgid ""
 "WooCommerce POS Pro adds extra functionality to the free plugin. Requires <a "
 "href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce POS</a>."
+msgstr ""
+
+#: includes/views/print/receipt.php:188
+msgctxt "Abbreviation of Quantity"
+msgid "Qty"
 msgstr ""
 
 #: includes/views/print/receipt.php:247 includes/views/print/receipt.php:257

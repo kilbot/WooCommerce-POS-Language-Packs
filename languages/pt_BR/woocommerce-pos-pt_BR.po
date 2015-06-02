@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-05-29 17:35:55+00:00\n"
+"POT-Creation-Date: 2015-06-02 04:17:17+00:00\n"
 "PO-Revision-Date: 2014-09-05 12:21:56+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,20 +13,20 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: GlotPress/0.1\n"
 
-#: includes/api/class-wc-pos-orders.php:492
+#: includes/api/class-wc-pos-orders.php:497
 #, fuzzy
 msgid "There was an error processing the payment"
 msgstr "Houve um problema ao transferir os produtos."
 
-#: includes/api/class-wc-pos-orders.php:518
+#: includes/api/class-wc-pos-orders.php:523
 msgid "You are now being redirected offsite to complete the payment. "
 msgstr ""
 
-#: includes/api/class-wc-pos-orders.php:519
+#: includes/api/class-wc-pos-orders.php:524
 msgid "<a href=\"%s\">Click here</a> if you are not redirected automatically. "
 msgstr ""
 
-#: includes/api/class-wc-pos-orders.php:533
+#: includes/api/class-wc-pos-orders.php:538
 msgid "POS Transaction completed."
 msgstr ""
 
@@ -44,17 +44,17 @@ msgstr ""
 msgid "Settings error"
 msgstr "Configurações"
 
-#: includes/class-wc-pos-ajax.php:165 includes/class-wc-pos-ajax.php:186
+#: includes/class-wc-pos-ajax.php:165 includes/class-wc-pos-ajax.php:187
 #, fuzzy
 msgid "Email sent"
 msgstr "E-mail enviado"
 
-#: includes/class-wc-pos-ajax.php:170 includes/class-wc-pos-ajax.php:191
+#: includes/class-wc-pos-ajax.php:170 includes/class-wc-pos-ajax.php:192
 #, fuzzy
 msgid "There was an error sending the email"
 msgstr "Existe um problema ao enviar seu e-mail."
 
-#: includes/class-wc-pos-ajax.php:206
+#: includes/class-wc-pos-ajax.php:207
 msgid "Invalid security nonce"
 msgstr ""
 
@@ -73,6 +73,14 @@ msgstr ""
 #: includes/class-wc-pos-i18n.php:335
 msgid "Email Receipt"
 msgstr "Recibo por e-mail"
+
+#. translators: wordpress
+#. translators: woocommerce
+#. translators: wordpress
+#: includes/class-wc-pos-i18n.php:346 includes/views/print/receipt.php:130
+#: includes/views/support.php:23
+msgid "Email"
+msgstr "E-mail"
 
 #: includes/class-wc-pos-i18n.php:351
 msgid "Process Payment"
@@ -131,8 +139,8 @@ msgstr "Cartão"
 
 #: includes/gateways/class-wc-pos-card.php:52
 #: includes/gateways/class-wc-pos-card.php:55
-#: includes/gateways/class-wc-pos-card.php:78
-#: includes/gateways/class-wc-pos-card.php:112
+#: includes/gateways/class-wc-pos-card.php:82
+#: includes/gateways/class-wc-pos-card.php:116
 msgid "Cashback"
 msgstr "Reembolso"
 
@@ -194,10 +202,6 @@ msgstr "Endereço de cobrança"
 msgid "Shipping Address"
 msgstr "Endereço de entrega"
 
-#: includes/views/print/receipt.php:117
-msgid "Order Number"
-msgstr "Número do pedido"
-
 #: includes/views/print/receipt.php:121
 msgid "Order Date"
 msgstr "Data do pedido"
@@ -205,19 +209,6 @@ msgstr "Data do pedido"
 #: includes/views/print/receipt.php:125
 msgid "Payment Method"
 msgstr "Método de pagamento"
-
-#: includes/views/print/receipt.php:136
-msgid "Telephone"
-msgstr "Telefone"
-
-#: includes/views/print/receipt.php:145
-#, fuzzy
-msgid "Qty"
-msgstr "Qtd"
-
-#: includes/views/print/receipt.php:182
-msgid "Cart Discount"
-msgstr "Desconto do carrinho"
 
 #: includes/views/support.php:11
 #, fuzzy
@@ -296,6 +287,7 @@ msgid "On Sale"
 msgstr "À venda"
 
 #: includes/views/pos/cart.php:9 includes/views/pos/receipt.php:10
+#: includes/views/print/receipt.php:145
 #, fuzzy
 msgctxt "Abbreviation of Quantity"
 msgid "Qty"
@@ -307,6 +299,19 @@ msgstr "Qtd"
 msgctxt "abbreviation for includes (tax)"
 msgid "incl."
 msgstr "inclu."
+
+#~ msgid "Order Number"
+#~ msgstr "Número do pedido"
+
+#~ msgid "Telephone"
+#~ msgstr "Telefone"
+
+#, fuzzy
+#~ msgid "Qty"
+#~ msgstr "Qtd"
+
+#~ msgid "Cart Discount"
+#~ msgstr "Desconto do carrinho"
 
 #, fuzzy
 #~ msgid "Online Store"
@@ -707,9 +712,6 @@ msgstr "inclu."
 
 #~ msgid "Your name"
 #~ msgstr "Seu nome"
-
-#~ msgid "Email"
-#~ msgstr "E-mail"
 
 #~ msgid "Your email"
 #~ msgstr "Seu e-mail"

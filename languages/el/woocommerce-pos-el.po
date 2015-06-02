@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-05-29 17:35:55+00:00\n"
+"POT-Creation-Date: 2015-06-02 04:17:17+00:00\n"
 "PO-Revision-Date: 2014-10-11 17:38:04+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,15 +13,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/0.1\n"
 
-#: includes/api/class-wc-pos-orders.php:492
+#: includes/api/class-wc-pos-orders.php:497
 msgid "There was an error processing the payment"
 msgstr "Υπήρξε ένα σφάλμα κατά την επεξεργασία της πληρωμής"
 
-#: includes/api/class-wc-pos-orders.php:518
+#: includes/api/class-wc-pos-orders.php:523
 msgid "You are now being redirected offsite to complete the payment. "
 msgstr ""
 
-#: includes/api/class-wc-pos-orders.php:519
+#: includes/api/class-wc-pos-orders.php:524
 #, fuzzy
 msgid "<a href=\"%s\">Click here</a> if you are not redirected automatically. "
 msgstr ""
@@ -29,7 +29,7 @@ msgstr ""
 "target=\"_blank\" href=\"%s\" data-redirect=\"true\">Κάντε κλικ εδώ</a> αν "
 "δεν μεταφερθείτε αυτόματα."
 
-#: includes/api/class-wc-pos-orders.php:533
+#: includes/api/class-wc-pos-orders.php:538
 msgid "POS Transaction completed."
 msgstr ""
 
@@ -47,17 +47,17 @@ msgstr ""
 msgid "Settings error"
 msgstr "Ρυθμίσεις"
 
-#: includes/class-wc-pos-ajax.php:165 includes/class-wc-pos-ajax.php:186
+#: includes/class-wc-pos-ajax.php:165 includes/class-wc-pos-ajax.php:187
 #, fuzzy
 msgid "Email sent"
 msgstr "Το Email εστάλη"
 
-#: includes/class-wc-pos-ajax.php:170 includes/class-wc-pos-ajax.php:191
+#: includes/class-wc-pos-ajax.php:170 includes/class-wc-pos-ajax.php:192
 #, fuzzy
 msgid "There was an error sending the email"
 msgstr "Υπήρξε ένα πρόβλημα με την αποστολή e-mail σας."
 
-#: includes/class-wc-pos-ajax.php:206
+#: includes/class-wc-pos-ajax.php:207
 msgid "Invalid security nonce"
 msgstr ""
 
@@ -76,6 +76,14 @@ msgstr ""
 #: includes/class-wc-pos-i18n.php:335
 msgid "Email Receipt"
 msgstr "Απόδειξη Email"
+
+#. translators: wordpress
+#. translators: woocommerce
+#. translators: wordpress
+#: includes/class-wc-pos-i18n.php:346 includes/views/print/receipt.php:130
+#: includes/views/support.php:23
+msgid "Email"
+msgstr "Email"
 
 #: includes/class-wc-pos-i18n.php:351
 msgid "Process Payment"
@@ -135,8 +143,8 @@ msgstr "Κάρτα"
 
 #: includes/gateways/class-wc-pos-card.php:52
 #: includes/gateways/class-wc-pos-card.php:55
-#: includes/gateways/class-wc-pos-card.php:78
-#: includes/gateways/class-wc-pos-card.php:112
+#: includes/gateways/class-wc-pos-card.php:82
+#: includes/gateways/class-wc-pos-card.php:116
 msgid "Cashback"
 msgstr "Επιστροφή Μετρητών"
 
@@ -200,10 +208,6 @@ msgstr "Διεύθυνση Τιμολόγησης"
 msgid "Shipping Address"
 msgstr "Διεύθυνση Αποστολής"
 
-#: includes/views/print/receipt.php:117
-msgid "Order Number"
-msgstr "Αριθμός Παραγγελίας"
-
 #: includes/views/print/receipt.php:121
 msgid "Order Date"
 msgstr "Ημερομηνία Παραγγελίας"
@@ -211,19 +215,6 @@ msgstr "Ημερομηνία Παραγγελίας"
 #: includes/views/print/receipt.php:125
 msgid "Payment Method"
 msgstr "Μέθοδος Πληρωμής"
-
-#: includes/views/print/receipt.php:136
-msgid "Telephone"
-msgstr "Τηλέφωνο"
-
-#: includes/views/print/receipt.php:145
-#, fuzzy
-msgid "Qty"
-msgstr "Ποσότητα "
-
-#: includes/views/print/receipt.php:182
-msgid "Cart Discount"
-msgstr "Έκπτωση"
 
 #: includes/views/support.php:11
 #, fuzzy
@@ -305,6 +296,7 @@ msgid "On Sale"
 msgstr "Σε Προσφορά"
 
 #: includes/views/pos/cart.php:9 includes/views/pos/receipt.php:10
+#: includes/views/print/receipt.php:145
 #, fuzzy
 msgctxt "Abbreviation of Quantity"
 msgid "Qty"
@@ -316,6 +308,19 @@ msgstr "Ποσότητα "
 msgctxt "abbreviation for includes (tax)"
 msgid "incl."
 msgstr "συμπεριλαμβάνεται"
+
+#~ msgid "Order Number"
+#~ msgstr "Αριθμός Παραγγελίας"
+
+#~ msgid "Telephone"
+#~ msgstr "Τηλέφωνο"
+
+#, fuzzy
+#~ msgid "Qty"
+#~ msgstr "Ποσότητα "
+
+#~ msgid "Cart Discount"
+#~ msgstr "Έκπτωση"
 
 #, fuzzy
 #~ msgid "Online Store"
@@ -742,9 +747,6 @@ msgstr "συμπεριλαμβάνεται"
 
 #~ msgid "Your name"
 #~ msgstr "Το όνομα σας"
-
-#~ msgid "Email"
-#~ msgstr "Email"
 
 #~ msgid "Your email"
 #~ msgstr "Το email σας"

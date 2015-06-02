@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS 0.4-alpha\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-05-29 17:35:55+00:00\n"
+"POT-Creation-Date: 2015-06-02 04:17:17+00:00\n"
 "PO-Revision-Date: 2015-03-13 04:49:19+00:00\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -15,19 +15,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: grunt-wp-i18n 0.5.0\n"
 
-#: includes/api/class-wc-pos-orders.php:492
+#: includes/api/class-wc-pos-orders.php:497
 msgid "There was an error processing the payment"
 msgstr ""
 
-#: includes/api/class-wc-pos-orders.php:518
+#: includes/api/class-wc-pos-orders.php:523
 msgid "You are now being redirected offsite to complete the payment. "
 msgstr ""
 
-#: includes/api/class-wc-pos-orders.php:519
+#: includes/api/class-wc-pos-orders.php:524
 msgid "<a href=\"%s\">Click here</a> if you are not redirected automatically. "
 msgstr ""
 
-#: includes/api/class-wc-pos-orders.php:533
+#: includes/api/class-wc-pos-orders.php:538
 msgid "POS Transaction completed."
 msgstr ""
 
@@ -43,17 +43,17 @@ msgstr ""
 msgid "Settings error"
 msgstr ""
 
-#: includes/class-wc-pos-ajax.php:165 includes/class-wc-pos-ajax.php:186
+#: includes/class-wc-pos-ajax.php:165 includes/class-wc-pos-ajax.php:187
 #, fuzzy
 msgid "Email sent"
 msgstr "S'ha enviat el correu"
 
-#: includes/class-wc-pos-ajax.php:170 includes/class-wc-pos-ajax.php:191
+#: includes/class-wc-pos-ajax.php:170 includes/class-wc-pos-ajax.php:192
 #, fuzzy
 msgid "There was an error sending the email"
 msgstr "No s'ha pogut enviar el correu"
 
-#: includes/class-wc-pos-ajax.php:206
+#: includes/class-wc-pos-ajax.php:207
 msgid "Invalid security nonce"
 msgstr ""
 
@@ -72,6 +72,15 @@ msgstr ""
 #: includes/class-wc-pos-i18n.php:335
 #, fuzzy
 msgid "Email Receipt"
+msgstr "S'ha enviat el correu"
+
+#. translators: wordpress
+#. translators: woocommerce
+#. translators: wordpress
+#: includes/class-wc-pos-i18n.php:346 includes/views/print/receipt.php:130
+#: includes/views/support.php:23
+#, fuzzy
+msgid "Email"
 msgstr "S'ha enviat el correu"
 
 #: includes/class-wc-pos-i18n.php:351
@@ -128,8 +137,8 @@ msgstr "Targeta"
 
 #: includes/gateways/class-wc-pos-card.php:52
 #: includes/gateways/class-wc-pos-card.php:55
-#: includes/gateways/class-wc-pos-card.php:78
-#: includes/gateways/class-wc-pos-card.php:112
+#: includes/gateways/class-wc-pos-card.php:82
+#: includes/gateways/class-wc-pos-card.php:116
 msgid "Cashback"
 msgstr "Devolució"
 
@@ -188,10 +197,6 @@ msgstr "Adreça de facturació"
 msgid "Shipping Address"
 msgstr "Adreça d'enviament"
 
-#: includes/views/print/receipt.php:117
-msgid "Order Number"
-msgstr "Número de comanda"
-
 #: includes/views/print/receipt.php:121
 msgid "Order Date"
 msgstr "Data"
@@ -199,20 +204,6 @@ msgstr "Data"
 #: includes/views/print/receipt.php:125
 msgid "Payment Method"
 msgstr "Mètode de pagament"
-
-#: includes/views/print/receipt.php:136
-msgid "Telephone"
-msgstr "Telèfon"
-
-#: includes/views/print/receipt.php:145
-#, fuzzy
-msgid "Qty"
-msgstr "Qtat"
-
-#: includes/views/print/receipt.php:182
-#, fuzzy
-msgid "Cart Discount"
-msgstr "Descompte"
 
 #: includes/views/support.php:11
 msgid "Support Form"
@@ -291,6 +282,7 @@ msgid "On Sale"
 msgstr "En venda"
 
 #: includes/views/pos/cart.php:9 includes/views/pos/receipt.php:10
+#: includes/views/print/receipt.php:145
 msgctxt "Abbreviation of Quantity"
 msgid "Qty"
 msgstr "Qtat"
@@ -301,6 +293,20 @@ msgstr "Qtat"
 msgctxt "abbreviation for includes (tax)"
 msgid "incl."
 msgstr "incl."
+
+#~ msgid "Order Number"
+#~ msgstr "Número de comanda"
+
+#~ msgid "Telephone"
+#~ msgstr "Telèfon"
+
+#, fuzzy
+#~ msgid "Qty"
+#~ msgstr "Qtat"
+
+#, fuzzy
+#~ msgid "Cart Discount"
+#~ msgstr "Descompte"
 
 #~ msgid "Loading&hellip;"
 #~ msgstr "S'està carregant&hellip;"

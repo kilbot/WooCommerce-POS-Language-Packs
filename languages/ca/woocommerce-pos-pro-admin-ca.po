@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS Pro 0.4.0-alpha\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-05-29 17:35:38+00:00\n"
+"POT-Creation-Date: 2015-06-02 07:55:30+00:00\n"
 "PO-Revision-Date: 2015-03-13 04:49:21+00:00\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -163,14 +163,6 @@ msgstr ""
 
 #: includes/admin/class-wc-pos-pro-reports.php:36
 msgid "Sales by cashier"
-msgstr ""
-
-#: includes/admin/class-wc-pos-pro-reports.php:42
-msgid "Sales by store"
-msgstr ""
-
-#: includes/admin/class-wc-pos-pro-reports.php:48
-msgid "Sales by payment method"
 msgstr ""
 
 #: includes/admin/class-wc-pos-pro-stores.php:62

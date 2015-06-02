@@ -17,31 +17,31 @@ msgstr ""
 
 #: includes/api/class-wc-pos-orders.php:497
 msgid "There was an error processing the payment"
-msgstr "S'ha produït un error en processar el pagament"
+msgstr ""
 
 #: includes/api/class-wc-pos-orders.php:523
 msgid "You are now being redirected offsite to complete the payment. "
-msgstr "Us estem redirigint fora del web per completar el pagament"
+msgstr ""
 
 #: includes/api/class-wc-pos-orders.php:524
 msgid "<a href=\"%s\">Click here</a> if you are not redirected automatically. "
-msgstr "<a href=\"%s\">Feu clic aquí</a> si no sou redirigit automàticament. "
+msgstr ""
 
 #: includes/api/class-wc-pos-orders.php:538
 msgid "POS Transaction completed."
-msgstr "S'ha completat la transacció del POS"
+msgstr ""
 
 #: includes/class-wc-pos-ajax.php:104
 msgid "There is no settings id"
-msgstr "No hi ha id de paràmetres"
+msgstr ""
 
 #: includes/class-wc-pos-ajax.php:123
 msgid "No handler found for %s settings"
-msgstr "No s'ha trobat cap gestor per als paràmetres %s"
+msgstr ""
 
 #: includes/class-wc-pos-ajax.php:146
 msgid "Settings error"
-msgstr "S'ha produït un error en la configuració"
+msgstr ""
 
 #: includes/class-wc-pos-ajax.php:165 includes/class-wc-pos-ajax.php:187
 #, fuzzy
@@ -59,15 +59,15 @@ msgstr ""
 
 #: includes/class-wc-pos-i18n.php:332
 msgid "To Pay"
-msgstr "a pagar"
+msgstr ""
 
 #: includes/class-wc-pos-i18n.php:333
 msgid "Paid"
-msgstr "Pagat"
+msgstr ""
 
 #: includes/class-wc-pos-i18n.php:334
 msgid "Unpaid"
-msgstr "No pagat"
+msgstr ""
 
 #: includes/class-wc-pos-i18n.php:335
 #, fuzzy
@@ -93,7 +93,7 @@ msgstr "Torna a les vendes"
 
 #: includes/class-wc-pos-i18n.php:357
 msgid "Send"
-msgstr "Envia-ho"
+msgstr ""
 
 #: includes/class-wc-pos-i18n.php:359
 msgid "Void"
@@ -113,15 +113,15 @@ msgstr "WooCommerce >= %s és necessari"
 
 #: includes/class-wc-pos-status.php:27
 msgid "WC REST API"
-msgstr "WC REST API"
+msgstr ""
 
 #: includes/class-wc-pos-status.php:29
 msgid "API is active"
-msgstr "L'API és activa"
+msgstr ""
 
 #: includes/class-wc-pos-status.php:30
 msgid "Access to the REST API is required"
-msgstr "Es requereixx l'accès a la REST API"
+msgstr ""
 
 #: includes/class-wc-pos-template.php:152
 msgid "POS"
@@ -183,11 +183,11 @@ msgstr "Escanneja el codi de barres"
 
 #: includes/views/pos/products.php:81
 msgid "Showing %s of %s"
-msgstr "S'estan mostrant %s de %s"
+msgstr ""
 
 #: includes/views/pos/products.php:82
 msgid "%s in queue"
-msgstr "%s en cua"
+msgstr ""
 
 #: includes/views/print/receipt.php:109
 msgid "Billing Address"
@@ -196,10 +196,6 @@ msgstr "Adreça de facturació"
 #: includes/views/print/receipt.php:112
 msgid "Shipping Address"
 msgstr "Adreça d'enviament"
-
-#: includes/views/print/receipt.php:117
-msgid "Order Number"
-msgstr "Comanda"
 
 #: includes/views/print/receipt.php:121
 msgid "Order Date"
@@ -252,7 +248,7 @@ msgstr "Tecles d'accès ràpid"
 #: includes/class-wc-pos-i18n.php:336
 msgctxt "order status, ie: open order in cart"
 msgid "Open"
-msgstr "Obre"
+msgstr ""
 
 #: includes/class-wc-pos-i18n.php:337
 #: includes/gateways/class-wc-pos-cash.php:102
@@ -263,7 +259,7 @@ msgstr "Canvi"
 #: includes/class-wc-pos-i18n.php:342
 msgctxt "system status: delete local records"
 msgid "Clear"
-msgstr "Buida"
+msgstr "Neteja"
 
 #: includes/class-wc-pos-i18n.php:353
 msgctxt "restore default settings"
@@ -278,12 +274,12 @@ msgstr "intro"
 #: includes/class-wc-pos-i18n.php:373
 msgctxt "eg: 23 records"
 msgid "record |||| records"
-msgstr "enregistrament |||| enregistraments"
+msgstr ""
 
 #: includes/class-wc-pos-params.php:74
 msgctxt "Product tab: 'On Sale' products"
 msgid "On Sale"
-msgstr "En oferta"
+msgstr "En venda"
 
 #: includes/views/pos/cart.php:9 includes/views/pos/receipt.php:10
 #: includes/views/print/receipt.php:145
@@ -299,7 +295,7 @@ msgid "incl."
 msgstr "incl."
 
 #~ msgid "Order Number"
-#~ msgstr "Número de comanda"
+#~ msgstr "Comanda"
 
 #~ msgid "Telephone"
 #~ msgstr "Telèfon"

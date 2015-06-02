@@ -1,23 +1,24 @@
-# Translation of WooCommerce POS in Dutch
-# This file is distributed under the same license as the WooCommerce POS package.
+# Copyright (C) 2015 kilbot
+# This file is distributed under the GPL-2.0+.
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce POS 0.4.0-beta\n"
+"Project-Id-Version: WooCommerce POS 0.4.0-rc\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
 "POT-Creation-Date: 2015-05-29 17:35:56+00:00\n"
-"PO-Revision-Date: 2015-05-30 16:30:00+0000\n"
-"Last-Translator: Egbert Jan van den Bussche <egbert@vandenbussche.nl>\n"
-"Language-Team: Team Name <team@vandenbussche.nl>\n"
-"Language: \n"
+"PO-Revision-Date: 2015-05-29 17:35:56+00:00\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: grunt-wp-i18n 0.5.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: includes/admin/class-wc-pos-gateways.php:31
 msgid "Online Store"
-msgstr "Webwinkel"
+msgstr ""
 
 #: includes/admin/class-wc-pos-gateways.php:32
 #: includes/admin/class-wc-pos-menu.php:34
@@ -25,61 +26,58 @@ msgstr "Webwinkel"
 #: includes/admin/class-wc-pos-orders.php:89
 #: includes/admin/views/order-details.php:5
 msgid "POS"
-msgstr "KASSA(POS)"
+msgstr ""
 
 #: includes/admin/class-wc-pos-menu.php:44
 #: includes/admin/class-wc-pos-menu.php:45
 msgid "View POS"
-msgstr "Start KASSA"
+msgstr ""
 
 #: includes/admin/class-wc-pos-menu.php:53
 #: includes/admin/settings/views/checkout.php:92
 msgid "Upgrade to Pro"
-msgstr "Upgrade naar Pro"
+msgstr ""
 
 #: includes/admin/class-wc-pos-orders.php:90
 #: includes/admin/views/order-details.php:4
 msgid "Online"
-msgstr "Online"
+msgstr ""
 
 #: includes/admin/settings/class-wc-pos-access.php:23
 msgid "POS Access"
-msgstr "KASSA toegang"
+msgstr ""
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:41
 msgid "Help screen"
-msgstr "Help scherm"
+msgstr ""
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:42
 msgid "Barcode search"
-msgstr "Zoek op barcode"
+msgstr ""
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:44
 msgid "New order"
-msgstr "Nieuwe verkoop"
+msgstr ""
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:45
 msgid "Sync with server"
-msgstr "Sync. met de server"
+msgstr ""
 
 #: includes/admin/settings/views/access.php:7
 msgid "Grant POS Access"
-msgstr "Verleen toegang tot KASSA"
+msgstr ""
 
 #: includes/admin/settings/views/access.php:10
 msgid ""
 "By default, access to the POS is limited to Administrator and Shop Manager "
 "roles."
 msgstr ""
-"Standaard is toegang tot KASSA beperkt tot Administrator en Shopmanager."
 
 #: includes/admin/settings/views/access.php:11
 msgid ""
 "It is recommended that you <strong>do not change</strong> the default "
 "settings unless you are fully aware of the consequences."
 msgstr ""
-"Aanbevolen wordt de standaard instellingen <strong>niet</strong> te wijzigen "
-"als je niet volledig op de hoogte bent van de mogelijke gevolgen."
 
 #: includes/admin/settings/views/access.php:12
 #: includes/admin/settings/views/checkout.php:50
@@ -87,31 +85,28 @@ msgstr ""
 msgid ""
 "For more information please visit <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
 msgstr ""
-"Bezoek <a href=\"%1$s\" target=\"_blank\">%1$s</a> voor meer informatie."
 
 #: includes/admin/settings/views/checkout.php:13
 msgid "Completed Order Status"
-msgstr "Eindstatus van voltooide verkoop"
+msgstr ""
 
 #: includes/admin/settings/views/checkout.php:14
 msgid "Change the default order status for POS sales"
-msgstr "Verander de standaard status voor KASSA verkopen"
+msgstr ""
 
 #: includes/admin/settings/views/checkout.php:27
 msgid "Order Emails"
-msgstr "Stuur email na verkoop"
+msgstr ""
 
 #: includes/admin/settings/views/checkout.php:28
 msgid "Send WooCommerce notification emails for POS orders"
-msgstr "Stuur WooCommerce kennisgevingsmails voor KASSA verkopen"
+msgstr ""
 
 #: includes/admin/settings/views/checkout.php:44
 msgid ""
 "Installed gateways are listed below. Drag and drop gateways to control their "
 "display order at the Point of Sale. "
 msgstr ""
-"Hieronder staan de geinstalleerde betaalmethoden. Drag and drop om de "
-"volgorde waarin ze getoond worden, te veranderen. "
 
 #: includes/admin/settings/views/checkout.php:45
 msgid ""
@@ -119,9 +114,6 @@ msgid ""
 "Payment Gateways enabled on the settings page will be available in your "
 "Online Store. "
 msgstr ""
-"Betaalmethoden die je hier inschakelt zie je in het afrekenscherm. "
-"Betaalmethoden die je ingeschakelt op de instellingenpagina zijn zichtbaar "
-"in de Webwinkel. "
 
 #: includes/admin/settings/views/checkout.php:49
 msgid ""
@@ -129,175 +121,158 @@ msgid ""
 "information. Transmitting credit card or other sensitive information should "
 "only be done using a secure connnection."
 msgstr ""
-"Onthoud dat je verantwoordelijk bent voor de veiligheid van de "
-"klantgegevens. Verzend gevoelige informatie zoals credit card gegevens dus "
-"alleen over een veilige verbinding. "
 
 #: includes/admin/settings/views/checkout.php:56
 msgid "Gateway Display"
-msgstr "Betaalmethoden Overzicht"
+msgstr ""
 
 #: includes/admin/settings/views/checkout.php:64
 msgid "Online Status"
-msgstr "Online status"
+msgstr ""
 
 #: includes/admin/settings/views/checkout.php:65
 msgid "POS Status"
-msgstr "KASSA status"
+msgstr ""
 
 #: includes/admin/settings/views/checkout.php:66
 msgid "POS Settings"
-msgstr "KASSA instellingen"
+msgstr ""
 
 #: includes/admin/settings/views/checkout.php:117
 msgid "Payment method title."
-msgstr "Naam van de betaalmethode"
+msgstr ""
 
 #: includes/admin/settings/views/checkout.php:124
 msgid "Payment method description that will be shown in the POS."
-msgstr "betaalmethode beschrijving zoals die in KASSA is te zien."
+msgstr ""
 
 #: includes/admin/settings/views/checkout.php:130
 msgid "Icon"
-msgstr "Icoon"
+msgstr ""
 
 #: includes/admin/settings/views/general.php:13
 msgid "Product Visibility"
-msgstr "Zichtbaarheid van de artikelen"
+msgstr ""
 
 #: includes/admin/settings/views/general.php:17
 msgid "Enable <a href=\"%s\">POS Only products</a>"
-msgstr "Sta het gebruik van <a href=\"%s\">artikelen alleen voor KASSA</a> toe"
+msgstr ""
 
 #: includes/admin/settings/views/general.php:23
 msgid "Allow Decimal Quantity"
-msgstr "Sta decimalen toe in het aantal"
+msgstr ""
 
 #: includes/admin/settings/views/general.php:24
 msgid "Allows items to have decimal values in the quantity field, eg: 0.25"
-msgstr "Sta toe dat er waarden zoals 0,25 in het aantal veld mogen staan."
+msgstr ""
 
 #: includes/admin/settings/views/general.php:34
 msgid "Default POS Customer"
-msgstr "Standaard KASSA klant"
+msgstr ""
 
 #: includes/admin/settings/views/general.php:35
 msgid ""
 "The default customer for POS orders, eg: Guest or create a new customer."
 msgstr ""
-"De standaard klant voor KASSA verkopen, b.v.: Guest. Een nieuwe aanmaken kan "
-"ook."
 
 #: includes/admin/settings/views/general.php:46
 msgid "Discount Quick Keys"
-msgstr "Sneltoetsen voor kortingen"
+msgstr ""
 
 #: includes/admin/settings/views/general.php:47
 msgid "Configure discount keys for quick numpad entry"
-msgstr "Configureer kortingstoetsen voor op het numpad"
+msgstr ""
 
 #: includes/admin/settings/views/hotkeys.php:1
 msgid "Keyboard Shortcuts"
-msgstr "Sneltoetsen"
+msgstr ""
 
 #: includes/admin/settings/views/hotkeys.php:4
 msgid ""
 "You can trigger certain events in WooCommerce POS using keyboard shortcuts "
 "(HotKeys)."
 msgstr ""
-"Je kunt bepaalde gebeurtenissen triggeren in WooCommerce KASSA door middel "
-"van sneltoetsen (HotKeys)."
 
 #: includes/admin/settings/views/hotkeys.php:5
 msgid ""
 "HotKeys can also be used as a prefix for your barcode scanner or card reader."
 msgstr ""
-"Sneltoetsen kunnen ook worden gebruikt als een prefix voor je barcodescanner "
-"of kaartlezer."
 
 #: includes/admin/settings/views/tools.php:33
 msgid "Receipt Template"
-msgstr "Kassabon template"
+msgstr ""
 
 #: includes/admin/settings/views/tools.php:36
 msgid "View Sample Receipt"
-msgstr "Bekijk kassabon voorbeeld"
+msgstr ""
 
 #: includes/admin/settings/views/tools.php:38
 msgid "<strong class=\"red\">Template path:</strong> %s"
-msgstr "<strong class=\"red\">Template pad:</strong> %s"
+msgstr ""
 
 #: includes/admin/views/order-details.php:2
 msgid "Order type"
-msgstr "Order type"
+msgstr ""
 
 #: includes/admin/views/settings.php:12
 msgid ""
 "There has been an error loading the settings, please contact <a href="
 "\"mailto:support@woopos.com.au\">support</a>"
 msgstr ""
-"Er is een fout opgetreden bij het inlezen van de instellingen, neem contact "
-"op met <a href=\"mailto:support@woopos.com.au\">support</a>"
 
 #: includes/class-wc-pos-activator.php:173
 msgid ""
 "<strong>WooCommerce POS</strong> requires <a href=\"%s\">WooCommerce</a>. "
 "Please <a href=\"%s\">install and activate WooCommerce</a>"
 msgstr ""
-"<strong>WooCommerce KASSA(POS)</strong> vereist <a href=\"%s\">WooCommerce</a>. "
-"<a href=\"%s\">installeer en activeer WooCommerce</a>"
 
 #: includes/class-wc-pos-activator.php:192
 msgid ""
 "<strong>WooCommerce POS</strong> requires the WooCommerce REST API. Please "
 "<a href=\"%s\">enable the REST API</a>"
 msgstr ""
-"<strong>WooCommerce KASSA(POS)</strong> vereist de WooCommerce REST API. "
-"<a href=\"%s\">Enable de REST API</a>"
 
 #: includes/class-wc-pos-activator.php:209
 msgid ""
 "<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to "
 "work correctly. Please <a href=\"%s\">enable permalinks</a>."
 msgstr ""
-"<strong>WooCommerce REST API</strong> vereist <em>pretty</em> permalinks om "
-"zijn werk te doen. <a href=\"%s\">Enable permalinks</a>."
 
 #: includes/products/class-wc-pos-visibility.php:23
 msgid "POS & Online"
-msgstr "Zowel KASSA en Online"
+msgstr ""
 
 #: includes/products/class-wc-pos-visibility.php:24
 #: includes/products/class-wc-pos-visibility.php:87
 msgid "POS Only"
-msgstr "Aleen KASSA"
+msgstr ""
 
 #: includes/products/class-wc-pos-visibility.php:25
 #: includes/products/class-wc-pos-visibility.php:88
 msgid "Online Only"
-msgstr "Alleen Online"
+msgstr ""
 
 #: includes/products/views/post-metabox-visibility-select.php:11
 #: includes/products/views/quick-edit-visibility-select.php:14
 msgid "POS visibility"
-msgstr "KASSA zichtbaarheid"
+msgstr ""
 
 #: includes/admin/class-wc-pos-permalink.php:28
 msgctxt "Permalink setting, eg: /pos"
 msgid "POS base"
-msgstr "KASSA base"
+msgstr ""
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:21
 msgctxt "keyboard shortcuts"
 msgid "HotKeys"
-msgstr "Sneltoetsen"
+msgstr ""
 
 #: includes/admin/settings/views/checkout.php:134
 msgctxt "POS checkout settings"
 msgid "Show payment gateway icon."
-msgstr "Toon betaalmethode icoon."
+msgstr ""
 
 #: includes/admin/settings/views/general.php:40
 msgctxt "Default customer setting"
 msgid "Use cashier account"
-msgstr "Gebruik het kassier account"
+msgstr ""

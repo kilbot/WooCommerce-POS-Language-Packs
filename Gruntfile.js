@@ -10,6 +10,7 @@ module.exports = function(grunt) {
     'de_DE',
     'el',
     'es_ES',
+    'fi',
     'fr_FR',
     'it_IT',
     'nb_NO',
@@ -23,7 +24,8 @@ module.exports = function(grunt) {
   grunt.initConfig({
 
     clean: {
-      mo: ['languages/**/*.mo']
+      mo: ['languages/**/*.mo'],
+      po: ['languages/**/*.po~']
     }
 
   });
@@ -81,7 +83,9 @@ module.exports = function(grunt) {
           expand: true,
           cwd: 'languages/' + locale,
           src: [
+            slug + '-' + locale + '.po',
             slug + '-' + locale + '.mo',
+            slug + '-admin-' + locale + '.po',
             slug + '-admin-' + locale + '.mo'
           ]
         }]

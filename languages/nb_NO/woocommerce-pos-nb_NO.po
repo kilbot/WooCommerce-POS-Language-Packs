@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-05-23 14:33:24+00:00\n"
+"POT-Creation-Date: 2015-05-29 17:35:55+00:00\n"
 "PO-Revision-Date: 2014-08-24 20:41:04+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,20 +13,20 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/0.1\n"
 
-#: includes/api/class-wc-pos-orders.php:479
+#: includes/api/class-wc-pos-orders.php:492
 #, fuzzy
 msgid "There was an error processing the payment"
 msgstr "Det oppstod et problem under nedlastingen av produktene."
 
-#: includes/api/class-wc-pos-orders.php:505
+#: includes/api/class-wc-pos-orders.php:518
 msgid "You are now being redirected offsite to complete the payment. "
 msgstr ""
 
-#: includes/api/class-wc-pos-orders.php:506
+#: includes/api/class-wc-pos-orders.php:519
 msgid "<a href=\"%s\">Click here</a> if you are not redirected automatically. "
 msgstr ""
 
-#: includes/api/class-wc-pos-orders.php:520
+#: includes/api/class-wc-pos-orders.php:533
 msgid "POS Transaction completed."
 msgstr ""
 
@@ -58,65 +58,61 @@ msgstr "Det oppstod en feil under sendingen."
 msgid "Invalid security nonce"
 msgstr ""
 
-#: includes/class-wc-pos-i18n.php:330
+#: includes/class-wc-pos-i18n.php:332
 msgid "To Pay"
 msgstr "Å betale"
 
-#: includes/class-wc-pos-i18n.php:331
+#: includes/class-wc-pos-i18n.php:333
 msgid "Paid"
 msgstr "Betalt"
 
-#: includes/class-wc-pos-i18n.php:332
+#: includes/class-wc-pos-i18n.php:334
 msgid "Unpaid"
 msgstr ""
 
-#: includes/class-wc-pos-i18n.php:333
+#: includes/class-wc-pos-i18n.php:335
 msgid "Email Receipt"
 msgstr "Kvittering på epost"
 
-#: includes/class-wc-pos-i18n.php:349
+#: includes/class-wc-pos-i18n.php:351
 msgid "Process Payment"
 msgstr "Prosesser betalingen"
 
-#: includes/class-wc-pos-i18n.php:353
+#: includes/class-wc-pos-i18n.php:355
 msgid "Return to Sale"
 msgstr "Tilbake til salg"
 
-#: includes/class-wc-pos-i18n.php:355
+#: includes/class-wc-pos-i18n.php:357
 msgid "Send"
 msgstr "Send"
 
-#: includes/class-wc-pos-i18n.php:357
+#: includes/class-wc-pos-i18n.php:359
 msgid "Void"
 msgstr "Annullér"
 
-#: includes/class-wc-pos-i18n.php:365
-msgid "Loading&hellip;"
-msgstr ""
-
-#: includes/class-wc-pos-i18n.php:367
+#: includes/class-wc-pos-i18n.php:369
 msgid "Your browser is not supported!"
 msgstr "Nettleseren din støttes ikke!"
 
-#: includes/class-wc-pos-status.php:19
+#: includes/class-wc-pos-status.php:18
 #, fuzzy
 msgid "WC Version"
 msgstr "WooCommerce versjon"
 
-#: includes/class-wc-pos-status.php:22
+#: includes/class-wc-pos-status.php:21
 #, fuzzy
 msgid "WooCommerce >= %s required"
 msgstr "WooCommerce >= 2.1 kreves"
 
-#: includes/class-wc-pos-status.php:28
+#: includes/class-wc-pos-status.php:27
 msgid "WC REST API"
 msgstr "WC REST API"
 
-#: includes/class-wc-pos-status.php:30
+#: includes/class-wc-pos-status.php:29
 msgid "API is active"
 msgstr "API er aktivert"
 
-#: includes/class-wc-pos-status.php:31
+#: includes/class-wc-pos-status.php:30
 msgid "Access to the REST API is required"
 msgstr "Det kreves tilgang til REST API"
 
@@ -190,36 +186,36 @@ msgstr "Viser %s av %s produkter"
 msgid "%s in queue"
 msgstr ""
 
-#: includes/views/print/receipt.php:96
+#: includes/views/print/receipt.php:109
 msgid "Billing Address"
 msgstr "Faktura-adresse"
 
-#: includes/views/print/receipt.php:99
+#: includes/views/print/receipt.php:112
 msgid "Shipping Address"
 msgstr "Post-adresse"
 
-#: includes/views/print/receipt.php:104
+#: includes/views/print/receipt.php:117
 msgid "Order Number"
 msgstr "Ordrenummer"
 
-#: includes/views/print/receipt.php:108
+#: includes/views/print/receipt.php:121
 msgid "Order Date"
 msgstr "Ordredato"
 
-#: includes/views/print/receipt.php:112
+#: includes/views/print/receipt.php:125
 msgid "Payment Method"
 msgstr "Betalingsmetode"
 
-#: includes/views/print/receipt.php:123
+#: includes/views/print/receipt.php:136
 msgid "Telephone"
 msgstr "Telefon"
 
-#: includes/views/print/receipt.php:132
+#: includes/views/print/receipt.php:145
 #, fuzzy
 msgid "Qty"
 msgstr "Ant"
 
-#: includes/views/print/receipt.php:169
+#: includes/views/print/receipt.php:182
 msgid "Cart Discount"
 msgstr "Rabatt"
 
@@ -247,12 +243,12 @@ msgid ""
 "a>."
 msgstr ""
 
-#: includes/class-wc-pos-i18n.php:318
+#: includes/class-wc-pos-i18n.php:320
 msgctxt "system status: browser capabilities"
 msgid "Browser"
 msgstr ""
 
-#: includes/class-wc-pos-i18n.php:324
+#: includes/class-wc-pos-i18n.php:326
 msgctxt "keyboard shortcuts"
 msgid "HotKeys"
 msgstr ""
@@ -262,34 +258,34 @@ msgctxt "keyboard shortcuts"
 msgid "Hotkeys"
 msgstr ""
 
-#: includes/class-wc-pos-i18n.php:334
+#: includes/class-wc-pos-i18n.php:336
 msgctxt "order status, ie: open order in cart"
 msgid "Open"
 msgstr ""
 
-#: includes/class-wc-pos-i18n.php:335
+#: includes/class-wc-pos-i18n.php:337
 #: includes/gateways/class-wc-pos-cash.php:102
 msgctxt "Money returned from cash sale"
 msgid "Change"
 msgstr "Veksel"
 
-#: includes/class-wc-pos-i18n.php:340
+#: includes/class-wc-pos-i18n.php:342
 #, fuzzy
 msgctxt "system status: delete local records"
 msgid "Clear"
 msgstr "slett"
 
-#: includes/class-wc-pos-i18n.php:351
+#: includes/class-wc-pos-i18n.php:353
 msgctxt "restore default settings"
 msgid "Restore defaults"
 msgstr ""
 
-#: includes/class-wc-pos-i18n.php:352
+#: includes/class-wc-pos-i18n.php:354
 msgctxt "Numpad return key"
 msgid "return"
 msgstr ""
 
-#: includes/class-wc-pos-i18n.php:371
+#: includes/class-wc-pos-i18n.php:373
 msgctxt "eg: 23 records"
 msgid "record |||| records"
 msgstr ""
@@ -307,7 +303,7 @@ msgstr "Ant"
 
 #: includes/views/pos/cart.php:116 includes/views/pos/cart.php:127
 #: includes/views/pos/receipt.php:84 includes/views/pos/receipt.php:94
-#: includes/views/print/receipt.php:191 includes/views/print/receipt.php:201
+#: includes/views/print/receipt.php:204 includes/views/print/receipt.php:214
 msgctxt "abbreviation for includes (tax)"
 msgid "incl."
 msgstr "inkl."

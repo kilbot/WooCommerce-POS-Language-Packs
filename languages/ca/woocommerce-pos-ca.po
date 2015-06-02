@@ -6,7 +6,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
 "POT-Creation-Date: 2015-06-02 04:17:17+00:00\n"
-"PO-Revision-Date: 2015-03-13 04:49:19+00:00\n"
+"PO-Revision-Date: 2015-06-03 04:49:19+00:00\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: ca\n"
@@ -197,13 +197,17 @@ msgstr "Adreça de facturació"
 msgid "Shipping Address"
 msgstr "Adreça d'enviament"
 
+#: includes/views/print/receipt.php:117
+msgid "Order Number"
+msgstr "Comanda"
+
 #: includes/views/print/receipt.php:121
 msgid "Order Date"
 msgstr "Data"
 
 #: includes/views/print/receipt.php:125
 msgid "Payment Method"
-msgstr "Mètode de pagament"
+msgstr "Pagament"
 
 #: includes/views/support.php:11
 msgid "Support Form"

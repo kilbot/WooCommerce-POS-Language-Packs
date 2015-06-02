@@ -20,40 +20,43 @@ msgid ""
 "<b>Warning!</b> You're blocking external requests which means you won't be "
 "able to get %s updates. Please add %s to %s."
 msgstr ""
+"<b>Compte!</b> Esteu blocant sol·licituds externes. Això implica "
+"deixar de rebre %s actualitzacis. Afegiu %s a %s."
 
 #: includes/admin/class-wc-pos-pro-am.php:124
 msgid "The %s License Key has not been activated, so the plugin is inactive!"
-msgstr ""
+msgstr "No s'ha activat la clau de la llicència %s, per tant l'extensió resta inactiva'"
 
 #: includes/admin/class-wc-pos-pro-am.php:125
 msgid ""
 " <a href=\"%s\">Click here</a> to activate the license key and the plugin."
 msgstr ""
+" Feu <a href=\"%s\">clic aquí</a> per activar la llicència i l'extensió."
 
 #: includes/admin/class-wc-pos-pro-am.php:249
 msgid "Unable to connect to the activation server"
-msgstr ""
+msgstr "No s'ha pogut connectar amb el servidor d'activació"
 
 #: includes/admin/class-wc-pos-pro-am.php:284
 msgid "Unable to parse the server response"
-msgstr ""
+msgstr "No s'ha pogut analitar la resposta del servidor"
 
 #: includes/admin/class-wc-pos-pro-am.php:296
 msgid "Invalid Request"
-msgstr ""
+msgstr "Sol·licitud incorrecta"
 
 #: includes/admin/class-wc-pos-pro-am.php:298
 #: includes/admin/class-wc-pos-pro-am.php:302
 msgid "Invalid License Key"
-msgstr ""
+msgstr "Codi de llicència no vàlid"
 
 #: includes/admin/class-wc-pos-pro-am.php:299
 msgid "Activation error"
-msgstr ""
+msgstr "S'ha produït un error en l'activació"
 
 #: includes/admin/class-wc-pos-pro-am.php:300
 msgid "Exceeded maximum number of activations"
-msgstr ""
+msgstr "S'ha excedit el nombre màxim d'activacions"
 
 #: includes/admin/class-wc-pos-pro-am.php:301
 msgid "Invalid Instance ID"
@@ -61,11 +64,11 @@ msgstr ""
 
 #: includes/admin/class-wc-pos-pro-am.php:303
 msgid "Subscription is not active"
-msgstr ""
+msgstr "Subscripció inactiva"
 
 #: includes/admin/class-wc-pos-pro-am.php:306
 msgid "Invalid Response"
-msgstr ""
+msgstr "Resposta no vàlida"
 
 #: includes/admin/class-wc-pos-pro-am.php:321
 msgid ""

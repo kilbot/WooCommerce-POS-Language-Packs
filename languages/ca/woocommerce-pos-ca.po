@@ -190,7 +190,7 @@ msgstr "Adreça d'enviament"
 
 #: includes/views/print/receipt.php:117
 msgid "Order Number"
-msgstr "Número de comanda"
+msgstr "Comanda"
 
 #: includes/views/print/receipt.php:121
 msgid "Order Date"
@@ -198,7 +198,7 @@ msgstr "Data"
 
 #: includes/views/print/receipt.php:125
 msgid "Payment Method"
-msgstr "Mètode de pagament"
+msgstr "Pagament"
 
 #: includes/views/print/receipt.php:136
 msgid "Telephone"

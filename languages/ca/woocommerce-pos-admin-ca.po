@@ -58,7 +58,7 @@ msgstr "Cerca per codi de barres"
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:44
 msgid "New order"
-msgstr ""
+msgstr "Nova comanda"
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:45
 msgid "Sync with server"
@@ -66,7 +66,7 @@ msgstr "Sincronitza amb el servidor"
 
 #: includes/admin/settings/views/access.php:7
 msgid "Grant POS Access"
-msgstr ""
+msgstr "Garanteix l'accès al Pos"
 
 #: includes/admin/settings/views/access.php:10
 msgid ""
@@ -105,7 +105,7 @@ msgstr "Correus de les comandes"
 
 #: includes/admin/settings/views/checkout.php:28
 msgid "Send WooCommerce notification emails for POS orders"
-msgstr ""
+msgstr "Envia correus de notificació de WooCommerce per a les comandes de POS"
 
 #: includes/admin/settings/views/checkout.php:44
 msgid ""
@@ -153,7 +153,7 @@ msgstr "Paràmetres del POS"
 
 #: includes/admin/settings/views/checkout.php:117
 msgid "Payment method title."
-msgstr "Títol del mètode de pagament"
+msgstr "Nom del mètode de pagament"
 
 #: includes/admin/settings/views/checkout.php:124
 msgid "Payment method description that will be shown in the POS."
@@ -173,11 +173,11 @@ msgstr "Permet <a href=\"%s\">Productes exclusius pel POS</a>"
 
 #: includes/admin/settings/views/general.php:23
 msgid "Allow Decimal Quantity"
-msgstr ""
+msgstr "Permet quantitats amb decimals"
 
 #: includes/admin/settings/views/general.php:24
 msgid "Allows items to have decimal values in the quantity field, eg: 0.25"
-msgstr ""
+msgstr "Permet que els articles tinguin valors decimals al camp de quantitat. Per exxemple: 0.25"
 
 #: includes/admin/settings/views/general.php:34
 msgid "Default POS Customer"
@@ -207,45 +207,55 @@ msgid ""
 "You can trigger certain events in WooCommerce POS using keyboard shortcuts "
 "(HotKeys)."
 msgstr ""
+"Podeu activar algns esdeveniments de WooCommerce POS utilitzant dreceres del teclat "
+
 
 #: includes/admin/settings/views/hotkeys.php:5
 msgid ""
 "HotKeys can also be used as a prefix for your barcode scanner or card reader."
 msgstr ""
+"Les tecles de drecera també es poden utilitzar com a prefix pels escanners de codis"
+"de barres o lectors de targetes."
 
 #: includes/admin/settings/views/tools.php:33
 msgid "Receipt Template"
-msgstr ""
+msgstr "Plantilla del rebut"
 
 #: includes/admin/settings/views/tools.php:36
 msgid "View Sample Receipt"
-msgstr ""
+msgstr "Mostra el rebut d'exemple"
 
 #: includes/admin/settings/views/tools.php:38
 msgid "<strong class=\"red\">Template path:</strong> %s"
-msgstr ""
+msgstr "<strong class=\"red\">Camí de la plantilla:</strong> %s"
 
 #: includes/admin/views/order-details.php:2
 msgid "Order type"
-msgstr ""
+msgstr "Tipus de comanda"
 
 #: includes/admin/views/settings.php:12
 msgid ""
 "There has been an error loading the settings, please contact <a href="
 "\"mailto:support@woopos.com.au\">support</a>"
 msgstr ""
+"S'ha produit un error mentre s'estava carregant la configuració, contacteu per <a href="
+"\"mailto:support@woopos.com.au\">suport</a>"
 
 #: includes/class-wc-pos-activator.php:173
 msgid ""
 "<strong>WooCommerce POS</strong> requires <a href=\"%s\">WooCommerce</a>. "
 "Please <a href=\"%s\">install and activate WooCommerce</a>"
 msgstr ""
+"<strong>WooCommerce POS</strong> requereix <a href=\"%s\">WooCommerce</a>. "
+"Si us plau <a href=\"%s\">instal·leu i activeu WooCommerce</a>"
 
 #: includes/class-wc-pos-activator.php:192
 msgid ""
 "<strong>WooCommerce POS</strong> requires the WooCommerce REST API. Please "
 "<a href=\"%s\">enable the REST API</a>"
 msgstr ""
+"<strong>WooCommerce POS</strong> recessita la REST API de WooCommerce. "
+"Si us plau, activeu <a href=\"%s\">la REST API</a>"
 
 #: includes/class-wc-pos-activator.php:209
 msgid ""
@@ -258,17 +268,17 @@ msgstr ""
 
 #: includes/products/class-wc-pos-visibility.php:23
 msgid "POS & Online"
-msgstr ""
+msgstr "POS & Online"
 
 #: includes/products/class-wc-pos-visibility.php:24
 #: includes/products/class-wc-pos-visibility.php:87
 msgid "POS Only"
-msgstr ""
+msgstr "Només al POS"
 
 #: includes/products/class-wc-pos-visibility.php:25
 #: includes/products/class-wc-pos-visibility.php:88
 msgid "Online Only"
-msgstr ""
+msgstr "Només Online"
 
 #: includes/products/views/post-metabox-visibility-select.php:11
 #: includes/products/views/quick-edit-visibility-select.php:14

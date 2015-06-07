@@ -6,57 +6,56 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
 "POT-Creation-Date: 2015-06-02 04:17:17+00:00\n"
-"PO-Revision-Date: 2014-08-24 08:37:40+0000\n"
+"PO-Revision-Date: 2015-06-07 00:11+0100\n"
+"Last-Translator: Thomas Clausen <thomas@designgrotten.dk>\n"
+"Language-Team: \n"
+"Language: da_DK\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/0.1\n"
+"X-Generator: Poedit 1.6.10\n"
 
 #: includes/api/class-wc-pos-orders.php:497
-#, fuzzy
 msgid "There was an error processing the payment"
-msgstr "Der var et problem med at hente produkterne."
+msgstr "Der var et problem med at gennemføre betalingen"
 
 #: includes/api/class-wc-pos-orders.php:523
 msgid "You are now being redirected offsite to complete the payment. "
-msgstr ""
+msgstr "Du bliver nu stillet videre for at gennemføre betalingen."
 
 #: includes/api/class-wc-pos-orders.php:524
 msgid "<a href=\"%s\">Click here</a> if you are not redirected automatically. "
 msgstr ""
+"<a href=\"%s\">Tryk her</a> hvis du ikke automatisk bliver viderestillet. "
 
 #: includes/api/class-wc-pos-orders.php:538
 msgid "POS Transaction completed."
-msgstr ""
+msgstr "POS Transaktion gennemført."
 
 #: includes/class-wc-pos-ajax.php:104
-#, fuzzy
 msgid "There is no settings id"
-msgstr "Der skete en fejl ved forsendelsen af e-mailen"
+msgstr "Der er intet indstillings ID"
 
 #: includes/class-wc-pos-ajax.php:123
 msgid "No handler found for %s settings"
-msgstr ""
+msgstr "Ingen handler blev fundet til %s indstillinger"
 
 #: includes/class-wc-pos-ajax.php:146
-#, fuzzy
 msgid "Settings error"
-msgstr "Indstillinger"
+msgstr "Fejl med indstillinger"
 
 #: includes/class-wc-pos-ajax.php:165 includes/class-wc-pos-ajax.php:187
-#, fuzzy
 msgid "Email sent"
 msgstr "E-mail sendt"
 
 #: includes/class-wc-pos-ajax.php:170 includes/class-wc-pos-ajax.php:192
-#, fuzzy
 msgid "There was an error sending the email"
-msgstr "Der var et problem med at sende din e-mail."
+msgstr "Der var et problem med at sende denne e-mail"
 
 #: includes/class-wc-pos-ajax.php:207
 msgid "Invalid security nonce"
-msgstr ""
+msgstr "Invalid sikkerhedsnonce"
 
 #: includes/class-wc-pos-i18n.php:332
 msgid "To Pay"
@@ -68,7 +67,7 @@ msgstr "Betalt"
 
 #: includes/class-wc-pos-i18n.php:334
 msgid "Unpaid"
-msgstr ""
+msgstr "Ubetalt"
 
 #: includes/class-wc-pos-i18n.php:335
 msgid "Email Receipt"
@@ -103,14 +102,12 @@ msgid "Your browser is not supported!"
 msgstr "Din browser er ikke understøttet!"
 
 #: includes/class-wc-pos-status.php:18
-#, fuzzy
 msgid "WC Version"
-msgstr "WooCommerce Version"
+msgstr "WC Version"
 
 #: includes/class-wc-pos-status.php:21
-#, fuzzy
 msgid "WooCommerce >= %s required"
-msgstr "WooCommerce >= 2.1 krævet"
+msgstr "WooCommerce >= %s krævet"
 
 #: includes/class-wc-pos-status.php:27
 msgid "WC REST API"
@@ -129,7 +126,6 @@ msgid "POS"
 msgstr "POS"
 
 #: includes/class-wc-pos.php:115
-#, fuzzy
 msgid "User not authorized to access WooCommerce POS"
 msgstr "Bruger har ikke rettigheder til at styre WooCommerce POS"
 
@@ -155,7 +151,6 @@ msgid "Amount Tendered"
 msgstr "Beløb betalt"
 
 #: includes/views/modals/browser.php:2
-#, fuzzy
 msgid "Sorry, it seems your browser is not supported by WooCommerce POS. "
 msgstr ""
 "Beklager, men det ser ud til, at din browser ikke er understøttet af "
@@ -170,14 +165,14 @@ msgstr ""
 "din browser</a>, vi anbeflaer enten Chrome eller Firefox."
 
 #: includes/views/modals/browser.php:7
-#, fuzzy
 msgid ""
 "If you believe you have received this message in error please contact "
 "support via <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</"
 "a>"
 msgstr ""
 "Hvis du mener du modtog denne besked som en fejl, så kontakt venligst "
-"supporten på <a href=\"http://woopos.com.au\">woopos.com.au</a>"
+"supporten på <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</"
+"a>"
 
 #: includes/views/pos/checkout.php:26
 msgid "No payment gateways enabled."
@@ -188,13 +183,12 @@ msgid "Scan Barcode"
 msgstr "Skan stregkode"
 
 #: includes/views/pos/products.php:81
-#, fuzzy
 msgid "Showing %s of %s"
-msgstr "Viser %s af %s produkter"
+msgstr "Viser %s af %s"
 
 #: includes/views/pos/products.php:82
 msgid "%s in queue"
-msgstr ""
+msgstr "%s i kø"
 
 #: includes/views/print/receipt.php:109
 msgid "Billing Address"
@@ -213,9 +207,8 @@ msgid "Payment Method"
 msgstr "Betalingsmetode"
 
 #: includes/views/support.php:11
-#, fuzzy
 msgid "Support Form"
-msgstr "POS Support formular"
+msgstr "Support formular"
 
 #: includes/views/support.php:28
 msgid "Describe your problem here ..."
@@ -235,26 +228,28 @@ msgid ""
 "Requires <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</"
 "a>."
 msgstr ""
+"En simpel front-end til at tage imod WooCommerce ordrer som nærsalg. Kræver "
+"<a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a>."
 
 #: includes/class-wc-pos-i18n.php:320
 msgctxt "system status: browser capabilities"
 msgid "Browser"
-msgstr ""
+msgstr "Browser"
 
 #: includes/class-wc-pos-i18n.php:326
 msgctxt "keyboard shortcuts"
 msgid "HotKeys"
-msgstr ""
+msgstr "Genveje"
 
 #: includes/views/help.php:7
 msgctxt "keyboard shortcuts"
 msgid "Hotkeys"
-msgstr ""
+msgstr "Genveje"
 
 #: includes/class-wc-pos-i18n.php:336
 msgctxt "order status, ie: open order in cart"
 msgid "Open"
-msgstr ""
+msgstr "Åben"
 
 #: includes/class-wc-pos-i18n.php:337
 #: includes/gateways/class-wc-pos-cash.php:102
@@ -263,7 +258,6 @@ msgid "Change"
 msgstr "Byttepenge"
 
 #: includes/class-wc-pos-i18n.php:342
-#, fuzzy
 msgctxt "system status: delete local records"
 msgid "Clear"
 msgstr "nulstil"
@@ -271,17 +265,17 @@ msgstr "nulstil"
 #: includes/class-wc-pos-i18n.php:353
 msgctxt "restore default settings"
 msgid "Restore defaults"
-msgstr ""
+msgstr "Gendan standarder"
 
 #: includes/class-wc-pos-i18n.php:354
 msgctxt "Numpad return key"
 msgid "return"
-msgstr ""
+msgstr "Return"
 
 #: includes/class-wc-pos-i18n.php:373
 msgctxt "eg: 23 records"
 msgid "record |||| records"
-msgstr ""
+msgstr "fortegnelse |||| fortegnelser"
 
 #: includes/class-wc-pos-params.php:74
 msgctxt "Product tab: 'On Sale' products"
@@ -290,10 +284,9 @@ msgstr "Tilbud"
 
 #: includes/views/pos/cart.php:9 includes/views/pos/receipt.php:10
 #: includes/views/print/receipt.php:145
-#, fuzzy
 msgctxt "Abbreviation of Quantity"
 msgid "Qty"
-msgstr "Antal"
+msgstr "Stk."
 
 #: includes/views/pos/cart.php:116 includes/views/pos/cart.php:127
 #: includes/views/pos/receipt.php:84 includes/views/pos/receipt.php:94

@@ -1,0 +1,405 @@
+# Copyright (C) 2015 kilbot
+# This file is distributed under the Copyright 2015 The Kilbot Factory.
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce POS\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
+"POT-Creation-Date: 2015-06-02 07:55:30+00:00\n"
+"PO-Revision-Date: 2015-06-10 15:10+0000\n"
+"Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
+"Language-Team: Dutch (Netherlands) (http://www.transifex.com/projects/p/woocommerce-pos/language/nl_NL/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: grunt-wp-i18n 0.5.2\n"
+
+#: includes/admin/class-wc-pos-pro-am.php:109
+msgid ""
+"<b>Warning!</b> You're blocking external requests which means you won't be "
+"able to get %s updates. Please add %s to %s."
+msgstr "<b>Waarschuwing!</b> Je blokkeert uitgaande verbindingen waardoor je geen %s updates krijgt. Voeg %s aan %s toe."
+
+#: includes/admin/class-wc-pos-pro-am.php:124
+msgid "The %s License Key has not been activated, so the plugin is inactive!"
+msgstr "De licentie key is niet geactiveerd waardoor de plugin niet actief is!"
+
+#: includes/admin/class-wc-pos-pro-am.php:125
+msgid " <a href=\"%s\">Click here</a> to activate the license key and the plugin."
+msgstr " <a href=\"%s\">Klik hier</a> om de licentie key en dus de plugin te activeren."
+
+#: includes/admin/class-wc-pos-pro-am.php:249
+msgid "Unable to connect to the activation server"
+msgstr "Kan geen verbinding maken met de licentie server"
+
+#: includes/admin/class-wc-pos-pro-am.php:284
+msgid "Unable to parse the server response"
+msgstr "Antwoord van de server niet bruikbaar"
+
+#: includes/admin/class-wc-pos-pro-am.php:296
+msgid "Invalid Request"
+msgstr "ongeldig verzoek"
+
+#: includes/admin/class-wc-pos-pro-am.php:298
+#: includes/admin/class-wc-pos-pro-am.php:302
+msgid "Invalid License Key"
+msgstr "Ongeldige licentie key"
+
+#: includes/admin/class-wc-pos-pro-am.php:299
+msgid "Activation error"
+msgstr "Fout bij het activeren"
+
+#: includes/admin/class-wc-pos-pro-am.php:300
+msgid "Exceeded maximum number of activations"
+msgstr "Maximaal aantal activeringen bereikt"
+
+#: includes/admin/class-wc-pos-pro-am.php:301
+msgid "Invalid Instance ID"
+msgstr "Ongeldige instance ID"
+
+#: includes/admin/class-wc-pos-pro-am.php:303
+msgid "Subscription is not active"
+msgstr "Abonnement is niet actief"
+
+#: includes/admin/class-wc-pos-pro-am.php:306
+msgid "Invalid Response"
+msgstr "Onjuist antwoord"
+
+#: includes/admin/class-wc-pos-pro-am.php:321
+msgid ""
+"A license key for %s could not be found. Maybe you forgot to enter a license"
+" key when setting up %s, or the key was deactivated in your account. You can"
+" reactivate or purchase a license key from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr "Er kon geen licentie key voor %s gevonden worden. Heb je vergeten een license key aan te maken tijdens de installatie van %s, of is de key soms gedeactiveerd in je account. Je kan een licentie key kopen of opnieuw activeren in je account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+
+#: includes/admin/class-wc-pos-pro-am.php:322
+msgid ""
+"The license key for %s has expired. You can reactivate or purchase a license"
+" key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "De licentie key voor %s is verlopen. Je kan een licentie key kopen of opnieuw activeren in je account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+
+#: includes/admin/class-wc-pos-pro-am.php:323
+msgid ""
+"The subscription for %s is on-hold. You can reactivate the subscription from"
+" your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Je abonnement op %s staat on hold. Je kan je abonnement weer activeren in je account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+
+#: includes/admin/class-wc-pos-pro-am.php:324
+msgid ""
+"The subscription for %s has been cancelled. You can renew the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>. A new "
+"license key will be emailed to you after your order has been completed."
+msgstr "Je abonnement op %s is gestopt. Je kan je abonnment weer activeren in je account <a href=\"%s\" target=\"_blank\">dashboard</a>. De nieuwe licentie key wordt je per email toegestuurd zodra de bestelling is afgehandeld."
+
+#: includes/admin/class-wc-pos-pro-am.php:325
+msgid ""
+"The subscription for %s has expired. You can reactivate the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Je abonnement op %s is verlopen. Je kan je abonnement weer activeren in je account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+
+#: includes/admin/class-wc-pos-pro-am.php:326
+msgid ""
+"The subscription for %s has been suspended. You can reactivate the "
+"subscription from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr "Je abonnment op %s is tijdelijk gestopt. Je kan le abonnement weer activeren in je account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+
+#: includes/admin/class-wc-pos-pro-am.php:327
+msgid ""
+"The subscription for %s is still pending. You can check on the status of the"
+" subscription from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr "Je abonnment op %s wacht nog op behandeling. Je kan de status van je abonnement controleren in je account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+
+#: includes/admin/class-wc-pos-pro-am.php:328
+msgid ""
+"The subscription for %s has been placed in the trash and will be deleted "
+"soon. You can purchase a new subscription from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr "Je abonnement op %s is opgezegd en zal binnenkort worden opgeruimd. Je kan een nieuw abonnement aangaan in je account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+
+#: includes/admin/class-wc-pos-pro-am.php:329
+msgid ""
+"A subscription for %s could not be found. You can purchase a subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Je abonnement op %s kon niet worden gevonden. Je kan een nieuw abonnement aangaan in je account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+
+#: includes/admin/class-wc-pos-pro-am.php:330
+msgid ""
+"%s has not been activated. Go to the settings page and enter the license key"
+" and license email to activate %s."
+msgstr "%s is niet geaactiveerd. Ga naarde instellingen pagina en geef de licentie key and het licentie emailadres om %s te activeren."
+
+#: includes/admin/class-wc-pos-pro-am.php:331
+msgid ""
+"Download permission for %s has been revoked possibly due to a license key or"
+" subscription expiring. You can reactivate or purchase a license key from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "De toestemming om %s te downloaden is ingetrokken, waarschijnlijk omdat de licentie key of het abonnement is verlopen. Je kan en licentie key kopen of vernieuwen in je account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+
+#: includes/admin/class-wc-pos-pro-am.php:332
+msgid ""
+"You changed the subscription for %s, so you will need to enter your new API "
+"License Key in the settings page. The License Key should have arrived in "
+"your email inbox, if not you can get it by logging into your account <a "
+"href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Je hebt je abonnement op %s aangepast. Je zal de je nieuwe licentie key op de instellingen pagina moeten invullen. De licentie key zou al in je inbox moeten staan, zoniet dan kan je deze in je account <a href=\"%s\" target=\"_blank\">dashboard</a> vinden."
+
+#: includes/admin/class-wc-pos-pro-reports.php:27
+#: includes/admin/reports/class-wc-pos-pro-sales.php:498
+#: includes/admin/reports/class-wc-pos-pro-sales.php:500
+#: includes/admin/reports/class-wc-pos-pro-sales.php:502
+#: includes/admin/reports/class-wc-pos-pro-sales.php:504
+#: includes/admin/reports/class-wc-pos-pro-sales.php:506
+msgid "POS"
+msgstr "KASSA(POS)"
+
+#: includes/admin/class-wc-pos-pro-reports.php:30
+msgid "POS vs Online"
+msgstr "KASSA vs WEB verkoop"
+
+#: includes/admin/class-wc-pos-pro-reports.php:36
+msgid "Sales by cashier"
+msgstr "Verkopen per kassier"
+
+#: includes/admin/class-wc-pos-pro-stores.php:62
+msgid "Stores"
+msgstr "Vestigingen"
+
+#: includes/admin/class-wc-pos-pro-stores.php:129
+msgid "Open POS"
+msgstr "Open KASSA"
+
+#: includes/admin/class-wc-pos-pro-stores.php:148
+msgid "Store"
+msgstr "Vestiging"
+
+#: includes/admin/class-wc-pos-pro-stores.php:165
+msgid "Preview Receipt"
+msgstr "Voorbeeld kassabon"
+
+#: includes/admin/class-wc-pos-pro-stores.php:180
+msgid "Opening Hours"
+msgstr "Openingstijden"
+
+#: includes/admin/class-wc-pos-pro-stores.php:189
+msgid "Logo"
+msgstr "Logo"
+
+#: includes/admin/class-wc-pos-pro-stores.php:212
+msgid "Receipt Options"
+msgstr "Kassabon opties"
+
+#: includes/admin/class-wc-pos-pro-stores.php:277
+msgid "Set featured image"
+msgstr "Kies featured image"
+
+#: includes/admin/class-wc-pos-pro-stores.php:277
+#: includes/admin/class-wc-pos-pro-stores.php:293
+msgid "Set store logo"
+msgstr "Kies vestigingslogo"
+
+#: includes/admin/class-wc-pos-pro-stores.php:278
+msgid "Remove featured image"
+msgstr "Verwijder featured image"
+
+#: includes/admin/class-wc-pos-pro-stores.php:278
+msgid "Remove store logo"
+msgstr "Verwijder vestigingslogo"
+
+#: includes/admin/class-wc-pos-pro-stores.php:292
+msgid "Set Store Logo"
+msgstr "Kies vestigingslogo"
+
+#: includes/admin/class-wc-pos-pro-stores.php:369
+msgid ""
+"Please <a href=\"%s\">read the docs</a> for information on how to customize "
+"your POS receipts."
+msgstr "Please <a href=\"%s\">read the docs</a> voor uitleg hoe je kassabon aan te passen."
+
+#: includes/admin/reports/class-wc-pos-pro-cashier.php:143
+msgid "Sales amount"
+msgstr "Verkoop bedrag"
+
+#: includes/admin/reports/class-wc-pos-pro-sales.php:25
+#: includes/admin/reports/class-wc-pos-pro-sales.php:247
+msgid "POS Sales"
+msgstr "KASSA verkopen"
+
+#: includes/admin/reports/class-wc-pos-pro-sales.php:31
+#: includes/admin/reports/class-wc-pos-pro-sales.php:257
+msgid "Online Sales"
+msgstr "WEB verkopen"
+
+#: includes/admin/reports/class-wc-pos-pro-sales.php:160
+#: includes/admin/reports/class-wc-pos-pro-sales.php:170
+msgid "POS Orders"
+msgstr "KASSA verkopen"
+
+#: includes/admin/reports/class-wc-pos-pro-sales.php:161
+#: includes/admin/reports/class-wc-pos-pro-sales.php:175
+msgid "Online Orders"
+msgstr "WEB verkopen"
+
+#: includes/admin/reports/class-wc-pos-pro-sales.php:194
+msgid "orders"
+msgstr "verkopen"
+
+#: includes/admin/reports/class-wc-pos-pro-sales.php:267
+msgid "Average POS sales amount"
+msgstr "Gemiddelde KASSA omzet"
+
+#: includes/admin/reports/class-wc-pos-pro-sales.php:277
+msgid "Average Online sales amount"
+msgstr "Gemiddelde WEB omzet"
+
+#: includes/admin/reports/class-wc-pos-pro-sales.php:490
+msgid "Period"
+msgstr "Periode"
+
+#: includes/admin/reports/class-wc-pos-pro-sales.php:491
+msgid "Orders"
+msgstr "Verkopen"
+
+#: includes/admin/reports/class-wc-pos-pro-sales.php:492
+msgid "Total Sales"
+msgstr "Omzet"
+
+#: includes/admin/reports/class-wc-pos-pro-sales.php:492
+msgid "This is the sum of the 'Order Total' field within your orders."
+msgstr "Dit is de som van de 'Totaal bedrag' bedragen in je verkopen."
+
+#: includes/admin/reports/class-wc-pos-pro-sales.php:493
+msgid "Total Shipping"
+msgstr "Totaal verzending"
+
+#: includes/admin/reports/class-wc-pos-pro-sales.php:493
+msgid "This is the sum of the 'Shipping Total' field within your orders."
+msgstr "Dit is de som van de 'Verzend Totaal' bedragen in je verkopen."
+
+#: includes/admin/reports/class-wc-pos-pro-sales.php:494
+msgid "Total Tax"
+msgstr "Totaal belasting"
+
+#: includes/admin/reports/class-wc-pos-pro-sales.php:494
+msgid "This is the total tax for the rate (shipping tax + product tax)."
+msgstr "Dit is het totaal aan belasing voor het tarief (verzendbelasting + productbelasting)."
+
+#: includes/admin/reports/class-wc-pos-pro-sales.php:495
+msgid "Net profit"
+msgstr "Netto winst"
+
+#: includes/admin/reports/class-wc-pos-pro-sales.php:495
+msgid "Total sales minus shipping and tax."
+msgstr "Omzet minus verzending en belasting."
+
+#: includes/admin/reports/class-wc-pos-pro-sales.php:499
+#: includes/admin/reports/class-wc-pos-pro-sales.php:501
+#: includes/admin/reports/class-wc-pos-pro-sales.php:503
+#: includes/admin/reports/class-wc-pos-pro-sales.php:505
+#: includes/admin/reports/class-wc-pos-pro-sales.php:507
+msgid "Online"
+msgstr "WEB"
+
+#: includes/admin/reports/class-wc-pos-pro-sales.php:541
+msgid "Total"
+msgstr "Totaal"
+
+#: includes/admin/settings/class-wc-pos-pro-license.php:16
+msgid "Pro License"
+msgstr "Pro licentie"
+
+#: includes/admin/settings/views/license.php:7
+msgid "Pro License Activation"
+msgstr "Pro licentie activeren"
+
+#: includes/admin/settings/views/license.php:12
+msgid "Thank you!"
+msgstr "Bedankt!"
+
+#: includes/admin/settings/views/license.php:13
+msgid "Your license is active"
+msgstr "Je licentie is actief"
+
+#: includes/admin/settings/views/license.php:19
+msgid "License Email"
+msgstr "Licentie emailadres"
+
+#: includes/admin/settings/views/license.php:27
+msgid "License Key"
+msgstr "Licentie key"
+
+#: includes/admin/views/stores/address.php:55
+msgid "loading"
+msgstr "aan het laden"
+
+#: includes/admin/views/stores/opening-hours.php:21
+msgid "Opening Hours notes"
+msgstr "Speciale opningstijden"
+
+#: includes/admin/views/stores/opening-hours.php:22
+msgid "eg: Closed public holidays"
+msgstr "Gesloten op feestdagen"
+
+#: includes/admin/views/stores/opening-hours.php:27
+msgid ""
+"You can add opening hours to your website using a widget. <a "
+"href=\"%s\">Read the docs</a> for more information."
+msgstr "Je kan de openingstijden in een widget in je website plaatsen. <a href=\"%s\">zie de docs</a> voor uitleg."
+
+#: includes/admin/views/stores/receipt-options.php:9
+msgid "Complimentary Close"
+msgstr "Afsluitingstekst"
+
+#: includes/admin/views/stores/receipt-options.php:10
+msgid ""
+"Personal notes or season greetings, e.g. Thank You for Your Order! or Merry "
+"Christmas!"
+msgstr "Persoolijke opmerking of kerstwens, b.v. Bedankt voor Uw aankoop! of Prettige Kerstdagen!"
+
+#: includes/admin/views/stores/receipt-options.php:13
+msgid "Returns Policy"
+msgstr "Retouren"
+
+#: includes/admin/views/stores/receipt-options.php:14
+msgid "Returns policy, terms and conditions"
+msgstr "Voorwaarden voor retournering"
+
+#: includes/admin/views/stores/receipt-options.php:17
+msgid "Footer"
+msgstr "Voetnoot"
+
+#: includes/admin/views/stores/receipt-options.php:18
+msgid "Further footer information, e.g. copyright or branding"
+msgstr "b.v. copyright, merk of gewoon 'tot ziens!'"
+
+#: includes/admin/views/stores/tax-rate.php:8
+msgid "Calculate Tax Based On"
+msgstr "Bereken belasting uitgaande van"
+
+#: includes/admin/views/stores/tax-rate.php:10
+msgid "this store address"
+msgstr "vestigingsplaats"
+
+#: includes/admin/views/stores/tax-rate.php:11
+msgid "base location"
+msgstr "locatie van de hoofdvestiging"
+
+#: includes/admin/views/stores/tax-rate.php:39
+msgid "No tax rates set"
+msgstr "Er zijn geen belastingtarieven ingesteld"
+
+#: includes/admin/views/stores/tax-rate.php:43
+msgid ""
+"The tax rates above will be used at the point of sale. You can <a "
+"href=\"%s\">change the tax rate</a> in WooCommerce settings."
+msgstr "De belastingtarieven hierboven worden voor winkel verkopen gebruikt. J kan de <a href=\"%s\"> belastingtarieven</a> in de WooCommerce instellingen aanpassen."
+
+#: includes/class-wc-pos-pro-activator.php:145
+msgid ""
+"<strong>WooCommerce POS Pro</strong> requires <a href=\"%s\">WooCommerce "
+"POS</a>. Please <a href=\"%s\">install and activate WooCommerce POS</a>"
+msgstr "<strong>WooCommerce KASSA(POS) Pro</strong> vereist <a href=\"%s\">WooCommerce KASSA(POS)</a>. <a href=\"%s\">installeer en activeer WooCommerce KASSA(POS)</a>"

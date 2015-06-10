@@ -17,23 +17,23 @@ msgstr ""
 
 #: includes/api/class-wc-pos-orders.php:497
 msgid "There was an error processing the payment"
-msgstr ""
+msgstr "حدث خطأأثناء عملية الدفع"
 
 #: includes/api/class-wc-pos-orders.php:523
 msgid "You are now being redirected offsite to complete the payment. "
-msgstr ""
+msgstr "لقد تم تحويلك خارج الموقع  لإتمام عملية الدفع"
 
 #: includes/api/class-wc-pos-orders.php:524
 msgid "<a href=\"%s\">Click here</a> if you are not redirected automatically. "
-msgstr ""
+msgstr "<a href=\"%s\"> اضغط هنا </a> اذا لم يتم تحويلك تلقائيا"
 
 #: includes/api/class-wc-pos-orders.php:538
 msgid "POS Transaction completed."
-msgstr ""
+msgstr "لقد تمت العملية"
 
 #: includes/class-wc-pos-ajax.php:104
 msgid "There is no settings id"
-msgstr ""
+msgstr "لا يوجد رقم الاعدادات"
 
 #: includes/class-wc-pos-ajax.php:123
 msgid "No handler found for %s settings"
@@ -41,7 +41,7 @@ msgstr ""
 
 #: includes/class-wc-pos-ajax.php:146
 msgid "Settings error"
-msgstr ""
+msgstr "خطأ فى الإعدادات"
 
 #: includes/class-wc-pos-ajax.php:165 includes/class-wc-pos-ajax.php:187
 msgid "Email sent"

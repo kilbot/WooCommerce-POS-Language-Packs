@@ -10,7 +10,7 @@ There are several ways to update the language files:
 
 ### 1. [Transifex](https://www.transifex.com/projects/p/woocommerce-pos/) ###
 
-Transifex is an online service for translations - similar to GlotPress, but with a much nicer user interface. To get started, simply click the button below.
+Transifex is an online service for translations - similar to GlotPress, but with a much nicer user interface. Once translations are complete in Transifex they will be automatically merged with this GitHub repo. To get started, simply click the button below.
 
 <p style="text-align:center">
 <a href="https://www.transifex.com/projects/p/woocommerce-pos/"><img src="http://woopos.com.au/wp-content/uploads/2015/06/help-translate.png" alt="Help Translate WooCommerce POS"></a>

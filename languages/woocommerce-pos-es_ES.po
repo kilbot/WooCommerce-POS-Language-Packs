@@ -103,11 +103,11 @@ msgstr "¡Su navegador no está soportado!"
 
 #: includes/class-wc-pos-status.php:18
 msgid "WC Version"
-msgstr "WC Versión"
+msgstr "Versión WooCommerce"
 
 #: includes/class-wc-pos-status.php:21
 msgid "WooCommerce >= %s required"
-msgstr "WooCommerce> =% s requiere"
+msgstr "Se requiere WooCommerce %s o superior."
 
 #: includes/class-wc-pos-status.php:27
 msgid "WC REST API"
@@ -127,7 +127,7 @@ msgstr "Punto de Venta"
 
 #: includes/class-wc-pos.php:115
 msgid "User not authorized to access WooCommerce POS"
-msgstr "Usuario no autorizado para acceder POS WooCommerce"
+msgstr "Usuario no autorizado para gestionar WooCommerce POS"
 
 #: includes/gateways/class-wc-pos-card.php:20
 msgid "Card"
@@ -165,7 +165,7 @@ msgid ""
 "If you believe you have received this message in error please contact "
 "support via <a "
 "href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
-msgstr "Si usted cree que ha recibido este mensaje por error, por favor póngase en contacto con soporte a través <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
+msgstr "Si usted cree que ha recibido este mensaje por error, por favor póngase en contacto con soporte en <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
 
 #: includes/views/pos/checkout.php:26
 msgid "No payment gateways enabled."
@@ -177,11 +177,11 @@ msgstr "Escanear código de barras"
 
 #: includes/views/pos/products.php:81
 msgid "Showing %s of %s"
-msgstr "Mostrando% s de% s"
+msgstr "Mostrando %s de %s"
 
 #: includes/views/pos/products.php:82
 msgid "%s in queue"
-msgstr "% s en la cola"
+msgstr "%s en la cola"
 
 #: includes/views/print/receipt.php:109
 msgid "Billing Address"
@@ -266,7 +266,7 @@ msgstr "retorno"
 #: includes/class-wc-pos-i18n.php:373
 msgctxt "eg: 23 records"
 msgid "record |||| records"
-msgstr "expediente expedientes ||||"
+msgstr "expediente |||| expedientes"
 
 #: includes/class-wc-pos-params.php:74
 msgctxt "Product tab: 'On Sale' products"

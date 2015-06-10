@@ -228,7 +228,7 @@ msgid "Receipt Options"
 msgstr "Kassabon opties"
 
 #: includes/admin/class-wc-pos-pro-stores.php:277
-msgid "Set featured image"
+msgid "Set featured image"belas
 msgstr "Kies featured image"
 
 #: includes/admin/class-wc-pos-pro-stores.php:277
@@ -318,7 +318,7 @@ msgstr "Dit is de som van de 'Verzend Totaal' bedragen in je verkopen."
 
 #: includes/admin/reports/class-wc-pos-pro-sales.php:494
 msgid "Total Tax"
-msgstr "Totaal belasitng"
+msgstr "Totaal belasting"
 
 #: includes/admin/reports/class-wc-pos-pro-sales.php:494
 msgid "This is the total tax for the rate (shipping tax + product tax)."

@@ -228,7 +228,7 @@ msgid "Receipt Options"
 msgstr "Kassabon opties"
 
 #: includes/admin/class-wc-pos-pro-stores.php:277
-msgid "Set featured image"belas
+msgid "Set featured image"
 msgstr "Kies featured image"
 
 #: includes/admin/class-wc-pos-pro-stores.php:277

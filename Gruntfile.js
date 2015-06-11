@@ -36,7 +36,8 @@ module.exports = function(grunt) {
 
     msgmerge.options = {
       locales: locales,
-      cwd: 'languages/'
+      cwd: 'languages/',
+      pot: 'resources/'
     }
 
     var done = this.async();
@@ -52,8 +53,8 @@ module.exports = function(grunt) {
     pkg.pro_locales = {};
 
     var latest = function(locale, slug){
-      var po1 = 'languages/' + locale + '/' + slug + '-' + locale + '.po';
-      var po2 = 'languages/' + locale + '/' + slug + '-admin-' + locale + '.po';
+      var po1 = 'languages/' + slug + '-' + locale + '.po';
+      var po2 = 'languages/' + slug + '-admin-' + locale + '.po';
 
       rev1 = grunt.file.read(po1).match(/"PO-Revision-Date: (.*)\\n"/);
       rev2 = grunt.file.read(po2).match(/"PO-Revision-Date: (.*)\\n"/);
@@ -81,7 +82,7 @@ module.exports = function(grunt) {
         options: { archive: 'packages/' + slug + '-' + locale + '.zip' },
         files: [{
           expand: true,
-          cwd: 'languages/' + locale,
+          cwd: 'languages',
           src: [
             slug + '-' + locale + '.po',
             slug + '-' + locale + '.mo',

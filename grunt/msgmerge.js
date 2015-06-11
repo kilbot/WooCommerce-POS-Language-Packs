@@ -43,12 +43,12 @@ module.exports = function(grunt) {
   };
 
   exports.potFiles = function(){
-    return grunt.file.expand({cwd: exports.options.cwd}, '**/*.pot');
+    return grunt.file.expand({cwd: exports.options.pot}, '**/*.pot');
   };
 
   exports.poPath = function(fileName, locale){
     var file = fileName.replace('.pot', '-' + locale + '.po');
-    return exports.options.cwd + locale + '/' + file;
+    return exports.options.cwd + file;
   };
 
   exports.queueInit = function(fileName, locale, dest){
@@ -64,7 +64,7 @@ module.exports = function(grunt) {
   };
 
   exports.queueMerge = function(fileName, locale, dest){
-    var tmpl = exports.options.cwd + fileName;
+    var tmpl = exports.options.pot + fileName;
 
     return {
       cmd : 'msgmerge',

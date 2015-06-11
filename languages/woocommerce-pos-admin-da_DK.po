@@ -4,15 +4,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
-"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
+"Packs/issues\n"
 "POT-Creation-Date: 2015-06-02 04:17:17+00:00\n"
 "PO-Revision-Date: 2015-06-11 11:57+0000\n"
 "Last-Translator: tntc1978 <tntc1978@gmail.com>\n"
-"Language-Team: Danish (Denmark) (http://www.transifex.com/projects/p/woocommerce-pos/language/da_DK/)\n"
+"Language-Team: Danish (Denmark) (http://www.transifex.com/projects/p/"
+"woocommerce-pos/language/da_DK/)\n"
+"Language: da_DK\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: da_DK\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: grunt-wp-i18n 0.5.2\n"
 
@@ -71,19 +73,26 @@ msgstr "Tildel POS adgang"
 msgid ""
 "By default, access to the POS is limited to Administrator and Shop Manager "
 "roles."
-msgstr "Som standard er adgangen til POS begrænset til administratorer og Shop Manager rollerne."
+msgstr ""
+"Som standard er adgangen til POS begrænset til administratorer og Shop "
+"Manager rollerne."
 
 #: includes/admin/settings/views/access.php:11
 msgid ""
 "It is recommended that you <strong>do not change</strong> the default "
 "settings unless you are fully aware of the consequences."
-msgstr "Det anbefales at du <strong>IKKE ændrer</strong> standard indstillingerne med mindre du er fuldt bevidst om konsekvenserne."
+msgstr ""
+"Det anbefales at du <strong>IKKE ændrer</strong> standard indstillingerne "
+"med mindre du er fuldt bevidst om konsekvenserne."
 
 #: includes/admin/settings/views/access.php:12
 #: includes/admin/settings/views/checkout.php:50
 #: includes/admin/settings/views/hotkeys.php:6
-msgid "For more information please visit <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
-msgstr "For mere information besøg venligst <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
+msgid ""
+"For more information please visit <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
+msgstr ""
+"For mere information besøg venligst <a href=\"%1$s\" target=\"_blank\">%1$s</"
+"a>"
 
 #: includes/admin/settings/views/checkout.php:13
 msgid "Completed Order Status"
@@ -103,23 +112,31 @@ msgstr "Send WooCommerce notifikations e-mails for POS ordrer"
 
 #: includes/admin/settings/views/checkout.php:44
 msgid ""
-"Installed gateways are listed below. Drag and drop gateways to control their"
-" display order at the Point of Sale. "
-msgstr "Installerede gateways er listet nedenfor. Træk og slip gateways for at vise i hvilken rækkefølge de vises i POS. "
+"Installed gateways are listed below. Drag and drop gateways to control their "
+"display order at the Point of Sale. "
+msgstr ""
+"Installerede gateways er listet nedenfor. Træk og slip gateways for at vise "
+"i hvilken rækkefølge de vises i POS. "
 
 #: includes/admin/settings/views/checkout.php:45
 msgid ""
 "Payment Gateways enabled here will be available at the Point of Sale. "
 "Payment Gateways enabled on the settings page will be available in your "
 "Online Store. "
-msgstr "Betalingsgateways som er aktiveret her vil være tilgængelige i POS. Betalingsgateways som er aktiveret i din indstillingsside vil være tilgængelig i din online butik."
+msgstr ""
+"Betalingsgateways som er aktiveret her vil være tilgængelige i POS. "
+"Betalingsgateways som er aktiveret i din indstillingsside vil være "
+"tilgængelig i din online butik."
 
 #: includes/admin/settings/views/checkout.php:49
 msgid ""
 "It is your responsibility to ensure the security of your customer's "
 "information. Transmitting credit card or other sensitive information should "
 "only be done using a secure connnection."
-msgstr "Det er dit ansvar at sikre dine kunders informationer. Transmission af kreditkort eller andre følsomme informationer bør kun ske ved brug af en sikker forbindelse."
+msgstr ""
+"Det er dit ansvar at sikre dine kunders informationer. Transmission af "
+"kreditkort eller andre følsomme informationer bør kun ske ved brug af en "
+"sikker forbindelse."
 
 #: includes/admin/settings/views/checkout.php:56
 msgid "Gateway Display"
@@ -190,13 +207,15 @@ msgstr "Tastatur genveje"
 msgid ""
 "You can trigger certain events in WooCommerce POS using keyboard shortcuts "
 "(HotKeys)."
-msgstr "Du kan aktivere en hændelse i WooCommerce POS ved at bruge tastatur genveje."
+msgstr ""
+"Du kan aktivere en hændelse i WooCommerce POS ved at bruge tastatur genveje."
 
 #: includes/admin/settings/views/hotkeys.php:5
 msgid ""
-"HotKeys can also be used as a prefix for your barcode scanner or card "
-"reader."
-msgstr "Genveje kan også blive brugt til at prefix’e din stregkodeskanne eller kort læser."
+"HotKeys can also be used as a prefix for your barcode scanner or card reader."
+msgstr ""
+"Genveje kan også blive brugt til at prefix’e din stregkodeskanne eller kort "
+"læser."
 
 #: includes/admin/settings/views/tools.php:33
 msgid "Receipt Template"
@@ -216,27 +235,36 @@ msgstr "Ordretype"
 
 #: includes/admin/views/settings.php:12
 msgid ""
-"There has been an error loading the settings, please contact <a "
-"href=\"mailto:support@woopos.com.au\">support</a>"
-msgstr "Der indtraf en fejl med at hente indstillingerne, kontakt venligst <a href=\"mailto:support@woopos.com.au\">supporten</a>"
+"There has been an error loading the settings, please contact <a href="
+"\"mailto:support@woopos.com.au\">support</a>"
+msgstr ""
+"Der indtraf en fejl med at hente indstillingerne, kontakt venligst <a href="
+"\"mailto:support@woopos.com.au\">supporten</a>"
 
 #: includes/class-wc-pos-activator.php:173
 msgid ""
 "<strong>WooCommerce POS</strong> requires <a href=\"%s\">WooCommerce</a>. "
 "Please <a href=\"%s\">install and activate WooCommerce</a>"
-msgstr "<strong>WooCommerce POS</strong> kræver <a href=\"%s\">WooCommerce</a>. <a href=\"%s\">installer og aktiver venligst WooCommerce</a>"
+msgstr ""
+"<strong>WooCommerce POS</strong> kræver <a href=\"%s\">WooCommerce</a>. <a "
+"href=\"%s\">installer og aktiver venligst WooCommerce</a>"
 
 #: includes/class-wc-pos-activator.php:192
 msgid ""
 "<strong>WooCommerce POS</strong> requires the WooCommerce REST API. Please "
 "<a href=\"%s\">enable the REST API</a>"
-msgstr "<strong>WooCommerce POS</strong> kræver at WooCommerce REST API er aktiveret. <a href=\"%s\">Aktiver venligst REST API’et</a>"
+msgstr ""
+"<strong>WooCommerce POS</strong> kræver at WooCommerce REST API er "
+"aktiveret. <a href=\"%s\">Aktiver venligst REST API’et</a>"
 
 #: includes/class-wc-pos-activator.php:209
 msgid ""
-"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to"
-" work correctly. Please <a href=\"%s\">enable permalinks</a>."
-msgstr "<strong>WooCommerce REST API</strong> kræver <em>pretty</em> permanente links for at fungere rigtigt. <a href=\"%s\">Aktiver venligst permanente links</a>."
+"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to "
+"work correctly. Please <a href=\"%s\">enable permalinks</a>."
+msgstr ""
+"<strong>WooCommerce REST API</strong> kræver <em>pretty</em> permanente "
+"links for at fungere rigtigt. <a href=\"%s\">Aktiver venligst permanente "
+"links</a>."
 
 #: includes/products/class-wc-pos-visibility.php:23
 msgid "POS & Online"

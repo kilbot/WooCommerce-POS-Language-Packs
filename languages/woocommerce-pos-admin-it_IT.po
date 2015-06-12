@@ -1,25 +1,26 @@
 # Copyright (C) 2015 kilbot
 # This file is distributed under the GPL-2.0+.
+# Translators:
+# Francesco Cozzi <francescout@gmail.com>, 2015
+# Massimo Puxeddu <ilgirasolestore@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce POS 0.3.4\n"
-"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
-"Packs/issues\n"
-"POT-Creation-Date: 2015-05-29 17:35:56+00:00\n"
-"PO-Revision-Date: 2015-05-06 04:23+0100\n"
-"Last-Translator: \n"
-"Language-Team: Team Name <team@example.com>\n"
-"Language: it_IT\n"
+"Project-Id-Version: WooCommerce POS\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
+"POT-Creation-Date: 2015-06-02 04:17:17+00:00\n"
+"PO-Revision-Date: 2015-06-12 21:09+0000\n"
+"Last-Translator: Francesco Cozzi <francescout@gmail.com>\n"
+"Language-Team: Italian (Italy) (http://www.transifex.com/projects/p/woocommerce-pos/language/it_IT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.6\n"
+"Language: it_IT\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: grunt-wp-i18n 0.5.2\n"
 
 #: includes/admin/class-wc-pos-gateways.php:31
-#, fuzzy
 msgid "Online Store"
-msgstr "Negozio Online"
+msgstr "Negozio online"
 
 #: includes/admin/class-wc-pos-gateways.php:32
 #: includes/admin/class-wc-pos-menu.php:34
@@ -45,26 +46,24 @@ msgid "Online"
 msgstr "Online"
 
 #: includes/admin/settings/class-wc-pos-access.php:23
-#, fuzzy
 msgid "POS Access"
-msgstr "Consenti Accesso POS"
+msgstr "Accesso POS"
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:41
 msgid "Help screen"
-msgstr ""
+msgstr "Schermata di aiuto"
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:42
 msgid "Barcode search"
-msgstr ""
+msgstr "Ricerca di codici a barre"
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:44
-#, fuzzy
 msgid "New order"
-msgstr "Nuovo Ordine"
+msgstr "Nuovo ordine"
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:45
 msgid "Sync with server"
-msgstr ""
+msgstr "Sincronizzazione con il server"
 
 #: includes/admin/settings/views/access.php:7
 msgid "Grant POS Access"
@@ -74,86 +73,71 @@ msgstr "Consenti Accesso POS"
 msgid ""
 "By default, access to the POS is limited to Administrator and Shop Manager "
 "roles."
-msgstr ""
+msgstr "Per impostazione predefinita, l'accesso al POS è limitata all'Amministratore e agli account con ruolo di Manager."
 
 #: includes/admin/settings/views/access.php:11
 msgid ""
 "It is recommended that you <strong>do not change</strong> the default "
 "settings unless you are fully aware of the consequences."
-msgstr ""
+msgstr "E' consigliabile <strong>non modificare</strong> le impostazioni predefinite, a me ché sia a completa conoscenza di ciò che stai facendo."
 
 #: includes/admin/settings/views/access.php:12
 #: includes/admin/settings/views/checkout.php:50
 #: includes/admin/settings/views/hotkeys.php:6
-msgid ""
-"For more information please visit <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
-msgstr ""
+msgid "For more information please visit <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
+msgstr "Per maggiori informazioni si prega di visitare il sito <a href=\"%1$s\" target=\"_blank\">% 1 $ s</a>"
 
 #: includes/admin/settings/views/checkout.php:13
 msgid "Completed Order Status"
-msgstr ""
+msgstr "Stato ordine completato"
 
 #: includes/admin/settings/views/checkout.php:14
 msgid "Change the default order status for POS sales"
-msgstr ""
+msgstr "Modificare lo 'stato ordine' predefinito per le vendite POS"
 
 #: includes/admin/settings/views/checkout.php:27
-#, fuzzy
 msgid "Order Emails"
-msgstr "Totale Ordine"
+msgstr "Email ordine"
 
 #: includes/admin/settings/views/checkout.php:28
 msgid "Send WooCommerce notification emails for POS orders"
-msgstr ""
+msgstr "Invia email di notifica WooCommerce  per gli ordini POS"
 
 #: includes/admin/settings/views/checkout.php:44
 msgid ""
-"Installed gateways are listed below. Drag and drop gateways to control their "
-"display order at the Point of Sale. "
-msgstr ""
-"I metodi installati sono elencati di seguito.Trascinali per scegliere "
-"l'ordine di visibilità al momento della vendita. "
+"Installed gateways are listed below. Drag and drop gateways to control their"
+" display order at the Point of Sale. "
+msgstr "I metodi installati sono elencati di seguito.Trascinali per scegliere l'ordine di visibilità al momento della vendita. "
 
 #: includes/admin/settings/views/checkout.php:45
 msgid ""
 "Payment Gateways enabled here will be available at the Point of Sale. "
 "Payment Gateways enabled on the settings page will be available in your "
 "Online Store. "
-msgstr ""
-"I metodi di pagamento attivi qui, saranno disponibili nel POS. I metodi di "
-"pagamento attivi nelle impostazioni saranno visibli sul tuo Online store."
+msgstr "I metodi di pagamento attivi qui, saranno disponibili nel POS. I metodi di pagamento attivi nelle impostazioni saranno visibli sul tuo Online store."
 
 #: includes/admin/settings/views/checkout.php:49
-#, fuzzy
 msgid ""
 "It is your responsibility to ensure the security of your customer's "
 "information. Transmitting credit card or other sensitive information should "
 "only be done using a secure connnection."
-msgstr ""
-"E' tua responsabilità garantire la sicurezza delle informazioni dei tuoi "
-"clienti. Trasmettendo i dati di pagamento ed altri informazioni sensibili "
-"dovresti utilizzare un metodo di connessione sicuro. Per altre informazioni "
-"visita <a href=\"http://woopos.com.au/docs/security\">http://woopos.com.au/"
-"docs/security</a>"
+msgstr "E vostra responsabilità garantire la sicurezza delle informazioni del cliente. La trasmissione dei dati relativi alla carta di credito o altre informazioni sensibili dovrebbero essere fatto solo con una connessione sicura."
 
 #: includes/admin/settings/views/checkout.php:56
 msgid "Gateway Display"
 msgstr "Mostra Metodo"
 
 #: includes/admin/settings/views/checkout.php:64
-#, fuzzy
 msgid "Online Status"
-msgstr "Negozio Online"
+msgstr "Stato Online"
 
 #: includes/admin/settings/views/checkout.php:65
-#, fuzzy
 msgid "POS Status"
-msgstr "Stato"
+msgstr "Stato POS "
 
 #: includes/admin/settings/views/checkout.php:66
-#, fuzzy
 msgid "POS Settings"
-msgstr "Impostazioni"
+msgstr "Impostazioni POS"
 
 #: includes/admin/settings/views/checkout.php:117
 msgid "Payment method title."
@@ -165,25 +149,23 @@ msgstr "Descrizione del metodo di pagamento che sarà mostrata nel POS."
 
 #: includes/admin/settings/views/checkout.php:130
 msgid "Icon"
-msgstr ""
+msgstr "Icona"
 
 #: includes/admin/settings/views/general.php:13
-#, fuzzy
 msgid "Product Visibility"
-msgstr "Visibilità POS"
+msgstr "Visibilità prodotto"
 
 #: includes/admin/settings/views/general.php:17
-#, fuzzy
 msgid "Enable <a href=\"%s\">POS Only products</a>"
-msgstr "Controllare il <a href=\"%s\">POS System Status</a>."
+msgstr "Abilita la funzione <a href=\"%s\">Solo i prodotti POS</a>"
 
 #: includes/admin/settings/views/general.php:23
 msgid "Allow Decimal Quantity"
-msgstr ""
+msgstr "Consenti quantità decimali"
 
 #: includes/admin/settings/views/general.php:24
 msgid "Allows items to have decimal values in the quantity field, eg: 0.25"
-msgstr ""
+msgstr "Consente elementi per avere valori decimali nel campo quantità, per esempio: 0.25"
 
 #: includes/admin/settings/views/general.php:34
 msgid "Default POS Customer"
@@ -192,86 +174,71 @@ msgstr "Utente POS Predefinito"
 #: includes/admin/settings/views/general.php:35
 msgid ""
 "The default customer for POS orders, eg: Guest or create a new customer."
-msgstr ""
-"L'utente predefinito per gli ordini POS, es: Ospite o crea un nuovo utente"
+msgstr "L'utente predefinito per gli ordini POS, es: Ospite o crea un nuovo utente"
 
 #: includes/admin/settings/views/general.php:46
 msgid "Discount Quick Keys"
-msgstr ""
+msgstr "Tasti rapidi di sconto"
 
 #: includes/admin/settings/views/general.php:47
 msgid "Configure discount keys for quick numpad entry"
-msgstr ""
+msgstr "Configurare i tasti di sconto per il tastierino numerico"
 
 #: includes/admin/settings/views/hotkeys.php:1
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Scorciatoie da tastiera"
 
 #: includes/admin/settings/views/hotkeys.php:4
 msgid ""
 "You can trigger certain events in WooCommerce POS using keyboard shortcuts "
 "(HotKeys)."
-msgstr ""
+msgstr "È possibile attivare determinati eventi in WooCommerce POS utilizzando le scorciatoie da tastiera (tasti di scelta rapida)."
 
 #: includes/admin/settings/views/hotkeys.php:5
 msgid ""
-"HotKeys can also be used as a prefix for your barcode scanner or card reader."
-msgstr ""
+"HotKeys can also be used as a prefix for your barcode scanner or card "
+"reader."
+msgstr "I tasti di scelta rapida possono essere utilizzati anche come un prefisso per lo scanner di codici a barre o lettore di schede."
 
 #: includes/admin/settings/views/tools.php:33
-#, fuzzy
 msgid "Receipt Template"
-msgstr "Ricevuta"
+msgstr "Template Ricevuta"
 
 #: includes/admin/settings/views/tools.php:36
-#, fuzzy
 msgid "View Sample Receipt"
-msgstr "Inoltra via Email"
+msgstr "Visualizza Esempio Ricevuta"
 
 #: includes/admin/settings/views/tools.php:38
 msgid "<strong class=\"red\">Template path:</strong> %s"
-msgstr ""
+msgstr "<strong class=\"red\">Percorso tema:</strong> %s"
 
 #: includes/admin/views/order-details.php:2
-#, fuzzy
 msgid "Order type"
-msgstr "Data Ordine"
+msgstr "Tipo Ordine"
 
 #: includes/admin/views/settings.php:12
 msgid ""
-"There has been an error loading the settings, please contact <a href="
-"\"mailto:support@woopos.com.au\">support</a>"
-msgstr ""
+"There has been an error loading the settings, please contact <a "
+"href=\"mailto:support@woopos.com.au\">support</a>"
+msgstr "C'è un errore nel caricamento delle impostazioni, contatta il supporto all'indirizzo <a href=\"mailto:support@woopos.com.au\"></a>"
 
 #: includes/class-wc-pos-activator.php:173
-#, fuzzy
 msgid ""
 "<strong>WooCommerce POS</strong> requires <a href=\"%s\">WooCommerce</a>. "
 "Please <a href=\"%s\">install and activate WooCommerce</a>"
-msgstr ""
-"<strong>WooCommerce POS</strong> richiede <a href=\"http://wordpress.org/"
-"plugins/woocommerce/\">WooCommerce</a>. Installare ed attivare WooCommerce "
-"prima di abilitare WooCommerce POS."
+msgstr "<strong>WooCommerce POS</strong> richiede <a href=\"%s\">WooCommerce</a>.  <a href=\"%s\">Installa e attiva WooCommerce</a>"
 
 #: includes/class-wc-pos-activator.php:192
-#, fuzzy
 msgid ""
 "<strong>WooCommerce POS</strong> requires the WooCommerce REST API. Please "
 "<a href=\"%s\">enable the REST API</a>"
-msgstr ""
-"<strong>WooCommerce REST API</strong> richiede dei <em>pretty</em> "
-"permalinks per funzionare correttamente. Attiva i <a href=\"%s\">permalinks</"
-"a>."
+msgstr "<strong>WooCommerce POS</strong> richiede WooCommerce REST API. <a href=\"%s\">Attiva il REST API</a>"
 
 #: includes/class-wc-pos-activator.php:209
-#, fuzzy
 msgid ""
-"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to "
-"work correctly. Please <a href=\"%s\">enable permalinks</a>."
-msgstr ""
-"<strong>WooCommerce REST API</strong> richiede dei <em>pretty</em> "
-"permalinks per funzionare correttamente. Attiva i <a href=\"%s\">permalinks</"
-"a>."
+"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to"
+" work correctly. Please <a href=\"%s\">enable permalinks</a>."
+msgstr "<strong>WooCommerce REST API</strong> richiede dei <em>pretty</em> permalinks per funzionare correttamente. Attiva i <a href=\"%s\">permalinks</a>."
 
 #: includes/products/class-wc-pos-visibility.php:23
 msgid "POS & Online"
@@ -295,520 +262,19 @@ msgstr "Visibilità POS"
 #: includes/admin/class-wc-pos-permalink.php:28
 msgctxt "Permalink setting, eg: /pos"
 msgid "POS base"
-msgstr ""
+msgstr "POS base"
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:21
 msgctxt "keyboard shortcuts"
 msgid "HotKeys"
-msgstr ""
+msgstr "HotKeys"
 
 #: includes/admin/settings/views/checkout.php:134
-#, fuzzy
 msgctxt "POS checkout settings"
 msgid "Show payment gateway icon."
-msgstr "Nessun metodo di pagamento attivato."
+msgstr "Mostra icona metodo pagamento."
 
 #: includes/admin/settings/views/general.php:40
 msgctxt "Default customer setting"
 msgid "Use cashier account"
-msgstr ""
-
-#~ msgid ""
-#~ "WooCommerce 2.2 changed the way order statuses are handled which affected "
-#~ "the display of POS orders in the admin. Please update any orders with "
-#~ "status <em>Published</em> to the correct status (eg: <em>Completed</em>). "
-#~ "<a class=\"button-primary\" href=\"%s\">Check your POS orders</a>"
-#~ msgstr ""
-#~ "WooCommerce 2.2 ha cambiato il modo in cui sono gestiti gli stati degli "
-#~ "ordini, compromettendo la visualizzazione degli ordini POS nella pagina "
-#~ "dei Admin. Aggiorna gli ordini con <em>Published</em> il corretto stato "
-#~ "(es: <em>Completato</em>). <a class=\"button-primary\" href=\"%s"
-#~ "\">Controlla i tuoi ordini POS</a>"
-
-#~ msgid "Enabled"
-#~ msgstr "Attivo"
-
-#~ msgid "Action failed. Please refresh the page and retry."
-#~ msgstr "Azione fallita. Ricarica la pagina e riprova."
-
-#~ msgid "Your settings have been saved."
-#~ msgstr "Le tue impostazioni sono state salvate."
-
-#~ msgid "Select a page&hellip;"
-#~ msgstr "Seleziona una pagina&hellip;"
-
-#~ msgid "Checkout Options"
-#~ msgstr "Opzioni Checkout"
-
-#~ msgid "Payment Gateways"
-#~ msgstr "Metodi di pagamento"
-
-#~ msgid "Default"
-#~ msgstr "Predefinito"
-
-#~ msgid "Gateway"
-#~ msgstr "Metodo"
-
-#~ msgid "Gateway ID"
-#~ msgstr "ID Metodo"
-
-#~ msgid "General"
-#~ msgstr "Generale"
-
-#~ msgid "General Options"
-#~ msgstr "Opzioni Generali"
-
-#~ msgid "Select which user roles have access to the POS."
-#~ msgstr "Seleziona quale ruolo utente ha accesso al POS."
-
-#~ msgid "Select user roles"
-#~ msgstr "Seleziona ruolo dell'utente"
-
-#~ msgid "Guest"
-#~ msgstr "Ospite"
-
-#~ msgid "Save changes"
-#~ msgstr "Salva Modifiche"
-
-#~ msgid "Action not permitted"
-#~ msgstr "Azione non consentita"
-
-#~ msgid "Please enter your name"
-#~ msgstr "Inserisci il tuo nome"
-
-#~ msgid "Please enter a valid email address"
-#~ msgstr "Inserisci un indirizzo email valido"
-
-#~ msgid "Please enter your message"
-#~ msgstr "Inserisci il tuo messaggio"
-
-#~ msgid "There was a problem sending your email."
-#~ msgstr "C'è stato un problema nell'invio della tua email."
-
-#~ msgid "WooCommerce Version"
-#~ msgstr "Versione WooCommerce"
-
-#~ msgid "WooCommerce >= 2.1 required"
-#~ msgstr "WooCommerce >= 2.1 richiesto"
-
-#~ msgid "Update"
-#~ msgstr "Aggiorna"
-
-#~ msgid "WC REST API"
-#~ msgstr "WC REST API"
-
-#~ msgid "API is active"
-#~ msgstr "API è attiva"
-
-#~ msgid "Access to the REST API is required"
-#~ msgstr "L'accesso alla REST API è richiesto"
-
-#~ msgid "Enable REST API"
-#~ msgstr "Attiva RESET API"
-
-#~ msgid "API Authentication"
-#~ msgstr "Autenticazione API"
-
-#~ msgid "Authentication Passed"
-#~ msgstr "Autenticazione valida"
-
-#~ msgid "Authentication Failed"
-#~ msgstr "Autenticazione fallita"
-
-#~ msgid "Card"
-#~ msgstr "Carta"
-
-#~ msgid "Debit & Credit Card sales using an external EFTPOS machine."
-#~ msgstr "Sconti con carta di credito usando un dispositivo esterno EFTPOS."
-
-#~ msgid "Title"
-#~ msgstr "Titolo"
-
-#~ msgid "Description"
-#~ msgstr "Descrizione"
-
-#~ msgid "Cashback"
-#~ msgstr "Reso"
-
-#~ msgid "Cash"
-#~ msgstr "Contanti"
-
-#~ msgid "Cash sales at the Point of Sale."
-#~ msgstr "Pagamento in contanti in POS"
-
-#~ msgid "Amount Tendered"
-#~ msgstr "Importo Ricevuto"
-
-#~ msgid "You do not have sufficient permissions to access this page."
-#~ msgstr "Non hai i permessi sufficienti per accedere a questa pagina."
-
-#~ msgid "User not authorized to manage WooCommerce POS"
-#~ msgstr "Utente non autorizzato a gestire WooCommerce POS"
-
-#~ msgid "Order &ndash; %s"
-#~ msgstr "Ordine &ndash; %s"
-
-#~ msgid ""
-#~ "You are now being redirected offsite to complete the payment.<br><a "
-#~ "target=\"_blank\" href=\"%s\" data-redirect=\"true\">Click here</a> if "
-#~ "you are not redirected automatically."
-#~ msgstr ""
-#~ "Ora verrai reindirizzato su un altro sito per completare il pagamento."
-#~ "<br><a target=\"_blank\" href=\"%s\" data-redirect=\"true\">Clicca qui</"
-#~ "a> se non vieni reindirizzato automaticamente."
-
-#~ msgid "There was an error processing the payment"
-#~ msgstr "C'è stato un errore durante l'elaborazione del pagamento."
-
-#~ msgid "Email sent"
-#~ msgstr "Email inviata"
-
-#~ msgid "There was an error sending the email"
-#~ msgstr "C'è stato un errore durante l'invio dell'email"
-
-#~ msgid "No matches found"
-#~ msgstr "Nessun risultato compatibile"
-
-#~ msgid "Please enter 1 more character"
-#~ msgstr "Inserisci ancora un carattere"
-
-#~ msgid "Please enter %d more characters"
-#~ msgstr "Inserisci almeno %d caratteri"
-
-#~ msgid "Please delete 1 character"
-#~ msgstr "Elimina un carattere"
-
-#~ msgid "Please delete %d characters"
-#~ msgstr "Elimina %d caratteri"
-
-#~ msgid "You can only select 1 item"
-#~ msgstr "Puoi selezionare solo 1 articolo"
-
-#~ msgid "You can only select %d items"
-#~ msgstr "Tu puoi solo selezionare %d articoli"
-
-#~ msgid "Loading more results"
-#~ msgstr "Caricamento altri risultati"
-
-#~ msgid "Searching"
-#~ msgstr "Caricamento"
-
-#~ msgid "Qty"
-#~ msgstr "Quantità"
-
-#~ msgid "Product"
-#~ msgstr "Articolo"
-
-#~ msgid "Price"
-#~ msgstr "Prezzo"
-
-#~ msgid "Total"
-#~ msgstr "Totale"
-
-#~ msgid "Cart is empty"
-#~ msgstr "Il carrello è vuoto"
-
-#~ msgid "Quantity"
-#~ msgstr "Quantità"
-
-#~ msgid "Item Price"
-#~ msgstr "Prezzo dell'oggetto"
-
-#~ msgid "Cart Subtotal"
-#~ msgstr "Subtotale"
-
-#~ msgid "Cart Discount"
-#~ msgstr "Sconto del carrello"
-
-#~ msgid "Order Discount"
-#~ msgstr "Sconto dell'ordine"
-
-#~ msgid "Discount"
-#~ msgstr "Applica Sconto"
-
-#~ msgid "Customer"
-#~ msgstr "Utente"
-
-#~ msgid "Void"
-#~ msgstr "Annulla Ordine"
-
-#~ msgid "Note"
-#~ msgstr "Note"
-
-#~ msgid "Checkout"
-#~ msgstr "Checkout"
-
-#~ msgid "To Pay"
-#~ msgstr "Da Pagare"
-
-#~ msgid "Return to Sale"
-#~ msgstr "Rivedi Ordine"
-
-#~ msgid "Process Payment"
-#~ msgstr "Ordina"
-
-#~ msgid "Need help? Visit the <a href=\"%s\">support</a> page"
-#~ msgstr ""
-#~ "Hai bisogno di aiuto? Visita la nostra <a href=\"%s\">pagina di supporto</"
-#~ "a>"
-
-#~ msgid "View Products"
-#~ msgstr "Prodotti"
-
-#~ msgid "Add Product"
-#~ msgstr "Aggiungi Prodotto"
-
-#~ msgid "View Orders"
-#~ msgstr "Ordini"
-
-#~ msgid "View Customers"
-#~ msgstr "Utenti"
-
-#~ msgid "Support"
-#~ msgstr "Supporto"
-
-#~ msgid "Point of Sale"
-#~ msgstr "POS"
-
-#~ msgid "Menu"
-#~ msgstr "Menu"
-
-#~ msgid "Howdy"
-#~ msgstr "Ciao"
-
-#~ msgid "Logout"
-#~ msgstr "Esci"
-
-#~ msgid "Your browser is not supported!"
-#~ msgstr "Il tuo browser non è supportato"
-
-#~ msgid ""
-#~ "Sorry, it seems your browser is not currently supported by WooCommerce "
-#~ "POS. "
-#~ msgstr ""
-#~ "Ci spiace, ci sembra che il suo browser non sia attualmente supportato da "
-#~ "WooCommerce POS. "
-
-#~ msgid ""
-#~ "If possible, please <a href=\"http://browsehappy.com/\">update your "
-#~ "browser</a>, we recommend either Chrome or Firefox."
-#~ msgstr ""
-#~ "Se possibile, per favore <a href=\"http://browsehappy.com/\">aggiorna il "
-#~ "tuo browser</a>, raccomandiamo Chrome o Firefox."
-
-#~ msgid ""
-#~ "If you believe you have received this message in error please contact "
-#~ "support at <a href=\"http://woopos.com.au\">woopos.com.au</a>"
-#~ msgstr ""
-#~ "Se pensi di aver ricevuto questo messaggio per errore, per favore "
-#~ "contatti il nostro supporto <a href=\"http://woopos.com.au\">woopos.com."
-#~ "au</a>"
-
-#~ msgid "Okay"
-#~ msgstr "Okay"
-
-#~ msgid "Downloading products"
-#~ msgstr "Download dei prodotti"
-
-#~ msgid "WooCommerce POS is storing your products locally."
-#~ msgstr "WooCommerce POS sta archiviando i tuoi prodotti in locale."
-
-#~ msgid ""
-#~ "This could take some time depending on the number of products you have, "
-#~ "the speed of your connection and the speed of your server."
-#~ msgstr ""
-#~ "Il tempo necessario dipende dal numero dei prodotti, la velocità della "
-#~ "tua connessione e del tuo server."
-
-#~ msgid ""
-#~ "While you're waiting&hellip; why not read over the <a href=\"http://"
-#~ "woopos.com.au/docs\" target=\"_blank\">WooCommerce POS documentation</a>."
-#~ msgstr ""
-#~ "Durante l'attesa&hellip; perché non leggi la documentazione di <a href="
-#~ "\"http://woopos.com.au/docs\" target=\"_blank\">WooCommerce POS</a>."
-
-#~ msgid "Download complete!"
-#~ msgstr "Download completato"
-
-#~ msgid "Email Address"
-#~ msgstr "Indirizzo Email"
-
-#~ msgid "Close"
-#~ msgstr "Chiudi"
-
-#~ msgid "Send"
-#~ msgstr "Invia"
-
-#~ msgid "Error"
-#~ msgstr "Errore"
-
-#~ msgid "Error connecting to the WooCommerce REST API."
-#~ msgstr "Errore durante la connessione a WooCommerce REST API."
-
-#~ msgid ""
-#~ "Error connecting to the server. Either your server is down or it is "
-#~ "overloaded."
-#~ msgstr ""
-#~ "Errore durante la connessione al server. Probabilmente il tuo server è "
-#~ "inattivo o sovraccarico."
-
-#~ msgid "Please report the problem via the <a href=\"%s\">Support</a> page."
-#~ msgstr ""
-#~ "Per favore riporti il problema attraverso la <a href=\"%s\">pagina di "
-#~ "supporto</a>."
-
-#~ msgid "There was a problem connecting to the local database."
-#~ msgstr "C'è stato un problema durante la connessione al database locale."
-
-#~ msgid "There was a problem downloading the products."
-#~ msgstr "C'è stato un problema durante lo scaricamento dei prodotti."
-
-#~ msgid "There has been an error."
-#~ msgstr "C'è stato un errore"
-
-#~ msgid "Billing Address"
-#~ msgstr "Indirizzo di fatturazione"
-
-#~ msgid "Shipping Address"
-#~ msgstr "Indirizzo di Spedizione"
-
-#~ msgid "Order Number"
-#~ msgstr "Ordine Numero"
-
-#~ msgid "Payment Method"
-#~ msgstr "Metodo di pagamento"
-
-#~ msgid "Email"
-#~ msgstr "Email"
-
-#~ msgid "Telephone"
-#~ msgstr "Telefono"
-
-#~ msgid "Search"
-#~ msgstr "Cerca"
-
-#~ msgid "Scan Barcode"
-#~ msgstr "Codice articolo"
-
-#~ msgid "Search for products"
-#~ msgstr "Cerca un articolo"
-
-#~ msgid "No products found"
-#~ msgstr "Nessun articolo disponibile"
-
-#~ msgid "Page %s of %s"
-#~ msgstr "Pagina %s di %s"
-
-#~ msgid "Showing %s of %s products"
-#~ msgstr "Risultato %s di %s prodotti"
-
-#~ msgid "Last updated %s"
-#~ msgstr "Ultimo aggiornamento %s"
-
-#~ msgid "sync"
-#~ msgstr "sync"
-
-#~ msgid "clear"
-#~ msgstr "cancella lista"
-
-#~ msgid "Your browser does not support indexeddb"
-#~ msgstr "Il tuo browser non supporta indexeddb"
-
-#~ msgid "Paid"
-#~ msgstr "Pagato"
-
-#~ msgid "Print"
-#~ msgstr "Stampa"
-
-#~ msgid "Refresh"
-#~ msgstr "Aggiorna"
-
-#~ msgid "POS Support Form"
-#~ msgstr "Supporto POS da"
-
-#~ msgid "Name"
-#~ msgstr "Nome"
-
-#~ msgid "Your name"
-#~ msgstr "Il tuo nome"
-
-#~ msgid "Your email"
-#~ msgstr "La tua email"
-
-#~ msgid "Message"
-#~ msgstr "Messaggio"
-
-#~ msgid "Describe your problem here ..."
-#~ msgstr "Descrivi il tuo problema qui ..."
-
-#~ msgid "Append POS system report"
-#~ msgstr "Allega resoconto di sistema POS"
-
-#~ msgid "Thank you!"
-#~ msgstr "Grazie!"
-
-#~ msgid "Your form has been sent"
-#~ msgstr "La tua richiesta è stata inoltrata"
-
-#~ msgid "We will get back to you as soon as possible"
-#~ msgstr "Ti risponderemo il prima possibile."
-
-#~ msgid "POS System Status"
-#~ msgstr "Stato del Sistema POS"
-
-#~ msgid "WooCommerce POS"
-#~ msgstr "WooCommerce POS"
-
-#~ msgid "https://woopos.com.au"
-#~ msgstr "https://woopos.com.au"
-
-#~ msgid ""
-#~ "A simple front-end for taking WooCommerce orders at the Point of Sale. "
-#~ "Requires <a href=\"http://wordpress.org/plugins/woocommerce/"
-#~ "\">WooCommerce</a>."
-#~ msgstr ""
-#~ "Una semplice interfaccia tra i prodotti di WooCommerce ed il POS. "
-#~ "Richiede <a href=\"http://wordpress.org/plugins/woocommerce/"
-#~ "\">WooCommerce</a>."
-
-#~ msgid "kilbot"
-#~ msgstr "kilbot"
-
-#~ msgid "http://www.kilbot.com.au"
-#~ msgstr "http://www.kilbot.com.au"
-
-#~ msgctxt "Payment gateway status"
-#~ msgid "POS"
-#~ msgstr "POS"
-
-#~ msgctxt "Settings tab label"
-#~ msgid "Checkout"
-#~ msgstr "Cassa"
-
-#~ msgctxt "Money returned from cash sale"
-#~ msgid "Change"
-#~ msgstr "Resto"
-
-#~ msgctxt "Order date parsed by strftime"
-#~ msgid "%b %d, %Y @ %I:%M %p"
-#~ msgstr "%b %d, %Y @ %I:%M %p"
-
-#~ msgctxt "Product tab: 'All' products"
-#~ msgid "All"
-#~ msgstr "Tutti"
-
-#~ msgctxt "Product tab: 'Featured' products"
-#~ msgid "Featured"
-#~ msgstr "In Evidenza"
-
-#~ msgctxt "Product tab: 'On Sale' products"
-#~ msgid "On Sale"
-#~ msgstr "In Offerta"
-
-#~ msgctxt "abbreviation for includes (tax)"
-#~ msgid "incl."
-#~ msgstr "inca."
-
-#~ msgctxt "%d in stock"
-#~ msgid "in stock"
-#~ msgstr "in magazzino"
+msgstr "Usa account cassiere"

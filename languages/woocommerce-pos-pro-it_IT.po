@@ -1,73 +1,74 @@
-# Copyright (c) 2015 kilbot
+# Copyright (C) 2015 kilbot
 # This file is distributed under the Copyright 2015 The Kilbot Factory.
+# Translators:
+# Francesco Cozzi <francescout@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce POS Pro 0.4.0-alpha\n"
-"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
-"Packs/issues\n"
+"Project-Id-Version: WooCommerce POS\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
 "POT-Creation-Date: 2015-06-02 07:55:30+00:00\n"
-"PO-Revision-Date: 2015-03-13 04:49:21+00:00\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: it\n"
+"PO-Revision-Date: 2015-06-12 21:33+0000\n"
+"Last-Translator: Francesco Cozzi <francescout@gmail.com>\n"
+"Language-Team: Italian (Italy) (http://www.transifex.com/projects/p/woocommerce-pos/language/it_IT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: grunt-wp-i18n 0.4.9\n"
+"Language: it_IT\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: grunt-wp-i18n 0.5.2\n"
 
 #: includes/class-wc-pos-pro-i18n.php:103
 msgid "Activate"
-msgstr ""
+msgstr "Attiva"
 
 #: includes/class-wc-pos-pro-i18n.php:104
 msgid "Deactivate"
-msgstr ""
+msgstr "Disattiva"
 
 #: includes/class-wc-pos-pro-stores.php:43
 #: includes/class-wc-pos-pro-stores.php:45
 #: includes/class-wc-pos-pro-stores.php:51
 msgid "Stores"
-msgstr ""
+msgstr "Negozi"
 
 #: includes/class-wc-pos-pro-stores.php:44
 #: includes/class-wc-pos-pro-stores.php:88
 #: includes/widgets/class-wc-pos-pro-hours.php:82
 msgid "Store"
-msgstr ""
+msgstr "Negozio"
 
 #: includes/class-wc-pos-pro-stores.php:46
 #: includes/class-wc-pos-pro-stores.php:47
 msgid "Add New Store"
-msgstr ""
+msgstr "Aggiungi Nuovo Negozio"
 
 #: includes/class-wc-pos-pro-stores.php:48
 msgid "New Store"
-msgstr ""
+msgstr "Nuovo Negozio"
 
 #: includes/class-wc-pos-pro-stores.php:49
 msgid "Edit Store"
-msgstr ""
+msgstr "Modifica Negozio"
 
 #: includes/class-wc-pos-pro-stores.php:50
 msgid "View Store"
-msgstr ""
+msgstr "Visualizza Negozio"
 
 #: includes/class-wc-pos-pro-stores.php:52
 msgid "Search Stores"
-msgstr ""
+msgstr "Cerca Negozi"
 
 #: includes/class-wc-pos-pro-stores.php:53
 msgid "Parent Store:"
-msgstr ""
+msgstr "Negozio Genitore:"
 
 #: includes/class-wc-pos-pro-stores.php:54
 msgid "No Stores found."
-msgstr ""
+msgstr "Nessun Negozio trovato."
 
 #: includes/class-wc-pos-pro-stores.php:55
 msgid "No Stores found in Trash."
-msgstr ""
+msgstr "Nessun Negozio trovato nel Cestino."
 
 #. translators: woocommerce
 #. translators: wordpress
@@ -77,64 +78,64 @@ msgstr ""
 #: includes/class-wc-pos-pro-template.php:102 includes/views/customers.php:14
 #: includes/views/customers.php:74 includes/views/print/receipt.php:173
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: includes/views/customers.php:25 includes/views/customers.php:62
 msgid "Add New Customer"
-msgstr ""
+msgstr "Aggiungi Nuovo Cliente"
 
 #: includes/views/customers.php:62
 msgid "Edit Customer"
-msgstr ""
+msgstr "Modifica Cliente"
 
 #: includes/views/pos.php:13
 msgid "Add Customer"
-msgstr ""
+msgstr "Aggiungi Cliente"
 
 #: includes/views/print/receipt.php:4
 msgid "Receipt"
-msgstr ""
+msgstr "Ricevuta"
 
 #: includes/views/print/receipt.php:164
 msgid "Order Date"
-msgstr ""
+msgstr "Data Ordine"
 
 #: includes/views/print/receipt.php:168
 msgid "Payment Method"
-msgstr ""
+msgstr "Metodo di pagamento"
 
 #: includes/views/print/receipt.php:220
 msgid "Cart Subtotal"
-msgstr ""
+msgstr "Conto Subtotale"
 
 #: includes/views/products.php:86
 msgid "On Sale?"
-msgstr ""
+msgstr "In vendita?"
 
 #: includes/widgets/class-wc-pos-pro-hours.php:17
 msgid "Store Opening Hours"
-msgstr ""
+msgstr "Orari Apertura Negozio"
 
 #: includes/widgets/class-wc-pos-pro-hours.php:18
 msgid "Display store hours set in WooCommerce POS"
-msgstr ""
+msgstr "Visualizza orari apertura del negozio impostati in WooCommerce POS"
 
 #: includes/widgets/class-wc-pos-pro-hours.php:88
 msgid "No stores. <a href=\"%s\">Create a new store</a>."
-msgstr ""
+msgstr "Nessun negozio. <a href=\"%s\">Crea un nuovo negozio</a>."
 
 #. Description of the plugin/theme
 msgid ""
-"WooCommerce POS Pro adds extra functionality to the free plugin. Requires <a "
-"href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce POS</a>."
-msgstr ""
+"WooCommerce POS Pro adds extra functionality to the free plugin. Requires <a"
+" href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce POS</a>."
+msgstr "WooCommerce POS Pro aggiunge funzionalità extra al plugin gratuito. Richiede <a href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce POS</a>."
 
 #: includes/views/print/receipt.php:188
 msgctxt "Abbreviation of Quantity"
 msgid "Qty"
-msgstr ""
+msgstr "Q.tà"
 
 #: includes/views/print/receipt.php:247 includes/views/print/receipt.php:257
 msgctxt "abbreviation for includes (tax)"
 msgid "incl."
-msgstr ""
+msgstr "inca."

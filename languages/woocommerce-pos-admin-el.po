@@ -1,21 +1,25 @@
-# Translation of WooCommerce POS Admin in Greek
-# This file is distributed under the same license as the WooCommerce POS Admin package.
+# Copyright (C) 2015 kilbot
+# This file is distributed under the GPL-2.0+.
+# Translators:
+# Marios <mariospolycarpou@hotmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce POS Admin\n"
-"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
-"Packs/issues\n"
-"POT-Creation-Date: 2015-05-29 17:35:56+00:00\n"
-"PO-Revision-Date: 2014-11-14 12:14:28+0000\n"
+"Project-Id-Version: WooCommerce POS\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
+"POT-Creation-Date: 2015-06-02 04:17:17+00:00\n"
+"PO-Revision-Date: 2015-06-14 20:30+0000\n"
+"Last-Translator: Marios <mariospolycarpou@hotmail.com>\n"
+"Language-Team: Greek (http://www.transifex.com/projects/p/woocommerce-pos/language/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/0.1\n"
+"Language: el\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: grunt-wp-i18n 0.5.2\n"
 
 #: includes/admin/class-wc-pos-gateways.php:31
 msgid "Online Store"
-msgstr ""
+msgstr "Ηλεκτρονικό Κατάστημα"
 
 #: includes/admin/class-wc-pos-gateways.php:32
 #: includes/admin/class-wc-pos-menu.php:34
@@ -23,7 +27,7 @@ msgstr ""
 #: includes/admin/class-wc-pos-orders.php:89
 #: includes/admin/views/order-details.php:5
 msgid "POS"
-msgstr ""
+msgstr "POS"
 
 #: includes/admin/class-wc-pos-menu.php:44
 #: includes/admin/class-wc-pos-menu.php:45
@@ -38,238 +42,238 @@ msgstr "Αναβάθμιση σε PRO"
 #: includes/admin/class-wc-pos-orders.php:90
 #: includes/admin/views/order-details.php:4
 msgid "Online"
-msgstr ""
+msgstr "Συνδεδεμένο"
 
 #: includes/admin/settings/class-wc-pos-access.php:23
 msgid "POS Access"
-msgstr ""
+msgstr "Πρόσβαση POS "
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:41
 msgid "Help screen"
-msgstr ""
+msgstr "Οθόνη Βοήθειας"
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:42
 msgid "Barcode search"
-msgstr ""
+msgstr "Αναζήτηση Γραμμοκώδικα"
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:44
 msgid "New order"
-msgstr ""
+msgstr "Νέα παραγγελία"
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:45
 msgid "Sync with server"
-msgstr ""
+msgstr "Συγχ. με διακομιστή"
 
 #: includes/admin/settings/views/access.php:7
 msgid "Grant POS Access"
-msgstr ""
+msgstr "Grant POS Πρόσβαση"
 
 #: includes/admin/settings/views/access.php:10
 msgid ""
 "By default, access to the POS is limited to Administrator and Shop Manager "
 "roles."
-msgstr ""
+msgstr "Από προεπιλογή, η πρόσβαση στο POS περιορίζεται στο Διαχειριστή και το Διευθυντή Καταστήματος."
 
 #: includes/admin/settings/views/access.php:11
 msgid ""
 "It is recommended that you <strong>do not change</strong> the default "
 "settings unless you are fully aware of the consequences."
-msgstr ""
+msgstr "Συνιστάται να <strong>μην αλλάζετε</strong> τις προεπιλεγμένες ρυθμίσεις εκτός και εάν έχετε πλήρη επίγνωση των επιπτώσεων."
 
 #: includes/admin/settings/views/access.php:12
 #: includes/admin/settings/views/checkout.php:50
 #: includes/admin/settings/views/hotkeys.php:6
-msgid ""
-"For more information please visit <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
-msgstr ""
+msgid "For more information please visit <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
+msgstr "Για περισσότερες πληροφορίες παρακαλούμε επισκεφθείτε <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
 
 #: includes/admin/settings/views/checkout.php:13
 msgid "Completed Order Status"
-msgstr ""
+msgstr "Ολοκληρωμένη Κατάσταση Παραγγελίας"
 
 #: includes/admin/settings/views/checkout.php:14
 msgid "Change the default order status for POS sales"
-msgstr ""
+msgstr "Αλλάξτε την προεπιλεγμένη σειρά ταξινόμησης για την κατάσταση των πωλήσεων του POS"
 
 #: includes/admin/settings/views/checkout.php:27
 msgid "Order Emails"
-msgstr ""
+msgstr "Ηλεκτρονικά ταχυδρομεία παραγγελιών"
 
 #: includes/admin/settings/views/checkout.php:28
 msgid "Send WooCommerce notification emails for POS orders"
-msgstr ""
+msgstr "Αποστολή ειδοποιήσεων του WooCommerce  μέσω ηλεκτρονικού ταχυδρομείου για  παραγγελίες μέσω POS"
 
 #: includes/admin/settings/views/checkout.php:44
 msgid ""
-"Installed gateways are listed below. Drag and drop gateways to control their "
-"display order at the Point of Sale. "
-msgstr ""
+"Installed gateways are listed below. Drag and drop gateways to control their"
+" display order at the Point of Sale. "
+msgstr "Εγκατεστημένες πύλες αναγράφονται παρακάτω. Σύρετε και αποθέστε πύλες για τον έλεγχο της σειράς εμφάνισης τους στο σημείο πώλησης."
 
 #: includes/admin/settings/views/checkout.php:45
 msgid ""
 "Payment Gateways enabled here will be available at the Point of Sale. "
 "Payment Gateways enabled on the settings page will be available in your "
 "Online Store. "
-msgstr ""
+msgstr "Τρόποι Πληρωμής ενεργοποιημένοι εδώ θα είναι διαθέσιμοι στο Σημείο Πώλησης. Τρόποι Πληρωμής ενεργοποιημένοι στη σελίδα ρυθμίσεων θα είναι διαθέσιμοι στο Ηλεκτρονικό σας Κατάστημα."
 
 #: includes/admin/settings/views/checkout.php:49
 msgid ""
 "It is your responsibility to ensure the security of your customer's "
 "information. Transmitting credit card or other sensitive information should "
 "only be done using a secure connnection."
-msgstr ""
+msgstr "Είναι δική σας ευθύνη να εξασφαλίσετε την ασφάλεια των πληροφοριών των πελατών σας. Μετάδοση πιστωτικών καρτών ή άλλων ευαίσθητων πληροφοριών θα πρέπει να γίνεται μόνο με τη χρήση ασφαλούς σύνδεσης."
 
 #: includes/admin/settings/views/checkout.php:56
 msgid "Gateway Display"
-msgstr ""
+msgstr "Εμφάνιση Πύλης "
 
 #: includes/admin/settings/views/checkout.php:64
 msgid "Online Status"
-msgstr ""
+msgstr "Κατάσταση Σύνδεσης"
 
 #: includes/admin/settings/views/checkout.php:65
 msgid "POS Status"
-msgstr ""
+msgstr "Κατάσταση POS"
 
 #: includes/admin/settings/views/checkout.php:66
 msgid "POS Settings"
-msgstr ""
+msgstr "Ρυθμίσεις POS"
 
 #: includes/admin/settings/views/checkout.php:117
 msgid "Payment method title."
-msgstr ""
+msgstr "Τίτλος τρόπου πληρωμής."
 
 #: includes/admin/settings/views/checkout.php:124
 msgid "Payment method description that will be shown in the POS."
-msgstr ""
+msgstr "Περιγραφή τρόπου πληρωμής η οποία θα φαίνεται στο POS"
 
 #: includes/admin/settings/views/checkout.php:130
 msgid "Icon"
-msgstr ""
+msgstr "Eικονίδιο"
 
 #: includes/admin/settings/views/general.php:13
 msgid "Product Visibility"
-msgstr ""
+msgstr "Προβολή Προϊόντων"
 
 #: includes/admin/settings/views/general.php:17
 msgid "Enable <a href=\"%s\">POS Only products</a>"
-msgstr ""
+msgstr "Ενεργοποίηση <a href=\"%s\">Μόνο τα προϊόντα POS </a>"
 
 #: includes/admin/settings/views/general.php:23
 msgid "Allow Decimal Quantity"
-msgstr ""
+msgstr "Ποσότητα με δεκαδικόν αριθμό"
 
 #: includes/admin/settings/views/general.php:24
 msgid "Allows items to have decimal values in the quantity field, eg: 0.25"
-msgstr ""
+msgstr "Επιτρέπει στα προιόνα να έχουν δεκαδικές τιμές στο πεδίο ποσότητα, π.χ.: 0,25"
 
 #: includes/admin/settings/views/general.php:34
 msgid "Default POS Customer"
-msgstr ""
+msgstr "Προεπιλεγμένος Πελάτης POS"
 
 #: includes/admin/settings/views/general.php:35
 msgid ""
 "The default customer for POS orders, eg: Guest or create a new customer."
-msgstr ""
+msgstr "Ο προεπιλεγμένος πελάτης για παραγγελίες POS, π.χ.: Επισκέπτης ή δημιουργία νέου πελάτη."
 
 #: includes/admin/settings/views/general.php:46
 msgid "Discount Quick Keys"
-msgstr ""
+msgstr "Γρήγορη Επιλογή για Έκπτωση"
 
 #: includes/admin/settings/views/general.php:47
 msgid "Configure discount keys for quick numpad entry"
-msgstr ""
+msgstr "Διαμόρφωση εκπτωτικών επιλογών για γρήγορη επιλογή μέσω αριθμητικού πληκτρολογίου"
 
 #: includes/admin/settings/views/hotkeys.php:1
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Συντομεύσεις Πληκτρολογίου"
 
 #: includes/admin/settings/views/hotkeys.php:4
 msgid ""
 "You can trigger certain events in WooCommerce POS using keyboard shortcuts "
 "(HotKeys)."
-msgstr ""
+msgstr "Μπορείτε να ενεργοποιήσετε ορισμένα γεγονότα στο WooCommerce POS χρησιμοποιώντας τις συντομεύσεις πληκτρολογίου (HotKeys)."
 
 #: includes/admin/settings/views/hotkeys.php:5
 msgid ""
-"HotKeys can also be used as a prefix for your barcode scanner or card reader."
-msgstr ""
+"HotKeys can also be used as a prefix for your barcode scanner or card "
+"reader."
+msgstr "Πλήκτρα συντόμευσης (HotKeys) μπορεί επίσης να χρησιμοποιηθούν ως πρόθεμα για το σαρωτή γραμμωτού κώδικα ή τη συσκευή ανάγνωσης καρτών."
 
 #: includes/admin/settings/views/tools.php:33
 msgid "Receipt Template"
-msgstr ""
+msgstr "Template Απόδειξης"
 
 #: includes/admin/settings/views/tools.php:36
 msgid "View Sample Receipt"
-msgstr ""
+msgstr "Προβολή Δείγματος Απόδειξης"
 
 #: includes/admin/settings/views/tools.php:38
 msgid "<strong class=\"red\">Template path:</strong> %s"
-msgstr ""
+msgstr "<strong class=\"red\">Template path:</strong> %s"
 
 #: includes/admin/views/order-details.php:2
 msgid "Order type"
-msgstr ""
+msgstr "Τύπος Παραγγελίας"
 
 #: includes/admin/views/settings.php:12
 msgid ""
-"There has been an error loading the settings, please contact <a href="
-"\"mailto:support@woopos.com.au\">support</a>"
-msgstr ""
+"There has been an error loading the settings, please contact <a "
+"href=\"mailto:support@woopos.com.au\">support</a>"
+msgstr "Υπήρξε ένα σφάλμα κατά τη φόρτωση των ρυθμίσεων, επικοινωνήστε με την <a href=\"mailto:support@woopos.com.au\">υποστήριξη</a>"
 
 #: includes/class-wc-pos-activator.php:173
 msgid ""
 "<strong>WooCommerce POS</strong> requires <a href=\"%s\">WooCommerce</a>. "
 "Please <a href=\"%s\">install and activate WooCommerce</a>"
-msgstr ""
+msgstr "Το <strong>WooCommerce POS</strong> χρειάζεται το <a href=\"%s\">WooCommerce</a>. Παρακαλούμε <a href=\"%s\">εγκαταστήσετε και να ενεργοποιήσετε το WooCommerce </a>"
 
 #: includes/class-wc-pos-activator.php:192
 msgid ""
 "<strong>WooCommerce POS</strong> requires the WooCommerce REST API. Please "
 "<a href=\"%s\">enable the REST API</a>"
-msgstr ""
+msgstr "Το <strong>WooCommerce POS</strong> χρειάζεται το WooCommerce REST API. Παρακαλούμε <a href=\"%s\">ενεργοποιήστε το REST API</a>"
 
 #: includes/class-wc-pos-activator.php:209
 msgid ""
-"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to "
-"work correctly. Please <a href=\"%s\">enable permalinks</a>."
-msgstr ""
+"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to"
+" work correctly. Please <a href=\"%s\">enable permalinks</a>."
+msgstr "Το <strong>WooCommerce REST API</strong> χρειάζεται <em>pretty</em> permalinks για να λειτουργήσει. Παρακαλούμε <a href=\"%s\">ενεργοποιήστε τα permalinks</a>."
 
 #: includes/products/class-wc-pos-visibility.php:23
 msgid "POS & Online"
-msgstr ""
+msgstr "POS & Online"
 
 #: includes/products/class-wc-pos-visibility.php:24
 #: includes/products/class-wc-pos-visibility.php:87
 msgid "POS Only"
-msgstr ""
+msgstr "Μόνο POS"
 
 #: includes/products/class-wc-pos-visibility.php:25
 #: includes/products/class-wc-pos-visibility.php:88
 msgid "Online Only"
-msgstr ""
+msgstr "Μόνο Online"
 
 #: includes/products/views/post-metabox-visibility-select.php:11
 #: includes/products/views/quick-edit-visibility-select.php:14
 msgid "POS visibility"
-msgstr ""
+msgstr "POS visibility"
 
 #: includes/admin/class-wc-pos-permalink.php:28
 msgctxt "Permalink setting, eg: /pos"
 msgid "POS base"
-msgstr ""
+msgstr "POS base"
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:21
 msgctxt "keyboard shortcuts"
 msgid "HotKeys"
-msgstr ""
+msgstr "Συντομεύσεις"
 
 #: includes/admin/settings/views/checkout.php:134
 msgctxt "POS checkout settings"
 msgid "Show payment gateway icon."
-msgstr ""
+msgstr "Εμφάνιση εικονιδίου πύλης πληρωμών"
 
 #: includes/admin/settings/views/general.php:40
 msgctxt "Default customer setting"
 msgid "Use cashier account"
-msgstr ""
+msgstr "Χρησιμοποιήστε το λογαριασμό ταμία"

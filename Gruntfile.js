@@ -6,6 +6,7 @@ module.exports = function(grunt) {
   var locales = [
     'ar',
     'ca',
+    'cs_CZ',
     'da_DK',
     'de_DE',
     'el',

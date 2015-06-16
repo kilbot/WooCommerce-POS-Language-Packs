@@ -1,0 +1,406 @@
+# Copyright (C) 2015 kilbot
+# This file is distributed under the Copyright 2015 The Kilbot Factory.
+# Translators:
+# ltousek <laco.tousek@gmail.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce POS\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
+"POT-Creation-Date: 2015-06-02 07:55:30+00:00\n"
+"PO-Revision-Date: 2015-06-16 15:39+0000\n"
+"Last-Translator: ltousek <laco.tousek@gmail.com>\n"
+"Language-Team: Czech (Czech Republic) (http://www.transifex.com/projects/p/woocommerce-pos/language/cs_CZ/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: grunt-wp-i18n 0.5.2\n"
+
+#: includes/admin/class-wc-pos-pro-am.php:109
+msgid ""
+"<b>Warning!</b> You're blocking external requests which means you won't be "
+"able to get %s updates. Please add %s to %s."
+msgstr "<b>Varování!</b> Blokujete externí požadavky, což znamená, že nebudete moci získat %s aktualizace. Prosím, přidejte %s do %s."
+
+#: includes/admin/class-wc-pos-pro-am.php:124
+msgid "The %s License Key has not been activated, so the plugin is inactive!"
+msgstr "%s licenční klíč nebyl aktivován, proto je plugin neaktivní!"
+
+#: includes/admin/class-wc-pos-pro-am.php:125
+msgid " <a href=\"%s\">Click here</a> to activate the license key and the plugin."
+msgstr "<a href=\"%s\">Klikněte sem</a> k aktivaci licenčního klíče a pluginu."
+
+#: includes/admin/class-wc-pos-pro-am.php:249
+msgid "Unable to connect to the activation server"
+msgstr "Nelze se připojit k aktivačnímu serveru"
+
+#: includes/admin/class-wc-pos-pro-am.php:284
+msgid "Unable to parse the server response"
+msgstr "Nelze analyzovat odpověď serveru"
+
+#: includes/admin/class-wc-pos-pro-am.php:296
+msgid "Invalid Request"
+msgstr "Neplatný požadavek "
+
+#: includes/admin/class-wc-pos-pro-am.php:298
+#: includes/admin/class-wc-pos-pro-am.php:302
+msgid "Invalid License Key"
+msgstr "Neplatný licenční klíč"
+
+#: includes/admin/class-wc-pos-pro-am.php:299
+msgid "Activation error"
+msgstr "Chyba aktivace"
+
+#: includes/admin/class-wc-pos-pro-am.php:300
+msgid "Exceeded maximum number of activations"
+msgstr "Byl překročen maximální počet aktivací"
+
+#: includes/admin/class-wc-pos-pro-am.php:301
+msgid "Invalid Instance ID"
+msgstr "Neplatné ID případu"
+
+#: includes/admin/class-wc-pos-pro-am.php:303
+msgid "Subscription is not active"
+msgstr "Předplatné není aktivní"
+
+#: includes/admin/class-wc-pos-pro-am.php:306
+msgid "Invalid Response"
+msgstr "Neplatná odezva"
+
+#: includes/admin/class-wc-pos-pro-am.php:321
+msgid ""
+"A license key for %s could not be found. Maybe you forgot to enter a license"
+" key when setting up %s, or the key was deactivated in your account. You can"
+" reactivate or purchase a license key from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr "Licenční klíč pro %s nebyl nalezen. Možná, že jste zapomněli zadat licenční klíč při nastavování %s, nebo byl klíč deaktivován na vašem účtu. Licenční klíč můžete aktivovat, nebo si ho zakoupit na Vašem <a href=\"%s\" target=\"_blank\">účtě</a> ."
+
+#: includes/admin/class-wc-pos-pro-am.php:322
+msgid ""
+"The license key for %s has expired. You can reactivate or purchase a license"
+" key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Platnost licenčního klíče pro %s vypršela. Můžete ho obnovit nebo zakoupit na svém <a href=\"%s\" target=\"_blank\">účtě</a> ."
+
+#: includes/admin/class-wc-pos-pro-am.php:323
+msgid ""
+"The subscription for %s is on-hold. You can reactivate the subscription from"
+" your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Předplatné pro %s je pozastaveno. Můžete ho aktivovat na Vašem <a href=\"%s\" target=\"_blank\">účtě</a> ."
+
+#: includes/admin/class-wc-pos-pro-am.php:324
+msgid ""
+"The subscription for %s has been cancelled. You can renew the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>. A new "
+"license key will be emailed to you after your order has been completed."
+msgstr "Předplatné pro %s bylo zrušeno. Můžete ho obnovit na Vašem účtě <a href=\"%s\" target=\"_blank\">zde</a> . Nový licenční klíč Vám bude zaslán emailem poté, co bude vaše objednávka dokončena."
+
+#: includes/admin/class-wc-pos-pro-am.php:325
+msgid ""
+"The subscription for %s has expired. You can reactivate the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Předplatné pro %s vypršelo. Můžete ho aktivovat na vašem účtě <a href=\"%s\" target=\"_blank\">zde</a> ."
+
+#: includes/admin/class-wc-pos-pro-am.php:326
+msgid ""
+"The subscription for %s has been suspended. You can reactivate the "
+"subscription from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr "Předplatné pro %s bylo pozastaveno. Můžete jej obnovit z vašeho účtu <a href=\"%s\" target=\"_blank\">zde</a> ."
+
+#: includes/admin/class-wc-pos-pro-am.php:327
+msgid ""
+"The subscription for %s is still pending. You can check on the status of the"
+" subscription from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr "Předplatné pro %s se zpracovává. Stav předplatného  můžete zkontrolovat z vašeho účtu <a href=\"%s\" target=\"_blank\">zde</a> ."
+
+#: includes/admin/class-wc-pos-pro-am.php:328
+msgid ""
+"The subscription for %s has been placed in the trash and will be deleted "
+"soon. You can purchase a new subscription from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr "Předplatné pro %s bylo odstraněno do koše a bude brzy smazáno. Nové předplatné si můžete koupit z vašeho účtu <a href=\"%s\" target=\"_blank\">zde</a> ."
+
+#: includes/admin/class-wc-pos-pro-am.php:329
+msgid ""
+"A subscription for %s could not be found. You can purchase a subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Předplatné pro %s nebylo nalezeno. Můžete si jej koupit z vašeho účtu <a href=\"%s\" target=\"_blank\">zde</a> ."
+
+#: includes/admin/class-wc-pos-pro-am.php:330
+msgid ""
+"%s has not been activated. Go to the settings page and enter the license key"
+" and license email to activate %s."
+msgstr "%s nebyl aktivován. Přejděte na stránku nastavení a zadejte licenční klíč a licenční email pro aktivaci %s."
+
+#: includes/admin/class-wc-pos-pro-am.php:331
+msgid ""
+"Download permission for %s has been revoked possibly due to a license key or"
+" subscription expiring. You can reactivate or purchase a license key from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Stažení povolení pro %s bylo zrušeno, možná kvůli tomu, že vypršel licenční klíč nebo předplatné. Licenční klíč můžete obnovit nebo si jej ze svého účtu <a href=\"%s\" target=\"_blank\">zde</a> ."
+
+#: includes/admin/class-wc-pos-pro-am.php:332
+msgid ""
+"You changed the subscription for %s, so you will need to enter your new API "
+"License Key in the settings page. The License Key should have arrived in "
+"your email inbox, if not you can get it by logging into your account <a "
+"href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Změnili jste předplatné pro %s, takže musíte zadat nový API licenční klíč na stránce nastavení. Licenční klíč by měl být zaslán do vaší emailové schránky. Pokud ne, můžete ho získat po přihlášení k Vašemu účtu <a href=\"%s\" target=\"_blank\">zde</a> ."
+
+#: includes/admin/class-wc-pos-pro-reports.php:27
+#: includes/admin/reports/class-wc-pos-pro-sales.php:498
+#: includes/admin/reports/class-wc-pos-pro-sales.php:500
+#: includes/admin/reports/class-wc-pos-pro-sales.php:502
+#: includes/admin/reports/class-wc-pos-pro-sales.php:504
+#: includes/admin/reports/class-wc-pos-pro-sales.php:506
+msgid "POS"
+msgstr "POS"
+
+#: includes/admin/class-wc-pos-pro-reports.php:30
+msgid "POS vs Online"
+msgstr "POS vs Online"
+
+#: includes/admin/class-wc-pos-pro-reports.php:36
+msgid "Sales by cashier"
+msgstr "Prodeje dle pokladníka"
+
+#: includes/admin/class-wc-pos-pro-stores.php:62
+msgid "Stores"
+msgstr "Obchody"
+
+#: includes/admin/class-wc-pos-pro-stores.php:129
+msgid "Open POS"
+msgstr "Otevřít POS"
+
+#: includes/admin/class-wc-pos-pro-stores.php:148
+msgid "Store"
+msgstr "Obchod"
+
+#: includes/admin/class-wc-pos-pro-stores.php:165
+msgid "Preview Receipt"
+msgstr "Náhled účtenky"
+
+#: includes/admin/class-wc-pos-pro-stores.php:180
+msgid "Opening Hours"
+msgstr "Otevírací doba"
+
+#: includes/admin/class-wc-pos-pro-stores.php:189
+msgid "Logo"
+msgstr "Logo"
+
+#: includes/admin/class-wc-pos-pro-stores.php:212
+msgid "Receipt Options"
+msgstr "Možnosti účtenky"
+
+#: includes/admin/class-wc-pos-pro-stores.php:277
+msgid "Set featured image"
+msgstr "Nastavit hlavní obrázek"
+
+#: includes/admin/class-wc-pos-pro-stores.php:277
+#: includes/admin/class-wc-pos-pro-stores.php:293
+msgid "Set store logo"
+msgstr "Nastavit logo obchodu"
+
+#: includes/admin/class-wc-pos-pro-stores.php:278
+msgid "Remove featured image"
+msgstr "Odstranit hlavní obrázek"
+
+#: includes/admin/class-wc-pos-pro-stores.php:278
+msgid "Remove store logo"
+msgstr "Odstranit logo obchodu"
+
+#: includes/admin/class-wc-pos-pro-stores.php:292
+msgid "Set Store Logo"
+msgstr "Nastavit logo obchodu"
+
+#: includes/admin/class-wc-pos-pro-stores.php:369
+msgid ""
+"Please <a href=\"%s\">read the docs</a> for information on how to customize "
+"your POS receipts."
+msgstr "Prosím, <a href=\"%s\">přečtěte si dokumentaci</a>, jak přizpůsobit své POS účtenky. "
+
+#: includes/admin/reports/class-wc-pos-pro-cashier.php:143
+msgid "Sales amount"
+msgstr "Prodejní množství"
+
+#: includes/admin/reports/class-wc-pos-pro-sales.php:25
+#: includes/admin/reports/class-wc-pos-pro-sales.php:247
+msgid "POS Sales"
+msgstr "POS prodeje"
+
+#: includes/admin/reports/class-wc-pos-pro-sales.php:31
+#: includes/admin/reports/class-wc-pos-pro-sales.php:257
+msgid "Online Sales"
+msgstr "Online prodeje"
+
+#: includes/admin/reports/class-wc-pos-pro-sales.php:160
+#: includes/admin/reports/class-wc-pos-pro-sales.php:170
+msgid "POS Orders"
+msgstr "POS objednávky"
+
+#: includes/admin/reports/class-wc-pos-pro-sales.php:161
+#: includes/admin/reports/class-wc-pos-pro-sales.php:175
+msgid "Online Orders"
+msgstr "Online objednávky"
+
+#: includes/admin/reports/class-wc-pos-pro-sales.php:194
+msgid "orders"
+msgstr "objednávky"
+
+#: includes/admin/reports/class-wc-pos-pro-sales.php:267
+msgid "Average POS sales amount"
+msgstr "Průměrná částka POS prodeje"
+
+#: includes/admin/reports/class-wc-pos-pro-sales.php:277
+msgid "Average Online sales amount"
+msgstr "Průměrná částka Online prodeje"
+
+#: includes/admin/reports/class-wc-pos-pro-sales.php:490
+msgid "Period"
+msgstr "Období"
+
+#: includes/admin/reports/class-wc-pos-pro-sales.php:491
+msgid "Orders"
+msgstr "Objednávky"
+
+#: includes/admin/reports/class-wc-pos-pro-sales.php:492
+msgid "Total Sales"
+msgstr "Celkové prodeje"
+
+#: includes/admin/reports/class-wc-pos-pro-sales.php:492
+msgid "This is the sum of the 'Order Total' field within your orders."
+msgstr "Toto je suma z pole \"Celkové objednávky\" ve vašich objednávkách. "
+
+#: includes/admin/reports/class-wc-pos-pro-sales.php:493
+msgid "Total Shipping"
+msgstr "Doprava celkem"
+
+#: includes/admin/reports/class-wc-pos-pro-sales.php:493
+msgid "This is the sum of the 'Shipping Total' field within your orders."
+msgstr "Toto je suma z pole \"Doprava celkem\" ve vašich objednávkách."
+
+#: includes/admin/reports/class-wc-pos-pro-sales.php:494
+msgid "Total Tax"
+msgstr "Daň celkem"
+
+#: includes/admin/reports/class-wc-pos-pro-sales.php:494
+msgid "This is the total tax for the rate (shipping tax + product tax)."
+msgstr "Toto je celková daň ze sazby (daňová sazba z dopravy + daňová sazba zboží)."
+
+#: includes/admin/reports/class-wc-pos-pro-sales.php:495
+msgid "Net profit"
+msgstr "Čistý zisk"
+
+#: includes/admin/reports/class-wc-pos-pro-sales.php:495
+msgid "Total sales minus shipping and tax."
+msgstr "Celkový prodej mínus náklady na dopravu a daně."
+
+#: includes/admin/reports/class-wc-pos-pro-sales.php:499
+#: includes/admin/reports/class-wc-pos-pro-sales.php:501
+#: includes/admin/reports/class-wc-pos-pro-sales.php:503
+#: includes/admin/reports/class-wc-pos-pro-sales.php:505
+#: includes/admin/reports/class-wc-pos-pro-sales.php:507
+msgid "Online"
+msgstr "Online"
+
+#: includes/admin/reports/class-wc-pos-pro-sales.php:541
+msgid "Total"
+msgstr "Celkem"
+
+#: includes/admin/settings/class-wc-pos-pro-license.php:16
+msgid "Pro License"
+msgstr "Pro licence"
+
+#: includes/admin/settings/views/license.php:7
+msgid "Pro License Activation"
+msgstr "Aktivace Pro licence"
+
+#: includes/admin/settings/views/license.php:12
+msgid "Thank you!"
+msgstr "Děkujeme!"
+
+#: includes/admin/settings/views/license.php:13
+msgid "Your license is active"
+msgstr "Vaše licence je aktivní"
+
+#: includes/admin/settings/views/license.php:19
+msgid "License Email"
+msgstr "Odeslat licenci emailem"
+
+#: includes/admin/settings/views/license.php:27
+msgid "License Key"
+msgstr "Licenční klíč"
+
+#: includes/admin/views/stores/address.php:55
+msgid "loading"
+msgstr "nahrává se"
+
+#: includes/admin/views/stores/opening-hours.php:21
+msgid "Opening Hours notes"
+msgstr "Poznámka k otevírací době"
+
+#: includes/admin/views/stores/opening-hours.php:22
+msgid "eg: Closed public holidays"
+msgstr "např. Zavřeno v období svátků"
+
+#: includes/admin/views/stores/opening-hours.php:27
+msgid ""
+"You can add opening hours to your website using a widget. <a "
+"href=\"%s\">Read the docs</a> for more information."
+msgstr "Můžete přidat otevírací hodiny na vašich webových stránkách pomocí widgetu. <a href=\"%s\">Přečtěte si dokumentaci</a> pro více informací."
+
+#: includes/admin/views/stores/receipt-options.php:9
+msgid "Complimentary Close"
+msgstr "Bezplatné Close"
+
+#: includes/admin/views/stores/receipt-options.php:10
+msgid ""
+"Personal notes or season greetings, e.g. Thank You for Your Order! or Merry "
+"Christmas!"
+msgstr "Osobní poznámky nebo sezónní pozdravy, např Děkujeme za Vaši objednávku! nebo Veselé Vánoce!"
+
+#: includes/admin/views/stores/receipt-options.php:13
+msgid "Returns Policy"
+msgstr "Reklamační řád"
+
+#: includes/admin/views/stores/receipt-options.php:14
+msgid "Returns policy, terms and conditions"
+msgstr "Reklamační řád, podmínky a požadavky"
+
+#: includes/admin/views/stores/receipt-options.php:17
+msgid "Footer"
+msgstr "Zápatí"
+
+#: includes/admin/views/stores/receipt-options.php:18
+msgid "Further footer information, e.g. copyright or branding"
+msgstr "Další informace zápatí, např. copyright  nebo branding"
+
+#: includes/admin/views/stores/tax-rate.php:8
+msgid "Calculate Tax Based On"
+msgstr "Výpočet daně založené na"
+
+#: includes/admin/views/stores/tax-rate.php:10
+msgid "this store address"
+msgstr "adresa obchodu"
+
+#: includes/admin/views/stores/tax-rate.php:11
+msgid "base location"
+msgstr "sídlo"
+
+#: includes/admin/views/stores/tax-rate.php:39
+msgid "No tax rates set"
+msgstr "Žádné daňové sazby nejsou nastaveny"
+
+#: includes/admin/views/stores/tax-rate.php:43
+msgid ""
+"The tax rates above will be used at the point of sale. You can <a "
+"href=\"%s\">change the tax rate</a> in WooCommerce settings."
+msgstr "Daňové sazby uvedené výše budou použity v POS. Můžete <a href=\"%s\">změnit daňové sazby</a> v nastavení WooCommerce."
+
+#: includes/class-wc-pos-pro-activator.php:145
+msgid ""
+"<strong>WooCommerce POS Pro</strong> requires <a href=\"%s\">WooCommerce "
+"POS</a>. Please <a href=\"%s\">install and activate WooCommerce POS</a>"
+msgstr "<strong>WooCommerce POS Pro</strong> vyžaduje <a href=\"%s\">WooCommerce POS</a> . Prosím, <a href=\"%s\">nainstalujte a aktivujte WooCommerce POS</a>"

@@ -22,19 +22,19 @@ msgstr ""
 
 #: includes/api/class-wc-pos-orders.php:497
 msgid "There was an error processing the payment"
-msgstr ""
+msgstr "Ошибка обработки платежа"
 
 #: includes/api/class-wc-pos-orders.php:523
 msgid "You are now being redirected offsite to complete the payment. "
-msgstr ""
+msgstr "Сейчас вы будете перенаправлены на страницу оплаты."
 
 #: includes/api/class-wc-pos-orders.php:524
 msgid "<a href=\"%s\">Click here</a> if you are not redirected automatically. "
-msgstr ""
+msgstr "Если вы не были перенаправлены автоматически, пожалуйста, <a href=\"%s\">нажмите здесь</a>."
 
 #: includes/api/class-wc-pos-orders.php:538
 msgid "POS Transaction completed."
-msgstr ""
+msgstr "Транзакция завершена."
 
 #: includes/class-wc-pos-ajax.php:104
 msgid "There is no settings id"
@@ -50,11 +50,11 @@ msgstr "Ошибка настройки"
 
 #: includes/class-wc-pos-ajax.php:165 includes/class-wc-pos-ajax.php:187
 msgid "Email sent"
-msgstr ""
+msgstr "Письмо отправлено"
 
 #: includes/class-wc-pos-ajax.php:170 includes/class-wc-pos-ajax.php:192
 msgid "There was an error sending the email"
-msgstr ""
+msgstr "Ошибка отправки письма"
 
 #: includes/class-wc-pos-ajax.php:207
 msgid "Invalid security nonce"
@@ -66,15 +66,15 @@ msgstr "Оплатить"
 
 #: includes/class-wc-pos-i18n.php:333
 msgid "Paid"
-msgstr ""
+msgstr "Оплаченый"
 
 #: includes/class-wc-pos-i18n.php:334
 msgid "Unpaid"
-msgstr ""
+msgstr "Не оплаченый"
 
 #: includes/class-wc-pos-i18n.php:335
 msgid "Email Receipt"
-msgstr ""
+msgstr "Электронный адрес получателя"
 
 #. translators: wordpress
 #. translators: woocommerce
@@ -82,7 +82,7 @@ msgstr ""
 #: includes/class-wc-pos-i18n.php:346 includes/views/print/receipt.php:130
 #: includes/views/support.php:23
 msgid "Email"
-msgstr ""
+msgstr "Электронный адрес"
 
 #: includes/class-wc-pos-i18n.php:351
 msgid "Process Payment"
@@ -94,7 +94,7 @@ msgstr "Вернуться к продажам"
 
 #: includes/class-wc-pos-i18n.php:357
 msgid "Send"
-msgstr ""
+msgstr "Отправить"
 
 #: includes/class-wc-pos-i18n.php:359
 msgid "Void"
@@ -130,7 +130,7 @@ msgstr "Розница"
 
 #: includes/class-wc-pos.php:115
 msgid "User not authorized to access WooCommerce POS"
-msgstr "Пользователь не авторизован для доступа к WooCommerce розница"
+msgstr "Пользователь не авторизован для доступа к WooCommerce-розница"
 
 #: includes/gateways/class-wc-pos-card.php:20
 msgid "Card"
@@ -155,7 +155,7 @@ msgstr "ИТОГО:"
 
 #: includes/views/modals/browser.php:2
 msgid "Sorry, it seems your browser is not supported by WooCommerce POS. "
-msgstr "Извините, но ваш браузер не поддерживает работу с WooCommerce розница"
+msgstr "Извините, но ваш браузер не поддерживает работу с WooCommerce-розница"
 
 #: includes/views/modals/browser.php:3
 msgid ""
@@ -182,11 +182,11 @@ msgstr "Сканирование штрих-кодов"
 
 #: includes/views/pos/products.php:81
 msgid "Showing %s of %s"
-msgstr ""
+msgstr "Показать %s в %s"
 
 #: includes/views/pos/products.php:82
 msgid "%s in queue"
-msgstr ""
+msgstr "%s в очередь"
 
 #: includes/views/print/receipt.php:109
 msgid "Billing Address"
@@ -210,7 +210,7 @@ msgstr "Поддержка"
 
 #: includes/views/support.php:28
 msgid "Describe your problem here ..."
-msgstr "Опишите вашу проблему..."
+msgstr "Опишите вашу проблему здесь..."
 
 #: includes/views/support.php:32
 msgid "Append POS system report"
@@ -245,7 +245,7 @@ msgstr "Горячие клавиши"
 #: includes/class-wc-pos-i18n.php:336
 msgctxt "order status, ie: open order in cart"
 msgid "Open"
-msgstr ""
+msgstr "Открыть"
 
 #: includes/class-wc-pos-i18n.php:337
 #: includes/gateways/class-wc-pos-cash.php:102

@@ -1,153 +1,154 @@
-# Copyright (c) 2015 kilbot
+# Copyright (C) 2015 kilbot
 # This file is distributed under the Copyright 2015 The Kilbot Factory.
+# Translators:
+# Francesco Cozzi <francescout@gmail.com>, 2015
+# Paul Kilmurray <paul@kilbot.com.au>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce POS Pro 0.4.0-alpha\n"
-"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
-"Packs/issues\n"
+"Project-Id-Version: WooCommerce POS\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
 "POT-Creation-Date: 2015-06-02 07:55:30+00:00\n"
-"PO-Revision-Date: 2015-03-13 04:49:21+00:00\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: it\n"
+"PO-Revision-Date: 2015-06-19 03:05+0000\n"
+"Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
+"Language-Team: Italian (Italy) (http://www.transifex.com/projects/p/woocommerce-pos/language/it_IT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: grunt-wp-i18n 0.4.9\n"
+"Language: it_IT\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: grunt-wp-i18n 0.5.2\n"
 
 #: includes/admin/class-wc-pos-pro-am.php:109
 msgid ""
 "<b>Warning!</b> You're blocking external requests which means you won't be "
 "able to get %s updates. Please add %s to %s."
-msgstr ""
+msgstr "<b>Attenzione!</b> Stai bloccando le richieste esterne, il che signfica che non sarai in grado di ricevere gli %s aggiornamenti. Aggiungi %s a %s."
 
 #: includes/admin/class-wc-pos-pro-am.php:124
 msgid "The %s License Key has not been activated, so the plugin is inactive!"
-msgstr ""
+msgstr "La %s Chiave di Licenza non è stata attivata, dunque il plugin è inattivo!"
 
 #: includes/admin/class-wc-pos-pro-am.php:125
-msgid ""
-" <a href=\"%s\">Click here</a> to activate the license key and the plugin."
-msgstr ""
+msgid " <a href=\"%s\">Click here</a> to activate the license key and the plugin."
+msgstr "<a href=\"%s\">Clicca qui</a> per attivare la chiave di licenza e il plugin."
 
 #: includes/admin/class-wc-pos-pro-am.php:249
 msgid "Unable to connect to the activation server"
-msgstr ""
+msgstr "Impossibile collegarsi al server di attivazione"
 
 #: includes/admin/class-wc-pos-pro-am.php:284
 msgid "Unable to parse the server response"
-msgstr ""
+msgstr "Impossibile analizzare la risposta del server"
 
 #: includes/admin/class-wc-pos-pro-am.php:296
 msgid "Invalid Request"
-msgstr ""
+msgstr "Richiesta non valida"
 
 #: includes/admin/class-wc-pos-pro-am.php:298
 #: includes/admin/class-wc-pos-pro-am.php:302
 msgid "Invalid License Key"
-msgstr ""
+msgstr "Codice Licenza non valido"
 
 #: includes/admin/class-wc-pos-pro-am.php:299
 msgid "Activation error"
-msgstr ""
+msgstr "Errore di attvazione"
 
 #: includes/admin/class-wc-pos-pro-am.php:300
 msgid "Exceeded maximum number of activations"
-msgstr ""
+msgstr "Superato il numero massimo di attivazioni"
 
 #: includes/admin/class-wc-pos-pro-am.php:301
 msgid "Invalid Instance ID"
-msgstr ""
+msgstr "ID Istanza non valido"
 
 #: includes/admin/class-wc-pos-pro-am.php:303
 msgid "Subscription is not active"
-msgstr ""
+msgstr "La sottoscrizione non è attiva"
 
 #: includes/admin/class-wc-pos-pro-am.php:306
 msgid "Invalid Response"
-msgstr ""
+msgstr "Risposta non valida"
 
 #: includes/admin/class-wc-pos-pro-am.php:321
 msgid ""
-"A license key for %s could not be found. Maybe you forgot to enter a license "
-"key when setting up %s, or the key was deactivated in your account. You can "
-"reactivate or purchase a license key from your account <a href=\"%s\" target="
-"\"_blank\">dashboard</a>."
-msgstr ""
+"A license key for %s could not be found. Maybe you forgot to enter a license"
+" key when setting up %s, or the key was deactivated in your account. You can"
+" reactivate or purchase a license key from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr "Non può essere trovata una chiave di licenza per %s. Potresti aver dimenticato di inserire una chiave di licenza durante la configurazione %s, o la chiave è stata disattivata nel tuo account . Puoi riattivare o comprare una chiave di licenza dalla <a href=\"%s\" target=\"_blank\">bacheca</a> del tuo account."
 
 #: includes/admin/class-wc-pos-pro-am.php:322
 msgid ""
-"The license key for %s has expired. You can reactivate or purchase a license "
-"key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
-msgstr ""
+"The license key for %s has expired. You can reactivate or purchase a license"
+" key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "La chiave di licenza per %s è scaduta. Puoi riattivare o comprare una chiave di licenza dalla <a href=\"%s\" target=\"_blank\">bacheca</a> del tuo account."
 
 #: includes/admin/class-wc-pos-pro-am.php:323
 msgid ""
-"The subscription for %s is on-hold. You can reactivate the subscription from "
-"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
-msgstr ""
+"The subscription for %s is on-hold. You can reactivate the subscription from"
+" your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "La sottoscrizione per %s è in attesa. Puoi riattivare la sottoscrizione dalla <a href=\"%s\" target=\"_blank\">bacheca</a> del tuo account."
 
 #: includes/admin/class-wc-pos-pro-am.php:324
 msgid ""
 "The subscription for %s has been cancelled. You can renew the subscription "
 "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>. A new "
 "license key will be emailed to you after your order has been completed."
-msgstr ""
+msgstr "La sottoscrizione per %s è stata cancellata. Puoi rinnovare la sottoscrizione dalla <a href=\"%s\" target=\"_blank\">bacheca</a> del tuo account . Una nuova chiave di licenza ti sarà inviata via email dopo che avrai completato il tuo ordine."
 
 #: includes/admin/class-wc-pos-pro-am.php:325
 msgid ""
 "The subscription for %s has expired. You can reactivate the subscription "
 "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
-msgstr ""
+msgstr "La sottoscrizione per %s è scaduta. Puoi riattivare la sottoscrizione dalla <a href=\"%s\" target=\"_blank\">bacheca</a> del tuo account."
 
 #: includes/admin/class-wc-pos-pro-am.php:326
 msgid ""
 "The subscription for %s has been suspended. You can reactivate the "
-"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
-"a>."
-msgstr ""
+"subscription from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr "La sottoscrizione per %s è stata sospesa. Puoi riattivare la sottoscrizione dalla <a href=\"%s\" target=\"_blank\">bacheca</a> del tuo account."
 
 #: includes/admin/class-wc-pos-pro-am.php:327
 msgid ""
-"The subscription for %s is still pending. You can check on the status of the "
-"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
-"a>."
-msgstr ""
+"The subscription for %s is still pending. You can check on the status of the"
+" subscription from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr "La sottoscrizione per %s è ancora in attesa. Puoi controllare lo stato della sottoscrizione dalla <a href=\"%s\" target=\"_blank\">bacheca</a> del tuo account."
 
 #: includes/admin/class-wc-pos-pro-am.php:328
 msgid ""
 "The subscription for %s has been placed in the trash and will be deleted "
 "soon. You can purchase a new subscription from your account <a href=\"%s\" "
 "target=\"_blank\">dashboard</a>."
-msgstr ""
+msgstr "La sottoscrizione per  %s è stata spostata nel cestino e sarà cancellata presto. Puoi comprare una nuova sottoscrizione dalla <a href=\"%s\" target=\"_blank\">bacheca</a> del tuo account."
 
 #: includes/admin/class-wc-pos-pro-am.php:329
 msgid ""
 "A subscription for %s could not be found. You can purchase a subscription "
 "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
-msgstr ""
+msgstr "Non può essere trovata una sottoscrizione per %s. Puoi comprare una sottoscrizione dalla <a href=\"%s\" target=\"_blank\">bacheca</a> del tuo account."
 
 #: includes/admin/class-wc-pos-pro-am.php:330
 msgid ""
-"%s has not been activated. Go to the settings page and enter the license key "
-"and license email to activate %s."
-msgstr ""
+"%s has not been activated. Go to the settings page and enter the license key"
+" and license email to activate %s."
+msgstr "%s non è stata attivato. Vai nella pagine delle impostazioni e inserisci una chiave di licenza e la email di licenza per attivare %s."
 
 #: includes/admin/class-wc-pos-pro-am.php:331
 msgid ""
-"Download permission for %s has been revoked possibly due to a license key or "
-"subscription expiring. You can reactivate or purchase a license key from "
+"Download permission for %s has been revoked possibly due to a license key or"
+" subscription expiring. You can reactivate or purchase a license key from "
 "your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
-msgstr ""
+msgstr "Il permesso di download per %s è stato revocato probabilmente a causa di una chiave di licenza o una sottoscrizione scaduta. Puoi riattivare o comprare una chiave di licenza dalla <a href=\"%s\" target=\"_blank\">bacheca</a> del tuo account."
 
 #: includes/admin/class-wc-pos-pro-am.php:332
 msgid ""
 "You changed the subscription for %s, so you will need to enter your new API "
 "License Key in the settings page. The License Key should have arrived in "
-"your email inbox, if not you can get it by logging into your account <a href="
-"\"%s\" target=\"_blank\">dashboard</a>."
-msgstr ""
+"your email inbox, if not you can get it by logging into your account <a "
+"href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Hai cambiato la sottoscrizione per %s, è necessario che tu inserisca una nuova Chiave di Licenza API nella pagina delle impostazioni. La Chiave di Licenza dovrebbe essere arrivata nella tua casella email, se no puoi trovarla entrando nella <a href=\"%s\" target=\"_blank\">bacheca</a> del tuo account."
 
 #: includes/admin/class-wc-pos-pro-reports.php:27
 #: includes/admin/reports/class-wc-pos-pro-sales.php:498
@@ -156,146 +157,146 @@ msgstr ""
 #: includes/admin/reports/class-wc-pos-pro-sales.php:504
 #: includes/admin/reports/class-wc-pos-pro-sales.php:506
 msgid "POS"
-msgstr ""
+msgstr "POS"
 
 #: includes/admin/class-wc-pos-pro-reports.php:30
 msgid "POS vs Online"
-msgstr ""
+msgstr "POS vs Online"
 
 #: includes/admin/class-wc-pos-pro-reports.php:36
 msgid "Sales by cashier"
-msgstr ""
+msgstr "Vendite del cassiere"
 
 #: includes/admin/class-wc-pos-pro-stores.php:62
 msgid "Stores"
-msgstr ""
+msgstr "Negozi"
 
 #: includes/admin/class-wc-pos-pro-stores.php:129
 msgid "Open POS"
-msgstr ""
+msgstr "POS Aperto"
 
 #: includes/admin/class-wc-pos-pro-stores.php:148
 msgid "Store"
-msgstr ""
+msgstr "Negozio"
 
 #: includes/admin/class-wc-pos-pro-stores.php:165
 msgid "Preview Receipt"
-msgstr ""
+msgstr "Anteprima Ricevuta"
 
 #: includes/admin/class-wc-pos-pro-stores.php:180
 msgid "Opening Hours"
-msgstr ""
+msgstr "Orari di Apertura"
 
 #: includes/admin/class-wc-pos-pro-stores.php:189
 msgid "Logo"
-msgstr ""
+msgstr "Logo"
 
 #: includes/admin/class-wc-pos-pro-stores.php:212
 msgid "Receipt Options"
-msgstr ""
+msgstr "Opzioni Ricevuta"
 
 #: includes/admin/class-wc-pos-pro-stores.php:277
 msgid "Set featured image"
-msgstr ""
+msgstr "Imposta immagine in evidenza"
 
 #: includes/admin/class-wc-pos-pro-stores.php:277
 #: includes/admin/class-wc-pos-pro-stores.php:293
 msgid "Set store logo"
-msgstr ""
+msgstr "Imposta logo negozio"
 
 #: includes/admin/class-wc-pos-pro-stores.php:278
 msgid "Remove featured image"
-msgstr ""
+msgstr "Rimuovi immagine in evidenza"
 
 #: includes/admin/class-wc-pos-pro-stores.php:278
 msgid "Remove store logo"
-msgstr ""
+msgstr "Rimuovi logo negozio"
 
 #: includes/admin/class-wc-pos-pro-stores.php:292
 msgid "Set Store Logo"
-msgstr ""
+msgstr "Imposta Logo Negozio"
 
 #: includes/admin/class-wc-pos-pro-stores.php:369
 msgid ""
 "Please <a href=\"%s\">read the docs</a> for information on how to customize "
 "your POS receipts."
-msgstr ""
+msgstr "<a href=\"%s\">Leggi i documenti</a> per informazioni su come personalizzare le ricevute POS."
 
 #: includes/admin/reports/class-wc-pos-pro-cashier.php:143
 msgid "Sales amount"
-msgstr ""
+msgstr "Conto vendite"
 
 #: includes/admin/reports/class-wc-pos-pro-sales.php:25
 #: includes/admin/reports/class-wc-pos-pro-sales.php:247
 msgid "POS Sales"
-msgstr ""
+msgstr "Vendite POS"
 
 #: includes/admin/reports/class-wc-pos-pro-sales.php:31
 #: includes/admin/reports/class-wc-pos-pro-sales.php:257
 msgid "Online Sales"
-msgstr ""
+msgstr "Vendite Online"
 
 #: includes/admin/reports/class-wc-pos-pro-sales.php:160
 #: includes/admin/reports/class-wc-pos-pro-sales.php:170
 msgid "POS Orders"
-msgstr ""
+msgstr "Ordini POS"
 
 #: includes/admin/reports/class-wc-pos-pro-sales.php:161
 #: includes/admin/reports/class-wc-pos-pro-sales.php:175
 msgid "Online Orders"
-msgstr ""
+msgstr "Ordini Online"
 
 #: includes/admin/reports/class-wc-pos-pro-sales.php:194
 msgid "orders"
-msgstr ""
+msgstr "ordini"
 
 #: includes/admin/reports/class-wc-pos-pro-sales.php:267
 msgid "Average POS sales amount"
-msgstr ""
+msgstr "Importo medio vendite POS"
 
 #: includes/admin/reports/class-wc-pos-pro-sales.php:277
 msgid "Average Online sales amount"
-msgstr ""
+msgstr "Media online importo delle vendite"
 
 #: includes/admin/reports/class-wc-pos-pro-sales.php:490
 msgid "Period"
-msgstr ""
+msgstr "Periodo"
 
 #: includes/admin/reports/class-wc-pos-pro-sales.php:491
 msgid "Orders"
-msgstr ""
+msgstr "Ordini"
 
 #: includes/admin/reports/class-wc-pos-pro-sales.php:492
 msgid "Total Sales"
-msgstr ""
+msgstr "Vendite Totali"
 
 #: includes/admin/reports/class-wc-pos-pro-sales.php:492
 msgid "This is the sum of the 'Order Total' field within your orders."
-msgstr ""
+msgstr "Questa è la somma del campo 'Totale ordine' all'interno dei vostri ordini."
 
 #: includes/admin/reports/class-wc-pos-pro-sales.php:493
 msgid "Total Shipping"
-msgstr ""
+msgstr "Totale Spedizione"
 
 #: includes/admin/reports/class-wc-pos-pro-sales.php:493
 msgid "This is the sum of the 'Shipping Total' field within your orders."
-msgstr ""
+msgstr "Questa è la somma del campo 'Spedizione Totale' all'interno dei vostri ordini."
 
 #: includes/admin/reports/class-wc-pos-pro-sales.php:494
 msgid "Total Tax"
-msgstr ""
+msgstr "Totale Aliquota"
 
 #: includes/admin/reports/class-wc-pos-pro-sales.php:494
 msgid "This is the total tax for the rate (shipping tax + product tax)."
-msgstr ""
+msgstr "Questo è l'imposta totale per il tasso (imposta shipping + tasse del prodotto)."
 
 #: includes/admin/reports/class-wc-pos-pro-sales.php:495
 msgid "Net profit"
-msgstr ""
+msgstr "Profitto netto"
 
 #: includes/admin/reports/class-wc-pos-pro-sales.php:495
 msgid "Total sales minus shipping and tax."
-msgstr ""
+msgstr "Totale vendite meno spedizione e aliquota."
 
 #: includes/admin/reports/class-wc-pos-pro-sales.php:499
 #: includes/admin/reports/class-wc-pos-pro-sales.php:501
@@ -303,104 +304,104 @@ msgstr ""
 #: includes/admin/reports/class-wc-pos-pro-sales.php:505
 #: includes/admin/reports/class-wc-pos-pro-sales.php:507
 msgid "Online"
-msgstr ""
+msgstr "Online"
 
 #: includes/admin/reports/class-wc-pos-pro-sales.php:541
 msgid "Total"
-msgstr ""
+msgstr "Totale"
 
 #: includes/admin/settings/class-wc-pos-pro-license.php:16
 msgid "Pro License"
-msgstr ""
+msgstr "Licenza Pro"
 
 #: includes/admin/settings/views/license.php:7
 msgid "Pro License Activation"
-msgstr ""
+msgstr "Attivazione Licenza Pro"
 
 #: includes/admin/settings/views/license.php:12
 msgid "Thank you!"
-msgstr ""
+msgstr "Grazie!"
 
 #: includes/admin/settings/views/license.php:13
 msgid "Your license is active"
-msgstr ""
+msgstr "La tua licenza è attiva"
 
 #: includes/admin/settings/views/license.php:19
 msgid "License Email"
-msgstr ""
+msgstr "Email Licenza"
 
 #: includes/admin/settings/views/license.php:27
 msgid "License Key"
-msgstr ""
+msgstr "Chiave di Licenza"
 
 #: includes/admin/views/stores/address.php:55
 msgid "loading"
-msgstr ""
+msgstr "caricamento"
 
 #: includes/admin/views/stores/opening-hours.php:21
 msgid "Opening Hours notes"
-msgstr ""
+msgstr "Note Orari di Apertura"
 
 #: includes/admin/views/stores/opening-hours.php:22
 msgid "eg: Closed public holidays"
-msgstr ""
+msgstr "ad esempio: Chiuso al pubblico nei giorni festivi"
 
 #: includes/admin/views/stores/opening-hours.php:27
 msgid ""
-"You can add opening hours to your website using a widget. <a href=\"%s"
-"\">Read the docs</a> for more information."
-msgstr ""
+"You can add opening hours to your website using a widget. <a "
+"href=\"%s\">Read the docs</a> for more information."
+msgstr "È possibile aggiungere gli orari di apertura al tuo sito web utilizzando un widget. <a href=\"%s\">Leggi la documentazione</a> per ulteriori informazioni."
 
 #: includes/admin/views/stores/receipt-options.php:9
 msgid "Complimentary Close"
-msgstr ""
+msgstr "Chiudi gratuito"
 
 #: includes/admin/views/stores/receipt-options.php:10
 msgid ""
 "Personal notes or season greetings, e.g. Thank You for Your Order! or Merry "
 "Christmas!"
-msgstr ""
+msgstr "Note personali o saluti di stagione, ad esempio, ringraziarvi per il vostro ordine! o buon Natale!"
 
 #: includes/admin/views/stores/receipt-options.php:13
 msgid "Returns Policy"
-msgstr ""
+msgstr "Politica di ritorni"
 
 #: includes/admin/views/stores/receipt-options.php:14
 msgid "Returns policy, terms and conditions"
-msgstr ""
+msgstr "Politica di ritorni, termini e condizioni"
 
 #: includes/admin/views/stores/receipt-options.php:17
 msgid "Footer"
-msgstr ""
+msgstr "Piè di pagina"
 
 #: includes/admin/views/stores/receipt-options.php:18
 msgid "Further footer information, e.g. copyright or branding"
-msgstr ""
+msgstr "Maggiori informazioni del piè di pagina, per esempio copyright e marchio"
 
 #: includes/admin/views/stores/tax-rate.php:8
 msgid "Calculate Tax Based On"
-msgstr ""
+msgstr "Calcola Aliquota Basandosi Su"
 
 #: includes/admin/views/stores/tax-rate.php:10
 msgid "this store address"
-msgstr ""
+msgstr "indirizzo di questo negozio"
 
 #: includes/admin/views/stores/tax-rate.php:11
 msgid "base location"
-msgstr ""
+msgstr "posizione di base"
 
 #: includes/admin/views/stores/tax-rate.php:39
 msgid "No tax rates set"
-msgstr ""
+msgstr "Percentuale tassa non impostato"
 
 #: includes/admin/views/stores/tax-rate.php:43
 msgid ""
-"The tax rates above will be used at the point of sale. You can <a href=\"%s"
-"\">change the tax rate</a> in WooCommerce settings."
-msgstr ""
+"The tax rates above will be used at the point of sale. You can <a "
+"href=\"%s\">change the tax rate</a> in WooCommerce settings."
+msgstr "Le aliquote di imposta sopra verranno usate nel punto vendita. Puoi <a href=\"%s\">modificare l'aliquota di imposta</a> nelle impostazioni di WooCommerce."
 
 #: includes/class-wc-pos-pro-activator.php:145
 msgid ""
 "<strong>WooCommerce POS Pro</strong> requires <a href=\"%s\">WooCommerce "
 "POS</a>. Please <a href=\"%s\">install and activate WooCommerce POS</a>"
-msgstr ""
+msgstr "<strong>WooCommerce POS Pro</strong> richiede <a href=\"%s\">WooCommerce POS</a>.  <a href=\"%s\">Installa e attiva WooCommerce POS</a>"

@@ -5,16 +5,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
-"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
+"Packs/issues\n"
 "POT-Creation-Date: 2015-06-02 04:17:17+00:00\n"
 "PO-Revision-Date: 2015-07-02 09:29+0000\n"
 "Last-Translator: Mustafa Mohammed <mustafamsy@gmail.com>\n"
-"Language-Team: Arabic (http://www.transifex.com/projects/p/woocommerce-pos/language/ar/)\n"
+"Language-Team: Arabic (http://www.transifex.com/projects/p/woocommerce-pos/"
+"language/ar/)\n"
+"Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ar\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "X-Generator: grunt-wp-i18n 0.5.2\n"
 
 #: includes/api/class-wc-pos-orders.php:497
@@ -156,16 +159,20 @@ msgstr "نأسف، يبدو أن متصفحك لا يدعم ووكومرس نق�
 
 #: includes/views/modals/browser.php:3
 msgid ""
-"If possible, please <a href=\"http://browsehappy.com/\">update your "
-"browser</a>, we recommend either Chrome or Firefox."
-msgstr "إذا أمكن، الرجاء <a href=\"http://browsehappy.com/\">تحديث متصفحك </a>، ننصح بكروم أو فايرفوكس."
+"If possible, please <a href=\"http://browsehappy.com/\">update your browser</"
+"a>, we recommend either Chrome or Firefox."
+msgstr ""
+"إذا أمكن، الرجاء <a href=\"http://browsehappy.com/\">تحديث متصفحك </a>، ننصح "
+"بكروم أو فايرفوكس."
 
 #: includes/views/modals/browser.php:7
 msgid ""
 "If you believe you have received this message in error please contact "
-"support via <a "
+"support via <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</"
+"a>"
+msgstr ""
+"إذا تعتقد أنك استلمت هذه الرسالة بشكل خاطئ، الرجاء مراسلة الدعم الفني عبر <a "
 "href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
-msgstr "إذا تعتقد أنك استلمت هذه الرسالة بشكل خاطئ، الرجاء مراسلة الدعم الفني عبر <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
 
 #: includes/views/pos/checkout.php:26
 msgid "No payment gateways enabled."
@@ -218,9 +225,11 @@ msgstr "نقطة الدفع"
 #. Description of the plugin/theme
 msgid ""
 "A simple front-end for taking WooCommerce orders at the Point of Sale. "
-"Requires <a "
-"href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a>."
-msgstr "واجهة بسيطة لأخذ طلبات ووكومرس في نقاط البيع. المطلوب: <a href=\"http://wordpress.org/plugins/woocommerce/\">ووكومرس</a>."
+"Requires <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</"
+"a>."
+msgstr ""
+"واجهة بسيطة لأخذ طلبات ووكومرس في نقاط البيع. المطلوب: <a href=\"http://"
+"wordpress.org/plugins/woocommerce/\">ووكومرس</a>."
 
 #: includes/class-wc-pos-i18n.php:320
 msgctxt "system status: browser capabilities"

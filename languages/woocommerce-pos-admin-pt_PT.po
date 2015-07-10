@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS 0.4-alpha\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-05-29 17:35:56+00:00\n"
+"POT-Creation-Date: 2015-07-10 12:11:16+00:00\n"
 "PO-Revision-Date: 2015-03-13 04:49:20+00:00\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -210,6 +210,14 @@ msgstr ""
 msgid "<strong class=\"red\">Template path:</strong> %s"
 msgstr ""
 
+#: includes/admin/settings/views/tools.php:43
+msgid "Legacy Server Support"
+msgstr ""
+
+#: includes/admin/settings/views/tools.php:49
+msgid "Emulate RESTful HTTP methods to support legacy servers."
+msgstr ""
+
 #: includes/admin/views/order-details.php:2
 msgid "Order type"
 msgstr ""
@@ -220,22 +228,10 @@ msgid ""
 "\"mailto:support@woopos.com.au\">support</a>"
 msgstr ""
 
-#: includes/class-wc-pos-activator.php:173
+#: includes/class-wc-pos-activator.php:178
 msgid ""
 "<strong>WooCommerce POS</strong> requires <a href=\"%s\">WooCommerce</a>. "
 "Please <a href=\"%s\">install and activate WooCommerce</a>"
-msgstr ""
-
-#: includes/class-wc-pos-activator.php:192
-msgid ""
-"<strong>WooCommerce POS</strong> requires the WooCommerce REST API. Please "
-"<a href=\"%s\">enable the REST API</a>"
-msgstr ""
-
-#: includes/class-wc-pos-activator.php:209
-msgid ""
-"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to "
-"work correctly. Please <a href=\"%s\">enable permalinks</a>."
 msgstr ""
 
 #: includes/products/class-wc-pos-visibility.php:23

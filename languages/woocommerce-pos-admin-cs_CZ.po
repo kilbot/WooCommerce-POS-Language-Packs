@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-06-02 04:17:17+00:00\n"
+"POT-Creation-Date: 2015-07-10 12:11:16+00:00\n"
 "PO-Revision-Date: 2015-07-01 11:21+0000\n"
 "Last-Translator: ltousek <laco.tousek@gmail.com>\n"
 "Language-Team: Czech (Czech Republic) (http://www.transifex.com/projects/p/"
@@ -231,6 +231,14 @@ msgstr "Zobrazit vzor účtenky"
 msgid "<strong class=\"red\">Template path:</strong> %s"
 msgstr "<strong class=\"red\">Cesta k šabloně:</strong> %s"
 
+#: includes/admin/settings/views/tools.php:43
+msgid "Legacy Server Support"
+msgstr ""
+
+#: includes/admin/settings/views/tools.php:49
+msgid "Emulate RESTful HTTP methods to support legacy servers."
+msgstr ""
+
 #: includes/admin/views/order-details.php:2
 msgid "Order type"
 msgstr "Typ objednávky"
@@ -243,29 +251,13 @@ msgstr ""
 "Při nahrávání nastavení se vyskytla chyba, prosím kontaktujte <a href="
 "\"mailto:support@woopos.com.au\">support</a>"
 
-#: includes/class-wc-pos-activator.php:173
+#: includes/class-wc-pos-activator.php:178
 msgid ""
 "<strong>WooCommerce POS</strong> requires <a href=\"%s\">WooCommerce</a>. "
 "Please <a href=\"%s\">install and activate WooCommerce</a>"
 msgstr ""
 "<strong>WooCommerce POS</strong> vyžaduje<a href=\"%s\">WooCommerce</a>. "
 "Prosím, <a href=\"%s\">nainstalujte a aktivujte WooCommerce</a>"
-
-#: includes/class-wc-pos-activator.php:192
-msgid ""
-"<strong>WooCommerce POS</strong> requires the WooCommerce REST API. Please "
-"<a href=\"%s\">enable the REST API</a>"
-msgstr ""
-"<strong>WooCommerce POS</strong> vyžaduje WooCommerce REST API. Prosím, <a "
-"href=\"%s\">povolte REST API</a>"
-
-#: includes/class-wc-pos-activator.php:209
-msgid ""
-"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to "
-"work correctly. Please <a href=\"%s\">enable permalinks</a>."
-msgstr ""
-"<strong>WooCommerce REST API</strong> vyžaduje <em>pretty</em> permalinks "
-"odkazy. Prosím, <a href=\"%s\">povolte odkazy</a>."
 
 #: includes/products/class-wc-pos-visibility.php:23
 msgid "POS & Online"
@@ -305,3 +297,17 @@ msgstr "Zobrazit ikonu platební brány"
 msgctxt "Default customer setting"
 msgid "Use cashier account"
 msgstr "Použít pokladní účet"
+
+#~ msgid ""
+#~ "<strong>WooCommerce POS</strong> requires the WooCommerce REST API. "
+#~ "Please <a href=\"%s\">enable the REST API</a>"
+#~ msgstr ""
+#~ "<strong>WooCommerce POS</strong> vyžaduje WooCommerce REST API. Prosím, "
+#~ "<a href=\"%s\">povolte REST API</a>"
+
+#~ msgid ""
+#~ "<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks "
+#~ "to work correctly. Please <a href=\"%s\">enable permalinks</a>."
+#~ msgstr ""
+#~ "<strong>WooCommerce REST API</strong> vyžaduje <em>pretty</em> permalinks "
+#~ "odkazy. Prosím, <a href=\"%s\">povolte odkazy</a>."

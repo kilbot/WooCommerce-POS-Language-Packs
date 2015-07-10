@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-06-02 04:17:17+00:00\n"
+"POT-Creation-Date: 2015-07-10 12:11:16+00:00\n"
 "PO-Revision-Date: 2015-06-11 11:46+0000\n"
 "Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
 "Language-Team: Italian (Italy) (http://www.transifex.com/projects/p/"
@@ -37,27 +37,27 @@ msgstr ""
 msgid "POS Transaction completed."
 msgstr "Transazione POS completata."
 
-#: includes/class-wc-pos-ajax.php:104
+#: includes/class-wc-pos-ajax.php:107
 msgid "There is no settings id"
 msgstr "Non esiste identificativo delle impostazioni"
 
-#: includes/class-wc-pos-ajax.php:123
+#: includes/class-wc-pos-ajax.php:125
 msgid "No handler found for %s settings"
 msgstr "Nessun gestore trovato per le impostazioni di% s"
 
-#: includes/class-wc-pos-ajax.php:146
+#: includes/class-wc-pos-ajax.php:156
 msgid "Settings error"
 msgstr "Errore nelle impostazioni"
 
-#: includes/class-wc-pos-ajax.php:165 includes/class-wc-pos-ajax.php:187
+#: includes/class-wc-pos-ajax.php:175 includes/class-wc-pos-ajax.php:199
 msgid "Email sent"
 msgstr "Email inviata"
 
-#: includes/class-wc-pos-ajax.php:170 includes/class-wc-pos-ajax.php:192
+#: includes/class-wc-pos-ajax.php:183 includes/class-wc-pos-ajax.php:204
 msgid "There was an error sending the email"
 msgstr "C'è stato un errore durante l'invio dell'email"
 
-#: includes/class-wc-pos-ajax.php:207
+#: includes/class-wc-pos-ajax.php:237
 msgid "Invalid security nonce"
 msgstr "Occorrenza di sicurezza non valida"
 
@@ -77,59 +77,93 @@ msgstr "Non pagato"
 msgid "Email Receipt"
 msgstr "Inoltra via Email"
 
+#: includes/class-wc-pos-i18n.php:339
+msgid "Local Storage"
+msgstr ""
+
 #. translators: wordpress
 #. translators: woocommerce
 #. translators: wordpress
-#: includes/class-wc-pos-i18n.php:346 includes/views/print/receipt.php:130
+#: includes/class-wc-pos-i18n.php:348 includes/views/print/receipt.php:130
 #: includes/views/support.php:23
 msgid "Email"
 msgstr "Email"
 
-#: includes/class-wc-pos-i18n.php:351
+#: includes/class-wc-pos-i18n.php:353
 msgid "Process Payment"
 msgstr "Ordina"
 
-#: includes/class-wc-pos-i18n.php:355
+#: includes/class-wc-pos-i18n.php:357
 msgid "Return to Sale"
 msgstr "Rivedi Ordine"
 
-#: includes/class-wc-pos-i18n.php:357
+#: includes/class-wc-pos-i18n.php:359
 msgid "Send"
 msgstr "Invia"
 
-#: includes/class-wc-pos-i18n.php:359
+#: includes/class-wc-pos-i18n.php:361
 msgid "Void"
 msgstr "Annulla Ordine"
 
-#: includes/class-wc-pos-i18n.php:369
+#: includes/class-wc-pos-i18n.php:371
 msgid "Your browser is not supported!"
 msgstr "Il tuo browser non è supportato"
 
-#: includes/class-wc-pos-status.php:18
+#: includes/class-wc-pos-status.php:29
 msgid "WC Version"
 msgstr "Versione WooCommerce"
 
-#: includes/class-wc-pos-status.php:21
+#: includes/class-wc-pos-status.php:36
 msgid "WooCommerce >= %s required"
 msgstr "E' necessario WooCommerce versione >= %s"
 
-#: includes/class-wc-pos-status.php:27
+#: includes/class-wc-pos-status.php:56
 msgid "WC REST API"
 msgstr "WC REST API"
 
-#: includes/class-wc-pos-status.php:29
+#: includes/class-wc-pos-status.php:57
 msgid "API is active"
 msgstr "API è attiva"
 
-#: includes/class-wc-pos-status.php:30
+#: includes/class-wc-pos-status.php:64
 msgid "Access to the REST API is required"
 msgstr "L'accesso alla REST API è richiesto"
+
+#: includes/class-wc-pos-status.php:80
+msgid ""
+"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to "
+"work correctly"
+msgstr ""
+
+#: includes/class-wc-pos-status.php:84
+msgid "Enable permalinks"
+msgstr ""
+
+#: includes/class-wc-pos-status.php:94
+msgid "Unable to test the REST API"
+msgstr ""
+
+#: includes/class-wc-pos-status.php:105
+msgid "Unable to use RESTful HTTP methods"
+msgstr ""
+
+#: includes/class-wc-pos-status.php:109
+msgid "Enable legacy server support"
+msgstr ""
+
+#: includes/class-wc-pos-status.php:118
+msgid "Legacy server support enabled"
+msgstr ""
+
+#: includes/class-wc-pos-status.php:122
+msgid "Disable legacy server support"
+msgstr ""
 
 #: includes/class-wc-pos-template.php:152
 msgid "POS"
 msgstr "POS"
 
-#: includes/class-wc-pos.php:115
+#: includes/class-wc-pos.php:114
 msgid "User not authorized to access WooCommerce POS"
 msgstr "Utente non autorizzato per l'accesso a WooCommerce POS"
 
@@ -259,27 +293,27 @@ msgctxt "Money returned from cash sale"
 msgid "Change"
 msgstr "Resto"
 
-#: includes/class-wc-pos-i18n.php:342
+#: includes/class-wc-pos-i18n.php:344
 msgctxt "system status: delete local records"
 msgid "Clear"
 msgstr "Elimina"
 
-#: includes/class-wc-pos-i18n.php:353
+#: includes/class-wc-pos-i18n.php:355
 msgctxt "restore default settings"
 msgid "Restore defaults"
 msgstr "Ripristina valori predefiniti"
 
-#: includes/class-wc-pos-i18n.php:354
+#: includes/class-wc-pos-i18n.php:356
 msgctxt "Numpad return key"
 msgid "return"
 msgstr "Invio"
 
-#: includes/class-wc-pos-i18n.php:373
+#: includes/class-wc-pos-i18n.php:375
 msgctxt "eg: 23 records"
 msgid "record |||| records"
 msgstr "record |||| records"
 
-#: includes/class-wc-pos-params.php:74
+#: includes/class-wc-pos-params.php:76
 msgctxt "Product tab: 'On Sale' products"
 msgid "On Sale"
 msgstr "In Offerta"
@@ -290,7 +324,7 @@ msgctxt "Abbreviation of Quantity"
 msgid "Qty"
 msgstr "Q.tà"
 
-#: includes/views/pos/cart.php:116 includes/views/pos/cart.php:127
+#: includes/views/pos/cart.php:109 includes/views/pos/cart.php:120
 #: includes/views/pos/receipt.php:84 includes/views/pos/receipt.php:94
 #: includes/views/print/receipt.php:204 includes/views/print/receipt.php:214
 msgctxt "abbreviation for includes (tax)"

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-06-02 07:55:30+00:00\n"
+"POT-Creation-Date: 2015-07-09 05:15:26+00:00\n"
 "PO-Revision-Date: 2015-06-26 08:13+0000\n"
 "Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
 "Language-Team: Greek (http://www.transifex.com/projects/p/woocommerce-pos/"
@@ -40,44 +40,44 @@ msgstr ""
 " <a href=\"%s\">Κάντε κλικ εδώ</a> για να ενεργοποιήσετε το κλειδί της "
 "άδειας και το πρόσθετο."
 
-#: includes/admin/class-wc-pos-pro-am.php:249
+#: includes/admin/class-wc-pos-pro-am.php:252
 msgid "Unable to connect to the activation server"
 msgstr "Δεν είναι δυνατή η σύνδεση με το διακομιστή ενεργοποίησης"
 
-#: includes/admin/class-wc-pos-pro-am.php:284
+#: includes/admin/class-wc-pos-pro-am.php:287
 msgid "Unable to parse the server response"
 msgstr "Δεν είναι δυνατή η ανάλυση της απάντησης του διακομιστή"
 
-#: includes/admin/class-wc-pos-pro-am.php:296
+#: includes/admin/class-wc-pos-pro-am.php:299
 msgid "Invalid Request"
 msgstr "Μη έγκυρο αίτημα"
 
-#: includes/admin/class-wc-pos-pro-am.php:298
-#: includes/admin/class-wc-pos-pro-am.php:302
+#: includes/admin/class-wc-pos-pro-am.php:301
+#: includes/admin/class-wc-pos-pro-am.php:305
 msgid "Invalid License Key"
 msgstr "Μη έγκυρο Κλειδί Άδειας Χρήσης"
 
-#: includes/admin/class-wc-pos-pro-am.php:299
+#: includes/admin/class-wc-pos-pro-am.php:302
 msgid "Activation error"
 msgstr "Σφάλμα ενεργοποίησης"
 
-#: includes/admin/class-wc-pos-pro-am.php:300
+#: includes/admin/class-wc-pos-pro-am.php:303
 msgid "Exceeded maximum number of activations"
 msgstr "Υπέρβαση μέγιστου αριθμού των ενεργοποιήσεων"
 
-#: includes/admin/class-wc-pos-pro-am.php:301
+#: includes/admin/class-wc-pos-pro-am.php:304
 msgid "Invalid Instance ID"
 msgstr "Μη έγκυρο αναγνωριστικό εμφάνισης"
 
-#: includes/admin/class-wc-pos-pro-am.php:303
+#: includes/admin/class-wc-pos-pro-am.php:306
 msgid "Subscription is not active"
 msgstr "Συνδρομή δεν είναι ενεργή"
 
-#: includes/admin/class-wc-pos-pro-am.php:306
+#: includes/admin/class-wc-pos-pro-am.php:309
 msgid "Invalid Response"
 msgstr "Μη έγκυρη απάντηση"
 
-#: includes/admin/class-wc-pos-pro-am.php:321
+#: includes/admin/class-wc-pos-pro-am.php:324
 msgid ""
 "A license key for %s could not be found. Maybe you forgot to enter a license "
 "key when setting up %s, or the key was deactivated in your account. You can "
@@ -90,7 +90,7 @@ msgstr ""
 "κλειδί από το <a href=\"%s\" target=\"_blank\">ταμπλό</a> του λογαριασμού "
 "σας."
 
-#: includes/admin/class-wc-pos-pro-am.php:322
+#: includes/admin/class-wc-pos-pro-am.php:325
 msgid ""
 "The license key for %s has expired. You can reactivate or purchase a license "
 "key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
@@ -99,7 +99,7 @@ msgstr ""
 "ή να αγοράσετε ένα κλειδί άδειας από το <a href=\"%s\" target=\"_blank"
 "\">ταμπλό</a> του λογαριασμού σας."
 
-#: includes/admin/class-wc-pos-pro-am.php:323
+#: includes/admin/class-wc-pos-pro-am.php:326
 msgid ""
 "The subscription for %s is on-hold. You can reactivate the subscription from "
 "your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
@@ -107,7 +107,7 @@ msgstr ""
 "Η συνδρομή για το %s είναι σε αναμονή. Μπορείτε να ενεργοποιήσετε ξανά τη "
 "συνδρομή από το λογαριασμό σας <a href=\"%s\" target=\"_blank\">ταμπλό</a>."
 
-#: includes/admin/class-wc-pos-pro-am.php:324
+#: includes/admin/class-wc-pos-pro-am.php:327
 msgid ""
 "The subscription for %s has been cancelled. You can renew the subscription "
 "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>. A new "
@@ -117,7 +117,7 @@ msgstr ""
 "το <a href=\"%s\" target=\"_blank\">ταμπλό</a> του λογαριασμού σας. Ένα νέο "
 "κλειδί θα σας σταλεί μετά την ολοκλήρωση της παραγγελία σας."
 
-#: includes/admin/class-wc-pos-pro-am.php:325
+#: includes/admin/class-wc-pos-pro-am.php:328
 msgid ""
 "The subscription for %s has expired. You can reactivate the subscription "
 "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
@@ -126,7 +126,7 @@ msgstr ""
 "συνδρομή από το <a href=\"%s\" target=\"_blank\">ταμπλό</a> του λογαριασμού "
 "σας."
 
-#: includes/admin/class-wc-pos-pro-am.php:326
+#: includes/admin/class-wc-pos-pro-am.php:329
 msgid ""
 "The subscription for %s has been suspended. You can reactivate the "
 "subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
@@ -136,7 +136,7 @@ msgstr ""
 "τη συνδρομή από το <a href=\"%s\" target=\"_blank\">ταμπλό</a> του "
 "λογαριασμού σας."
 
-#: includes/admin/class-wc-pos-pro-am.php:327
+#: includes/admin/class-wc-pos-pro-am.php:330
 msgid ""
 "The subscription for %s is still pending. You can check on the status of the "
 "subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
@@ -146,7 +146,7 @@ msgstr ""
 "την κατάσταση της συνδρομής από το <a href=\"%s\" target=\"_blank\">ταμπλό</"
 "a> του λογαριασμού σας."
 
-#: includes/admin/class-wc-pos-pro-am.php:328
+#: includes/admin/class-wc-pos-pro-am.php:331
 msgid ""
 "The subscription for %s has been placed in the trash and will be deleted "
 "soon. You can purchase a new subscription from your account <a href=\"%s\" "
@@ -156,7 +156,7 @@ msgstr ""
 "διαγραφεί σύντομα. Μπορείτε να αγοράσετε μια νέα συνδρομή από το <a href=\"%s"
 "\" target=\"_blank\">ταμπλό</a> του λογαριασμού σας."
 
-#: includes/admin/class-wc-pos-pro-am.php:329
+#: includes/admin/class-wc-pos-pro-am.php:332
 msgid ""
 "A subscription for %s could not be found. You can purchase a subscription "
 "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
@@ -164,7 +164,7 @@ msgstr ""
 "Η συνδρομή για %s δεν βρέθηκε. Μπορείτε να αγοράσετε μια συνδρομή από το <a "
 "href=\"%s\" target=\"_blank\">ταμπλό</a> του λογαριασμού σας."
 
-#: includes/admin/class-wc-pos-pro-am.php:330
+#: includes/admin/class-wc-pos-pro-am.php:333
 msgid ""
 "%s has not been activated. Go to the settings page and enter the license key "
 "and license email to activate %s."
@@ -173,7 +173,7 @@ msgstr ""
 "πληκτρολογήστε το κλειδί ασφαλείας και το ηλεκτρονικό ταχυδρομείο για να "
 "ενεργοποιήσετε το %s."
 
-#: includes/admin/class-wc-pos-pro-am.php:331
+#: includes/admin/class-wc-pos-pro-am.php:334
 msgid ""
 "Download permission for %s has been revoked possibly due to a license key or "
 "subscription expiring. You can reactivate or purchase a license key from "
@@ -183,7 +183,7 @@ msgstr ""
 "εγγραφής. Μπορείτε να ενεργοποιήσετε ή να αγοράσετε ένα κλειδί άδειας από το "
 "<a href=\"%s\" target=\"_blank\">ταμπλό</a> του λογαριασμού σας."
 
-#: includes/admin/class-wc-pos-pro-am.php:332
+#: includes/admin/class-wc-pos-pro-am.php:335
 msgid ""
 "You changed the subscription for %s, so you will need to enter your new API "
 "License Key in the settings page. The License Key should have arrived in "
@@ -197,11 +197,11 @@ msgstr ""
 "\">ταμπλό</a> του λογαριασμού σας."
 
 #: includes/admin/class-wc-pos-pro-reports.php:27
-#: includes/admin/reports/class-wc-pos-pro-sales.php:498
-#: includes/admin/reports/class-wc-pos-pro-sales.php:500
-#: includes/admin/reports/class-wc-pos-pro-sales.php:502
-#: includes/admin/reports/class-wc-pos-pro-sales.php:504
-#: includes/admin/reports/class-wc-pos-pro-sales.php:506
+#: includes/admin/reports/views/sales-table.php:12
+#: includes/admin/reports/views/sales-table.php:14
+#: includes/admin/reports/views/sales-table.php:16
+#: includes/admin/reports/views/sales-table.php:18
+#: includes/admin/reports/views/sales-table.php:20
 msgid "POS"
 msgstr "POS"
 
@@ -213,6 +213,15 @@ msgstr "POS vs Online"
 msgid "Sales by cashier"
 msgstr "Πωλήσεις ανά ταμεία"
 
+#: includes/admin/class-wc-pos-pro-reports.php:42
+#, fuzzy
+msgid "Sales by store"
+msgstr "Πωλήσεις ανά ταμεία"
+
+#: includes/admin/class-wc-pos-pro-reports.php:48
+msgid "Sales by payment method"
+msgstr ""
+
 #: includes/admin/class-wc-pos-pro-stores.php:62
 msgid "Stores"
 msgstr "Καταστήματα"
@@ -222,6 +231,7 @@ msgid "Open POS"
 msgstr "Άνοιγμα POS"
 
 #: includes/admin/class-wc-pos-pro-stores.php:148
+#: includes/admin/views/order-details.php:2
 msgid "Store"
 msgstr "Κατάστημα"
 
@@ -270,94 +280,82 @@ msgstr ""
 "Παρακαλούμε <a href=\"%s\"> διαβάστε το εγχειρίδιο </a> για πληροφορίες "
 "σχετικά με το πώς να προσαρμόσετε τις αποδείξεις του POS."
 
-#: includes/admin/reports/class-wc-pos-pro-cashier.php:143
-msgid "Sales amount"
-msgstr "Ποσό πώλησης"
-
-#: includes/admin/reports/class-wc-pos-pro-sales.php:25
-#: includes/admin/reports/class-wc-pos-pro-sales.php:247
+#: includes/admin/reports/class-wc-pos-pro-sales.php:166
+#: includes/admin/reports/class-wc-pos-pro-sales.php:169
+#: includes/admin/reports/class-wc-pos-pro-sales.php:236
+#: includes/admin/reports/class-wc-pos-pro-sales.php:250
+#: includes/admin/reports/class-wc-pos-pro-sales.php:268
+#: includes/admin/reports/class-wc-pos-pro-sales.php:274
 msgid "POS Sales"
 msgstr "Πωλήσεις POS"
 
-#: includes/admin/reports/class-wc-pos-pro-sales.php:31
-#: includes/admin/reports/class-wc-pos-pro-sales.php:257
+#: includes/admin/reports/class-wc-pos-pro-sales.php:172
+#: includes/admin/reports/class-wc-pos-pro-sales.php:175
+#: includes/admin/reports/class-wc-pos-pro-sales.php:242
+#: includes/admin/reports/class-wc-pos-pro-sales.php:256
 msgid "Online Sales"
 msgstr "Πωλήσεις Ηλεκτρονικού Καταστήματος"
 
-#: includes/admin/reports/class-wc-pos-pro-sales.php:160
-#: includes/admin/reports/class-wc-pos-pro-sales.php:170
-msgid "POS Orders"
-msgstr "Παραγγελίες POS"
+#: includes/admin/reports/class-wc-pos-pro-store.php:59
+msgid "No Stores found."
+msgstr ""
 
-#: includes/admin/reports/class-wc-pos-pro-sales.php:161
-#: includes/admin/reports/class-wc-pos-pro-sales.php:175
-msgid "Online Orders"
-msgstr "Παραγγελίες Ηλεκτρονικού Καταστήματος"
+#: includes/admin/reports/class-wc-pos-pro-store.php:61
+msgid "Add New Store"
+msgstr ""
 
-#: includes/admin/reports/class-wc-pos-pro-sales.php:194
-msgid "orders"
-msgstr "παραγγελίες"
-
-#: includes/admin/reports/class-wc-pos-pro-sales.php:267
-msgid "Average POS sales amount"
-msgstr "Μέσo ποσό πώλησης POS"
-
-#: includes/admin/reports/class-wc-pos-pro-sales.php:277
-msgid "Average Online sales amount"
-msgstr "Μέσo ποσό πώλησης Ηλεκτρονικού Καταστήματος"
-
-#: includes/admin/reports/class-wc-pos-pro-sales.php:490
+#: includes/admin/reports/views/sales-table.php:4
 msgid "Period"
 msgstr "Περίοδος"
 
-#: includes/admin/reports/class-wc-pos-pro-sales.php:491
+#: includes/admin/reports/views/sales-table.php:5
 msgid "Orders"
 msgstr "Παραγγελίες"
 
-#: includes/admin/reports/class-wc-pos-pro-sales.php:492
+#: includes/admin/reports/views/sales-table.php:6
 msgid "Total Sales"
 msgstr "Ολικό Πωλήσεων "
 
-#: includes/admin/reports/class-wc-pos-pro-sales.php:492
+#: includes/admin/reports/views/sales-table.php:6
 msgid "This is the sum of the 'Order Total' field within your orders."
 msgstr ""
 "Αυτό είναι το άθροισμα του πεδίου \"Σύνολο Παραγγελίας\", των παραγγελιών "
 "σας."
 
-#: includes/admin/reports/class-wc-pos-pro-sales.php:493
+#: includes/admin/reports/views/sales-table.php:7
 msgid "Total Shipping"
 msgstr "Σύνολο Αποστολής"
 
-#: includes/admin/reports/class-wc-pos-pro-sales.php:493
+#: includes/admin/reports/views/sales-table.php:7
 msgid "This is the sum of the 'Shipping Total' field within your orders."
 msgstr ""
 "Αυτό είναι το άθροισμα του πεδίου \"Σύνολο Αποστολής\", των παραγγελιών σας."
 
-#: includes/admin/reports/class-wc-pos-pro-sales.php:494
+#: includes/admin/reports/views/sales-table.php:8
 msgid "Total Tax"
 msgstr "Σύνολο Φόρου"
 
-#: includes/admin/reports/class-wc-pos-pro-sales.php:494
+#: includes/admin/reports/views/sales-table.php:8
 msgid "This is the total tax for the rate (shipping tax + product tax)."
 msgstr "Αυτό είναι το σύνολο του φόρου (φόρος αποστολής + φόρος προϊόντος)."
 
-#: includes/admin/reports/class-wc-pos-pro-sales.php:495
+#: includes/admin/reports/views/sales-table.php:9
 msgid "Net profit"
 msgstr "Καθαρό κέρδος"
 
-#: includes/admin/reports/class-wc-pos-pro-sales.php:495
+#: includes/admin/reports/views/sales-table.php:9
 msgid "Total sales minus shipping and tax."
 msgstr "Συνολικές πωλήσεις μείον έξοδα αποστολής και φόρος."
 
-#: includes/admin/reports/class-wc-pos-pro-sales.php:499
-#: includes/admin/reports/class-wc-pos-pro-sales.php:501
-#: includes/admin/reports/class-wc-pos-pro-sales.php:503
-#: includes/admin/reports/class-wc-pos-pro-sales.php:505
-#: includes/admin/reports/class-wc-pos-pro-sales.php:507
+#: includes/admin/reports/views/sales-table.php:13
+#: includes/admin/reports/views/sales-table.php:15
+#: includes/admin/reports/views/sales-table.php:17
+#: includes/admin/reports/views/sales-table.php:19
+#: includes/admin/reports/views/sales-table.php:21
 msgid "Online"
 msgstr "Συνδεδεμένο"
 
-#: includes/admin/reports/class-wc-pos-pro-sales.php:541
+#: includes/admin/reports/views/sales-table.php:55
 msgid "Total"
 msgstr "Σύνολο"
 
@@ -469,3 +467,21 @@ msgstr ""
 "Το <strong>WooCommerce POS Pro</strong> απαιτεί το <a href=\"%s"
 "\">WooCommerce POS</a>. Παρακαλούμε <a href=\"%s\">εγκαταστήστε και "
 "ενεργοποιήστε το WooCommerce POS</a>"
+
+#~ msgid "Sales amount"
+#~ msgstr "Ποσό πώλησης"
+
+#~ msgid "POS Orders"
+#~ msgstr "Παραγγελίες POS"
+
+#~ msgid "Online Orders"
+#~ msgstr "Παραγγελίες Ηλεκτρονικού Καταστήματος"
+
+#~ msgid "orders"
+#~ msgstr "παραγγελίες"
+
+#~ msgid "Average POS sales amount"
+#~ msgstr "Μέσo ποσό πώλησης POS"
+
+#~ msgid "Average Online sales amount"
+#~ msgstr "Μέσo ποσό πώλησης Ηλεκτρονικού Καταστήματος"

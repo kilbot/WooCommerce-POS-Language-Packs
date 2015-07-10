@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-06-02 04:17:17+00:00\n"
+"POT-Creation-Date: 2015-07-10 12:11:16+00:00\n"
 "PO-Revision-Date: 2014-08-24 20:41:04+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,31 +30,31 @@ msgstr ""
 msgid "POS Transaction completed."
 msgstr ""
 
-#: includes/class-wc-pos-ajax.php:104
+#: includes/class-wc-pos-ajax.php:107
 #, fuzzy
 msgid "There is no settings id"
 msgstr "Det skjedde en feil under sendingen av eposten"
 
-#: includes/class-wc-pos-ajax.php:123
+#: includes/class-wc-pos-ajax.php:125
 msgid "No handler found for %s settings"
 msgstr ""
 
-#: includes/class-wc-pos-ajax.php:146
+#: includes/class-wc-pos-ajax.php:156
 #, fuzzy
 msgid "Settings error"
 msgstr "Innstillinger"
 
-#: includes/class-wc-pos-ajax.php:165 includes/class-wc-pos-ajax.php:187
+#: includes/class-wc-pos-ajax.php:175 includes/class-wc-pos-ajax.php:199
 #, fuzzy
 msgid "Email sent"
 msgstr "Epost er sendt"
 
-#: includes/class-wc-pos-ajax.php:170 includes/class-wc-pos-ajax.php:192
+#: includes/class-wc-pos-ajax.php:183 includes/class-wc-pos-ajax.php:204
 #, fuzzy
 msgid "There was an error sending the email"
 msgstr "Det oppstod en feil under sendingen."
 
-#: includes/class-wc-pos-ajax.php:207
+#: includes/class-wc-pos-ajax.php:237
 msgid "Invalid security nonce"
 msgstr ""
 
@@ -74,61 +74,99 @@ msgstr ""
 msgid "Email Receipt"
 msgstr "Kvittering på epost"
 
+#: includes/class-wc-pos-i18n.php:339
+msgid "Local Storage"
+msgstr ""
+
 #. translators: wordpress
 #. translators: woocommerce
 #. translators: wordpress
-#: includes/class-wc-pos-i18n.php:346 includes/views/print/receipt.php:130
+#: includes/class-wc-pos-i18n.php:348 includes/views/print/receipt.php:130
 #: includes/views/support.php:23
 msgid "Email"
 msgstr "Epost"
 
-#: includes/class-wc-pos-i18n.php:351
+#: includes/class-wc-pos-i18n.php:353
 msgid "Process Payment"
 msgstr "Prosesser betalingen"
 
-#: includes/class-wc-pos-i18n.php:355
+#: includes/class-wc-pos-i18n.php:357
 msgid "Return to Sale"
 msgstr "Tilbake til salg"
 
-#: includes/class-wc-pos-i18n.php:357
+#: includes/class-wc-pos-i18n.php:359
 msgid "Send"
 msgstr "Send"
 
-#: includes/class-wc-pos-i18n.php:359
+#: includes/class-wc-pos-i18n.php:361
 msgid "Void"
 msgstr "Annullér"
 
-#: includes/class-wc-pos-i18n.php:369
+#: includes/class-wc-pos-i18n.php:371
 msgid "Your browser is not supported!"
 msgstr "Nettleseren din støttes ikke!"
 
-#: includes/class-wc-pos-status.php:18
+#: includes/class-wc-pos-status.php:29
 #, fuzzy
 msgid "WC Version"
 msgstr "WooCommerce versjon"
 
-#: includes/class-wc-pos-status.php:21
+#: includes/class-wc-pos-status.php:36
 #, fuzzy
 msgid "WooCommerce >= %s required"
 msgstr "WooCommerce >= 2.1 kreves"
 
-#: includes/class-wc-pos-status.php:27
+#: includes/class-wc-pos-status.php:56
 msgid "WC REST API"
 msgstr "WC REST API"
 
-#: includes/class-wc-pos-status.php:29
+#: includes/class-wc-pos-status.php:57
 msgid "API is active"
 msgstr "API er aktivert"
 
-#: includes/class-wc-pos-status.php:30
+#: includes/class-wc-pos-status.php:64
 msgid "Access to the REST API is required"
 msgstr "Det kreves tilgang til REST API"
+
+#: includes/class-wc-pos-status.php:80
+#, fuzzy
+msgid ""
+"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to "
+"work correctly"
+msgstr ""
+"<strong>WooCommerce REST API</strong> krever <em>pretty</em> permalinks for "
+"å fungere ordentlig. Vennligs aktiver <a href=\"%s\">permalinks</a>."
+
+#: includes/class-wc-pos-status.php:84
+msgid "Enable permalinks"
+msgstr ""
+
+#: includes/class-wc-pos-status.php:94
+#, fuzzy
+msgid "Unable to test the REST API"
+msgstr "Aktiver REST API"
+
+#: includes/class-wc-pos-status.php:105
+msgid "Unable to use RESTful HTTP methods"
+msgstr ""
+
+#: includes/class-wc-pos-status.php:109
+msgid "Enable legacy server support"
+msgstr ""
+
+#: includes/class-wc-pos-status.php:118
+msgid "Legacy server support enabled"
+msgstr ""
+
+#: includes/class-wc-pos-status.php:122
+msgid "Disable legacy server support"
+msgstr ""
 
 #: includes/class-wc-pos-template.php:152
 msgid "POS"
 msgstr "Kasseapparat"
 
-#: includes/class-wc-pos.php:115
+#: includes/class-wc-pos.php:114
 #, fuzzy
 msgid "User not authorized to access WooCommerce POS"
 msgstr "Brukeren er ikke autorisert til å bruke WooCommerce POS"
@@ -260,28 +298,28 @@ msgctxt "Money returned from cash sale"
 msgid "Change"
 msgstr "Veksel"
 
-#: includes/class-wc-pos-i18n.php:342
+#: includes/class-wc-pos-i18n.php:344
 #, fuzzy
 msgctxt "system status: delete local records"
 msgid "Clear"
 msgstr "slett"
 
-#: includes/class-wc-pos-i18n.php:353
+#: includes/class-wc-pos-i18n.php:355
 msgctxt "restore default settings"
 msgid "Restore defaults"
 msgstr ""
 
-#: includes/class-wc-pos-i18n.php:354
+#: includes/class-wc-pos-i18n.php:356
 msgctxt "Numpad return key"
 msgid "return"
 msgstr ""
 
-#: includes/class-wc-pos-i18n.php:373
+#: includes/class-wc-pos-i18n.php:375
 msgctxt "eg: 23 records"
 msgid "record |||| records"
 msgstr ""
 
-#: includes/class-wc-pos-params.php:74
+#: includes/class-wc-pos-params.php:76
 msgctxt "Product tab: 'On Sale' products"
 msgid "On Sale"
 msgstr "Salg"
@@ -293,7 +331,7 @@ msgctxt "Abbreviation of Quantity"
 msgid "Qty"
 msgstr "Ant"
 
-#: includes/views/pos/cart.php:116 includes/views/pos/cart.php:127
+#: includes/views/pos/cart.php:109 includes/views/pos/cart.php:120
 #: includes/views/pos/receipt.php:84 includes/views/pos/receipt.php:94
 #: includes/views/print/receipt.php:204 includes/views/print/receipt.php:214
 msgctxt "abbreviation for includes (tax)"
@@ -592,13 +630,6 @@ msgstr "inkl."
 #~ "plugins/woocommerce/\">WooCommerce</a>. Vennligst installer og aktiver "
 #~ "WooCommerce før du aktiverer WooCommerce POS"
 
-#~ msgid ""
-#~ "<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks "
-#~ "to work correctly. Please enable <a href=\"%s\">permalinks</a>."
-#~ msgstr ""
-#~ "<strong>WooCommerce REST API</strong> krever <em>pretty</em> permalinks "
-#~ "for å fungere ordentlig. Vennligs aktiver <a href=\"%s\">permalinks</a>."
-
 #~ msgid "WooCommerce POS"
 #~ msgstr "WooCommerce POS"
 
@@ -616,9 +647,6 @@ msgstr "inkl."
 
 #~ msgid "Update"
 #~ msgstr "Oppdater"
-
-#~ msgid "Enable REST API"
-#~ msgstr "Aktiver REST API"
 
 #~ msgid "Order &ndash; %s"
 #~ msgstr "Ordre &ndash; %s"

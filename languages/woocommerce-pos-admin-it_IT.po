@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-06-02 04:17:17+00:00\n"
+"POT-Creation-Date: 2015-07-10 12:11:16+00:00\n"
 "PO-Revision-Date: 2015-06-12 21:09+0000\n"
 "Last-Translator: Francesco Cozzi <francescout@gmail.com>\n"
 "Language-Team: Italian (Italy) (http://www.transifex.com/projects/p/"
@@ -235,6 +235,14 @@ msgstr "Visualizza Esempio Ricevuta"
 msgid "<strong class=\"red\">Template path:</strong> %s"
 msgstr "<strong class=\"red\">Percorso tema:</strong> %s"
 
+#: includes/admin/settings/views/tools.php:43
+msgid "Legacy Server Support"
+msgstr ""
+
+#: includes/admin/settings/views/tools.php:49
+msgid "Emulate RESTful HTTP methods to support legacy servers."
+msgstr ""
+
 #: includes/admin/views/order-details.php:2
 msgid "Order type"
 msgstr "Tipo Ordine"
@@ -247,30 +255,13 @@ msgstr ""
 "C'è un errore nel caricamento delle impostazioni, contatta il supporto "
 "all'indirizzo <a href=\"mailto:support@woopos.com.au\"></a>"
 
-#: includes/class-wc-pos-activator.php:173
+#: includes/class-wc-pos-activator.php:178
 msgid ""
 "<strong>WooCommerce POS</strong> requires <a href=\"%s\">WooCommerce</a>. "
 "Please <a href=\"%s\">install and activate WooCommerce</a>"
 msgstr ""
 "<strong>WooCommerce POS</strong> richiede <a href=\"%s\">WooCommerce</a>.  "
 "<a href=\"%s\">Installa e attiva WooCommerce</a>"
-
-#: includes/class-wc-pos-activator.php:192
-msgid ""
-"<strong>WooCommerce POS</strong> requires the WooCommerce REST API. Please "
-"<a href=\"%s\">enable the REST API</a>"
-msgstr ""
-"<strong>WooCommerce POS</strong> richiede WooCommerce REST API. <a href=\"%s"
-"\">Attiva il REST API</a>"
-
-#: includes/class-wc-pos-activator.php:209
-msgid ""
-"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to "
-"work correctly. Please <a href=\"%s\">enable permalinks</a>."
-msgstr ""
-"<strong>WooCommerce REST API</strong> richiede dei <em>pretty</em> "
-"permalinks per funzionare correttamente. Attiva i <a href=\"%s\">permalinks</"
-"a>."
 
 #: includes/products/class-wc-pos-visibility.php:23
 msgid "POS & Online"
@@ -310,3 +301,18 @@ msgstr "Mostra icona metodo pagamento."
 msgctxt "Default customer setting"
 msgid "Use cashier account"
 msgstr "Usa account cassiere"
+
+#~ msgid ""
+#~ "<strong>WooCommerce POS</strong> requires the WooCommerce REST API. "
+#~ "Please <a href=\"%s\">enable the REST API</a>"
+#~ msgstr ""
+#~ "<strong>WooCommerce POS</strong> richiede WooCommerce REST API. <a href="
+#~ "\"%s\">Attiva il REST API</a>"
+
+#~ msgid ""
+#~ "<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks "
+#~ "to work correctly. Please <a href=\"%s\">enable permalinks</a>."
+#~ msgstr ""
+#~ "<strong>WooCommerce REST API</strong> richiede dei <em>pretty</em> "
+#~ "permalinks per funzionare correttamente. Attiva i <a href=\"%s"
+#~ "\">permalinks</a>."

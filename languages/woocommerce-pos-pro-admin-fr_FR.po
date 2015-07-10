@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-06-02 07:55:30+00:00\n"
+"POT-Creation-Date: 2015-07-09 05:15:26+00:00\n"
 "PO-Revision-Date: 2015-07-06 06:23+0000\n"
 "Last-Translator: Steven Roh <stivikipirdi@gmail.com>\n"
 "Language-Team: French (France) (http://www.transifex.com/projects/p/"
@@ -39,44 +39,44 @@ msgid ""
 msgstr ""
 "<a href=\"%s\">Cliquez ici</a> pour activer la clé de licence et l'extension."
 
-#: includes/admin/class-wc-pos-pro-am.php:249
+#: includes/admin/class-wc-pos-pro-am.php:252
 msgid "Unable to connect to the activation server"
 msgstr "Impossible de se connecter au serveur d'activation"
 
-#: includes/admin/class-wc-pos-pro-am.php:284
+#: includes/admin/class-wc-pos-pro-am.php:287
 msgid "Unable to parse the server response"
 msgstr "Impossible d’analyser la réponse du serveur."
 
-#: includes/admin/class-wc-pos-pro-am.php:296
+#: includes/admin/class-wc-pos-pro-am.php:299
 msgid "Invalid Request"
 msgstr "Requête invalide"
 
-#: includes/admin/class-wc-pos-pro-am.php:298
-#: includes/admin/class-wc-pos-pro-am.php:302
+#: includes/admin/class-wc-pos-pro-am.php:301
+#: includes/admin/class-wc-pos-pro-am.php:305
 msgid "Invalid License Key"
 msgstr "Clé de licence invalide"
 
-#: includes/admin/class-wc-pos-pro-am.php:299
+#: includes/admin/class-wc-pos-pro-am.php:302
 msgid "Activation error"
 msgstr "Erreur d'activation"
 
-#: includes/admin/class-wc-pos-pro-am.php:300
+#: includes/admin/class-wc-pos-pro-am.php:303
 msgid "Exceeded maximum number of activations"
 msgstr "Dépassement du nombre maximum d'activations"
 
-#: includes/admin/class-wc-pos-pro-am.php:301
+#: includes/admin/class-wc-pos-pro-am.php:304
 msgid "Invalid Instance ID"
 msgstr "Identifiant de l'instance invalide"
 
-#: includes/admin/class-wc-pos-pro-am.php:303
+#: includes/admin/class-wc-pos-pro-am.php:306
 msgid "Subscription is not active"
 msgstr "L'abonnement n'est pas actif"
 
-#: includes/admin/class-wc-pos-pro-am.php:306
+#: includes/admin/class-wc-pos-pro-am.php:309
 msgid "Invalid Response"
 msgstr "Réponse invalide"
 
-#: includes/admin/class-wc-pos-pro-am.php:321
+#: includes/admin/class-wc-pos-pro-am.php:324
 msgid ""
 "A license key for %s could not be found. Maybe you forgot to enter a license "
 "key when setting up %s, or the key was deactivated in your account. You can "
@@ -89,7 +89,7 @@ msgstr ""
 "clé de licence depuis votre compte <a href=\"%s\" target=\"_blank\">Tableau "
 "de bord</a>."
 
-#: includes/admin/class-wc-pos-pro-am.php:322
+#: includes/admin/class-wc-pos-pro-am.php:325
 msgid ""
 "The license key for %s has expired. You can reactivate or purchase a license "
 "key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
@@ -98,7 +98,7 @@ msgstr ""
 "clé de licence depuis votre compte <a href=\"%s\" target=\"_blank\">Tableau "
 "de bord</a>."
 
-#: includes/admin/class-wc-pos-pro-am.php:323
+#: includes/admin/class-wc-pos-pro-am.php:326
 msgid ""
 "The subscription for %s is on-hold. You can reactivate the subscription from "
 "your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
@@ -106,7 +106,7 @@ msgstr ""
 "L'abonnement pour %s est en attente. Vous pouvez réactiver l'abonnement "
 "depuis votre compte <a href=\"%s\" target=\"_blank\">Tableau de bord</a>."
 
-#: includes/admin/class-wc-pos-pro-am.php:324
+#: includes/admin/class-wc-pos-pro-am.php:327
 msgid ""
 "The subscription for %s has been cancelled. You can renew the subscription "
 "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>. A new "
@@ -117,7 +117,7 @@ msgstr ""
 "Une nouvelle clé de licence vous sera transmise par email lorsque la "
 "commande sera terminée."
 
-#: includes/admin/class-wc-pos-pro-am.php:325
+#: includes/admin/class-wc-pos-pro-am.php:328
 msgid ""
 "The subscription for %s has expired. You can reactivate the subscription "
 "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
@@ -125,7 +125,7 @@ msgstr ""
 "L'abonnement pour %s a expiré. Vous pouvez réactiver l'abonnement depuis "
 "votre compte <a href=\"%s\" target=\"_blank\">Tableau de bord</a>."
 
-#: includes/admin/class-wc-pos-pro-am.php:326
+#: includes/admin/class-wc-pos-pro-am.php:329
 msgid ""
 "The subscription for %s has been suspended. You can reactivate the "
 "subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
@@ -134,7 +134,7 @@ msgstr ""
 "L'abonnement pour %s a été supendu. Vous pouvez réactiver l'abonnement "
 "depuis votre compte <a href=\"%s\" target=\"_blank\">Tableau de bord</a>."
 
-#: includes/admin/class-wc-pos-pro-am.php:327
+#: includes/admin/class-wc-pos-pro-am.php:330
 msgid ""
 "The subscription for %s is still pending. You can check on the status of the "
 "subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
@@ -144,7 +144,7 @@ msgstr ""
 "de l'abonnement depuis votre compte <a href=\"%s\" target=\"_blank\">Tableau "
 "de bord</a>."
 
-#: includes/admin/class-wc-pos-pro-am.php:328
+#: includes/admin/class-wc-pos-pro-am.php:331
 msgid ""
 "The subscription for %s has been placed in the trash and will be deleted "
 "soon. You can purchase a new subscription from your account <a href=\"%s\" "
@@ -154,7 +154,7 @@ msgstr ""
 "prochainement. Vous pouvez ajouter un nouvel abonnement depuis votre compte "
 "<a href=\"%s\" target=\"_blank\">Tableau de bord</a>."
 
-#: includes/admin/class-wc-pos-pro-am.php:329
+#: includes/admin/class-wc-pos-pro-am.php:332
 msgid ""
 "A subscription for %s could not be found. You can purchase a subscription "
 "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
@@ -162,7 +162,7 @@ msgstr ""
 "Un abonnement pour %s n'a pas été trouvé. Vous pouvez acheter un abonnement "
 "depuis votre compte <a href=\"%s\" target=\"_blank\">Tableau de bord</a>."
 
-#: includes/admin/class-wc-pos-pro-am.php:330
+#: includes/admin/class-wc-pos-pro-am.php:333
 msgid ""
 "%s has not been activated. Go to the settings page and enter the license key "
 "and license email to activate %s."
@@ -170,7 +170,7 @@ msgstr ""
 "%s n'a pas été activé. Veuillez svp vous rendre sur la page des paramètres "
 "et saisir la clé de licence et l'adresse mail pour activer %s."
 
-#: includes/admin/class-wc-pos-pro-am.php:331
+#: includes/admin/class-wc-pos-pro-am.php:334
 msgid ""
 "Download permission for %s has been revoked possibly due to a license key or "
 "subscription expiring. You can reactivate or purchase a license key from "
@@ -181,7 +181,7 @@ msgstr ""
 "une clé de licence de votre compte <a href=\"%s\" target=\"_blank\">tableau "
 "de bord</a> ."
 
-#: includes/admin/class-wc-pos-pro-am.php:332
+#: includes/admin/class-wc-pos-pro-am.php:335
 msgid ""
 "You changed the subscription for %s, so you will need to enter your new API "
 "License Key in the settings page. The License Key should have arrived in "
@@ -195,11 +195,11 @@ msgstr ""
 "de bord</a> ."
 
 #: includes/admin/class-wc-pos-pro-reports.php:27
-#: includes/admin/reports/class-wc-pos-pro-sales.php:498
-#: includes/admin/reports/class-wc-pos-pro-sales.php:500
-#: includes/admin/reports/class-wc-pos-pro-sales.php:502
-#: includes/admin/reports/class-wc-pos-pro-sales.php:504
-#: includes/admin/reports/class-wc-pos-pro-sales.php:506
+#: includes/admin/reports/views/sales-table.php:12
+#: includes/admin/reports/views/sales-table.php:14
+#: includes/admin/reports/views/sales-table.php:16
+#: includes/admin/reports/views/sales-table.php:18
+#: includes/admin/reports/views/sales-table.php:20
 msgid "POS"
 msgstr "POS"
 
@@ -211,6 +211,15 @@ msgstr "POS vs en ligne"
 msgid "Sales by cashier"
 msgstr "Ventes par le caissier"
 
+#: includes/admin/class-wc-pos-pro-reports.php:42
+#, fuzzy
+msgid "Sales by store"
+msgstr "Ventes par le caissier"
+
+#: includes/admin/class-wc-pos-pro-reports.php:48
+msgid "Sales by payment method"
+msgstr ""
+
 #: includes/admin/class-wc-pos-pro-stores.php:62
 msgid "Stores"
 msgstr "Boutiques"
@@ -220,6 +229,7 @@ msgid "Open POS"
 msgstr "Ouvrir le point de vente"
 
 #: includes/admin/class-wc-pos-pro-stores.php:148
+#: includes/admin/views/order-details.php:2
 msgid "Store"
 msgstr "Boutique"
 
@@ -268,94 +278,82 @@ msgstr ""
 "Veuillez svp lire la <a href=\"%s\">documentation</a> pour des informations "
 "sur la modification des reçus point de vente."
 
-#: includes/admin/reports/class-wc-pos-pro-cashier.php:143
-msgid "Sales amount"
-msgstr "Montant des ventes"
-
-#: includes/admin/reports/class-wc-pos-pro-sales.php:25
-#: includes/admin/reports/class-wc-pos-pro-sales.php:247
+#: includes/admin/reports/class-wc-pos-pro-sales.php:166
+#: includes/admin/reports/class-wc-pos-pro-sales.php:169
+#: includes/admin/reports/class-wc-pos-pro-sales.php:236
+#: includes/admin/reports/class-wc-pos-pro-sales.php:250
+#: includes/admin/reports/class-wc-pos-pro-sales.php:268
+#: includes/admin/reports/class-wc-pos-pro-sales.php:274
 msgid "POS Sales"
 msgstr "Ventes point de vente"
 
-#: includes/admin/reports/class-wc-pos-pro-sales.php:31
-#: includes/admin/reports/class-wc-pos-pro-sales.php:257
+#: includes/admin/reports/class-wc-pos-pro-sales.php:172
+#: includes/admin/reports/class-wc-pos-pro-sales.php:175
+#: includes/admin/reports/class-wc-pos-pro-sales.php:242
+#: includes/admin/reports/class-wc-pos-pro-sales.php:256
 msgid "Online Sales"
 msgstr "Ventes en ligne"
 
-#: includes/admin/reports/class-wc-pos-pro-sales.php:160
-#: includes/admin/reports/class-wc-pos-pro-sales.php:170
-msgid "POS Orders"
-msgstr "Commandes point de vente"
+#: includes/admin/reports/class-wc-pos-pro-store.php:59
+msgid "No Stores found."
+msgstr ""
 
-#: includes/admin/reports/class-wc-pos-pro-sales.php:161
-#: includes/admin/reports/class-wc-pos-pro-sales.php:175
-msgid "Online Orders"
-msgstr "Ventes en ligne"
+#: includes/admin/reports/class-wc-pos-pro-store.php:61
+msgid "Add New Store"
+msgstr ""
 
-#: includes/admin/reports/class-wc-pos-pro-sales.php:194
-msgid "orders"
-msgstr "commandes"
-
-#: includes/admin/reports/class-wc-pos-pro-sales.php:267
-msgid "Average POS sales amount"
-msgstr "Moyenne des montants de ventes POS"
-
-#: includes/admin/reports/class-wc-pos-pro-sales.php:277
-msgid "Average Online sales amount"
-msgstr "Moyenne des montants de ventes en ligne"
-
-#: includes/admin/reports/class-wc-pos-pro-sales.php:490
+#: includes/admin/reports/views/sales-table.php:4
 msgid "Period"
 msgstr "Période"
 
-#: includes/admin/reports/class-wc-pos-pro-sales.php:491
+#: includes/admin/reports/views/sales-table.php:5
 msgid "Orders"
 msgstr "Commandes"
 
-#: includes/admin/reports/class-wc-pos-pro-sales.php:492
+#: includes/admin/reports/views/sales-table.php:6
 msgid "Total Sales"
 msgstr "Total des ventes"
 
-#: includes/admin/reports/class-wc-pos-pro-sales.php:492
+#: includes/admin/reports/views/sales-table.php:6
 msgid "This is the sum of the 'Order Total' field within your orders."
 msgstr "Ceci est la somme du champ «Total commande» au sein de vos commandes."
 
-#: includes/admin/reports/class-wc-pos-pro-sales.php:493
+#: includes/admin/reports/views/sales-table.php:7
 msgid "Total Shipping"
 msgstr "Total expédition"
 
-#: includes/admin/reports/class-wc-pos-pro-sales.php:493
+#: includes/admin/reports/views/sales-table.php:7
 msgid "This is the sum of the 'Shipping Total' field within your orders."
 msgstr ""
 "Ceci est la somme du champ «Expédition Total» au sein de vos commandes."
 
-#: includes/admin/reports/class-wc-pos-pro-sales.php:494
+#: includes/admin/reports/views/sales-table.php:8
 msgid "Total Tax"
 msgstr "Total Tax"
 
-#: includes/admin/reports/class-wc-pos-pro-sales.php:494
+#: includes/admin/reports/views/sales-table.php:8
 msgid "This is the total tax for the rate (shipping tax + product tax)."
 msgstr ""
 "Ceci est le total des impôts pour le taux (taxe d'expédition + taxe sur les "
 "produits)."
 
-#: includes/admin/reports/class-wc-pos-pro-sales.php:495
+#: includes/admin/reports/views/sales-table.php:9
 msgid "Net profit"
 msgstr "Bénéfice net"
 
-#: includes/admin/reports/class-wc-pos-pro-sales.php:495
+#: includes/admin/reports/views/sales-table.php:9
 msgid "Total sales minus shipping and tax."
 msgstr "Total des frais de port moins de vente et de l'impôt."
 
-#: includes/admin/reports/class-wc-pos-pro-sales.php:499
-#: includes/admin/reports/class-wc-pos-pro-sales.php:501
-#: includes/admin/reports/class-wc-pos-pro-sales.php:503
-#: includes/admin/reports/class-wc-pos-pro-sales.php:505
-#: includes/admin/reports/class-wc-pos-pro-sales.php:507
+#: includes/admin/reports/views/sales-table.php:13
+#: includes/admin/reports/views/sales-table.php:15
+#: includes/admin/reports/views/sales-table.php:17
+#: includes/admin/reports/views/sales-table.php:19
+#: includes/admin/reports/views/sales-table.php:21
 msgid "Online"
 msgstr "En ligne"
 
-#: includes/admin/reports/class-wc-pos-pro-sales.php:541
+#: includes/admin/reports/views/sales-table.php:55
 msgid "Total"
 msgstr "Total"
 
@@ -467,3 +465,21 @@ msgstr ""
 "<strong>WooCommerce POS Pro</strong> requiert <a href=\"%s\">WooCommerce "
 "POS</a>. Veuillez svp <a href=\"%s\">installer et configurer WooCommerce "
 "POS</a>"
+
+#~ msgid "Sales amount"
+#~ msgstr "Montant des ventes"
+
+#~ msgid "POS Orders"
+#~ msgstr "Commandes point de vente"
+
+#~ msgid "Online Orders"
+#~ msgstr "Ventes en ligne"
+
+#~ msgid "orders"
+#~ msgstr "commandes"
+
+#~ msgid "Average POS sales amount"
+#~ msgstr "Moyenne des montants de ventes POS"
+
+#~ msgid "Average Online sales amount"
+#~ msgstr "Moyenne des montants de ventes en ligne"

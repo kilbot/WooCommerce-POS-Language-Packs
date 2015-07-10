@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-06-02 04:17:17+00:00\n"
+"POT-Creation-Date: 2015-07-10 12:11:16+00:00\n"
 "PO-Revision-Date: 2015-06-11 11:43+0000\n"
 "Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
 "Language-Team: Catalan (http://www.transifex.com/projects/p/woocommerce-pos/"
@@ -233,6 +233,14 @@ msgstr "Mostra el rebut d'exemple"
 msgid "<strong class=\"red\">Template path:</strong> %s"
 msgstr "<strong class=\"red\">Camí de la plantilla:</strong> %s"
 
+#: includes/admin/settings/views/tools.php:43
+msgid "Legacy Server Support"
+msgstr ""
+
+#: includes/admin/settings/views/tools.php:49
+msgid "Emulate RESTful HTTP methods to support legacy servers."
+msgstr ""
+
 #: includes/admin/views/order-details.php:2
 msgid "Order type"
 msgstr "Tipus de comanda"
@@ -245,30 +253,13 @@ msgstr ""
 "S'ha produit un error mentre s'estava carregant la configuració, contacteu "
 "per <a href=\"mailto:support@woopos.com.au\">suport</a>"
 
-#: includes/class-wc-pos-activator.php:173
+#: includes/class-wc-pos-activator.php:178
 msgid ""
 "<strong>WooCommerce POS</strong> requires <a href=\"%s\">WooCommerce</a>. "
 "Please <a href=\"%s\">install and activate WooCommerce</a>"
 msgstr ""
 "<strong>WooCommerce POS</strong> requereix <a href=\"%s\">WooCommerce</a>. "
 "Si us plau <a href=\"%s\">instal·leu i activeu WooCommerce</a>"
-
-#: includes/class-wc-pos-activator.php:192
-msgid ""
-"<strong>WooCommerce POS</strong> requires the WooCommerce REST API. Please "
-"<a href=\"%s\">enable the REST API</a>"
-msgstr ""
-"<strong>WooCommerce POS</strong> recessita la REST API de WooCommerce. Si us "
-"plau, activeu <a href=\"%s\">la REST API</a>"
-
-#: includes/class-wc-pos-activator.php:209
-msgid ""
-"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to "
-"work correctly. Please <a href=\"%s\">enable permalinks</a>."
-msgstr ""
-"La <strong>REST API de WooCommerce</strong> necessita <em>bastants</em> "
-"enllaços permanents per fncionar correctament. Habiliteu els <a href=\"%s"
-"\">enllaços permanents</a>."
 
 #: includes/products/class-wc-pos-visibility.php:23
 msgid "POS & Online"
@@ -308,3 +299,18 @@ msgstr "Mostra la icona de la passarel·la de pagament"
 msgctxt "Default customer setting"
 msgid "Use cashier account"
 msgstr "Utilitze el compte del caixer"
+
+#~ msgid ""
+#~ "<strong>WooCommerce POS</strong> requires the WooCommerce REST API. "
+#~ "Please <a href=\"%s\">enable the REST API</a>"
+#~ msgstr ""
+#~ "<strong>WooCommerce POS</strong> recessita la REST API de WooCommerce. Si "
+#~ "us plau, activeu <a href=\"%s\">la REST API</a>"
+
+#~ msgid ""
+#~ "<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks "
+#~ "to work correctly. Please <a href=\"%s\">enable permalinks</a>."
+#~ msgstr ""
+#~ "La <strong>REST API de WooCommerce</strong> necessita <em>bastants</em> "
+#~ "enllaços permanents per fncionar correctament. Habiliteu els <a href=\"%s"
+#~ "\">enllaços permanents</a>."

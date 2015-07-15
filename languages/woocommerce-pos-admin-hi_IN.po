@@ -5,15 +5,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
-"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
+"Packs/issues\n"
 "POT-Creation-Date: 2015-07-10 12:11:16+00:00\n"
 "PO-Revision-Date: 2015-07-15 16:05+0000\n"
 "Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
-"Language-Team: Hindi (India) (http://www.transifex.com/p/woocommerce-pos/language/hi_IN/)\n"
+"Language-Team: Hindi (India) (http://www.transifex.com/p/woocommerce-pos/"
+"language/hi_IN/)\n"
+"Language: hi_IN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hi_IN\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: grunt-wp-i18n 0.5.2\n"
 
@@ -72,18 +74,23 @@ msgstr "ग्रांट पीओएस पहुंच"
 msgid ""
 "By default, access to the POS is limited to Administrator and Shop Manager "
 "roles."
-msgstr "डिफ़ॉल्ट रूप से, स्थिति के लिए उपयोग प्रशासक और दुकान प्रबंधक की भूमिका निभाने के लिए सीमित है।"
+msgstr ""
+"डिफ़ॉल्ट रूप से, स्थिति के लिए उपयोग प्रशासक और दुकान प्रबंधक की भूमिका निभाने के लिए "
+"सीमित है।"
 
 #: includes/admin/settings/views/access.php:11
 msgid ""
 "It is recommended that you <strong>do not change</strong> the default "
 "settings unless you are fully aware of the consequences."
-msgstr "यह आप परिणामों से पूरी तरह अवगत हैं, जब तक आप डिफ़ॉल्ट सेटिंग्स <strong>को बदल नहीं है</strong> कि सिफारिश की है।"
+msgstr ""
+"यह आप परिणामों से पूरी तरह अवगत हैं, जब तक आप डिफ़ॉल्ट सेटिंग्स <strong>को बदल नहीं है</"
+"strong> कि सिफारिश की है।"
 
 #: includes/admin/settings/views/access.php:12
 #: includes/admin/settings/views/checkout.php:50
 #: includes/admin/settings/views/hotkeys.php:6
-msgid "For more information please visit <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
+msgid ""
+"For more information please visit <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
 msgstr "अधिक जानकारी के लिए कृपया <a href=\"%1$s\" target=\"_blank\">% 1 $</a>"
 
 #: includes/admin/settings/views/checkout.php:13
@@ -104,23 +111,30 @@ msgstr "पीओएस आदेश के लिए WooCommerce सूचन�
 
 #: includes/admin/settings/views/checkout.php:44
 msgid ""
-"Installed gateways are listed below. Drag and drop gateways to control their"
-" display order at the Point of Sale. "
-msgstr "स्थापित प्रवेश द्वार के नीचे सूचीबद्ध हैं। खींचें और ड्रॉप गेटवे बिक्री के बिंदु पर उनके प्रदर्शन का क्रम को नियंत्रित करने के लिए।"
+"Installed gateways are listed below. Drag and drop gateways to control their "
+"display order at the Point of Sale. "
+msgstr ""
+"स्थापित प्रवेश द्वार के नीचे सूचीबद्ध हैं। खींचें और ड्रॉप गेटवे बिक्री के बिंदु पर उनके प्रदर्शन "
+"का क्रम को नियंत्रित करने के लिए।"
 
 #: includes/admin/settings/views/checkout.php:45
 msgid ""
 "Payment Gateways enabled here will be available at the Point of Sale. "
 "Payment Gateways enabled on the settings page will be available in your "
 "Online Store. "
-msgstr "यहां सक्षम भुगतान द्वार बिक्री के बिंदु पर उपलब्ध हो जाएगा। सेटिंग पेज पर सक्षम भुगतान द्वार अपने ऑनलाइन स्टोर में उपलब्ध हो जाएगा।"
+msgstr ""
+"यहां सक्षम भुगतान द्वार बिक्री के बिंदु पर उपलब्ध हो जाएगा। सेटिंग पेज पर सक्षम भुगतान "
+"द्वार अपने ऑनलाइन स्टोर में उपलब्ध हो जाएगा।"
 
 #: includes/admin/settings/views/checkout.php:49
 msgid ""
 "It is your responsibility to ensure the security of your customer's "
 "information. Transmitting credit card or other sensitive information should "
 "only be done using a secure connnection."
-msgstr "यह अपने ग्राहकों की जानकारी की सुरक्षा सुनिश्चित करने की जिम्मेदारी है। हस्तांतरित क्रेडिट कार्ड या अन्य संवेदनशील जानकारी केवल एक सुरक्षित connnection का उपयोग किया जाना चाहिए।"
+msgstr ""
+"यह अपने ग्राहकों की जानकारी की सुरक्षा सुनिश्चित करने की जिम्मेदारी है। हस्तांतरित क्रेडिट "
+"कार्ड या अन्य संवेदनशील जानकारी केवल एक सुरक्षित connnection का उपयोग किया जाना "
+"चाहिए।"
 
 #: includes/admin/settings/views/checkout.php:56
 msgid "Gateway Display"
@@ -191,13 +205,16 @@ msgstr "कुंजीपटल अल्प मार्ग"
 msgid ""
 "You can trigger certain events in WooCommerce POS using keyboard shortcuts "
 "(HotKeys)."
-msgstr "आप कीबोर्ड शॉर्टकट (hotkeys) का उपयोग WooCommerce स्थिति में कुछ घटनाओं को गति प्रदान कर सकते हैं।"
+msgstr ""
+"आप कीबोर्ड शॉर्टकट (hotkeys) का उपयोग WooCommerce स्थिति में कुछ घटनाओं को गति "
+"प्रदान कर सकते हैं।"
 
 #: includes/admin/settings/views/hotkeys.php:5
 msgid ""
-"HotKeys can also be used as a prefix for your barcode scanner or card "
-"reader."
-msgstr "Hotkeys भी अपने बारकोड स्कैनर या कार्ड रीडर के लिए एक उपसर्ग के रूप में इस्तेमाल किया जा सकता है।"
+"HotKeys can also be used as a prefix for your barcode scanner or card reader."
+msgstr ""
+"Hotkeys भी अपने बारकोड स्कैनर या कार्ड रीडर के लिए एक उपसर्ग के रूप में इस्तेमाल किया जा "
+"सकता है।"
 
 #: includes/admin/settings/views/tools.php:33
 msgid "Receipt Template"
@@ -225,15 +242,19 @@ msgstr "आदेश प्रकार"
 
 #: includes/admin/views/settings.php:12
 msgid ""
-"There has been an error loading the settings, please contact <a "
-"href=\"mailto:support@woopos.com.au\">support</a>"
-msgstr "सेटिंग लोड करने में त्रुटि हुई है, कृपया संपर्क करें <a href=\"mailto:support@woopos.com.au\">समर्थन</a>"
+"There has been an error loading the settings, please contact <a href="
+"\"mailto:support@woopos.com.au\">support</a>"
+msgstr ""
+"सेटिंग लोड करने में त्रुटि हुई है, कृपया संपर्क करें <a href=\"mailto:support@woopos.com.au"
+"\">समर्थन</a>"
 
 #: includes/class-wc-pos-activator.php:178
 msgid ""
 "<strong>WooCommerce POS</strong> requires <a href=\"%s\">WooCommerce</a>. "
 "Please <a href=\"%s\">install and activate WooCommerce</a>"
-msgstr "<strong>WooCommerce स्थिति</strong> की आवश्यकता है <a href=\"%s\">WooCommerce</a> । कृपया <a href=\"%s\">स्थापित करें और WooCommerce को सक्रिय</a>"
+msgstr ""
+"<strong>WooCommerce स्थिति</strong> की आवश्यकता है <a href=\"%s\">WooCommerce</"
+"a> । कृपया <a href=\"%s\">स्थापित करें और WooCommerce को सक्रिय</a>"
 
 #: includes/products/class-wc-pos-visibility.php:23
 msgid "POS & Online"

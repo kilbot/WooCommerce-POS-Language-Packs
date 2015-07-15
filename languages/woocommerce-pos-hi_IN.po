@@ -5,15 +5,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
-"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
+"Packs/issues\n"
 "POT-Creation-Date: 2015-07-10 12:11:16+00:00\n"
 "PO-Revision-Date: 2015-07-15 16:15+0000\n"
 "Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
-"Language-Team: Hindi (India) (http://www.transifex.com/p/woocommerce-pos/language/hi_IN/)\n"
+"Language-Team: Hindi (India) (http://www.transifex.com/p/woocommerce-pos/"
+"language/hi_IN/)\n"
+"Language: hi_IN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hi_IN\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: grunt-wp-i18n 0.5.2\n"
 
@@ -27,7 +29,8 @@ msgstr "अब आप भुगतान पूरा करने के ऑफ
 
 #: includes/api/class-wc-pos-orders.php:524
 msgid "<a href=\"%s\">Click here</a> if you are not redirected automatically. "
-msgstr "<a href=\"%s\">यहाँ क्लिक करें</a> आप स्वचालित रूप से पुनः निर्देशित नहीं कर रहे हैं।"
+msgstr ""
+"<a href=\"%s\">यहाँ क्लिक करें</a> आप स्वचालित रूप से पुनः निर्देशित नहीं कर रहे हैं।"
 
 #: includes/api/class-wc-pos-orders.php:538
 msgid "POS Transaction completed."
@@ -127,9 +130,11 @@ msgstr "बाकी एपीआई के लिए प्रवेश की 
 
 #: includes/class-wc-pos-status.php:80
 msgid ""
-"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to"
-" work correctly"
-msgstr "<strong>WooCommerce बाकी एपीआई</strong> सही ढंग से काम करने के लिए <em>बहुत</em> permalinks की आवश्यकता है"
+"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to "
+"work correctly"
+msgstr ""
+"<strong>WooCommerce बाकी एपीआई</strong> सही ढंग से काम करने के लिए <em>बहुत</em> "
+"permalinks की आवश्यकता है"
 
 #: includes/class-wc-pos-status.php:84
 msgid "Enable permalinks"
@@ -190,16 +195,20 @@ msgstr "क्षमा करें, यह आपके ब्राउज़�
 
 #: includes/views/modals/browser.php:3
 msgid ""
-"If possible, please <a href=\"http://browsehappy.com/\">update your "
-"browser</a>, we recommend either Chrome or Firefox."
-msgstr ", कृपया यदि संभव हो तो <a href=\"http://browsehappy.com/\">अपने ब्राउज़र को अपडेट</a> , हम क्रोम या फ़ायरफ़ॉक्स या तो सलाह देते हैं।"
+"If possible, please <a href=\"http://browsehappy.com/\">update your browser</"
+"a>, we recommend either Chrome or Firefox."
+msgstr ""
+", कृपया यदि संभव हो तो <a href=\"http://browsehappy.com/\">अपने ब्राउज़र को अपडेट</"
+"a> , हम क्रोम या फ़ायरफ़ॉक्स या तो सलाह देते हैं।"
 
 #: includes/views/modals/browser.php:7
 msgid ""
 "If you believe you have received this message in error please contact "
-"support via <a "
+"support via <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</"
+"a>"
+msgstr ""
+"यदि आपको लगता है कि आप के माध्यम से सहायता से संपर्क करें यह संदेश गलती से प्राप्त हुआ है <a "
 "href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
-msgstr "यदि आपको लगता है कि आप के माध्यम से सहायता से संपर्क करें यह संदेश गलती से प्राप्त हुआ है <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
 
 #: includes/views/pos/checkout.php:26
 msgid "No payment gateways enabled."
@@ -252,9 +261,11 @@ msgstr "बिक्री केन्द्र"
 #. Description of the plugin/theme
 msgid ""
 "A simple front-end for taking WooCommerce orders at the Point of Sale. "
-"Requires <a "
-"href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a>."
-msgstr "बिक्री के बिंदु पर WooCommerce आदेश लेने के लिए एक सरल सामने के अंत। आवश्यकता है <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a> ।"
+"Requires <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</"
+"a>."
+msgstr ""
+"बिक्री के बिंदु पर WooCommerce आदेश लेने के लिए एक सरल सामने के अंत। आवश्यकता है <a href="
+"\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a> ।"
 
 #: includes/class-wc-pos-i18n.php:320
 msgctxt "system status: browser capabilities"

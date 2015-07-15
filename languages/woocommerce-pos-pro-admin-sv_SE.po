@@ -1,151 +1,153 @@
-# Translation of WooCommerce POS Pro Admin in Swedish
-# This file is distributed under the same license as the WooCommerce POS Pro Admin package.
+# Copyright (C) 2015 kilbot
+# This file is distributed under the Copyright 2015 The Kilbot Factory.
+# Translators:
+# Paul Kilmurray <paul@kilbot.com.au>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce POS Pro Admin\n"
-"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
-"Packs/issues\n"
+"Project-Id-Version: WooCommerce POS\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
 "POT-Creation-Date: 2015-07-09 05:15:26+00:00\n"
-"PO-Revision-Date: 2014-11-14 13:35:03+0000\n"
+"PO-Revision-Date: 2015-07-15 16:21+0000\n"
+"Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
+"Language-Team: Swedish (Sweden) (http://www.transifex.com/p/woocommerce-pos/language/sv_SE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/0.1\n"
+"Language: sv_SE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: grunt-wp-i18n 0.5.2\n"
 
 #: includes/admin/class-wc-pos-pro-am.php:109
 msgid ""
 "<b>Warning!</b> You're blocking external requests which means you won't be "
 "able to get %s updates. Please add %s to %s."
-msgstr ""
+msgstr "<b>Varning!</b> Du blockerar externa förfrågningar vilket innebär att du kommer inte att kunna få %s uppdateringar. Vänligen lägg %s till %s."
 
 #: includes/admin/class-wc-pos-pro-am.php:124
 msgid "The %s License Key has not been activated, so the plugin is inactive!"
-msgstr ""
+msgstr "%s licensnyckel har inte aktiverats, så plugin är inaktiv!"
 
 #: includes/admin/class-wc-pos-pro-am.php:125
-msgid ""
-" <a href=\"%s\">Click here</a> to activate the license key and the plugin."
-msgstr ""
+msgid " <a href=\"%s\">Click here</a> to activate the license key and the plugin."
+msgstr "<a href=\"%s\">Klicka här</a> för att aktivera licensnyckeln och plugin."
 
 #: includes/admin/class-wc-pos-pro-am.php:252
 msgid "Unable to connect to the activation server"
-msgstr ""
+msgstr "Det går inte att ansluta till aktiveringsservern"
 
 #: includes/admin/class-wc-pos-pro-am.php:287
 msgid "Unable to parse the server response"
-msgstr ""
+msgstr "Det går inte att analysera serversvaret"
 
 #: includes/admin/class-wc-pos-pro-am.php:299
 msgid "Invalid Request"
-msgstr ""
+msgstr "Ogiltig Förfrågan"
 
 #: includes/admin/class-wc-pos-pro-am.php:301
 #: includes/admin/class-wc-pos-pro-am.php:305
-#, fuzzy
 msgid "Invalid License Key"
-msgstr "Licenskod"
+msgstr "Ogiltig licensnyckel"
 
 #: includes/admin/class-wc-pos-pro-am.php:302
 msgid "Activation error"
-msgstr ""
+msgstr "Aktivering fel"
 
 #: includes/admin/class-wc-pos-pro-am.php:303
 msgid "Exceeded maximum number of activations"
-msgstr ""
+msgstr "Överskred max antal aktiveringar"
 
 #: includes/admin/class-wc-pos-pro-am.php:304
 msgid "Invalid Instance ID"
-msgstr ""
+msgstr "Ogiltigt instans-ID"
 
 #: includes/admin/class-wc-pos-pro-am.php:306
 msgid "Subscription is not active"
-msgstr ""
+msgstr "Teckning är inte aktiv"
 
 #: includes/admin/class-wc-pos-pro-am.php:309
 msgid "Invalid Response"
-msgstr ""
+msgstr "Ogiltigt Response"
 
 #: includes/admin/class-wc-pos-pro-am.php:324
 msgid ""
-"A license key for %s could not be found. Maybe you forgot to enter a license "
-"key when setting up %s, or the key was deactivated in your account. You can "
-"reactivate or purchase a license key from your account <a href=\"%s\" target="
-"\"_blank\">dashboard</a>."
-msgstr ""
+"A license key for %s could not be found. Maybe you forgot to enter a license"
+" key when setting up %s, or the key was deactivated in your account. You can"
+" reactivate or purchase a license key from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr "En licensnyckel för %s kunde inte hittas. Kanske du har glömt att ange en licensnyckel när du ställer in% s, eller nyckeln inaktiverades i ditt konto. Du kan återaktivera eller köpa en licensnyckel från ditt konto <a href=\"%s\" target=\"_blank\">instrumentpanelen</a> ."
 
 #: includes/admin/class-wc-pos-pro-am.php:325
 msgid ""
-"The license key for %s has expired. You can reactivate or purchase a license "
-"key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
-msgstr ""
+"The license key for %s has expired. You can reactivate or purchase a license"
+" key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Den licensnyckel för %s har gått ut. Du kan återaktivera eller köpa en licensnyckel från ditt konto <a href=\"%s\" target=\"_blank\">instrumentpanelen</a> ."
 
 #: includes/admin/class-wc-pos-pro-am.php:326
 msgid ""
-"The subscription for %s is on-hold. You can reactivate the subscription from "
-"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
-msgstr ""
+"The subscription for %s is on-hold. You can reactivate the subscription from"
+" your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Tecknings för %s är på håll. Du kan återaktivera prenumerationen från ditt konto <a href=\"%s\" target=\"_blank\">instrumentpanelen</a> ."
 
 #: includes/admin/class-wc-pos-pro-am.php:327
 msgid ""
 "The subscription for %s has been cancelled. You can renew the subscription "
 "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>. A new "
 "license key will be emailed to you after your order has been completed."
-msgstr ""
+msgstr "Tecknings för %s har avbrutits. Du kan förnya prenumerationen från ditt konto <a href=\"%s\" target=\"_blank\">instrumentpanelen</a> . En ny licensnyckel kommer att skickas till dig efter din beställning har slutförts."
 
 #: includes/admin/class-wc-pos-pro-am.php:328
 msgid ""
 "The subscription for %s has expired. You can reactivate the subscription "
 "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
-msgstr ""
+msgstr "Tecknings för% s har gått ut. Du kan återaktivera prenumerationen från ditt konto <a href=\"%s\" target=\"_blank\">instrumentpanelen</a> ."
 
 #: includes/admin/class-wc-pos-pro-am.php:329
 msgid ""
 "The subscription for %s has been suspended. You can reactivate the "
-"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
-"a>."
-msgstr ""
+"subscription from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr "Tecknings för% s har stängts av. Du kan återaktivera prenumerationen från ditt konto <a href=\"%s\" target=\"_blank\">instrumentpanelen</a> ."
 
 #: includes/admin/class-wc-pos-pro-am.php:330
 msgid ""
-"The subscription for %s is still pending. You can check on the status of the "
-"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
-"a>."
-msgstr ""
+"The subscription for %s is still pending. You can check on the status of the"
+" subscription from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr "Tecknings för% s är ännu inte avgjort. Du kan kontrollera status för abonnemanget från ditt konto <a href=\"%s\" target=\"_blank\">instrumentpanelen</a> ."
 
 #: includes/admin/class-wc-pos-pro-am.php:331
 msgid ""
 "The subscription for %s has been placed in the trash and will be deleted "
 "soon. You can purchase a new subscription from your account <a href=\"%s\" "
 "target=\"_blank\">dashboard</a>."
-msgstr ""
+msgstr "Tecknings för% s har placerats i papperskorgen och kommer att tas bort inom kort. Du kan köpa ett nytt abonnemang från ditt konto <a href=\"%s\" target=\"_blank\">instrumentpanelen</a> ."
 
 #: includes/admin/class-wc-pos-pro-am.php:332
 msgid ""
 "A subscription for %s could not be found. You can purchase a subscription "
 "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
-msgstr ""
+msgstr "En prenumeration för% s kunde inte hittas. Du kan köpa ett abonnemang från ditt konto <a href=\"%s\" target=\"_blank\">instrumentpanelen</a> ."
 
 #: includes/admin/class-wc-pos-pro-am.php:333
 msgid ""
-"%s has not been activated. Go to the settings page and enter the license key "
-"and license email to activate %s."
-msgstr ""
+"%s has not been activated. Go to the settings page and enter the license key"
+" and license email to activate %s."
+msgstr "% S har inte aktiverats. Gå till inställningssidan och ange licensnyckeln och licens mail för att aktivera% s."
 
 #: includes/admin/class-wc-pos-pro-am.php:334
 msgid ""
-"Download permission for %s has been revoked possibly due to a license key or "
-"subscription expiring. You can reactivate or purchase a license key from "
+"Download permission for %s has been revoked possibly due to a license key or"
+" subscription expiring. You can reactivate or purchase a license key from "
 "your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
-msgstr ""
+msgstr "Hämta tillstånd för% s har återkallats möjligen på grund av en licensnyckel eller teckning förfallodagen fastställas. Du kan återaktivera eller köpa en licensnyckel från ditt konto <a href=\"%s\" target=\"_blank\">instrumentpanelen</a> ."
 
 #: includes/admin/class-wc-pos-pro-am.php:335
 msgid ""
 "You changed the subscription for %s, so you will need to enter your new API "
 "License Key in the settings page. The License Key should have arrived in "
-"your email inbox, if not you can get it by logging into your account <a href="
-"\"%s\" target=\"_blank\">dashboard</a>."
-msgstr ""
+"your email inbox, if not you can get it by logging into your account <a "
+"href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Du har ändrat abonnemanget för% s, så du kommer att behöva ange ditt nya API licensnyckel i inställningssidan. Licensnyckeln borde ha kommit i din e-postbrevlåda, om du inte kan få det genom att logga in på ditt konto <a href=\"%s\" target=\"_blank\">instrumentpanelen</a> ."
 
 #: includes/admin/class-wc-pos-pro-reports.php:27
 #: includes/admin/reports/views/sales-table.php:12
@@ -154,79 +156,79 @@ msgstr ""
 #: includes/admin/reports/views/sales-table.php:18
 #: includes/admin/reports/views/sales-table.php:20
 msgid "POS"
-msgstr ""
+msgstr "POS"
 
 #: includes/admin/class-wc-pos-pro-reports.php:30
 msgid "POS vs Online"
-msgstr ""
+msgstr "POS vs Online"
 
 #: includes/admin/class-wc-pos-pro-reports.php:36
 msgid "Sales by cashier"
-msgstr ""
+msgstr "Försäljning per kassan"
 
 #: includes/admin/class-wc-pos-pro-reports.php:42
 msgid "Sales by store"
-msgstr ""
+msgstr "Omsättning per butik"
 
 #: includes/admin/class-wc-pos-pro-reports.php:48
 msgid "Sales by payment method"
-msgstr ""
+msgstr "Försäljning per betalningssätt"
 
 #: includes/admin/class-wc-pos-pro-stores.php:62
 msgid "Stores"
-msgstr ""
+msgstr "Butiker"
 
 #: includes/admin/class-wc-pos-pro-stores.php:129
 msgid "Open POS"
-msgstr ""
+msgstr "Öppen POS"
 
 #: includes/admin/class-wc-pos-pro-stores.php:148
 #: includes/admin/views/order-details.php:2
 msgid "Store"
-msgstr ""
+msgstr "Affär"
 
 #: includes/admin/class-wc-pos-pro-stores.php:165
 msgid "Preview Receipt"
-msgstr ""
+msgstr "Förhandsvisnings Kvitto"
 
 #: includes/admin/class-wc-pos-pro-stores.php:180
 msgid "Opening Hours"
-msgstr ""
+msgstr "Öppettider"
 
 #: includes/admin/class-wc-pos-pro-stores.php:189
 msgid "Logo"
-msgstr ""
+msgstr "Logo"
 
 #: includes/admin/class-wc-pos-pro-stores.php:212
 msgid "Receipt Options"
-msgstr ""
+msgstr "Kvitto Val"
 
 #: includes/admin/class-wc-pos-pro-stores.php:277
 msgid "Set featured image"
-msgstr ""
+msgstr "Ställ Featured Image"
 
 #: includes/admin/class-wc-pos-pro-stores.php:277
 #: includes/admin/class-wc-pos-pro-stores.php:293
 msgid "Set store logo"
-msgstr ""
+msgstr "Uppsättning lagra logotyp"
 
 #: includes/admin/class-wc-pos-pro-stores.php:278
 msgid "Remove featured image"
-msgstr ""
+msgstr "Avlägsna skissbild"
 
 #: includes/admin/class-wc-pos-pro-stores.php:278
 msgid "Remove store logo"
-msgstr ""
+msgstr "Avlägsna lagra logotyp"
 
 #: includes/admin/class-wc-pos-pro-stores.php:292
 msgid "Set Store Logo"
-msgstr ""
+msgstr "Ställ Store Logo"
 
 #: includes/admin/class-wc-pos-pro-stores.php:369
 msgid ""
 "Please <a href=\"%s\">read the docs</a> for information on how to customize "
 "your POS receipts."
-msgstr ""
+msgstr "Vänligen <a href=\"%s\">läs dokumentationen</a> för information om hur du anpassar din POS kvitton."
 
 #: includes/admin/reports/class-wc-pos-pro-sales.php:166
 #: includes/admin/reports/class-wc-pos-pro-sales.php:169
@@ -235,62 +237,62 @@ msgstr ""
 #: includes/admin/reports/class-wc-pos-pro-sales.php:268
 #: includes/admin/reports/class-wc-pos-pro-sales.php:274
 msgid "POS Sales"
-msgstr ""
+msgstr "POS Försäljning"
 
 #: includes/admin/reports/class-wc-pos-pro-sales.php:172
 #: includes/admin/reports/class-wc-pos-pro-sales.php:175
 #: includes/admin/reports/class-wc-pos-pro-sales.php:242
 #: includes/admin/reports/class-wc-pos-pro-sales.php:256
 msgid "Online Sales"
-msgstr ""
+msgstr "Onlineförsäljning"
 
 #: includes/admin/reports/class-wc-pos-pro-store.php:59
 msgid "No Stores found."
-msgstr ""
+msgstr "Inga butiker hittades."
 
 #: includes/admin/reports/class-wc-pos-pro-store.php:61
 msgid "Add New Store"
-msgstr ""
+msgstr "Lägg till New Store"
 
 #: includes/admin/reports/views/sales-table.php:4
 msgid "Period"
-msgstr ""
+msgstr "Period"
 
 #: includes/admin/reports/views/sales-table.php:5
 msgid "Orders"
-msgstr ""
+msgstr "Beställningar"
 
 #: includes/admin/reports/views/sales-table.php:6
 msgid "Total Sales"
-msgstr ""
+msgstr "Total försäljning"
 
 #: includes/admin/reports/views/sales-table.php:6
 msgid "This is the sum of the 'Order Total' field within your orders."
-msgstr ""
+msgstr "Detta är summan av \"Order Total fältet inom dina beställningar."
 
 #: includes/admin/reports/views/sales-table.php:7
 msgid "Total Shipping"
-msgstr ""
+msgstr "Total Shipping"
 
 #: includes/admin/reports/views/sales-table.php:7
 msgid "This is the sum of the 'Shipping Total' field within your orders."
-msgstr ""
+msgstr "Detta är summan av \"Shipping Totalt fältet inom dina beställningar."
 
 #: includes/admin/reports/views/sales-table.php:8
 msgid "Total Tax"
-msgstr ""
+msgstr "Totalt Skatt"
 
 #: includes/admin/reports/views/sales-table.php:8
 msgid "This is the total tax for the rate (shipping tax + product tax)."
-msgstr ""
+msgstr "Detta är den totala skatten för den kurs (frakt skatt + produkt skatt)."
 
 #: includes/admin/reports/views/sales-table.php:9
 msgid "Net profit"
-msgstr ""
+msgstr "Nettovinst"
 
 #: includes/admin/reports/views/sales-table.php:9
 msgid "Total sales minus shipping and tax."
-msgstr ""
+msgstr "Totalt försäljning minus frakt och skatt."
 
 #: includes/admin/reports/views/sales-table.php:13
 #: includes/admin/reports/views/sales-table.php:15
@@ -298,109 +300,104 @@ msgstr ""
 #: includes/admin/reports/views/sales-table.php:19
 #: includes/admin/reports/views/sales-table.php:21
 msgid "Online"
-msgstr ""
+msgstr "Online"
 
 #: includes/admin/reports/views/sales-table.php:55
 msgid "Total"
-msgstr ""
+msgstr "Totalt"
 
 #: includes/admin/settings/class-wc-pos-pro-license.php:16
-#, fuzzy
 msgid "Pro License"
-msgstr "Licenskod"
+msgstr "Pro Licens"
 
 #: includes/admin/settings/views/license.php:7
-#, fuzzy
 msgid "Pro License Activation"
-msgstr "License Aktivering"
+msgstr "Pro Licens Aktiveringen"
 
 #: includes/admin/settings/views/license.php:12
 msgid "Thank you!"
-msgstr ""
+msgstr "Tack!"
 
 #: includes/admin/settings/views/license.php:13
 msgid "Your license is active"
-msgstr ""
+msgstr "Din licens är aktiv"
 
 #: includes/admin/settings/views/license.php:19
 msgid "License Email"
-msgstr "Licens E-post"
+msgstr "Licens E"
 
 #: includes/admin/settings/views/license.php:27
 msgid "License Key"
-msgstr "Licenskod"
+msgstr "Licensnyckel"
 
 #: includes/admin/views/stores/address.php:55
 msgid "loading"
-msgstr ""
+msgstr "lastning"
 
 #: includes/admin/views/stores/opening-hours.php:21
 msgid "Opening Hours notes"
-msgstr ""
+msgstr "Öppettider anteckningar"
 
 #: includes/admin/views/stores/opening-hours.php:22
 msgid "eg: Closed public holidays"
-msgstr ""
+msgstr "t.ex.: Stängt helgdagar"
 
 #: includes/admin/views/stores/opening-hours.php:27
 msgid ""
-"You can add opening hours to your website using a widget. <a href=\"%s"
-"\">Read the docs</a> for more information."
-msgstr ""
+"You can add opening hours to your website using a widget. <a "
+"href=\"%s\">Read the docs</a> for more information."
+msgstr "Du kan lägga till öppettider till din webbplats med hjälp av en widget. <a href=\"%s\">Läs docs</a> för mer information."
 
 #: includes/admin/views/stores/receipt-options.php:9
 msgid "Complimentary Close"
-msgstr ""
+msgstr "Artighets"
 
 #: includes/admin/views/stores/receipt-options.php:10
 msgid ""
 "Personal notes or season greetings, e.g. Thank You for Your Order! or Merry "
 "Christmas!"
-msgstr ""
+msgstr "Personliga anteckningar eller säsong hälsningar, t.ex. Tack för din beställning! eller God Jul!"
 
 #: includes/admin/views/stores/receipt-options.php:13
 msgid "Returns Policy"
-msgstr ""
+msgstr "Returrätt"
 
 #: includes/admin/views/stores/receipt-options.php:14
 msgid "Returns policy, terms and conditions"
-msgstr ""
+msgstr "Returer politiska och villkor"
 
 #: includes/admin/views/stores/receipt-options.php:17
 msgid "Footer"
-msgstr ""
+msgstr "Footer"
 
 #: includes/admin/views/stores/receipt-options.php:18
 msgid "Further footer information, e.g. copyright or branding"
-msgstr ""
+msgstr "Ytterligare information sidfot, t.ex. upphovsrätt eller varumärke"
 
 #: includes/admin/views/stores/tax-rate.php:8
 msgid "Calculate Tax Based On"
-msgstr ""
+msgstr "Beräkna skatt baserad på"
 
 #: includes/admin/views/stores/tax-rate.php:10
 msgid "this store address"
-msgstr ""
+msgstr "denna store adress"
 
 #: includes/admin/views/stores/tax-rate.php:11
 msgid "base location"
-msgstr ""
+msgstr "bas plats"
 
 #: includes/admin/views/stores/tax-rate.php:39
 msgid "No tax rates set"
-msgstr ""
+msgstr "Inga skattesatser set"
 
 #: includes/admin/views/stores/tax-rate.php:43
 msgid ""
-"The tax rates above will be used at the point of sale. You can <a href=\"%s"
-"\">change the tax rate</a> in WooCommerce settings."
-msgstr ""
+"The tax rates above will be used at the point of sale. You can <a "
+"href=\"%s\">change the tax rate</a> in WooCommerce settings."
+msgstr "Skattesatserna ovan kommer att användas vid försäljningsstället. Du kan <a href=\"%s\">ändra skattesatsen</a> i WooCommerce inställningar."
 
 #: includes/class-wc-pos-pro-activator.php:145
 msgid ""
 "<strong>WooCommerce POS Pro</strong> requires <a href=\"%s\">WooCommerce "
 "POS</a>. Please <a href=\"%s\">install and activate WooCommerce POS</a>"
-msgstr ""
-
-#~ msgid "License Activation"
-#~ msgstr "License Aktivering"
+msgstr "<strong>WooCommerce POS Pro</strong> kräver <a href=\"%s\">WooCommerce POS</a> . Vänligen <a href=\"%s\">installera och aktivera WooCommerce POS</a>"

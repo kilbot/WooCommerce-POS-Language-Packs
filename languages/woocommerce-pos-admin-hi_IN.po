@@ -1,0 +1,275 @@
+# Copyright (C) 2015 kilbot
+# This file is distributed under the GPL-2.0+.
+# Translators:
+# Paul Kilmurray <paul@kilbot.com.au>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce POS\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
+"POT-Creation-Date: 2015-07-10 12:11:16+00:00\n"
+"PO-Revision-Date: 2015-07-15 16:05+0000\n"
+"Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
+"Language-Team: Hindi (India) (http://www.transifex.com/p/woocommerce-pos/language/hi_IN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hi_IN\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: grunt-wp-i18n 0.5.2\n"
+
+#: includes/admin/class-wc-pos-gateways.php:31
+msgid "Online Store"
+msgstr "ऑनलाइन स्टोर"
+
+#: includes/admin/class-wc-pos-gateways.php:32
+#: includes/admin/class-wc-pos-menu.php:34
+#: includes/admin/class-wc-pos-menu.php:35
+#: includes/admin/class-wc-pos-orders.php:89
+#: includes/admin/views/order-details.php:5
+msgid "POS"
+msgstr "पीओएस"
+
+#: includes/admin/class-wc-pos-menu.php:44
+#: includes/admin/class-wc-pos-menu.php:45
+msgid "View POS"
+msgstr "देखें पीओएस"
+
+#: includes/admin/class-wc-pos-menu.php:53
+#: includes/admin/settings/views/checkout.php:92
+msgid "Upgrade to Pro"
+msgstr "प्रो में अपग्रेड"
+
+#: includes/admin/class-wc-pos-orders.php:90
+#: includes/admin/views/order-details.php:4
+msgid "Online"
+msgstr "ऑनलाइन"
+
+#: includes/admin/settings/class-wc-pos-access.php:23
+msgid "POS Access"
+msgstr "पीओएस पहुंच"
+
+#: includes/admin/settings/class-wc-pos-hotkeys.php:41
+msgid "Help screen"
+msgstr "मदद स्क्रीन"
+
+#: includes/admin/settings/class-wc-pos-hotkeys.php:42
+msgid "Barcode search"
+msgstr "बारकोड खोज"
+
+#: includes/admin/settings/class-wc-pos-hotkeys.php:44
+msgid "New order"
+msgstr "नए आदेश"
+
+#: includes/admin/settings/class-wc-pos-hotkeys.php:45
+msgid "Sync with server"
+msgstr "सर्वर के साथ सिंक"
+
+#: includes/admin/settings/views/access.php:7
+msgid "Grant POS Access"
+msgstr "ग्रांट पीओएस पहुंच"
+
+#: includes/admin/settings/views/access.php:10
+msgid ""
+"By default, access to the POS is limited to Administrator and Shop Manager "
+"roles."
+msgstr "डिफ़ॉल्ट रूप से, स्थिति के लिए उपयोग प्रशासक और दुकान प्रबंधक की भूमिका निभाने के लिए सीमित है।"
+
+#: includes/admin/settings/views/access.php:11
+msgid ""
+"It is recommended that you <strong>do not change</strong> the default "
+"settings unless you are fully aware of the consequences."
+msgstr "यह आप परिणामों से पूरी तरह अवगत हैं, जब तक आप डिफ़ॉल्ट सेटिंग्स <strong>को बदल नहीं है</strong> कि सिफारिश की है।"
+
+#: includes/admin/settings/views/access.php:12
+#: includes/admin/settings/views/checkout.php:50
+#: includes/admin/settings/views/hotkeys.php:6
+msgid "For more information please visit <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
+msgstr "अधिक जानकारी के लिए कृपया <a href=\"%1$s\" target=\"_blank\">% 1 $</a>"
+
+#: includes/admin/settings/views/checkout.php:13
+msgid "Completed Order Status"
+msgstr "पूरे किए गए आदेश स्थिति"
+
+#: includes/admin/settings/views/checkout.php:14
+msgid "Change the default order status for POS sales"
+msgstr "पीओएस बिक्री के लिए डिफ़ॉल्ट आदेश की स्थिति बदलें"
+
+#: includes/admin/settings/views/checkout.php:27
+msgid "Order Emails"
+msgstr "आदेश ईमेल"
+
+#: includes/admin/settings/views/checkout.php:28
+msgid "Send WooCommerce notification emails for POS orders"
+msgstr "पीओएस आदेश के लिए WooCommerce सूचना ईमेल भेजें"
+
+#: includes/admin/settings/views/checkout.php:44
+msgid ""
+"Installed gateways are listed below. Drag and drop gateways to control their"
+" display order at the Point of Sale. "
+msgstr "स्थापित प्रवेश द्वार के नीचे सूचीबद्ध हैं। खींचें और ड्रॉप गेटवे बिक्री के बिंदु पर उनके प्रदर्शन का क्रम को नियंत्रित करने के लिए।"
+
+#: includes/admin/settings/views/checkout.php:45
+msgid ""
+"Payment Gateways enabled here will be available at the Point of Sale. "
+"Payment Gateways enabled on the settings page will be available in your "
+"Online Store. "
+msgstr "यहां सक्षम भुगतान द्वार बिक्री के बिंदु पर उपलब्ध हो जाएगा। सेटिंग पेज पर सक्षम भुगतान द्वार अपने ऑनलाइन स्टोर में उपलब्ध हो जाएगा।"
+
+#: includes/admin/settings/views/checkout.php:49
+msgid ""
+"It is your responsibility to ensure the security of your customer's "
+"information. Transmitting credit card or other sensitive information should "
+"only be done using a secure connnection."
+msgstr "यह अपने ग्राहकों की जानकारी की सुरक्षा सुनिश्चित करने की जिम्मेदारी है। हस्तांतरित क्रेडिट कार्ड या अन्य संवेदनशील जानकारी केवल एक सुरक्षित connnection का उपयोग किया जाना चाहिए।"
+
+#: includes/admin/settings/views/checkout.php:56
+msgid "Gateway Display"
+msgstr "गेटवे प्रदर्शन"
+
+#: includes/admin/settings/views/checkout.php:64
+msgid "Online Status"
+msgstr "ऑनलाइन स्थिति"
+
+#: includes/admin/settings/views/checkout.php:65
+msgid "POS Status"
+msgstr "पीओएस स्थिति"
+
+#: includes/admin/settings/views/checkout.php:66
+msgid "POS Settings"
+msgstr "पीओएस सेटिंग"
+
+#: includes/admin/settings/views/checkout.php:117
+msgid "Payment method title."
+msgstr "भुगतान विधि शीर्षक।"
+
+#: includes/admin/settings/views/checkout.php:124
+msgid "Payment method description that will be shown in the POS."
+msgstr "स्थिति में दिखाया जाएगा कि भुगतान विधि विवरण।"
+
+#: includes/admin/settings/views/checkout.php:130
+msgid "Icon"
+msgstr "चिह्न"
+
+#: includes/admin/settings/views/general.php:13
+msgid "Product Visibility"
+msgstr "उत्पाद दृश्यता"
+
+#: includes/admin/settings/views/general.php:17
+msgid "Enable <a href=\"%s\">POS Only products</a>"
+msgstr "सक्षम करें <a href=\"%s\">पीओएस केवल उत्पादों</a>"
+
+#: includes/admin/settings/views/general.php:23
+msgid "Allow Decimal Quantity"
+msgstr "दशमलव मात्रा की अनुमति दें"
+
+#: includes/admin/settings/views/general.php:24
+msgid "Allows items to have decimal values in the quantity field, eg: 0.25"
+msgstr "आइटम मात्रा क्षेत्र, जैसे दशमलव मूल्यों की अनुमति देता है: 0.25"
+
+#: includes/admin/settings/views/general.php:34
+msgid "Default POS Customer"
+msgstr "डिफ़ॉल्ट पीओएस ग्राहक"
+
+#: includes/admin/settings/views/general.php:35
+msgid ""
+"The default customer for POS orders, eg: Guest or create a new customer."
+msgstr "डिफ़ॉल्ट स्थिति आदेश के लिए ग्राहक, जैसे: अतिथि या एक नए ग्राहक बनाने के लिए।"
+
+#: includes/admin/settings/views/general.php:46
+msgid "Discount Quick Keys"
+msgstr "डिस्काउंट त्वरित कुंजी"
+
+#: includes/admin/settings/views/general.php:47
+msgid "Configure discount keys for quick numpad entry"
+msgstr "त्वरित numpad प्रवेश के लिए छूट की चाबियाँ विन्यस्त करें"
+
+#: includes/admin/settings/views/hotkeys.php:1
+msgid "Keyboard Shortcuts"
+msgstr "कुंजीपटल अल्प मार्ग"
+
+#: includes/admin/settings/views/hotkeys.php:4
+msgid ""
+"You can trigger certain events in WooCommerce POS using keyboard shortcuts "
+"(HotKeys)."
+msgstr "आप कीबोर्ड शॉर्टकट (hotkeys) का उपयोग WooCommerce स्थिति में कुछ घटनाओं को गति प्रदान कर सकते हैं।"
+
+#: includes/admin/settings/views/hotkeys.php:5
+msgid ""
+"HotKeys can also be used as a prefix for your barcode scanner or card "
+"reader."
+msgstr "Hotkeys भी अपने बारकोड स्कैनर या कार्ड रीडर के लिए एक उपसर्ग के रूप में इस्तेमाल किया जा सकता है।"
+
+#: includes/admin/settings/views/tools.php:33
+msgid "Receipt Template"
+msgstr "रसीद खाका"
+
+#: includes/admin/settings/views/tools.php:36
+msgid "View Sample Receipt"
+msgstr "देखें नमूना रसीद"
+
+#: includes/admin/settings/views/tools.php:38
+msgid "<strong class=\"red\">Template path:</strong> %s"
+msgstr "<strong class=\"red\">टेम्पलेट पथ%</strong> s"
+
+#: includes/admin/settings/views/tools.php:43
+msgid "Legacy Server Support"
+msgstr "विरासत सर्वर सहायता"
+
+#: includes/admin/settings/views/tools.php:49
+msgid "Emulate RESTful HTTP methods to support legacy servers."
+msgstr "विरासत सर्वर का समर्थन करने के शोकहारा HTTP विधि का अनुकरण।"
+
+#: includes/admin/views/order-details.php:2
+msgid "Order type"
+msgstr "आदेश प्रकार"
+
+#: includes/admin/views/settings.php:12
+msgid ""
+"There has been an error loading the settings, please contact <a "
+"href=\"mailto:support@woopos.com.au\">support</a>"
+msgstr "सेटिंग लोड करने में त्रुटि हुई है, कृपया संपर्क करें <a href=\"mailto:support@woopos.com.au\">समर्थन</a>"
+
+#: includes/class-wc-pos-activator.php:178
+msgid ""
+"<strong>WooCommerce POS</strong> requires <a href=\"%s\">WooCommerce</a>. "
+"Please <a href=\"%s\">install and activate WooCommerce</a>"
+msgstr "<strong>WooCommerce स्थिति</strong> की आवश्यकता है <a href=\"%s\">WooCommerce</a> । कृपया <a href=\"%s\">स्थापित करें और WooCommerce को सक्रिय</a>"
+
+#: includes/products/class-wc-pos-visibility.php:23
+msgid "POS & Online"
+msgstr "स्थिति और ऑनलाइन"
+
+#: includes/products/class-wc-pos-visibility.php:24
+#: includes/products/class-wc-pos-visibility.php:87
+msgid "POS Only"
+msgstr "स्थिति केवल"
+
+#: includes/products/class-wc-pos-visibility.php:25
+#: includes/products/class-wc-pos-visibility.php:88
+msgid "Online Only"
+msgstr "केवल ऑनलाइन"
+
+#: includes/products/views/post-metabox-visibility-select.php:11
+#: includes/products/views/quick-edit-visibility-select.php:14
+msgid "POS visibility"
+msgstr "पीओएस दृश्यता"
+
+#: includes/admin/class-wc-pos-permalink.php:28
+msgctxt "Permalink setting, eg: /pos"
+msgid "POS base"
+msgstr "पीओएस आधार"
+
+#: includes/admin/settings/class-wc-pos-hotkeys.php:21
+msgctxt "keyboard shortcuts"
+msgid "HotKeys"
+msgstr "Hotkeys"
+
+#: includes/admin/settings/views/checkout.php:134
+msgctxt "POS checkout settings"
+msgid "Show payment gateway icon."
+msgstr "भुगतान के प्रवेश द्वार आइकन दिखाएं।"
+
+#: includes/admin/settings/views/general.php:40
+msgctxt "Default customer setting"
+msgid "Use cashier account"
+msgstr "खजांची खाते का उपयोग करें"

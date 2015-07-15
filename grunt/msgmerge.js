@@ -52,7 +52,7 @@ module.exports = function(grunt) {
   };
 
   exports.queueInit = function(fileName, locale, dest){
-    var tmpl = exports.options.cwd + fileName;
+    var tmpl = exports.options.pot + fileName;
 
     // Ensure dest folder exists
     grunt.file.mkdir( path.dirname(dest) );

@@ -13,6 +13,7 @@ module.exports = function(grunt) {
     'es_ES',
     'fi',
     'fr_FR',
+    'id_ID',
     'it_IT',
     'nb_NO',
     'nl_NL',

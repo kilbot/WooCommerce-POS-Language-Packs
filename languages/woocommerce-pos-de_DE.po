@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
 "POT-Creation-Date: 2015-07-10 12:11:16+00:00\n"
-"PO-Revision-Date: 2015-07-15 16:08+0000\n"
+"PO-Revision-Date: 2015-07-15 16:13+0000\n"
 "Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
 "Language-Team: German (Germany) (http://www.transifex.com/p/woocommerce-pos/language/de_DE/)\n"
 "MIME-Version: 1.0\n"
@@ -39,7 +39,7 @@ msgstr "Es gibt keine Einstellungen id"
 
 #: includes/class-wc-pos-ajax.php:125
 msgid "No handler found for %s settings"
-msgstr "Kein Handler für% s Einstellungen gefunden"
+msgstr "Kein Handler für %s Einstellungen gefunden"
 
 #: includes/class-wc-pos-ajax.php:156
 msgid "Settings error"
@@ -111,7 +111,7 @@ msgstr "WC Version"
 
 #: includes/class-wc-pos-status.php:36
 msgid "WooCommerce >= %s required"
-msgstr "WooCommerce> =% s erforderlich"
+msgstr "WooCommerce >= %s erforderlich"
 
 #: includes/class-wc-pos-status.php:56
 msgid "WC REST API"
@@ -211,11 +211,11 @@ msgstr "Barcode scannen"
 
 #: includes/views/pos/products.php:81
 msgid "Showing %s of %s"
-msgstr "Es werden% s von% s"
+msgstr "Es werden %s von %s"
 
 #: includes/views/pos/products.php:82
 msgid "%s in queue"
-msgstr "% S in der Warteschlange"
+msgstr "%s in der Warteschlange"
 
 #: includes/views/print/receipt.php:109
 msgid "Billing Address"

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
 "POT-Creation-Date: 2015-07-10 12:11:16+00:00\n"
-"PO-Revision-Date: 2015-07-16 06:08+0000\n"
+"PO-Revision-Date: 2015-07-16 06:13+0000\n"
 "Last-Translator: transmetent <info@transmetent.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/p/woocommerce-pos/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -23,7 +23,7 @@ msgstr "S'ha produït un error en processar la comanda"
 
 #: includes/api/class-wc-pos-orders.php:523
 msgid "You are now being redirected offsite to complete the payment. "
-msgstr "Esteu sent redireccionat fora del web per a completar el pagament"
+msgstr "Esteu sent redirigit fora del web per a completar el pagament"
 
 #: includes/api/class-wc-pos-orders.php:524
 msgid "<a href=\"%s\">Click here</a> if you are not redirected automatically. "

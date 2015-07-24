@@ -5,15 +5,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
-"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
+"Packs/issues\n"
 "POT-Creation-Date: 2015-07-10 12:11:16+00:00\n"
 "PO-Revision-Date: 2015-07-23 18:16+0000\n"
 "Last-Translator: Marios <mariospolycarpou@hotmail.com>\n"
-"Language-Team: Greek (http://www.transifex.com/projects/p/woocommerce-pos/language/el/)\n"
+"Language-Team: Greek (http://www.transifex.com/projects/p/woocommerce-pos/"
+"language/el/)\n"
+"Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: el\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: grunt-wp-i18n 0.5.2\n"
 
@@ -127,9 +129,11 @@ msgstr "Απαιτείται η πρόσβαση στο REST API "
 
 #: includes/class-wc-pos-status.php:80
 msgid ""
-"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to"
-" work correctly"
-msgstr "<strong>WooCommerce REST API</strong> χρειάζεται <em>pretty</em> permalinks για να λειτουργεί σωστά "
+"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to "
+"work correctly"
+msgstr ""
+"<strong>WooCommerce REST API</strong> χρειάζεται <em>pretty</em> permalinks "
+"για να λειτουργεί σωστά "
 
 #: includes/class-wc-pos-status.php:84
 msgid "Enable permalinks"
@@ -186,20 +190,26 @@ msgstr "Προσφερόμενο Ποσό"
 
 #: includes/views/modals/browser.php:2
 msgid "Sorry, it seems your browser is not supported by WooCommerce POS. "
-msgstr "Δυστυχώς, φαίνεται ότι το πρόγραμμα περιήγησης (browser) σας δεν υποστηρίζεται από το WooCommerce POS."
+msgstr ""
+"Δυστυχώς, φαίνεται ότι το πρόγραμμα περιήγησης (browser) σας δεν "
+"υποστηρίζεται από το WooCommerce POS."
 
 #: includes/views/modals/browser.php:3
 msgid ""
-"If possible, please <a href=\"http://browsehappy.com/\">update your "
-"browser</a>, we recommend either Chrome or Firefox."
-msgstr "Εάν είναι δυνατόν, <a href=\"http://browsehappy.com/\"> αναβαθμίστε το πρόγραμμα περιήγησης σας</a>, προτείνουμε είτε το Chrome ή το Firefox."
+"If possible, please <a href=\"http://browsehappy.com/\">update your browser</"
+"a>, we recommend either Chrome or Firefox."
+msgstr ""
+"Εάν είναι δυνατόν, <a href=\"http://browsehappy.com/\"> αναβαθμίστε το "
+"πρόγραμμα περιήγησης σας</a>, προτείνουμε είτε το Chrome ή το Firefox."
 
 #: includes/views/modals/browser.php:7
 msgid ""
 "If you believe you have received this message in error please contact "
-"support via <a "
-"href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
-msgstr "Εάν πιστεύετε ότι έχετε λάβει αυτό το μήνυμα κατά λάθος επικοινωνήστε με την υποστήριξη στο <a href=\"http://woopos.com.au\">woopos.com.au</a>"
+"support via <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</"
+"a>"
+msgstr ""
+"Εάν πιστεύετε ότι έχετε λάβει αυτό το μήνυμα κατά λάθος επικοινωνήστε με την "
+"υποστήριξη στο <a href=\"http://woopos.com.au\">woopos.com.au</a>"
 
 #: includes/views/pos/checkout.php:26
 msgid "No payment gateways enabled."
@@ -252,9 +262,12 @@ msgstr "Σημείο Πώλησης"
 #. Description of the plugin/theme
 msgid ""
 "A simple front-end for taking WooCommerce orders at the Point of Sale. "
-"Requires <a "
-"href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a>."
-msgstr "Ένα απλό front-end Σημείο Πώλησης για λήψη παραγγελιών του WooCommerce. Απαιτεί το <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a>."
+"Requires <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</"
+"a>."
+msgstr ""
+"Ένα απλό front-end Σημείο Πώλησης για λήψη παραγγελιών του WooCommerce. "
+"Απαιτεί το <a href=\"http://wordpress.org/plugins/woocommerce/"
+"\">WooCommerce</a>."
 
 #: includes/class-wc-pos-i18n.php:320
 msgctxt "system status: browser capabilities"

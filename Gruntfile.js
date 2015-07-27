@@ -11,6 +11,7 @@ module.exports = function(grunt) {
     'de_DE',
     'el',
     'es_ES',
+    'et',
     'fi',
     'fr_FR',
     'hi_IN',
@@ -22,7 +23,8 @@ module.exports = function(grunt) {
     'pt_PT',
     'ru_RU',
     'sv_SE',
-    'zh_CN'
+    'zh_CN',
+    'zh_TW'
   ];
 
   grunt.initConfig({

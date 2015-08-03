@@ -5,6 +5,7 @@ module.exports = function(grunt) {
 
   var locales = [
     'ar',
+    'bs_BA',
     'ca',
     'cs_CZ',
     'da_DK',
@@ -17,7 +18,9 @@ module.exports = function(grunt) {
     'hi_IN',
     'id_ID',
     'it_IT',
+    'mk_MK',
     'nb_NO',
+    'nl_BE',
     'nl_NL',
     'pt_BR',
     'pt_PT',

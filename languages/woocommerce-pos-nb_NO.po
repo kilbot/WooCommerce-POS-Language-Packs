@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-07-10 12:11:16+00:00\n"
+"POT-Creation-Date: 2015-08-24 09:12:46+00:00\n"
 "PO-Revision-Date: 2014-08-24 20:41:04+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,20 +13,20 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/0.1\n"
 
-#: includes/api/class-wc-pos-orders.php:497
+#: includes/api/class-wc-pos-orders.php:476
 #, fuzzy
 msgid "There was an error processing the payment"
 msgstr "Det oppstod et problem under nedlastingen av produktene."
 
-#: includes/api/class-wc-pos-orders.php:523
+#: includes/api/class-wc-pos-orders.php:502
 msgid "You are now being redirected offsite to complete the payment. "
 msgstr ""
 
-#: includes/api/class-wc-pos-orders.php:524
+#: includes/api/class-wc-pos-orders.php:503
 msgid "<a href=\"%s\">Click here</a> if you are not redirected automatically. "
 msgstr ""
 
-#: includes/api/class-wc-pos-orders.php:538
+#: includes/api/class-wc-pos-orders.php:517
 msgid "POS Transaction completed."
 msgstr ""
 
@@ -58,77 +58,95 @@ msgstr "Det oppstod en feil under sendingen."
 msgid "Invalid security nonce"
 msgstr ""
 
-#: includes/class-wc-pos-i18n.php:332
+#: includes/class-wc-pos-api.php:49
+#, fuzzy
+msgid "User not authorized to access WooCommerce POS"
+msgstr "Brukeren er ikke autorisert til å bruke WooCommerce POS"
+
+#: includes/class-wc-pos-i18n.php:310
 msgid "To Pay"
 msgstr "Å betale"
 
-#: includes/class-wc-pos-i18n.php:333
+#: includes/class-wc-pos-i18n.php:311
 msgid "Paid"
 msgstr "Betalt"
 
-#: includes/class-wc-pos-i18n.php:334
+#: includes/class-wc-pos-i18n.php:312
 msgid "Unpaid"
 msgstr ""
 
-#: includes/class-wc-pos-i18n.php:335
+#: includes/class-wc-pos-i18n.php:313
 msgid "Email Receipt"
 msgstr "Kvittering på epost"
 
-#: includes/class-wc-pos-i18n.php:339
+#: includes/class-wc-pos-i18n.php:317
 msgid "Local Storage"
 msgstr ""
 
 #. translators: wordpress
 #. translators: woocommerce
 #. translators: wordpress
-#: includes/class-wc-pos-i18n.php:348 includes/views/print/receipt.php:130
+#: includes/class-wc-pos-i18n.php:325 includes/views/print/receipt.php:142
 #: includes/views/support.php:23
 msgid "Email"
 msgstr "Epost"
 
-#: includes/class-wc-pos-i18n.php:353
+#: includes/class-wc-pos-i18n.php:330
 msgid "Process Payment"
 msgstr "Prosesser betalingen"
 
-#: includes/class-wc-pos-i18n.php:357
+#: includes/class-wc-pos-i18n.php:334
 msgid "Return to Sale"
 msgstr "Tilbake til salg"
 
-#: includes/class-wc-pos-i18n.php:359
+#: includes/class-wc-pos-i18n.php:336
 msgid "Send"
 msgstr "Send"
 
-#: includes/class-wc-pos-i18n.php:361
+#: includes/class-wc-pos-i18n.php:338
 msgid "Void"
 msgstr "Annullér"
 
-#: includes/class-wc-pos-i18n.php:371
+#: includes/class-wc-pos-i18n.php:341
+msgid "Enable legacy server support"
+msgstr ""
+
+#: includes/class-wc-pos-i18n.php:348
 msgid "Your browser is not supported!"
 msgstr "Nettleseren din støttes ikke!"
 
-#: includes/class-wc-pos-status.php:29
+#: includes/class-wc-pos-i18n.php:349
+msgid "Unable to use RESTful HTTP methods"
+msgstr ""
+
+#: includes/class-wc-pos-status.php:31
 #, fuzzy
 msgid "WC Version"
 msgstr "WooCommerce versjon"
 
-#: includes/class-wc-pos-status.php:36
+#: includes/class-wc-pos-status.php:38
 #, fuzzy
 msgid "WooCommerce >= %s required"
 msgstr "WooCommerce >= 2.1 kreves"
 
-#: includes/class-wc-pos-status.php:56
+#: includes/class-wc-pos-status.php:70
+#, fuzzy
+msgid "PHP >= %s required"
+msgstr "WooCommerce >= 2.1 kreves"
+
+#: includes/class-wc-pos-status.php:91
 msgid "WC REST API"
 msgstr "WC REST API"
 
-#: includes/class-wc-pos-status.php:57
+#: includes/class-wc-pos-status.php:92
 msgid "API is active"
 msgstr "API er aktivert"
 
-#: includes/class-wc-pos-status.php:64
+#: includes/class-wc-pos-status.php:129
 msgid "Access to the REST API is required"
 msgstr "Det kreves tilgang til REST API"
 
-#: includes/class-wc-pos-status.php:80
+#: includes/class-wc-pos-status.php:149
 #, fuzzy
 msgid ""
 "<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to "
@@ -137,39 +155,13 @@ msgstr ""
 "<strong>WooCommerce REST API</strong> krever <em>pretty</em> permalinks for "
 "å fungere ordentlig. Vennligs aktiver <a href=\"%s\">permalinks</a>."
 
-#: includes/class-wc-pos-status.php:84
+#: includes/class-wc-pos-status.php:153
 msgid "Enable permalinks"
 msgstr ""
 
-#: includes/class-wc-pos-status.php:94
-#, fuzzy
-msgid "Unable to test the REST API"
-msgstr "Aktiver REST API"
-
-#: includes/class-wc-pos-status.php:105
-msgid "Unable to use RESTful HTTP methods"
-msgstr ""
-
-#: includes/class-wc-pos-status.php:109
-msgid "Enable legacy server support"
-msgstr ""
-
-#: includes/class-wc-pos-status.php:118
-msgid "Legacy server support enabled"
-msgstr ""
-
-#: includes/class-wc-pos-status.php:122
-msgid "Disable legacy server support"
-msgstr ""
-
-#: includes/class-wc-pos-template.php:152
+#: includes/class-wc-pos-template.php:144
 msgid "POS"
 msgstr "Kasseapparat"
-
-#: includes/class-wc-pos.php:114
-#, fuzzy
-msgid "User not authorized to access WooCommerce POS"
-msgstr "Brukeren er ikke autorisert til å bruke WooCommerce POS"
 
 #: includes/gateways/class-wc-pos-card.php:20
 msgid "Card"
@@ -188,7 +180,8 @@ msgstr "Kontant"
 
 #: includes/gateways/class-wc-pos-cash.php:52
 #: includes/gateways/class-wc-pos-cash.php:55
-#: includes/gateways/class-wc-pos-cash.php:100
+#: includes/gateways/class-wc-pos-cash.php:90
+#: includes/views/print/receipt.php:247
 msgid "Amount Tendered"
 msgstr "Beløp"
 
@@ -223,28 +216,33 @@ msgstr "Ingen betalingsmetoder er aktivert"
 msgid "Scan Barcode"
 msgstr "Scann strekkode"
 
-#: includes/views/pos/products.php:81
+#: includes/views/pos/products.php:79
 #, fuzzy
 msgid "Showing %s of %s"
 msgstr "Viser %s av %s produkter"
 
-#: includes/views/pos/products.php:82
+#: includes/views/pos/products.php:80
 msgid "%s in queue"
 msgstr ""
 
-#: includes/views/print/receipt.php:109
+#: includes/views/print/receipt.php:115
 msgid "Billing Address"
 msgstr "Faktura-adresse"
 
-#: includes/views/print/receipt.php:112
+#: includes/views/print/receipt.php:118
 msgid "Shipping Address"
 msgstr "Post-adresse"
 
-#: includes/views/print/receipt.php:121
+#: includes/views/print/receipt.php:127
 msgid "Order Date"
 msgstr "Ordredato"
 
-#: includes/views/print/receipt.php:125
+#: includes/views/print/receipt.php:132
+#, fuzzy
+msgid "Cashier"
+msgstr "Kontant"
+
+#: includes/views/print/receipt.php:137
 msgid "Payment Method"
 msgstr "Betalingsmetode"
 
@@ -272,12 +270,12 @@ msgid ""
 "a>."
 msgstr ""
 
-#: includes/class-wc-pos-i18n.php:320
+#: includes/class-wc-pos-i18n.php:298
 msgctxt "system status: browser capabilities"
 msgid "Browser"
 msgstr ""
 
-#: includes/class-wc-pos-i18n.php:326
+#: includes/class-wc-pos-i18n.php:304
 msgctxt "keyboard shortcuts"
 msgid "HotKeys"
 msgstr ""
@@ -287,34 +285,35 @@ msgctxt "keyboard shortcuts"
 msgid "Hotkeys"
 msgstr ""
 
-#: includes/class-wc-pos-i18n.php:336
+#: includes/class-wc-pos-i18n.php:314
 msgctxt "order status, ie: open order in cart"
 msgid "Open"
 msgstr ""
 
-#: includes/class-wc-pos-i18n.php:337
-#: includes/gateways/class-wc-pos-cash.php:102
+#: includes/class-wc-pos-i18n.php:315
+#: includes/gateways/class-wc-pos-cash.php:92
+#: includes/views/print/receipt.php:251
 msgctxt "Money returned from cash sale"
 msgid "Change"
 msgstr "Veksel"
 
-#: includes/class-wc-pos-i18n.php:344
+#: includes/class-wc-pos-i18n.php:321
 #, fuzzy
 msgctxt "system status: delete local records"
 msgid "Clear"
 msgstr "slett"
 
-#: includes/class-wc-pos-i18n.php:355
+#: includes/class-wc-pos-i18n.php:332
 msgctxt "restore default settings"
 msgid "Restore defaults"
 msgstr ""
 
-#: includes/class-wc-pos-i18n.php:356
+#: includes/class-wc-pos-i18n.php:333
 msgctxt "Numpad return key"
 msgid "return"
 msgstr ""
 
-#: includes/class-wc-pos-i18n.php:375
+#: includes/class-wc-pos-i18n.php:352
 msgctxt "eg: 23 records"
 msgid "record |||| records"
 msgstr ""
@@ -325,7 +324,7 @@ msgid "On Sale"
 msgstr "Salg"
 
 #: includes/views/pos/cart.php:9 includes/views/pos/receipt.php:10
-#: includes/views/print/receipt.php:145
+#: includes/views/print/receipt.php:157
 #, fuzzy
 msgctxt "Abbreviation of Quantity"
 msgid "Qty"
@@ -333,10 +332,14 @@ msgstr "Ant"
 
 #: includes/views/pos/cart.php:109 includes/views/pos/cart.php:120
 #: includes/views/pos/receipt.php:84 includes/views/pos/receipt.php:94
-#: includes/views/print/receipt.php:204 includes/views/print/receipt.php:214
+#: includes/views/print/receipt.php:216 includes/views/print/receipt.php:226
 msgctxt "abbreviation for includes (tax)"
 msgid "incl."
 msgstr "inkl."
+
+#, fuzzy
+#~ msgid "Unable to test the REST API"
+#~ msgstr "Aktiver REST API"
 
 #~ msgid "Order Number"
 #~ msgstr "Ordrenummer"

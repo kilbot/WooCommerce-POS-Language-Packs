@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-07-10 12:11:16+00:00\n"
+"POT-Creation-Date: 2015-08-24 09:12:46+00:00\n"
 "PO-Revision-Date: 2015-07-23 18:16+0000\n"
 "Last-Translator: Marios <mariospolycarpou@hotmail.com>\n"
 "Language-Team: Greek (http://www.transifex.com/projects/p/woocommerce-pos/"
@@ -26,7 +26,7 @@ msgstr "Ηλεκτρονικό Κατάστημα"
 #: includes/admin/class-wc-pos-gateways.php:32
 #: includes/admin/class-wc-pos-menu.php:34
 #: includes/admin/class-wc-pos-menu.php:35
-#: includes/admin/class-wc-pos-orders.php:89
+#: includes/admin/class-wc-pos-orders.php:94
 #: includes/admin/views/order-details.php:5
 msgid "POS"
 msgstr "POS"
@@ -37,32 +37,32 @@ msgid "View POS"
 msgstr "View POS"
 
 #: includes/admin/class-wc-pos-menu.php:53
-#: includes/admin/settings/views/checkout.php:92
+#: includes/admin/settings/views/checkout.php:102
 msgid "Upgrade to Pro"
 msgstr "Αναβάθμιση σε PRO"
 
-#: includes/admin/class-wc-pos-orders.php:90
+#: includes/admin/class-wc-pos-orders.php:95
 #: includes/admin/views/order-details.php:4
 msgid "Online"
 msgstr "Συνδεδεμένο"
 
-#: includes/admin/settings/class-wc-pos-access.php:23
+#: includes/admin/settings/class-wc-pos-access.php:25
 msgid "POS Access"
 msgstr "Πρόσβαση POS "
 
-#: includes/admin/settings/class-wc-pos-hotkeys.php:41
+#: includes/admin/settings/class-wc-pos-hotkeys.php:42
 msgid "Help screen"
 msgstr "Οθόνη Βοήθειας"
 
-#: includes/admin/settings/class-wc-pos-hotkeys.php:42
+#: includes/admin/settings/class-wc-pos-hotkeys.php:43
 msgid "Barcode search"
 msgstr "Αναζήτηση Γραμμοκώδικα"
 
-#: includes/admin/settings/class-wc-pos-hotkeys.php:44
+#: includes/admin/settings/class-wc-pos-hotkeys.php:45
 msgid "New order"
 msgstr "Νέα παραγγελία"
 
-#: includes/admin/settings/class-wc-pos-hotkeys.php:45
+#: includes/admin/settings/class-wc-pos-hotkeys.php:46
 msgid "Sync with server"
 msgstr "Συγχ. με διακομιστή"
 
@@ -87,7 +87,7 @@ msgstr ""
 "εκτός και εάν έχετε πλήρη επίγνωση των επιπτώσεων."
 
 #: includes/admin/settings/views/access.php:12
-#: includes/admin/settings/views/checkout.php:50
+#: includes/admin/settings/views/checkout.php:60
 #: includes/admin/settings/views/hotkeys.php:6
 msgid ""
 "For more information please visit <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
@@ -115,7 +115,23 @@ msgstr ""
 "Αποστολή ειδοποιήσεων του WooCommerce  μέσω ηλεκτρονικού ταχυδρομείου για  "
 "παραγγελίες μέσω POS"
 
-#: includes/admin/settings/views/checkout.php:44
+#: includes/admin/settings/views/checkout.php:32
+msgid "Enable admin emails"
+msgstr ""
+
+#: includes/admin/settings/views/checkout.php:35
+msgid "Enable customer emails"
+msgstr ""
+
+#: includes/admin/settings/views/checkout.php:41
+msgid "Receipt Printing"
+msgstr ""
+
+#: includes/admin/settings/views/checkout.php:45
+msgid "Automatically print receipt after checkout"
+msgstr ""
+
+#: includes/admin/settings/views/checkout.php:54
 msgid ""
 "Installed gateways are listed below. Drag and drop gateways to control their "
 "display order at the Point of Sale. "
@@ -123,7 +139,7 @@ msgstr ""
 "Εγκατεστημένες πύλες αναγράφονται παρακάτω. Σύρετε και αποθέστε πύλες για "
 "τον έλεγχο της σειράς εμφάνισης τους στο σημείο πώλησης."
 
-#: includes/admin/settings/views/checkout.php:45
+#: includes/admin/settings/views/checkout.php:55
 msgid ""
 "Payment Gateways enabled here will be available at the Point of Sale. "
 "Payment Gateways enabled on the settings page will be available in your "
@@ -133,7 +149,7 @@ msgstr ""
 "Τρόποι Πληρωμής ενεργοποιημένοι στη σελίδα ρυθμίσεων θα είναι διαθέσιμοι στο "
 "Ηλεκτρονικό σας Κατάστημα."
 
-#: includes/admin/settings/views/checkout.php:49
+#: includes/admin/settings/views/checkout.php:59
 msgid ""
 "It is your responsibility to ensure the security of your customer's "
 "information. Transmitting credit card or other sensitive information should "
@@ -143,31 +159,31 @@ msgstr ""
 "πελατών σας. Μετάδοση πιστωτικών καρτών ή άλλων ευαίσθητων πληροφοριών θα "
 "πρέπει να γίνεται μόνο με τη χρήση ασφαλούς σύνδεσης."
 
-#: includes/admin/settings/views/checkout.php:56
+#: includes/admin/settings/views/checkout.php:66
 msgid "Gateway Display"
 msgstr "Εμφάνιση Πύλης "
 
-#: includes/admin/settings/views/checkout.php:64
+#: includes/admin/settings/views/checkout.php:74
 msgid "Online Status"
 msgstr "Κατάσταση Σύνδεσης"
 
-#: includes/admin/settings/views/checkout.php:65
+#: includes/admin/settings/views/checkout.php:75
 msgid "POS Status"
 msgstr "Κατάσταση POS"
 
-#: includes/admin/settings/views/checkout.php:66
+#: includes/admin/settings/views/checkout.php:76
 msgid "POS Settings"
 msgstr "Ρυθμίσεις POS"
 
-#: includes/admin/settings/views/checkout.php:117
+#: includes/admin/settings/views/checkout.php:127
 msgid "Payment method title."
 msgstr "Τίτλος τρόπου πληρωμής."
 
-#: includes/admin/settings/views/checkout.php:124
+#: includes/admin/settings/views/checkout.php:134
 msgid "Payment method description that will be shown in the POS."
 msgstr "Περιγραφή τρόπου πληρωμής η οποία θα φαίνεται στο POS"
 
-#: includes/admin/settings/views/checkout.php:130
+#: includes/admin/settings/views/checkout.php:140
 msgid "Icon"
 msgstr "Eικονίδιο"
 
@@ -253,7 +269,7 @@ msgstr ""
 msgid "Order type"
 msgstr "Τύπος Παραγγελίας"
 
-#: includes/admin/views/settings.php:12
+#: includes/admin/views/settings.php:13
 msgid ""
 "There has been an error loading the settings, please contact <a href="
 "\"mailto:support@woopos.com.au\">support</a>"
@@ -261,7 +277,7 @@ msgstr ""
 "Υπήρξε ένα σφάλμα κατά τη φόρτωση των ρυθμίσεων, επικοινωνήστε με την <a "
 "href=\"mailto:support@woopos.com.au\">υποστήριξη</a>"
 
-#: includes/class-wc-pos-activator.php:178
+#: includes/class-wc-pos-activator.php:192
 msgid ""
 "<strong>WooCommerce POS</strong> requires <a href=\"%s\">WooCommerce</a>. "
 "Please <a href=\"%s\">install and activate WooCommerce</a>"
@@ -294,12 +310,12 @@ msgctxt "Permalink setting, eg: /pos"
 msgid "POS base"
 msgstr "POS base"
 
-#: includes/admin/settings/class-wc-pos-hotkeys.php:21
+#: includes/admin/settings/class-wc-pos-hotkeys.php:22
 msgctxt "keyboard shortcuts"
 msgid "HotKeys"
 msgstr "Συντομεύσεις"
 
-#: includes/admin/settings/views/checkout.php:134
+#: includes/admin/settings/views/checkout.php:144
 msgctxt "POS checkout settings"
 msgid "Show payment gateway icon."
 msgstr "Εμφάνιση εικονιδίου πύλης πληρωμών"

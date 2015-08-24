@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS Pro 0.4.0-alpha\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-06-02 07:55:30+00:00\n"
+"POT-Creation-Date: 2015-08-24 09:12:35+00:00\n"
 "PO-Revision-Date: 2015-03-13 04:49:21+00:00\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -14,14 +14,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: grunt-wp-i18n 0.4.9\n"
-
-#: includes/class-wc-pos-pro-i18n.php:103
-msgid "Activate"
-msgstr ""
-
-#: includes/class-wc-pos-pro-i18n.php:104
-msgid "Deactivate"
-msgstr ""
 
 #: includes/class-wc-pos-pro-stores.php:43
 #: includes/class-wc-pos-pro-stores.php:45
@@ -73,8 +65,8 @@ msgstr ""
 #. translators: woocommerce
 #. translators: woocommerce
 #. translators: woocommerce
-#: includes/class-wc-pos-pro-template.php:102 includes/views/customers.php:14
-#: includes/views/customers.php:74 includes/views/print/receipt.php:173
+#: includes/class-wc-pos-pro-template.php:103 includes/views/customers.php:14
+#: includes/views/customers.php:74 includes/views/print/receipt.php:185
 msgid "Email"
 msgstr ""
 
@@ -94,19 +86,27 @@ msgstr ""
 msgid "Receipt"
 msgstr ""
 
-#: includes/views/print/receipt.php:164
+#: includes/views/print/receipt.php:170
 msgid "Order Date"
 msgstr ""
 
-#: includes/views/print/receipt.php:168
+#: includes/views/print/receipt.php:175
+msgid "Cashier"
+msgstr ""
+
+#: includes/views/print/receipt.php:180
 msgid "Payment Method"
 msgstr ""
 
-#: includes/views/print/receipt.php:220
+#: includes/views/print/receipt.php:232
 msgid "Cart Subtotal"
 msgstr ""
 
-#: includes/views/products.php:86
+#: includes/views/print/receipt.php:290
+msgid "Amount Tendered"
+msgstr ""
+
+#: includes/views/products.php:88
 msgid "On Sale?"
 msgstr ""
 
@@ -128,12 +128,17 @@ msgid ""
 "href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce POS</a>."
 msgstr ""
 
-#: includes/views/print/receipt.php:188
+#: includes/views/print/receipt.php:200
 msgctxt "Abbreviation of Quantity"
 msgid "Qty"
 msgstr ""
 
-#: includes/views/print/receipt.php:247 includes/views/print/receipt.php:257
+#: includes/views/print/receipt.php:259 includes/views/print/receipt.php:269
 msgctxt "abbreviation for includes (tax)"
 msgid "incl."
+msgstr ""
+
+#: includes/views/print/receipt.php:294
+msgctxt "Money returned from cash sale"
+msgid "Change"
 msgstr ""

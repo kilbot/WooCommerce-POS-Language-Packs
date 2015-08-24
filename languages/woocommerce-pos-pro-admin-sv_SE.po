@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-07-09 05:15:26+00:00\n"
+"POT-Creation-Date: 2015-08-24 09:12:35+00:00\n"
 "PO-Revision-Date: 2015-07-15 16:21+0000\n"
 "Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
 "Language-Team: Swedish (Sweden) (http://www.transifex.com/p/woocommerce-pos/"
@@ -19,7 +19,17 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: grunt-wp-i18n 0.5.2\n"
 
-#: includes/admin/class-wc-pos-pro-am.php:109
+#: includes/admin/class-wc-pos-pro-am.php:72
+msgid "The %s License Key has not been activated, so the plugin is inactive!"
+msgstr "%s licensnyckel har inte aktiverats, så plugin är inaktiv!"
+
+#: includes/admin/class-wc-pos-pro-am.php:73
+msgid ""
+" <a href=\"%s\">Click here</a> to activate the license key and the plugin."
+msgstr ""
+"<a href=\"%s\">Klicka här</a> för att aktivera licensnyckeln och plugin."
+
+#: includes/admin/class-wc-pos-pro-am.php:106
 msgid ""
 "<b>Warning!</b> You're blocking external requests which means you won't be "
 "able to get %s updates. Please add %s to %s."
@@ -27,54 +37,44 @@ msgstr ""
 "<b>Varning!</b> Du blockerar externa förfrågningar vilket innebär att du "
 "kommer inte att kunna få %s uppdateringar. Vänligen lägg %s till %s."
 
-#: includes/admin/class-wc-pos-pro-am.php:124
-msgid "The %s License Key has not been activated, so the plugin is inactive!"
-msgstr "%s licensnyckel har inte aktiverats, så plugin är inaktiv!"
-
-#: includes/admin/class-wc-pos-pro-am.php:125
-msgid ""
-" <a href=\"%s\">Click here</a> to activate the license key and the plugin."
-msgstr ""
-"<a href=\"%s\">Klicka här</a> för att aktivera licensnyckeln och plugin."
-
-#: includes/admin/class-wc-pos-pro-am.php:252
+#: includes/admin/class-wc-pos-pro-am.php:231
 msgid "Unable to connect to the activation server"
 msgstr "Det går inte att ansluta till aktiveringsservern"
 
-#: includes/admin/class-wc-pos-pro-am.php:287
+#: includes/admin/class-wc-pos-pro-am.php:266
 msgid "Unable to parse the server response"
 msgstr "Det går inte att analysera serversvaret"
 
-#: includes/admin/class-wc-pos-pro-am.php:299
+#: includes/admin/class-wc-pos-pro-am.php:278
 msgid "Invalid Request"
 msgstr "Ogiltig Förfrågan"
 
-#: includes/admin/class-wc-pos-pro-am.php:301
-#: includes/admin/class-wc-pos-pro-am.php:305
+#: includes/admin/class-wc-pos-pro-am.php:280
+#: includes/admin/class-wc-pos-pro-am.php:284
 msgid "Invalid License Key"
 msgstr "Ogiltig licensnyckel"
 
-#: includes/admin/class-wc-pos-pro-am.php:302
+#: includes/admin/class-wc-pos-pro-am.php:281
 msgid "Activation error"
 msgstr "Aktivering fel"
 
-#: includes/admin/class-wc-pos-pro-am.php:303
+#: includes/admin/class-wc-pos-pro-am.php:282
 msgid "Exceeded maximum number of activations"
 msgstr "Överskred max antal aktiveringar"
 
-#: includes/admin/class-wc-pos-pro-am.php:304
+#: includes/admin/class-wc-pos-pro-am.php:283
 msgid "Invalid Instance ID"
 msgstr "Ogiltigt instans-ID"
 
-#: includes/admin/class-wc-pos-pro-am.php:306
+#: includes/admin/class-wc-pos-pro-am.php:285
 msgid "Subscription is not active"
 msgstr "Teckning är inte aktiv"
 
-#: includes/admin/class-wc-pos-pro-am.php:309
+#: includes/admin/class-wc-pos-pro-am.php:288
 msgid "Invalid Response"
 msgstr "Ogiltigt Response"
 
-#: includes/admin/class-wc-pos-pro-am.php:324
+#: includes/admin/class-wc-pos-pro-am.php:306
 msgid ""
 "A license key for %s could not be found. Maybe you forgot to enter a license "
 "key when setting up %s, or the key was deactivated in your account. You can "
@@ -86,7 +86,7 @@ msgstr ""
 "Du kan återaktivera eller köpa en licensnyckel från ditt konto <a href=\"%s"
 "\" target=\"_blank\">instrumentpanelen</a> ."
 
-#: includes/admin/class-wc-pos-pro-am.php:325
+#: includes/admin/class-wc-pos-pro-am.php:307
 msgid ""
 "The license key for %s has expired. You can reactivate or purchase a license "
 "key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
@@ -95,7 +95,7 @@ msgstr ""
 "licensnyckel från ditt konto <a href=\"%s\" target=\"_blank"
 "\">instrumentpanelen</a> ."
 
-#: includes/admin/class-wc-pos-pro-am.php:326
+#: includes/admin/class-wc-pos-pro-am.php:308
 msgid ""
 "The subscription for %s is on-hold. You can reactivate the subscription from "
 "your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
@@ -103,7 +103,7 @@ msgstr ""
 "Tecknings för %s är på håll. Du kan återaktivera prenumerationen från ditt "
 "konto <a href=\"%s\" target=\"_blank\">instrumentpanelen</a> ."
 
-#: includes/admin/class-wc-pos-pro-am.php:327
+#: includes/admin/class-wc-pos-pro-am.php:309
 msgid ""
 "The subscription for %s has been cancelled. You can renew the subscription "
 "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>. A new "
@@ -113,7 +113,7 @@ msgstr ""
 "konto <a href=\"%s\" target=\"_blank\">instrumentpanelen</a> . En ny "
 "licensnyckel kommer att skickas till dig efter din beställning har slutförts."
 
-#: includes/admin/class-wc-pos-pro-am.php:328
+#: includes/admin/class-wc-pos-pro-am.php:310
 msgid ""
 "The subscription for %s has expired. You can reactivate the subscription "
 "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
@@ -121,7 +121,7 @@ msgstr ""
 "Tecknings för% s har gått ut. Du kan återaktivera prenumerationen från ditt "
 "konto <a href=\"%s\" target=\"_blank\">instrumentpanelen</a> ."
 
-#: includes/admin/class-wc-pos-pro-am.php:329
+#: includes/admin/class-wc-pos-pro-am.php:311
 msgid ""
 "The subscription for %s has been suspended. You can reactivate the "
 "subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
@@ -130,7 +130,7 @@ msgstr ""
 "Tecknings för% s har stängts av. Du kan återaktivera prenumerationen från "
 "ditt konto <a href=\"%s\" target=\"_blank\">instrumentpanelen</a> ."
 
-#: includes/admin/class-wc-pos-pro-am.php:330
+#: includes/admin/class-wc-pos-pro-am.php:312
 msgid ""
 "The subscription for %s is still pending. You can check on the status of the "
 "subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
@@ -140,7 +140,7 @@ msgstr ""
 "abonnemanget från ditt konto <a href=\"%s\" target=\"_blank"
 "\">instrumentpanelen</a> ."
 
-#: includes/admin/class-wc-pos-pro-am.php:331
+#: includes/admin/class-wc-pos-pro-am.php:313
 msgid ""
 "The subscription for %s has been placed in the trash and will be deleted "
 "soon. You can purchase a new subscription from your account <a href=\"%s\" "
@@ -150,7 +150,7 @@ msgstr ""
 "kort. Du kan köpa ett nytt abonnemang från ditt konto <a href=\"%s\" target="
 "\"_blank\">instrumentpanelen</a> ."
 
-#: includes/admin/class-wc-pos-pro-am.php:332
+#: includes/admin/class-wc-pos-pro-am.php:314
 msgid ""
 "A subscription for %s could not be found. You can purchase a subscription "
 "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
@@ -158,7 +158,7 @@ msgstr ""
 "En prenumeration för% s kunde inte hittas. Du kan köpa ett abonnemang från "
 "ditt konto <a href=\"%s\" target=\"_blank\">instrumentpanelen</a> ."
 
-#: includes/admin/class-wc-pos-pro-am.php:333
+#: includes/admin/class-wc-pos-pro-am.php:315
 msgid ""
 "%s has not been activated. Go to the settings page and enter the license key "
 "and license email to activate %s."
@@ -166,7 +166,7 @@ msgstr ""
 "% S har inte aktiverats. Gå till inställningssidan och ange licensnyckeln "
 "och licens mail för att aktivera% s."
 
-#: includes/admin/class-wc-pos-pro-am.php:334
+#: includes/admin/class-wc-pos-pro-am.php:316
 msgid ""
 "Download permission for %s has been revoked possibly due to a license key or "
 "subscription expiring. You can reactivate or purchase a license key from "
@@ -177,7 +177,7 @@ msgstr ""
 "licensnyckel från ditt konto <a href=\"%s\" target=\"_blank"
 "\">instrumentpanelen</a> ."
 
-#: includes/admin/class-wc-pos-pro-am.php:335
+#: includes/admin/class-wc-pos-pro-am.php:317
 msgid ""
 "You changed the subscription for %s, so you will need to enter your new API "
 "License Key in the settings page. The License Key should have arrived in "
@@ -349,9 +349,13 @@ msgstr "Online"
 msgid "Total"
 msgstr "Totalt"
 
-#: includes/admin/settings/class-wc-pos-pro-license.php:16
+#: includes/admin/settings/class-wc-pos-pro-license.php:18
 msgid "Pro License"
 msgstr "Pro Licens"
+
+#: includes/admin/settings/views/customers.php:7
+msgid "Customer Options"
+msgstr ""
 
 #: includes/admin/settings/views/license.php:7
 msgid "Pro License Activation"
@@ -445,7 +449,7 @@ msgstr ""
 "Skattesatserna ovan kommer att användas vid försäljningsstället. Du kan <a "
 "href=\"%s\">ändra skattesatsen</a> i WooCommerce inställningar."
 
-#: includes/class-wc-pos-pro-activator.php:145
+#: includes/class-wc-pos-pro-activator.php:151
 msgid ""
 "<strong>WooCommerce POS Pro</strong> requires <a href=\"%s\">WooCommerce "
 "POS</a>. Please <a href=\"%s\">install and activate WooCommerce POS</a>"

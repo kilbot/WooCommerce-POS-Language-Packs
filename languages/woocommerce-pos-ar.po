@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-07-10 12:11:16+00:00\n"
+"POT-Creation-Date: 2015-08-24 09:12:46+00:00\n"
 "PO-Revision-Date: 2015-07-02 09:29+0000\n"
 "Last-Translator: Mustafa Mohammed <mustafamsy@gmail.com>\n"
 "Language-Team: Arabic (http://www.transifex.com/projects/p/woocommerce-pos/"
@@ -20,19 +20,19 @@ msgstr ""
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "X-Generator: grunt-wp-i18n 0.5.2\n"
 
-#: includes/api/class-wc-pos-orders.php:497
+#: includes/api/class-wc-pos-orders.php:476
 msgid "There was an error processing the payment"
 msgstr "حدث خطأ أثناء عملية الدفع"
 
-#: includes/api/class-wc-pos-orders.php:523
+#: includes/api/class-wc-pos-orders.php:502
 msgid "You are now being redirected offsite to complete the payment. "
 msgstr "يتم الآن تحويلك لخارج الموقع  لإتمام عملية الدفع"
 
-#: includes/api/class-wc-pos-orders.php:524
+#: includes/api/class-wc-pos-orders.php:503
 msgid "<a href=\"%s\">Click here</a> if you are not redirected automatically. "
 msgstr "<a href=\"%s\"> اضغط هنا </a> اذا لم يتم تحويلك تلقائيا"
 
-#: includes/api/class-wc-pos-orders.php:538
+#: includes/api/class-wc-pos-orders.php:517
 msgid "POS Transaction completed."
 msgstr "لقد تمت العملية"
 
@@ -60,111 +60,104 @@ msgstr "حدث خطأ أثناء عملية إرسال البريد"
 msgid "Invalid security nonce"
 msgstr "رقم تعريف للعملية غير صالح"
 
-#: includes/class-wc-pos-i18n.php:332
+#: includes/class-wc-pos-api.php:49
+msgid "User not authorized to access WooCommerce POS"
+msgstr "المستخدم غير مصرح به للدخول على نظام نقطة المبيعات ووكومرس"
+
+#: includes/class-wc-pos-i18n.php:310
 msgid "To Pay"
 msgstr "للدفع"
 
-#: includes/class-wc-pos-i18n.php:333
+#: includes/class-wc-pos-i18n.php:311
 msgid "Paid"
 msgstr "مدفوع"
 
-#: includes/class-wc-pos-i18n.php:334
+#: includes/class-wc-pos-i18n.php:312
 msgid "Unpaid"
 msgstr "غير مدفوع"
 
-#: includes/class-wc-pos-i18n.php:335
+#: includes/class-wc-pos-i18n.php:313
 msgid "Email Receipt"
 msgstr "أرسل الفاتورة"
 
-#: includes/class-wc-pos-i18n.php:339
+#: includes/class-wc-pos-i18n.php:317
 msgid "Local Storage"
 msgstr ""
 
 #. translators: wordpress
 #. translators: woocommerce
 #. translators: wordpress
-#: includes/class-wc-pos-i18n.php:348 includes/views/print/receipt.php:130
+#: includes/class-wc-pos-i18n.php:325 includes/views/print/receipt.php:142
 #: includes/views/support.php:23
 msgid "Email"
 msgstr "البريد"
 
-#: includes/class-wc-pos-i18n.php:353
+#: includes/class-wc-pos-i18n.php:330
 msgid "Process Payment"
 msgstr "تأكيد الدفع"
 
-#: includes/class-wc-pos-i18n.php:357
+#: includes/class-wc-pos-i18n.php:334
 msgid "Return to Sale"
 msgstr "العودة للمبيعات"
 
-#: includes/class-wc-pos-i18n.php:359
+#: includes/class-wc-pos-i18n.php:336
 msgid "Send"
 msgstr "أرسل"
 
-#: includes/class-wc-pos-i18n.php:361
+#: includes/class-wc-pos-i18n.php:338
 msgid "Void"
 msgstr "إلغاء"
 
-#: includes/class-wc-pos-i18n.php:371
+#: includes/class-wc-pos-i18n.php:341
+msgid "Enable legacy server support"
+msgstr ""
+
+#: includes/class-wc-pos-i18n.php:348
 msgid "Your browser is not supported!"
 msgstr "متصفحك غير مدعوم!"
 
-#: includes/class-wc-pos-status.php:29
+#: includes/class-wc-pos-i18n.php:349
+msgid "Unable to use RESTful HTTP methods"
+msgstr ""
+
+#: includes/class-wc-pos-status.php:31
 msgid "WC Version"
 msgstr "إصدار الووكومرس"
 
-#: includes/class-wc-pos-status.php:36
+#: includes/class-wc-pos-status.php:38
 msgid "WooCommerce >= %s required"
 msgstr "ووكومرس >= %s مطلوب"
 
-#: includes/class-wc-pos-status.php:56
+#: includes/class-wc-pos-status.php:70
+#, fuzzy
+msgid "PHP >= %s required"
+msgstr "ووكومرس >= %s مطلوب"
+
+#: includes/class-wc-pos-status.php:91
 msgid "WC REST API"
 msgstr "الواجهة البرمجة لووكومرس Restful API"
 
-#: includes/class-wc-pos-status.php:57
+#: includes/class-wc-pos-status.php:92
 msgid "API is active"
 msgstr "الواجهة البرمجية مفعلة"
 
-#: includes/class-wc-pos-status.php:64
+#: includes/class-wc-pos-status.php:129
 msgid "Access to the REST API is required"
 msgstr "تصريح استعلام الواجهة البرمجية مطلوب"
 
-#: includes/class-wc-pos-status.php:80
+#: includes/class-wc-pos-status.php:149
 msgid ""
 "<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to "
 "work correctly"
 msgstr ""
 
-#: includes/class-wc-pos-status.php:84
+#: includes/class-wc-pos-status.php:153
 msgid "Enable permalinks"
 msgstr ""
 
-#: includes/class-wc-pos-status.php:94
-msgid "Unable to test the REST API"
-msgstr ""
-
-#: includes/class-wc-pos-status.php:105
-msgid "Unable to use RESTful HTTP methods"
-msgstr ""
-
-#: includes/class-wc-pos-status.php:109
-msgid "Enable legacy server support"
-msgstr ""
-
-#: includes/class-wc-pos-status.php:118
-msgid "Legacy server support enabled"
-msgstr ""
-
-#: includes/class-wc-pos-status.php:122
-msgid "Disable legacy server support"
-msgstr ""
-
-#: includes/class-wc-pos-template.php:152
+#: includes/class-wc-pos-template.php:144
 msgid "POS"
 msgstr "نقطة مبيعات"
-
-#: includes/class-wc-pos.php:114
-msgid "User not authorized to access WooCommerce POS"
-msgstr "المستخدم غير مصرح به للدخول على نظام نقطة المبيعات ووكومرس"
 
 #: includes/gateways/class-wc-pos-card.php:20
 msgid "Card"
@@ -183,7 +176,8 @@ msgstr "نقداً"
 
 #: includes/gateways/class-wc-pos-cash.php:52
 #: includes/gateways/class-wc-pos-cash.php:55
-#: includes/gateways/class-wc-pos-cash.php:100
+#: includes/gateways/class-wc-pos-cash.php:90
+#: includes/views/print/receipt.php:247
 msgid "Amount Tendered"
 msgstr "المبلغ المستلم"
 
@@ -216,27 +210,32 @@ msgstr "بوابات الدفع غير مفعلة."
 msgid "Scan Barcode"
 msgstr "المسح الضوئي للباركود "
 
-#: includes/views/pos/products.php:81
+#: includes/views/pos/products.php:79
 msgid "Showing %s of %s"
 msgstr "عرض %s من %s"
 
-#: includes/views/pos/products.php:82
+#: includes/views/pos/products.php:80
 msgid "%s in queue"
 msgstr "%s في قائمة الانتظار"
 
-#: includes/views/print/receipt.php:109
+#: includes/views/print/receipt.php:115
 msgid "Billing Address"
 msgstr "عنوان الفاتورة"
 
-#: includes/views/print/receipt.php:112
+#: includes/views/print/receipt.php:118
 msgid "Shipping Address"
 msgstr "عنوان الشحن"
 
-#: includes/views/print/receipt.php:121
+#: includes/views/print/receipt.php:127
 msgid "Order Date"
 msgstr "تاريخ الطلب"
 
-#: includes/views/print/receipt.php:125
+#: includes/views/print/receipt.php:132
+#, fuzzy
+msgid "Cashier"
+msgstr "نقداً"
+
+#: includes/views/print/receipt.php:137
 msgid "Payment Method"
 msgstr "طريقة الدفع"
 
@@ -265,12 +264,12 @@ msgstr ""
 "واجهة بسيطة لأخذ طلبات ووكومرس في نقاط البيع. المطلوب: <a href=\"http://"
 "wordpress.org/plugins/woocommerce/\">ووكومرس</a>."
 
-#: includes/class-wc-pos-i18n.php:320
+#: includes/class-wc-pos-i18n.php:298
 msgctxt "system status: browser capabilities"
 msgid "Browser"
 msgstr "المتصفح"
 
-#: includes/class-wc-pos-i18n.php:326
+#: includes/class-wc-pos-i18n.php:304
 msgctxt "keyboard shortcuts"
 msgid "HotKeys"
 msgstr "مفاتيح التشغيل/الاختصارات"
@@ -280,33 +279,34 @@ msgctxt "keyboard shortcuts"
 msgid "Hotkeys"
 msgstr "مفاتيح التشغيل/الاختصارات"
 
-#: includes/class-wc-pos-i18n.php:336
+#: includes/class-wc-pos-i18n.php:314
 msgctxt "order status, ie: open order in cart"
 msgid "Open"
 msgstr "فتح"
 
-#: includes/class-wc-pos-i18n.php:337
-#: includes/gateways/class-wc-pos-cash.php:102
+#: includes/class-wc-pos-i18n.php:315
+#: includes/gateways/class-wc-pos-cash.php:92
+#: includes/views/print/receipt.php:251
 msgctxt "Money returned from cash sale"
 msgid "Change"
 msgstr "تغيير"
 
-#: includes/class-wc-pos-i18n.php:344
+#: includes/class-wc-pos-i18n.php:321
 msgctxt "system status: delete local records"
 msgid "Clear"
 msgstr "مسح"
 
-#: includes/class-wc-pos-i18n.php:355
+#: includes/class-wc-pos-i18n.php:332
 msgctxt "restore default settings"
 msgid "Restore defaults"
 msgstr "ارجع الاعدادات الافتراضية"
 
-#: includes/class-wc-pos-i18n.php:356
+#: includes/class-wc-pos-i18n.php:333
 msgctxt "Numpad return key"
 msgid "return"
 msgstr "عودة"
 
-#: includes/class-wc-pos-i18n.php:375
+#: includes/class-wc-pos-i18n.php:352
 msgctxt "eg: 23 records"
 msgid "record |||| records"
 msgstr "سجل  |||| سجلات"
@@ -317,14 +317,14 @@ msgid "On Sale"
 msgstr "تحت الخصم"
 
 #: includes/views/pos/cart.php:9 includes/views/pos/receipt.php:10
-#: includes/views/print/receipt.php:145
+#: includes/views/print/receipt.php:157
 msgctxt "Abbreviation of Quantity"
 msgid "Qty"
 msgstr "كمية"
 
 #: includes/views/pos/cart.php:109 includes/views/pos/cart.php:120
 #: includes/views/pos/receipt.php:84 includes/views/pos/receipt.php:94
-#: includes/views/print/receipt.php:204 includes/views/print/receipt.php:214
+#: includes/views/print/receipt.php:216 includes/views/print/receipt.php:226
 msgctxt "abbreviation for includes (tax)"
 msgid "incl."
 msgstr "ضمن"

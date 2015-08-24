@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-06-02 07:55:30+00:00\n"
+"POT-Creation-Date: 2015-08-24 09:12:35+00:00\n"
 "PO-Revision-Date: 2015-07-02 07:16+0000\n"
 "Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/projects/p/"
@@ -18,14 +18,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: grunt-wp-i18n 0.5.2\n"
-
-#: includes/class-wc-pos-pro-i18n.php:103
-msgid "Activate"
-msgstr "Activar"
-
-#: includes/class-wc-pos-pro-i18n.php:104
-msgid "Deactivate"
-msgstr "Desactivar"
 
 #: includes/class-wc-pos-pro-stores.php:43
 #: includes/class-wc-pos-pro-stores.php:45
@@ -77,8 +69,8 @@ msgstr "No hay tiendas encuentran en Papelera."
 #. translators: woocommerce
 #. translators: woocommerce
 #. translators: woocommerce
-#: includes/class-wc-pos-pro-template.php:102 includes/views/customers.php:14
-#: includes/views/customers.php:74 includes/views/print/receipt.php:173
+#: includes/class-wc-pos-pro-template.php:103 includes/views/customers.php:14
+#: includes/views/customers.php:74 includes/views/print/receipt.php:185
 msgid "Email"
 msgstr "Email"
 
@@ -98,19 +90,27 @@ msgstr "Añadir al Cliente"
 msgid "Receipt"
 msgstr "Recibo"
 
-#: includes/views/print/receipt.php:164
+#: includes/views/print/receipt.php:170
 msgid "Order Date"
 msgstr "Fecha pedido"
 
-#: includes/views/print/receipt.php:168
+#: includes/views/print/receipt.php:175
+msgid "Cashier"
+msgstr ""
+
+#: includes/views/print/receipt.php:180
 msgid "Payment Method"
 msgstr "Método de pago"
 
-#: includes/views/print/receipt.php:220
+#: includes/views/print/receipt.php:232
 msgid "Cart Subtotal"
 msgstr "Cesta Total parcial"
 
-#: includes/views/products.php:86
+#: includes/views/print/receipt.php:290
+msgid "Amount Tendered"
+msgstr ""
+
+#: includes/views/products.php:88
 msgid "On Sale?"
 msgstr "En Venta?"
 
@@ -135,12 +135,23 @@ msgstr ""
 "<a href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce POS</"
 "a> ."
 
-#: includes/views/print/receipt.php:188
+#: includes/views/print/receipt.php:200
 msgctxt "Abbreviation of Quantity"
 msgid "Qty"
 msgstr "Cant"
 
-#: includes/views/print/receipt.php:247 includes/views/print/receipt.php:257
+#: includes/views/print/receipt.php:259 includes/views/print/receipt.php:269
 msgctxt "abbreviation for includes (tax)"
 msgid "incl."
 msgstr "incl."
+
+#: includes/views/print/receipt.php:294
+msgctxt "Money returned from cash sale"
+msgid "Change"
+msgstr ""
+
+#~ msgid "Activate"
+#~ msgstr "Activar"
+
+#~ msgid "Deactivate"
+#~ msgstr "Desactivar"

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-07-10 12:11:16+00:00\n"
+"POT-Creation-Date: 2015-08-24 09:12:46+00:00\n"
 "PO-Revision-Date: 2015-07-10 14:17+0000\n"
 "Last-Translator: tntc1978 <tntc1978@gmail.com>\n"
 "Language-Team: Danish (Denmark) (http://www.transifex.com/p/woocommerce-pos/"
@@ -26,7 +26,7 @@ msgstr "Online butik"
 #: includes/admin/class-wc-pos-gateways.php:32
 #: includes/admin/class-wc-pos-menu.php:34
 #: includes/admin/class-wc-pos-menu.php:35
-#: includes/admin/class-wc-pos-orders.php:89
+#: includes/admin/class-wc-pos-orders.php:94
 #: includes/admin/views/order-details.php:5
 msgid "POS"
 msgstr "Nærsalg"
@@ -37,32 +37,32 @@ msgid "View POS"
 msgstr "Se POS"
 
 #: includes/admin/class-wc-pos-menu.php:53
-#: includes/admin/settings/views/checkout.php:92
+#: includes/admin/settings/views/checkout.php:102
 msgid "Upgrade to Pro"
 msgstr "Opgrader til Pro"
 
-#: includes/admin/class-wc-pos-orders.php:90
+#: includes/admin/class-wc-pos-orders.php:95
 #: includes/admin/views/order-details.php:4
 msgid "Online"
 msgstr "Online"
 
-#: includes/admin/settings/class-wc-pos-access.php:23
+#: includes/admin/settings/class-wc-pos-access.php:25
 msgid "POS Access"
 msgstr "POS adgang"
 
-#: includes/admin/settings/class-wc-pos-hotkeys.php:41
+#: includes/admin/settings/class-wc-pos-hotkeys.php:42
 msgid "Help screen"
 msgstr "Hjælp skærm"
 
-#: includes/admin/settings/class-wc-pos-hotkeys.php:42
+#: includes/admin/settings/class-wc-pos-hotkeys.php:43
 msgid "Barcode search"
 msgstr "Stregkode søgning"
 
-#: includes/admin/settings/class-wc-pos-hotkeys.php:44
+#: includes/admin/settings/class-wc-pos-hotkeys.php:45
 msgid "New order"
 msgstr "Ny ordre"
 
-#: includes/admin/settings/class-wc-pos-hotkeys.php:45
+#: includes/admin/settings/class-wc-pos-hotkeys.php:46
 msgid "Sync with server"
 msgstr "Synkroniser med server"
 
@@ -87,7 +87,7 @@ msgstr ""
 "med mindre du er fuldt bevidst om konsekvenserne."
 
 #: includes/admin/settings/views/access.php:12
-#: includes/admin/settings/views/checkout.php:50
+#: includes/admin/settings/views/checkout.php:60
 #: includes/admin/settings/views/hotkeys.php:6
 msgid ""
 "For more information please visit <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
@@ -111,7 +111,23 @@ msgstr "Ordre e-mails"
 msgid "Send WooCommerce notification emails for POS orders"
 msgstr "Send WooCommerce notifikations e-mails for POS ordrer"
 
-#: includes/admin/settings/views/checkout.php:44
+#: includes/admin/settings/views/checkout.php:32
+msgid "Enable admin emails"
+msgstr ""
+
+#: includes/admin/settings/views/checkout.php:35
+msgid "Enable customer emails"
+msgstr ""
+
+#: includes/admin/settings/views/checkout.php:41
+msgid "Receipt Printing"
+msgstr ""
+
+#: includes/admin/settings/views/checkout.php:45
+msgid "Automatically print receipt after checkout"
+msgstr ""
+
+#: includes/admin/settings/views/checkout.php:54
 msgid ""
 "Installed gateways are listed below. Drag and drop gateways to control their "
 "display order at the Point of Sale. "
@@ -119,7 +135,7 @@ msgstr ""
 "Installerede gateways er listet nedenfor. Træk og slip gateways for at vise "
 "i hvilken rækkefølge de vises i POS. "
 
-#: includes/admin/settings/views/checkout.php:45
+#: includes/admin/settings/views/checkout.php:55
 msgid ""
 "Payment Gateways enabled here will be available at the Point of Sale. "
 "Payment Gateways enabled on the settings page will be available in your "
@@ -129,7 +145,7 @@ msgstr ""
 "Betalingsgateways som er aktiveret i din indstillingsside vil være "
 "tilgængelig i din online butik."
 
-#: includes/admin/settings/views/checkout.php:49
+#: includes/admin/settings/views/checkout.php:59
 msgid ""
 "It is your responsibility to ensure the security of your customer's "
 "information. Transmitting credit card or other sensitive information should "
@@ -139,31 +155,31 @@ msgstr ""
 "kreditkort eller andre følsomme informationer bør kun ske ved brug af en "
 "sikker forbindelse."
 
-#: includes/admin/settings/views/checkout.php:56
+#: includes/admin/settings/views/checkout.php:66
 msgid "Gateway Display"
 msgstr "Gateway visning"
 
-#: includes/admin/settings/views/checkout.php:64
+#: includes/admin/settings/views/checkout.php:74
 msgid "Online Status"
 msgstr "Online Status"
 
-#: includes/admin/settings/views/checkout.php:65
+#: includes/admin/settings/views/checkout.php:75
 msgid "POS Status"
 msgstr "POS Status"
 
-#: includes/admin/settings/views/checkout.php:66
+#: includes/admin/settings/views/checkout.php:76
 msgid "POS Settings"
 msgstr "POS indstillinger"
 
-#: includes/admin/settings/views/checkout.php:117
+#: includes/admin/settings/views/checkout.php:127
 msgid "Payment method title."
 msgstr "Betalingsmetode titel."
 
-#: includes/admin/settings/views/checkout.php:124
+#: includes/admin/settings/views/checkout.php:134
 msgid "Payment method description that will be shown in the POS."
 msgstr "Betalingsmetode beskrivelse som bliver vist i POS"
 
-#: includes/admin/settings/views/checkout.php:130
+#: includes/admin/settings/views/checkout.php:140
 msgid "Icon"
 msgstr "Ikon"
 
@@ -242,7 +258,7 @@ msgstr "Efterlign RESTful HTTP -metoder til at understøtte ældre servere."
 msgid "Order type"
 msgstr "Ordretype"
 
-#: includes/admin/views/settings.php:12
+#: includes/admin/views/settings.php:13
 msgid ""
 "There has been an error loading the settings, please contact <a href="
 "\"mailto:support@woopos.com.au\">support</a>"
@@ -250,7 +266,7 @@ msgstr ""
 "Der indtraf en fejl med at hente indstillingerne, kontakt venligst <a href="
 "\"mailto:support@woopos.com.au\">supporten</a>"
 
-#: includes/class-wc-pos-activator.php:178
+#: includes/class-wc-pos-activator.php:192
 msgid ""
 "<strong>WooCommerce POS</strong> requires <a href=\"%s\">WooCommerce</a>. "
 "Please <a href=\"%s\">install and activate WooCommerce</a>"
@@ -282,12 +298,12 @@ msgctxt "Permalink setting, eg: /pos"
 msgid "POS base"
 msgstr "POS base"
 
-#: includes/admin/settings/class-wc-pos-hotkeys.php:21
+#: includes/admin/settings/class-wc-pos-hotkeys.php:22
 msgctxt "keyboard shortcuts"
 msgid "HotKeys"
 msgstr "Genveje"
 
-#: includes/admin/settings/views/checkout.php:134
+#: includes/admin/settings/views/checkout.php:144
 msgctxt "POS checkout settings"
 msgid "Show payment gateway icon."
 msgstr "Vis gateway ikon."

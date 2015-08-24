@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-07-10 12:11:16+00:00\n"
+"POT-Creation-Date: 2015-08-24 09:12:46+00:00\n"
 "PO-Revision-Date: 2015-07-15 16:05+0000\n"
 "Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
 "Language-Team: Hindi (India) (http://www.transifex.com/p/woocommerce-pos/"
@@ -26,7 +26,7 @@ msgstr "ऑनलाइन स्टोर"
 #: includes/admin/class-wc-pos-gateways.php:32
 #: includes/admin/class-wc-pos-menu.php:34
 #: includes/admin/class-wc-pos-menu.php:35
-#: includes/admin/class-wc-pos-orders.php:89
+#: includes/admin/class-wc-pos-orders.php:94
 #: includes/admin/views/order-details.php:5
 msgid "POS"
 msgstr "पीओएस"
@@ -37,32 +37,32 @@ msgid "View POS"
 msgstr "देखें पीओएस"
 
 #: includes/admin/class-wc-pos-menu.php:53
-#: includes/admin/settings/views/checkout.php:92
+#: includes/admin/settings/views/checkout.php:102
 msgid "Upgrade to Pro"
 msgstr "प्रो में अपग्रेड"
 
-#: includes/admin/class-wc-pos-orders.php:90
+#: includes/admin/class-wc-pos-orders.php:95
 #: includes/admin/views/order-details.php:4
 msgid "Online"
 msgstr "ऑनलाइन"
 
-#: includes/admin/settings/class-wc-pos-access.php:23
+#: includes/admin/settings/class-wc-pos-access.php:25
 msgid "POS Access"
 msgstr "पीओएस पहुंच"
 
-#: includes/admin/settings/class-wc-pos-hotkeys.php:41
+#: includes/admin/settings/class-wc-pos-hotkeys.php:42
 msgid "Help screen"
 msgstr "मदद स्क्रीन"
 
-#: includes/admin/settings/class-wc-pos-hotkeys.php:42
+#: includes/admin/settings/class-wc-pos-hotkeys.php:43
 msgid "Barcode search"
 msgstr "बारकोड खोज"
 
-#: includes/admin/settings/class-wc-pos-hotkeys.php:44
+#: includes/admin/settings/class-wc-pos-hotkeys.php:45
 msgid "New order"
 msgstr "नए आदेश"
 
-#: includes/admin/settings/class-wc-pos-hotkeys.php:45
+#: includes/admin/settings/class-wc-pos-hotkeys.php:46
 msgid "Sync with server"
 msgstr "सर्वर के साथ सिंक"
 
@@ -87,7 +87,7 @@ msgstr ""
 "strong> कि सिफारिश की है।"
 
 #: includes/admin/settings/views/access.php:12
-#: includes/admin/settings/views/checkout.php:50
+#: includes/admin/settings/views/checkout.php:60
 #: includes/admin/settings/views/hotkeys.php:6
 msgid ""
 "For more information please visit <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
@@ -109,7 +109,23 @@ msgstr "आदेश ईमेल"
 msgid "Send WooCommerce notification emails for POS orders"
 msgstr "पीओएस आदेश के लिए WooCommerce सूचना ईमेल भेजें"
 
-#: includes/admin/settings/views/checkout.php:44
+#: includes/admin/settings/views/checkout.php:32
+msgid "Enable admin emails"
+msgstr ""
+
+#: includes/admin/settings/views/checkout.php:35
+msgid "Enable customer emails"
+msgstr ""
+
+#: includes/admin/settings/views/checkout.php:41
+msgid "Receipt Printing"
+msgstr ""
+
+#: includes/admin/settings/views/checkout.php:45
+msgid "Automatically print receipt after checkout"
+msgstr ""
+
+#: includes/admin/settings/views/checkout.php:54
 msgid ""
 "Installed gateways are listed below. Drag and drop gateways to control their "
 "display order at the Point of Sale. "
@@ -117,7 +133,7 @@ msgstr ""
 "स्थापित प्रवेश द्वार के नीचे सूचीबद्ध हैं। खींचें और ड्रॉप गेटवे बिक्री के बिंदु पर उनके प्रदर्शन "
 "का क्रम को नियंत्रित करने के लिए।"
 
-#: includes/admin/settings/views/checkout.php:45
+#: includes/admin/settings/views/checkout.php:55
 msgid ""
 "Payment Gateways enabled here will be available at the Point of Sale. "
 "Payment Gateways enabled on the settings page will be available in your "
@@ -126,7 +142,7 @@ msgstr ""
 "यहां सक्षम भुगतान द्वार बिक्री के बिंदु पर उपलब्ध हो जाएगा। सेटिंग पेज पर सक्षम भुगतान "
 "द्वार अपने ऑनलाइन स्टोर में उपलब्ध हो जाएगा।"
 
-#: includes/admin/settings/views/checkout.php:49
+#: includes/admin/settings/views/checkout.php:59
 msgid ""
 "It is your responsibility to ensure the security of your customer's "
 "information. Transmitting credit card or other sensitive information should "
@@ -136,31 +152,31 @@ msgstr ""
 "कार्ड या अन्य संवेदनशील जानकारी केवल एक सुरक्षित connnection का उपयोग किया जाना "
 "चाहिए।"
 
-#: includes/admin/settings/views/checkout.php:56
+#: includes/admin/settings/views/checkout.php:66
 msgid "Gateway Display"
 msgstr "गेटवे प्रदर्शन"
 
-#: includes/admin/settings/views/checkout.php:64
+#: includes/admin/settings/views/checkout.php:74
 msgid "Online Status"
 msgstr "ऑनलाइन स्थिति"
 
-#: includes/admin/settings/views/checkout.php:65
+#: includes/admin/settings/views/checkout.php:75
 msgid "POS Status"
 msgstr "पीओएस स्थिति"
 
-#: includes/admin/settings/views/checkout.php:66
+#: includes/admin/settings/views/checkout.php:76
 msgid "POS Settings"
 msgstr "पीओएस सेटिंग"
 
-#: includes/admin/settings/views/checkout.php:117
+#: includes/admin/settings/views/checkout.php:127
 msgid "Payment method title."
 msgstr "भुगतान विधि शीर्षक।"
 
-#: includes/admin/settings/views/checkout.php:124
+#: includes/admin/settings/views/checkout.php:134
 msgid "Payment method description that will be shown in the POS."
 msgstr "स्थिति में दिखाया जाएगा कि भुगतान विधि विवरण।"
 
-#: includes/admin/settings/views/checkout.php:130
+#: includes/admin/settings/views/checkout.php:140
 msgid "Icon"
 msgstr "चिह्न"
 
@@ -240,7 +256,7 @@ msgstr "विरासत सर्वर का समर्थन करन�
 msgid "Order type"
 msgstr "आदेश प्रकार"
 
-#: includes/admin/views/settings.php:12
+#: includes/admin/views/settings.php:13
 msgid ""
 "There has been an error loading the settings, please contact <a href="
 "\"mailto:support@woopos.com.au\">support</a>"
@@ -248,7 +264,7 @@ msgstr ""
 "सेटिंग लोड करने में त्रुटि हुई है, कृपया संपर्क करें <a href=\"mailto:support@woopos.com.au"
 "\">समर्थन</a>"
 
-#: includes/class-wc-pos-activator.php:178
+#: includes/class-wc-pos-activator.php:192
 msgid ""
 "<strong>WooCommerce POS</strong> requires <a href=\"%s\">WooCommerce</a>. "
 "Please <a href=\"%s\">install and activate WooCommerce</a>"
@@ -280,12 +296,12 @@ msgctxt "Permalink setting, eg: /pos"
 msgid "POS base"
 msgstr "पीओएस आधार"
 
-#: includes/admin/settings/class-wc-pos-hotkeys.php:21
+#: includes/admin/settings/class-wc-pos-hotkeys.php:22
 msgctxt "keyboard shortcuts"
 msgid "HotKeys"
 msgstr "Hotkeys"
 
-#: includes/admin/settings/views/checkout.php:134
+#: includes/admin/settings/views/checkout.php:144
 msgctxt "POS checkout settings"
 msgid "Show payment gateway icon."
 msgstr "भुगतान के प्रवेश द्वार आइकन दिखाएं।"

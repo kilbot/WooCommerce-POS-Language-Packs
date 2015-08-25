@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
 "POT-Creation-Date: 2015-08-24 09:12:35+00:00\n"
-"PO-Revision-Date: 2015-08-25 11:38+0000\n"
+"PO-Revision-Date: 2015-08-25 11:43+0000\n"
 "Last-Translator: Javier Gomez <gestion@sugo.es>\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/kilbot/woocommerce-pos/language/es_ES/)\n"
 "MIME-Version: 1.0\n"
@@ -42,7 +42,7 @@ msgstr "No se puede analizar la respuesta del servidor"
 
 #: includes/admin/class-wc-pos-pro-am.php:278
 msgid "Invalid Request"
-msgstr "Solicitud No Válida"
+msgstr "Respuesta no válida"
 
 #: includes/admin/class-wc-pos-pro-am.php:280
 #: includes/admin/class-wc-pos-pro-am.php:284
@@ -59,7 +59,7 @@ msgstr "Superado el número máximo de activaciones"
 
 #: includes/admin/class-wc-pos-pro-am.php:283
 msgid "Invalid Instance ID"
-msgstr "Inválido Instancia ID"
+msgstr "ID de instancia inválida"
 
 #: includes/admin/class-wc-pos-pro-am.php:285
 msgid "Subscription is not active"
@@ -261,7 +261,7 @@ msgstr "Período"
 
 #: includes/admin/reports/views/sales-table.php:5
 msgid "Orders"
-msgstr "Órdenes"
+msgstr "Pedidos"
 
 #: includes/admin/reports/views/sales-table.php:6
 msgid "Total Sales"
@@ -309,7 +309,7 @@ msgstr "Total"
 
 #: includes/admin/settings/class-wc-pos-pro-license.php:18
 msgid "Pro License"
-msgstr "Pro Licencia"
+msgstr "Licencia Pro"
 
 #: includes/admin/settings/views/customers.php:7
 msgid "Customer Options"
@@ -325,7 +325,7 @@ msgstr "¡Gracias!"
 
 #: includes/admin/settings/views/license.php:13
 msgid "Your license is active"
-msgstr "Su licencia está activo"
+msgstr "Su licencia está activa"
 
 #: includes/admin/settings/views/license.php:19
 msgid "License Email"
@@ -333,7 +333,7 @@ msgstr "Email de licencia"
 
 #: includes/admin/settings/views/license.php:27
 msgid "License Key"
-msgstr "Clave licencia"
+msgstr "Clave de licencia"
 
 #: includes/admin/views/stores/address.php:55
 msgid "loading"
@@ -341,7 +341,7 @@ msgstr "cargando"
 
 #: includes/admin/views/stores/opening-hours.php:21
 msgid "Opening Hours notes"
-msgstr "Horario de notas"
+msgstr "Notas de horarios de apertura"
 
 #: includes/admin/views/stores/opening-hours.php:22
 msgid "eg: Closed public holidays"

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
 "POT-Creation-Date: 2015-08-24 09:12:46+00:00\n"
-"PO-Revision-Date: 2015-08-25 10:34+0000\n"
+"PO-Revision-Date: 2015-08-25 10:54+0000\n"
 "Last-Translator: Felix Witte <info@duka-dogo.de>\n"
 "Language-Team: German (Germany) (http://www.transifex.com/kilbot/woocommerce-pos/language/de_DE/)\n"
 "MIME-Version: 1.0\n"
@@ -242,7 +242,7 @@ msgstr "Beschreiben Sie Ihr Problem hier..."
 
 #: includes/views/support.php:32
 msgid "Append POS system report"
-msgstr "Systembericht anhängen"
+msgstr "POS-Systembericht anhängen"
 
 #: includes/views/template.php:12
 msgid "Point of Sale"
@@ -253,7 +253,7 @@ msgid ""
 "A simple front-end for taking WooCommerce orders at the Point of Sale. "
 "Requires <a "
 "href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a>."
-msgstr "Ein einfaches Front-End zur Aufnahme von WooCommerce-Bestellungen im Verkaufsraum. Erfordert <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a>."
+msgstr "Ein einfaches Front-End zur Aufnahme von WooCommerce-Bestellungen an der Kasse. Es wird <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a> benötigt."
 
 #: includes/class-wc-pos-i18n.php:298
 msgctxt "system status: browser capabilities"
@@ -280,12 +280,12 @@ msgstr "Geöffnet"
 #: includes/views/print/receipt.php:251
 msgctxt "Money returned from cash sale"
 msgid "Change"
-msgstr "Wechselgeld"
+msgstr "Rückgeld"
 
 #: includes/class-wc-pos-i18n.php:321
 msgctxt "system status: delete local records"
 msgid "Clear"
-msgstr "Klar"
+msgstr "Löschen"
 
 #: includes/class-wc-pos-i18n.php:332
 msgctxt "restore default settings"
@@ -295,12 +295,12 @@ msgstr "Standardeinstellungen wiederherstellen"
 #: includes/class-wc-pos-i18n.php:333
 msgctxt "Numpad return key"
 msgid "return"
-msgstr "Rückkehr"
+msgstr "Zurück"
 
 #: includes/class-wc-pos-i18n.php:352
 msgctxt "eg: 23 records"
 msgid "record |||| records"
-msgstr "Rekord |||| records"
+msgstr "Bericht |||| Berichte"
 
 #: includes/class-wc-pos-params.php:76
 msgctxt "Product tab: 'On Sale' products"
@@ -311,7 +311,7 @@ msgstr "Im Angebot"
 #: includes/views/print/receipt.php:157
 msgctxt "Abbreviation of Quantity"
 msgid "Qty"
-msgstr "Anz"
+msgstr "Anz."
 
 #: includes/views/pos/cart.php:109 includes/views/pos/cart.php:120
 #: includes/views/pos/receipt.php:84 includes/views/pos/receipt.php:94

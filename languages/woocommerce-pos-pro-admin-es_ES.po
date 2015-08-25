@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
 "POT-Creation-Date: 2015-08-24 09:12:35+00:00\n"
-"PO-Revision-Date: 2015-08-25 11:43+0000\n"
+"PO-Revision-Date: 2015-08-25 11:53+0000\n"
 "Last-Translator: Javier Gomez <gestion@sugo.es>\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/kilbot/woocommerce-pos/language/es_ES/)\n"
 "MIME-Version: 1.0\n"
@@ -345,7 +345,7 @@ msgstr "Notas de horarios de apertura"
 
 #: includes/admin/views/stores/opening-hours.php:22
 msgid "eg: Closed public holidays"
-msgstr "por ejemplo: los días festivos cerrado"
+msgstr "Por ejemplo: Los días festivos cerrado"
 
 #: includes/admin/views/stores/opening-hours.php:27
 msgid ""
@@ -361,7 +361,7 @@ msgstr "Cerrar gratuito"
 msgid ""
 "Personal notes or season greetings, e.g. Thank You for Your Order! or Merry "
 "Christmas!"
-msgstr "Notas personales o saludos de la estación, por ejemplo, gracias por su orden! o ¡Feliz Navidad!"
+msgstr "Notas personales o saludos de la TPV, por ejemplo, gracias por su pedido! o ¡Feliz Navidad!"
 
 #: includes/admin/views/stores/receipt-options.php:13
 msgid "Returns Policy"
@@ -369,7 +369,7 @@ msgstr "Política de devoluciones"
 
 #: includes/admin/views/stores/receipt-options.php:14
 msgid "Returns policy, terms and conditions"
-msgstr "Devuelve políticas, términos y condiciones"
+msgstr "Políticas de devoluciones, términos y condiciones"
 
 #: includes/admin/views/stores/receipt-options.php:17
 msgid "Footer"
@@ -389,7 +389,7 @@ msgstr "esta dirección de la tienda"
 
 #: includes/admin/views/stores/tax-rate.php:11
 msgid "base location"
-msgstr "ubicación de la base"
+msgstr "ubicación base"
 
 #: includes/admin/views/stores/tax-rate.php:39
 msgid "No tax rates set"

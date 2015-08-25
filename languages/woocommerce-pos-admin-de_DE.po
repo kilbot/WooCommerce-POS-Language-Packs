@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
 "POT-Creation-Date: 2015-08-24 09:12:46+00:00\n"
-"PO-Revision-Date: 2015-08-25 10:48+0000\n"
+"PO-Revision-Date: 2015-08-25 10:53+0000\n"
 "Last-Translator: Felix Witte <info@duka-dogo.de>\n"
 "Language-Team: German (Germany) (http://www.transifex.com/kilbot/woocommerce-pos/language/de_DE/)\n"
 "MIME-Version: 1.0\n"
@@ -185,48 +185,48 @@ msgstr "Erlaubt es, Dezimalwerte im Mengenfeld zu verwenden, zum Beispiel: 0.25"
 
 #: includes/admin/settings/views/general.php:34
 msgid "Default POS Customer"
-msgstr "Standard POS Kunden"
+msgstr "Standard-POS-Kunde"
 
 #: includes/admin/settings/views/general.php:35
 msgid ""
 "The default customer for POS orders, eg: Guest or create a new customer."
-msgstr "Der Standard Kunden für POS Aufträge, zB: Gast oder einen neuen Kunden erstellen."
+msgstr "Der Standard-Kunde für POS-Aufträge, z.B.: \"Gast\" oder einen neuen Kunden erstellen."
 
 #: includes/admin/settings/views/general.php:46
 msgid "Discount Quick Keys"
-msgstr "Discount Schnelltasten"
+msgstr "Rabatt-Schnelltasten"
 
 #: includes/admin/settings/views/general.php:47
 msgid "Configure discount keys for quick numpad entry"
-msgstr "Konfigurieren Rabatt Tasten für schnellen numpad Eintrag"
+msgstr "Konfiguriere Rabatt-Schnelltasten für schnellen numpad-Eintrag"
 
 #: includes/admin/settings/views/hotkeys.php:1
 msgid "Keyboard Shortcuts"
-msgstr "Tastatürkürzel"
+msgstr "Tastaturkürzel"
 
 #: includes/admin/settings/views/hotkeys.php:4
 msgid ""
 "You can trigger certain events in WooCommerce POS using keyboard shortcuts "
 "(HotKeys)."
-msgstr "Sie können bestimmte Ereignisse in WooCommerce POS mithilfe von Tastenkombinationen (Hotkeys) auslösen."
+msgstr "Sie können bestimmte Ereignisse in WooCommerce POS mithilfe von Tastaturkürzeln (Hotkeys) auslösen."
 
 #: includes/admin/settings/views/hotkeys.php:5
 msgid ""
 "HotKeys can also be used as a prefix for your barcode scanner or card "
 "reader."
-msgstr "HotKeys können auch als Präfix für die Barcode-Scanner oder Kartenleser verwendet werden."
+msgstr "Tastaturkürzel können auch als Präfix für Ihren Barcode-Scanner oder Kartenleser verwendet werden."
 
 #: includes/admin/settings/views/tools.php:33
 msgid "Receipt Template"
-msgstr "Receipt Vorlage"
+msgstr "Quittungs-Vorlage"
 
 #: includes/admin/settings/views/tools.php:36
 msgid "View Sample Receipt"
-msgstr "View Sample Receipt"
+msgstr "Quittungs-Vorlage ansehen"
 
 #: includes/admin/settings/views/tools.php:38
 msgid "<strong class=\"red\">Template path:</strong> %s"
-msgstr "<strong class=\"red\">Template Pfad:%</strong> s"
+msgstr "<strong class=\"red\">Vorlagen-Pfad:%</strong> s"
 
 #: includes/admin/settings/views/tools.php:43
 msgid "Legacy Server Support"
@@ -234,7 +234,7 @@ msgstr "Legacy-Server Support"
 
 #: includes/admin/settings/views/tools.php:49
 msgid "Emulate RESTful HTTP methods to support legacy servers."
-msgstr "Emulieren RESTful HTTP-Methoden, um Legacy-Servern unterstützt."
+msgstr "Emuliere RESTful HTTP-Methoden, um Legacy-Server zu unterstützen."
 
 #: includes/admin/views/order-details.php:2
 msgid "Order type"
@@ -244,13 +244,13 @@ msgstr "Auftragsart"
 msgid ""
 "There has been an error loading the settings, please contact <a "
 "href=\"mailto:support@woopos.com.au\">support</a>"
-msgstr "Es hat ein Laden der Einstellungen Fehler gewesen, wenden Sie sich <a href=\"mailto:support@woopos.com.au\">Unterstützung</a>"
+msgstr "Es hat einen Fehler beim Laden der Einstellungen gegeben, wenden Sie sich bitte an unseren<a href=\"mailto:support@woopos.com.au\">Support</a>"
 
 #: includes/class-wc-pos-activator.php:192
 msgid ""
 "<strong>WooCommerce POS</strong> requires <a href=\"%s\">WooCommerce</a>. "
 "Please <a href=\"%s\">install and activate WooCommerce</a>"
-msgstr "<strong>WooCommerce POS</strong> erfordert <a href=\"%s\">WooCommerce</a> . Bitte <a href=\"%s\">installieren und aktivieren WooCommerce</a>"
+msgstr "<strong>WooCommerce POS</strong> erfordert <a href=\"%s\">WooCommerce</a> . Bitte <a href=\"%s\">installieren und aktivieren Sie WooCommerce</a>"
 
 #: includes/products/class-wc-pos-visibility.php:23
 msgid "POS & Online"

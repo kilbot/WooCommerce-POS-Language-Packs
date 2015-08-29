@@ -5,31 +5,40 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
-"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
+"Packs/issues\n"
 "POT-Creation-Date: 2015-08-24 09:12:35+00:00\n"
 "PO-Revision-Date: 2015-08-27 17:33+0000\n"
 "Last-Translator: Marios <mariospolycarpou@hotmail.com>\n"
-"Language-Team: Greek (http://www.transifex.com/kilbot/woocommerce-pos/language/el/)\n"
+"Language-Team: Greek (http://www.transifex.com/kilbot/woocommerce-pos/"
+"language/el/)\n"
+"Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: el\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: grunt-wp-i18n 0.5.3\n"
 
 #: includes/admin/class-wc-pos-pro-am.php:72
 msgid "The %s License Key has not been activated, so the plugin is inactive!"
-msgstr "Το Κλειδί Άδειας Χρήσης δεν έχει ενεργοποιηθεί, οπότε το πρόσθετο είναι ανενεργό!"
+msgstr ""
+"Το Κλειδί Άδειας Χρήσης δεν έχει ενεργοποιηθεί, οπότε το πρόσθετο είναι "
+"ανενεργό!"
 
 #: includes/admin/class-wc-pos-pro-am.php:73
-msgid " <a href=\"%s\">Click here</a> to activate the license key and the plugin."
-msgstr " <a href=\"%s\">Κάντε κλικ εδώ</a> για να ενεργοποιήσετε το κλειδί της άδειας και το πρόσθετο."
+msgid ""
+" <a href=\"%s\">Click here</a> to activate the license key and the plugin."
+msgstr ""
+" <a href=\"%s\">Κάντε κλικ εδώ</a> για να ενεργοποιήσετε το κλειδί της "
+"άδειας και το πρόσθετο."
 
 #: includes/admin/class-wc-pos-pro-am.php:106
 msgid ""
 "<b>Warning!</b> You're blocking external requests which means you won't be "
 "able to get %s updates. Please add %s to %s."
-msgstr "<b>Προσοχή!</b> Μπλοκάρετε εξωτερικές αιτήσεις που σημαίνει ότι δεν θα είστε σε θέση να λαμβάνετε %s ενημερώσεις. Παρακαλώ προσθέστε %s στο %s."
+msgstr ""
+"<b>Προσοχή!</b> Μπλοκάρετε εξωτερικές αιτήσεις που σημαίνει ότι δεν θα είστε "
+"σε θέση να λαμβάνετε %s ενημερώσεις. Παρακαλώ προσθέστε %s στο %s."
 
 #: includes/admin/class-wc-pos-pro-am.php:231
 msgid "Unable to connect to the activation server"
@@ -70,84 +79,122 @@ msgstr "Μη έγκυρη απάντηση"
 
 #: includes/admin/class-wc-pos-pro-am.php:306
 msgid ""
-"A license key for %s could not be found. Maybe you forgot to enter a license"
-" key when setting up %s, or the key was deactivated in your account. You can"
-" reactivate or purchase a license key from your account <a href=\"%s\" "
-"target=\"_blank\">dashboard</a>."
-msgstr "Το κλειδί αδείας χρίσης  για %s δεν βρέθηκε. Ίσως έχετε ξεχάσει να εισαγάγετε το κλειδί όταν εγκαθιστούσατε το %s, ή το κλειδί απενεργοποιήθηκε στο λογαριασμό σας. Μπορείτε να ενεργοποιήσετε ξανά ή να αγοράσετε ένα κλειδί από το <a href=\"%s\" target=\"_blank\">ταμπλό</a> του λογαριασμού σας."
+"A license key for %s could not be found. Maybe you forgot to enter a license "
+"key when setting up %s, or the key was deactivated in your account. You can "
+"reactivate or purchase a license key from your account <a href=\"%s\" target="
+"\"_blank\">dashboard</a>."
+msgstr ""
+"Το κλειδί αδείας χρίσης  για %s δεν βρέθηκε. Ίσως έχετε ξεχάσει να "
+"εισαγάγετε το κλειδί όταν εγκαθιστούσατε το %s, ή το κλειδί απενεργοποιήθηκε "
+"στο λογαριασμό σας. Μπορείτε να ενεργοποιήσετε ξανά ή να αγοράσετε ένα "
+"κλειδί από το <a href=\"%s\" target=\"_blank\">ταμπλό</a> του λογαριασμού "
+"σας."
 
 #: includes/admin/class-wc-pos-pro-am.php:307
 msgid ""
-"The license key for %s has expired. You can reactivate or purchase a license"
-" key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
-msgstr "Το κλειδί άδειας χρήσης για το %s έχει λήξει. Μπορείτε να ξαναενεργοποιήσετε ή να αγοράσετε ένα κλειδί άδειας από το <a href=\"%s\" target=\"_blank\">ταμπλό</a> του λογαριασμού σας."
+"The license key for %s has expired. You can reactivate or purchase a license "
+"key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Το κλειδί άδειας χρήσης για το %s έχει λήξει. Μπορείτε να ξαναενεργοποιήσετε "
+"ή να αγοράσετε ένα κλειδί άδειας από το <a href=\"%s\" target=\"_blank"
+"\">ταμπλό</a> του λογαριασμού σας."
 
 #: includes/admin/class-wc-pos-pro-am.php:308
 msgid ""
-"The subscription for %s is on-hold. You can reactivate the subscription from"
-" your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
-msgstr "Η συνδρομή για το %s είναι σε αναμονή. Μπορείτε να ενεργοποιήσετε ξανά τη συνδρομή από το λογαριασμό σας <a href=\"%s\" target=\"_blank\">ταμπλό</a>."
+"The subscription for %s is on-hold. You can reactivate the subscription from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Η συνδρομή για το %s είναι σε αναμονή. Μπορείτε να ενεργοποιήσετε ξανά τη "
+"συνδρομή από το λογαριασμό σας <a href=\"%s\" target=\"_blank\">ταμπλό</a>."
 
 #: includes/admin/class-wc-pos-pro-am.php:309
 msgid ""
 "The subscription for %s has been cancelled. You can renew the subscription "
 "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>. A new "
 "license key will be emailed to you after your order has been completed."
-msgstr "Η συνδρομή για το %s έχει ακυρωθεί. Μπορείτε να ανανεώσετε τη συνδρομή από το <a href=\"%s\" target=\"_blank\">ταμπλό</a> του λογαριασμού σας. Ένα νέο κλειδί θα σας σταλεί μετά την ολοκλήρωση της παραγγελία σας."
+msgstr ""
+"Η συνδρομή για το %s έχει ακυρωθεί. Μπορείτε να ανανεώσετε τη συνδρομή από "
+"το <a href=\"%s\" target=\"_blank\">ταμπλό</a> του λογαριασμού σας. Ένα νέο "
+"κλειδί θα σας σταλεί μετά την ολοκλήρωση της παραγγελία σας."
 
 #: includes/admin/class-wc-pos-pro-am.php:310
 msgid ""
 "The subscription for %s has expired. You can reactivate the subscription "
 "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
-msgstr "Η συνδρομή για το %s είναι έχει λήξει. Μπορείτε να ενεργοποιήσετε ξανά τη συνδρομή από το <a href=\"%s\" target=\"_blank\">ταμπλό</a> του λογαριασμού σας."
+msgstr ""
+"Η συνδρομή για το %s είναι έχει λήξει. Μπορείτε να ενεργοποιήσετε ξανά τη "
+"συνδρομή από το <a href=\"%s\" target=\"_blank\">ταμπλό</a> του λογαριασμού "
+"σας."
 
 #: includes/admin/class-wc-pos-pro-am.php:311
 msgid ""
 "The subscription for %s has been suspended. You can reactivate the "
-"subscription from your account <a href=\"%s\" "
-"target=\"_blank\">dashboard</a>."
-msgstr "Η συνδρομή για το %s είναι έχει ανασταλεί. Μπορείτε να ενεργοποιήσετε ξανά τη συνδρομή από το <a href=\"%s\" target=\"_blank\">ταμπλό</a> του λογαριασμού σας."
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+"Η συνδρομή για το %s είναι έχει ανασταλεί. Μπορείτε να ενεργοποιήσετε ξανά "
+"τη συνδρομή από το <a href=\"%s\" target=\"_blank\">ταμπλό</a> του "
+"λογαριασμού σας."
 
 #: includes/admin/class-wc-pos-pro-am.php:312
 msgid ""
-"The subscription for %s is still pending. You can check on the status of the"
-" subscription from your account <a href=\"%s\" "
-"target=\"_blank\">dashboard</a>."
-msgstr "Η συνδρομή για το %s είναι ακόμα σε εκκρεμότητα. Μπορείτε να ελέγξετε για την κατάσταση της συνδρομής από το <a href=\"%s\" target=\"_blank\">ταμπλό</a> του λογαριασμού σας."
+"The subscription for %s is still pending. You can check on the status of the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+"Η συνδρομή για το %s είναι ακόμα σε εκκρεμότητα. Μπορείτε να ελέγξετε για "
+"την κατάσταση της συνδρομής από το <a href=\"%s\" target=\"_blank\">ταμπλό</"
+"a> του λογαριασμού σας."
 
 #: includes/admin/class-wc-pos-pro-am.php:313
 msgid ""
 "The subscription for %s has been placed in the trash and will be deleted "
 "soon. You can purchase a new subscription from your account <a href=\"%s\" "
 "target=\"_blank\">dashboard</a>."
-msgstr "Η συνδρομή για το %s έχει τοποθετηθεί στον κάδο απορριμμάτων και θα διαγραφεί σύντομα. Μπορείτε να αγοράσετε μια νέα συνδρομή από το <a href=\"%s\" target=\"_blank\">ταμπλό</a> του λογαριασμού σας."
+msgstr ""
+"Η συνδρομή για το %s έχει τοποθετηθεί στον κάδο απορριμμάτων και θα "
+"διαγραφεί σύντομα. Μπορείτε να αγοράσετε μια νέα συνδρομή από το <a href=\"%s"
+"\" target=\"_blank\">ταμπλό</a> του λογαριασμού σας."
 
 #: includes/admin/class-wc-pos-pro-am.php:314
 msgid ""
 "A subscription for %s could not be found. You can purchase a subscription "
 "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
-msgstr "Η συνδρομή για %s δεν βρέθηκε. Μπορείτε να αγοράσετε μια συνδρομή από το <a href=\"%s\" target=\"_blank\">ταμπλό</a> του λογαριασμού σας."
+msgstr ""
+"Η συνδρομή για %s δεν βρέθηκε. Μπορείτε να αγοράσετε μια συνδρομή από το <a "
+"href=\"%s\" target=\"_blank\">ταμπλό</a> του λογαριασμού σας."
 
 #: includes/admin/class-wc-pos-pro-am.php:315
 msgid ""
-"%s has not been activated. Go to the settings page and enter the license key"
-" and license email to activate %s."
-msgstr "%s δεν έχει ενεργοποιηθεί. Πηγαίνετε στην σελίδα ρυθμίσεων και πληκτρολογήστε το κλειδί ασφαλείας και το ηλεκτρονικό ταχυδρομείο για να ενεργοποιήσετε το %s."
+"%s has not been activated. Go to the settings page and enter the license key "
+"and license email to activate %s."
+msgstr ""
+"%s δεν έχει ενεργοποιηθεί. Πηγαίνετε στην σελίδα ρυθμίσεων και "
+"πληκτρολογήστε το κλειδί ασφαλείας και το ηλεκτρονικό ταχυδρομείο για να "
+"ενεργοποιήσετε το %s."
 
 #: includes/admin/class-wc-pos-pro-am.php:316
 msgid ""
-"Download permission for %s has been revoked possibly due to a license key or"
-" subscription expiring. You can reactivate or purchase a license key from "
+"Download permission for %s has been revoked possibly due to a license key or "
+"subscription expiring. You can reactivate or purchase a license key from "
 "your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
-msgstr "Η λήψη άδειας για %s έχει ανακληθεί πιθανώς λόγω λήξης του κλειδιού ή της εγγραφής. Μπορείτε να ενεργοποιήσετε ή να αγοράσετε ένα κλειδί άδειας από το <a href=\"%s\" target=\"_blank\">ταμπλό</a> του λογαριασμού σας."
+msgstr ""
+"Η λήψη άδειας για %s έχει ανακληθεί πιθανώς λόγω λήξης του κλειδιού ή της "
+"εγγραφής. Μπορείτε να ενεργοποιήσετε ή να αγοράσετε ένα κλειδί άδειας από το "
+"<a href=\"%s\" target=\"_blank\">ταμπλό</a> του λογαριασμού σας."
 
 #: includes/admin/class-wc-pos-pro-am.php:317
 msgid ""
 "You changed the subscription for %s, so you will need to enter your new API "
 "License Key in the settings page. The License Key should have arrived in "
-"your email inbox, if not you can get it by logging into your account <a "
-"href=\"%s\" target=\"_blank\">dashboard</a>."
-msgstr "Έχετε αλλάξει τη συνδρομή για %s, έτσι θα χρειαστεί να εισάγετε το νέο API κλειδί άδειας χρήσης στη σελίδα ρυθμίσεων. Το κλειδί άδειας χρήσης θα πρέπει να έχει φτάσει στα εισερχόμενα του ηλεκτρονικού σας ταχυδρομείου, αν δεν μπορείτε να το βρείτε, συνδεθείτε στο <a href=\"%s\" target=\"_blank\">ταμπλό</a> του λογαριασμού σας."
+"your email inbox, if not you can get it by logging into your account <a href="
+"\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Έχετε αλλάξει τη συνδρομή για %s, έτσι θα χρειαστεί να εισάγετε το νέο API "
+"κλειδί άδειας χρήσης στη σελίδα ρυθμίσεων. Το κλειδί άδειας χρήσης θα πρέπει "
+"να έχει φτάσει στα εισερχόμενα του ηλεκτρονικού σας ταχυδρομείου, αν δεν "
+"μπορείτε να το βρείτε, συνδεθείτε στο <a href=\"%s\" target=\"_blank"
+"\">ταμπλό</a> του λογαριασμού σας."
 
 #: includes/admin/class-wc-pos-pro-reports.php:27
 #: includes/admin/reports/views/sales-table.php:12
@@ -228,7 +275,9 @@ msgstr "Ορισμός λογότυπου καταστήματος"
 msgid ""
 "Please <a href=\"%s\">read the docs</a> for information on how to customize "
 "your POS receipts."
-msgstr "Παρακαλούμε <a href=\"%s\"> διαβάστε το εγχειρίδιο </a> για πληροφορίες σχετικά με το πώς να προσαρμόσετε τις αποδείξεις του POS."
+msgstr ""
+"Παρακαλούμε <a href=\"%s\"> διαβάστε το εγχειρίδιο </a> για πληροφορίες "
+"σχετικά με το πώς να προσαρμόσετε τις αποδείξεις του POS."
 
 #: includes/admin/reports/class-wc-pos-pro-sales.php:166
 #: includes/admin/reports/class-wc-pos-pro-sales.php:169
@@ -268,7 +317,9 @@ msgstr "Ολικό Πωλήσεων "
 
 #: includes/admin/reports/views/sales-table.php:6
 msgid "This is the sum of the 'Order Total' field within your orders."
-msgstr "Αυτό είναι το άθροισμα του πεδίου \"Σύνολο Παραγγελίας\", των παραγγελιών σας."
+msgstr ""
+"Αυτό είναι το άθροισμα του πεδίου \"Σύνολο Παραγγελίας\", των παραγγελιών "
+"σας."
 
 #: includes/admin/reports/views/sales-table.php:7
 msgid "Total Shipping"
@@ -276,7 +327,8 @@ msgstr "Σύνολο Αποστολής"
 
 #: includes/admin/reports/views/sales-table.php:7
 msgid "This is the sum of the 'Shipping Total' field within your orders."
-msgstr "Αυτό είναι το άθροισμα του πεδίου \"Σύνολο Αποστολής\", των παραγγελιών σας."
+msgstr ""
+"Αυτό είναι το άθροισμα του πεδίου \"Σύνολο Αποστολής\", των παραγγελιών σας."
 
 #: includes/admin/reports/views/sales-table.php:8
 msgid "Total Tax"
@@ -348,9 +400,12 @@ msgstr "π.χ.: Κλειστά στις δημόσιες αργίες"
 
 #: includes/admin/views/stores/opening-hours.php:27
 msgid ""
-"You can add opening hours to your website using a widget. <a "
-"href=\"%s\">Read the docs</a> for more information."
-msgstr "Μπορείτε να προσθέσετε τις ώρες λειτουργίας στην ιστοσελίδα σας, χρησιμοποιώντας ένα γραφικό στοιχείο (widget). <a href=\"%s\"> Διαβάσει το εγχειρίδιο </a> για περισσότερες πληροφορίες."
+"You can add opening hours to your website using a widget. <a href=\"%s"
+"\">Read the docs</a> for more information."
+msgstr ""
+"Μπορείτε να προσθέσετε τις ώρες λειτουργίας στην ιστοσελίδα σας, "
+"χρησιμοποιώντας ένα γραφικό στοιχείο (widget). <a href=\"%s\"> Διαβάσει το "
+"εγχειρίδιο </a> για περισσότερες πληροφορίες."
 
 #: includes/admin/views/stores/receipt-options.php:9
 msgid "Complimentary Close"
@@ -360,7 +415,9 @@ msgstr "Δωρεάν Κλείσιμο"
 msgid ""
 "Personal notes or season greetings, e.g. Thank You for Your Order! or Merry "
 "Christmas!"
-msgstr "Προσωπικές σημειώσεις ή ευχές εποχής, π.χ. Σας ευχαριστούμε για την παραγγελία σας! ή Καλά Χριστούγεννα!"
+msgstr ""
+"Προσωπικές σημειώσεις ή ευχές εποχής, π.χ. Σας ευχαριστούμε για την "
+"παραγγελία σας! ή Καλά Χριστούγεννα!"
 
 #: includes/admin/views/stores/receipt-options.php:13
 msgid "Returns Policy"
@@ -376,7 +433,9 @@ msgstr "Υποσέλιδο"
 
 #: includes/admin/views/stores/receipt-options.php:18
 msgid "Further footer information, e.g. copyright or branding"
-msgstr "Επιπλέων πληροφορίες υποσέλιδου, π.χ. πνευματικής ιδιοκτησίας ή εμπορικού σήματος"
+msgstr ""
+"Επιπλέων πληροφορίες υποσέλιδου, π.χ. πνευματικής ιδιοκτησίας ή εμπορικού "
+"σήματος"
 
 #: includes/admin/views/stores/tax-rate.php:8
 msgid "Calculate Tax Based On"
@@ -396,12 +455,18 @@ msgstr "Δεν έχει οριστεί φορολογικός συντελεστ
 
 #: includes/admin/views/stores/tax-rate.php:43
 msgid ""
-"The tax rates above will be used at the point of sale. You can <a "
-"href=\"%s\">change the tax rate</a> in WooCommerce settings."
-msgstr "Οι φορολογικοί συντελεστές παραπάνω θα χρησιμοποιηθούν στο σημείο πώλησης. Μπορείτε να <a href=\"%s\"> αλλάξετε τον φορολογικό συντελεστή </a>  στις ρυθμίσεις του WooCommerce."
+"The tax rates above will be used at the point of sale. You can <a href=\"%s"
+"\">change the tax rate</a> in WooCommerce settings."
+msgstr ""
+"Οι φορολογικοί συντελεστές παραπάνω θα χρησιμοποιηθούν στο σημείο πώλησης. "
+"Μπορείτε να <a href=\"%s\"> αλλάξετε τον φορολογικό συντελεστή </a>  στις "
+"ρυθμίσεις του WooCommerce."
 
 #: includes/class-wc-pos-pro-activator.php:151
 msgid ""
 "<strong>WooCommerce POS Pro</strong> requires <a href=\"%s\">WooCommerce "
 "POS</a>. Please <a href=\"%s\">install and activate WooCommerce POS</a>"
-msgstr "Το <strong>WooCommerce POS Pro</strong> απαιτεί το <a href=\"%s\">WooCommerce POS</a>. Παρακαλούμε <a href=\"%s\">εγκαταστήστε και ενεργοποιήστε το WooCommerce POS</a>"
+msgstr ""
+"Το <strong>WooCommerce POS Pro</strong> απαιτεί το <a href=\"%s"
+"\">WooCommerce POS</a>. Παρακαλούμε <a href=\"%s\">εγκαταστήστε και "
+"ενεργοποιήστε το WooCommerce POS</a>"

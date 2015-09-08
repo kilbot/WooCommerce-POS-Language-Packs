@@ -24,8 +24,11 @@ module.exports = function(grunt) {
     'nl_NL',
     'pt_BR',
     'pt_PT',
+    'ro_RO',
     'ru_RU',
+    'sk_SK',
     'sv_SE',
+    'sw',
     'zh_CN',
     'zh_TW'
   ];

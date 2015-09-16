@@ -6,19 +6,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
-"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
-"Packs/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
 "POT-Creation-Date: 2015-08-24 09:12:46+00:00\n"
-"PO-Revision-Date: 2015-08-20 13:14+0000\n"
+"PO-Revision-Date: 2015-09-16 23:26+0000\n"
 "Last-Translator: Laco Tousek <laco.tousek@gmail.com>\n"
-"Language-Team: Czech (Czech Republic) (http://www.transifex.com/kilbot/"
-"woocommerce-pos/language/cs_CZ/)\n"
-"Language: cs_CZ\n"
+"Language-Team: Czech (Czech Republic) (http://www.transifex.com/kilbot/woocommerce-pos/language/cs_CZ/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: cs_CZ\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: grunt-wp-i18n 0.5.2\n"
+"X-Generator: grunt-wp-i18n 0.5.3\n"
 
 #: includes/api/class-wc-pos-orders.php:476
 msgid "There was an error processing the payment"
@@ -30,9 +28,7 @@ msgstr "Nyní budete přesměrováni mimo tyto stránky k dokončení platby."
 
 #: includes/api/class-wc-pos-orders.php:503
 msgid "<a href=\"%s\">Click here</a> if you are not redirected automatically. "
-msgstr ""
-"<a href=\"%s\">Klikněte zde</a>, jestliže nedojde k automatickému "
-"přesměrování. "
+msgstr "<a href=\"%s\">Klikněte zde</a>, jestliže nedojde k automatickému přesměrování. "
 
 #: includes/api/class-wc-pos-orders.php:517
 msgid "POS Transaction completed."
@@ -131,9 +127,8 @@ msgid "WooCommerce >= %s required"
 msgstr "WooCommerce >= %s vyžadován"
 
 #: includes/class-wc-pos-status.php:70
-#, fuzzy
 msgid "PHP >= %s required"
-msgstr "WooCommerce >= %s vyžadován"
+msgstr "PHP >= %s požadováno"
 
 #: includes/class-wc-pos-status.php:91
 msgid "WC REST API"
@@ -149,10 +144,9 @@ msgstr "Vyžadován přístup k REST API"
 
 #: includes/class-wc-pos-status.php:149
 msgid ""
-"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to "
-"work correctly"
-msgstr ""
-"<strong>WooCommerce REST API</strong> vyžaduje <em>pretty</em> permalinks. "
+"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to"
+" work correctly"
+msgstr "<strong>WooCommerce REST API</strong> vyžaduje <em>pretty</em> permalinks. "
 
 #: includes/class-wc-pos-status.php:153
 msgid "Enable permalinks"
@@ -190,20 +184,16 @@ msgstr "Váš prohlížeč WooCommerce POS nepodporuje."
 
 #: includes/views/modals/browser.php:3
 msgid ""
-"If possible, please <a href=\"http://browsehappy.com/\">update your browser</"
-"a>, we recommend either Chrome or Firefox."
-msgstr ""
-"Prosím, <a href=\"http://browsehappy.com/\">aktualizujte Váš prohlížeč</a>, "
-"doporučujeme Chrome nebo Firefox."
+"If possible, please <a href=\"http://browsehappy.com/\">update your "
+"browser</a>, we recommend either Chrome or Firefox."
+msgstr "Prosím, <a href=\"http://browsehappy.com/\">aktualizujte Váš prohlížeč</a>, doporučujeme Chrome nebo Firefox."
 
 #: includes/views/modals/browser.php:7
 msgid ""
 "If you believe you have received this message in error please contact "
-"support via <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</"
-"a>"
-msgstr ""
-"Pokud se domníváte, že jste tuto zprávu obdrželi omylem, prosím kontaktujte "
-"podporu na <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
+"support via <a "
+"href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
+msgstr "Pokud se domníváte, že jste tuto zprávu obdrželi omylem, prosím kontaktujte podporu na <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
 
 #: includes/views/pos/checkout.php:26
 msgid "No payment gateways enabled."
@@ -234,9 +224,8 @@ msgid "Order Date"
 msgstr "Datum nákupu"
 
 #: includes/views/print/receipt.php:132
-#, fuzzy
 msgid "Cashier"
-msgstr "Hotovost"
+msgstr "Pokladní"
 
 #: includes/views/print/receipt.php:137
 msgid "Payment Method"
@@ -261,12 +250,9 @@ msgstr "Point of Sale"
 #. Description of the plugin/theme
 msgid ""
 "A simple front-end for taking WooCommerce orders at the Point of Sale. "
-"Requires <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</"
-"a>."
-msgstr ""
-"Jednoduchý front-end pro přijímání objednávek WooCommerce prostřednictvím "
-"Point of Sale. Vyžaduje <a href=\"http://wordpress.org/plugins/woocommerce/"
-"\">WooCommerce</a> ."
+"Requires <a "
+"href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a>."
+msgstr "Jednoduchý front-end pro přijímání objednávek WooCommerce prostřednictvím Point of Sale. Vyžaduje <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a> ."
 
 #: includes/class-wc-pos-i18n.php:298
 msgctxt "system status: browser capabilities"
@@ -332,12 +318,3 @@ msgstr "Množství"
 msgctxt "abbreviation for includes (tax)"
 msgid "incl."
 msgstr "včetně"
-
-#~ msgid "Unable to test the REST API"
-#~ msgstr "Test REST API nelze provést"
-
-#~ msgid "Legacy server support enabled"
-#~ msgstr "Podpora legacy serveru povoiena "
-
-#~ msgid "Disable legacy server support"
-#~ msgstr "Nepovolit podporu legacy serveru"

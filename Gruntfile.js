@@ -29,6 +29,7 @@ module.exports = function(grunt) {
     'sk_SK',
     'sv_SE',
     'sw',
+    'vi',
     'zh_CN',
     'zh_TW'
   ];

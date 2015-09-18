@@ -5,15 +5,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
-"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
+"Packs/issues\n"
 "POT-Creation-Date: 2015-08-24 09:12:46+00:00\n"
 "PO-Revision-Date: 2015-09-18 06:33+0000\n"
 "Last-Translator: Tran Ngoc Thanh Tung <thomastrant@gmail.com>\n"
-"Language-Team: Vietnamese (http://www.transifex.com/kilbot/woocommerce-pos/language/vi/)\n"
+"Language-Team: Vietnamese (http://www.transifex.com/kilbot/woocommerce-pos/"
+"language/vi/)\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: grunt-wp-i18n 0.5.3\n"
 
@@ -78,13 +80,18 @@ msgstr "Mặc định, kết nối vào POS Được giới hạng bởi Admin v
 msgid ""
 "It is recommended that you <strong>do not change</strong> the default "
 "settings unless you are fully aware of the consequences."
-msgstr "Khuyến cáo thận trọng <strong>không thay đổi</strong> cài đặt mặc định trừ khi bạn hiểu hậu quả."
+msgstr ""
+"Khuyến cáo thận trọng <strong>không thay đổi</strong> cài đặt mặc định trừ "
+"khi bạn hiểu hậu quả."
 
 #: includes/admin/settings/views/access.php:12
 #: includes/admin/settings/views/checkout.php:60
 #: includes/admin/settings/views/hotkeys.php:6
-msgid "For more information please visit <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
-msgstr "Để biết thêm thông tin vui lòng truy cập <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
+msgid ""
+"For more information please visit <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
+msgstr ""
+"Để biết thêm thông tin vui lòng truy cập <a href=\"%1$s\" target=\"_blank\">"
+"%1$s</a>"
 
 #: includes/admin/settings/views/checkout.php:13
 msgid "Completed Order Status"
@@ -120,23 +127,30 @@ msgstr "Tự động in hóa đơn sau khi thanh toán"
 
 #: includes/admin/settings/views/checkout.php:54
 msgid ""
-"Installed gateways are listed below. Drag and drop gateways to control their"
-" display order at the Point of Sale. "
-msgstr "Cài cổng thanh toán sẽ được liệt kê bên dưới. Kéo và thả cổng thanh toán để điều khiển thứ tự trong POS"
+"Installed gateways are listed below. Drag and drop gateways to control their "
+"display order at the Point of Sale. "
+msgstr ""
+"Cài cổng thanh toán sẽ được liệt kê bên dưới. Kéo và thả cổng thanh toán để "
+"điều khiển thứ tự trong POS"
 
 #: includes/admin/settings/views/checkout.php:55
 msgid ""
 "Payment Gateways enabled here will be available at the Point of Sale. "
 "Payment Gateways enabled on the settings page will be available in your "
 "Online Store. "
-msgstr "Các cổng thanh toán được kích hoạt ở đây sẽ hiện trên cổng thanh toán POS. Các cổng thanh toán trong phần cài đặt sẽ được hiển thị trên cửa hàng Online"
+msgstr ""
+"Các cổng thanh toán được kích hoạt ở đây sẽ hiện trên cổng thanh toán POS. "
+"Các cổng thanh toán trong phần cài đặt sẽ được hiển thị trên cửa hàng Online"
 
 #: includes/admin/settings/views/checkout.php:59
 msgid ""
 "It is your responsibility to ensure the security of your customer's "
 "information. Transmitting credit card or other sensitive information should "
 "only be done using a secure connnection."
-msgstr "Đây là trách nhiện của bạn trong việc bảo vệ thông tin khách hàng. Dùng thẻ Tín Dụng hoặc phương thức thanh toán khác chỉ nên thực hiện với đường truyền bảo mật"
+msgstr ""
+"Đây là trách nhiện của bạn trong việc bảo vệ thông tin khách hàng. Dùng thẻ "
+"Tín Dụng hoặc phương thức thanh toán khác chỉ nên thực hiện với đường truyền "
+"bảo mật"
 
 #: includes/admin/settings/views/checkout.php:66
 msgid "Gateway Display"
@@ -180,7 +194,9 @@ msgstr "Cho phép một số lượng thập phân"
 
 #: includes/admin/settings/views/general.php:24
 msgid "Allows items to have decimal values in the quantity field, eg: 0.25"
-msgstr "Cho phép các mặt hàng có giá trị thập phân trong các lĩnh vực về số lượng, ví dụ: 0.25"
+msgstr ""
+"Cho phép các mặt hàng có giá trị thập phân trong các lĩnh vực về số lượng, "
+"ví dụ: 0.25"
 
 #: includes/admin/settings/views/general.php:34
 msgid "Default POS Customer"
@@ -189,7 +205,8 @@ msgstr "Mặc định khách khi dùng POS"
 #: includes/admin/settings/views/general.php:35
 msgid ""
 "The default customer for POS orders, eg: Guest or create a new customer."
-msgstr "Khách hàng mặc định cho order từ POS, Vd: Khách hoặc tạo một khách hàng mới."
+msgstr ""
+"Khách hàng mặc định cho order từ POS, Vd: Khách hoặc tạo một khách hàng mới."
 
 #: includes/admin/settings/views/general.php:46
 msgid "Discount Quick Keys"
@@ -207,13 +224,15 @@ msgstr "Phím tắt trên bàn phím"
 msgid ""
 "You can trigger certain events in WooCommerce POS using keyboard shortcuts "
 "(HotKeys)."
-msgstr "Bạn có thể kích hoạt cách tìm nhất định trong WooCommerce POS sử dụng các phím tắt (HotKeys)."
+msgstr ""
+"Bạn có thể kích hoạt cách tìm nhất định trong WooCommerce POS sử dụng các "
+"phím tắt (HotKeys)."
 
 #: includes/admin/settings/views/hotkeys.php:5
 msgid ""
-"HotKeys can also be used as a prefix for your barcode scanner or card "
-"reader."
-msgstr "Phím tắt có thể dùng như là tiền tố cho máy mã vạch hoặc máy đọc thẻ của bạn."
+"HotKeys can also be used as a prefix for your barcode scanner or card reader."
+msgstr ""
+"Phím tắt có thể dùng như là tiền tố cho máy mã vạch hoặc máy đọc thẻ của bạn."
 
 #: includes/admin/settings/views/tools.php:33
 msgid "Receipt Template"
@@ -241,15 +260,19 @@ msgstr "Dạng Order"
 
 #: includes/admin/views/settings.php:13
 msgid ""
-"There has been an error loading the settings, please contact <a "
-"href=\"mailto:support@woopos.com.au\">support</a>"
-msgstr "Có lỗi khi mở cài đặt, vui lòng liên hệ <a href=\"mailto:support@woopos.com.au\">Hỗ Trợ</a>"
+"There has been an error loading the settings, please contact <a href="
+"\"mailto:support@woopos.com.au\">support</a>"
+msgstr ""
+"Có lỗi khi mở cài đặt, vui lòng liên hệ <a href=\"mailto:support@woopos.com."
+"au\">Hỗ Trợ</a>"
 
 #: includes/class-wc-pos-activator.php:192
 msgid ""
 "<strong>WooCommerce POS</strong> requires <a href=\"%s\">WooCommerce</a>. "
 "Please <a href=\"%s\">install and activate WooCommerce</a>"
-msgstr "<strong>WooCommerce POS</strong> yêu cầu <a href=\"%s\">WooCommerce</a>. Xin hãy <a href=\"%s\">cài đặt và kích hoạt WooCommerce</a>"
+msgstr ""
+"<strong>WooCommerce POS</strong> yêu cầu <a href=\"%s\">WooCommerce</a>. Xin "
+"hãy <a href=\"%s\">cài đặt và kích hoạt WooCommerce</a>"
 
 #: includes/products/class-wc-pos-visibility.php:23
 msgid "POS & Online"

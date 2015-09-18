@@ -5,31 +5,39 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
-"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
+"Packs/issues\n"
 "POT-Creation-Date: 2015-08-24 09:12:35+00:00\n"
 "PO-Revision-Date: 2015-09-18 06:38+0000\n"
 "Last-Translator: Tran Ngoc Thanh Tung <thomastrant@gmail.com>\n"
-"Language-Team: Vietnamese (http://www.transifex.com/kilbot/woocommerce-pos/language/vi/)\n"
+"Language-Team: Vietnamese (http://www.transifex.com/kilbot/woocommerce-pos/"
+"language/vi/)\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: grunt-wp-i18n 0.5.3\n"
 
 #: includes/admin/class-wc-pos-pro-am.php:72
 msgid "The %s License Key has not been activated, so the plugin is inactive!"
-msgstr "%s License Key đã không được kích hoạt, vì vậy các plugin không hoạt động!"
+msgstr ""
+"%s License Key đã không được kích hoạt, vì vậy các plugin không hoạt động!"
 
 #: includes/admin/class-wc-pos-pro-am.php:73
-msgid " <a href=\"%s\">Click here</a> to activate the license key and the plugin."
-msgstr "<a href=\"%s\">Nhấn vào đây</a> để kích hoạt các phím giấy phép và các plugin."
+msgid ""
+" <a href=\"%s\">Click here</a> to activate the license key and the plugin."
+msgstr ""
+"<a href=\"%s\">Nhấn vào đây</a> để kích hoạt các phím giấy phép và các "
+"plugin."
 
 #: includes/admin/class-wc-pos-pro-am.php:106
 msgid ""
 "<b>Warning!</b> You're blocking external requests which means you won't be "
 "able to get %s updates. Please add %s to %s."
-msgstr "<b>Cảnh báo!</b> Bạn đang chặn yêu cầu bên ngoài có nghĩa là bạn sẽ không thể để có được %s cập nhật. Vui lòng thêm %s đến %s."
+msgstr ""
+"<b>Cảnh báo!</b> Bạn đang chặn yêu cầu bên ngoài có nghĩa là bạn sẽ không "
+"thể để có được %s cập nhật. Vui lòng thêm %s đến %s."
 
 #: includes/admin/class-wc-pos-pro-am.php:231
 msgid "Unable to connect to the activation server"
@@ -70,84 +78,117 @@ msgstr "Đáp ứng không hợp lệ"
 
 #: includes/admin/class-wc-pos-pro-am.php:306
 msgid ""
-"A license key for %s could not be found. Maybe you forgot to enter a license"
-" key when setting up %s, or the key was deactivated in your account. You can"
-" reactivate or purchase a license key from your account <a href=\"%s\" "
-"target=\"_blank\">dashboard</a>."
-msgstr "Một key bản quyền cho %s không thể được tìm thấy. Có lẽ bạn quên nhập key bản quyền khi thiết lập %s, hoặc Key đã được deactivated trong tài khoản của bạn. Bạn có thể kích hoạt lại hoặc mua key bản quyền từ tài khoản của bạn <a href=\"%s\" target=\"_blank\">bảng điều khiển.</a>"
+"A license key for %s could not be found. Maybe you forgot to enter a license "
+"key when setting up %s, or the key was deactivated in your account. You can "
+"reactivate or purchase a license key from your account <a href=\"%s\" target="
+"\"_blank\">dashboard</a>."
+msgstr ""
+"Một key bản quyền cho %s không thể được tìm thấy. Có lẽ bạn quên nhập key "
+"bản quyền khi thiết lập %s, hoặc Key đã được deactivated trong tài khoản của "
+"bạn. Bạn có thể kích hoạt lại hoặc mua key bản quyền từ tài khoản của bạn <a "
+"href=\"%s\" target=\"_blank\">bảng điều khiển.</a>"
 
 #: includes/admin/class-wc-pos-pro-am.php:307
 msgid ""
-"The license key for %s has expired. You can reactivate or purchase a license"
-" key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
-msgstr "Các key bản quyền cho %s đã hết hạn. Bạn có thể kích hoạt lại hoặc mua key bản quyền từ tài khoản của bạn <a href=\"%s\" target=\"_blank\">dashboard</a>."
+"The license key for %s has expired. You can reactivate or purchase a license "
+"key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Các key bản quyền cho %s đã hết hạn. Bạn có thể kích hoạt lại hoặc mua key "
+"bản quyền từ tài khoản của bạn <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
 
 #: includes/admin/class-wc-pos-pro-am.php:308
 msgid ""
-"The subscription for %s is on-hold. You can reactivate the subscription from"
-" your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
-msgstr "Các thuê bao cho %s là on-hold. Bạn có thể tái kích hoạt lại các thuê bao từ tài khoản của bạn <a href=\"%s\" target=\"_blank\">bảng điều khiển.</a>"
+"The subscription for %s is on-hold. You can reactivate the subscription from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Các thuê bao cho %s là on-hold. Bạn có thể tái kích hoạt lại các thuê bao từ "
+"tài khoản của bạn <a href=\"%s\" target=\"_blank\">bảng điều khiển.</a>"
 
 #: includes/admin/class-wc-pos-pro-am.php:309
 msgid ""
 "The subscription for %s has been cancelled. You can renew the subscription "
 "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>. A new "
 "license key will be emailed to you after your order has been completed."
-msgstr "Các thuê bao cho %s đã được hủy bỏ. Bạn có thể gia hạn thuê bao từ tài khoản của bạn <a href=\"%s\" target=\"_blank\">bảng điều khiển.</a> Một key bản quyền mới sẽ được gửi đến bạn sau khi bạn đã hoàn thành."
+msgstr ""
+"Các thuê bao cho %s đã được hủy bỏ. Bạn có thể gia hạn thuê bao từ tài khoản "
+"của bạn <a href=\"%s\" target=\"_blank\">bảng điều khiển.</a> Một key bản "
+"quyền mới sẽ được gửi đến bạn sau khi bạn đã hoàn thành."
 
 #: includes/admin/class-wc-pos-pro-am.php:310
 msgid ""
 "The subscription for %s has expired. You can reactivate the subscription "
 "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
-msgstr "Các thuê bao cho %s đã hết hạn. Bạn có thể kích hoạt lại các thuê bao từ tài khoản của bạn <a href=\"%s\" target=\"_blank\">bảng điều khiển.</a>"
+msgstr ""
+"Các thuê bao cho %s đã hết hạn. Bạn có thể kích hoạt lại các thuê bao từ tài "
+"khoản của bạn <a href=\"%s\" target=\"_blank\">bảng điều khiển.</a>"
 
 #: includes/admin/class-wc-pos-pro-am.php:311
 msgid ""
 "The subscription for %s has been suspended. You can reactivate the "
-"subscription from your account <a href=\"%s\" "
-"target=\"_blank\">dashboard</a>."
-msgstr "Các thuê bao cho %s đã bị treo. Bạn có thể kích hoạt lại các thuê bao từ tài khoản của bạn <a href=\"%s\" target=\"_blank\">bảng điều khiển.</a>"
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+"Các thuê bao cho %s đã bị treo. Bạn có thể kích hoạt lại các thuê bao từ tài "
+"khoản của bạn <a href=\"%s\" target=\"_blank\">bảng điều khiển.</a>"
 
 #: includes/admin/class-wc-pos-pro-am.php:312
 msgid ""
-"The subscription for %s is still pending. You can check on the status of the"
-" subscription from your account <a href=\"%s\" "
-"target=\"_blank\">dashboard</a>."
-msgstr "Các thuê bao cho %s vẫn đang chờ. Bạn có thể kiểm tra trạng thái của thuê bao từ tài khoản của bạn <a href=\"%s\" target=\"_blank\">bảng điều khiển.</a>"
+"The subscription for %s is still pending. You can check on the status of the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+"Các thuê bao cho %s vẫn đang chờ. Bạn có thể kiểm tra trạng thái của thuê "
+"bao từ tài khoản của bạn <a href=\"%s\" target=\"_blank\">bảng điều khiển.</"
+"a>"
 
 #: includes/admin/class-wc-pos-pro-am.php:313
 msgid ""
 "The subscription for %s has been placed in the trash and will be deleted "
 "soon. You can purchase a new subscription from your account <a href=\"%s\" "
 "target=\"_blank\">dashboard</a>."
-msgstr "Các thuê bao cho% s đã được đặt trong thùng rác và sẽ sớm bị xóa. Bạn có thể mua một thuê bao mới từ tài khoản của bạn <a href=\"%s\" target=\"_blank\">bảng điều khiển.</a>"
+msgstr ""
+"Các thuê bao cho% s đã được đặt trong thùng rác và sẽ sớm bị xóa. Bạn có thể "
+"mua một thuê bao mới từ tài khoản của bạn <a href=\"%s\" target=\"_blank"
+"\">bảng điều khiển.</a>"
 
 #: includes/admin/class-wc-pos-pro-am.php:314
 msgid ""
 "A subscription for %s could not be found. You can purchase a subscription "
 "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
-msgstr "Một thuê bao cho% s không thể được tìm thấy. Bạn có thể mua một thuê bao từ tài khoản của bạn <a href=\"%s\" target=\"_blank\">bảng điều khiển.</a>"
+msgstr ""
+"Một thuê bao cho% s không thể được tìm thấy. Bạn có thể mua một thuê bao từ "
+"tài khoản của bạn <a href=\"%s\" target=\"_blank\">bảng điều khiển.</a>"
 
 #: includes/admin/class-wc-pos-pro-am.php:315
 msgid ""
-"%s has not been activated. Go to the settings page and enter the license key"
-" and license email to activate %s."
-msgstr "% s chưa được kích hoạt. Tới trang cài đặt và nhập key bản quyền và giấy phép email để kích hoạt% s."
+"%s has not been activated. Go to the settings page and enter the license key "
+"and license email to activate %s."
+msgstr ""
+"% s chưa được kích hoạt. Tới trang cài đặt và nhập key bản quyền và giấy "
+"phép email để kích hoạt% s."
 
 #: includes/admin/class-wc-pos-pro-am.php:316
 msgid ""
-"Download permission for %s has been revoked possibly due to a license key or"
-" subscription expiring. You can reactivate or purchase a license key from "
+"Download permission for %s has been revoked possibly due to a license key or "
+"subscription expiring. You can reactivate or purchase a license key from "
 "your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
-msgstr "Cho phép tải về cho% s đã bị thu hồi có thể là do một key bản quyền hoặc đăng ký hết hạn. Bạn có thể kích hoạt lại hoặc mua key bản quyền từ tài khoản của bạn <a href=\"%s\" target=\"_blank\">bảng điều khiển.</a>"
+msgstr ""
+"Cho phép tải về cho% s đã bị thu hồi có thể là do một key bản quyền hoặc "
+"đăng ký hết hạn. Bạn có thể kích hoạt lại hoặc mua key bản quyền từ tài "
+"khoản của bạn <a href=\"%s\" target=\"_blank\">bảng điều khiển.</a>"
 
 #: includes/admin/class-wc-pos-pro-am.php:317
 msgid ""
 "You changed the subscription for %s, so you will need to enter your new API "
 "License Key in the settings page. The License Key should have arrived in "
-"your email inbox, if not you can get it by logging into your account <a "
-"href=\"%s\" target=\"_blank\">dashboard</a>."
-msgstr "Bạn thay đổi đăng ký cho% s, vì vậy bạn sẽ cần phải nhập mới API License Key của bạn trong trang cài đặt. The Key Giấy phép nên đã đến trong hộp thư đến email của bạn, nếu không bạn có thể có được nó bằng cách đăng nhập vào tài khoản của bạn <a href=\"%s\" target=\"_blank\">bảng điều khiển.</a>"
+"your email inbox, if not you can get it by logging into your account <a href="
+"\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Bạn thay đổi đăng ký cho% s, vì vậy bạn sẽ cần phải nhập mới API License Key "
+"của bạn trong trang cài đặt. The Key Giấy phép nên đã đến trong hộp thư đến "
+"email của bạn, nếu không bạn có thể có được nó bằng cách đăng nhập vào tài "
+"khoản của bạn <a href=\"%s\" target=\"_blank\">bảng điều khiển.</a>"
 
 #: includes/admin/class-wc-pos-pro-reports.php:27
 #: includes/admin/reports/views/sales-table.php:12
@@ -228,7 +269,9 @@ msgstr "Đặt hàng Logo"
 msgid ""
 "Please <a href=\"%s\">read the docs</a> for information on how to customize "
 "your POS receipts."
-msgstr "Xin vui lòng <a href=\"%s\">đọc các tài liệu</a> thông tin về làm thế nào để tùy chỉnh biên lai POS của bạn."
+msgstr ""
+"Xin vui lòng <a href=\"%s\">đọc các tài liệu</a> thông tin về làm thế nào để "
+"tùy chỉnh biên lai POS của bạn."
 
 #: includes/admin/reports/class-wc-pos-pro-sales.php:166
 #: includes/admin/reports/class-wc-pos-pro-sales.php:169
@@ -276,7 +319,8 @@ msgstr "Tổng Vận Chuyển"
 
 #: includes/admin/reports/views/sales-table.php:7
 msgid "This is the sum of the 'Shipping Total' field within your orders."
-msgstr "Đây là tổng của các lĩnh vực 'Giao hàng Total' trong đơn đặt hàng của bạn."
+msgstr ""
+"Đây là tổng của các lĩnh vực 'Giao hàng Total' trong đơn đặt hàng của bạn."
 
 #: includes/admin/reports/views/sales-table.php:8
 msgid "Total Tax"
@@ -348,9 +392,11 @@ msgstr "ví dụ như: ngày lễ đóng"
 
 #: includes/admin/views/stores/opening-hours.php:27
 msgid ""
-"You can add opening hours to your website using a widget. <a "
-"href=\"%s\">Read the docs</a> for more information."
-msgstr "Bạn có thể thêm giờ mở cửa để trang web của bạn bằng cách sử dụng một widget. <a href=\"%s\">Đọc các tài liệu</a> để biết thêm thông tin."
+"You can add opening hours to your website using a widget. <a href=\"%s"
+"\">Read the docs</a> for more information."
+msgstr ""
+"Bạn có thể thêm giờ mở cửa để trang web của bạn bằng cách sử dụng một "
+"widget. <a href=\"%s\">Đọc các tài liệu</a> để biết thêm thông tin."
 
 #: includes/admin/views/stores/receipt-options.php:9
 msgid "Complimentary Close"
@@ -360,7 +406,9 @@ msgstr "Đóng miễn phí"
 msgid ""
 "Personal notes or season greetings, e.g. Thank You for Your Order! or Merry "
 "Christmas!"
-msgstr "Ghi chú cá nhân hoặc lời chào mùa, ví dụ như cảm ơn cho đặt hàng của bạn! hoặc Merry Christmas!"
+msgstr ""
+"Ghi chú cá nhân hoặc lời chào mùa, ví dụ như cảm ơn cho đặt hàng của bạn! "
+"hoặc Merry Christmas!"
 
 #: includes/admin/views/stores/receipt-options.php:13
 msgid "Returns Policy"
@@ -396,12 +444,16 @@ msgstr "Không có thuế suất thiết"
 
 #: includes/admin/views/stores/tax-rate.php:43
 msgid ""
-"The tax rates above will be used at the point of sale. You can <a "
-"href=\"%s\">change the tax rate</a> in WooCommerce settings."
-msgstr "Các mức thuế suất trên sẽ được sử dụng tại các điểm bán hàng. Bạn có thể <a href=\"%s\">thay đổi các mức thuế suất</a> trong cài đặt WooCommerce."
+"The tax rates above will be used at the point of sale. You can <a href=\"%s"
+"\">change the tax rate</a> in WooCommerce settings."
+msgstr ""
+"Các mức thuế suất trên sẽ được sử dụng tại các điểm bán hàng. Bạn có thể <a "
+"href=\"%s\">thay đổi các mức thuế suất</a> trong cài đặt WooCommerce."
 
 #: includes/class-wc-pos-pro-activator.php:151
 msgid ""
 "<strong>WooCommerce POS Pro</strong> requires <a href=\"%s\">WooCommerce "
 "POS</a>. Please <a href=\"%s\">install and activate WooCommerce POS</a>"
-msgstr "<strong>WooCommerce POS Pro</strong> đòi hỏi <a href=\"%s\">WooCommerce POS.</a> Hãy <a href=\"%s\">cài đặt và kích hoạt WooCommerce POS</a>"
+msgstr ""
+"<strong>WooCommerce POS Pro</strong> đòi hỏi <a href=\"%s\">WooCommerce POS."
+"</a> Hãy <a href=\"%s\">cài đặt và kích hoạt WooCommerce POS</a>"

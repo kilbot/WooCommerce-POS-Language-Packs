@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
 "POT-Creation-Date: 2015-08-24 09:12:46+00:00\n"
-"PO-Revision-Date: 2015-09-18 06:23+0000\n"
+"PO-Revision-Date: 2015-09-18 06:33+0000\n"
 "Last-Translator: Tran Ngoc Thanh Tung <thomastrant@gmail.com>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/kilbot/woocommerce-pos/language/vi/)\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: includes/admin/class-wc-pos-gateways.php:31
 msgid "Online Store"
-msgstr "Cửa hàng Online"
+msgstr "Cửa hàng trực tuyến"
 
 #: includes/admin/class-wc-pos-gateways.php:32
 #: includes/admin/class-wc-pos-menu.php:34

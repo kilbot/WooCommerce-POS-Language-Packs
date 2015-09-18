@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
 "POT-Creation-Date: 2015-08-24 09:12:46+00:00\n"
-"PO-Revision-Date: 2015-09-18 06:25+0000\n"
+"PO-Revision-Date: 2015-09-18 06:31+0000\n"
 "Last-Translator: Tran Ngoc Thanh Tung <thomastrant@gmail.com>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/kilbot/woocommerce-pos/language/vi/)\n"
 "MIME-Version: 1.0\n"
@@ -67,7 +67,7 @@ msgstr "Trả"
 
 #: includes/class-wc-pos-i18n.php:311
 msgid "Paid"
-msgstr "Paid"
+msgstr "Đã thanh toán"
 
 #: includes/class-wc-pos-i18n.php:312
 msgid "Unpaid"
@@ -75,11 +75,11 @@ msgstr "Chưa thanh toán"
 
 #: includes/class-wc-pos-i18n.php:313
 msgid "Email Receipt"
-msgstr "Email Receipt"
+msgstr "Email biên lai"
 
 #: includes/class-wc-pos-i18n.php:317
 msgid "Local Storage"
-msgstr "Local Storage"
+msgstr "Kho tại đây"
 
 #. translators: wordpress
 #. translators: woocommerce
@@ -103,11 +103,11 @@ msgstr "Gởi"
 
 #: includes/class-wc-pos-i18n.php:338
 msgid "Void"
-msgstr "Khoảng trống"
+msgstr "Hủy"
 
 #: includes/class-wc-pos-i18n.php:341
 msgid "Enable legacy server support"
-msgstr "Kích hoạt tính năng hỗ trợ máy chủ di sản"
+msgstr "Kích hoạt tính năng hỗ trợ máy chủ cũ"
 
 #: includes/class-wc-pos-i18n.php:348
 msgid "Your browser is not supported!"
@@ -115,7 +115,7 @@ msgstr "Trình duyệt của bạn không được hỗ trợ!"
 
 #: includes/class-wc-pos-i18n.php:349
 msgid "Unable to use RESTful HTTP methods"
-msgstr "Không thể sử dụng các phương pháp HTTP RESTful"
+msgstr "Không thể sử dụng các phương thức HTTP RESTful"
 
 #: includes/class-wc-pos-status.php:31
 msgid "WC Version"
@@ -123,11 +123,11 @@ msgstr "WC Version"
 
 #: includes/class-wc-pos-status.php:38
 msgid "WooCommerce >= %s required"
-msgstr "WooCommerce> =% s yêu cầu"
+msgstr "WooCommerce >= %s yêu cầu"
 
 #: includes/class-wc-pos-status.php:70
 msgid "PHP >= %s required"
-msgstr "PHP> =% s yêu cầu"
+msgstr "PHP >=%s được yêu cầu"
 
 #: includes/class-wc-pos-status.php:91
 msgid "WC REST API"
@@ -139,13 +139,13 @@ msgstr "API đang hoạt động"
 
 #: includes/class-wc-pos-status.php:129
 msgid "Access to the REST API is required"
-msgstr "Truy cập vào các API REST là cần thiết"
+msgstr "Truy cập vào các API REST là bắt buộc"
 
 #: includes/class-wc-pos-status.php:149
 msgid ""
 "<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to"
 " work correctly"
-msgstr "<strong>WooCommerce REST API</strong> đòi hỏi permalinks <em>khá</em> để làm việc một cách chính xác"
+msgstr "<strong>WooCommerce REST API</strong> đòi hỏi permalinks <em>đúng</em> để làm việc một cách chính xác"
 
 #: includes/class-wc-pos-status.php:153
 msgid "Enable permalinks"
@@ -175,7 +175,7 @@ msgstr "Tiền mặt"
 #: includes/gateways/class-wc-pos-cash.php:90
 #: includes/views/print/receipt.php:247
 msgid "Amount Tendered"
-msgstr "Số tiền đấu thầu"
+msgstr "Số tiền nhận được"
 
 #: includes/views/modals/browser.php:2
 msgid "Sorry, it seems your browser is not supported by WooCommerce POS. "
@@ -204,11 +204,11 @@ msgstr "Quét mã vạch"
 
 #: includes/views/pos/products.php:79
 msgid "Showing %s of %s"
-msgstr "Hiển thị% s trong% s"
+msgstr "Hiển thị %s trong %s"
 
 #: includes/views/pos/products.php:80
 msgid "%s in queue"
-msgstr "% s trong hàng đợi"
+msgstr "%s xếp hàng"
 
 #: includes/views/print/receipt.php:115
 msgid "Billing Address"
@@ -232,7 +232,7 @@ msgstr "Phương thức thanh toán"
 
 #: includes/views/support.php:11
 msgid "Support Form"
-msgstr "Hỗ trợ Form"
+msgstr "Form Hỗ trợ"
 
 #: includes/views/support.php:28
 msgid "Describe your problem here ..."
@@ -244,14 +244,14 @@ msgstr "Nối báo cáo hệ thống POS"
 
 #: includes/views/template.php:12
 msgid "Point of Sale"
-msgstr "Điểm bán hàng"
+msgstr "Điểm bán hàng POS"
 
 #. Description of the plugin/theme
 msgid ""
 "A simple front-end for taking WooCommerce orders at the Point of Sale. "
 "Requires <a "
 "href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a>."
-msgstr "Một đơn giản front-end cho nhận đơn đặt hàng WooCommerce tại các điểm bán. Yêu cầu <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce.</a>"
+msgstr "Một front-end đơn giản cho nhận đơn đặt hàng của WooCommerce tại POS. Yêu cầu <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce.</a>"
 
 #: includes/class-wc-pos-i18n.php:298
 msgctxt "system status: browser capabilities"
@@ -283,7 +283,7 @@ msgstr "Thay đổi"
 #: includes/class-wc-pos-i18n.php:321
 msgctxt "system status: delete local records"
 msgid "Clear"
-msgstr "Trong sáng"
+msgstr "Dọn"
 
 #: includes/class-wc-pos-i18n.php:332
 msgctxt "restore default settings"
@@ -298,12 +298,12 @@ msgstr "trở về"
 #: includes/class-wc-pos-i18n.php:352
 msgctxt "eg: 23 records"
 msgid "record |||| records"
-msgstr "hồ sơ kỷ lục ||||"
+msgstr "record |||| records"
 
 #: includes/class-wc-pos-params.php:76
 msgctxt "Product tab: 'On Sale' products"
 msgid "On Sale"
-msgstr "Mở Bán"
+msgstr "Giảm giá"
 
 #: includes/views/pos/cart.php:9 includes/views/pos/receipt.php:10
 #: includes/views/print/receipt.php:157

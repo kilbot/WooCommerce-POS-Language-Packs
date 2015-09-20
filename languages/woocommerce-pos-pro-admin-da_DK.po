@@ -1,40 +1,36 @@
 # Copyright (C) 2015 kilbot
 # This file is distributed under the Copyright 2015 The Kilbot Factory.
 # Translators:
+# Carsten Meldgaard <cm@geekmedia.dk>, 2015
 # tntc1978 <tntc1978@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
-"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
-"Packs/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
 "POT-Creation-Date: 2015-08-24 09:12:35+00:00\n"
-"PO-Revision-Date: 2015-07-10 14:18+0000\n"
-"Last-Translator: tntc1978 <tntc1978@gmail.com>\n"
-"Language-Team: Danish (Denmark) (http://www.transifex.com/p/woocommerce-pos/"
-"language/da_DK/)\n"
-"Language: da_DK\n"
+"PO-Revision-Date: 2015-09-20 21:17+0000\n"
+"Last-Translator: Carsten Meldgaard <cm@geekmedia.dk>\n"
+"Language-Team: Danish (Denmark) (http://www.transifex.com/kilbot/woocommerce-pos/language/da_DK/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: da_DK\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: grunt-wp-i18n 0.5.2\n"
+"X-Generator: grunt-wp-i18n 0.5.3\n"
 
 #: includes/admin/class-wc-pos-pro-am.php:72
 msgid "The %s License Key has not been activated, so the plugin is inactive!"
 msgstr "%s licensnøglen er ikke blevet aktiveret, derfor er pluginet inaktivt!"
 
 #: includes/admin/class-wc-pos-pro-am.php:73
-msgid ""
-" <a href=\"%s\">Click here</a> to activate the license key and the plugin."
+msgid " <a href=\"%s\">Click here</a> to activate the license key and the plugin."
 msgstr " <a href=\"%s\">Tryk her</a> for at aktivere licensnøglen og pluginet."
 
 #: includes/admin/class-wc-pos-pro-am.php:106
 msgid ""
 "<b>Warning!</b> You're blocking external requests which means you won't be "
 "able to get %s updates. Please add %s to %s."
-msgstr ""
-"<b>Advarsel!</b> Du blokerer for eksterne anmodninger, hvilket betyder at du "
-"ikke vil få %s opdateringer. Tilføj venligst %s til %s."
+msgstr "<b>Advarsel!</b> Du blokerer for eksterne anmodninger, hvilket betyder at du ikke vil få %s opdateringer. Tilføj venligst %s til %s."
 
 #: includes/admin/class-wc-pos-pro-am.php:231
 msgid "Unable to connect to the activation server"
@@ -75,115 +71,84 @@ msgstr "Ugyldigt svar"
 
 #: includes/admin/class-wc-pos-pro-am.php:306
 msgid ""
-"A license key for %s could not be found. Maybe you forgot to enter a license "
-"key when setting up %s, or the key was deactivated in your account. You can "
-"reactivate or purchase a license key from your account <a href=\"%s\" target="
-"\"_blank\">dashboard</a>."
-msgstr ""
-"En licensnøgle til %s kunne ikke blive fundet. Måske har du glemt at "
-"indtaste licensnøglen, da du satte %s op, eller nøglen var deaktiveret på "
-"din konto. Du kan reaktivere eller købe en licensnøgle fra din konto <a href="
-"\"%s\" target=\"_blank\">side</a>."
+"A license key for %s could not be found. Maybe you forgot to enter a license"
+" key when setting up %s, or the key was deactivated in your account. You can"
+" reactivate or purchase a license key from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr "En licensnøgle til %s kunne ikke blive fundet. Måske har du glemt at indtaste licensnøglen, da du satte %s op, eller nøglen var deaktiveret på din konto. Du kan reaktivere eller købe en licensnøgle fra din konto <a href=\"%s\" target=\"_blank\">side</a>."
 
 #: includes/admin/class-wc-pos-pro-am.php:307
 msgid ""
-"The license key for %s has expired. You can reactivate or purchase a license "
-"key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
-msgstr ""
-"Licensnøglen til %s er udløbet. Du kan reaktivere eller købe en licensnøgle "
-"fra din konto <a href=\"%s\" target=\"_blank\">side</a>."
+"The license key for %s has expired. You can reactivate or purchase a license"
+" key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Licensnøglen til %s er udløbet. Du kan reaktivere eller købe en licensnøgle fra din konto <a href=\"%s\" target=\"_blank\">side</a>."
 
 #: includes/admin/class-wc-pos-pro-am.php:308
 msgid ""
-"The subscription for %s is on-hold. You can reactivate the subscription from "
-"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
-msgstr ""
-"Abonnementet til %s er på hold. Du kan reaktivere eller købe en licensnøgle "
-"fra din konto <a href=\"%s\" target=\"_blank\">side</a>."
+"The subscription for %s is on-hold. You can reactivate the subscription from"
+" your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Abonnementet til %s er på hold. Du kan reaktivere eller købe en licensnøgle fra din konto <a href=\"%s\" target=\"_blank\">side</a>."
 
 #: includes/admin/class-wc-pos-pro-am.php:309
 msgid ""
 "The subscription for %s has been cancelled. You can renew the subscription "
 "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>. A new "
 "license key will be emailed to you after your order has been completed."
-msgstr ""
-"Abonnementet til %s er blevet annulleret. Du kan forny abonnementet fra din "
-"konto <a href=\"%s\" target=\"_blank\">side</a>. En ny licensnøgle vil blive "
-"sendt til dig efter din ordre er blevet gennemført."
+msgstr "Abonnementet til %s er blevet annulleret. Du kan forny abonnementet fra din konto <a href=\"%s\" target=\"_blank\">side</a>. En ny licensnøgle vil blive sendt til dig efter din ordre er blevet gennemført."
 
 #: includes/admin/class-wc-pos-pro-am.php:310
 msgid ""
 "The subscription for %s has expired. You can reactivate the subscription "
 "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
-msgstr ""
-"Abonnementet på %s er udløbet. Du kan reaktivere abonnementet fra din konto "
-"<a href=\"%s\" target=\"_blank\">side</a>."
+msgstr "Abonnementet på %s er udløbet. Du kan reaktivere abonnementet fra din konto <a href=\"%s\" target=\"_blank\">side</a>."
 
 #: includes/admin/class-wc-pos-pro-am.php:311
 msgid ""
 "The subscription for %s has been suspended. You can reactivate the "
-"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
-"a>."
-msgstr ""
-"Abonnementet på %s er suspenderet. Du kan reaktivere dit abonnement fra din "
-"konto <a href=\"%s\" target=\"_blank\">side</a>."
+"subscription from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr "Abonnementet på %s er suspenderet. Du kan reaktivere dit abonnement fra din konto <a href=\"%s\" target=\"_blank\">side</a>."
 
 #: includes/admin/class-wc-pos-pro-am.php:312
 msgid ""
-"The subscription for %s is still pending. You can check on the status of the "
-"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
-"a>."
-msgstr ""
-"Abonnementet på %s afventer godkendelse. Du kan kontrollere statusen fra din "
-"konto <a href=\"%s\" target=\"_blank\">side</a>."
+"The subscription for %s is still pending. You can check on the status of the"
+" subscription from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr "Abonnementet på %s afventer godkendelse. Du kan kontrollere statusen fra din konto <a href=\"%s\" target=\"_blank\">side</a>."
 
 #: includes/admin/class-wc-pos-pro-am.php:313
 msgid ""
 "The subscription for %s has been placed in the trash and will be deleted "
 "soon. You can purchase a new subscription from your account <a href=\"%s\" "
 "target=\"_blank\">dashboard</a>."
-msgstr ""
-"Abonnementet på %s er blevet lagt i papirkurven og vil snart blive slettet. "
-"Du kan købe et nyt abonnement fra din konto <a href=\"%s\" target=\"_blank"
-"\">side</a>."
+msgstr "Abonnementet på %s er blevet lagt i papirkurven og vil snart blive slettet. Du kan købe et nyt abonnement fra din konto <a href=\"%s\" target=\"_blank\">side</a>."
 
 #: includes/admin/class-wc-pos-pro-am.php:314
 msgid ""
 "A subscription for %s could not be found. You can purchase a subscription "
 "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
-msgstr ""
-"Et abonnementet på %s kunne ikke findes. Du kan købe et abonnementet fra din "
-"konto <a href=\"%s\" target=\"_blank\">side</a>."
+msgstr "Et abonnementet på %s kunne ikke findes. Du kan købe et abonnementet fra din konto <a href=\"%s\" target=\"_blank\">side</a>."
 
 #: includes/admin/class-wc-pos-pro-am.php:315
 msgid ""
-"%s has not been activated. Go to the settings page and enter the license key "
-"and license email to activate %s."
-msgstr ""
-"%s er ikke blevet aktiveret. Gå til indstillingssiden og indtast licensnøgle "
-"og licens e-mail for at aktivere %s."
+"%s has not been activated. Go to the settings page and enter the license key"
+" and license email to activate %s."
+msgstr "%s er ikke blevet aktiveret. Gå til indstillingssiden og indtast licensnøgle og licens e-mail for at aktivere %s."
 
 #: includes/admin/class-wc-pos-pro-am.php:316
 msgid ""
-"Download permission for %s has been revoked possibly due to a license key or "
-"subscription expiring. You can reactivate or purchase a license key from "
+"Download permission for %s has been revoked possibly due to a license key or"
+" subscription expiring. You can reactivate or purchase a license key from "
 "your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
-msgstr ""
-"Download adgang til %s er blevet inddraget, da licensen er udløbet. Du kan "
-"reaktivere eller købe et nyt abonnement fra din konto <a href=\"%s\" target="
-"\"_blank\">side</a>."
+msgstr "Download adgang til %s er blevet inddraget, da licensen er udløbet. Du kan reaktivere eller købe et nyt abonnement fra din konto <a href=\"%s\" target=\"_blank\">side</a>."
 
 #: includes/admin/class-wc-pos-pro-am.php:317
 msgid ""
 "You changed the subscription for %s, so you will need to enter your new API "
 "License Key in the settings page. The License Key should have arrived in "
-"your email inbox, if not you can get it by logging into your account <a href="
-"\"%s\" target=\"_blank\">dashboard</a>."
-msgstr ""
-"Du ændrede abonnementet for %s, så du bliver nød til at indtaste en ny API "
-"licensnøgle på indstillingssiden. Licensnøglen burde være landet i din "
-"indbakke. Hvis ikke den er kommet, så kan du få den ved at logge ind på din "
-"konto <a href=\"%s\" target=\"_blank\">side</a>."
+"your email inbox, if not you can get it by logging into your account <a "
+"href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Du ændrede abonnementet for %s, så du bliver nød til at indtaste en ny API licensnøgle på indstillingssiden. Licensnøglen burde være landet i din indbakke. Hvis ikke den er kommet, så kan du få den ved at logge ind på din konto <a href=\"%s\" target=\"_blank\">side</a>."
 
 #: includes/admin/class-wc-pos-pro-reports.php:27
 #: includes/admin/reports/views/sales-table.php:12
@@ -264,9 +229,7 @@ msgstr "Vælg butikslogo"
 msgid ""
 "Please <a href=\"%s\">read the docs</a> for information on how to customize "
 "your POS receipts."
-msgstr ""
-"<a href=\"%s\">Læs venligst dokumentationen</a> for information om hvordan "
-"du tilpasser din POS kvittering."
+msgstr "<a href=\"%s\">Læs venligst dokumentationen</a> for information om hvordan du tilpasser din POS kvittering."
 
 #: includes/admin/reports/class-wc-pos-pro-sales.php:166
 #: includes/admin/reports/class-wc-pos-pro-sales.php:169
@@ -350,7 +313,7 @@ msgstr "Pro licens"
 
 #: includes/admin/settings/views/customers.php:7
 msgid "Customer Options"
-msgstr ""
+msgstr "Kunde indstillinger"
 
 #: includes/admin/settings/views/license.php:7
 msgid "Pro License Activation"
@@ -386,11 +349,9 @@ msgstr "fx.: Lukket ved fridage"
 
 #: includes/admin/views/stores/opening-hours.php:27
 msgid ""
-"You can add opening hours to your website using a widget. <a href=\"%s"
-"\">Read the docs</a> for more information."
-msgstr ""
-"Du kan tilføje åbningstider til dit site ved at bruge en widget. <a href=\"%s"
-"\">Læs dokumentationen</a> for mere information."
+"You can add opening hours to your website using a widget. <a "
+"href=\"%s\">Read the docs</a> for more information."
+msgstr "Du kan tilføje åbningstider til dit site ved at bruge en widget. <a href=\"%s\">Læs dokumentationen</a> for mere information."
 
 #: includes/admin/views/stores/receipt-options.php:9
 msgid "Complimentary Close"
@@ -400,9 +361,7 @@ msgstr "Gratis lukning"
 msgid ""
 "Personal notes or season greetings, e.g. Thank You for Your Order! or Merry "
 "Christmas!"
-msgstr ""
-"Personlige beskeder eller sæsonbetingede hilsner fx. Tak for din ordre og "
-"god jul!"
+msgstr "Personlige beskeder eller sæsonbetingede hilsner fx. Tak for din ordre og god jul!"
 
 #: includes/admin/views/stores/receipt-options.php:13
 msgid "Returns Policy"
@@ -438,16 +397,12 @@ msgstr "Ingen momssats valgt"
 
 #: includes/admin/views/stores/tax-rate.php:43
 msgid ""
-"The tax rates above will be used at the point of sale. You can <a href=\"%s"
-"\">change the tax rate</a> in WooCommerce settings."
-msgstr ""
-"Momssatsen ovenfor vil blive brugt i POS. Du kan <a href=\"%s\">ændre "
-"momssatsen</a> i WooCommerce indstillinger."
+"The tax rates above will be used at the point of sale. You can <a "
+"href=\"%s\">change the tax rate</a> in WooCommerce settings."
+msgstr "Momssatsen ovenfor vil blive brugt i POS. Du kan <a href=\"%s\">ændre momssatsen</a> i WooCommerce indstillinger."
 
 #: includes/class-wc-pos-pro-activator.php:151
 msgid ""
 "<strong>WooCommerce POS Pro</strong> requires <a href=\"%s\">WooCommerce "
 "POS</a>. Please <a href=\"%s\">install and activate WooCommerce POS</a>"
-msgstr ""
-"<strong>WooCommerce POS Pro</strong> kræver <a href=\"%s\">WooCommerce POS</"
-"a>. <a href=\"%s\">Installer og aktiver venligst WooCommerce POS</a>"
+msgstr "<strong>WooCommerce POS Pro</strong> kræver <a href=\"%s\">WooCommerce POS</a>. <a href=\"%s\">Installer og aktiver venligst WooCommerce POS</a>"

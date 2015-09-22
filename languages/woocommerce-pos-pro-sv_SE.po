@@ -5,19 +5,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
-"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
-"Packs/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
 "POT-Creation-Date: 2015-08-24 09:12:35+00:00\n"
-"PO-Revision-Date: 2015-07-15 16:19+0000\n"
+"PO-Revision-Date: 2015-09-22 06:04+0000\n"
 "Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
-"Language-Team: Swedish (Sweden) (http://www.transifex.com/p/woocommerce-pos/"
-"language/sv_SE/)\n"
-"Language: sv_SE\n"
+"Language-Team: Swedish (Sweden) (http://www.transifex.com/kilbot/woocommerce-pos/language/sv_SE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: sv_SE\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: grunt-wp-i18n 0.5.2\n"
+"X-Generator: grunt-wp-i18n 0.5.3\n"
 
 #: includes/class-wc-pos-pro-stores.php:43
 #: includes/class-wc-pos-pro-stores.php:45
@@ -96,7 +94,7 @@ msgstr "Order Datum"
 
 #: includes/views/print/receipt.php:175
 msgid "Cashier"
-msgstr ""
+msgstr "Kassören"
 
 #: includes/views/print/receipt.php:180
 msgid "Payment Method"
@@ -108,7 +106,7 @@ msgstr "Kundvagn Delsumma"
 
 #: includes/views/print/receipt.php:290
 msgid "Amount Tendered"
-msgstr ""
+msgstr "Summa betald"
 
 #: includes/views/products.php:88
 msgid "On Sale?"
@@ -128,12 +126,9 @@ msgstr "Inga butiker. <a href=\"%s\">Skapa en ny butik</a> ."
 
 #. Description of the plugin/theme
 msgid ""
-"WooCommerce POS Pro adds extra functionality to the free plugin. Requires <a "
-"href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce POS</a>."
-msgstr ""
-"WooCommerce POS Pro ger extra funktionalitet till gratis tilläggsprogram. "
-"Kräver <a href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce "
-"POS</a> ."
+"WooCommerce POS Pro adds extra functionality to the free plugin. Requires <a"
+" href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce POS</a>."
+msgstr "WooCommerce POS Pro ger extra funktionalitet till gratis tilläggsprogram. Kräver <a href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce POS</a> ."
 
 #: includes/views/print/receipt.php:200
 msgctxt "Abbreviation of Quantity"
@@ -148,10 +143,4 @@ msgstr "inklusive"
 #: includes/views/print/receipt.php:294
 msgctxt "Money returned from cash sale"
 msgid "Change"
-msgstr ""
-
-#~ msgid "Activate"
-#~ msgstr "Aktivera"
-
-#~ msgid "Deactivate"
-#~ msgstr "Inaktivera"
+msgstr "Ändra"

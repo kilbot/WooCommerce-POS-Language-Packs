@@ -5,15 +5,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
-"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
+"Packs/issues\n"
 "POT-Creation-Date: 2015-08-24 09:12:46+00:00\n"
 "PO-Revision-Date: 2015-09-25 17:21+0000\n"
 "Last-Translator: Tran Ngoc Thanh Tung <thomastrant@gmail.com>\n"
-"Language-Team: Vietnamese (http://www.transifex.com/kilbot/woocommerce-pos/language/vi/)\n"
+"Language-Team: Vietnamese (http://www.transifex.com/kilbot/woocommerce-pos/"
+"language/vi/)\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: grunt-wp-i18n 0.5.3\n"
 
@@ -143,9 +145,11 @@ msgstr "Truy cập vào các API REST là bắt buộc"
 
 #: includes/class-wc-pos-status.php:149
 msgid ""
-"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to"
-" work correctly"
-msgstr "<strong>WooCommerce REST API</strong> đòi hỏi permalinks <em>đúng</em> để làm việc một cách chính xác"
+"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to "
+"work correctly"
+msgstr ""
+"<strong>WooCommerce REST API</strong> đòi hỏi permalinks <em>đúng</em> để "
+"làm việc một cách chính xác"
 
 #: includes/class-wc-pos-status.php:153
 msgid "Enable permalinks"
@@ -179,20 +183,25 @@ msgstr "Số tiền nhận được"
 
 #: includes/views/modals/browser.php:2
 msgid "Sorry, it seems your browser is not supported by WooCommerce POS. "
-msgstr "Xin lỗi, có vẻ như trình duyệt của bạn không được hỗ trợ bởi WooCommerce POS."
+msgstr ""
+"Xin lỗi, có vẻ như trình duyệt của bạn không được hỗ trợ bởi WooCommerce POS."
 
 #: includes/views/modals/browser.php:3
 msgid ""
-"If possible, please <a href=\"http://browsehappy.com/\">update your "
-"browser</a>, we recommend either Chrome or Firefox."
-msgstr "Nếu có thể, xin vui lòng <a href=\"http://browsehappy.com/\">cập nhật trình duyệt của bạn,</a> chúng tôi khuyên bạn nên hoặc Chrome hoặc Firefox."
+"If possible, please <a href=\"http://browsehappy.com/\">update your browser</"
+"a>, we recommend either Chrome or Firefox."
+msgstr ""
+"Nếu có thể, xin vui lòng <a href=\"http://browsehappy.com/\">cập nhật trình "
+"duyệt của bạn,</a> chúng tôi khuyên bạn nên hoặc Chrome hoặc Firefox."
 
 #: includes/views/modals/browser.php:7
 msgid ""
 "If you believe you have received this message in error please contact "
-"support via <a "
-"href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
-msgstr "Nếu bạn tin rằng bạn đã nhận được thông báo này do lỗi, hãy liên hệ với hỗ trợ qua <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
+"support via <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</"
+"a>"
+msgstr ""
+"Nếu bạn tin rằng bạn đã nhận được thông báo này do lỗi, hãy liên hệ với hỗ "
+"trợ qua <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
 
 #: includes/views/pos/checkout.php:26
 msgid "No payment gateways enabled."
@@ -249,9 +258,11 @@ msgstr "Điểm bán hàng POS"
 #. Description of the plugin/theme
 msgid ""
 "A simple front-end for taking WooCommerce orders at the Point of Sale. "
-"Requires <a "
-"href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a>."
-msgstr "Một front-end đơn giản cho nhận đơn đặt hàng của WooCommerce tại POS. Yêu cầu <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce.</a>"
+"Requires <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</"
+"a>."
+msgstr ""
+"Một front-end đơn giản cho nhận đơn đặt hàng của WooCommerce tại POS. Yêu "
+"cầu <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce.</a>"
 
 #: includes/class-wc-pos-i18n.php:298
 msgctxt "system status: browser capabilities"

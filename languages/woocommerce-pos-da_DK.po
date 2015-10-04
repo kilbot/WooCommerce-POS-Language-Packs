@@ -6,17 +6,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
-"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
-"Packs/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
 "POT-Creation-Date: 2015-08-24 09:12:46+00:00\n"
-"PO-Revision-Date: 2015-09-22 06:01+0000\n"
-"Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
-"Language-Team: Danish (Denmark) (http://www.transifex.com/kilbot/woocommerce-"
-"pos/language/da_DK/)\n"
-"Language: da_DK\n"
+"PO-Revision-Date: 2015-10-04 18:16+0000\n"
+"Last-Translator: tntc1978 <tntc1978@gmail.com>\n"
+"Language-Team: Danish (Denmark) (http://www.transifex.com/kilbot/woocommerce-pos/language/da_DK/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: da_DK\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: grunt-wp-i18n 0.5.3\n"
 
@@ -30,8 +28,7 @@ msgstr "Du bliver nu stillet videre for at gennemføre betalingen."
 
 #: includes/api/class-wc-pos-orders.php:503
 msgid "<a href=\"%s\">Click here</a> if you are not redirected automatically. "
-msgstr ""
-"<a href=\"%s\">Tryk her</a> hvis du ikke automatisk bliver viderestillet. "
+msgstr "<a href=\"%s\">Tryk her</a> hvis du ikke automatisk bliver viderestillet. "
 
 #: includes/api/class-wc-pos-orders.php:517
 msgid "POS Transaction completed."
@@ -131,7 +128,7 @@ msgstr "WooCommerce >= %s krævet"
 
 #: includes/class-wc-pos-status.php:70
 msgid "PHP >= %s required"
-msgstr "PHP> =% s påkrævet"
+msgstr "PHP >= %s krævet"
 
 #: includes/class-wc-pos-status.php:91
 msgid "WC REST API"
@@ -147,11 +144,9 @@ msgstr "Adgang til REST API er krævet"
 
 #: includes/class-wc-pos-status.php:149
 msgid ""
-"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to "
-"work correctly"
-msgstr ""
-"<strong>WooCommerce REST API</strong> kræver <em>pæne</em> URL'er for at "
-"fungere ordentligt"
+"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to"
+" work correctly"
+msgstr "<strong>WooCommerce REST API</strong> kræver <em>pæne</em> URL'er for at fungere ordentligt"
 
 #: includes/class-wc-pos-status.php:153
 msgid "Enable permalinks"
@@ -185,27 +180,20 @@ msgstr "Beløb betalt"
 
 #: includes/views/modals/browser.php:2
 msgid "Sorry, it seems your browser is not supported by WooCommerce POS. "
-msgstr ""
-"Beklager, men det ser ud til, at din browser ikke er understøttet af "
-"WooCommerce POS."
+msgstr "Beklager, men det ser ud til, at din browser ikke er understøttet af WooCommerce POS."
 
 #: includes/views/modals/browser.php:3
 msgid ""
-"If possible, please <a href=\"http://browsehappy.com/\">update your browser</"
-"a>, we recommend either Chrome or Firefox."
-msgstr ""
-"Hvis det er muligt, så <a href=\"http://browsehappy.com/\">opdater venligst "
-"din browser</a>, vi anbeflaer enten Chrome eller Firefox."
+"If possible, please <a href=\"http://browsehappy.com/\">update your "
+"browser</a>, we recommend either Chrome or Firefox."
+msgstr "Hvis det er muligt, så <a href=\"http://browsehappy.com/\">opdater venligst din browser</a>, vi anbeflaer enten Chrome eller Firefox."
 
 #: includes/views/modals/browser.php:7
 msgid ""
 "If you believe you have received this message in error please contact "
-"support via <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</"
-"a>"
-msgstr ""
-"Hvis du mener du modtog denne besked som en fejl, så kontakt venligst "
-"supporten på <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</"
-"a>"
+"support via <a "
+"href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
+msgstr "Hvis du mener du modtog denne besked som en fejl, så kontakt venligst supporten på <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
 
 #: includes/views/pos/checkout.php:26
 msgid "No payment gateways enabled."
@@ -262,11 +250,9 @@ msgstr "Nærsalg"
 #. Description of the plugin/theme
 msgid ""
 "A simple front-end for taking WooCommerce orders at the Point of Sale. "
-"Requires <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</"
-"a>."
-msgstr ""
-"En simpel front-end til at tage imod WooCommerce ordrer som nærsalg. Kræver "
-"<a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a>."
+"Requires <a "
+"href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a>."
+msgstr "En simpel front-end til at tage imod WooCommerce ordrer som nærsalg. Kræver <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a>."
 
 #: includes/class-wc-pos-i18n.php:298
 msgctxt "system status: browser capabilities"

@@ -1,65 +1,67 @@
 # Copyright (C) 2015 kilbot
 # This file is distributed under the Copyright 2015 The Kilbot Factory.
+# Translators:
+# Dorian PIERRE <dody56@gmail.com>, 2015
+# Steven Roh <stivikipirdi@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce POS Pro 0.4.3\n"
-"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
-"Packs/issues\n"
+"Project-Id-Version: WooCommerce POS\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
 "POT-Creation-Date: 2015-08-24 09:12:35+00:00\n"
+"PO-Revision-Date: 2015-10-26 17:07+0000\n"
+"Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
+"Language-Team: French (Canada) (http://www.transifex.com/kilbot/woocommerce-pos/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2015-08-24 09:12:35+00:00\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"X-Generator: grunt-wp-i18n 0.5.3\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: grunt-wp-i18n 0.5.3\n"
 
 #: includes/class-wc-pos-pro-stores.php:43
 #: includes/class-wc-pos-pro-stores.php:45
 #: includes/class-wc-pos-pro-stores.php:51
 msgid "Stores"
-msgstr ""
+msgstr "Boutiques"
 
 #: includes/class-wc-pos-pro-stores.php:44
 #: includes/class-wc-pos-pro-stores.php:88
 #: includes/widgets/class-wc-pos-pro-hours.php:82
 msgid "Store"
-msgstr ""
+msgstr "Boutique"
 
 #: includes/class-wc-pos-pro-stores.php:46
 #: includes/class-wc-pos-pro-stores.php:47
 msgid "Add New Store"
-msgstr ""
+msgstr "Ajouter une nouvelle boutique"
 
 #: includes/class-wc-pos-pro-stores.php:48
 msgid "New Store"
-msgstr ""
+msgstr "Nouvelle boutique"
 
 #: includes/class-wc-pos-pro-stores.php:49
 msgid "Edit Store"
-msgstr ""
+msgstr "Editer la boutique"
 
 #: includes/class-wc-pos-pro-stores.php:50
 msgid "View Store"
-msgstr ""
+msgstr "Afficher la boutique"
 
 #: includes/class-wc-pos-pro-stores.php:52
 msgid "Search Stores"
-msgstr ""
+msgstr "Rechercher boutique"
 
 #: includes/class-wc-pos-pro-stores.php:53
 msgid "Parent Store:"
-msgstr ""
+msgstr "Boutique parente:"
 
 #: includes/class-wc-pos-pro-stores.php:54
 msgid "No Stores found."
-msgstr ""
+msgstr "Pas de boutiques trouvées."
 
 #: includes/class-wc-pos-pro-stores.php:55
 msgid "No Stores found in Trash."
-msgstr ""
+msgstr "Pas de boutiques trouvées dans la corbeille"
 
 #. translators: woocommerce
 #. translators: wordpress
@@ -69,77 +71,77 @@ msgstr ""
 #: includes/class-wc-pos-pro-template.php:103 includes/views/customers.php:14
 #: includes/views/customers.php:74 includes/views/print/receipt.php:185
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: includes/views/customers.php:25 includes/views/customers.php:62
 msgid "Add New Customer"
-msgstr ""
+msgstr "Ajouter un nouveau client"
 
 #: includes/views/customers.php:62
 msgid "Edit Customer"
-msgstr ""
+msgstr "Editer le client"
 
 #: includes/views/pos.php:13
 msgid "Add Customer"
-msgstr ""
+msgstr "Ajouter un client"
 
 #: includes/views/print/receipt.php:4
 msgid "Receipt"
-msgstr ""
+msgstr "Reçu "
 
 #: includes/views/print/receipt.php:170
 msgid "Order Date"
-msgstr ""
+msgstr "Date Cmd"
 
 #: includes/views/print/receipt.php:175
 msgid "Cashier"
-msgstr ""
+msgstr "Caissier"
 
 #: includes/views/print/receipt.php:180
 msgid "Payment Method"
-msgstr ""
+msgstr "Méthodes de paiement"
 
 #: includes/views/print/receipt.php:232
 msgid "Cart Subtotal"
-msgstr ""
+msgstr "Total panier"
 
 #: includes/views/print/receipt.php:290
 msgid "Amount Tendered"
-msgstr ""
+msgstr "Montant reçu / remis par le client"
 
 #: includes/views/products.php:88
 msgid "On Sale?"
-msgstr ""
+msgstr "En promotion?"
 
 #: includes/widgets/class-wc-pos-pro-hours.php:17
 msgid "Store Opening Hours"
-msgstr ""
+msgstr "Heures d'ouverture de la boutique"
 
 #: includes/widgets/class-wc-pos-pro-hours.php:18
 msgid "Display store hours set in WooCommerce POS"
-msgstr ""
+msgstr "Afficher les heures d'ouverture configurées dans le point de vente WooCommerce"
 
 #: includes/widgets/class-wc-pos-pro-hours.php:88
 msgid "No stores. <a href=\"%s\">Create a new store</a>."
-msgstr ""
+msgstr "Aucune boutique. <a href=\"%s\">Créer une nouvelle boutique</a> ."
 
 #. Description of the plugin/theme
 msgid ""
-"WooCommerce POS Pro adds extra functionality to the free plugin. Requires <a "
-"href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce POS</a>."
-msgstr ""
+"WooCommerce POS Pro adds extra functionality to the free plugin. Requires <a"
+" href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce POS</a>."
+msgstr "WooCommerce point de vente Pro ajoute des fonctionnalités supplémentaires au plugin gratuit. Il nécessite <a href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce POS</a> ."
 
 #: includes/views/print/receipt.php:200
 msgctxt "Abbreviation of Quantity"
 msgid "Qty"
-msgstr ""
+msgstr "Qté"
 
 #: includes/views/print/receipt.php:259 includes/views/print/receipt.php:269
 msgctxt "abbreviation for includes (tax)"
 msgid "incl."
-msgstr ""
+msgstr "incl."
 
 #: includes/views/print/receipt.php:294
 msgctxt "Money returned from cash sale"
 msgid "Change"
-msgstr ""
+msgstr "Rendu"

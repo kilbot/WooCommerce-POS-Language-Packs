@@ -23,6 +23,7 @@ module.exports = function(grunt) {
     'nb_NO',
     'nl_BE',
     'nl_NL',
+    'pl_PL',
     'pt_BR',
     'pt_PT',
     'ro_RO',

@@ -1,84 +1,87 @@
 # Copyright (C) 2015 kilbot
 # This file is distributed under the GPL-2.0+.
+# Translators:
+# Dorian PIERRE <dody56@gmail.com>, 2015
+# Paul Kilmurray <paul@kilbot.com.au>, 2015
+# Steven Roh <stivikipirdi@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce POS 0.4.2\n"
-"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
-"Packs/issues\n"
+"Project-Id-Version: WooCommerce POS\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
 "POT-Creation-Date: 2015-08-24 09:12:46+00:00\n"
-"PO-Revision-Date: 2015-08-24 09:12:46+00:00\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: fr_CA\n"
+"PO-Revision-Date: 2015-10-26 17:06+0000\n"
+"Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
+"Language-Team: French (Canada) (http://www.transifex.com/kilbot/woocommerce-pos/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: grunt-wp-i18n 0.5.3\n"
+"Language: fr_CA\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: grunt-wp-i18n 0.5.3\n"
 
 #: includes/api/class-wc-pos-orders.php:476
 msgid "There was an error processing the payment"
-msgstr ""
+msgstr "Il y a eu un problème au cours de la procédure de paiement."
 
 #: includes/api/class-wc-pos-orders.php:502
 msgid "You are now being redirected offsite to complete the payment. "
-msgstr ""
+msgstr "Vous êtes maintenant redirigés en dehors du site pour effectuer le paiement."
 
 #: includes/api/class-wc-pos-orders.php:503
 msgid "<a href=\"%s\">Click here</a> if you are not redirected automatically. "
-msgstr ""
+msgstr "<a href=\"%s\">Cliquez ici</a> si vous n'êtes pas redirigés automatiquement."
 
 #: includes/api/class-wc-pos-orders.php:517
 msgid "POS Transaction completed."
-msgstr ""
+msgstr "Transaction point de vente terminée."
 
 #: includes/class-wc-pos-ajax.php:107
 msgid "There is no settings id"
-msgstr ""
+msgstr "Il n'y a pas les paramètres id"
 
 #: includes/class-wc-pos-ajax.php:125
 msgid "No handler found for %s settings"
-msgstr ""
+msgstr "Aucun gestionnaire trouvé pour les paramètres de %s"
 
 #: includes/class-wc-pos-ajax.php:156
 msgid "Settings error"
-msgstr ""
+msgstr "Erreur de paramétrage"
 
 #: includes/class-wc-pos-ajax.php:175 includes/class-wc-pos-ajax.php:199
 msgid "Email sent"
-msgstr ""
+msgstr "Email envoyé"
 
 #: includes/class-wc-pos-ajax.php:183 includes/class-wc-pos-ajax.php:204
 msgid "There was an error sending the email"
-msgstr ""
+msgstr "Il y a eu un problème lors de l'envoi du email"
 
 #: includes/class-wc-pos-ajax.php:237
 msgid "Invalid security nonce"
-msgstr ""
+msgstr "Nonce de sécurité invalide"
 
 #: includes/class-wc-pos-api.php:49
 msgid "User not authorized to access WooCommerce POS"
-msgstr ""
+msgstr "L'utilisateur n'est pas autorisé à accéder au point de vente WooCommerce"
 
 #: includes/class-wc-pos-i18n.php:310
 msgid "To Pay"
-msgstr ""
+msgstr "A régler"
 
 #: includes/class-wc-pos-i18n.php:311
 msgid "Paid"
-msgstr ""
+msgstr "Réglé"
 
 #: includes/class-wc-pos-i18n.php:312
 msgid "Unpaid"
-msgstr ""
+msgstr "Impayé"
 
 #: includes/class-wc-pos-i18n.php:313
 msgid "Email Receipt"
-msgstr ""
+msgstr "Envoyer le reçu par email"
 
 #: includes/class-wc-pos-i18n.php:317
 msgid "Local Storage"
-msgstr ""
+msgstr "Stockage local"
 
 #. translators: wordpress
 #. translators: woocommerce
@@ -86,233 +89,233 @@ msgstr ""
 #: includes/class-wc-pos-i18n.php:325 includes/views/print/receipt.php:142
 #: includes/views/support.php:23
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: includes/class-wc-pos-i18n.php:330
 msgid "Process Payment"
-msgstr ""
+msgstr "Procéder au paiement"
 
 #: includes/class-wc-pos-i18n.php:334
 msgid "Return to Sale"
-msgstr ""
+msgstr "Retourner à la vente"
 
 #: includes/class-wc-pos-i18n.php:336
 msgid "Send"
-msgstr ""
+msgstr "Envoyer"
 
 #: includes/class-wc-pos-i18n.php:338
 msgid "Void"
-msgstr ""
+msgstr "Annuler"
 
 #: includes/class-wc-pos-i18n.php:341
 msgid "Enable legacy server support"
-msgstr ""
+msgstr "Activer le support des serveurs hérités"
 
 #: includes/class-wc-pos-i18n.php:348
 msgid "Your browser is not supported!"
-msgstr ""
+msgstr "Votre navigateur n'est pas supporté !"
 
 #: includes/class-wc-pos-i18n.php:349
 msgid "Unable to use RESTful HTTP methods"
-msgstr ""
+msgstr "Interdire l'usage des requêtes HTTP RESTfull"
 
 #: includes/class-wc-pos-status.php:31
 msgid "WC Version"
-msgstr ""
+msgstr "Version de WC"
 
 #: includes/class-wc-pos-status.php:38
 msgid "WooCommerce >= %s required"
-msgstr ""
+msgstr "WooCommerce >= %s est requis"
 
 #: includes/class-wc-pos-status.php:70
 msgid "PHP >= %s required"
-msgstr ""
+msgstr "PHP >= %s requis"
 
 #: includes/class-wc-pos-status.php:91
 msgid "WC REST API"
-msgstr ""
+msgstr "WC REST API"
 
 #: includes/class-wc-pos-status.php:92
 msgid "API is active"
-msgstr ""
+msgstr "API actif"
 
 #: includes/class-wc-pos-status.php:129
 msgid "Access to the REST API is required"
-msgstr ""
+msgstr "L'accès à l'API REST est nécessaire"
 
 #: includes/class-wc-pos-status.php:149
 msgid ""
-"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to "
-"work correctly"
-msgstr ""
+"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to"
+" work correctly"
+msgstr "L'<strong>API WooCommerce REST</strong> nécessite de <em>jolies</em> permaliens pour fonctionner correctement"
 
 #: includes/class-wc-pos-status.php:153
 msgid "Enable permalinks"
-msgstr ""
+msgstr "Activer les permaliens"
 
 #: includes/class-wc-pos-template.php:144
 msgid "POS"
-msgstr ""
+msgstr "POS"
 
 #: includes/gateways/class-wc-pos-card.php:20
 msgid "Card"
-msgstr ""
+msgstr "Carte"
 
 #: includes/gateways/class-wc-pos-card.php:52
 #: includes/gateways/class-wc-pos-card.php:55
 #: includes/gateways/class-wc-pos-card.php:82
 #: includes/gateways/class-wc-pos-card.php:116
 msgid "Cashback"
-msgstr ""
+msgstr "Cashback"
 
 #: includes/gateways/class-wc-pos-cash.php:20
 msgid "Cash"
-msgstr ""
+msgstr "Espèces"
 
 #: includes/gateways/class-wc-pos-cash.php:52
 #: includes/gateways/class-wc-pos-cash.php:55
 #: includes/gateways/class-wc-pos-cash.php:90
 #: includes/views/print/receipt.php:247
 msgid "Amount Tendered"
-msgstr ""
+msgstr "Montant reçu / remis par le client"
 
 #: includes/views/modals/browser.php:2
 msgid "Sorry, it seems your browser is not supported by WooCommerce POS. "
-msgstr ""
+msgstr "Désolé, il semble que votre navigateur ne soit pas supporté par le point de vente WooCommerce."
 
 #: includes/views/modals/browser.php:3
 msgid ""
-"If possible, please <a href=\"http://browsehappy.com/\">update your browser</"
-"a>, we recommend either Chrome or Firefox."
-msgstr ""
+"If possible, please <a href=\"http://browsehappy.com/\">update your "
+"browser</a>, we recommend either Chrome or Firefox."
+msgstr "Si possible, merci de <a href=\"http://browsehappy.com/\">mettre à jour votre navigateur</a>, nous vous recommandons d'utiliser Chrome ou Firefox."
 
 #: includes/views/modals/browser.php:7
 msgid ""
 "If you believe you have received this message in error please contact "
-"support via <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</"
-"a>"
-msgstr ""
+"support via <a "
+"href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
+msgstr "Si vous pensez avoir reçu ce message par erreur, veuillez svp contacter le support via <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
 
 #: includes/views/pos/checkout.php:26
 msgid "No payment gateways enabled."
-msgstr ""
+msgstr "Il n'y a pas de méthode de paiement activée."
 
 #: includes/views/pos/products.php:13
 msgid "Scan Barcode"
-msgstr ""
+msgstr "Scanner le Code Barre"
 
 #: includes/views/pos/products.php:79
 msgid "Showing %s of %s"
-msgstr ""
+msgstr "Affichage de %s sur %s"
 
 #: includes/views/pos/products.php:80
 msgid "%s in queue"
-msgstr ""
+msgstr "%s en attente"
 
 #: includes/views/print/receipt.php:115
 msgid "Billing Address"
-msgstr ""
+msgstr "Adresse de facturation"
 
 #: includes/views/print/receipt.php:118
 msgid "Shipping Address"
-msgstr ""
+msgstr "Adresse de livraison"
 
 #: includes/views/print/receipt.php:127
 msgid "Order Date"
-msgstr ""
+msgstr "Date Cmd"
 
 #: includes/views/print/receipt.php:132
 msgid "Cashier"
-msgstr ""
+msgstr "Caissier"
 
 #: includes/views/print/receipt.php:137
 msgid "Payment Method"
-msgstr ""
+msgstr "Méthode de paiement"
 
 #: includes/views/support.php:11
 msgid "Support Form"
-msgstr ""
+msgstr "Formulaire de support"
 
 #: includes/views/support.php:28
 msgid "Describe your problem here ..."
-msgstr ""
+msgstr "Décrivez votre problème ici ..."
 
 #: includes/views/support.php:32
 msgid "Append POS system report"
-msgstr ""
+msgstr "Ajouter un rapport système POS"
 
 #: includes/views/template.php:12
 msgid "Point of Sale"
-msgstr ""
+msgstr "Point de Vente"
 
 #. Description of the plugin/theme
 msgid ""
 "A simple front-end for taking WooCommerce orders at the Point of Sale. "
-"Requires <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</"
-"a>."
-msgstr ""
+"Requires <a "
+"href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a>."
+msgstr "Un front-office simple pour prendre les commandes WooCommerce sur le Point de vente / en magasin. Nécessite <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a>."
 
 #: includes/class-wc-pos-i18n.php:298
 msgctxt "system status: browser capabilities"
 msgid "Browser"
-msgstr ""
+msgstr "Navigateur internet"
 
 #: includes/class-wc-pos-i18n.php:304
 msgctxt "keyboard shortcuts"
 msgid "HotKeys"
-msgstr ""
+msgstr "Raccourcis clavier"
 
 #: includes/views/help.php:7
 msgctxt "keyboard shortcuts"
 msgid "Hotkeys"
-msgstr ""
+msgstr "Raccourcis clavier"
 
 #: includes/class-wc-pos-i18n.php:314
 msgctxt "order status, ie: open order in cart"
 msgid "Open"
-msgstr ""
+msgstr "Ouvrir"
 
 #: includes/class-wc-pos-i18n.php:315
 #: includes/gateways/class-wc-pos-cash.php:92
 #: includes/views/print/receipt.php:251
 msgctxt "Money returned from cash sale"
 msgid "Change"
-msgstr ""
+msgstr "Rendu"
 
 #: includes/class-wc-pos-i18n.php:321
 msgctxt "system status: delete local records"
 msgid "Clear"
-msgstr ""
+msgstr "Supprimer"
 
 #: includes/class-wc-pos-i18n.php:332
 msgctxt "restore default settings"
 msgid "Restore defaults"
-msgstr ""
+msgstr "Restaurer les paramètres par défaut"
 
 #: includes/class-wc-pos-i18n.php:333
 msgctxt "Numpad return key"
 msgid "return"
-msgstr ""
+msgstr "Retour"
 
 #: includes/class-wc-pos-i18n.php:352
 msgctxt "eg: 23 records"
 msgid "record |||| records"
-msgstr ""
+msgstr "enregistrement |||| enregistrements"
 
 #: includes/class-wc-pos-params.php:76
 msgctxt "Product tab: 'On Sale' products"
 msgid "On Sale"
-msgstr ""
+msgstr "En vente"
 
 #: includes/views/pos/cart.php:9 includes/views/pos/receipt.php:10
 #: includes/views/print/receipt.php:157
 msgctxt "Abbreviation of Quantity"
 msgid "Qty"
-msgstr ""
+msgstr "Qté"
 
 #: includes/views/pos/cart.php:109 includes/views/pos/cart.php:120
 #: includes/views/pos/receipt.php:84 includes/views/pos/receipt.php:94
 #: includes/views/print/receipt.php:216 includes/views/print/receipt.php:226
 msgctxt "abbreviation for includes (tax)"
 msgid "incl."
-msgstr ""
+msgstr "incl."

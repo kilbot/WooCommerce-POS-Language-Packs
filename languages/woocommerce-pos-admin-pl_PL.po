@@ -5,16 +5,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
-"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
+"Packs/issues\n"
 "POT-Creation-Date: 2015-08-24 09:12:46+00:00\n"
 "PO-Revision-Date: 2015-10-27 17:04+0000\n"
 "Last-Translator: Krzysztof Kościelski <krzysztof@koscielski.pl>\n"
-"Language-Team: Polish (Poland) (http://www.transifex.com/kilbot/woocommerce-pos/language/pl_PL/)\n"
+"Language-Team: Polish (Poland) (http://www.transifex.com/kilbot/woocommerce-"
+"pos/language/pl_PL/)\n"
+"Language: pl_PL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: pl_PL\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
 "X-Generator: grunt-wp-i18n 0.5.3\n"
 
 #: includes/admin/class-wc-pos-gateways.php:31
@@ -78,13 +81,18 @@ msgstr "Domyślnie dostęp do POS jedynie dla Administratora i Managera sklepu."
 msgid ""
 "It is recommended that you <strong>do not change</strong> the default "
 "settings unless you are fully aware of the consequences."
-msgstr "Zalecane jest, abyś <strong>nie zmieniał</strong> domyślnych ustawień dopóki nie jest w pełni świadom konsekwencji."
+msgstr ""
+"Zalecane jest, abyś <strong>nie zmieniał</strong> domyślnych ustawień dopóki "
+"nie jest w pełni świadom konsekwencji."
 
 #: includes/admin/settings/views/access.php:12
 #: includes/admin/settings/views/checkout.php:60
 #: includes/admin/settings/views/hotkeys.php:6
-msgid "For more information please visit <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
-msgstr "Aby otrzymać więcej informacji prosimy odwiedzić <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
+msgid ""
+"For more information please visit <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
+msgstr ""
+"Aby otrzymać więcej informacji prosimy odwiedzić <a href=\"%1$s\" target="
+"\"_blank\">%1$s</a>"
 
 #: includes/admin/settings/views/checkout.php:13
 msgid "Completed Order Status"
@@ -120,23 +128,30 @@ msgstr "Automatycznie drukuj paragon po przejściu do kasy"
 
 #: includes/admin/settings/views/checkout.php:54
 msgid ""
-"Installed gateways are listed below. Drag and drop gateways to control their"
-" display order at the Point of Sale. "
-msgstr "Zainstalowane bramki znajdują się poniżej. Przeciągnij i upuść  bramki, aby ustalić ich kolejność w POS."
+"Installed gateways are listed below. Drag and drop gateways to control their "
+"display order at the Point of Sale. "
+msgstr ""
+"Zainstalowane bramki znajdują się poniżej. Przeciągnij i upuść  bramki, aby "
+"ustalić ich kolejność w POS."
 
 #: includes/admin/settings/views/checkout.php:55
 msgid ""
 "Payment Gateways enabled here will be available at the Point of Sale. "
 "Payment Gateways enabled on the settings page will be available in your "
 "Online Store. "
-msgstr "Uruchomione bramki płatności będą dostępne w POS. Bramki płatności uruchomione na stronie ustawień będą dostępne w Twoim sklepie."
+msgstr ""
+"Uruchomione bramki płatności będą dostępne w POS. Bramki płatności "
+"uruchomione na stronie ustawień będą dostępne w Twoim sklepie."
 
 #: includes/admin/settings/views/checkout.php:59
 msgid ""
 "It is your responsibility to ensure the security of your customer's "
 "information. Transmitting credit card or other sensitive information should "
 "only be done using a secure connnection."
-msgstr "Ochrona danych osobowych Twoich klientów spoczywa na Tobie. Przetwarzanie danych kart kredytowych lub innych poufnych danych powinno być dokonywane z użyciem bezpiecznego połączenia."
+msgstr ""
+"Ochrona danych osobowych Twoich klientów spoczywa na Tobie. Przetwarzanie "
+"danych kart kredytowych lub innych poufnych danych powinno być dokonywane z "
+"użyciem bezpiecznego połączenia."
 
 #: includes/admin/settings/views/checkout.php:66
 msgid "Gateway Display"
@@ -189,7 +204,8 @@ msgstr "Domyślny klient POS"
 #: includes/admin/settings/views/general.php:35
 msgid ""
 "The default customer for POS orders, eg: Guest or create a new customer."
-msgstr "Domyślny klient dla zamówień z POS, np. Gość lub stwórz nowego klienta."
+msgstr ""
+"Domyślny klient dla zamówień z POS, np. Gość lub stwórz nowego klienta."
 
 #: includes/admin/settings/views/general.php:46
 msgid "Discount Quick Keys"
@@ -207,13 +223,16 @@ msgstr "Skróty klawiszowe"
 msgid ""
 "You can trigger certain events in WooCommerce POS using keyboard shortcuts "
 "(HotKeys)."
-msgstr "Możesz uruchomić pewne zdarzenia z WooCommerce używając skrótów klawiszowych (HotKeys)."
+msgstr ""
+"Możesz uruchomić pewne zdarzenia z WooCommerce używając skrótów klawiszowych "
+"(HotKeys)."
 
 #: includes/admin/settings/views/hotkeys.php:5
 msgid ""
-"HotKeys can also be used as a prefix for your barcode scanner or card "
-"reader."
-msgstr "HotKeys mogą również zostać użyte jako prefiks dla skanera kodów kreskowych lub czytnika kart."
+"HotKeys can also be used as a prefix for your barcode scanner or card reader."
+msgstr ""
+"HotKeys mogą również zostać użyte jako prefiks dla skanera kodów kreskowych "
+"lub czytnika kart."
 
 #: includes/admin/settings/views/tools.php:33
 msgid "Receipt Template"
@@ -241,15 +260,20 @@ msgstr "Rodzaj zamówienia"
 
 #: includes/admin/views/settings.php:13
 msgid ""
-"There has been an error loading the settings, please contact <a "
-"href=\"mailto:support@woopos.com.au\">support</a>"
-msgstr "Pojawił się błąd podczas ładowania ustawień, prosimy o kontakt ze <a href=\"mailto:support@woopos.com.au\">wsparciem</a>"
+"There has been an error loading the settings, please contact <a href="
+"\"mailto:support@woopos.com.au\">support</a>"
+msgstr ""
+"Pojawił się błąd podczas ładowania ustawień, prosimy o kontakt ze <a href="
+"\"mailto:support@woopos.com.au\">wsparciem</a>"
 
 #: includes/class-wc-pos-activator.php:192
 msgid ""
 "<strong>WooCommerce POS</strong> requires <a href=\"%s\">WooCommerce</a>. "
 "Please <a href=\"%s\">install and activate WooCommerce</a>"
-msgstr "<strong>WooCommerce POS</strong> wymaga instalacji <a href=\"%s\">WooCommerce</a>. Prosimy <a href=\"%s\">zainstaluj i aktywuj wtyczkę WooCommerce</a>"
+msgstr ""
+"<strong>WooCommerce POS</strong> wymaga instalacji <a href=\"%s"
+"\">WooCommerce</a>. Prosimy <a href=\"%s\">zainstaluj i aktywuj wtyczkę "
+"WooCommerce</a>"
 
 #: includes/products/class-wc-pos-visibility.php:23
 msgid "POS & Online"

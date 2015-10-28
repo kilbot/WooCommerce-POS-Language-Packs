@@ -5,16 +5,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
-"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
+"Packs/issues\n"
 "POT-Creation-Date: 2015-08-24 09:12:46+00:00\n"
 "PO-Revision-Date: 2015-10-27 19:00+0000\n"
 "Last-Translator: Krzysztof Kościelski <krzysztof@koscielski.pl>\n"
-"Language-Team: Polish (Poland) (http://www.transifex.com/kilbot/woocommerce-pos/language/pl_PL/)\n"
+"Language-Team: Polish (Poland) (http://www.transifex.com/kilbot/woocommerce-"
+"pos/language/pl_PL/)\n"
+"Language: pl_PL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: pl_PL\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
 "X-Generator: grunt-wp-i18n 0.5.3\n"
 
 #: includes/api/class-wc-pos-orders.php:476
@@ -23,11 +26,13 @@ msgstr "Pojawił się błąd podczas procesowania płatności"
 
 #: includes/api/class-wc-pos-orders.php:502
 msgid "You are now being redirected offsite to complete the payment. "
-msgstr "Zostajesz przekierowany poza obecną stronę w celu dokończenia płatności."
+msgstr ""
+"Zostajesz przekierowany poza obecną stronę w celu dokończenia płatności."
 
 #: includes/api/class-wc-pos-orders.php:503
 msgid "<a href=\"%s\">Click here</a> if you are not redirected automatically. "
-msgstr "<a href=\"%s\">Kliknij tutaj</a> jeśli nie przekierowało Cię automatycznie."
+msgstr ""
+"<a href=\"%s\">Kliknij tutaj</a> jeśli nie przekierowało Cię automatycznie."
 
 #: includes/api/class-wc-pos-orders.php:517
 msgid "POS Transaction completed."
@@ -143,9 +148,11 @@ msgstr "Wymagany dostęp do REST API"
 
 #: includes/class-wc-pos-status.php:149
 msgid ""
-"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to"
-" work correctly"
-msgstr "<strong>WooCommerce REST API</strong> wymaga aby pretty permalinks działały poprawnie"
+"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to "
+"work correctly"
+msgstr ""
+"<strong>WooCommerce REST API</strong> wymaga aby pretty permalinks działały "
+"poprawnie"
 
 #: includes/class-wc-pos-status.php:153
 msgid "Enable permalinks"
@@ -179,20 +186,26 @@ msgstr "Oferowana kwota"
 
 #: includes/views/modals/browser.php:2
 msgid "Sorry, it seems your browser is not supported by WooCommerce POS. "
-msgstr "Przepraszamy, ale wychodzi na to, że WooCommerce POS nie wspiera Twojej przeglądarki."
+msgstr ""
+"Przepraszamy, ale wychodzi na to, że WooCommerce POS nie wspiera Twojej "
+"przeglądarki."
 
 #: includes/views/modals/browser.php:3
 msgid ""
-"If possible, please <a href=\"http://browsehappy.com/\">update your "
-"browser</a>, we recommend either Chrome or Firefox."
-msgstr "Jeśli to możliwe to prosimy<a href=\"http://browsehappy.com/\"> zaktualizuj swoją przeglądarkę</a>, my zalecamy używanie Chrome lub Firefox."
+"If possible, please <a href=\"http://browsehappy.com/\">update your browser</"
+"a>, we recommend either Chrome or Firefox."
+msgstr ""
+"Jeśli to możliwe to prosimy<a href=\"http://browsehappy.com/\"> zaktualizuj "
+"swoją przeglądarkę</a>, my zalecamy używanie Chrome lub Firefox."
 
 #: includes/views/modals/browser.php:7
 msgid ""
 "If you believe you have received this message in error please contact "
-"support via <a "
-"href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
-msgstr "Jeśli uważasz, że otrzymałeś tę wiadomość poprzez błąd prosimy o kontakt pod adresem <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
+"support via <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</"
+"a>"
+msgstr ""
+"Jeśli uważasz, że otrzymałeś tę wiadomość poprzez błąd prosimy o kontakt pod "
+"adresem <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
 
 #: includes/views/pos/checkout.php:26
 msgid "No payment gateways enabled."
@@ -249,9 +262,11 @@ msgstr "Punkt Sprzedaży"
 #. Description of the plugin/theme
 msgid ""
 "A simple front-end for taking WooCommerce orders at the Point of Sale. "
-"Requires <a "
-"href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a>."
-msgstr "Prosty interfejs do przerzucania zamówiń z WooCommerce do Punktu Sprzedaży. Wymaga <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a>."
+"Requires <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</"
+"a>."
+msgstr ""
+"Prosty interfejs do przerzucania zamówiń z WooCommerce do Punktu Sprzedaży. "
+"Wymaga <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a>."
 
 #: includes/class-wc-pos-i18n.php:298
 msgctxt "system status: browser capabilities"

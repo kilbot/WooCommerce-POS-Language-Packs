@@ -5,23 +5,21 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
-"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
-"Packs/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
 "POT-Creation-Date: 2015-10-29 13:23:19+00:00\n"
-"PO-Revision-Date: 2015-09-18 06:42+0000\n"
-"Last-Translator: Tran Ngoc Thanh Tung <thomastrant@gmail.com>\n"
-"Language-Team: Vietnamese (http://www.transifex.com/kilbot/woocommerce-pos/"
-"language/vi/)\n"
-"Language: vi\n"
+"PO-Revision-Date: 2015-11-06 03:16+0000\n"
+"Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
+"Language-Team: Vietnamese (http://www.transifex.com/kilbot/woocommerce-pos/language/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: grunt-wp-i18n 0.5.3\n"
 
 #: includes/class-wc-pos-pro-ajax.php:84
 msgid "Invalid security nonce"
-msgstr ""
+msgstr "Nonce bảo mật không hợp lệ"
 
 #: includes/class-wc-pos-pro-i18n.php:109
 msgid "Edit Customer"
@@ -55,19 +53,19 @@ msgstr "Cửa hàng mới"
 
 #: includes/class-wc-pos-pro-stores.php:63
 msgid "Edit Store"
-msgstr "Sửa hàng"
+msgstr "Sửa cửa hàng"
 
 #: includes/class-wc-pos-pro-stores.php:64
 msgid "View Store"
-msgstr "Xem hàng"
+msgstr "Xem cửa hàng"
 
 #: includes/class-wc-pos-pro-stores.php:66
 msgid "Search Stores"
-msgstr "Cửa hàng Tìm kiếm"
+msgstr "Tìm kiếm Cửa hàng"
 
 #: includes/class-wc-pos-pro-stores.php:67
 msgid "Parent Store:"
-msgstr "Cửa hàng Phụ huynh:"
+msgstr "Cửa hàng chính:"
 
 #: includes/class-wc-pos-pro-stores.php:68
 msgid "No Stores found."
@@ -94,7 +92,7 @@ msgstr "Thêm khách hàng"
 
 #: includes/views/print/receipt.php:4
 msgid "Receipt"
-msgstr "Biên nhận"
+msgstr "Biên lai"
 
 #: includes/views/print/receipt.php:170
 msgid "Order Date"
@@ -110,36 +108,33 @@ msgstr "Phương thức thanh toán"
 
 #: includes/views/print/receipt.php:231
 msgid "Cart Subtotal"
-msgstr "Giỏ Subtotal"
+msgstr "Tạm tính giỏ hàng"
 
 #: includes/views/print/receipt.php:289
 msgid "Amount Tendered"
-msgstr "Số tiền đấu thầu"
+msgstr "Số tiền nhận được"
 
 #: includes/views/products/tmpl-list-item.php:74
 msgid "On Sale?"
-msgstr "Mở bán?"
+msgstr "Khuyến mãi?"
 
 #: includes/widgets/class-wc-pos-pro-hours.php:17
 msgid "Store Opening Hours"
-msgstr "Cửa hàng Giờ mở cửa"
+msgstr "Giờ mở cửa hàng"
 
 #: includes/widgets/class-wc-pos-pro-hours.php:18
 msgid "Display store hours set in WooCommerce POS"
-msgstr "Cửa hàng hiển thị giờ đặt trong WooCommerce POS"
+msgstr "Hiển thị giờ cửa hàng cài đặt trong WooCommerce POS"
 
 #: includes/widgets/class-wc-pos-pro-hours.php:88
 msgid "No stores. <a href=\"%s\">Create a new store</a>."
-msgstr "Không có cửa hàng. <a href=\"%s\">Tạo một cửa hàng mới.</a>"
+msgstr "Không có cửa hàng. <a href=\"%s\">Tạo một cửa hàng mới</a>."
 
 #. Description of the plugin/theme
 msgid ""
-"WooCommerce POS Pro adds extra functionality to the free plugin. Requires <a "
-"href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce POS</a>."
-msgstr ""
-"WooCommerce POS Pro có thêm chức năng bổ sung cho các plugin miễn phí. Yêu "
-"cầu <a href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce "
-"POS.</a>"
+"WooCommerce POS Pro adds extra functionality to the free plugin. Requires <a"
+" href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce POS</a>."
+msgstr "WooCommerce POS Pro tăng thêm chức năng bổ sung cho plugin miễn phí. Yêu cầu <a href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce POS.</a>"
 
 #: includes/views/print/receipt.php:200
 msgctxt "Abbreviation of Quantity"
@@ -154,4 +149,4 @@ msgstr "incl."
 #: includes/views/print/receipt.php:293
 msgctxt "Money returned from cash sale"
 msgid "Change"
-msgstr "Thay đổi"
+msgstr "Tiền thối"

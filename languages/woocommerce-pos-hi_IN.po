@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-08-24 09:12:46+00:00\n"
+"POT-Creation-Date: 2015-10-29 13:23:18+00:00\n"
 "PO-Revision-Date: 2015-07-15 16:15+0000\n"
 "Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
 "Language-Team: Hindi (India) (http://www.transifex.com/p/woocommerce-pos/"
@@ -19,44 +19,32 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: grunt-wp-i18n 0.5.2\n"
 
-#: includes/api/class-wc-pos-orders.php:476
+#: includes/api/class-wc-pos-orders.php:471
 msgid "There was an error processing the payment"
 msgstr "भुगतान संसाधित करने में कोई त्रुटि थी"
 
-#: includes/api/class-wc-pos-orders.php:502
+#: includes/api/class-wc-pos-orders.php:497
 msgid "You are now being redirected offsite to complete the payment. "
 msgstr "अब आप भुगतान पूरा करने के ऑफसाइट पुनः निर्देशित किया जा रहा है।"
 
-#: includes/api/class-wc-pos-orders.php:503
+#: includes/api/class-wc-pos-orders.php:498
 msgid "<a href=\"%s\">Click here</a> if you are not redirected automatically. "
 msgstr ""
 "<a href=\"%s\">यहाँ क्लिक करें</a> आप स्वचालित रूप से पुनः निर्देशित नहीं कर रहे हैं।"
 
-#: includes/api/class-wc-pos-orders.php:517
+#: includes/api/class-wc-pos-orders.php:512
 msgid "POS Transaction completed."
 msgstr "पीओएस लेन-देन पूरा किया।"
 
-#: includes/class-wc-pos-ajax.php:107
-msgid "There is no settings id"
-msgstr "कोई सेटिंग आईडी नहीं है"
-
-#: includes/class-wc-pos-ajax.php:125
-msgid "No handler found for %s settings"
-msgstr "%s सेटिंग्स के लिए नहीं मिला हैंडलर"
-
-#: includes/class-wc-pos-ajax.php:156
-msgid "Settings error"
-msgstr "सेटिंग त्रुटि"
-
-#: includes/class-wc-pos-ajax.php:175 includes/class-wc-pos-ajax.php:199
+#: includes/class-wc-pos-ajax.php:105 includes/class-wc-pos-ajax.php:129
 msgid "Email sent"
 msgstr "ईमेल भेजा"
 
-#: includes/class-wc-pos-ajax.php:183 includes/class-wc-pos-ajax.php:204
+#: includes/class-wc-pos-ajax.php:113 includes/class-wc-pos-ajax.php:134
 msgid "There was an error sending the email"
 msgstr "ईमेल भेजने में त्रुटि हुई"
 
-#: includes/class-wc-pos-ajax.php:237
+#: includes/class-wc-pos-ajax.php:167 includes/class-wc-pos-server.php:46
 msgid "Invalid security nonce"
 msgstr "अमान्य सुरक्षा अस्थायी रूप से"
 
@@ -64,88 +52,109 @@ msgstr "अमान्य सुरक्षा अस्थायी रूप
 msgid "User not authorized to access WooCommerce POS"
 msgstr "प्रयोक्ता WooCommerce स्थिति तक पहुँचने के लिए अधिकृत नहीं"
 
-#: includes/class-wc-pos-i18n.php:310
+#: includes/class-wc-pos-i18n.php:332
 msgid "To Pay"
 msgstr "भुगतान करने के लिए"
 
-#: includes/class-wc-pos-i18n.php:311
+#: includes/class-wc-pos-i18n.php:333
 msgid "Paid"
 msgstr "सशुल्क"
 
-#: includes/class-wc-pos-i18n.php:312
+#: includes/class-wc-pos-i18n.php:334
 msgid "Unpaid"
 msgstr "अवैतनिक"
 
-#: includes/class-wc-pos-i18n.php:313
+#: includes/class-wc-pos-i18n.php:335
 msgid "Email Receipt"
 msgstr "ईमेल रसीद"
 
-#: includes/class-wc-pos-i18n.php:317
-msgid "Local Storage"
-msgstr "स्थानीय भंडार"
+#: includes/class-wc-pos-i18n.php:338
+msgid "Support Form"
+msgstr "समर्थन फार्म"
 
 #. translators: wordpress
 #. translators: woocommerce
 #. translators: wordpress
-#: includes/class-wc-pos-i18n.php:325 includes/views/print/receipt.php:142
-#: includes/views/support.php:23
+#: includes/class-wc-pos-i18n.php:352
+#: includes/views/print/tmpl-receipt.php:142
+#: includes/views/support/tmpl-form.php:16
 msgid "Email"
 msgstr "ईमेल"
 
-#: includes/class-wc-pos-i18n.php:330
+#: includes/class-wc-pos-i18n.php:361
 msgid "Process Payment"
 msgstr "भुगतान की प्रक्रिया"
 
-#: includes/class-wc-pos-i18n.php:334
+#: includes/class-wc-pos-i18n.php:366
 msgid "Return to Sale"
 msgstr "बिक्री के लिए लौटें"
 
-#: includes/class-wc-pos-i18n.php:336
+#: includes/class-wc-pos-i18n.php:369
 msgid "Send"
 msgstr "भेजें"
 
-#: includes/class-wc-pos-i18n.php:338
+#: includes/class-wc-pos-i18n.php:372
 msgid "Void"
 msgstr "शून्य"
 
-#: includes/class-wc-pos-i18n.php:341
+#: includes/class-wc-pos-i18n.php:377
 msgid "Enable legacy server support"
 msgstr "विरासत सर्वर का समर्थन सक्षम करें"
 
-#: includes/class-wc-pos-i18n.php:348
+#: includes/class-wc-pos-i18n.php:388
 msgid "Your browser is not supported!"
 msgstr "आपका ब्राउज़र समर्थित नहीं है!"
 
-#: includes/class-wc-pos-i18n.php:349
+#: includes/class-wc-pos-i18n.php:389
 msgid "Unable to use RESTful HTTP methods"
 msgstr "शोकहारा HTTP के तरीकों का उपयोग करने में असमर्थ"
 
-#: includes/class-wc-pos-status.php:31
+#: includes/class-wc-pos-i18n.php:394
+msgid "No payment gateways enabled."
+msgstr "कोई भुगतान द्वार सक्षम होना चाहिए।"
+
+#: includes/class-wc-pos-params.php:226
+msgid "POS"
+msgstr "पीओएस"
+
+#: includes/class-wc-pos-settings.php:168
+msgid "There is no settings id"
+msgstr "कोई सेटिंग आईडी नहीं है"
+
+#: includes/class-wc-pos-settings.php:186
+msgid "No handler found for %s settings"
+msgstr "%s सेटिंग्स के लिए नहीं मिला हैंडलर"
+
+#: includes/class-wc-pos-settings.php:223
+msgid "Settings error"
+msgstr "सेटिंग त्रुटि"
+
+#: includes/class-wc-pos-status.php:28
 msgid "WC Version"
 msgstr "WC के संस्करण"
 
-#: includes/class-wc-pos-status.php:38
+#: includes/class-wc-pos-status.php:35
 msgid "WooCommerce >= %s required"
 msgstr "WooCommerce >=%s अपेक्षित"
 
-#: includes/class-wc-pos-status.php:70
+#: includes/class-wc-pos-status.php:67
 #, fuzzy
 msgid "PHP >= %s required"
 msgstr "WooCommerce >=%s अपेक्षित"
 
-#: includes/class-wc-pos-status.php:91
+#: includes/class-wc-pos-status.php:88
 msgid "WC REST API"
 msgstr "WC के बाकी एपीआई"
 
-#: includes/class-wc-pos-status.php:92
+#: includes/class-wc-pos-status.php:89
 msgid "API is active"
 msgstr "एपीआई सक्रिय है"
 
-#: includes/class-wc-pos-status.php:129
+#: includes/class-wc-pos-status.php:126
 msgid "Access to the REST API is required"
 msgstr "बाकी एपीआई के लिए प्रवेश की आवश्यकता है"
 
-#: includes/class-wc-pos-status.php:149
+#: includes/class-wc-pos-status.php:146
 msgid ""
 "<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to "
 "work correctly"
@@ -153,13 +162,9 @@ msgstr ""
 "<strong>WooCommerce बाकी एपीआई</strong> सही ढंग से काम करने के लिए <em>बहुत</em> "
 "permalinks की आवश्यकता है"
 
-#: includes/class-wc-pos-status.php:153
+#: includes/class-wc-pos-status.php:150
 msgid "Enable permalinks"
 msgstr "Permalinks सक्षम करें"
-
-#: includes/class-wc-pos-template.php:144
-msgid "POS"
-msgstr "पीओएस"
 
 #: includes/gateways/class-wc-pos-card.php:20
 msgid "Card"
@@ -167,8 +172,8 @@ msgstr "कार्ड"
 
 #: includes/gateways/class-wc-pos-card.php:52
 #: includes/gateways/class-wc-pos-card.php:55
-#: includes/gateways/class-wc-pos-card.php:82
-#: includes/gateways/class-wc-pos-card.php:116
+#: includes/gateways/class-wc-pos-card.php:84
+#: includes/gateways/class-wc-pos-card.php:118
 msgid "Cashback"
 msgstr "नकदी वापस"
 
@@ -178,8 +183,8 @@ msgstr "कैश"
 
 #: includes/gateways/class-wc-pos-cash.php:52
 #: includes/gateways/class-wc-pos-cash.php:55
-#: includes/gateways/class-wc-pos-cash.php:90
-#: includes/views/print/receipt.php:247
+#: includes/gateways/class-wc-pos-cash.php:91
+#: includes/views/print/tmpl-receipt.php:246
 msgid "Amount Tendered"
 msgstr "राशि दी"
 
@@ -204,58 +209,54 @@ msgstr ""
 "यदि आपको लगता है कि आप के माध्यम से सहायता से संपर्क करें यह संदेश गलती से प्राप्त हुआ है <a "
 "href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
 
-#: includes/views/pos/checkout.php:26
-msgid "No payment gateways enabled."
-msgstr "कोई भुगतान द्वार सक्षम होना चाहिए।"
-
-#: includes/views/pos/products.php:13
+#: includes/views/pos/products/tmpl-filter.php:7
 msgid "Scan Barcode"
 msgstr "बारकोड स्कैन"
 
-#: includes/views/pos/products.php:79
-msgid "Showing %s of %s"
-msgstr "%s में से %s दिखा रहा है"
-
-#: includes/views/pos/products.php:80
-msgid "%s in queue"
-msgstr "कतार में %s"
-
-#: includes/views/print/receipt.php:115
+#: includes/views/print/tmpl-receipt.php:115
 msgid "Billing Address"
 msgstr "बिलिंग पता"
 
-#: includes/views/print/receipt.php:118
+#: includes/views/print/tmpl-receipt.php:118
 msgid "Shipping Address"
 msgstr "शिपिंग पता"
 
-#: includes/views/print/receipt.php:127
+#: includes/views/print/tmpl-receipt.php:127
 msgid "Order Date"
 msgstr "आर्डर की तारीख"
 
-#: includes/views/print/receipt.php:132
+#: includes/views/print/tmpl-receipt.php:132
 #, fuzzy
 msgid "Cashier"
 msgstr "कैश"
 
-#: includes/views/print/receipt.php:137
+#: includes/views/print/tmpl-receipt.php:137
 msgid "Payment Method"
 msgstr "भुगतान का तरीका"
 
-#: includes/views/support.php:11
-msgid "Support Form"
-msgstr "समर्थन फार्म"
-
-#: includes/views/support.php:28
+#: includes/views/support/tmpl-form.php:21
 msgid "Describe your problem here ..."
 msgstr "यहां आपकी समस्या का वर्णन ..."
 
-#: includes/views/support.php:32
+#: includes/views/support/tmpl-form.php:28
 msgid "Append POS system report"
 msgstr "पीओएस सिस्टम रिपोर्ट संलग्न करें"
 
-#: includes/views/template.php:12
+#: includes/views/support/tmpl-status.php:31
+msgid "Local Storage"
+msgstr "स्थानीय भंडार"
+
+#: includes/views/template.php:8
 msgid "Point of Sale"
 msgstr "बिक्री केन्द्र"
+
+#: includes/views/tmpl-pagination.php:2
+msgid "Showing %s of %s"
+msgstr "%s में से %s दिखा रहा है"
+
+#: includes/views/tmpl-pagination.php:3
+msgid "%s in queue"
+msgstr "कतार में %s"
 
 #. Description of the plugin/theme
 msgid ""
@@ -266,70 +267,73 @@ msgstr ""
 "बिक्री के बिंदु पर WooCommerce आदेश लेने के लिए एक सरल सामने के अंत। आवश्यकता है <a href="
 "\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a> ।"
 
-#: includes/class-wc-pos-i18n.php:298
+#: includes/class-wc-pos-i18n.php:310
 msgctxt "system status: browser capabilities"
 msgid "Browser"
 msgstr "ब्राउज़र"
 
-#: includes/class-wc-pos-i18n.php:304
+#: includes/class-wc-pos-i18n.php:321
 msgctxt "keyboard shortcuts"
 msgid "HotKeys"
 msgstr "Hotkeys"
 
-#: includes/views/help.php:7
-msgctxt "keyboard shortcuts"
-msgid "Hotkeys"
-msgstr "Hotkeys"
-
-#: includes/class-wc-pos-i18n.php:314
+#: includes/class-wc-pos-i18n.php:336
 msgctxt "order status, ie: open order in cart"
 msgid "Open"
 msgstr "खुला है"
 
-#: includes/class-wc-pos-i18n.php:315
-#: includes/gateways/class-wc-pos-cash.php:92
-#: includes/views/print/receipt.php:251
+#: includes/class-wc-pos-i18n.php:337
+#: includes/gateways/class-wc-pos-cash.php:93
+#: includes/views/print/tmpl-receipt.php:250
 msgctxt "Money returned from cash sale"
 msgid "Change"
 msgstr "परिवर्तन"
 
-#: includes/class-wc-pos-i18n.php:321
+#: includes/class-wc-pos-i18n.php:345
 msgctxt "system status: delete local records"
 msgid "Clear"
 msgstr "स्पष्ट"
 
-#: includes/class-wc-pos-i18n.php:332
+#: includes/class-wc-pos-i18n.php:364
 msgctxt "restore default settings"
 msgid "Restore defaults"
 msgstr "डिफॉल्ट्स का पुनःस्थापन"
 
-#: includes/class-wc-pos-i18n.php:333
+#: includes/class-wc-pos-i18n.php:365
 msgctxt "Numpad return key"
 msgid "return"
 msgstr "वापसी"
 
-#: includes/class-wc-pos-i18n.php:352
+#: includes/class-wc-pos-i18n.php:399
 msgctxt "eg: 23 records"
 msgid "record |||| records"
 msgstr "रिकॉर्ड |||| के रिकॉर्ड"
 
-#: includes/class-wc-pos-params.php:76
+#: includes/class-wc-pos-params.php:84
 msgctxt "Product tab: 'On Sale' products"
 msgid "On Sale"
 msgstr "बिक्री पर"
 
-#: includes/views/pos/cart.php:9 includes/views/pos/receipt.php:10
-#: includes/views/print/receipt.php:157
+#: includes/views/pos/cart/tmpl-panel.php:2
+#: includes/views/pos/receipt/tmpl-panel.php:3
+#: includes/views/print/tmpl-receipt.php:157
 msgctxt "Abbreviation of Quantity"
 msgid "Qty"
 msgstr "मात्रा"
 
-#: includes/views/pos/cart.php:109 includes/views/pos/cart.php:120
-#: includes/views/pos/receipt.php:84 includes/views/pos/receipt.php:94
-#: includes/views/print/receipt.php:216 includes/views/print/receipt.php:226
+#: includes/views/pos/cart/tmpl-totals.php:19
+#: includes/views/pos/cart/tmpl-totals.php:30
+#: includes/views/pos/receipt/tmpl-totals.php:29
+#: includes/views/pos/receipt/tmpl-totals.php:39
+#: includes/views/print/tmpl-receipt.php:215
+#: includes/views/print/tmpl-receipt.php:225
 msgctxt "abbreviation for includes (tax)"
 msgid "incl."
 msgstr "incl।"
+
+#~ msgctxt "keyboard shortcuts"
+#~ msgid "Hotkeys"
+#~ msgstr "Hotkeys"
 
 #~ msgid "Unable to test the REST API"
 #~ msgstr "बाकी एपीआई परीक्षण करने में असमर्थ"

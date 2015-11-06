@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-08-24 09:12:46+00:00\n"
+"POT-Creation-Date: 2015-10-29 13:23:18+00:00\n"
 "PO-Revision-Date: 2015-09-18 06:33+0000\n"
 "Last-Translator: Tran Ngoc Thanh Tung <thomastrant@gmail.com>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/kilbot/woocommerce-pos/"
@@ -37,7 +37,7 @@ msgid "View POS"
 msgstr "Xem POS"
 
 #: includes/admin/class-wc-pos-menu.php:53
-#: includes/admin/settings/views/checkout.php:102
+#: includes/admin/settings/views/checkout.php:101
 msgid "Upgrade to Pro"
 msgstr "Nâng cấp lên phiên bản Pro"
 
@@ -45,6 +45,18 @@ msgstr "Nâng cấp lên phiên bản Pro"
 #: includes/admin/views/order-details.php:4
 msgid "Online"
 msgstr "Online"
+
+#. translators: wordpress
+#. translators: woocommerce
+#: includes/admin/class-wc-pos-plugins.php:26
+#: includes/admin/class-wc-pos-settings.php:35
+#: includes/admin/class-wc-pos-settings.php:37
+#: includes/admin/settings/views/checkout.php:76
+#: includes/admin/settings/views/checkout.php:106
+#: includes/admin/settings/views/checkout.php:111
+#, fuzzy
+msgid "Settings"
+msgstr "Cài đặt POS"
 
 #: includes/admin/settings/class-wc-pos-access.php:25
 msgid "POS Access"
@@ -152,31 +164,31 @@ msgstr ""
 "Tín Dụng hoặc phương thức thanh toán khác chỉ nên thực hiện với đường truyền "
 "bảo mật"
 
-#: includes/admin/settings/views/checkout.php:66
+#: includes/admin/settings/views/checkout.php:65
 msgid "Gateway Display"
 msgstr "Hiện cổng thanh toán"
 
-#: includes/admin/settings/views/checkout.php:74
+#: includes/admin/settings/views/checkout.php:73
 msgid "Online Status"
 msgstr "Tình trạng Online"
 
-#: includes/admin/settings/views/checkout.php:75
+#: includes/admin/settings/views/checkout.php:74
 msgid "POS Status"
 msgstr "Tình trạng POS"
 
-#: includes/admin/settings/views/checkout.php:76
+#: includes/admin/settings/views/checkout.php:75
 msgid "POS Settings"
 msgstr "Cài đặt POS"
 
-#: includes/admin/settings/views/checkout.php:127
+#: includes/admin/settings/views/checkout.php:126
 msgid "Payment method title."
 msgstr "Tiêu để phương thức thanh toán"
 
-#: includes/admin/settings/views/checkout.php:134
+#: includes/admin/settings/views/checkout.php:133
 msgid "Payment method description that will be shown in the POS."
 msgstr "Phương thức thanh toán chi tiết sẽ được hiển thị trên POS"
 
-#: includes/admin/settings/views/checkout.php:140
+#: includes/admin/settings/views/checkout.php:139
 msgid "Icon"
 msgstr "Biểu tượng"
 
@@ -254,6 +266,18 @@ msgstr "Hỗ trợ máy chủ cũ"
 msgid "Emulate RESTful HTTP methods to support legacy servers."
 msgstr "Giả lập các phương thức HTTP RESTful để hỗ trợ các máy chủ cũ."
 
+#: includes/admin/settings/views/tools.php:54
+msgid "Local Data"
+msgstr ""
+
+#: includes/admin/settings/views/tools.php:59
+msgid "Clear Local Data"
+msgstr ""
+
+#: includes/admin/settings/views/tools.php:62
+msgid "Clear All Local Data"
+msgstr ""
+
 #: includes/admin/views/order-details.php:2
 msgid "Order type"
 msgstr "Dạng Order"
@@ -266,10 +290,20 @@ msgstr ""
 "Có lỗi khi mở cài đặt, vui lòng liên hệ <a href=\"mailto:support@woopos.com."
 "au\">Hỗ Trợ</a>"
 
-#: includes/class-wc-pos-activator.php:192
+#: includes/class-wc-pos-activator.php:188
+#, fuzzy
 msgid ""
-"<strong>WooCommerce POS</strong> requires <a href=\"%s\">WooCommerce</a>. "
-"Please <a href=\"%s\">install and activate WooCommerce</a>"
+"<strong>WooCommerce POS</strong> requires <a href=\"%s\">WooCommerce %s or "
+"higher</a>. Please <a href=\"%s\">install and activate WooCommerce</a>"
+msgstr ""
+"<strong>WooCommerce POS</strong> yêu cầu <a href=\"%s\">WooCommerce</a>. Xin "
+"hãy <a href=\"%s\">cài đặt và kích hoạt WooCommerce</a>"
+
+#: includes/class-wc-pos-activator.php:207
+#, fuzzy
+msgid ""
+"<strong>WooCommerce POS</strong> requires PHP %s or higher. Read more "
+"information about <a href=\"%s\">how you can update</a>"
 msgstr ""
 "<strong>WooCommerce POS</strong> yêu cầu <a href=\"%s\">WooCommerce</a>. Xin "
 "hãy <a href=\"%s\">cài đặt và kích hoạt WooCommerce</a>"
@@ -293,7 +327,7 @@ msgstr "Chỉ hiện Online"
 msgid "POS visibility"
 msgstr "Hiện thị trên POS"
 
-#: includes/admin/class-wc-pos-permalink.php:28
+#: includes/admin/class-wc-pos-permalink.php:30
 msgctxt "Permalink setting, eg: /pos"
 msgid "POS base"
 msgstr "Nền POS"
@@ -303,7 +337,7 @@ msgctxt "keyboard shortcuts"
 msgid "HotKeys"
 msgstr "Phím tắt"
 
-#: includes/admin/settings/views/checkout.php:144
+#: includes/admin/settings/views/checkout.php:143
 msgctxt "POS checkout settings"
 msgid "Show payment gateway icon."
 msgstr "Hiển thị icon cổng thanh toán"

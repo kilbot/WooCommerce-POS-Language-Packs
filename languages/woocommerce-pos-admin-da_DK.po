@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-08-24 09:12:46+00:00\n"
+"POT-Creation-Date: 2015-10-29 13:23:18+00:00\n"
 "PO-Revision-Date: 2015-10-04 18:15+0000\n"
 "Last-Translator: tntc1978 <tntc1978@gmail.com>\n"
 "Language-Team: Danish (Denmark) (http://www.transifex.com/kilbot/woocommerce-"
@@ -39,7 +39,7 @@ msgid "View POS"
 msgstr "Se POS"
 
 #: includes/admin/class-wc-pos-menu.php:53
-#: includes/admin/settings/views/checkout.php:102
+#: includes/admin/settings/views/checkout.php:101
 msgid "Upgrade to Pro"
 msgstr "Opgrader til Pro"
 
@@ -47,6 +47,18 @@ msgstr "Opgrader til Pro"
 #: includes/admin/views/order-details.php:4
 msgid "Online"
 msgstr "Online"
+
+#. translators: wordpress
+#. translators: woocommerce
+#: includes/admin/class-wc-pos-plugins.php:26
+#: includes/admin/class-wc-pos-settings.php:35
+#: includes/admin/class-wc-pos-settings.php:37
+#: includes/admin/settings/views/checkout.php:76
+#: includes/admin/settings/views/checkout.php:106
+#: includes/admin/settings/views/checkout.php:111
+#, fuzzy
+msgid "Settings"
+msgstr "POS indstillinger"
 
 #: includes/admin/settings/class-wc-pos-access.php:25
 msgid "POS Access"
@@ -157,31 +169,31 @@ msgstr ""
 "kreditkort eller andre følsomme informationer bør kun ske ved brug af en "
 "sikker forbindelse."
 
-#: includes/admin/settings/views/checkout.php:66
+#: includes/admin/settings/views/checkout.php:65
 msgid "Gateway Display"
 msgstr "Gateway visning"
 
-#: includes/admin/settings/views/checkout.php:74
+#: includes/admin/settings/views/checkout.php:73
 msgid "Online Status"
 msgstr "Online Status"
 
-#: includes/admin/settings/views/checkout.php:75
+#: includes/admin/settings/views/checkout.php:74
 msgid "POS Status"
 msgstr "POS Status"
 
-#: includes/admin/settings/views/checkout.php:76
+#: includes/admin/settings/views/checkout.php:75
 msgid "POS Settings"
 msgstr "POS indstillinger"
 
-#: includes/admin/settings/views/checkout.php:127
+#: includes/admin/settings/views/checkout.php:126
 msgid "Payment method title."
 msgstr "Betalingsmetode titel."
 
-#: includes/admin/settings/views/checkout.php:134
+#: includes/admin/settings/views/checkout.php:133
 msgid "Payment method description that will be shown in the POS."
 msgstr "Betalingsmetode beskrivelse som bliver vist i POS"
 
-#: includes/admin/settings/views/checkout.php:140
+#: includes/admin/settings/views/checkout.php:139
 msgid "Icon"
 msgstr "Ikon"
 
@@ -256,6 +268,18 @@ msgstr "Ældre server understøttelse"
 msgid "Emulate RESTful HTTP methods to support legacy servers."
 msgstr "Efterlign RESTful HTTP -metoder til at understøtte ældre servere."
 
+#: includes/admin/settings/views/tools.php:54
+msgid "Local Data"
+msgstr ""
+
+#: includes/admin/settings/views/tools.php:59
+msgid "Clear Local Data"
+msgstr ""
+
+#: includes/admin/settings/views/tools.php:62
+msgid "Clear All Local Data"
+msgstr ""
+
 #: includes/admin/views/order-details.php:2
 msgid "Order type"
 msgstr "Ordretype"
@@ -268,10 +292,20 @@ msgstr ""
 "Der indtraf en fejl med at hente indstillingerne, kontakt venligst <a href="
 "\"mailto:support@woopos.com.au\">supporten</a>"
 
-#: includes/class-wc-pos-activator.php:192
+#: includes/class-wc-pos-activator.php:188
+#, fuzzy
 msgid ""
-"<strong>WooCommerce POS</strong> requires <a href=\"%s\">WooCommerce</a>. "
-"Please <a href=\"%s\">install and activate WooCommerce</a>"
+"<strong>WooCommerce POS</strong> requires <a href=\"%s\">WooCommerce %s or "
+"higher</a>. Please <a href=\"%s\">install and activate WooCommerce</a>"
+msgstr ""
+"<strong>WooCommerce POS</strong> kræver <a href=\"%s\">WooCommerce</a>. <a "
+"href=\"%s\">installer og aktiver venligst WooCommerce</a>"
+
+#: includes/class-wc-pos-activator.php:207
+#, fuzzy
+msgid ""
+"<strong>WooCommerce POS</strong> requires PHP %s or higher. Read more "
+"information about <a href=\"%s\">how you can update</a>"
 msgstr ""
 "<strong>WooCommerce POS</strong> kræver <a href=\"%s\">WooCommerce</a>. <a "
 "href=\"%s\">installer og aktiver venligst WooCommerce</a>"
@@ -295,7 +329,7 @@ msgstr "Online kun"
 msgid "POS visibility"
 msgstr "POS synlighed"
 
-#: includes/admin/class-wc-pos-permalink.php:28
+#: includes/admin/class-wc-pos-permalink.php:30
 msgctxt "Permalink setting, eg: /pos"
 msgid "POS base"
 msgstr "POS base"
@@ -305,7 +339,7 @@ msgctxt "keyboard shortcuts"
 msgid "HotKeys"
 msgstr "Genveje"
 
-#: includes/admin/settings/views/checkout.php:144
+#: includes/admin/settings/views/checkout.php:143
 msgctxt "POS checkout settings"
 msgid "Show payment gateway icon."
 msgstr "Vis gateway ikon."

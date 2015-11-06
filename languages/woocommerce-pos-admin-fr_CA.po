@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-08-24 09:12:46+00:00\n"
+"POT-Creation-Date: 2015-10-29 13:23:18+00:00\n"
 "PO-Revision-Date: 2015-10-26 17:06+0000\n"
 "Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/kilbot/woocommerce-"
@@ -39,7 +39,7 @@ msgid "View POS"
 msgstr "Voir le POS"
 
 #: includes/admin/class-wc-pos-menu.php:53
-#: includes/admin/settings/views/checkout.php:102
+#: includes/admin/settings/views/checkout.php:101
 msgid "Upgrade to Pro"
 msgstr "Mettre à jour vers la version Pro"
 
@@ -47,6 +47,18 @@ msgstr "Mettre à jour vers la version Pro"
 #: includes/admin/views/order-details.php:4
 msgid "Online"
 msgstr "En ligne"
+
+#. translators: wordpress
+#. translators: woocommerce
+#: includes/admin/class-wc-pos-plugins.php:26
+#: includes/admin/class-wc-pos-settings.php:35
+#: includes/admin/class-wc-pos-settings.php:37
+#: includes/admin/settings/views/checkout.php:76
+#: includes/admin/settings/views/checkout.php:106
+#: includes/admin/settings/views/checkout.php:111
+#, fuzzy
+msgid "Settings"
+msgstr "Paramètres du point de vente"
 
 #: includes/admin/settings/class-wc-pos-access.php:25
 msgid "POS Access"
@@ -160,31 +172,31 @@ msgstr ""
 "vos clients. La transmission de cartes de crédit ou autres informations "
 "sensibles doivent être effectuées en utilisant une connexion securisée."
 
-#: includes/admin/settings/views/checkout.php:66
+#: includes/admin/settings/views/checkout.php:65
 msgid "Gateway Display"
 msgstr "Affichage des passerelles "
 
-#: includes/admin/settings/views/checkout.php:74
+#: includes/admin/settings/views/checkout.php:73
 msgid "Online Status"
 msgstr "Statut en ligne"
 
-#: includes/admin/settings/views/checkout.php:75
+#: includes/admin/settings/views/checkout.php:74
 msgid "POS Status"
 msgstr "Statut du point de vente"
 
-#: includes/admin/settings/views/checkout.php:76
+#: includes/admin/settings/views/checkout.php:75
 msgid "POS Settings"
 msgstr "Paramètres du point de vente"
 
-#: includes/admin/settings/views/checkout.php:127
+#: includes/admin/settings/views/checkout.php:126
 msgid "Payment method title."
 msgstr "Titre de la méthode de paiement."
 
-#: includes/admin/settings/views/checkout.php:134
+#: includes/admin/settings/views/checkout.php:133
 msgid "Payment method description that will be shown in the POS."
 msgstr "Mode de paiement description qui sera affichée dans le POS."
 
-#: includes/admin/settings/views/checkout.php:140
+#: includes/admin/settings/views/checkout.php:139
 msgid "Icon"
 msgstr "Icône"
 
@@ -265,6 +277,18 @@ msgstr "Legacy Support Server"
 msgid "Emulate RESTful HTTP methods to support legacy servers."
 msgstr "Émuler méthodes HTTP RESTful pour soutenir les serveurs hérités."
 
+#: includes/admin/settings/views/tools.php:54
+msgid "Local Data"
+msgstr ""
+
+#: includes/admin/settings/views/tools.php:59
+msgid "Clear Local Data"
+msgstr ""
+
+#: includes/admin/settings/views/tools.php:62
+msgid "Clear All Local Data"
+msgstr ""
+
 #: includes/admin/views/order-details.php:2
 msgid "Order type"
 msgstr "Type de commande"
@@ -277,10 +301,21 @@ msgstr ""
 "Une erreur s'est produite lors du chargement des paramètres, veuillez svp "
 "contacter le <a href=\"mailto:support@woopos.com.au\">support</a>"
 
-#: includes/class-wc-pos-activator.php:192
+#: includes/class-wc-pos-activator.php:188
+#, fuzzy
 msgid ""
-"<strong>WooCommerce POS</strong> requires <a href=\"%s\">WooCommerce</a>. "
-"Please <a href=\"%s\">install and activate WooCommerce</a>"
+"<strong>WooCommerce POS</strong> requires <a href=\"%s\">WooCommerce %s or "
+"higher</a>. Please <a href=\"%s\">install and activate WooCommerce</a>"
+msgstr ""
+"<strong>WooCommerce Point de vente</strong> requiert <a href=\"%s"
+"\">WooCommerce</a>. Veuillez svp <a href=\"%s\">installer et activer "
+"WooCommerce</a>"
+
+#: includes/class-wc-pos-activator.php:207
+#, fuzzy
+msgid ""
+"<strong>WooCommerce POS</strong> requires PHP %s or higher. Read more "
+"information about <a href=\"%s\">how you can update</a>"
 msgstr ""
 "<strong>WooCommerce Point de vente</strong> requiert <a href=\"%s"
 "\">WooCommerce</a>. Veuillez svp <a href=\"%s\">installer et activer "
@@ -305,7 +340,7 @@ msgstr "En ligne uniquement"
 msgid "POS visibility"
 msgstr "Visibilité du point de vente"
 
-#: includes/admin/class-wc-pos-permalink.php:28
+#: includes/admin/class-wc-pos-permalink.php:30
 msgctxt "Permalink setting, eg: /pos"
 msgid "POS base"
 msgstr "Base POS"
@@ -315,7 +350,7 @@ msgctxt "keyboard shortcuts"
 msgid "HotKeys"
 msgstr "Raccourcis clavier"
 
-#: includes/admin/settings/views/checkout.php:144
+#: includes/admin/settings/views/checkout.php:143
 msgctxt "POS checkout settings"
 msgid "Show payment gateway icon."
 msgstr "Afficher l’icône de la passerelle de paiement."

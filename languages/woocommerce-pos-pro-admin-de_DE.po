@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-08-24 09:12:35+00:00\n"
+"POT-Creation-Date: 2015-10-29 13:23:19+00:00\n"
 "PO-Revision-Date: 2015-08-27 16:44+0000\n"
 "Last-Translator: Felix Witte <info@duka-dogo.de>\n"
 "Language-Team: German (Germany) (http://www.transifex.com/kilbot/woocommerce-"
@@ -41,44 +41,44 @@ msgstr ""
 "<b>Achtung!</b> Sie blockieren externe Anfragen. Das bedeutet, dass Sie %s "
 "Updates nicht erhalten können. Bitte %s bis %s hinzufügen."
 
-#: includes/admin/class-wc-pos-pro-am.php:231
+#: includes/admin/class-wc-pos-pro-am.php:232
 msgid "Unable to connect to the activation server"
 msgstr "Keine Verbindung zum Aktivierungsserver"
 
-#: includes/admin/class-wc-pos-pro-am.php:266
+#: includes/admin/class-wc-pos-pro-am.php:267
 msgid "Unable to parse the server response"
 msgstr "Nicht in der Lage die Server-Antwort zu analysieren"
 
-#: includes/admin/class-wc-pos-pro-am.php:278
+#: includes/admin/class-wc-pos-pro-am.php:279
 msgid "Invalid Request"
 msgstr "Ungültige Anfrage"
 
-#: includes/admin/class-wc-pos-pro-am.php:280
-#: includes/admin/class-wc-pos-pro-am.php:284
+#: includes/admin/class-wc-pos-pro-am.php:281
+#: includes/admin/class-wc-pos-pro-am.php:285
 msgid "Invalid License Key"
 msgstr "Ungültiger Lizenzschlüssel"
 
-#: includes/admin/class-wc-pos-pro-am.php:281
+#: includes/admin/class-wc-pos-pro-am.php:282
 msgid "Activation error"
 msgstr "Aktivierungsfehler"
 
-#: includes/admin/class-wc-pos-pro-am.php:282
+#: includes/admin/class-wc-pos-pro-am.php:283
 msgid "Exceeded maximum number of activations"
 msgstr "Überschritten maximale Anzahl der Aktivierungen"
 
-#: includes/admin/class-wc-pos-pro-am.php:283
+#: includes/admin/class-wc-pos-pro-am.php:284
 msgid "Invalid Instance ID"
 msgstr "Ungültige Instanz ID"
 
-#: includes/admin/class-wc-pos-pro-am.php:285
+#: includes/admin/class-wc-pos-pro-am.php:286
 msgid "Subscription is not active"
 msgstr "Abonnement ist nicht mehr aktuell"
 
-#: includes/admin/class-wc-pos-pro-am.php:288
+#: includes/admin/class-wc-pos-pro-am.php:289
 msgid "Invalid Response"
 msgstr "Ungültige Antwort"
 
-#: includes/admin/class-wc-pos-pro-am.php:306
+#: includes/admin/class-wc-pos-pro-am.php:307
 msgid ""
 "A license key for %s could not be found. Maybe you forgot to enter a license "
 "key when setting up %s, or the key was deactivated in your account. You can "
@@ -91,7 +91,7 @@ msgstr ""
 "reaktivieren oder einen neuen Lizenzschlüssel über ihr Konto-<a href=\"%s\" "
 "target=\"_blank\">dashboard</a> kaufen."
 
-#: includes/admin/class-wc-pos-pro-am.php:307
+#: includes/admin/class-wc-pos-pro-am.php:308
 msgid ""
 "The license key for %s has expired. You can reactivate or purchase a license "
 "key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
@@ -100,7 +100,7 @@ msgstr ""
 "oder einen Lizenzschlüssel über Ihr Konto-<a href=\"%s\" target=\"_blank"
 "\">Dashboard</a> erwerben."
 
-#: includes/admin/class-wc-pos-pro-am.php:308
+#: includes/admin/class-wc-pos-pro-am.php:309
 msgid ""
 "The subscription for %s is on-hold. You can reactivate the subscription from "
 "your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
@@ -108,7 +108,7 @@ msgstr ""
 "Das Abonnement von %s ist ausgesetzt. Sie können es wieder über Ihr Konto-<a "
 "href=\"%s\" target=\"_blank\">Dashboard</a>  reaktivieren."
 
-#: includes/admin/class-wc-pos-pro-am.php:309
+#: includes/admin/class-wc-pos-pro-am.php:310
 msgid ""
 "The subscription for %s has been cancelled. You can renew the subscription "
 "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>. A new "
@@ -118,7 +118,7 @@ msgstr ""
 "\"%s\" target=\"_blank\">Dashboard</a> erneuern. Einen Lizenzschlüssel "
 "werden Sie per Email bekommen, sobald die Bestellung abgeschlossen ist."
 
-#: includes/admin/class-wc-pos-pro-am.php:310
+#: includes/admin/class-wc-pos-pro-am.php:311
 msgid ""
 "The subscription for %s has expired. You can reactivate the subscription "
 "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
@@ -126,7 +126,7 @@ msgstr ""
 "Das Abonnement für %s ist abgelaufen. Sie können es wieder über Ihr Konto-<a "
 "href=\"%s\" target=\"_blank\">Dashboard</a> reaktivieren."
 
-#: includes/admin/class-wc-pos-pro-am.php:311
+#: includes/admin/class-wc-pos-pro-am.php:312
 msgid ""
 "The subscription for %s has been suspended. You can reactivate the "
 "subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
@@ -135,7 +135,7 @@ msgstr ""
 "Das Abonnement für %s wurde ausgesetzt. Sie können es wieder über Ihr Konto-"
 "<a href=\"%s\" target=\"_blank\">Dashboard</a> reaktivieren."
 
-#: includes/admin/class-wc-pos-pro-am.php:312
+#: includes/admin/class-wc-pos-pro-am.php:313
 msgid ""
 "The subscription for %s is still pending. You can check on the status of the "
 "subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
@@ -144,7 +144,7 @@ msgstr ""
 "Das Abonnement für %s wurde noch nicht bearbeitet. Sie können seinen Status "
 "in Ihrem Konto-<a href=\"%s\" target=\"_blank\">Dashboard</a> einsehen."
 
-#: includes/admin/class-wc-pos-pro-am.php:313
+#: includes/admin/class-wc-pos-pro-am.php:314
 msgid ""
 "The subscription for %s has been placed in the trash and will be deleted "
 "soon. You can purchase a new subscription from your account <a href=\"%s\" "
@@ -154,7 +154,7 @@ msgstr ""
 "können ein Neues in Ihrem Konto-<a href=\"%s\" target=\"_blank\">Dashboard</"
 "a> erwerben."
 
-#: includes/admin/class-wc-pos-pro-am.php:314
+#: includes/admin/class-wc-pos-pro-am.php:315
 msgid ""
 "A subscription for %s could not be found. You can purchase a subscription "
 "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
@@ -162,7 +162,7 @@ msgstr ""
 "Ein Abonnement für %s wurde nicht gefunden. Sie können eines in Ihrem Konto-"
 "<a href=\"%s\" target=\"_blank\">Dashboard</a> erwerben."
 
-#: includes/admin/class-wc-pos-pro-am.php:315
+#: includes/admin/class-wc-pos-pro-am.php:316
 msgid ""
 "%s has not been activated. Go to the settings page and enter the license key "
 "and license email to activate %s."
@@ -170,7 +170,7 @@ msgstr ""
 "%s wurde noch nicht aktiviert. Geben Sie in den Einstellungen den "
 "Lizenzschlüssel und die Lizenz-Email ein, um es zu aktivieren."
 
-#: includes/admin/class-wc-pos-pro-am.php:316
+#: includes/admin/class-wc-pos-pro-am.php:317
 msgid ""
 "Download permission for %s has been revoked possibly due to a license key or "
 "subscription expiring. You can reactivate or purchase a license key from "
@@ -181,7 +181,7 @@ msgstr ""
 "über Ihr Konto-<a href=\"%s\" target=\"_blank\">Dashboard</a> reaktivieren "
 "oder dort einen Lizenzschlüssel erwerben."
 
-#: includes/admin/class-wc-pos-pro-am.php:317
+#: includes/admin/class-wc-pos-pro-am.php:318
 msgid ""
 "You changed the subscription for %s, so you will need to enter your new API "
 "License Key in the settings page. The License Key should have arrived in "
@@ -277,19 +277,19 @@ msgstr ""
 "Bitte <a href=\"%s\">lesen Sie die Dokumentation</a> für mehr Informationen "
 "über die Individualiserung Ihrer POS-Quittungen."
 
-#: includes/admin/reports/class-wc-pos-pro-sales.php:166
-#: includes/admin/reports/class-wc-pos-pro-sales.php:169
-#: includes/admin/reports/class-wc-pos-pro-sales.php:236
-#: includes/admin/reports/class-wc-pos-pro-sales.php:250
-#: includes/admin/reports/class-wc-pos-pro-sales.php:268
-#: includes/admin/reports/class-wc-pos-pro-sales.php:274
+#: includes/admin/reports/class-wc-pos-pro-sales.php:168
+#: includes/admin/reports/class-wc-pos-pro-sales.php:171
+#: includes/admin/reports/class-wc-pos-pro-sales.php:238
+#: includes/admin/reports/class-wc-pos-pro-sales.php:252
+#: includes/admin/reports/class-wc-pos-pro-sales.php:270
+#: includes/admin/reports/class-wc-pos-pro-sales.php:276
 msgid "POS Sales"
 msgstr "POS-Verkäufe"
 
-#: includes/admin/reports/class-wc-pos-pro-sales.php:172
-#: includes/admin/reports/class-wc-pos-pro-sales.php:175
-#: includes/admin/reports/class-wc-pos-pro-sales.php:242
-#: includes/admin/reports/class-wc-pos-pro-sales.php:256
+#: includes/admin/reports/class-wc-pos-pro-sales.php:174
+#: includes/admin/reports/class-wc-pos-pro-sales.php:177
+#: includes/admin/reports/class-wc-pos-pro-sales.php:244
+#: includes/admin/reports/class-wc-pos-pro-sales.php:258
 msgid "Online Sales"
 msgstr "Online-Verkäufe"
 
@@ -363,23 +363,31 @@ msgstr "Pro Lizenz"
 msgid "Customer Options"
 msgstr "Kundenoptionen"
 
+#: includes/admin/settings/views/general.php:5
+msgid "Barcode Field"
+msgstr ""
+
+#: includes/admin/settings/views/general.php:6
+msgid "Select a meta field to use as the product barcode"
+msgstr ""
+
 #: includes/admin/settings/views/license.php:7
 msgid "Pro License Activation"
 msgstr "Pro Lizenzaktivierung"
 
-#: includes/admin/settings/views/license.php:12
+#: includes/admin/settings/views/license.php:11
 msgid "Thank you!"
 msgstr "Danke!"
 
-#: includes/admin/settings/views/license.php:13
+#: includes/admin/settings/views/license.php:11
 msgid "Your license is active"
 msgstr "Ihre Lizenz aktiv ist"
 
-#: includes/admin/settings/views/license.php:19
+#: includes/admin/settings/views/license.php:17
 msgid "License Email"
 msgstr "Lizenz-E-Mail-Adresse"
 
-#: includes/admin/settings/views/license.php:27
+#: includes/admin/settings/views/license.php:25
 msgid "License Key"
 msgstr "Lizenzschlüssel"
 
@@ -455,7 +463,7 @@ msgstr ""
 "Die oben angegebenen Steuersätze werden im POS benutzt. Sie können <a href="
 "\"%s\">die Steuersätze in Ihren WooCommerce-Einstellungen ändern</a>."
 
-#: includes/class-wc-pos-pro-activator.php:151
+#: includes/class-wc-pos-pro-activator.php:155
 msgid ""
 "<strong>WooCommerce POS Pro</strong> requires <a href=\"%s\">WooCommerce "
 "POS</a>. Please <a href=\"%s\">install and activate WooCommerce POS</a>"

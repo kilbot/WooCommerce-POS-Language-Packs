@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-08-24 09:12:35+00:00\n"
+"POT-Creation-Date: 2015-10-29 13:23:19+00:00\n"
 "PO-Revision-Date: 2015-08-27 17:37+0000\n"
 "Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
 "Language-Team: Greek (http://www.transifex.com/kilbot/woocommerce-pos/"
@@ -18,48 +18,61 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: grunt-wp-i18n 0.5.3\n"
 
-#: includes/class-wc-pos-pro-stores.php:43
-#: includes/class-wc-pos-pro-stores.php:45
-#: includes/class-wc-pos-pro-stores.php:51
+#: includes/class-wc-pos-pro-ajax.php:84
+msgid "Invalid security nonce"
+msgstr ""
+
+#: includes/class-wc-pos-pro-i18n.php:109
+msgid "Edit Customer"
+msgstr "Επεξεργασία Πελάτη"
+
+#: includes/class-wc-pos-pro-i18n.php:110
+#: includes/views/customers/tmpl-actions.php:13
+msgid "Add New Customer"
+msgstr "Προσθήκη Νέου Πελάτη"
+
+#: includes/class-wc-pos-pro-stores.php:57
+#: includes/class-wc-pos-pro-stores.php:59
+#: includes/class-wc-pos-pro-stores.php:65
 msgid "Stores"
 msgstr "Καταστήματα"
 
-#: includes/class-wc-pos-pro-stores.php:44
-#: includes/class-wc-pos-pro-stores.php:88
+#: includes/class-wc-pos-pro-stores.php:58
+#: includes/class-wc-pos-pro-stores.php:103
 #: includes/widgets/class-wc-pos-pro-hours.php:82
 msgid "Store"
 msgstr "Κατάστημα"
 
-#: includes/class-wc-pos-pro-stores.php:46
-#: includes/class-wc-pos-pro-stores.php:47
+#: includes/class-wc-pos-pro-stores.php:60
+#: includes/class-wc-pos-pro-stores.php:61
 msgid "Add New Store"
 msgstr "Προσθέστε νέο κατάστημα"
 
-#: includes/class-wc-pos-pro-stores.php:48
+#: includes/class-wc-pos-pro-stores.php:62
 msgid "New Store"
 msgstr "Νέο κατάστημα"
 
-#: includes/class-wc-pos-pro-stores.php:49
+#: includes/class-wc-pos-pro-stores.php:63
 msgid "Edit Store"
 msgstr "Επεξεργασία καταστήματος"
 
-#: includes/class-wc-pos-pro-stores.php:50
+#: includes/class-wc-pos-pro-stores.php:64
 msgid "View Store"
 msgstr "Προβολή Καταστήματος "
 
-#: includes/class-wc-pos-pro-stores.php:52
+#: includes/class-wc-pos-pro-stores.php:66
 msgid "Search Stores"
 msgstr "Αναζήτηση Καταστημάτων"
 
-#: includes/class-wc-pos-pro-stores.php:53
+#: includes/class-wc-pos-pro-stores.php:67
 msgid "Parent Store:"
 msgstr "Μητρικό Κατάστημα:"
 
-#: includes/class-wc-pos-pro-stores.php:54
+#: includes/class-wc-pos-pro-stores.php:68
 msgid "No Stores found."
 msgstr "Δεν Βρέθηκαν Καταστήματα."
 
-#: includes/class-wc-pos-pro-stores.php:55
+#: includes/class-wc-pos-pro-stores.php:69
 msgid "No Stores found in Trash."
 msgstr "Δεν Βρέθηκαν Καταστήματα στον κάδο απορριμμάτων."
 
@@ -67,21 +80,14 @@ msgstr "Δεν Βρέθηκαν Καταστήματα στον κάδο απο�
 #. translators: wordpress
 #. translators: woocommerce
 #. translators: woocommerce
-#. translators: woocommerce
-#: includes/class-wc-pos-pro-template.php:103 includes/views/customers.php:14
-#: includes/views/customers.php:74 includes/views/print/receipt.php:185
+#: includes/class-wc-pos-pro-template.php:65
+#: includes/views/customers/tmpl-panel.php:7
+#: includes/views/modals/tmpl-customer-edit.php:12
+#: includes/views/print/receipt.php:185
 msgid "Email"
 msgstr "Email"
 
-#: includes/views/customers.php:25 includes/views/customers.php:62
-msgid "Add New Customer"
-msgstr "Προσθήκη Νέου Πελάτη"
-
-#: includes/views/customers.php:62
-msgid "Edit Customer"
-msgstr "Επεξεργασία Πελάτη"
-
-#: includes/views/pos.php:13
+#: includes/views/pos/cart/tmpl-customer.php:5
 msgid "Add Customer"
 msgstr "Προσθήκη Πελάτη"
 
@@ -101,15 +107,15 @@ msgstr "Ταμίας"
 msgid "Payment Method"
 msgstr "Μέθοδος Πληρωμής"
 
-#: includes/views/print/receipt.php:232
+#: includes/views/print/receipt.php:231
 msgid "Cart Subtotal"
 msgstr "Μερικό Σύνολο Καλαθιού "
 
-#: includes/views/print/receipt.php:290
+#: includes/views/print/receipt.php:289
 msgid "Amount Tendered"
 msgstr "Προσφερόμενο Ποσό"
 
-#: includes/views/products.php:88
+#: includes/views/products/tmpl-list-item.php:74
 msgid "On Sale?"
 msgstr "Σε Προσφορά;"
 
@@ -140,12 +146,12 @@ msgctxt "Abbreviation of Quantity"
 msgid "Qty"
 msgstr "Ποσότητα"
 
-#: includes/views/print/receipt.php:259 includes/views/print/receipt.php:269
+#: includes/views/print/receipt.php:258 includes/views/print/receipt.php:268
 msgctxt "abbreviation for includes (tax)"
 msgid "incl."
 msgstr "συμπ."
 
-#: includes/views/print/receipt.php:294
+#: includes/views/print/receipt.php:293
 msgctxt "Money returned from cash sale"
 msgid "Change"
 msgstr "Ρέστα"

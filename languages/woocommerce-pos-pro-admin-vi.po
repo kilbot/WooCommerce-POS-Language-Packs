@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-08-24 09:12:35+00:00\n"
+"POT-Creation-Date: 2015-10-29 13:23:19+00:00\n"
 "PO-Revision-Date: 2015-09-18 06:38+0000\n"
 "Last-Translator: Tran Ngoc Thanh Tung <thomastrant@gmail.com>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/kilbot/woocommerce-pos/"
@@ -39,44 +39,44 @@ msgstr ""
 "<b>Cảnh báo!</b> Bạn đang chặn yêu cầu bên ngoài có nghĩa là bạn sẽ không "
 "thể để có được %s cập nhật. Vui lòng thêm %s đến %s."
 
-#: includes/admin/class-wc-pos-pro-am.php:231
+#: includes/admin/class-wc-pos-pro-am.php:232
 msgid "Unable to connect to the activation server"
 msgstr "Không thể kết nối đến máy chủ để kích hoạt"
 
-#: includes/admin/class-wc-pos-pro-am.php:266
+#: includes/admin/class-wc-pos-pro-am.php:267
 msgid "Unable to parse the server response"
 msgstr "Không nhận được sự phản hồi của máy chủ"
 
-#: includes/admin/class-wc-pos-pro-am.php:278
+#: includes/admin/class-wc-pos-pro-am.php:279
 msgid "Invalid Request"
 msgstr "yêu cầu không hợp lệ"
 
-#: includes/admin/class-wc-pos-pro-am.php:280
-#: includes/admin/class-wc-pos-pro-am.php:284
+#: includes/admin/class-wc-pos-pro-am.php:281
+#: includes/admin/class-wc-pos-pro-am.php:285
 msgid "Invalid License Key"
 msgstr "Key bản quyền không hợp lệ"
 
-#: includes/admin/class-wc-pos-pro-am.php:281
+#: includes/admin/class-wc-pos-pro-am.php:282
 msgid "Activation error"
 msgstr "Lỗi kích hoạt"
 
-#: includes/admin/class-wc-pos-pro-am.php:282
+#: includes/admin/class-wc-pos-pro-am.php:283
 msgid "Exceeded maximum number of activations"
 msgstr "Vượt quá số lượng tối đa kích hoạt"
 
-#: includes/admin/class-wc-pos-pro-am.php:283
+#: includes/admin/class-wc-pos-pro-am.php:284
 msgid "Invalid Instance ID"
 msgstr "ID Instance không hợp lệ"
 
-#: includes/admin/class-wc-pos-pro-am.php:285
+#: includes/admin/class-wc-pos-pro-am.php:286
 msgid "Subscription is not active"
 msgstr "Thuê bao không hoạt động"
 
-#: includes/admin/class-wc-pos-pro-am.php:288
+#: includes/admin/class-wc-pos-pro-am.php:289
 msgid "Invalid Response"
 msgstr "Đáp ứng không hợp lệ"
 
-#: includes/admin/class-wc-pos-pro-am.php:306
+#: includes/admin/class-wc-pos-pro-am.php:307
 msgid ""
 "A license key for %s could not be found. Maybe you forgot to enter a license "
 "key when setting up %s, or the key was deactivated in your account. You can "
@@ -88,7 +88,7 @@ msgstr ""
 "bạn. Bạn có thể kích hoạt lại hoặc mua key bản quyền từ tài khoản của bạn <a "
 "href=\"%s\" target=\"_blank\">bảng điều khiển.</a>"
 
-#: includes/admin/class-wc-pos-pro-am.php:307
+#: includes/admin/class-wc-pos-pro-am.php:308
 msgid ""
 "The license key for %s has expired. You can reactivate or purchase a license "
 "key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
@@ -97,7 +97,7 @@ msgstr ""
 "bản quyền từ tài khoản của bạn <a href=\"%s\" target=\"_blank\">dashboard</"
 "a>."
 
-#: includes/admin/class-wc-pos-pro-am.php:308
+#: includes/admin/class-wc-pos-pro-am.php:309
 msgid ""
 "The subscription for %s is on-hold. You can reactivate the subscription from "
 "your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
@@ -105,7 +105,7 @@ msgstr ""
 "Các thuê bao cho %s là on-hold. Bạn có thể tái kích hoạt lại các thuê bao từ "
 "tài khoản của bạn <a href=\"%s\" target=\"_blank\">bảng điều khiển.</a>"
 
-#: includes/admin/class-wc-pos-pro-am.php:309
+#: includes/admin/class-wc-pos-pro-am.php:310
 msgid ""
 "The subscription for %s has been cancelled. You can renew the subscription "
 "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>. A new "
@@ -115,7 +115,7 @@ msgstr ""
 "của bạn <a href=\"%s\" target=\"_blank\">bảng điều khiển.</a> Một key bản "
 "quyền mới sẽ được gửi đến bạn sau khi bạn đã hoàn thành."
 
-#: includes/admin/class-wc-pos-pro-am.php:310
+#: includes/admin/class-wc-pos-pro-am.php:311
 msgid ""
 "The subscription for %s has expired. You can reactivate the subscription "
 "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
@@ -123,7 +123,7 @@ msgstr ""
 "Các thuê bao cho %s đã hết hạn. Bạn có thể kích hoạt lại các thuê bao từ tài "
 "khoản của bạn <a href=\"%s\" target=\"_blank\">bảng điều khiển.</a>"
 
-#: includes/admin/class-wc-pos-pro-am.php:311
+#: includes/admin/class-wc-pos-pro-am.php:312
 msgid ""
 "The subscription for %s has been suspended. You can reactivate the "
 "subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
@@ -132,7 +132,7 @@ msgstr ""
 "Các thuê bao cho %s đã bị treo. Bạn có thể kích hoạt lại các thuê bao từ tài "
 "khoản của bạn <a href=\"%s\" target=\"_blank\">bảng điều khiển.</a>"
 
-#: includes/admin/class-wc-pos-pro-am.php:312
+#: includes/admin/class-wc-pos-pro-am.php:313
 msgid ""
 "The subscription for %s is still pending. You can check on the status of the "
 "subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
@@ -142,7 +142,7 @@ msgstr ""
 "bao từ tài khoản của bạn <a href=\"%s\" target=\"_blank\">bảng điều khiển.</"
 "a>"
 
-#: includes/admin/class-wc-pos-pro-am.php:313
+#: includes/admin/class-wc-pos-pro-am.php:314
 msgid ""
 "The subscription for %s has been placed in the trash and will be deleted "
 "soon. You can purchase a new subscription from your account <a href=\"%s\" "
@@ -152,7 +152,7 @@ msgstr ""
 "mua một thuê bao mới từ tài khoản của bạn <a href=\"%s\" target=\"_blank"
 "\">bảng điều khiển.</a>"
 
-#: includes/admin/class-wc-pos-pro-am.php:314
+#: includes/admin/class-wc-pos-pro-am.php:315
 msgid ""
 "A subscription for %s could not be found. You can purchase a subscription "
 "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
@@ -160,7 +160,7 @@ msgstr ""
 "Một thuê bao cho% s không thể được tìm thấy. Bạn có thể mua một thuê bao từ "
 "tài khoản của bạn <a href=\"%s\" target=\"_blank\">bảng điều khiển.</a>"
 
-#: includes/admin/class-wc-pos-pro-am.php:315
+#: includes/admin/class-wc-pos-pro-am.php:316
 msgid ""
 "%s has not been activated. Go to the settings page and enter the license key "
 "and license email to activate %s."
@@ -168,7 +168,7 @@ msgstr ""
 "% s chưa được kích hoạt. Tới trang cài đặt và nhập key bản quyền và giấy "
 "phép email để kích hoạt% s."
 
-#: includes/admin/class-wc-pos-pro-am.php:316
+#: includes/admin/class-wc-pos-pro-am.php:317
 msgid ""
 "Download permission for %s has been revoked possibly due to a license key or "
 "subscription expiring. You can reactivate or purchase a license key from "
@@ -178,7 +178,7 @@ msgstr ""
 "đăng ký hết hạn. Bạn có thể kích hoạt lại hoặc mua key bản quyền từ tài "
 "khoản của bạn <a href=\"%s\" target=\"_blank\">bảng điều khiển.</a>"
 
-#: includes/admin/class-wc-pos-pro-am.php:317
+#: includes/admin/class-wc-pos-pro-am.php:318
 msgid ""
 "You changed the subscription for %s, so you will need to enter your new API "
 "License Key in the settings page. The License Key should have arrived in "
@@ -273,19 +273,19 @@ msgstr ""
 "Xin vui lòng <a href=\"%s\">đọc các tài liệu</a> thông tin về làm thế nào để "
 "tùy chỉnh biên lai POS của bạn."
 
-#: includes/admin/reports/class-wc-pos-pro-sales.php:166
-#: includes/admin/reports/class-wc-pos-pro-sales.php:169
-#: includes/admin/reports/class-wc-pos-pro-sales.php:236
-#: includes/admin/reports/class-wc-pos-pro-sales.php:250
-#: includes/admin/reports/class-wc-pos-pro-sales.php:268
-#: includes/admin/reports/class-wc-pos-pro-sales.php:274
+#: includes/admin/reports/class-wc-pos-pro-sales.php:168
+#: includes/admin/reports/class-wc-pos-pro-sales.php:171
+#: includes/admin/reports/class-wc-pos-pro-sales.php:238
+#: includes/admin/reports/class-wc-pos-pro-sales.php:252
+#: includes/admin/reports/class-wc-pos-pro-sales.php:270
+#: includes/admin/reports/class-wc-pos-pro-sales.php:276
 msgid "POS Sales"
 msgstr "POS bán hàng"
 
-#: includes/admin/reports/class-wc-pos-pro-sales.php:172
-#: includes/admin/reports/class-wc-pos-pro-sales.php:175
-#: includes/admin/reports/class-wc-pos-pro-sales.php:242
-#: includes/admin/reports/class-wc-pos-pro-sales.php:256
+#: includes/admin/reports/class-wc-pos-pro-sales.php:174
+#: includes/admin/reports/class-wc-pos-pro-sales.php:177
+#: includes/admin/reports/class-wc-pos-pro-sales.php:244
+#: includes/admin/reports/class-wc-pos-pro-sales.php:258
 msgid "Online Sales"
 msgstr "Bán hàng trực tuyến"
 
@@ -358,23 +358,31 @@ msgstr "Pro License"
 msgid "Customer Options"
 msgstr "Tùy chọn của khách hàng"
 
+#: includes/admin/settings/views/general.php:5
+msgid "Barcode Field"
+msgstr ""
+
+#: includes/admin/settings/views/general.php:6
+msgid "Select a meta field to use as the product barcode"
+msgstr ""
+
 #: includes/admin/settings/views/license.php:7
 msgid "Pro License Activation"
 msgstr "Giấy phép Pro Activation"
 
-#: includes/admin/settings/views/license.php:12
+#: includes/admin/settings/views/license.php:11
 msgid "Thank you!"
 msgstr "Cam on!"
 
-#: includes/admin/settings/views/license.php:13
+#: includes/admin/settings/views/license.php:11
 msgid "Your license is active"
 msgstr "Giấy phép của bạn đang hoạt động"
 
-#: includes/admin/settings/views/license.php:19
+#: includes/admin/settings/views/license.php:17
 msgid "License Email"
 msgstr "Giấy phép Email"
 
-#: includes/admin/settings/views/license.php:27
+#: includes/admin/settings/views/license.php:25
 msgid "License Key"
 msgstr "Mã bản quyền"
 
@@ -450,7 +458,7 @@ msgstr ""
 "Các mức thuế suất trên sẽ được sử dụng tại các điểm bán hàng. Bạn có thể <a "
 "href=\"%s\">thay đổi các mức thuế suất</a> trong cài đặt WooCommerce."
 
-#: includes/class-wc-pos-pro-activator.php:151
+#: includes/class-wc-pos-pro-activator.php:155
 msgid ""
 "<strong>WooCommerce POS Pro</strong> requires <a href=\"%s\">WooCommerce "
 "POS</a>. Please <a href=\"%s\">install and activate WooCommerce POS</a>"

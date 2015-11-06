@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-08-24 09:12:46+00:00\n"
+"POT-Creation-Date: 2015-10-29 13:23:18+00:00\n"
 "PO-Revision-Date: 2015-07-02 09:55+0000\n"
 "Last-Translator: Mustafa Mohammed <mustafamsy@gmail.com>\n"
 "Language-Team: Arabic (http://www.transifex.com/projects/p/woocommerce-pos/"
@@ -38,7 +38,7 @@ msgid "View POS"
 msgstr "عرض الـPOS"
 
 #: includes/admin/class-wc-pos-menu.php:53
-#: includes/admin/settings/views/checkout.php:102
+#: includes/admin/settings/views/checkout.php:101
 msgid "Upgrade to Pro"
 msgstr "ترقية للنسخة الاحترافية"
 
@@ -46,6 +46,18 @@ msgstr "ترقية للنسخة الاحترافية"
 #: includes/admin/views/order-details.php:4
 msgid "Online"
 msgstr "اونلاين"
+
+#. translators: wordpress
+#. translators: woocommerce
+#: includes/admin/class-wc-pos-plugins.php:26
+#: includes/admin/class-wc-pos-settings.php:35
+#: includes/admin/class-wc-pos-settings.php:37
+#: includes/admin/settings/views/checkout.php:76
+#: includes/admin/settings/views/checkout.php:106
+#: includes/admin/settings/views/checkout.php:111
+#, fuzzy
+msgid "Settings"
+msgstr "اعدادات POS"
 
 #: includes/admin/settings/class-wc-pos-access.php:25
 msgid "POS Access"
@@ -150,31 +162,31 @@ msgstr ""
 "من مسؤوليتك التأكد من أمان ملعومات زبائنك. نقل بيانات البطاقات الائتمانية أو "
 "ماشابهها من معلومات حساسة يجب أن يمر عبر اتصال آمن فقط."
 
-#: includes/admin/settings/views/checkout.php:66
+#: includes/admin/settings/views/checkout.php:65
 msgid "Gateway Display"
 msgstr "عرض بوابة الدفع"
 
-#: includes/admin/settings/views/checkout.php:74
+#: includes/admin/settings/views/checkout.php:73
 msgid "Online Status"
 msgstr "حالة الاونلاين"
 
-#: includes/admin/settings/views/checkout.php:75
+#: includes/admin/settings/views/checkout.php:74
 msgid "POS Status"
 msgstr "حالة POS"
 
-#: includes/admin/settings/views/checkout.php:76
+#: includes/admin/settings/views/checkout.php:75
 msgid "POS Settings"
 msgstr "اعدادات POS"
 
-#: includes/admin/settings/views/checkout.php:127
+#: includes/admin/settings/views/checkout.php:126
 msgid "Payment method title."
 msgstr "عنوان طريقة الدفع."
 
-#: includes/admin/settings/views/checkout.php:134
+#: includes/admin/settings/views/checkout.php:133
 msgid "Payment method description that will be shown in the POS."
 msgstr "وصف طريقة الدفع لعرضها في الـ POS"
 
-#: includes/admin/settings/views/checkout.php:140
+#: includes/admin/settings/views/checkout.php:139
 msgid "Icon"
 msgstr "الأيقونة"
 
@@ -251,6 +263,18 @@ msgstr ""
 msgid "Emulate RESTful HTTP methods to support legacy servers."
 msgstr ""
 
+#: includes/admin/settings/views/tools.php:54
+msgid "Local Data"
+msgstr ""
+
+#: includes/admin/settings/views/tools.php:59
+msgid "Clear Local Data"
+msgstr ""
+
+#: includes/admin/settings/views/tools.php:62
+msgid "Clear All Local Data"
+msgstr ""
+
 #: includes/admin/views/order-details.php:2
 msgid "Order type"
 msgstr "نوع الطلب"
@@ -263,13 +287,23 @@ msgstr ""
 "خطأ في جلب الإعدادات، الرجاء التواصل مع <a href=\"mailto:support@woopos.com."
 "au\">الدعم الفني</a>"
 
-#: includes/class-wc-pos-activator.php:192
+#: includes/class-wc-pos-activator.php:188
+#, fuzzy
 msgid ""
-"<strong>WooCommerce POS</strong> requires <a href=\"%s\">WooCommerce</a>. "
-"Please <a href=\"%s\">install and activate WooCommerce</a>"
+"<strong>WooCommerce POS</strong> requires <a href=\"%s\">WooCommerce %s or "
+"higher</a>. Please <a href=\"%s\">install and activate WooCommerce</a>"
 msgstr ""
 "<strong>ووكومرس POS</strong> يطلب <a href=\"%s\">ووكومرس</a> الرجاء <a href="
 "\"%s\">تثبيت وتفعيل ووكومرس</a> أولاً"
+
+#: includes/class-wc-pos-activator.php:207
+#, fuzzy
+msgid ""
+"<strong>WooCommerce POS</strong> requires PHP %s or higher. Read more "
+"information about <a href=\"%s\">how you can update</a>"
+msgstr ""
+"<strong>ووكومرس POS </strong> يطلب ووكومرس Rest API. الرجاء <a href=\"%s"
+"\">تفعيل REST API</a>"
 
 #: includes/products/class-wc-pos-visibility.php:23
 msgid "POS & Online"
@@ -290,7 +324,7 @@ msgstr "اونلاين فقط"
 msgid "POS visibility"
 msgstr "رؤية الـ POS"
 
-#: includes/admin/class-wc-pos-permalink.php:28
+#: includes/admin/class-wc-pos-permalink.php:30
 msgctxt "Permalink setting, eg: /pos"
 msgid "POS base"
 msgstr "قاعدة الـ POS"
@@ -300,7 +334,7 @@ msgctxt "keyboard shortcuts"
 msgid "HotKeys"
 msgstr "مفاتيح التشغيل (الاختصارات)"
 
-#: includes/admin/settings/views/checkout.php:144
+#: includes/admin/settings/views/checkout.php:143
 msgctxt "POS checkout settings"
 msgid "Show payment gateway icon."
 msgstr "عرض أيقونة نوافذ الدفع"
@@ -309,13 +343,6 @@ msgstr "عرض أيقونة نوافذ الدفع"
 msgctxt "Default customer setting"
 msgid "Use cashier account"
 msgstr "استخدم حساب الكاشير"
-
-#~ msgid ""
-#~ "<strong>WooCommerce POS</strong> requires the WooCommerce REST API. "
-#~ "Please <a href=\"%s\">enable the REST API</a>"
-#~ msgstr ""
-#~ "<strong>ووكومرس POS </strong> يطلب ووكومرس Rest API. الرجاء <a href=\"%s"
-#~ "\">تفعيل REST API</a>"
 
 #~ msgid ""
 #~ "<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks "

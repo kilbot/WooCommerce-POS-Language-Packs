@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-08-24 09:12:46+00:00\n"
+"POT-Creation-Date: 2015-10-29 13:23:18+00:00\n"
 "PO-Revision-Date: 2015-07-15 16:17+0000\n"
 "Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
 "Language-Team: Swedish (Sweden) (http://www.transifex.com/p/woocommerce-pos/"
@@ -19,43 +19,31 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: grunt-wp-i18n 0.5.2\n"
 
-#: includes/api/class-wc-pos-orders.php:476
+#: includes/api/class-wc-pos-orders.php:471
 msgid "There was an error processing the payment"
 msgstr "Ett fel inträffade vid behandlingen av betalningen"
 
-#: includes/api/class-wc-pos-orders.php:502
+#: includes/api/class-wc-pos-orders.php:497
 msgid "You are now being redirected offsite to complete the payment. "
 msgstr "Du är nu omdirigeras offsite att slutföra betalningen."
 
-#: includes/api/class-wc-pos-orders.php:503
+#: includes/api/class-wc-pos-orders.php:498
 msgid "<a href=\"%s\">Click here</a> if you are not redirected automatically. "
 msgstr "<a href=\"%s\">Klicka här</a> om du inte omdirigeras automatiskt."
 
-#: includes/api/class-wc-pos-orders.php:517
+#: includes/api/class-wc-pos-orders.php:512
 msgid "POS Transaction completed."
 msgstr "POS transaktion avslutad."
 
-#: includes/class-wc-pos-ajax.php:107
-msgid "There is no settings id"
-msgstr "Det finns ingen inställningar id"
-
-#: includes/class-wc-pos-ajax.php:125
-msgid "No handler found for %s settings"
-msgstr "Ingen hanterare hittades för %s inställningar"
-
-#: includes/class-wc-pos-ajax.php:156
-msgid "Settings error"
-msgstr "Inställningar fel"
-
-#: includes/class-wc-pos-ajax.php:175 includes/class-wc-pos-ajax.php:199
+#: includes/class-wc-pos-ajax.php:105 includes/class-wc-pos-ajax.php:129
 msgid "Email sent"
 msgstr "E-post skickas"
 
-#: includes/class-wc-pos-ajax.php:183 includes/class-wc-pos-ajax.php:204
+#: includes/class-wc-pos-ajax.php:113 includes/class-wc-pos-ajax.php:134
 msgid "There was an error sending the email"
 msgstr "Det uppstod ett fel skickar e-post"
 
-#: includes/class-wc-pos-ajax.php:237
+#: includes/class-wc-pos-ajax.php:167 includes/class-wc-pos-server.php:46
 msgid "Invalid security nonce"
 msgstr "Ogiltig säkerhet nonce"
 
@@ -63,88 +51,109 @@ msgstr "Ogiltig säkerhet nonce"
 msgid "User not authorized to access WooCommerce POS"
 msgstr "Användaren har rätt att få tillgång till WooCommerce POS"
 
-#: includes/class-wc-pos-i18n.php:310
+#: includes/class-wc-pos-i18n.php:332
 msgid "To Pay"
 msgstr "Att Betala"
 
-#: includes/class-wc-pos-i18n.php:311
+#: includes/class-wc-pos-i18n.php:333
 msgid "Paid"
 msgstr "Betald"
 
-#: includes/class-wc-pos-i18n.php:312
+#: includes/class-wc-pos-i18n.php:334
 msgid "Unpaid"
 msgstr "Obetald"
 
-#: includes/class-wc-pos-i18n.php:313
+#: includes/class-wc-pos-i18n.php:335
 msgid "Email Receipt"
 msgstr "E-post mottagare"
 
-#: includes/class-wc-pos-i18n.php:317
-msgid "Local Storage"
-msgstr "Lokal lagring"
+#: includes/class-wc-pos-i18n.php:338
+msgid "Support Form"
+msgstr "Stöd Formulär"
 
 #. translators: wordpress
 #. translators: woocommerce
 #. translators: wordpress
-#: includes/class-wc-pos-i18n.php:325 includes/views/print/receipt.php:142
-#: includes/views/support.php:23
+#: includes/class-wc-pos-i18n.php:352
+#: includes/views/print/tmpl-receipt.php:142
+#: includes/views/support/tmpl-form.php:16
 msgid "Email"
 msgstr "E-post"
 
-#: includes/class-wc-pos-i18n.php:330
+#: includes/class-wc-pos-i18n.php:361
 msgid "Process Payment"
 msgstr "Genomför Betalning"
 
-#: includes/class-wc-pos-i18n.php:334
+#: includes/class-wc-pos-i18n.php:366
 msgid "Return to Sale"
 msgstr "Återgå till försäljning"
 
-#: includes/class-wc-pos-i18n.php:336
+#: includes/class-wc-pos-i18n.php:369
 msgid "Send"
 msgstr "Skicka"
 
-#: includes/class-wc-pos-i18n.php:338
+#: includes/class-wc-pos-i18n.php:372
 msgid "Void"
 msgstr "Upphäv"
 
-#: includes/class-wc-pos-i18n.php:341
+#: includes/class-wc-pos-i18n.php:377
 msgid "Enable legacy server support"
 msgstr "Aktivera gamla servern stöd"
 
-#: includes/class-wc-pos-i18n.php:348
+#: includes/class-wc-pos-i18n.php:388
 msgid "Your browser is not supported!"
 msgstr "Din webbläsare stöds inte!"
 
-#: includes/class-wc-pos-i18n.php:349
+#: includes/class-wc-pos-i18n.php:389
 msgid "Unable to use RESTful HTTP methods"
 msgstr "Det går inte att använda RESTful HTTP-metoderna"
 
-#: includes/class-wc-pos-status.php:31
+#: includes/class-wc-pos-i18n.php:394
+msgid "No payment gateways enabled."
+msgstr "Inga betalnings gateways aktiverade. "
+
+#: includes/class-wc-pos-params.php:226
+msgid "POS"
+msgstr "POS"
+
+#: includes/class-wc-pos-settings.php:168
+msgid "There is no settings id"
+msgstr "Det finns ingen inställningar id"
+
+#: includes/class-wc-pos-settings.php:186
+msgid "No handler found for %s settings"
+msgstr "Ingen hanterare hittades för %s inställningar"
+
+#: includes/class-wc-pos-settings.php:223
+msgid "Settings error"
+msgstr "Inställningar fel"
+
+#: includes/class-wc-pos-status.php:28
 msgid "WC Version"
 msgstr "WC version"
 
-#: includes/class-wc-pos-status.php:38
+#: includes/class-wc-pos-status.php:35
 msgid "WooCommerce >= %s required"
 msgstr "WooCommerce >= %s krävs"
 
-#: includes/class-wc-pos-status.php:70
+#: includes/class-wc-pos-status.php:67
 #, fuzzy
 msgid "PHP >= %s required"
 msgstr "WooCommerce >= %s krävs"
 
-#: includes/class-wc-pos-status.php:91
+#: includes/class-wc-pos-status.php:88
 msgid "WC REST API"
 msgstr "WC REST API"
 
-#: includes/class-wc-pos-status.php:92
+#: includes/class-wc-pos-status.php:89
 msgid "API is active"
 msgstr "API är aktiv"
 
-#: includes/class-wc-pos-status.php:129
+#: includes/class-wc-pos-status.php:126
 msgid "Access to the REST API is required"
 msgstr "Tillgång till REST API krävs "
 
-#: includes/class-wc-pos-status.php:149
+#: includes/class-wc-pos-status.php:146
 msgid ""
 "<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to "
 "work correctly"
@@ -152,13 +161,9 @@ msgstr ""
 "<strong>WooCommerce REST API</strong> kräver <em>ganska</em> permalänkar att "
 "fungera korrekt"
 
-#: includes/class-wc-pos-status.php:153
+#: includes/class-wc-pos-status.php:150
 msgid "Enable permalinks"
 msgstr "Aktivera permalänkar"
-
-#: includes/class-wc-pos-template.php:144
-msgid "POS"
-msgstr "POS"
 
 #: includes/gateways/class-wc-pos-card.php:20
 msgid "Card"
@@ -166,8 +171,8 @@ msgstr "Kort"
 
 #: includes/gateways/class-wc-pos-card.php:52
 #: includes/gateways/class-wc-pos-card.php:55
-#: includes/gateways/class-wc-pos-card.php:82
-#: includes/gateways/class-wc-pos-card.php:116
+#: includes/gateways/class-wc-pos-card.php:84
+#: includes/gateways/class-wc-pos-card.php:118
 msgid "Cashback"
 msgstr "Pengar tillbaka"
 
@@ -177,8 +182,8 @@ msgstr "Kontanter"
 
 #: includes/gateways/class-wc-pos-cash.php:52
 #: includes/gateways/class-wc-pos-cash.php:55
-#: includes/gateways/class-wc-pos-cash.php:90
-#: includes/views/print/receipt.php:247
+#: includes/gateways/class-wc-pos-cash.php:91
+#: includes/views/print/tmpl-receipt.php:246
 msgid "Amount Tendered"
 msgstr "Summa betald"
 
@@ -203,58 +208,54 @@ msgstr ""
 "Om du tror att du har fått det här meddelandet av misstag kontakta support "
 "via <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
 
-#: includes/views/pos/checkout.php:26
-msgid "No payment gateways enabled."
-msgstr "Inga betalnings gateways aktiverade. "
-
-#: includes/views/pos/products.php:13
+#: includes/views/pos/products/tmpl-filter.php:7
 msgid "Scan Barcode"
 msgstr "Scanna streckkod"
 
-#: includes/views/pos/products.php:79
-msgid "Showing %s of %s"
-msgstr "Visar% s av% s"
-
-#: includes/views/pos/products.php:80
-msgid "%s in queue"
-msgstr "% si kö"
-
-#: includes/views/print/receipt.php:115
+#: includes/views/print/tmpl-receipt.php:115
 msgid "Billing Address"
 msgstr "Faktureringsadress"
 
-#: includes/views/print/receipt.php:118
+#: includes/views/print/tmpl-receipt.php:118
 msgid "Shipping Address"
 msgstr "Leveransadress"
 
-#: includes/views/print/receipt.php:127
+#: includes/views/print/tmpl-receipt.php:127
 msgid "Order Date"
 msgstr "Order Datum"
 
-#: includes/views/print/receipt.php:132
+#: includes/views/print/tmpl-receipt.php:132
 #, fuzzy
 msgid "Cashier"
 msgstr "Kontanter"
 
-#: includes/views/print/receipt.php:137
+#: includes/views/print/tmpl-receipt.php:137
 msgid "Payment Method"
 msgstr "Betalningsmetod"
 
-#: includes/views/support.php:11
-msgid "Support Form"
-msgstr "Stöd Formulär"
-
-#: includes/views/support.php:28
+#: includes/views/support/tmpl-form.php:21
 msgid "Describe your problem here ..."
 msgstr "Beskriv ditt problem här ..."
 
-#: includes/views/support.php:32
+#: includes/views/support/tmpl-form.php:28
 msgid "Append POS system report"
 msgstr "Bifoga POS systemrapport"
 
-#: includes/views/template.php:12
+#: includes/views/support/tmpl-status.php:31
+msgid "Local Storage"
+msgstr "Lokal lagring"
+
+#: includes/views/template.php:8
 msgid "Point of Sale"
 msgstr "Point of Sale"
+
+#: includes/views/tmpl-pagination.php:2
+msgid "Showing %s of %s"
+msgstr "Visar% s av% s"
+
+#: includes/views/tmpl-pagination.php:3
+msgid "%s in queue"
+msgstr "% si kö"
 
 #. Description of the plugin/theme
 msgid ""
@@ -266,70 +267,73 @@ msgstr ""
 "kräver <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</"
 "a>.  "
 
-#: includes/class-wc-pos-i18n.php:298
+#: includes/class-wc-pos-i18n.php:310
 msgctxt "system status: browser capabilities"
 msgid "Browser"
 msgstr "Webbläsare"
 
-#: includes/class-wc-pos-i18n.php:304
+#: includes/class-wc-pos-i18n.php:321
 msgctxt "keyboard shortcuts"
 msgid "HotKeys"
 msgstr "Snabbtangenter"
 
-#: includes/views/help.php:7
-msgctxt "keyboard shortcuts"
-msgid "Hotkeys"
-msgstr "Snabbtangenter"
-
-#: includes/class-wc-pos-i18n.php:314
+#: includes/class-wc-pos-i18n.php:336
 msgctxt "order status, ie: open order in cart"
 msgid "Open"
 msgstr "Öppen"
 
-#: includes/class-wc-pos-i18n.php:315
-#: includes/gateways/class-wc-pos-cash.php:92
-#: includes/views/print/receipt.php:251
+#: includes/class-wc-pos-i18n.php:337
+#: includes/gateways/class-wc-pos-cash.php:93
+#: includes/views/print/tmpl-receipt.php:250
 msgctxt "Money returned from cash sale"
 msgid "Change"
 msgstr "Ändra"
 
-#: includes/class-wc-pos-i18n.php:321
+#: includes/class-wc-pos-i18n.php:345
 msgctxt "system status: delete local records"
 msgid "Clear"
 msgstr "Klar"
 
-#: includes/class-wc-pos-i18n.php:332
+#: includes/class-wc-pos-i18n.php:364
 msgctxt "restore default settings"
 msgid "Restore defaults"
 msgstr "Återställ standard"
 
-#: includes/class-wc-pos-i18n.php:333
+#: includes/class-wc-pos-i18n.php:365
 msgctxt "Numpad return key"
 msgid "return"
 msgstr "retur"
 
-#: includes/class-wc-pos-i18n.php:352
+#: includes/class-wc-pos-i18n.php:399
 msgctxt "eg: 23 records"
 msgid "record |||| records"
 msgstr "artikel |||| artiklar"
 
-#: includes/class-wc-pos-params.php:76
+#: includes/class-wc-pos-params.php:84
 msgctxt "Product tab: 'On Sale' products"
 msgid "On Sale"
 msgstr "Till Salu"
 
-#: includes/views/pos/cart.php:9 includes/views/pos/receipt.php:10
-#: includes/views/print/receipt.php:157
+#: includes/views/pos/cart/tmpl-panel.php:2
+#: includes/views/pos/receipt/tmpl-panel.php:3
+#: includes/views/print/tmpl-receipt.php:157
 msgctxt "Abbreviation of Quantity"
 msgid "Qty"
 msgstr "Antal"
 
-#: includes/views/pos/cart.php:109 includes/views/pos/cart.php:120
-#: includes/views/pos/receipt.php:84 includes/views/pos/receipt.php:94
-#: includes/views/print/receipt.php:216 includes/views/print/receipt.php:226
+#: includes/views/pos/cart/tmpl-totals.php:19
+#: includes/views/pos/cart/tmpl-totals.php:30
+#: includes/views/pos/receipt/tmpl-totals.php:29
+#: includes/views/pos/receipt/tmpl-totals.php:39
+#: includes/views/print/tmpl-receipt.php:215
+#: includes/views/print/tmpl-receipt.php:225
 msgctxt "abbreviation for includes (tax)"
 msgid "incl."
 msgstr "inkl."
+
+#~ msgctxt "keyboard shortcuts"
+#~ msgid "Hotkeys"
+#~ msgstr "Snabbtangenter"
 
 #~ msgid "Unable to test the REST API"
 #~ msgstr "Det går inte att testa REST API"

@@ -11,6 +11,7 @@ module.exports = function(grunt) {
     'da_DK',
     'de_DE',
     'el',
+    'es_CL',
     'es_ES',
     'et',
     'fi',

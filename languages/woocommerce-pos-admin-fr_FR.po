@@ -7,17 +7,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
-"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
-"Packs/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
 "POT-Creation-Date: 2015-10-29 13:23:18+00:00\n"
-"PO-Revision-Date: 2015-09-22 06:02+0000\n"
-"Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
-"Language-Team: French (France) (http://www.transifex.com/kilbot/woocommerce-"
-"pos/language/fr_FR/)\n"
-"Language: fr_FR\n"
+"PO-Revision-Date: 2015-12-10 16:07+0000\n"
+"Last-Translator: Steven Roh <stivikipirdi@gmail.com>\n"
+"Language-Team: French (France) (http://www.transifex.com/kilbot/woocommerce-pos/language/fr_FR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: grunt-wp-i18n 0.5.3\n"
 
@@ -56,9 +54,8 @@ msgstr "En ligne"
 #: includes/admin/settings/views/checkout.php:76
 #: includes/admin/settings/views/checkout.php:106
 #: includes/admin/settings/views/checkout.php:111
-#, fuzzy
 msgid "Settings"
-msgstr "Paramètres du point de vente"
+msgstr "Paramètres"
 
 #: includes/admin/settings/class-wc-pos-access.php:25
 msgid "POS Access"
@@ -88,26 +85,19 @@ msgstr "Accorder l'accès point de vente"
 msgid ""
 "By default, access to the POS is limited to Administrator and Shop Manager "
 "roles."
-msgstr ""
-"Par défaut, l'accès au point de vente est limité aux rôles administrateur et "
-"gestionnaire du commerce."
+msgstr "Par défaut, l'accès au point de vente est limité aux rôles administrateur et gestionnaire du commerce."
 
 #: includes/admin/settings/views/access.php:11
 msgid ""
 "It is recommended that you <strong>do not change</strong> the default "
 "settings unless you are fully aware of the consequences."
-msgstr ""
-"Il est recommandé que vous ne changiez pas les paramètres par défaut, sauf "
-"si vous êtes pleinement conscient des conséquences."
+msgstr "Il est recommandé que vous ne changiez pas les paramètres par défaut, sauf si vous êtes pleinement conscient des conséquences."
 
 #: includes/admin/settings/views/access.php:12
 #: includes/admin/settings/views/checkout.php:60
 #: includes/admin/settings/views/hotkeys.php:6
-msgid ""
-"For more information please visit <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
-msgstr ""
-"Pour obtenir des informations supplémentaires, veuillez svp visiter <a href="
-"\"%1$s\" target=\"_blank\">%1$s</a>"
+msgid "For more information please visit <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
+msgstr "Pour obtenir des informations supplémentaires, veuillez svp visiter <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
 
 #: includes/admin/settings/views/checkout.php:13
 msgid "Completed Order Status"
@@ -115,8 +105,7 @@ msgstr "Statut des commandes terminées"
 
 #: includes/admin/settings/views/checkout.php:14
 msgid "Change the default order status for POS sales"
-msgstr ""
-"Changer le statut des commandes par défaut pour les commandes point de vente."
+msgstr "Changer le statut des commandes par défaut pour les commandes point de vente."
 
 #: includes/admin/settings/views/checkout.php:27
 msgid "Order Emails"
@@ -124,9 +113,7 @@ msgstr "Emails de commande"
 
 #: includes/admin/settings/views/checkout.php:28
 msgid "Send WooCommerce notification emails for POS orders"
-msgstr ""
-"Envoyer les emails de notification WooCommerce pour les commandes point de "
-"vente"
+msgstr "Envoyer les emails de notification WooCommerce pour les commandes point de vente"
 
 #: includes/admin/settings/views/checkout.php:32
 msgid "Enable admin emails"
@@ -146,31 +133,23 @@ msgstr "Imprimer automatiquement le reçu après le règlement"
 
 #: includes/admin/settings/views/checkout.php:54
 msgid ""
-"Installed gateways are listed below. Drag and drop gateways to control their "
-"display order at the Point of Sale. "
-msgstr ""
-"Les passerelles installées sont listées ci-dessous. Cliquer et glisser les "
-"passerelles pour contrôler l'ordre d'affichage dans le point de vente. "
+"Installed gateways are listed below. Drag and drop gateways to control their"
+" display order at the Point of Sale. "
+msgstr "Les passerelles installées sont listées ci-dessous. Cliquer et glisser les passerelles pour contrôler l'ordre d'affichage dans le point de vente. "
 
 #: includes/admin/settings/views/checkout.php:55
 msgid ""
 "Payment Gateways enabled here will be available at the Point of Sale. "
 "Payment Gateways enabled on the settings page will be available in your "
 "Online Store. "
-msgstr ""
-"Passerelles de paiement activés ici seront disponibles au point de vente. "
-"Passerelles de paiement activés sur la page des paramètres seront "
-"disponibles dans votre magasin en ligne."
+msgstr "Passerelles de paiement activés ici seront disponibles au point de vente. Passerelles de paiement activés sur la page des paramètres seront disponibles dans votre magasin en ligne."
 
 #: includes/admin/settings/views/checkout.php:59
 msgid ""
 "It is your responsibility to ensure the security of your customer's "
 "information. Transmitting credit card or other sensitive information should "
 "only be done using a secure connnection."
-msgstr ""
-"C'est de votre responsabilité de garantir la sécurité des informations de "
-"vos clients. La transmission de cartes de crédit ou autres informations "
-"sensibles doivent être effectuées en utilisant une connexion securisée."
+msgstr "C'est de votre responsabilité de garantir la sécurité des informations de vos clients. La transmission de cartes de crédit ou autres informations sensibles doivent être effectuées en utilisant une connexion securisée."
 
 #: includes/admin/settings/views/checkout.php:65
 msgid "Gateway Display"
@@ -214,9 +193,7 @@ msgstr "Autoriser les quantités décimales"
 
 #: includes/admin/settings/views/general.php:24
 msgid "Allows items to have decimal values in the quantity field, eg: 0.25"
-msgstr ""
-"Autoriser les éléments a avoir des valeurs décimales dans le champ quantité, "
-"par exemple: 0.25"
+msgstr "Autoriser les éléments a avoir des valeurs décimales dans le champ quantité, par exemple: 0.25"
 
 #: includes/admin/settings/views/general.php:34
 msgid "Default POS Customer"
@@ -225,9 +202,7 @@ msgstr "Client du point de vente par défaut"
 #: includes/admin/settings/views/general.php:35
 msgid ""
 "The default customer for POS orders, eg: Guest or create a new customer."
-msgstr ""
-"Le client par défaut pour les commandes point de vente, par ex: Invité ou "
-"créer un nouveau client."
+msgstr "Le client par défaut pour les commandes point de vente, par ex: Invité ou créer un nouveau client."
 
 #: includes/admin/settings/views/general.php:46
 msgid "Discount Quick Keys"
@@ -235,8 +210,7 @@ msgstr "Touches rapides pour rabais"
 
 #: includes/admin/settings/views/general.php:47
 msgid "Configure discount keys for quick numpad entry"
-msgstr ""
-"Configurer les touches de rabais pour une saisie rapide via le pavé numérique"
+msgstr "Configurer les touches de rabais pour une saisie rapide via le pavé numérique"
 
 #: includes/admin/settings/views/hotkeys.php:1
 msgid "Keyboard Shortcuts"
@@ -246,16 +220,13 @@ msgstr "Raccourcis clavier"
 msgid ""
 "You can trigger certain events in WooCommerce POS using keyboard shortcuts "
 "(HotKeys)."
-msgstr ""
-"Vous pouvez déclencher certains événements dans WooCommerce POS aide de "
-"raccourcis clavier (les touches de raccourci)."
+msgstr "Vous pouvez déclencher certains événements dans WooCommerce POS aide de raccourcis clavier (les touches de raccourci)."
 
 #: includes/admin/settings/views/hotkeys.php:5
 msgid ""
-"HotKeys can also be used as a prefix for your barcode scanner or card reader."
-msgstr ""
-"HotKeys peuvent également être utilisés comme préfixe pour votre lecteur de "
-"codes barres ou lecteur de carte."
+"HotKeys can also be used as a prefix for your barcode scanner or card "
+"reader."
+msgstr "HotKeys peuvent également être utilisés comme préfixe pour votre lecteur de codes barres ou lecteur de carte."
 
 #: includes/admin/settings/views/tools.php:33
 msgid "Receipt Template"
@@ -279,15 +250,15 @@ msgstr "Émuler méthodes HTTP RESTful pour soutenir les serveurs hérités."
 
 #: includes/admin/settings/views/tools.php:54
 msgid "Local Data"
-msgstr ""
+msgstr "Données locales"
 
 #: includes/admin/settings/views/tools.php:59
 msgid "Clear Local Data"
-msgstr ""
+msgstr "Supprimer les données locales"
 
 #: includes/admin/settings/views/tools.php:62
 msgid "Clear All Local Data"
-msgstr ""
+msgstr "Supprimer toutes les données locales"
 
 #: includes/admin/views/order-details.php:2
 msgid "Order type"
@@ -295,31 +266,21 @@ msgstr "Type de commande"
 
 #: includes/admin/views/settings.php:13
 msgid ""
-"There has been an error loading the settings, please contact <a href="
-"\"mailto:support@woopos.com.au\">support</a>"
-msgstr ""
-"Une erreur s'est produite lors du chargement des paramètres, veuillez svp "
-"contacter le <a href=\"mailto:support@woopos.com.au\">support</a>"
+"There has been an error loading the settings, please contact <a "
+"href=\"mailto:support@woopos.com.au\">support</a>"
+msgstr "Une erreur s'est produite lors du chargement des paramètres, veuillez svp contacter le <a href=\"mailto:support@woopos.com.au\">support</a>"
 
 #: includes/class-wc-pos-activator.php:188
-#, fuzzy
 msgid ""
 "<strong>WooCommerce POS</strong> requires <a href=\"%s\">WooCommerce %s or "
 "higher</a>. Please <a href=\"%s\">install and activate WooCommerce</a>"
-msgstr ""
-"<strong>WooCommerce Point de vente</strong> requiert <a href=\"%s"
-"\">WooCommerce</a>. Veuillez svp <a href=\"%s\">installer et activer "
-"WooCommerce</a>"
+msgstr "<strong>WooCommerce Point de vente</strong> requiert <a href=\"%s\">WooCommerce %s ou supérieur</a>. Veuillez svp <a href=\"%s\">installer et activer WooCommerce</a>"
 
 #: includes/class-wc-pos-activator.php:207
-#, fuzzy
 msgid ""
 "<strong>WooCommerce POS</strong> requires PHP %s or higher. Read more "
 "information about <a href=\"%s\">how you can update</a>"
-msgstr ""
-"<strong>WooCommerce Point de vente</strong> requiert <a href=\"%s"
-"\">WooCommerce</a>. Veuillez svp <a href=\"%s\">installer et activer "
-"WooCommerce</a>"
+msgstr "<strong>WooCommerce Point de vente</strong> requiert PHP %s ou supérieur. Veuillez svp lire plus d'information sur <a href=\"%s\">comment mettre à jour</a>"
 
 #: includes/products/class-wc-pos-visibility.php:23
 msgid "POS & Online"

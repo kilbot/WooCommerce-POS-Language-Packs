@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
 "POT-Creation-Date: 2015-10-29 13:23:19+00:00\n"
-"PO-Revision-Date: 2015-12-14 23:10+0000\n"
+"PO-Revision-Date: 2015-12-14 23:15+0000\n"
 "Last-Translator: OttNorml <ottnorml@gmail.com>\n"
 "Language-Team: German (Germany) (http://www.transifex.com/kilbot/woocommerce-pos/language/de_DE/)\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr "Der %s Lizenzschlüssel wurde noch nicht aktiviert - das Plugin ist desh
 
 #: includes/admin/class-wc-pos-pro-am.php:73
 msgid " <a href=\"%s\">Click here</a> to activate the license key and the plugin."
-msgstr "<a href=\"%s\">Klicken Sie hier</a>, um den Lizenzschlüssel und das Plugin zu aktivieren."
+msgstr "<a href=\"%s\">Klicken Sie hier</a> um den Lizenzschlüssel und das Plugin zu aktivieren."
 
 #: includes/admin/class-wc-pos-pro-am.php:106
 msgid ""
@@ -75,7 +75,7 @@ msgid ""
 " key when setting up %s, or the key was deactivated in your account. You can"
 " reactivate or purchase a license key from your account <a href=\"%s\" "
 "target=\"_blank\">dashboard</a>."
-msgstr "Der Lizenzschlüssel für %s konnte nicht gefunden werden. Vielleicht haben Sie vergessen den Lizenzschlüssel während der Einrichtung von %s einzugeben, oder der Schlüssel wurde in Ihrem Konto deaktiviert. Sie können ihn reaktivieren oder einen neuen Lizenzschlüssel über ihr Konto-<a href=\"%s\" target=\"_blank\">dashboard</a> kaufen."
+msgstr "Der Lizenzschlüssel für %s konnte nicht gefunden werden. Vielleicht haben Sie vergessen den Lizenzschlüssel während der Einrichtung von %s einzugeben oder der Schlüssel wurde in Ihrem Konto deaktiviert. Sie können ihn reaktivieren oder einen neuen Lizenzschlüssel über ihr Konto-<a href=\"%s\" target=\"_blank\">Dashboard</a> kaufen."
 
 #: includes/admin/class-wc-pos-pro-am.php:308
 msgid ""

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-10-29 13:23:18+00:00\n"
+"POT-Creation-Date: 2015-12-18 01:13:14+00:00\n"
 "PO-Revision-Date: 2015-07-15 16:17+0000\n"
 "Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
 "Language-Team: Swedish (Sweden) (http://www.transifex.com/p/woocommerce-pos/"
@@ -19,114 +19,408 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: grunt-wp-i18n 0.5.2\n"
 
-#: includes/api/class-wc-pos-orders.php:471
-msgid "There was an error processing the payment"
-msgstr "Ett fel inträffade vid behandlingen av betalningen"
+#: includes/admin/class-wc-pos-gateways.php:31
+msgid "Online Store"
+msgstr ""
 
-#: includes/api/class-wc-pos-orders.php:497
-msgid "You are now being redirected offsite to complete the payment. "
-msgstr "Du är nu omdirigeras offsite att slutföra betalningen."
+#: includes/admin/class-wc-pos-gateways.php:32
+#: includes/admin/class-wc-pos-menu.php:34
+#: includes/admin/class-wc-pos-menu.php:35
+#: includes/admin/class-wc-pos-orders.php:94
+#: includes/admin/views/order-details.php:5
+#: includes/api/class-wc-pos-params.php:259
+msgid "POS"
+msgstr "POS"
 
-#: includes/api/class-wc-pos-orders.php:498
-msgid "<a href=\"%s\">Click here</a> if you are not redirected automatically. "
-msgstr "<a href=\"%s\">Klicka här</a> om du inte omdirigeras automatiskt."
+#: includes/admin/class-wc-pos-menu.php:44
+#: includes/admin/class-wc-pos-menu.php:45
+msgid "View POS"
+msgstr ""
 
-#: includes/api/class-wc-pos-orders.php:512
-msgid "POS Transaction completed."
-msgstr "POS transaktion avslutad."
+#: includes/admin/class-wc-pos-menu.php:53
+#: includes/admin/settings/views/checkout.php:101
+msgid "Upgrade to Pro"
+msgstr ""
 
-#: includes/class-wc-pos-ajax.php:105 includes/class-wc-pos-ajax.php:129
-msgid "Email sent"
-msgstr "E-post skickas"
+#: includes/admin/class-wc-pos-orders.php:95
+#: includes/admin/views/order-details.php:4
+msgid "Online"
+msgstr ""
 
-#: includes/class-wc-pos-ajax.php:113 includes/class-wc-pos-ajax.php:134
-msgid "There was an error sending the email"
-msgstr "Det uppstod ett fel skickar e-post"
+#. translators: wordpress
+#. translators: woocommerce
+#: includes/admin/class-wc-pos-plugins.php:26
+#: includes/admin/class-wc-pos-settings.php:34
+#: includes/admin/class-wc-pos-settings.php:36
+#: includes/admin/settings/views/checkout.php:76
+#: includes/admin/settings/views/checkout.php:106
+#: includes/admin/settings/views/checkout.php:111
+#, fuzzy
+msgid "Settings"
+msgstr "Inställningar fel"
 
-#: includes/class-wc-pos-ajax.php:167 includes/class-wc-pos-server.php:46
-msgid "Invalid security nonce"
-msgstr "Ogiltig säkerhet nonce"
+#. translators: wordpress
+#. translators: woocommerce
+#. translators: woocommerce
+#: includes/admin/class-wc-pos-status.php:32
+#: includes/admin/class-wc-pos-status.php:34
+#: includes/admin/settings/class-wc-pos-status.php:22
+#: includes/admin/settings/views/status.php:7
+#: includes/api/class-wc-pos-i18n.php:77
+msgid "System Status"
+msgstr ""
 
-#: includes/class-wc-pos-api.php:49
-msgid "User not authorized to access WooCommerce POS"
-msgstr "Användaren har rätt att få tillgång till WooCommerce POS"
+#: includes/admin/settings/class-wc-pos-access.php:25
+msgid "POS Access"
+msgstr ""
 
-#: includes/class-wc-pos-i18n.php:332
+#: includes/admin/settings/class-wc-pos-hotkeys.php:42
+msgid "Help screen"
+msgstr ""
+
+#: includes/admin/settings/class-wc-pos-hotkeys.php:43
+msgid "Barcode search"
+msgstr ""
+
+#: includes/admin/settings/class-wc-pos-hotkeys.php:45
+msgid "New order"
+msgstr ""
+
+#: includes/admin/settings/class-wc-pos-hotkeys.php:46
+msgid "Sync with server"
+msgstr ""
+
+#: includes/admin/settings/views/access.php:7
+msgid "Grant POS Access"
+msgstr ""
+
+#: includes/admin/settings/views/access.php:10
+msgid ""
+"By default, access to the POS is limited to Administrator and Shop Manager "
+"roles."
+msgstr ""
+
+#: includes/admin/settings/views/access.php:11
+msgid ""
+"It is recommended that you <strong>do not change</strong> the default "
+"settings unless you are fully aware of the consequences."
+msgstr ""
+
+#: includes/admin/settings/views/access.php:12
+#: includes/admin/settings/views/checkout.php:60
+#: includes/admin/settings/views/hotkeys.php:6
+msgid ""
+"For more information please visit <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
+msgstr ""
+
+#: includes/admin/settings/views/checkout.php:13
+msgid "Completed Order Status"
+msgstr ""
+
+#: includes/admin/settings/views/checkout.php:14
+msgid "Change the default order status for POS sales"
+msgstr ""
+
+#: includes/admin/settings/views/checkout.php:27
+#, fuzzy
+msgid "Order Emails"
+msgstr "Order Datum"
+
+#: includes/admin/settings/views/checkout.php:28
+msgid "Send WooCommerce notification emails for POS orders"
+msgstr ""
+
+#: includes/admin/settings/views/checkout.php:32
+#, fuzzy
+msgid "Enable admin emails"
+msgstr "Aktivera permalänkar"
+
+#: includes/admin/settings/views/checkout.php:35
+#, fuzzy
+msgid "Enable customer emails"
+msgstr "Aktivera permalänkar"
+
+#: includes/admin/settings/views/checkout.php:41
+msgid "Receipt Printing"
+msgstr ""
+
+#: includes/admin/settings/views/checkout.php:45
+msgid "Automatically print receipt after checkout"
+msgstr ""
+
+#: includes/admin/settings/views/checkout.php:54
+msgid ""
+"Installed gateways are listed below. Drag and drop gateways to control their "
+"display order at the Point of Sale. "
+msgstr ""
+
+#: includes/admin/settings/views/checkout.php:55
+msgid ""
+"Payment Gateways enabled here will be available at the Point of Sale. "
+"Payment Gateways enabled on the settings page will be available in your "
+"Online Store. "
+msgstr ""
+
+#: includes/admin/settings/views/checkout.php:59
+msgid ""
+"It is your responsibility to ensure the security of your customer's "
+"information. Transmitting credit card or other sensitive information should "
+"only be done using a secure connnection."
+msgstr ""
+
+#: includes/admin/settings/views/checkout.php:65
+msgid "Gateway Display"
+msgstr ""
+
+#: includes/admin/settings/views/checkout.php:73
+msgid "Online Status"
+msgstr ""
+
+#: includes/admin/settings/views/checkout.php:74
+msgid "POS Status"
+msgstr ""
+
+#: includes/admin/settings/views/checkout.php:75
+#, fuzzy
+msgid "POS Settings"
+msgstr "Inställningar fel"
+
+#: includes/admin/settings/views/checkout.php:126
+#, fuzzy
+msgid "Payment method title."
+msgstr "Betalningsmetod"
+
+#: includes/admin/settings/views/checkout.php:133
+msgid "Payment method description that will be shown in the POS."
+msgstr ""
+
+#: includes/admin/settings/views/checkout.php:139
+msgid "Icon"
+msgstr ""
+
+#: includes/admin/settings/views/general.php:13
+msgid "Product Visibility"
+msgstr ""
+
+#: includes/admin/settings/views/general.php:17
+msgid "Enable <a href=\"%s\">POS Only products</a>"
+msgstr ""
+
+#: includes/admin/settings/views/general.php:23
+msgid "Allow Decimal Quantity"
+msgstr ""
+
+#: includes/admin/settings/views/general.php:24
+msgid "Allows items to have decimal values in the quantity field, eg: 0.25"
+msgstr ""
+
+#: includes/admin/settings/views/general.php:34
+msgid "Default POS Customer"
+msgstr ""
+
+#: includes/admin/settings/views/general.php:35
+msgid ""
+"The default customer for POS orders, eg: Guest or create a new customer."
+msgstr ""
+
+#: includes/admin/settings/views/general.php:46
+msgid "Discount Quick Keys"
+msgstr ""
+
+#: includes/admin/settings/views/general.php:47
+msgid "Configure discount keys for quick numpad entry"
+msgstr ""
+
+#: includes/admin/settings/views/hotkeys.php:1
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#: includes/admin/settings/views/hotkeys.php:4
+msgid ""
+"You can trigger certain events in WooCommerce POS using keyboard shortcuts "
+"(HotKeys)."
+msgstr ""
+
+#: includes/admin/settings/views/hotkeys.php:5
+msgid ""
+"HotKeys can also be used as a prefix for your barcode scanner or card reader."
+msgstr ""
+
+#: includes/admin/settings/views/tools.php:33
+msgid "Receipt Template"
+msgstr ""
+
+#: includes/admin/settings/views/tools.php:36
+#, fuzzy
+msgid "View Sample Receipt"
+msgstr "E-post mottagare"
+
+#: includes/admin/settings/views/tools.php:41
+msgid "<strong class=\"red\">Template path:</strong> %s"
+msgstr ""
+
+#: includes/admin/settings/views/tools.php:47
+#, fuzzy
+msgid "Legacy Server Support"
+msgstr "Legacy server stöd aktiverat"
+
+#: includes/admin/settings/views/tools.php:53
+msgid "Emulate RESTful HTTP methods to support legacy servers."
+msgstr ""
+
+#: includes/admin/settings/views/tools.php:58
+#, fuzzy
+msgid "Local Data"
+msgstr "Lokal lagring"
+
+#: includes/admin/settings/views/tools.php:63
+msgid "Clear Local Data"
+msgstr ""
+
+#: includes/admin/settings/views/tools.php:66
+msgid "Clear All Local Data"
+msgstr ""
+
+#: includes/admin/views/order-details.php:2
+#, fuzzy
+msgid "Order type"
+msgstr "Order Datum"
+
+#. translators: wordpress
+#. translators: woocommerce
+#: includes/admin/views/settings.php:12 includes/api/class-wc-pos-i18n.php:122
+msgid "Loading ..."
+msgstr ""
+
+#: includes/admin/views/settings.php:13
+#, fuzzy
+msgid ""
+"There has been an error loading the settings, please contact <a href="
+"\"mailto:support@woopos.com.au\">support</a>"
+msgstr ""
+"Om du tror att du har fått det här meddelandet av misstag kontakta support "
+"via <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
+
+#: includes/api/class-wc-pos-i18n.php:69
 msgid "To Pay"
 msgstr "Att Betala"
 
-#: includes/class-wc-pos-i18n.php:333
+#: includes/api/class-wc-pos-i18n.php:70
 msgid "Paid"
 msgstr "Betald"
 
-#: includes/class-wc-pos-i18n.php:334
+#: includes/api/class-wc-pos-i18n.php:71
 msgid "Unpaid"
 msgstr "Obetald"
 
-#: includes/class-wc-pos-i18n.php:335
+#: includes/api/class-wc-pos-i18n.php:72
 msgid "Email Receipt"
 msgstr "E-post mottagare"
 
-#: includes/class-wc-pos-i18n.php:338
+#: includes/api/class-wc-pos-i18n.php:75
 msgid "Support Form"
 msgstr "Stöd Formulär"
 
 #. translators: wordpress
 #. translators: woocommerce
 #. translators: wordpress
-#: includes/class-wc-pos-i18n.php:352
+#: includes/api/class-wc-pos-i18n.php:89
 #: includes/views/print/tmpl-receipt.php:142
-#: includes/views/support/tmpl-form.php:16
+#: includes/views/support/tmpl-form.php:6
 msgid "Email"
 msgstr "E-post"
 
-#: includes/class-wc-pos-i18n.php:361
+#: includes/api/class-wc-pos-i18n.php:98
 msgid "Process Payment"
 msgstr "Genomför Betalning"
 
-#: includes/class-wc-pos-i18n.php:366
+#: includes/api/class-wc-pos-i18n.php:103
 msgid "Return to Sale"
 msgstr "Återgå till försäljning"
 
-#: includes/class-wc-pos-i18n.php:369
+#: includes/api/class-wc-pos-i18n.php:106
 msgid "Send"
 msgstr "Skicka"
 
-#: includes/class-wc-pos-i18n.php:372
+#: includes/api/class-wc-pos-i18n.php:109
 msgid "Void"
 msgstr "Upphäv"
 
-#: includes/class-wc-pos-i18n.php:377
+#: includes/api/class-wc-pos-i18n.php:114
 msgid "Enable legacy server support"
 msgstr "Aktivera gamla servern stöd"
 
-#: includes/class-wc-pos-i18n.php:388
+#: includes/api/class-wc-pos-i18n.php:125
 msgid "Your browser is not supported!"
 msgstr "Din webbläsare stöds inte!"
 
-#: includes/class-wc-pos-i18n.php:389
+#: includes/api/class-wc-pos-i18n.php:126
 msgid "Unable to use RESTful HTTP methods"
 msgstr "Det går inte att använda RESTful HTTP-metoderna"
 
-#: includes/class-wc-pos-i18n.php:394
+#: includes/api/class-wc-pos-i18n.php:131
 msgid "No payment gateways enabled."
 msgstr "Inga betalnings gateways aktiverade. "
 
-#: includes/class-wc-pos-params.php:226
-msgid "POS"
-msgstr "POS"
+#: includes/api/class-wc-pos-i18n.php:134
+msgid ""
+"WooCommerce POS will not work in <a href=\"%s\">Private Mode</a>, please "
+"disable Private Browsing."
+msgstr ""
 
-#: includes/class-wc-pos-settings.php:168
+#: includes/api/class-wc-pos-orders.php:475
+msgid "There was an error processing the payment"
+msgstr "Ett fel inträffade vid behandlingen av betalningen"
+
+#: includes/api/class-wc-pos-orders.php:501
+msgid "You are now being redirected offsite to complete the payment. "
+msgstr "Du är nu omdirigeras offsite att slutföra betalningen."
+
+#: includes/api/class-wc-pos-orders.php:502
+msgid "<a href=\"%s\">Click here</a> if you are not redirected automatically. "
+msgstr "<a href=\"%s\">Klicka här</a> om du inte omdirigeras automatiskt."
+
+#: includes/api/class-wc-pos-orders.php:516
+msgid "POS Transaction completed."
+msgstr "POS transaktion avslutad."
+
+#: includes/api/class-wc-pos-orders.php:846
+#: includes/api/class-wc-pos-support.php:65
+msgid "Email sent"
+msgstr "E-post skickas"
+
+#: includes/api/class-wc-pos-orders.php:852
+#: includes/api/class-wc-pos-support.php:71
+msgid "There was an error sending the email"
+msgstr "Det uppstod ett fel skickar e-post"
+
+#: includes/api/class-wc-pos-settings.php:132
 msgid "There is no settings id"
 msgstr "Det finns ingen inställningar id"
 
-#: includes/class-wc-pos-settings.php:186
+#: includes/api/class-wc-pos-settings.php:152
 msgid "No handler found for %s settings"
 msgstr "Ingen hanterare hittades för %s inställningar"
 
-#: includes/class-wc-pos-settings.php:223
-msgid "Settings error"
-msgstr "Inställningar fel"
+#: includes/class-wc-pos-activator.php:188
+msgid ""
+"<strong>WooCommerce POS</strong> requires <a href=\"%s\">WooCommerce %s or "
+"higher</a>. Please <a href=\"%s\">install and activate WooCommerce</a>"
+msgstr ""
+
+#: includes/class-wc-pos-activator.php:207
+msgid ""
+"<strong>WooCommerce POS</strong> requires PHP %s or higher. Read more "
+"information about <a href=\"%s\">how you can update</a>"
+msgstr ""
+
+#: includes/class-wc-pos-api.php:107
+msgid "User not authorized to access WooCommerce POS"
+msgstr "Användaren har rätt att få tillgång till WooCommerce POS"
+
+#: includes/class-wc-pos-server.php:46
+msgid "Invalid security nonce"
+msgstr "Ogiltig säkerhet nonce"
 
 #: includes/class-wc-pos-status.php:28
 msgid "WC Version"
@@ -187,6 +481,25 @@ msgstr "Kontanter"
 msgid "Amount Tendered"
 msgstr "Summa betald"
 
+#: includes/products/class-wc-pos-visibility.php:23
+msgid "POS & Online"
+msgstr ""
+
+#: includes/products/class-wc-pos-visibility.php:24
+#: includes/products/class-wc-pos-visibility.php:87
+msgid "POS Only"
+msgstr ""
+
+#: includes/products/class-wc-pos-visibility.php:25
+#: includes/products/class-wc-pos-visibility.php:88
+msgid "Online Only"
+msgstr ""
+
+#: includes/products/views/post-metabox-visibility-select.php:11
+#: includes/products/views/quick-edit-visibility-select.php:14
+msgid "POS visibility"
+msgstr ""
+
 #: includes/views/modals/browser.php:2
 msgid "Sorry, it seems your browser is not supported by WooCommerce POS. "
 msgstr "Tyvärr verkar det din webbläsare stöds inte av WooCommerce POS."
@@ -233,11 +546,11 @@ msgstr "Kontanter"
 msgid "Payment Method"
 msgstr "Betalningsmetod"
 
-#: includes/views/support/tmpl-form.php:21
+#: includes/views/support/tmpl-form.php:11
 msgid "Describe your problem here ..."
 msgstr "Beskriv ditt problem här ..."
 
-#: includes/views/support/tmpl-form.php:28
+#: includes/views/support/tmpl-form.php:18
 msgid "Append POS system report"
 msgstr "Bifoga POS systemrapport"
 
@@ -267,49 +580,66 @@ msgstr ""
 "kräver <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</"
 "a>.  "
 
-#: includes/class-wc-pos-i18n.php:310
-msgctxt "system status: browser capabilities"
-msgid "Browser"
-msgstr "Webbläsare"
+#: includes/admin/class-wc-pos-permalink.php:30
+msgctxt "Permalink setting, eg: /pos"
+msgid "POS base"
+msgstr ""
 
-#: includes/class-wc-pos-i18n.php:321
+#: includes/admin/settings/class-wc-pos-hotkeys.php:22
+#: includes/api/class-wc-pos-i18n.php:58
 msgctxt "keyboard shortcuts"
 msgid "HotKeys"
 msgstr "Snabbtangenter"
 
-#: includes/class-wc-pos-i18n.php:336
+#: includes/admin/settings/views/checkout.php:143
+#, fuzzy
+msgctxt "POS checkout settings"
+msgid "Show payment gateway icon."
+msgstr "Inga betalnings gateways aktiverade. "
+
+#: includes/admin/settings/views/general.php:40
+msgctxt "Default customer setting"
+msgid "Use cashier account"
+msgstr ""
+
+#: includes/api/class-wc-pos-i18n.php:47
+msgctxt "system status: browser capabilities"
+msgid "Browser"
+msgstr "Webbläsare"
+
+#: includes/api/class-wc-pos-i18n.php:73
 msgctxt "order status, ie: open order in cart"
 msgid "Open"
 msgstr "Öppen"
 
-#: includes/class-wc-pos-i18n.php:337
+#: includes/api/class-wc-pos-i18n.php:74
 #: includes/gateways/class-wc-pos-cash.php:93
 #: includes/views/print/tmpl-receipt.php:250
 msgctxt "Money returned from cash sale"
 msgid "Change"
 msgstr "Ändra"
 
-#: includes/class-wc-pos-i18n.php:345
+#: includes/api/class-wc-pos-i18n.php:82
 msgctxt "system status: delete local records"
 msgid "Clear"
 msgstr "Klar"
 
-#: includes/class-wc-pos-i18n.php:364
+#: includes/api/class-wc-pos-i18n.php:101
 msgctxt "restore default settings"
 msgid "Restore defaults"
 msgstr "Återställ standard"
 
-#: includes/class-wc-pos-i18n.php:365
+#: includes/api/class-wc-pos-i18n.php:102
 msgctxt "Numpad return key"
 msgid "return"
 msgstr "retur"
 
-#: includes/class-wc-pos-i18n.php:399
+#: includes/api/class-wc-pos-i18n.php:137
 msgctxt "eg: 23 records"
 msgid "record |||| records"
 msgstr "artikel |||| artiklar"
 
-#: includes/class-wc-pos-params.php:84
+#: includes/api/class-wc-pos-params.php:113
 msgctxt "Product tab: 'On Sale' products"
 msgid "On Sale"
 msgstr "Till Salu"
@@ -337,9 +667,6 @@ msgstr "inkl."
 
 #~ msgid "Unable to test the REST API"
 #~ msgstr "Det går inte att testa REST API"
-
-#~ msgid "Legacy server support enabled"
-#~ msgstr "Legacy server stöd aktiverat"
 
 #~ msgid "Disable legacy server support"
 #~ msgstr "Inaktivera gamla servern stöd"

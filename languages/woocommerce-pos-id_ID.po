@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS 0.4.1\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-12-18 01:13:14+00:00\n"
+"POT-Creation-Date: 2015-12-18 01:35:18+00:00\n"
 "PO-Revision-Date: 2015-07-10 12:11:16+00:00\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -52,17 +52,6 @@ msgstr ""
 #: includes/admin/settings/views/checkout.php:106
 #: includes/admin/settings/views/checkout.php:111
 msgid "Settings"
-msgstr ""
-
-#. translators: wordpress
-#. translators: woocommerce
-#. translators: woocommerce
-#: includes/admin/class-wc-pos-status.php:32
-#: includes/admin/class-wc-pos-status.php:34
-#: includes/admin/settings/class-wc-pos-status.php:22
-#: includes/admin/settings/views/status.php:7
-#: includes/api/class-wc-pos-i18n.php:77
-msgid "System Status"
 msgstr ""
 
 #: includes/admin/settings/class-wc-pos-access.php:25
@@ -272,12 +261,6 @@ msgstr ""
 msgid "Order type"
 msgstr ""
 
-#. translators: wordpress
-#. translators: woocommerce
-#: includes/admin/views/settings.php:12 includes/api/class-wc-pos-i18n.php:122
-msgid "Loading ..."
-msgstr ""
-
 #: includes/admin/views/settings.php:13
 msgid ""
 "There has been an error loading the settings, please contact <a href="
@@ -333,19 +316,19 @@ msgstr ""
 msgid "Enable legacy server support"
 msgstr ""
 
-#: includes/api/class-wc-pos-i18n.php:125
+#: includes/api/class-wc-pos-i18n.php:124
 msgid "Your browser is not supported!"
 msgstr ""
 
-#: includes/api/class-wc-pos-i18n.php:126
+#: includes/api/class-wc-pos-i18n.php:125
 msgid "Unable to use RESTful HTTP methods"
 msgstr ""
 
-#: includes/api/class-wc-pos-i18n.php:131
+#: includes/api/class-wc-pos-i18n.php:130
 msgid "No payment gateways enabled."
 msgstr ""
 
-#: includes/api/class-wc-pos-i18n.php:134
+#: includes/api/class-wc-pos-i18n.php:133
 msgid ""
 "WooCommerce POS will not work in <a href=\"%s\">Private Mode</a>, please "
 "disable Private Browsing."
@@ -605,7 +588,7 @@ msgctxt "Numpad return key"
 msgid "return"
 msgstr ""
 
-#: includes/api/class-wc-pos-i18n.php:137
+#: includes/api/class-wc-pos-i18n.php:136
 msgctxt "eg: 23 records"
 msgid "record |||| records"
 msgstr ""

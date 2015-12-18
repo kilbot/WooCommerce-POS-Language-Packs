@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-12-18 01:13:14+00:00\n"
+"POT-Creation-Date: 2015-12-18 01:35:18+00:00\n"
 "PO-Revision-Date: 2015-07-15 16:15+0000\n"
 "Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
 "Language-Team: Hindi (India) (http://www.transifex.com/p/woocommerce-pos/"
@@ -58,17 +58,6 @@ msgstr ""
 #, fuzzy
 msgid "Settings"
 msgstr "सेटिंग त्रुटि"
-
-#. translators: wordpress
-#. translators: woocommerce
-#. translators: woocommerce
-#: includes/admin/class-wc-pos-status.php:32
-#: includes/admin/class-wc-pos-status.php:34
-#: includes/admin/settings/class-wc-pos-status.php:22
-#: includes/admin/settings/views/status.php:7
-#: includes/api/class-wc-pos-i18n.php:77
-msgid "System Status"
-msgstr ""
 
 #: includes/admin/settings/class-wc-pos-access.php:25
 msgid "POS Access"
@@ -286,12 +275,6 @@ msgstr ""
 msgid "Order type"
 msgstr "आर्डर की तारीख"
 
-#. translators: wordpress
-#. translators: woocommerce
-#: includes/admin/views/settings.php:12 includes/api/class-wc-pos-i18n.php:122
-msgid "Loading ..."
-msgstr ""
-
 #: includes/admin/views/settings.php:13
 #, fuzzy
 msgid ""
@@ -350,19 +333,19 @@ msgstr "शून्य"
 msgid "Enable legacy server support"
 msgstr "विरासत सर्वर का समर्थन सक्षम करें"
 
-#: includes/api/class-wc-pos-i18n.php:125
+#: includes/api/class-wc-pos-i18n.php:124
 msgid "Your browser is not supported!"
 msgstr "आपका ब्राउज़र समर्थित नहीं है!"
 
-#: includes/api/class-wc-pos-i18n.php:126
+#: includes/api/class-wc-pos-i18n.php:125
 msgid "Unable to use RESTful HTTP methods"
 msgstr "शोकहारा HTTP के तरीकों का उपयोग करने में असमर्थ"
 
-#: includes/api/class-wc-pos-i18n.php:131
+#: includes/api/class-wc-pos-i18n.php:130
 msgid "No payment gateways enabled."
 msgstr "कोई भुगतान द्वार सक्षम होना चाहिए।"
 
-#: includes/api/class-wc-pos-i18n.php:134
+#: includes/api/class-wc-pos-i18n.php:133
 msgid ""
 "WooCommerce POS will not work in <a href=\"%s\">Private Mode</a>, please "
 "disable Private Browsing."
@@ -634,7 +617,7 @@ msgctxt "Numpad return key"
 msgid "return"
 msgstr "वापसी"
 
-#: includes/api/class-wc-pos-i18n.php:137
+#: includes/api/class-wc-pos-i18n.php:136
 msgctxt "eg: 23 records"
 msgid "record |||| records"
 msgstr "रिकॉर्ड |||| के रिकॉर्ड"

@@ -6,23 +6,21 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
-"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
-"Packs/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
 "POT-Creation-Date: 2015-12-18 01:35:18+00:00\n"
-"PO-Revision-Date: 2015-10-04 18:16+0000\n"
+"PO-Revision-Date: 2015-12-22 18:06+0000\n"
 "Last-Translator: tntc1978 <tntc1978@gmail.com>\n"
-"Language-Team: Danish (Denmark) (http://www.transifex.com/kilbot/woocommerce-"
-"pos/language/da_DK/)\n"
-"Language: da_DK\n"
+"Language-Team: Danish (Denmark) (http://www.transifex.com/kilbot/woocommerce-pos/language/da_DK/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: da_DK\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: grunt-wp-i18n 0.5.3\n"
 
 #: includes/admin/class-wc-pos-gateways.php:31
 msgid "Online Store"
-msgstr ""
+msgstr "Online butik"
 
 #: includes/admin/class-wc-pos-gateways.php:32
 #: includes/admin/class-wc-pos-menu.php:34
@@ -36,17 +34,17 @@ msgstr "POS"
 #: includes/admin/class-wc-pos-menu.php:44
 #: includes/admin/class-wc-pos-menu.php:45
 msgid "View POS"
-msgstr ""
+msgstr "Se POS"
 
 #: includes/admin/class-wc-pos-menu.php:53
 #: includes/admin/settings/views/checkout.php:101
 msgid "Upgrade to Pro"
-msgstr ""
+msgstr "Opgrader til Pro"
 
 #: includes/admin/class-wc-pos-orders.php:95
 #: includes/admin/views/order-details.php:4
 msgid "Online"
-msgstr ""
+msgstr "Online"
 
 #. translators: wordpress
 #. translators: woocommerce
@@ -56,235 +54,221 @@ msgstr ""
 #: includes/admin/settings/views/checkout.php:76
 #: includes/admin/settings/views/checkout.php:106
 #: includes/admin/settings/views/checkout.php:111
-#, fuzzy
 msgid "Settings"
-msgstr "Fejl med indstillinger"
+msgstr "Indstillinger"
 
 #: includes/admin/settings/class-wc-pos-access.php:25
 msgid "POS Access"
-msgstr ""
+msgstr "POS adgang"
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:42
 msgid "Help screen"
-msgstr ""
+msgstr "Hjælp skærm"
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:43
 msgid "Barcode search"
-msgstr ""
+msgstr "Stregkode søgning"
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:45
 msgid "New order"
-msgstr ""
+msgstr "Ny ordre"
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:46
 msgid "Sync with server"
-msgstr ""
+msgstr "Synkroniser med server"
 
 #: includes/admin/settings/views/access.php:7
 msgid "Grant POS Access"
-msgstr ""
+msgstr "Tildel POS adgang"
 
 #: includes/admin/settings/views/access.php:10
 msgid ""
 "By default, access to the POS is limited to Administrator and Shop Manager "
 "roles."
-msgstr ""
+msgstr "Som standard er adgangen til POS begrænset til administratorer og Shop Manager rollerne."
 
 #: includes/admin/settings/views/access.php:11
 msgid ""
 "It is recommended that you <strong>do not change</strong> the default "
 "settings unless you are fully aware of the consequences."
-msgstr ""
+msgstr "Det anbefales at du <strong>IKKE ændrer</strong> standard indstillingerne med mindre du er fuldt bevidst om konsekvenserne."
 
 #: includes/admin/settings/views/access.php:12
 #: includes/admin/settings/views/checkout.php:60
 #: includes/admin/settings/views/hotkeys.php:6
-msgid ""
-"For more information please visit <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
-msgstr ""
+msgid "For more information please visit <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
+msgstr "For mere information besøg venligst <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
 
 #: includes/admin/settings/views/checkout.php:13
 msgid "Completed Order Status"
-msgstr ""
+msgstr "Gennemført ordre status"
 
 #: includes/admin/settings/views/checkout.php:14
 msgid "Change the default order status for POS sales"
-msgstr ""
+msgstr "Skift standard ordre status for POS salg"
 
 #: includes/admin/settings/views/checkout.php:27
-#, fuzzy
 msgid "Order Emails"
-msgstr "Ordre dato"
+msgstr "Ordre e-mails"
 
 #: includes/admin/settings/views/checkout.php:28
 msgid "Send WooCommerce notification emails for POS orders"
-msgstr ""
+msgstr "Send WooCommerce notifikations e-mails for POS ordrer"
 
 #: includes/admin/settings/views/checkout.php:32
-#, fuzzy
 msgid "Enable admin emails"
-msgstr "Slå pæne URL'er til"
+msgstr "Aktiver admin e-mails"
 
 #: includes/admin/settings/views/checkout.php:35
-#, fuzzy
 msgid "Enable customer emails"
-msgstr "Slå pæne URL'er til"
+msgstr "Aktiver kundernes e-mails"
 
 #: includes/admin/settings/views/checkout.php:41
 msgid "Receipt Printing"
-msgstr ""
+msgstr "Print kvittering"
 
 #: includes/admin/settings/views/checkout.php:45
 msgid "Automatically print receipt after checkout"
-msgstr ""
+msgstr "Udskriv kvitteringer automatisk efter betaling"
 
 #: includes/admin/settings/views/checkout.php:54
 msgid ""
-"Installed gateways are listed below. Drag and drop gateways to control their "
-"display order at the Point of Sale. "
-msgstr ""
+"Installed gateways are listed below. Drag and drop gateways to control their"
+" display order at the Point of Sale. "
+msgstr "Installerede gateways er listet nedenfor. Træk og slip gateways for at vise i hvilken rækkefølge de vises i POS. "
 
 #: includes/admin/settings/views/checkout.php:55
 msgid ""
 "Payment Gateways enabled here will be available at the Point of Sale. "
 "Payment Gateways enabled on the settings page will be available in your "
 "Online Store. "
-msgstr ""
+msgstr "Betalingsgateways som er aktiveret her vil være tilgængelige i POS. Betalingsgateways som er aktiveret i din indstillingsside vil være tilgængelig i din online butik."
 
 #: includes/admin/settings/views/checkout.php:59
 msgid ""
 "It is your responsibility to ensure the security of your customer's "
 "information. Transmitting credit card or other sensitive information should "
 "only be done using a secure connnection."
-msgstr ""
+msgstr "Det er dit ansvar at sikre dine kunders informationer. Transmission af kreditkort eller andre følsomme informationer bør kun ske ved brug af en sikker forbindelse."
 
 #: includes/admin/settings/views/checkout.php:65
 msgid "Gateway Display"
-msgstr ""
+msgstr "Gateway visning"
 
 #: includes/admin/settings/views/checkout.php:73
 msgid "Online Status"
-msgstr ""
+msgstr "Online Status"
 
 #: includes/admin/settings/views/checkout.php:74
 msgid "POS Status"
-msgstr ""
+msgstr "POS Status"
 
 #: includes/admin/settings/views/checkout.php:75
-#, fuzzy
 msgid "POS Settings"
-msgstr "Fejl med indstillinger"
+msgstr "POS indstillinger"
 
 #: includes/admin/settings/views/checkout.php:126
-#, fuzzy
 msgid "Payment method title."
-msgstr "Betalingsmetode"
+msgstr "Betalingsmetode titel."
 
 #: includes/admin/settings/views/checkout.php:133
 msgid "Payment method description that will be shown in the POS."
-msgstr ""
+msgstr "Betalingsmetode beskrivelse som bliver vist i POS"
 
 #: includes/admin/settings/views/checkout.php:139
 msgid "Icon"
-msgstr ""
+msgstr "Ikon"
 
 #: includes/admin/settings/views/general.php:13
 msgid "Product Visibility"
-msgstr ""
+msgstr "Produktsynlighed"
 
 #: includes/admin/settings/views/general.php:17
 msgid "Enable <a href=\"%s\">POS Only products</a>"
-msgstr ""
+msgstr "Aktiver <a href=\"%s\">POS kun produkter</a>"
 
 #: includes/admin/settings/views/general.php:23
 msgid "Allow Decimal Quantity"
-msgstr ""
+msgstr "Tillad antal med decimaler"
 
 #: includes/admin/settings/views/general.php:24
 msgid "Allows items to have decimal values in the quantity field, eg: 0.25"
-msgstr ""
+msgstr "Tillader af ting har decimal værdier i styk feltet, fx. 0,25"
 
 #: includes/admin/settings/views/general.php:34
 msgid "Default POS Customer"
-msgstr ""
+msgstr "Standard POS kunde"
 
 #: includes/admin/settings/views/general.php:35
 msgid ""
 "The default customer for POS orders, eg: Guest or create a new customer."
-msgstr ""
+msgstr "Standard kunden for POS ordrer fx.: Gæst eller opret ny kunde."
 
 #: includes/admin/settings/views/general.php:46
 msgid "Discount Quick Keys"
-msgstr ""
+msgstr "Discount genveje"
 
 #: includes/admin/settings/views/general.php:47
 msgid "Configure discount keys for quick numpad entry"
-msgstr ""
+msgstr "Konfigurer discount genveje til hurtig numpad indtastning"
 
 #: includes/admin/settings/views/hotkeys.php:1
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Tastatur genveje"
 
 #: includes/admin/settings/views/hotkeys.php:4
 msgid ""
 "You can trigger certain events in WooCommerce POS using keyboard shortcuts "
 "(HotKeys)."
-msgstr ""
+msgstr "Du kan aktivere en hændelse i WooCommerce POS ved at bruge tastatur genveje."
 
 #: includes/admin/settings/views/hotkeys.php:5
 msgid ""
-"HotKeys can also be used as a prefix for your barcode scanner or card reader."
-msgstr ""
+"HotKeys can also be used as a prefix for your barcode scanner or card "
+"reader."
+msgstr "Genveje kan også blive brugt til at prefix’e din stregkodeskanne eller kort læser."
 
 #: includes/admin/settings/views/tools.php:33
 msgid "Receipt Template"
-msgstr ""
+msgstr "Kvittering skabelon"
 
 #: includes/admin/settings/views/tools.php:36
-#, fuzzy
 msgid "View Sample Receipt"
-msgstr "E-mail kvittering"
+msgstr "Se eksempel på kvittering"
 
 #: includes/admin/settings/views/tools.php:41
 msgid "<strong class=\"red\">Template path:</strong> %s"
-msgstr ""
+msgstr "<strong class=\"red\">Skabelonens sti:</strong> %s"
 
 #: includes/admin/settings/views/tools.php:47
-#, fuzzy
 msgid "Legacy Server Support"
 msgstr "Ældre server understøttelse"
 
 #: includes/admin/settings/views/tools.php:53
 msgid "Emulate RESTful HTTP methods to support legacy servers."
-msgstr ""
+msgstr "Efterlign RESTful HTTP -metoder til at understøtte ældre servere."
 
 #: includes/admin/settings/views/tools.php:58
-#, fuzzy
 msgid "Local Data"
-msgstr "Lokal lagring"
+msgstr "Lokal data"
 
 #: includes/admin/settings/views/tools.php:63
 msgid "Clear Local Data"
-msgstr ""
+msgstr "Slet lokale data"
 
 #: includes/admin/settings/views/tools.php:66
 msgid "Clear All Local Data"
-msgstr ""
+msgstr "Slet alle lokale data"
 
 #: includes/admin/views/order-details.php:2
-#, fuzzy
 msgid "Order type"
-msgstr "Ordre dato"
+msgstr "Ordretype"
 
 #: includes/admin/views/settings.php:13
-#, fuzzy
 msgid ""
-"There has been an error loading the settings, please contact <a href="
-"\"mailto:support@woopos.com.au\">support</a>"
-msgstr ""
-"Hvis du mener du modtog denne besked som en fejl, så kontakt venligst "
-"supporten på <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</"
-"a>"
+"There has been an error loading the settings, please contact <a "
+"href=\"mailto:support@woopos.com.au\">support</a>"
+msgstr "Der indtraf en fejl med at hente indstillingerne, kontakt venligst <a href=\"mailto:support@woopos.com.au\">supporten</a>"
 
 #: includes/api/class-wc-pos-i18n.php:69
 msgid "To Pay"
@@ -351,7 +335,7 @@ msgstr "Ingen betalingsgateways aktiveret."
 msgid ""
 "WooCommerce POS will not work in <a href=\"%s\">Private Mode</a>, please "
 "disable Private Browsing."
-msgstr ""
+msgstr "WooCommerce POS vil ikke fungere i <a href=\"%s\">Privat browsing</a>, slå venligst Private Browsing fra."
 
 #: includes/api/class-wc-pos-orders.php:475
 msgid "There was an error processing the payment"
@@ -363,8 +347,7 @@ msgstr "Du bliver nu stillet videre for at gennemføre betalingen."
 
 #: includes/api/class-wc-pos-orders.php:502
 msgid "<a href=\"%s\">Click here</a> if you are not redirected automatically. "
-msgstr ""
-"<a href=\"%s\">Tryk her</a> hvis du ikke automatisk bliver viderestillet. "
+msgstr "<a href=\"%s\">Tryk her</a> hvis du ikke automatisk bliver viderestillet. "
 
 #: includes/api/class-wc-pos-orders.php:516
 msgid "POS Transaction completed."
@@ -392,13 +375,13 @@ msgstr "Ingen handler blev fundet til %s indstillinger"
 msgid ""
 "<strong>WooCommerce POS</strong> requires <a href=\"%s\">WooCommerce %s or "
 "higher</a>. Please <a href=\"%s\">install and activate WooCommerce</a>"
-msgstr ""
+msgstr "<strong>WooCommerce POS</strong> kræver <a href=\"%s\">WooCommerce %s eller højere</a>. <a href=\"%s\">Installer og aktiver venligst WooCommerce</a>"
 
 #: includes/class-wc-pos-activator.php:207
 msgid ""
 "<strong>WooCommerce POS</strong> requires PHP %s or higher. Read more "
 "information about <a href=\"%s\">how you can update</a>"
-msgstr ""
+msgstr "<strong>WooCommerce POS</strong> kræver PHP %s eller højere. Læs mere information om <a href=\"%s\">hvordan du kan opdatere</a>"
 
 #: includes/class-wc-pos-api.php:107
 msgid "User not authorized to access WooCommerce POS"
@@ -434,11 +417,9 @@ msgstr "Adgang til REST API er krævet"
 
 #: includes/class-wc-pos-status.php:146
 msgid ""
-"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to "
-"work correctly"
-msgstr ""
-"<strong>WooCommerce REST API</strong> kræver <em>pæne</em> URL'er for at "
-"fungere ordentligt"
+"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to"
+" work correctly"
+msgstr "<strong>WooCommerce REST API</strong> kræver <em>pæne</em> URL'er for at fungere ordentligt"
 
 #: includes/class-wc-pos-status.php:150
 msgid "Enable permalinks"
@@ -468,46 +449,39 @@ msgstr "Beløb betalt"
 
 #: includes/products/class-wc-pos-visibility.php:23
 msgid "POS & Online"
-msgstr ""
+msgstr "POS & Online"
 
 #: includes/products/class-wc-pos-visibility.php:24
 #: includes/products/class-wc-pos-visibility.php:87
 msgid "POS Only"
-msgstr ""
+msgstr "POS kun"
 
 #: includes/products/class-wc-pos-visibility.php:25
 #: includes/products/class-wc-pos-visibility.php:88
 msgid "Online Only"
-msgstr ""
+msgstr "Online kun"
 
 #: includes/products/views/post-metabox-visibility-select.php:11
 #: includes/products/views/quick-edit-visibility-select.php:14
 msgid "POS visibility"
-msgstr ""
+msgstr "POS synlighed"
 
 #: includes/views/modals/browser.php:2
 msgid "Sorry, it seems your browser is not supported by WooCommerce POS. "
-msgstr ""
-"Beklager, men det ser ud til, at din browser ikke er understøttet af "
-"WooCommerce POS."
+msgstr "Beklager, men det ser ud til, at din browser ikke er understøttet af WooCommerce POS."
 
 #: includes/views/modals/browser.php:3
 msgid ""
-"If possible, please <a href=\"http://browsehappy.com/\">update your browser</"
-"a>, we recommend either Chrome or Firefox."
-msgstr ""
-"Hvis det er muligt, så <a href=\"http://browsehappy.com/\">opdater venligst "
-"din browser</a>, vi anbeflaer enten Chrome eller Firefox."
+"If possible, please <a href=\"http://browsehappy.com/\">update your "
+"browser</a>, we recommend either Chrome or Firefox."
+msgstr "Hvis det er muligt, så <a href=\"http://browsehappy.com/\">opdater venligst din browser</a>, vi anbeflaer enten Chrome eller Firefox."
 
 #: includes/views/modals/browser.php:7
 msgid ""
 "If you believe you have received this message in error please contact "
-"support via <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</"
-"a>"
-msgstr ""
-"Hvis du mener du modtog denne besked som en fejl, så kontakt venligst "
-"supporten på <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</"
-"a>"
+"support via <a "
+"href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
+msgstr "Hvis du mener du modtog denne besked som en fejl, så kontakt venligst supporten på <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
 
 #: includes/views/pos/products/tmpl-filter.php:7
 msgid "Scan Barcode"
@@ -527,7 +501,7 @@ msgstr "Ordre dato"
 
 #: includes/views/print/tmpl-receipt.php:132
 msgid "Cashier"
-msgstr "Kasserer"
+msgstr "Ekspedient"
 
 #: includes/views/print/tmpl-receipt.php:137
 msgid "Payment Method"
@@ -560,16 +534,14 @@ msgstr "%s i kø"
 #. Description of the plugin/theme
 msgid ""
 "A simple front-end for taking WooCommerce orders at the Point of Sale. "
-"Requires <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</"
-"a>."
-msgstr ""
-"En simpel front-end til at tage imod WooCommerce ordrer som nærsalg. Kræver "
-"<a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a>."
+"Requires <a "
+"href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a>."
+msgstr "En simpel front-end til at tage imod WooCommerce ordrer som nærsalg. Kræver <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a>."
 
 #: includes/admin/class-wc-pos-permalink.php:30
 msgctxt "Permalink setting, eg: /pos"
 msgid "POS base"
-msgstr ""
+msgstr "POS base"
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:22
 #: includes/api/class-wc-pos-i18n.php:58
@@ -578,15 +550,14 @@ msgid "HotKeys"
 msgstr "Genveje"
 
 #: includes/admin/settings/views/checkout.php:143
-#, fuzzy
 msgctxt "POS checkout settings"
 msgid "Show payment gateway icon."
-msgstr "Ingen betalingsgateways aktiveret."
+msgstr "Vis gateway ikon."
 
 #: includes/admin/settings/views/general.php:40
 msgctxt "Default customer setting"
 msgid "Use cashier account"
-msgstr ""
+msgstr "Brug kasserer konto."
 
 #: includes/api/class-wc-pos-i18n.php:47
 msgctxt "system status: browser capabilities"
@@ -646,7 +617,3 @@ msgstr "Stk"
 msgctxt "abbreviation for includes (tax)"
 msgid "incl."
 msgstr "inkl."
-
-#~ msgctxt "keyboard shortcuts"
-#~ msgid "Hotkeys"
-#~ msgstr "Genveje"

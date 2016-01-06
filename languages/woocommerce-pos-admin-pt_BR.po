@@ -1,21 +1,27 @@
-# Translation of WooCommerce POS Admin in Portuguese (Brazil)
-# This file is distributed under the same license as the WooCommerce POS Admin package.
+# Copyright (C) 2015 kilbot
+# This file is distributed under the GPL-2.0+.
+# Translators:
+# Idálio Pessoa <idinhoo@gmail.com>, 2016
+# Nanci de Brito Bonfim <nancibonfim@gmail.com>, 2015
+# Paul Kilmurray <paul@kilbot.com.au>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce POS Admin\n"
-"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
-"Packs/issues\n"
+"Project-Id-Version: WooCommerce POS\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
 "POT-Creation-Date: 2015-10-29 13:23:18+00:00\n"
-"PO-Revision-Date: 2014-11-14 12:07:50+0000\n"
+"PO-Revision-Date: 2016-01-06 11:16+0000\n"
+"Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/kilbot/woocommerce-pos/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: GlotPress/0.1\n"
+"X-Generator: grunt-wp-i18n 0.5.3\n"
 
 #: includes/admin/class-wc-pos-gateways.php:31
 msgid "Online Store"
-msgstr ""
+msgstr "Loja Online"
 
 #: includes/admin/class-wc-pos-gateways.php:32
 #: includes/admin/class-wc-pos-menu.php:34
@@ -23,12 +29,12 @@ msgstr ""
 #: includes/admin/class-wc-pos-orders.php:94
 #: includes/admin/views/order-details.php:5
 msgid "POS"
-msgstr ""
+msgstr "PDV"
 
 #: includes/admin/class-wc-pos-menu.php:44
 #: includes/admin/class-wc-pos-menu.php:45
 msgid "View POS"
-msgstr "Ver POS"
+msgstr "Ver PDV"
 
 #: includes/admin/class-wc-pos-menu.php:53
 #: includes/admin/settings/views/checkout.php:101
@@ -38,7 +44,7 @@ msgstr "Atualizar para o Pro (versão paga)"
 #: includes/admin/class-wc-pos-orders.php:95
 #: includes/admin/views/order-details.php:4
 msgid "Online"
-msgstr ""
+msgstr "Online"
 
 #. translators: wordpress
 #. translators: woocommerce
@@ -49,268 +55,268 @@ msgstr ""
 #: includes/admin/settings/views/checkout.php:106
 #: includes/admin/settings/views/checkout.php:111
 msgid "Settings"
-msgstr ""
+msgstr "Configurações"
 
 #: includes/admin/settings/class-wc-pos-access.php:25
 msgid "POS Access"
-msgstr ""
+msgstr "Acessar PDV"
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:42
 msgid "Help screen"
-msgstr ""
+msgstr "Tela de ajuda"
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:43
 msgid "Barcode search"
-msgstr ""
+msgstr "Buscar código de barras"
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:45
 msgid "New order"
-msgstr ""
+msgstr "Novo pedido"
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:46
 msgid "Sync with server"
-msgstr ""
+msgstr "Sincronizar com o servidor"
 
 #: includes/admin/settings/views/access.php:7
 msgid "Grant POS Access"
-msgstr ""
+msgstr "Garantir acesso ao PDV"
 
 #: includes/admin/settings/views/access.php:10
 msgid ""
 "By default, access to the POS is limited to Administrator and Shop Manager "
 "roles."
-msgstr ""
+msgstr "Por padrão, o acesso ao POS é limitado aos papéis de Administrador e Gerente."
 
 #: includes/admin/settings/views/access.php:11
 msgid ""
 "It is recommended that you <strong>do not change</strong> the default "
 "settings unless you are fully aware of the consequences."
-msgstr ""
+msgstr "É recomendado que você <strong>não mude</strong> as configurações padrão, a não ser que você tenha plena consciência das consequências."
 
 #: includes/admin/settings/views/access.php:12
 #: includes/admin/settings/views/checkout.php:60
 #: includes/admin/settings/views/hotkeys.php:6
-msgid ""
-"For more information please visit <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
-msgstr ""
+msgid "For more information please visit <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
+msgstr "Para mais informações visite <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
 
 #: includes/admin/settings/views/checkout.php:13
 msgid "Completed Order Status"
-msgstr ""
+msgstr "Completado Ordem"
 
 #: includes/admin/settings/views/checkout.php:14
 msgid "Change the default order status for POS sales"
-msgstr ""
+msgstr "Alterar o status de ordem padrão para as vendas POS"
 
 #: includes/admin/settings/views/checkout.php:27
 msgid "Order Emails"
-msgstr ""
+msgstr "E-mails Encomendar"
 
 #: includes/admin/settings/views/checkout.php:28
 msgid "Send WooCommerce notification emails for POS orders"
-msgstr ""
+msgstr "Enviar e-mails de notificação WooCommerce para ordens de POS"
 
 #: includes/admin/settings/views/checkout.php:32
 msgid "Enable admin emails"
-msgstr ""
+msgstr "Habilitar e-mails de administração"
 
 #: includes/admin/settings/views/checkout.php:35
 msgid "Enable customer emails"
-msgstr ""
+msgstr "Habilitar e-mails de clientes"
 
 #: includes/admin/settings/views/checkout.php:41
 msgid "Receipt Printing"
-msgstr ""
+msgstr "Receipt Printing"
 
 #: includes/admin/settings/views/checkout.php:45
 msgid "Automatically print receipt after checkout"
-msgstr ""
+msgstr "Imprimir automaticamente a recepção após check-out"
 
 #: includes/admin/settings/views/checkout.php:54
 msgid ""
-"Installed gateways are listed below. Drag and drop gateways to control their "
-"display order at the Point of Sale. "
-msgstr ""
+"Installed gateways are listed below. Drag and drop gateways to control their"
+" display order at the Point of Sale. "
+msgstr "Gateways instalados estão listados abaixo. Arraste e solte os gateways de controlar a sua ordem de apresentação no ponto de venda."
 
 #: includes/admin/settings/views/checkout.php:55
 msgid ""
 "Payment Gateways enabled here will be available at the Point of Sale. "
 "Payment Gateways enabled on the settings page will be available in your "
 "Online Store. "
-msgstr ""
+msgstr "Gateways de Pagamento ativado aqui estará disponível no ponto de venda. Gateways de Pagamento ativado na página de configurações estarão disponíveis em sua loja online."
 
 #: includes/admin/settings/views/checkout.php:59
 msgid ""
 "It is your responsibility to ensure the security of your customer's "
 "information. Transmitting credit card or other sensitive information should "
 "only be done using a secure connnection."
-msgstr ""
+msgstr "É de sua responsabilidade para garantir a segurança das informações do seu cliente. Transmitindo cartão de crédito ou outras informações confidenciais só deve ser feito usando uma connnection seguro."
 
 #: includes/admin/settings/views/checkout.php:65
 msgid "Gateway Display"
-msgstr ""
+msgstr "Gateway de Exibição"
 
 #: includes/admin/settings/views/checkout.php:73
 msgid "Online Status"
-msgstr ""
+msgstr "Estado online"
 
 #: includes/admin/settings/views/checkout.php:74
 msgid "POS Status"
-msgstr ""
+msgstr "POS Estado"
 
 #: includes/admin/settings/views/checkout.php:75
 msgid "POS Settings"
-msgstr ""
+msgstr "Configurações de POS"
 
 #: includes/admin/settings/views/checkout.php:126
 msgid "Payment method title."
-msgstr ""
+msgstr "Título de pagamento."
 
 #: includes/admin/settings/views/checkout.php:133
 msgid "Payment method description that will be shown in the POS."
-msgstr ""
+msgstr "Descrição do método de pagamento que será mostrado no POS."
 
 #: includes/admin/settings/views/checkout.php:139
 msgid "Icon"
-msgstr ""
+msgstr "Ícone"
 
 #: includes/admin/settings/views/general.php:13
 msgid "Product Visibility"
-msgstr ""
+msgstr "Visibilidade produto"
 
 #: includes/admin/settings/views/general.php:17
 msgid "Enable <a href=\"%s\">POS Only products</a>"
-msgstr ""
+msgstr "Ativar <a href=\"%s\">POS Apenas os produtos</a>"
 
 #: includes/admin/settings/views/general.php:23
 msgid "Allow Decimal Quantity"
-msgstr ""
+msgstr "Permitir Decimal Quantidade"
 
 #: includes/admin/settings/views/general.php:24
 msgid "Allows items to have decimal values in the quantity field, eg: 0.25"
-msgstr ""
+msgstr "Permite que os itens a ter valores decimais no campo de quantidade, por exemplo: 0,25"
 
 #: includes/admin/settings/views/general.php:34
 msgid "Default POS Customer"
-msgstr ""
+msgstr "Padrão POS Cliente"
 
 #: includes/admin/settings/views/general.php:35
 msgid ""
 "The default customer for POS orders, eg: Guest or create a new customer."
-msgstr ""
+msgstr "O cliente padrão para pedidos de POS, por exemplo: Guest ou criar um novo cliente."
 
 #: includes/admin/settings/views/general.php:46
 msgid "Discount Quick Keys"
-msgstr ""
+msgstr "Desconto rápido Chaves"
 
 #: includes/admin/settings/views/general.php:47
 msgid "Configure discount keys for quick numpad entry"
-msgstr ""
+msgstr "Configurar chaves de desconto para entrada rápida numpad"
 
 #: includes/admin/settings/views/hotkeys.php:1
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Atalhos do teclado"
 
 #: includes/admin/settings/views/hotkeys.php:4
 msgid ""
 "You can trigger certain events in WooCommerce POS using keyboard shortcuts "
 "(HotKeys)."
-msgstr ""
+msgstr "Você pode desencadear certos acontecimentos em WooCommerce POS usando atalhos de teclado (teclas de atalho)."
 
 #: includes/admin/settings/views/hotkeys.php:5
 msgid ""
-"HotKeys can also be used as a prefix for your barcode scanner or card reader."
-msgstr ""
+"HotKeys can also be used as a prefix for your barcode scanner or card "
+"reader."
+msgstr "HotKeysVê também pode ser utilizado como um prefixo para o scanner de código de barras ou leitor de cartões."
 
 #: includes/admin/settings/views/tools.php:33
 msgid "Receipt Template"
-msgstr ""
+msgstr "Modelo de recibo"
 
 #: includes/admin/settings/views/tools.php:36
 msgid "View Sample Receipt"
-msgstr ""
+msgstr "Ver recibo de exemplo"
 
 #: includes/admin/settings/views/tools.php:38
 msgid "<strong class=\"red\">Template path:</strong> %s"
-msgstr ""
+msgstr "<strong class=\"red\">Caminho do modelo:</strong> %s"
 
 #: includes/admin/settings/views/tools.php:43
 msgid "Legacy Server Support"
-msgstr ""
+msgstr "Suporte ao Servidor legado"
 
 #: includes/admin/settings/views/tools.php:49
 msgid "Emulate RESTful HTTP methods to support legacy servers."
-msgstr ""
+msgstr "Emular métodos HTTP RESTful para suportar servidores legados."
 
 #: includes/admin/settings/views/tools.php:54
 msgid "Local Data"
-msgstr ""
+msgstr "Dados Locais"
 
 #: includes/admin/settings/views/tools.php:59
 msgid "Clear Local Data"
-msgstr ""
+msgstr "Limpar dados de local"
 
 #: includes/admin/settings/views/tools.php:62
 msgid "Clear All Local Data"
-msgstr ""
+msgstr "Limpar todos os dados locais"
 
 #: includes/admin/views/order-details.php:2
 msgid "Order type"
-msgstr ""
+msgstr "Tipo do pedido"
 
 #: includes/admin/views/settings.php:13
 msgid ""
-"There has been an error loading the settings, please contact <a href="
-"\"mailto:support@woopos.com.au\">support</a>"
-msgstr ""
+"There has been an error loading the settings, please contact <a "
+"href=\"mailto:support@woopos.com.au\">support</a>"
+msgstr "Houve um erro ao carregar as configurações, entre em contato com <a href=\"mailto:support@woopos.com.au\">o suporte</a>"
 
 #: includes/class-wc-pos-activator.php:188
 msgid ""
 "<strong>WooCommerce POS</strong> requires <a href=\"%s\">WooCommerce %s or "
 "higher</a>. Please <a href=\"%s\">install and activate WooCommerce</a>"
-msgstr ""
+msgstr "<strong>WooCommerce POS</strong> requer <a href=\"%s\">WooCommerce% s ou superior.</a> Por favor, <a href=\"%s\">instalar e ativar WooCommerce</a>"
 
 #: includes/class-wc-pos-activator.php:207
 msgid ""
 "<strong>WooCommerce POS</strong> requires PHP %s or higher. Read more "
 "information about <a href=\"%s\">how you can update</a>"
-msgstr ""
+msgstr "<strong>WooCommerce POS</strong> requer PHP% s ou superior. Leia mais informações sobre <a href=\"%s\">como você pode atualizar</a>"
 
 #: includes/products/class-wc-pos-visibility.php:23
 msgid "POS & Online"
-msgstr ""
+msgstr "POS e on-line"
 
 #: includes/products/class-wc-pos-visibility.php:24
 #: includes/products/class-wc-pos-visibility.php:87
 msgid "POS Only"
-msgstr ""
+msgstr "Apenas POS"
 
 #: includes/products/class-wc-pos-visibility.php:25
 #: includes/products/class-wc-pos-visibility.php:88
 msgid "Online Only"
-msgstr ""
+msgstr "Online somente"
 
 #: includes/products/views/post-metabox-visibility-select.php:11
 #: includes/products/views/quick-edit-visibility-select.php:14
 msgid "POS visibility"
-msgstr ""
+msgstr "Visibilidade POS"
 
 #: includes/admin/class-wc-pos-permalink.php:30
 msgctxt "Permalink setting, eg: /pos"
 msgid "POS base"
-msgstr ""
+msgstr "Base de POS"
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:22
 msgctxt "keyboard shortcuts"
 msgid "HotKeys"
-msgstr ""
+msgstr "HotKeys"
 
 #: includes/admin/settings/views/checkout.php:143
 msgctxt "POS checkout settings"
 msgid "Show payment gateway icon."
-msgstr ""
+msgstr "Mostrar ícone de gateway de pagamento."
 
 #: includes/admin/settings/views/general.php:40
 msgctxt "Default customer setting"
 msgid "Use cashier account"
-msgstr ""
+msgstr "Use conta cashier"

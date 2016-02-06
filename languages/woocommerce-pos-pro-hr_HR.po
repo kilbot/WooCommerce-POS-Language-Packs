@@ -1,0 +1,152 @@
+# Copyright (C) 2015 kilbot
+# This file is distributed under the Copyright 2015 The Kilbot Factory.
+# Translators:
+# mladen šalaj <mladen.salaj@gmail.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce POS\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
+"POT-Creation-Date: 2015-10-29 13:23:19+00:00\n"
+"PO-Revision-Date: 2016-02-06 11:44+0000\n"
+"Last-Translator: mladen šalaj <mladen.salaj@gmail.com>\n"
+"Language-Team: Croatian (Croatia) (http://www.transifex.com/kilbot/woocommerce-pos/language/hr_HR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hr_HR\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: grunt-wp-i18n 0.5.3\n"
+
+#: includes/class-wc-pos-pro-ajax.php:84
+msgid "Invalid security nonce"
+msgstr "Neispravan sigurnosni nonce"
+
+#: includes/class-wc-pos-pro-i18n.php:109
+msgid "Edit Customer"
+msgstr "Uredi Kupca"
+
+#: includes/class-wc-pos-pro-i18n.php:110
+#: includes/views/customers/tmpl-actions.php:13
+msgid "Add New Customer"
+msgstr "Dodaj Novog Kupca"
+
+#: includes/class-wc-pos-pro-stores.php:57
+#: includes/class-wc-pos-pro-stores.php:59
+#: includes/class-wc-pos-pro-stores.php:65
+msgid "Stores"
+msgstr "Prodajna mjesta"
+
+#: includes/class-wc-pos-pro-stores.php:58
+#: includes/class-wc-pos-pro-stores.php:103
+#: includes/widgets/class-wc-pos-pro-hours.php:82
+msgid "Store"
+msgstr "Prodajno Mjesto"
+
+#: includes/class-wc-pos-pro-stores.php:60
+#: includes/class-wc-pos-pro-stores.php:61
+msgid "Add New Store"
+msgstr "Dodaj novo Prodajno Mjesto"
+
+#: includes/class-wc-pos-pro-stores.php:62
+msgid "New Store"
+msgstr "Novo Prodajno Mjesto"
+
+#: includes/class-wc-pos-pro-stores.php:63
+msgid "Edit Store"
+msgstr "Uredi Prodajno Mjesto"
+
+#: includes/class-wc-pos-pro-stores.php:64
+msgid "View Store"
+msgstr "Posjeti Prodajno Mjesto"
+
+#: includes/class-wc-pos-pro-stores.php:66
+msgid "Search Stores"
+msgstr "Pretraži Prodajna mjesta"
+
+#: includes/class-wc-pos-pro-stores.php:67
+msgid "Parent Store:"
+msgstr "Glavno Prodajno Mjesto"
+
+#: includes/class-wc-pos-pro-stores.php:68
+msgid "No Stores found."
+msgstr "Nisu nađena Prodajna Mjesta."
+
+#: includes/class-wc-pos-pro-stores.php:69
+msgid "No Stores found in Trash."
+msgstr "Nisu nađena Prodajna Mjesta u Smeću."
+
+#. translators: woocommerce
+#. translators: wordpress
+#. translators: woocommerce
+#. translators: woocommerce
+#: includes/class-wc-pos-pro-template.php:65
+#: includes/views/customers/tmpl-panel.php:7
+#: includes/views/modals/tmpl-customer-edit.php:12
+#: includes/views/print/receipt.php:185
+msgid "Email"
+msgstr "E-mail"
+
+#: includes/views/pos/cart/tmpl-customer.php:5
+msgid "Add Customer"
+msgstr "Dodaj Kupca"
+
+#: includes/views/print/receipt.php:4
+msgid "Receipt"
+msgstr "Račun"
+
+#: includes/views/print/receipt.php:170
+msgid "Order Date"
+msgstr "Datum Narudžbe"
+
+#: includes/views/print/receipt.php:175
+msgid "Cashier"
+msgstr "Blagajnik"
+
+#: includes/views/print/receipt.php:180
+msgid "Payment Method"
+msgstr "Naćin plaćanja"
+
+#: includes/views/print/receipt.php:231
+msgid "Cart Subtotal"
+msgstr "Suma stavke u Košarici"
+
+#: includes/views/print/receipt.php:289
+msgid "Amount Tendered"
+msgstr "Ponuđena Količina"
+
+#: includes/views/products/tmpl-list-item.php:74
+msgid "On Sale?"
+msgstr "Na Rasprodaji?"
+
+#: includes/widgets/class-wc-pos-pro-hours.php:17
+msgid "Store Opening Hours"
+msgstr "Radno Vrijeme Prodavaonice"
+
+#: includes/widgets/class-wc-pos-pro-hours.php:18
+msgid "Display store hours set in WooCommerce POS"
+msgstr "Prikaži Radno Vrijeme Prodavaonice u WooCommerce POS-u"
+
+#: includes/widgets/class-wc-pos-pro-hours.php:88
+msgid "No stores. <a href=\"%s\">Create a new store</a>."
+msgstr "Nema Prodavaonica. <a href=\"%s\"Izradi novu Prodavaonicu</a>."
+
+#. Description of the plugin/theme
+msgid ""
+"WooCommerce POS Pro adds extra functionality to the free plugin. Requires <a"
+" href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce POS</a>."
+msgstr "WooCommerce POS Pro pruža dodatnu funkcionalnost besplatnom plugin-u. Zahtjeva <a href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce POS</a>."
+
+#: includes/views/print/receipt.php:200
+msgctxt "Abbreviation of Quantity"
+msgid "Qty"
+msgstr "Kol."
+
+#: includes/views/print/receipt.php:258 includes/views/print/receipt.php:268
+msgctxt "abbreviation for includes (tax)"
+msgid "incl."
+msgstr "uklj."
+
+#: includes/views/print/receipt.php:293
+msgctxt "Money returned from cash sale"
+msgid "Change"
+msgstr "Izmjeni"

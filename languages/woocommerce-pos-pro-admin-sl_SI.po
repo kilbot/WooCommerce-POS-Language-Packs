@@ -1,79 +1,73 @@
 # Copyright (C) 2015 kilbot
 # This file is distributed under the Copyright 2015 The Kilbot Factory.
-# Translators:
-# mladen šalaj <mladen.salaj@gmail.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce POS\n"
+"Project-Id-Version: WooCommerce POS Pro 0.4.5\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
 "POT-Creation-Date: 2015-10-29 13:23:19+00:00\n"
-"PO-Revision-Date: 2016-02-06 13:30+0000\n"
-"Last-Translator: mladen šalaj <mladen.salaj@gmail.com>\n"
-"Language-Team: Croatian (Croatia) (http://www.transifex.com/kilbot/"
-"woocommerce-pos/language/hr_HR/)\n"
-"Language: hr_HR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"PO-Revision-Date: 2015-10-29 13:23:19+00:00\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
 "X-Generator: grunt-wp-i18n 0.5.3\n"
+"Language: sl\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
+"%100==4 ? 2 : 3);\n"
 
 #: includes/admin/class-wc-pos-pro-am.php:72
 msgid "The %s License Key has not been activated, so the plugin is inactive!"
-msgstr "%s Korisnički Ključ nije aktiviran zato plugin nije aktivan!"
+msgstr ""
 
 #: includes/admin/class-wc-pos-pro-am.php:73
 msgid ""
 " <a href=\"%s\">Click here</a> to activate the license key and the plugin."
 msgstr ""
-"<a href=\"%s\">Klikni ovdje</a> za aktivaciju korisničkog ključa i plugin-a."
 
 #: includes/admin/class-wc-pos-pro-am.php:106
 msgid ""
 "<b>Warning!</b> You're blocking external requests which means you won't be "
 "able to get %s updates. Please add %s to %s."
 msgstr ""
-"<b>Upozorenje!</b> Blokirate vanjske zahtjeve \"external requests\" tako da "
-"nećete moći zaprimati %s nadogradnje. Molimo dodajte %s na %s."
 
 #: includes/admin/class-wc-pos-pro-am.php:232
 msgid "Unable to connect to the activation server"
-msgstr "Nemogućnost spajanja na aktivaciski server"
+msgstr ""
 
 #: includes/admin/class-wc-pos-pro-am.php:267
 msgid "Unable to parse the server response"
-msgstr "Nije moguće raščlaniti odgovor servera"
+msgstr ""
 
 #: includes/admin/class-wc-pos-pro-am.php:279
 msgid "Invalid Request"
-msgstr "Neispravan zahtjev"
+msgstr ""
 
 #: includes/admin/class-wc-pos-pro-am.php:281
 #: includes/admin/class-wc-pos-pro-am.php:285
 msgid "Invalid License Key"
-msgstr "Neispravan Korisnički Ključ"
+msgstr ""
 
 #: includes/admin/class-wc-pos-pro-am.php:282
 msgid "Activation error"
-msgstr "Aktivacijska pogreška"
+msgstr ""
 
 #: includes/admin/class-wc-pos-pro-am.php:283
 msgid "Exceeded maximum number of activations"
-msgstr "Prekoračen maksimalan broj aktivacija"
+msgstr ""
 
 #: includes/admin/class-wc-pos-pro-am.php:284
 msgid "Invalid Instance ID"
-msgstr "Neispravan ID"
+msgstr ""
 
 #: includes/admin/class-wc-pos-pro-am.php:286
 msgid "Subscription is not active"
-msgstr "Pretplata nije aktivna"
+msgstr ""
 
 #: includes/admin/class-wc-pos-pro-am.php:289
 msgid "Invalid Response"
-msgstr "Neispravan Odgovor"
+msgstr ""
 
 #: includes/admin/class-wc-pos-pro-am.php:307
 msgid ""
@@ -82,26 +76,18 @@ msgid ""
 "reactivate or purchase a license key from your account <a href=\"%s\" target="
 "\"_blank\">dashboard</a>."
 msgstr ""
-"Korisnički Ključ za %s nije pronađen. Možda niste unjeli Korisnički Ključ "
-"kod postavljanja %s, ili je deaktiviran za Vaš račun. Možete ga reaktivirati "
-"ili zakupiti novi sa vašeg računa na <a href=\"%s\" target=\"_blank"
-"\">kontrolnoj ploči</a>."
 
 #: includes/admin/class-wc-pos-pro-am.php:308
 msgid ""
 "The license key for %s has expired. You can reactivate or purchase a license "
 "key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
 msgstr ""
-"Korisnički Ključ za %s je istekao. YMožete ga reaktivirati ili zakupiti novi "
-"sa vašeg računa na <a href=\"%s\" target=\"_blank\">kontrolnoj ploči</a>."
 
 #: includes/admin/class-wc-pos-pro-am.php:309
 msgid ""
 "The subscription for %s is on-hold. You can reactivate the subscription from "
 "your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
 msgstr ""
-"Pretplata za %s je na čekanju. Možete reaktivirati pretplatu sa vašeg računa "
-"na <a href=\"%s\" target=\"_blank\">kontrolnoj ploči</a>."
 
 #: includes/admin/class-wc-pos-pro-am.php:310
 msgid ""
@@ -109,17 +95,12 @@ msgid ""
 "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>. A new "
 "license key will be emailed to you after your order has been completed."
 msgstr ""
-"Pretplata za %s je otkazana. Možete ju obnoviti sa vašeg računa na <a href="
-"\"%s\" target=\"_blank\">kontrolnoj ploči</a>. Novi Korisnički Ključ će vam "
-"biti poslan mailom nakon što vaša narudžba bude završena."
 
 #: includes/admin/class-wc-pos-pro-am.php:311
 msgid ""
 "The subscription for %s has expired. You can reactivate the subscription "
 "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
 msgstr ""
-"Pretplata za %s je istekla. Možete ju obnoviti sa vašeg računa na <a href="
-"\"%s\" target=\"_blank\">kontrolnoj ploči</a>."
 
 #: includes/admin/class-wc-pos-pro-am.php:312
 msgid ""
@@ -127,8 +108,6 @@ msgid ""
 "subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
 "a>."
 msgstr ""
-"Pretplata za  %s je obustavljena. Možete ju obnoviti sa vašeg računa na <a "
-"href=\"%s\" target=\"_blank\">kontrolnoj ploči</a>."
 
 #: includes/admin/class-wc-pos-pro-am.php:313
 msgid ""
@@ -136,8 +115,6 @@ msgid ""
 "subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
 "a>."
 msgstr ""
-"Pretplata za %s je u tijeku. Možete provjeriti status pretplate sa vašeg "
-"računa na <a href=\"%s\" target=\"_blank\">kontrolnoj ploči</a>."
 
 #: includes/admin/class-wc-pos-pro-am.php:314
 msgid ""
@@ -145,25 +122,18 @@ msgid ""
 "soon. You can purchase a new subscription from your account <a href=\"%s\" "
 "target=\"_blank\">dashboard</a>."
 msgstr ""
-"Pretplata za %s je premještena u otpad i uskoro će biti obrisana. Možete "
-"kupiti novu pretplatu sa vašeg računa na <a href=\"%s\" target=\"_blank"
-"\">kontrolnoj ploči</a>."
 
 #: includes/admin/class-wc-pos-pro-am.php:315
 msgid ""
 "A subscription for %s could not be found. You can purchase a subscription "
 "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
 msgstr ""
-"Pretplata za %s nije nađena. Možete kupiti novu pretplatu sa vašeg računa na "
-"<a href=\"%s\" target=\"_blank\">kontrolnoj ploči</a>."
 
 #: includes/admin/class-wc-pos-pro-am.php:316
 msgid ""
 "%s has not been activated. Go to the settings page and enter the license key "
 "and license email to activate %s."
 msgstr ""
-"%s nije aktiviran. Otiđite na stranicu Postavke i unesite Korisnički Ključ i "
-"Korisnički E-mail za aktivaciju %s."
 
 #: includes/admin/class-wc-pos-pro-am.php:317
 msgid ""
@@ -171,9 +141,6 @@ msgid ""
 "subscription expiring. You can reactivate or purchase a license key from "
 "your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
 msgstr ""
-"Preuzimanje je obustavljeno za %s vjerovatno zbog isteka Korisničkog Ključa "
-"ili Pretplate. Možete obnoviti ili kupiti Korisnički Ključ sa vašeg računa "
-"na<a href=\"%s\" target=\"_blank\">korisničkoj ploči</a>."
 
 #: includes/admin/class-wc-pos-pro-am.php:318
 msgid ""
@@ -182,10 +149,6 @@ msgid ""
 "your email inbox, if not you can get it by logging into your account <a href="
 "\"%s\" target=\"_blank\">dashboard</a>."
 msgstr ""
-"Izmjenili ste pretplatu za %s, morati ćete unjeti novi API Korisnički Ključ "
-"na stranici Postavke. Korisnički Ključ je trebao stići u vaš E-mail inbox, "
-"ako nije, možete ga preuzeti preko vašeg računa na  <a href=\"%s\" target="
-"\"_blank\">korisničkoj ploči</a>."
 
 #: includes/admin/class-wc-pos-pro-reports.php:27
 #: includes/admin/reports/views/sales-table.php:12
@@ -194,81 +157,79 @@ msgstr ""
 #: includes/admin/reports/views/sales-table.php:18
 #: includes/admin/reports/views/sales-table.php:20
 msgid "POS"
-msgstr "POS"
+msgstr ""
 
 #: includes/admin/class-wc-pos-pro-reports.php:30
 msgid "POS vs Online"
-msgstr "POS ili Online"
+msgstr ""
 
 #: includes/admin/class-wc-pos-pro-reports.php:36
 msgid "Sales by cashier"
-msgstr "Prodaja od Prodavača"
+msgstr ""
 
 #: includes/admin/class-wc-pos-pro-reports.php:42
 msgid "Sales by store"
-msgstr "Prodaja od Prodavaonice"
+msgstr ""
 
 #: includes/admin/class-wc-pos-pro-reports.php:48
 msgid "Sales by payment method"
-msgstr "Prodaja po načinu plaćanja"
+msgstr ""
 
 #: includes/admin/class-wc-pos-pro-stores.php:62
 msgid "Stores"
-msgstr "Prodajna mjesta"
+msgstr ""
 
 #: includes/admin/class-wc-pos-pro-stores.php:129
 msgid "Open POS"
-msgstr "Otvoren POS"
+msgstr ""
 
 #: includes/admin/class-wc-pos-pro-stores.php:148
 #: includes/admin/views/order-details.php:2
 msgid "Store"
-msgstr "Prodajno Mjesto"
+msgstr ""
 
 #: includes/admin/class-wc-pos-pro-stores.php:165
 msgid "Preview Receipt"
-msgstr "Pregled Računa"
+msgstr ""
 
 #: includes/admin/class-wc-pos-pro-stores.php:180
 msgid "Opening Hours"
-msgstr "Radno Vrijeme"
+msgstr ""
 
 #: includes/admin/class-wc-pos-pro-stores.php:189
 msgid "Logo"
-msgstr "Logotip"
+msgstr ""
 
 #: includes/admin/class-wc-pos-pro-stores.php:212
 msgid "Receipt Options"
-msgstr "Opcije Računa"
+msgstr ""
 
 #: includes/admin/class-wc-pos-pro-stores.php:277
 msgid "Set featured image"
-msgstr "Postavi istaknutu sliku"
+msgstr ""
 
 #: includes/admin/class-wc-pos-pro-stores.php:277
 #: includes/admin/class-wc-pos-pro-stores.php:293
 msgid "Set store logo"
-msgstr "Postavi logotip prodavaonice"
+msgstr ""
 
 #: includes/admin/class-wc-pos-pro-stores.php:278
 msgid "Remove featured image"
-msgstr "Ukloni istaknutu sliku"
+msgstr ""
 
 #: includes/admin/class-wc-pos-pro-stores.php:278
 msgid "Remove store logo"
-msgstr "Ukloni logotip prodavaonice"
+msgstr ""
 
 #: includes/admin/class-wc-pos-pro-stores.php:292
 msgid "Set Store Logo"
-msgstr "Postavi Logotip Prodavaonice"
+msgstr ""
 
 #: includes/admin/class-wc-pos-pro-stores.php:369
 msgid ""
 "Please <a href=\"%s\">read the docs</a> for information on how to customize "
 "your POS receipts."
 msgstr ""
-"Molimo <a href=\"%s\">pročitajte dokumentaciju</a> kako bi znali podesiti "
-"svoje POS račune."
 
 #: includes/admin/reports/class-wc-pos-pro-sales.php:168
 #: includes/admin/reports/class-wc-pos-pro-sales.php:171
@@ -277,62 +238,62 @@ msgstr ""
 #: includes/admin/reports/class-wc-pos-pro-sales.php:270
 #: includes/admin/reports/class-wc-pos-pro-sales.php:276
 msgid "POS Sales"
-msgstr "POS Prodaja"
+msgstr ""
 
 #: includes/admin/reports/class-wc-pos-pro-sales.php:174
 #: includes/admin/reports/class-wc-pos-pro-sales.php:177
 #: includes/admin/reports/class-wc-pos-pro-sales.php:244
 #: includes/admin/reports/class-wc-pos-pro-sales.php:258
 msgid "Online Sales"
-msgstr "Online Prodaja"
+msgstr ""
 
 #: includes/admin/reports/class-wc-pos-pro-store.php:59
 msgid "No Stores found."
-msgstr "Nisu nađena Prodajna Mjesta"
+msgstr ""
 
 #: includes/admin/reports/class-wc-pos-pro-store.php:61
 msgid "Add New Store"
-msgstr "Dodaj novo Prodajno Mjesto"
+msgstr ""
 
 #: includes/admin/reports/views/sales-table.php:4
 msgid "Period"
-msgstr "Razdoblje"
+msgstr ""
 
 #: includes/admin/reports/views/sales-table.php:5
 msgid "Orders"
-msgstr "Narudžbe"
+msgstr ""
 
 #: includes/admin/reports/views/sales-table.php:6
 msgid "Total Sales"
-msgstr "Ukupna Prodaja"
+msgstr ""
 
 #: includes/admin/reports/views/sales-table.php:6
 msgid "This is the sum of the 'Order Total' field within your orders."
-msgstr "Ovo je suma 'Ukupnih Narudžbi' unutar vaših narudžbi."
+msgstr ""
 
 #: includes/admin/reports/views/sales-table.php:7
 msgid "Total Shipping"
-msgstr "Ukupno Dostava"
+msgstr ""
 
 #: includes/admin/reports/views/sales-table.php:7
 msgid "This is the sum of the 'Shipping Total' field within your orders."
-msgstr "Ovo je suma 'Ukupnih Troškova Dostave' unutar vaših narudžbi."
+msgstr ""
 
 #: includes/admin/reports/views/sales-table.php:8
 msgid "Total Tax"
-msgstr "Ukupno porez"
+msgstr ""
 
 #: includes/admin/reports/views/sales-table.php:8
 msgid "This is the total tax for the rate (shipping tax + product tax)."
-msgstr "Ovo je ukupan porez za iznos (porez na dostavu + porez na proizvod)"
+msgstr ""
 
 #: includes/admin/reports/views/sales-table.php:9
 msgid "Net profit"
-msgstr "Neto dobit"
+msgstr ""
 
 #: includes/admin/reports/views/sales-table.php:9
 msgid "Total sales minus shipping and tax."
-msgstr "Ukupna prodaja bez dostave i poreza."
+msgstr ""
 
 #: includes/admin/reports/views/sales-table.php:13
 #: includes/admin/reports/views/sales-table.php:15
@@ -340,124 +301,116 @@ msgstr "Ukupna prodaja bez dostave i poreza."
 #: includes/admin/reports/views/sales-table.php:19
 #: includes/admin/reports/views/sales-table.php:21
 msgid "Online"
-msgstr "Online"
+msgstr ""
 
 #: includes/admin/reports/views/sales-table.php:55
 msgid "Total"
-msgstr "Ukupno"
+msgstr ""
 
 #: includes/admin/settings/class-wc-pos-pro-license.php:18
 msgid "Pro License"
-msgstr "Pro Licenca"
+msgstr ""
 
 #: includes/admin/settings/views/customers.php:7
 msgid "Customer Options"
-msgstr "Opcije Kupca"
+msgstr ""
 
 #: includes/admin/settings/views/general.php:5
 msgid "Barcode Field"
-msgstr "Polje za Barcode"
+msgstr ""
 
 #: includes/admin/settings/views/general.php:6
 msgid "Select a meta field to use as the product barcode"
-msgstr "Odaberite meta polje za korištenje kao barkod proizvoda"
+msgstr ""
 
 #: includes/admin/settings/views/license.php:7
 msgid "Pro License Activation"
-msgstr "Aktivacija Pro Licence"
+msgstr ""
 
 #: includes/admin/settings/views/license.php:11
 msgid "Thank you!"
-msgstr "Hvala Vam!"
+msgstr ""
 
 #: includes/admin/settings/views/license.php:11
 msgid "Your license is active"
-msgstr "Vaša licenca je aktivna"
+msgstr ""
 
 #: includes/admin/settings/views/license.php:17
 msgid "License Email"
-msgstr "Korisnički E-mail"
+msgstr ""
 
 #: includes/admin/settings/views/license.php:25
 msgid "License Key"
-msgstr "Korisnički Ključ"
+msgstr ""
 
 #: includes/admin/views/stores/address.php:55
 msgid "loading"
-msgstr "učitavanje"
+msgstr ""
 
 #: includes/admin/views/stores/opening-hours.php:21
 msgid "Opening Hours notes"
-msgstr "Radno vrijeme bilješke"
+msgstr ""
 
 #: includes/admin/views/stores/opening-hours.php:22
 msgid "eg: Closed public holidays"
-msgstr "primjer: Zatvoreno radi državnog praznika"
+msgstr ""
 
 #: includes/admin/views/stores/opening-hours.php:27
 msgid ""
 "You can add opening hours to your website using a widget. <a href=\"%s"
 "\">Read the docs</a> for more information."
 msgstr ""
-"Možete dodati Radno vrijeme na stranicu koristeći widget. <a href=\"%s"
-"\">Pročitaj dokumentaciju</a> za više informacija."
 
 #: includes/admin/views/stores/receipt-options.php:9
 msgid "Complimentary Close"
-msgstr "Poruka Zahvale"
+msgstr ""
 
 #: includes/admin/views/stores/receipt-options.php:10
 msgid ""
 "Personal notes or season greetings, e.g. Thank You for Your Order! or Merry "
 "Christmas!"
 msgstr ""
-"Osobne bilješke ili sezonski pozdrav, primjer: Hvala Van na narudžbi! ili "
-"Čestit Božić!"
 
 #: includes/admin/views/stores/receipt-options.php:13
 msgid "Returns Policy"
-msgstr "Povrat robe"
+msgstr ""
 
 #: includes/admin/views/stores/receipt-options.php:14
 msgid "Returns policy, terms and conditions"
-msgstr "Povrat robe, prava i obveze"
+msgstr ""
 
 #: includes/admin/views/stores/receipt-options.php:17
 msgid "Footer"
-msgstr "Podnožje"
+msgstr ""
 
 #: includes/admin/views/stores/receipt-options.php:18
 msgid "Further footer information, e.g. copyright or branding"
-msgstr "Dodatne obavijesti podnožja, primjer: autorska prava ili branding"
+msgstr ""
 
 #: includes/admin/views/stores/tax-rate.php:8
 msgid "Calculate Tax Based On"
-msgstr "Izračunaj Porez Prema"
+msgstr ""
 
 #: includes/admin/views/stores/tax-rate.php:10
 msgid "this store address"
-msgstr "adresa ove prodavaonice"
+msgstr ""
 
 #: includes/admin/views/stores/tax-rate.php:11
 msgid "base location"
-msgstr "lokacija sjedišta"
+msgstr ""
 
 #: includes/admin/views/stores/tax-rate.php:39
 msgid "No tax rates set"
-msgstr "Porezne stope nisu postavljene"
+msgstr ""
 
 #: includes/admin/views/stores/tax-rate.php:43
 msgid ""
 "The tax rates above will be used at the point of sale. You can <a href=\"%s"
 "\">change the tax rate</a> in WooCommerce settings."
 msgstr ""
-"Gore navedene porezne stope biti će korištene prilikom prodaje. Možete <a "
-"href=\"%s\">izmjeniti porezne stope</a> u WooCommerce postavkama."
 
 #: includes/class-wc-pos-pro-activator.php:155
 msgid ""
 "<strong>WooCommerce POS Pro</strong> requires <a href=\"%s\">WooCommerce "
 "POS</a>. Please <a href=\"%s\">install and activate WooCommerce POS</a>"
 msgstr ""
-"<strong>WooCommerce POS Pro</strong> zahtjeva <a href=\"%s\">WooCommerce "
-"POS</a>. Molimo <a href=\"%s\">instalirajte i aktivirajte WooCommerce POS</a>"

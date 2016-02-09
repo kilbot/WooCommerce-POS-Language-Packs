@@ -5,16 +5,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
-"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
+"Packs/issues\n"
 "POT-Creation-Date: 2015-12-18 01:35:18+00:00\n"
 "PO-Revision-Date: 2016-02-06 11:35+0000\n"
 "Last-Translator: mladen šalaj <mladen.salaj@gmail.com>\n"
-"Language-Team: Croatian (Croatia) (http://www.transifex.com/kilbot/woocommerce-pos/language/hr_HR/)\n"
+"Language-Team: Croatian (Croatia) (http://www.transifex.com/kilbot/"
+"woocommerce-pos/language/hr_HR/)\n"
+"Language: hr_HR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hr_HR\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: grunt-wp-i18n 0.5.3\n"
 
 #: includes/admin/class-wc-pos-gateways.php:31
@@ -90,13 +93,18 @@ msgstr "Defoltni pristup POS-u je odobren Administratoru i Voditelju trgovine"
 msgid ""
 "It is recommended that you <strong>do not change</strong> the default "
 "settings unless you are fully aware of the consequences."
-msgstr "Savjetujemo da <strong>ne mijenjate</strong> defoltne postavke ukoliko niste u potpunosti upoznati sa posljedicama!"
+msgstr ""
+"Savjetujemo da <strong>ne mijenjate</strong> defoltne postavke ukoliko niste "
+"u potpunosti upoznati sa posljedicama!"
 
 #: includes/admin/settings/views/access.php:12
 #: includes/admin/settings/views/checkout.php:60
 #: includes/admin/settings/views/hotkeys.php:6
-msgid "For more information please visit <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
-msgstr "Za dodatne informacije molimo posjetite: <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
+msgid ""
+"For more information please visit <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
+msgstr ""
+"Za dodatne informacije molimo posjetite: <a href=\"%1$s\" target=\"_blank\">"
+"%1$s</a>"
 
 #: includes/admin/settings/views/checkout.php:13
 msgid "Completed Order Status"
@@ -132,23 +140,31 @@ msgstr "Automatski ispiši račun nakon odjave"
 
 #: includes/admin/settings/views/checkout.php:54
 msgid ""
-"Installed gateways are listed below. Drag and drop gateways to control their"
-" display order at the Point of Sale. "
-msgstr "Instalirani pristupi su navedeni ispod. Primite i ispustite pristup za redosljed prikaza na POS-u"
+"Installed gateways are listed below. Drag and drop gateways to control their "
+"display order at the Point of Sale. "
+msgstr ""
+"Instalirani pristupi su navedeni ispod. Primite i ispustite pristup za "
+"redosljed prikaza na POS-u"
 
 #: includes/admin/settings/views/checkout.php:55
 msgid ""
 "Payment Gateways enabled here will be available at the Point of Sale. "
 "Payment Gateways enabled on the settings page will be available in your "
 "Online Store. "
-msgstr "Ovdje omogućeni pristupi Plaćanju biti će dostupni na POS-u. Pristupi Plaćanju omogućeni na stranici Postavke biti će dostupni u Vašoj Online Trgovini."
+msgstr ""
+"Ovdje omogućeni pristupi Plaćanju biti će dostupni na POS-u. Pristupi "
+"Plaćanju omogućeni na stranici Postavke biti će dostupni u Vašoj Online "
+"Trgovini."
 
 #: includes/admin/settings/views/checkout.php:59
 msgid ""
 "It is your responsibility to ensure the security of your customer's "
 "information. Transmitting credit card or other sensitive information should "
 "only be done using a secure connnection."
-msgstr "Vaša odgovornost osigurati zaštitu podataka kupaca! Odašiljanje brojeva kreditnih kartica, kao i ostalih osjetljivih informacija, potrebno je obavljati kroz zaštićenu internetsku vezu!"
+msgstr ""
+"Vaša odgovornost osigurati zaštitu podataka kupaca! Odašiljanje brojeva "
+"kreditnih kartica, kao i ostalih osjetljivih informacija, potrebno je "
+"obavljati kroz zaštićenu internetsku vezu!"
 
 #: includes/admin/settings/views/checkout.php:65
 msgid "Gateway Display"
@@ -219,13 +235,16 @@ msgstr "Prečaci na Tipkovnici"
 msgid ""
 "You can trigger certain events in WooCommerce POS using keyboard shortcuts "
 "(HotKeys)."
-msgstr "Možete pokrenuti neke radnje na WooCommerce POS-u koristeći prečace na tipkovnici (HotKeys)."
+msgstr ""
+"Možete pokrenuti neke radnje na WooCommerce POS-u koristeći prečace na "
+"tipkovnici (HotKeys)."
 
 #: includes/admin/settings/views/hotkeys.php:5
 msgid ""
-"HotKeys can also be used as a prefix for your barcode scanner or card "
-"reader."
-msgstr "Prečaci (HotKeys) se ujedno mogu koristiti kao prefiks na barcode čitaču ili čitaču kartica."
+"HotKeys can also be used as a prefix for your barcode scanner or card reader."
+msgstr ""
+"Prečaci (HotKeys) se ujedno mogu koristiti kao prefiks na barcode čitaču ili "
+"čitaču kartica."
 
 #: includes/admin/settings/views/tools.php:33
 msgid "Receipt Template"
@@ -265,9 +284,11 @@ msgstr "Tip narudžbe"
 
 #: includes/admin/views/settings.php:13
 msgid ""
-"There has been an error loading the settings, please contact <a "
-"href=\"mailto:support@woopos.com.au\">support</a>"
-msgstr "Pojavila se pogreška kod učitavanja postavki, molimo kontaktirajte <a href=\"mailto:support@woopos.com.au\">podršku</a>"
+"There has been an error loading the settings, please contact <a href="
+"\"mailto:support@woopos.com.au\">support</a>"
+msgstr ""
+"Pojavila se pogreška kod učitavanja postavki, molimo kontaktirajte <a href="
+"\"mailto:support@woopos.com.au\">podršku</a>"
 
 #: includes/api/class-wc-pos-i18n.php:69
 msgid "To Pay"
@@ -334,7 +355,9 @@ msgstr "Nije omogućen pristup plaćanju."
 msgid ""
 "WooCommerce POS will not work in <a href=\"%s\">Private Mode</a>, please "
 "disable Private Browsing."
-msgstr "WooCommerce POS neće raditi u <a href=\"%s\">Private Mode</a>, molimo onemogućite Private Browsing."
+msgstr ""
+"WooCommerce POS neće raditi u <a href=\"%s\">Private Mode</a>, molimo "
+"onemogućite Private Browsing."
 
 #: includes/api/class-wc-pos-orders.php:475
 msgid "There was an error processing the payment"
@@ -374,13 +397,18 @@ msgstr "Nije nađen hendler za %s postavke"
 msgid ""
 "<strong>WooCommerce POS</strong> requires <a href=\"%s\">WooCommerce %s or "
 "higher</a>. Please <a href=\"%s\">install and activate WooCommerce</a>"
-msgstr "<strong>WooCommerce POS</strong> zahtjeva <a href=\"%s\">WooCommerce %s ili veću verziju</a>. Molimo <a href=\"%s\">instalirajte i aktivirajte WooCommerce</a>"
+msgstr ""
+"<strong>WooCommerce POS</strong> zahtjeva <a href=\"%s\">WooCommerce %s ili "
+"veću verziju</a>. Molimo <a href=\"%s\">instalirajte i aktivirajte "
+"WooCommerce</a>"
 
 #: includes/class-wc-pos-activator.php:207
 msgid ""
 "<strong>WooCommerce POS</strong> requires PHP %s or higher. Read more "
 "information about <a href=\"%s\">how you can update</a>"
-msgstr "<strong>WooCommerce POS</strong> zahtjeva PHP %s ili veću verziju. Pročitajte više informacija o tome<a href=\"%s\">kako ažurirati</a>"
+msgstr ""
+"<strong>WooCommerce POS</strong> zahtjeva PHP %s ili veću verziju. "
+"Pročitajte više informacija o tome<a href=\"%s\">kako ažurirati</a>"
 
 #: includes/class-wc-pos-api.php:107
 msgid "User not authorized to access WooCommerce POS"
@@ -416,9 +444,11 @@ msgstr "Potreban je pristup za REST API"
 
 #: includes/class-wc-pos-status.php:146
 msgid ""
-"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to"
-" work correctly"
-msgstr "<strong>WooCommerce REST API</strong> zahtjeva <em>pretty</em> permalinkove da bi radio ispravno"
+"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to "
+"work correctly"
+msgstr ""
+"<strong>WooCommerce REST API</strong> zahtjeva <em>pretty</em> permalinkove "
+"da bi radio ispravno"
 
 #: includes/class-wc-pos-status.php:150
 msgid "Enable permalinks"
@@ -467,20 +497,26 @@ msgstr "POS prikaz"
 
 #: includes/views/modals/browser.php:2
 msgid "Sorry, it seems your browser is not supported by WooCommerce POS. "
-msgstr "Žao nam je, ali Vaš preglednik nije podržan od strane WooCommerce POS-a."
+msgstr ""
+"Žao nam je, ali Vaš preglednik nije podržan od strane WooCommerce POS-a."
 
 #: includes/views/modals/browser.php:3
 msgid ""
-"If possible, please <a href=\"http://browsehappy.com/\">update your "
-"browser</a>, we recommend either Chrome or Firefox."
-msgstr "Ukoliko je moguće, molimo <a href=\"http://browsehappy.com/\">ažurirajte Vaš preglednik</a>, preporučamo ili Chrome ili Firefox."
+"If possible, please <a href=\"http://browsehappy.com/\">update your browser</"
+"a>, we recommend either Chrome or Firefox."
+msgstr ""
+"Ukoliko je moguće, molimo <a href=\"http://browsehappy.com/\">ažurirajte Vaš "
+"preglednik</a>, preporučamo ili Chrome ili Firefox."
 
 #: includes/views/modals/browser.php:7
 msgid ""
 "If you believe you have received this message in error please contact "
-"support via <a "
-"href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
-msgstr "Ako smatrate da ste greškom zaprimili ovu poruku molimo obratite se korisničkoj podršci putem <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
+"support via <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</"
+"a>"
+msgstr ""
+"Ako smatrate da ste greškom zaprimili ovu poruku molimo obratite se "
+"korisničkoj podršci putem <a href=\"mailto:support@woopos.com.au"
+"\">support@woopos.com.au</a>"
 
 #: includes/views/pos/products/tmpl-filter.php:7
 msgid "Scan Barcode"
@@ -533,9 +569,11 @@ msgstr "%s u redu"
 #. Description of the plugin/theme
 msgid ""
 "A simple front-end for taking WooCommerce orders at the Point of Sale. "
-"Requires <a "
-"href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a>."
-msgstr "Jednostavan front-end za WooCommerce narudžbe na Mjestu Prodaje. Potrebuje <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a>."
+"Requires <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</"
+"a>."
+msgstr ""
+"Jednostavan front-end za WooCommerce narudžbe na Mjestu Prodaje. Potrebuje "
+"<a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a>."
 
 #: includes/admin/class-wc-pos-permalink.php:30
 msgctxt "Permalink setting, eg: /pos"

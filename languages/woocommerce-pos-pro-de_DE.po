@@ -2,27 +2,25 @@
 # This file is distributed under the Copyright 2015 The Kilbot Factory.
 # Translators:
 # Felix Witte <info@duka-dogo.de>, 2015
-# OttNorml <ottnorml@gmail.com>, 2015
+# Ott <ottnorml@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
-"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
-"Packs/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
 "POT-Creation-Date: 2015-10-29 13:23:19+00:00\n"
-"PO-Revision-Date: 2015-08-25 10:57+0000\n"
-"Last-Translator: Felix Witte <info@duka-dogo.de>\n"
-"Language-Team: German (Germany) (http://www.transifex.com/kilbot/woocommerce-"
-"pos/language/de_DE/)\n"
-"Language: de_DE\n"
+"PO-Revision-Date: 2016-03-31 15:37+0000\n"
+"Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
+"Language-Team: German (Germany) (http://www.transifex.com/kilbot/woocommerce-pos/language/de_DE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: de_DE\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: grunt-wp-i18n 0.5.3\n"
 
 #: includes/class-wc-pos-pro-ajax.php:84
 msgid "Invalid security nonce"
-msgstr ""
+msgstr "Ungültige Sicherheitsschlüssel"
 
 #: includes/class-wc-pos-pro-i18n.php:109
 msgid "Edit Customer"
@@ -135,17 +133,14 @@ msgstr "Keine Läden. <a href=\"%s\">Erstellen Sie einen neuen Laden.</a>"
 
 #. Description of the plugin/theme
 msgid ""
-"WooCommerce POS Pro adds extra functionality to the free plugin. Requires <a "
-"href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce POS</a>."
-msgstr ""
-"WooCommerce POS Pro erweitert das freie Plugin um zusätzliche "
-"Funktionalität. Es wird <a href=\"http://wordpress.org/plugins/woocommerce-"
-"pos/\">WooCommerce POS</a> benötigt."
+"WooCommerce POS Pro adds extra functionality to the free plugin. Requires <a"
+" href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce POS</a>."
+msgstr "WooCommerce POS Pro erweitert das freie Plugin um zusätzliche Funktionalität. Es wird <a href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce POS</a> benötigt."
 
 #: includes/views/print/receipt.php:200
 msgctxt "Abbreviation of Quantity"
 msgid "Qty"
-msgstr "Qty"
+msgstr "Anz."
 
 #: includes/views/print/receipt.php:258 includes/views/print/receipt.php:268
 msgctxt "abbreviation for includes (tax)"
@@ -155,4 +150,4 @@ msgstr "inkl."
 #: includes/views/print/receipt.php:293
 msgctxt "Money returned from cash sale"
 msgid "Change"
-msgstr "Wechselgeld"
+msgstr "Rückgeld"

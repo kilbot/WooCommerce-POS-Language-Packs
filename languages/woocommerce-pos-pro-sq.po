@@ -1,0 +1,152 @@
+# Copyright (C) 2015 kilbot
+# This file is distributed under the Copyright 2015 The Kilbot Factory.
+# Translators:
+# Besnik Spahija <besnik.spahija@gmail.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce POS\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
+"POT-Creation-Date: 2015-10-29 13:23:19+00:00\n"
+"PO-Revision-Date: 2016-04-27 16:47+0000\n"
+"Last-Translator: Besnik Spahija <besnik.spahija@gmail.com>\n"
+"Language-Team: Albanian (http://www.transifex.com/kilbot/woocommerce-pos/language/sq/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sq\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: grunt-wp-i18n 0.5.3\n"
+
+#: includes/class-wc-pos-pro-ajax.php:84
+msgid "Invalid security nonce"
+msgstr "Invalid security nonce"
+
+#: includes/class-wc-pos-pro-i18n.php:109
+msgid "Edit Customer"
+msgstr "Edito Klientin"
+
+#: includes/class-wc-pos-pro-i18n.php:110
+#: includes/views/customers/tmpl-actions.php:13
+msgid "Add New Customer"
+msgstr "Shto Klientin i Ri"
+
+#: includes/class-wc-pos-pro-stores.php:57
+#: includes/class-wc-pos-pro-stores.php:59
+#: includes/class-wc-pos-pro-stores.php:65
+msgid "Stores"
+msgstr "Furnitorët"
+
+#: includes/class-wc-pos-pro-stores.php:58
+#: includes/class-wc-pos-pro-stores.php:103
+#: includes/widgets/class-wc-pos-pro-hours.php:82
+msgid "Store"
+msgstr "Furnitori"
+
+#: includes/class-wc-pos-pro-stores.php:60
+#: includes/class-wc-pos-pro-stores.php:61
+msgid "Add New Store"
+msgstr "Shto një furnitor të ri"
+
+#: includes/class-wc-pos-pro-stores.php:62
+msgid "New Store"
+msgstr "Furnitori i Ri"
+
+#: includes/class-wc-pos-pro-stores.php:63
+msgid "Edit Store"
+msgstr "Edito Furnitorin"
+
+#: includes/class-wc-pos-pro-stores.php:64
+msgid "View Store"
+msgstr "Shfaq Furnitorin"
+
+#: includes/class-wc-pos-pro-stores.php:66
+msgid "Search Stores"
+msgstr "Kërko Furnitorin"
+
+#: includes/class-wc-pos-pro-stores.php:67
+msgid "Parent Store:"
+msgstr "Furnitori amë"
+
+#: includes/class-wc-pos-pro-stores.php:68
+msgid "No Stores found."
+msgstr "Nuk gjindet Furnitori"
+
+#: includes/class-wc-pos-pro-stores.php:69
+msgid "No Stores found in Trash."
+msgstr "Nuk gjinden furnitor ne shport."
+
+#. translators: woocommerce
+#. translators: wordpress
+#. translators: woocommerce
+#. translators: woocommerce
+#: includes/class-wc-pos-pro-template.php:65
+#: includes/views/customers/tmpl-panel.php:7
+#: includes/views/modals/tmpl-customer-edit.php:12
+#: includes/views/print/receipt.php:185
+msgid "Email"
+msgstr "Email"
+
+#: includes/views/pos/cart/tmpl-customer.php:5
+msgid "Add Customer"
+msgstr "Shto Klintin"
+
+#: includes/views/print/receipt.php:4
+msgid "Receipt"
+msgstr "Kuponi"
+
+#: includes/views/print/receipt.php:170
+msgid "Order Date"
+msgstr "Data e Porosisë"
+
+#: includes/views/print/receipt.php:175
+msgid "Cashier"
+msgstr "Arkatari"
+
+#: includes/views/print/receipt.php:180
+msgid "Payment Method"
+msgstr "Mënyra e Pageses"
+
+#: includes/views/print/receipt.php:231
+msgid "Cart Subtotal"
+msgstr "Nëntotali i shportes"
+
+#: includes/views/print/receipt.php:289
+msgid "Amount Tendered"
+msgstr "Shuma e Tenderuar"
+
+#: includes/views/products/tmpl-list-item.php:74
+msgid "On Sale?"
+msgstr "Në Shitje?"
+
+#: includes/widgets/class-wc-pos-pro-hours.php:17
+msgid "Store Opening Hours"
+msgstr "Orari i Punes së Furnitorit"
+
+#: includes/widgets/class-wc-pos-pro-hours.php:18
+msgid "Display store hours set in WooCommerce POS"
+msgstr "Trego Orarin e furnitorit të vendosur ne WooCommerce POS"
+
+#: includes/widgets/class-wc-pos-pro-hours.php:88
+msgid "No stores. <a href=\"%s\">Create a new store</a>."
+msgstr "Ska Furnitor. <a href=\"%s\">Krijo nje furnitor të ri</a>."
+
+#. Description of the plugin/theme
+msgid ""
+"WooCommerce POS Pro adds extra functionality to the free plugin. Requires <a"
+" href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce POS</a>."
+msgstr "WooCommerce POS Pro shton funksionalitetin shtesë për të plugin lirë. Kërko <a href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce POS</a>."
+
+#: includes/views/print/receipt.php:200
+msgctxt "Abbreviation of Quantity"
+msgid "Qty"
+msgstr "Sasia"
+
+#: includes/views/print/receipt.php:258 includes/views/print/receipt.php:268
+msgctxt "abbreviation for includes (tax)"
+msgid "incl."
+msgstr "Përfshi"
+
+#: includes/views/print/receipt.php:293
+msgctxt "Money returned from cash sale"
+msgid "Change"
+msgstr "Ndrysho"

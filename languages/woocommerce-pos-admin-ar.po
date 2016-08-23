@@ -5,16 +5,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
-"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
+"Packs/issues\n"
 "POT-Creation-Date: 2015-10-29 13:23:18+00:00\n"
 "PO-Revision-Date: 2016-05-02 04:43+0000\n"
 "Last-Translator: Mustafa Mohammed <mustafamsy@gmail.com>\n"
-"Language-Team: Arabic (http://www.transifex.com/kilbot/woocommerce-pos/language/ar/)\n"
+"Language-Team: Arabic (http://www.transifex.com/kilbot/woocommerce-pos/"
+"language/ar/)\n"
+"Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ar\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "X-Generator: grunt-wp-i18n 0.5.3\n"
 
 #: includes/admin/class-wc-pos-gateways.php:31
@@ -89,12 +92,15 @@ msgstr "تلقائياً، تصريح الدخول للـ POS محصور فقط 
 msgid ""
 "It is recommended that you <strong>do not change</strong> the default "
 "settings unless you are fully aware of the consequences."
-msgstr "ننصح بعدم <strong>تغيير</strong> الإعدادات الافتراضية إلا إذا كنت ملم بالعواقب."
+msgstr ""
+"ننصح بعدم <strong>تغيير</strong> الإعدادات الافتراضية إلا إذا كنت ملم "
+"بالعواقب."
 
 #: includes/admin/settings/views/access.php:12
 #: includes/admin/settings/views/checkout.php:60
 #: includes/admin/settings/views/hotkeys.php:6
-msgid "For more information please visit <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
+msgid ""
+"For more information please visit <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
 msgstr "لمعلومات أكثر الرجاء زيارة <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
 
 #: includes/admin/settings/views/checkout.php:13
@@ -131,23 +137,29 @@ msgstr "اطبع الفاتورة بشكل آلي بعد عملية الدفع"
 
 #: includes/admin/settings/views/checkout.php:54
 msgid ""
-"Installed gateways are listed below. Drag and drop gateways to control their"
-" display order at the Point of Sale. "
-msgstr "بوابات الدفع المثبتة بالأسفل. أسحب وافتلت بوابات الدفع للتحكم بعرض ترتيبها في نظام نقطة الدفع."
+"Installed gateways are listed below. Drag and drop gateways to control their "
+"display order at the Point of Sale. "
+msgstr ""
+"بوابات الدفع المثبتة بالأسفل. أسحب وافتلت بوابات الدفع للتحكم بعرض ترتيبها "
+"في نظام نقطة الدفع."
 
 #: includes/admin/settings/views/checkout.php:55
 msgid ""
 "Payment Gateways enabled here will be available at the Point of Sale. "
 "Payment Gateways enabled on the settings page will be available in your "
 "Online Store. "
-msgstr "بوابات الدفع المفعلة هنا ستكون متاحة في نظام نقطة الدفع، بوابات الدفع المفعلة في لوحة التحكم ستكون متاحة في صفحة المتجر الإلكتروني."
+msgstr ""
+"بوابات الدفع المفعلة هنا ستكون متاحة في نظام نقطة الدفع، بوابات الدفع "
+"المفعلة في لوحة التحكم ستكون متاحة في صفحة المتجر الإلكتروني."
 
 #: includes/admin/settings/views/checkout.php:59
 msgid ""
 "It is your responsibility to ensure the security of your customer's "
 "information. Transmitting credit card or other sensitive information should "
 "only be done using a secure connnection."
-msgstr "من مسؤوليتك التأكد من أمان ملعومات زبائنك. نقل بيانات البطاقات الائتمانية أو ماشابهها من معلومات حساسة يجب أن يمر عبر اتصال آمن فقط."
+msgstr ""
+"من مسؤوليتك التأكد من أمان ملعومات زبائنك. نقل بيانات البطاقات الائتمانية أو "
+"ماشابهها من معلومات حساسة يجب أن يمر عبر اتصال آمن فقط."
 
 #: includes/admin/settings/views/checkout.php:65
 msgid "Gateway Display"
@@ -191,7 +203,8 @@ msgstr "السماح بكمية العشرية"
 
 #: includes/admin/settings/views/general.php:24
 msgid "Allows items to have decimal values in the quantity field, eg: 0.25"
-msgstr "السماح للعناصر باحتوائها على قيم عشرية في حقل الكمية، على سبيل المثال: 0.25"
+msgstr ""
+"السماح للعناصر باحتوائها على قيم عشرية في حقل الكمية، على سبيل المثال: 0.25"
 
 #: includes/admin/settings/views/general.php:34
 msgid "Default POS Customer"
@@ -200,7 +213,9 @@ msgstr "العميل الافتراضي لـ POS"
 #: includes/admin/settings/views/general.php:35
 msgid ""
 "The default customer for POS orders, eg: Guest or create a new customer."
-msgstr "العميل الافتراضي لطلبات الـ POS، على سبيل المثال: زائر أو قم بإنشاء عميل جديد."
+msgstr ""
+"العميل الافتراضي لطلبات الـ POS، على سبيل المثال: زائر أو قم بإنشاء عميل "
+"جديد."
 
 #: includes/admin/settings/views/general.php:46
 msgid "Discount Quick Keys"
@@ -218,12 +233,13 @@ msgstr "اختصارات لوحة المفاتيح"
 msgid ""
 "You can trigger certain events in WooCommerce POS using keyboard shortcuts "
 "(HotKeys)."
-msgstr "يمكنك إتمام عملية محددة للووكومرس باستخدام اختصارات لوحة المفاتيح (مفاتيح التشغيل)"
+msgstr ""
+"يمكنك إتمام عملية محددة للووكومرس باستخدام اختصارات لوحة المفاتيح (مفاتيح "
+"التشغيل)"
 
 #: includes/admin/settings/views/hotkeys.php:5
 msgid ""
-"HotKeys can also be used as a prefix for your barcode scanner or card "
-"reader."
+"HotKeys can also be used as a prefix for your barcode scanner or card reader."
 msgstr "مفاتيح التشغيل تستطيع أيضاً استخدامها للماسح الضوئي أو قارئ البطاقات."
 
 #: includes/admin/settings/views/tools.php:33
@@ -264,21 +280,27 @@ msgstr "نوع الطلب"
 
 #: includes/admin/views/settings.php:13
 msgid ""
-"There has been an error loading the settings, please contact <a "
-"href=\"mailto:support@woopos.com.au\">support</a>"
-msgstr "خطأ في جلب الإعدادات، الرجاء التواصل مع <a href=\"mailto:support@woopos.com.au\">الدعم الفني</a>"
+"There has been an error loading the settings, please contact <a href="
+"\"mailto:support@woopos.com.au\">support</a>"
+msgstr ""
+"خطأ في جلب الإعدادات، الرجاء التواصل مع <a href=\"mailto:support@woopos.com."
+"au\">الدعم الفني</a>"
 
 #: includes/class-wc-pos-activator.php:188
 msgid ""
 "<strong>WooCommerce POS</strong> requires <a href=\"%s\">WooCommerce %s or "
 "higher</a>. Please <a href=\"%s\">install and activate WooCommerce</a>"
-msgstr "<strong>ووكومرس نقطة البيع</strong> يتطلب <a href=\"%s\">ووكومرس النسخة %s أو أعلى</a>. الرجاء <a href=\"%s\">تحديث وتنصيب ووكومرس</a>"
+msgstr ""
+"<strong>ووكومرس نقطة البيع</strong> يتطلب <a href=\"%s\">ووكومرس النسخة %s "
+"أو أعلى</a>. الرجاء <a href=\"%s\">تحديث وتنصيب ووكومرس</a>"
 
 #: includes/class-wc-pos-activator.php:207
 msgid ""
 "<strong>WooCommerce POS</strong> requires PHP %s or higher. Read more "
 "information about <a href=\"%s\">how you can update</a>"
-msgstr "<strong>ووكومرس نقطة البيع</strong> تتطلب إصدارة PHP %s أو أعلى. الرجاء قراءة المزيد <a href=\"%s\">عن كيفية التحديث</a>"
+msgstr ""
+"<strong>ووكومرس نقطة البيع</strong> تتطلب إصدارة PHP %s أو أعلى. الرجاء "
+"قراءة المزيد <a href=\"%s\">عن كيفية التحديث</a>"
 
 #: includes/products/class-wc-pos-visibility.php:23
 msgid "POS & Online"

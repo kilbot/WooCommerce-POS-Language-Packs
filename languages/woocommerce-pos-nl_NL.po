@@ -7,15 +7,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
-"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
+"Packs/issues\n"
 "POT-Creation-Date: 2015-12-18 01:35:18+00:00\n"
 "PO-Revision-Date: 2016-02-11 16:45+0000\n"
 "Last-Translator: Yasin Kilic <yasinkilic@me.com>\n"
-"Language-Team: Dutch (Netherlands) (http://www.transifex.com/kilbot/woocommerce-pos/language/nl_NL/)\n"
+"Language-Team: Dutch (Netherlands) (http://www.transifex.com/kilbot/"
+"woocommerce-pos/language/nl_NL/)\n"
+"Language: nl_NL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: nl_NL\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: grunt-wp-i18n 0.5.3\n"
 
@@ -86,19 +88,25 @@ msgstr "Verleen toegang tot KASSA"
 msgid ""
 "By default, access to the POS is limited to Administrator and Shop Manager "
 "roles."
-msgstr "Standaard is toegang tot KASSA beperkt tot de Administrator en Shopmanager accounts."
+msgstr ""
+"Standaard is toegang tot KASSA beperkt tot de Administrator en Shopmanager "
+"accounts."
 
 #: includes/admin/settings/views/access.php:11
 msgid ""
 "It is recommended that you <strong>do not change</strong> the default "
 "settings unless you are fully aware of the consequences."
-msgstr "Aanbevolen wordt de standaard instellingen <strong>niet</strong> te wijzigen als je niet volledig op de hoogte bent van de mogelijke gevolgen."
+msgstr ""
+"Aanbevolen wordt de standaard instellingen <strong>niet</strong> te wijzigen "
+"als je niet volledig op de hoogte bent van de mogelijke gevolgen."
 
 #: includes/admin/settings/views/access.php:12
 #: includes/admin/settings/views/checkout.php:60
 #: includes/admin/settings/views/hotkeys.php:6
-msgid "For more information please visit <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
-msgstr "Bezoek <a href=\"%1$s\" target=\"_blank\">%1$s</a> voor meer informatie."
+msgid ""
+"For more information please visit <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
+msgstr ""
+"Bezoek <a href=\"%1$s\" target=\"_blank\">%1$s</a> voor meer informatie."
 
 #: includes/admin/settings/views/checkout.php:13
 msgid "Completed Order Status"
@@ -134,23 +142,31 @@ msgstr "Ontvangst automatisch afgedrukt na de kassa"
 
 #: includes/admin/settings/views/checkout.php:54
 msgid ""
-"Installed gateways are listed below. Drag and drop gateways to control their"
-" display order at the Point of Sale. "
-msgstr "Hieronder staan de geinstalleerde betaalmethoden. Drag and drop om de volgorde waarin ze getoond worden, te veranderen. "
+"Installed gateways are listed below. Drag and drop gateways to control their "
+"display order at the Point of Sale. "
+msgstr ""
+"Hieronder staan de geinstalleerde betaalmethoden. Drag and drop om de "
+"volgorde waarin ze getoond worden, te veranderen. "
 
 #: includes/admin/settings/views/checkout.php:55
 msgid ""
 "Payment Gateways enabled here will be available at the Point of Sale. "
 "Payment Gateways enabled on the settings page will be available in your "
 "Online Store. "
-msgstr "Betaalmethoden die je hier inschakelt zie je in het afrekenscherm. Betaalmethoden die je ingeschakelt op de instellingenpagina zijn zichtbaar in de Webwinkel. "
+msgstr ""
+"Betaalmethoden die je hier inschakelt zie je in het afrekenscherm. "
+"Betaalmethoden die je ingeschakelt op de instellingenpagina zijn zichtbaar "
+"in de Webwinkel. "
 
 #: includes/admin/settings/views/checkout.php:59
 msgid ""
 "It is your responsibility to ensure the security of your customer's "
 "information. Transmitting credit card or other sensitive information should "
 "only be done using a secure connnection."
-msgstr "Onthoud dat je verantwoordelijk bent voor de veiligheid van de klantgegevens. Verzend gevoelige informatie zoals credit card gegevens dus alleen over een veilige verbinding. "
+msgstr ""
+"Onthoud dat je verantwoordelijk bent voor de veiligheid van de "
+"klantgegevens. Verzend gevoelige informatie zoals credit card gegevens dus "
+"alleen over een veilige verbinding. "
 
 #: includes/admin/settings/views/checkout.php:65
 msgid "Gateway Display"
@@ -203,7 +219,9 @@ msgstr "Standaard KASSA klant"
 #: includes/admin/settings/views/general.php:35
 msgid ""
 "The default customer for POS orders, eg: Guest or create a new customer."
-msgstr "De standaard klant voor KASSA verkopen, b.v.: Guest. Een nieuwe aanmaken kan ook."
+msgstr ""
+"De standaard klant voor KASSA verkopen, b.v.: Guest. Een nieuwe aanmaken kan "
+"ook."
 
 #: includes/admin/settings/views/general.php:46
 msgid "Discount Quick Keys"
@@ -221,13 +239,16 @@ msgstr "Sneltoetsen"
 msgid ""
 "You can trigger certain events in WooCommerce POS using keyboard shortcuts "
 "(HotKeys)."
-msgstr "Je kunt bepaalde gebeurtenissen triggeren in WooCommerce KASSA door middel van sneltoetsen (HotKeys)."
+msgstr ""
+"Je kunt bepaalde gebeurtenissen triggeren in WooCommerce KASSA door middel "
+"van sneltoetsen (HotKeys)."
 
 #: includes/admin/settings/views/hotkeys.php:5
 msgid ""
-"HotKeys can also be used as a prefix for your barcode scanner or card "
-"reader."
-msgstr "Sneltoetsen kunnen ook worden gebruikt als een prefix voor je barcodescanner of kaartlezer."
+"HotKeys can also be used as a prefix for your barcode scanner or card reader."
+msgstr ""
+"Sneltoetsen kunnen ook worden gebruikt als een prefix voor je barcodescanner "
+"of kaartlezer."
 
 #: includes/admin/settings/views/tools.php:33
 msgid "Receipt Template"
@@ -267,9 +288,11 @@ msgstr "Order type"
 
 #: includes/admin/views/settings.php:13
 msgid ""
-"There has been an error loading the settings, please contact <a "
-"href=\"mailto:support@woopos.com.au\">support</a>"
-msgstr "Er is een fout opgetreden bij het inlezen van de instellingen, neem contact op met <a href=\"mailto:support@woopos.com.au\">support</a>"
+"There has been an error loading the settings, please contact <a href="
+"\"mailto:support@woopos.com.au\">support</a>"
+msgstr ""
+"Er is een fout opgetreden bij het inlezen van de instellingen, neem contact "
+"op met <a href=\"mailto:support@woopos.com.au\">support</a>"
 
 #: includes/api/class-wc-pos-i18n.php:69
 msgid "To Pay"
@@ -336,7 +359,8 @@ msgstr "Er is geen betaalmethode ingeschakeld."
 msgid ""
 "WooCommerce POS will not work in <a href=\"%s\">Private Mode</a>, please "
 "disable Private Browsing."
-msgstr "WooCommerce POS werkt niet in <a href=\"%s\">Private Mode</a>, zet deze uit."
+msgstr ""
+"WooCommerce POS werkt niet in <a href=\"%s\">Private Mode</a>, zet deze uit."
 
 #: includes/api/class-wc-pos-orders.php:475
 msgid "There was an error processing the payment"
@@ -344,11 +368,14 @@ msgstr "De betaling kon niet verwerkt worden."
 
 #: includes/api/class-wc-pos-orders.php:501
 msgid "You are now being redirected offsite to complete the payment. "
-msgstr "Je wordt nu doorgestuurd naar een externe pagina om de betaling af te ronden. "
+msgstr ""
+"Je wordt nu doorgestuurd naar een externe pagina om de betaling af te "
+"ronden. "
 
 #: includes/api/class-wc-pos-orders.php:502
 msgid "<a href=\"%s\">Click here</a> if you are not redirected automatically. "
-msgstr "<a href=\"%s\">Klik hier</a> als je niet automatisch doorgestuurd wordt. "
+msgstr ""
+"<a href=\"%s\">Klik hier</a> als je niet automatisch doorgestuurd wordt. "
 
 #: includes/api/class-wc-pos-orders.php:516
 msgid "POS Transaction completed."
@@ -376,13 +403,17 @@ msgstr "Geen handler gevonden voor %s instellingen"
 msgid ""
 "<strong>WooCommerce POS</strong> requires <a href=\"%s\">WooCommerce %s or "
 "higher</a>. Please <a href=\"%s\">install and activate WooCommerce</a>"
-msgstr "<strong>WooCommerce POS</strong> vereist <a href=\"%s\">WooCommerce %s of nieuwer</a>. <a href=\"%s\">installeer en activeer WooCommerce</a>"
+msgstr ""
+"<strong>WooCommerce POS</strong> vereist <a href=\"%s\">WooCommerce %s of "
+"nieuwer</a>. <a href=\"%s\">installeer en activeer WooCommerce</a>"
 
 #: includes/class-wc-pos-activator.php:207
 msgid ""
 "<strong>WooCommerce POS</strong> requires PHP %s or higher. Read more "
 "information about <a href=\"%s\">how you can update</a>"
-msgstr "<strong>WooCommerce POS</strong> vereist PHP %s of nieuwer. Lees meer informatie over <a href=\"%s\">hoe kan je updaten</a>"
+msgstr ""
+"<strong>WooCommerce POS</strong> vereist PHP %s of nieuwer. Lees meer "
+"informatie over <a href=\"%s\">hoe kan je updaten</a>"
 
 #: includes/class-wc-pos-api.php:107
 msgid "User not authorized to access WooCommerce POS"
@@ -418,9 +449,11 @@ msgstr "Toegang to de REST API is vereist"
 
 #: includes/class-wc-pos-status.php:146
 msgid ""
-"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to"
-" work correctly"
-msgstr "<strong>WooCommerce REST API</strong> vereist <em>pretty</em> permalinks om correct te werken"
+"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to "
+"work correctly"
+msgstr ""
+"<strong>WooCommerce REST API</strong> vereist <em>pretty</em> permalinks om "
+"correct te werken"
 
 #: includes/class-wc-pos-status.php:150
 msgid "Enable permalinks"
@@ -473,16 +506,20 @@ msgstr "Sorry, het ziet er naar uit dat KASSA je browser niet ondersteund. "
 
 #: includes/views/modals/browser.php:3
 msgid ""
-"If possible, please <a href=\"http://browsehappy.com/\">update your "
-"browser</a>, we recommend either Chrome or Firefox."
-msgstr "Update je browser <a href=\"http://browsehappy.com/\">, indien mogelijk</a>, gebruik bij voorkeur Chrome of Firefox."
+"If possible, please <a href=\"http://browsehappy.com/\">update your browser</"
+"a>, we recommend either Chrome or Firefox."
+msgstr ""
+"Update je browser <a href=\"http://browsehappy.com/\">, indien mogelijk</a>, "
+"gebruik bij voorkeur Chrome of Firefox."
 
 #: includes/views/modals/browser.php:7
 msgid ""
 "If you believe you have received this message in error please contact "
-"support via <a "
-"href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
-msgstr "Neem contact op met support via <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>als deze melding foutief is."
+"support via <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</"
+"a>"
+msgstr ""
+"Neem contact op met support via <a href=\"mailto:support@woopos.com.au"
+"\">support@woopos.com.au</a>als deze melding foutief is."
 
 #: includes/views/pos/products/tmpl-filter.php:7
 msgid "Scan Barcode"
@@ -535,9 +572,12 @@ msgstr "%s in de queue"
 #. Description of the plugin/theme
 msgid ""
 "A simple front-end for taking WooCommerce orders at the Point of Sale. "
-"Requires <a "
-"href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a>."
-msgstr "Een eenvoudig front-end om winkelverkopen te verwerken in WooCommerce. <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a> moet geinstalleerd zijn."
+"Requires <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</"
+"a>."
+msgstr ""
+"Een eenvoudig front-end om winkelverkopen te verwerken in WooCommerce. <a "
+"href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a> moet "
+"geinstalleerd zijn."
 
 #: includes/admin/class-wc-pos-permalink.php:30
 msgctxt "Permalink setting, eg: /pos"

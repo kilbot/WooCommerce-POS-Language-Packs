@@ -5,16 +5,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
-"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
+"Packs/issues\n"
 "POT-Creation-Date: 2015-10-29 13:23:19+00:00\n"
 "PO-Revision-Date: 2016-05-02 04:44+0000\n"
 "Last-Translator: Mustafa Mohammed <mustafamsy@gmail.com>\n"
-"Language-Team: Arabic (http://www.transifex.com/kilbot/woocommerce-pos/language/ar/)\n"
+"Language-Team: Arabic (http://www.transifex.com/kilbot/woocommerce-pos/"
+"language/ar/)\n"
+"Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ar\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "X-Generator: grunt-wp-i18n 0.5.3\n"
 
 #: includes/class-wc-pos-pro-ajax.php:84
@@ -132,9 +135,11 @@ msgstr "لا يوجد متجر. <a href=\"%s\">أضف متجر جديد</a>."
 
 #. Description of the plugin/theme
 msgid ""
-"WooCommerce POS Pro adds extra functionality to the free plugin. Requires <a"
-" href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce POS</a>."
-msgstr "ووكومرس POS النسخة الاحترافية تضيف خصائص ومزايا على النسخة المجانية. مطلوب <a href=\"http://wordpress.org/plugins/woocommerce-pos/\">ووكومرس POS</a>."
+"WooCommerce POS Pro adds extra functionality to the free plugin. Requires <a "
+"href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce POS</a>."
+msgstr ""
+"ووكومرس POS النسخة الاحترافية تضيف خصائص ومزايا على النسخة المجانية. مطلوب "
+"<a href=\"http://wordpress.org/plugins/woocommerce-pos/\">ووكومرس POS</a>."
 
 #: includes/views/print/receipt.php:200
 msgctxt "Abbreviation of Quantity"

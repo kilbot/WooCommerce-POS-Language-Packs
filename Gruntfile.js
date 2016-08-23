@@ -22,6 +22,7 @@ module.exports = function(grunt) {
     'hr_HR',
     'hu_HU',
     'id_ID',
+    'is_IS',
     'it_IT',
     'mk_MK',
     'nb_NO',

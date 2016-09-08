@@ -1,7 +1,7 @@
 WooCommerce POS Language Packs
 ==============================
 
-This repository contains the language packs for [WooCommerce POS - the Point of Sale Plugin](http://woopos.com.au). 
+This repository contains the language packs for [WooCommerce POS - the Point of Sale Plugin](http://wcpos.com). 
 Updates to the language packs will appear automatically through the WordPress admin.
 
 ## Updating the translation files ##
@@ -40,4 +40,4 @@ Once you have updated the .po file you can [submit a pull request](https://help.
 
 ## Adding a new translation ##
 
-If your locale is not currently available in the language folder, please [open an issue](https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues) or email [support@woopos.com.au](mailto:support@woopos.com.au).
+If your locale is not currently available in the language folder, please [open an issue](https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues) or email [support@wcpos.com](mailto:support@wcpos.com).

@@ -1,0 +1,662 @@
+# Copyright (C) 2015 kilbot
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce POS 0.4.6-beta\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
+"Packs/issues\n"
+"POT-Creation-Date: 2015-12-18 01:35:18+00:00\n"
+"PO-Revision-Date: 2015-12-18 01:35:18+00:00\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: es_MX\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: grunt-wp-i18n 0.5.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: includes/admin/class-wc-pos-gateways.php:31
+msgid "Online Store"
+msgstr "Tienda online"
+
+#: includes/admin/class-wc-pos-gateways.php:32
+#: includes/admin/class-wc-pos-menu.php:34
+#: includes/admin/class-wc-pos-menu.php:35
+#: includes/admin/class-wc-pos-orders.php:94
+#: includes/admin/views/order-details.php:5
+#: includes/api/class-wc-pos-params.php:259
+msgid "POS"
+msgstr "Punto de Venta"
+
+#: includes/admin/class-wc-pos-menu.php:44
+#: includes/admin/class-wc-pos-menu.php:45
+msgid "View POS"
+msgstr "Ver POS"
+
+#: includes/admin/class-wc-pos-menu.php:53
+#: includes/admin/settings/views/checkout.php:101
+msgid "Upgrade to Pro"
+msgstr "Actualiza a PRO"
+
+#: includes/admin/class-wc-pos-orders.php:95
+#: includes/admin/views/order-details.php:4
+msgid "Online"
+msgstr "En linea"
+
+#. translators: wordpress
+#. translators: woocommerce
+#: includes/admin/class-wc-pos-plugins.php:26
+#: includes/admin/class-wc-pos-settings.php:34
+#: includes/admin/class-wc-pos-settings.php:36
+#: includes/admin/settings/views/checkout.php:76
+#: includes/admin/settings/views/checkout.php:106
+#: includes/admin/settings/views/checkout.php:111
+msgid "Settings"
+msgstr "Ajustes"
+
+#: includes/admin/settings/class-wc-pos-access.php:25
+msgid "POS Access"
+msgstr "Acceso POS"
+
+#: includes/admin/settings/class-wc-pos-hotkeys.php:42
+msgid "Help screen"
+msgstr "Pantalla de ayuda"
+
+#: includes/admin/settings/class-wc-pos-hotkeys.php:43
+msgid "Barcode search"
+msgstr "Escanear código de barras"
+
+#: includes/admin/settings/class-wc-pos-hotkeys.php:45
+msgid "New order"
+msgstr "Nuevo Pedido"
+
+#: includes/admin/settings/class-wc-pos-hotkeys.php:46
+msgid "Sync with server"
+msgstr "Sincroniza con el servidor"
+
+#: includes/admin/settings/views/access.php:7
+msgid "Grant POS Access"
+msgstr "Otorgar acceso POS"
+
+#: includes/admin/settings/views/access.php:10
+msgid ""
+"By default, access to the POS is limited to Administrator and Shop Manager "
+"roles."
+msgstr ""
+"De forma predeterminada, el acceso a los puntos de venta se limita a "
+"funciones de administrador y gerente de la tienda."
+
+#: includes/admin/settings/views/access.php:11
+msgid ""
+"It is recommended that you <strong>do not change</strong> the default "
+"settings unless you are fully aware of the consequences."
+msgstr ""
+"Se recomienda que <strong>no cambie</strong> la configuración predeterminada "
+"a menos que esté plenamente consciente de las consecuencias."
+
+#: includes/admin/settings/views/access.php:12
+#: includes/admin/settings/views/checkout.php:60
+#: includes/admin/settings/views/hotkeys.php:6
+msgid ""
+"For more information please visit <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
+msgstr ""
+"Para obtener más información, visite <a href=\"%1$s\" target=\"_blank\">"
+"%1$s</a>"
+
+#: includes/admin/settings/views/checkout.php:13
+msgid "Completed Order Status"
+msgstr "Completado Estado del pedido"
+
+#: includes/admin/settings/views/checkout.php:14
+msgid "Change the default order status for POS sales"
+msgstr ""
+"Cambie el estado de la orden por defecto para las ventas de punto de venta"
+
+#: includes/admin/settings/views/checkout.php:27
+msgid "Order Emails"
+msgstr "Los correos electrónicos Solicitar"
+
+#: includes/admin/settings/views/checkout.php:28
+msgid "Send WooCommerce notification emails for POS orders"
+msgstr ""
+"Enviar WooCommerce correos electrónicos de notificación para las órdenes de "
+"punto de venta"
+
+#: includes/admin/settings/views/checkout.php:32
+msgid "Enable admin emails"
+msgstr "Habilitar eMails de administrador"
+
+#: includes/admin/settings/views/checkout.php:35
+msgid "Enable customer emails"
+msgstr "Habilitar eMails a los clientes"
+
+#: includes/admin/settings/views/checkout.php:41
+msgid "Receipt Printing"
+msgstr "Imprimir recibo"
+
+#: includes/admin/settings/views/checkout.php:45
+msgid "Automatically print receipt after checkout"
+msgstr "Automáticamente imprimir un recibo después del cobro"
+
+#: includes/admin/settings/views/checkout.php:54
+msgid ""
+"Installed gateways are listed below. Drag and drop gateways to control their "
+"display order at the Point of Sale. "
+msgstr ""
+"Las pasarelas de pago instaladas se enumeran a continuación. Arrastre y "
+"suelte para controlar el orden de presentación en el Punto de Venta."
+
+#: includes/admin/settings/views/checkout.php:55
+msgid ""
+"Payment Gateways enabled here will be available at the Point of Sale. "
+"Payment Gateways enabled on the settings page will be available in your "
+"Online Store. "
+msgstr ""
+"Las pasarelas de pago habilitadas aquí estarán disponibles en el punto de "
+"venta. Las pasarelas de pago habilitadas en la página de configuración "
+"estarán disponibles en su tienda en línea."
+
+#: includes/admin/settings/views/checkout.php:59
+msgid ""
+"It is your responsibility to ensure the security of your customer's "
+"information. Transmitting credit card or other sensitive information should "
+"only be done using a secure connnection."
+msgstr ""
+"Es su responsabilidad el garantizar la seguridad de la información de su "
+"cliente. La transmisión de la tarjeta de crédito u otra información "
+"confidencial sólo debe ser realizado utilizando una conexión segura."
+
+#: includes/admin/settings/views/checkout.php:65
+msgid "Gateway Display"
+msgstr "Puerta de enlace de visualización"
+
+#: includes/admin/settings/views/checkout.php:73
+msgid "Online Status"
+msgstr "Estado en línea"
+
+#: includes/admin/settings/views/checkout.php:74
+msgid "POS Status"
+msgstr "POS Estado"
+
+#: includes/admin/settings/views/checkout.php:75
+msgid "POS Settings"
+msgstr "Configuración de punto de venta"
+
+#: includes/admin/settings/views/checkout.php:126
+msgid "Payment method title."
+msgstr "Título de la forma de pago."
+
+#: includes/admin/settings/views/checkout.php:133
+msgid "Payment method description that will be shown in the POS."
+msgstr "Forma de pago descripción que se muestra en el punto de venta."
+
+#: includes/admin/settings/views/checkout.php:139
+msgid "Icon"
+msgstr "Icono"
+
+#: includes/admin/settings/views/general.php:13
+msgid "Product Visibility"
+msgstr "Visibilidad del producto"
+
+#: includes/admin/settings/views/general.php:17
+msgid "Enable <a href=\"%s\">POS Only products</a>"
+msgstr "Habilitar <a href=\"%s\">POS Sólo los productos</a>"
+
+#: includes/admin/settings/views/general.php:23
+msgid "Allow Decimal Quantity"
+msgstr "Permitir Cantidad Decimal"
+
+#: includes/admin/settings/views/general.php:24
+msgid "Allows items to have decimal values in the quantity field, eg: 0.25"
+msgstr ""
+"Permite a los artículos tengan valores decimales en el campo de cantidad, "
+"por ejemplo: 0.25"
+
+#: includes/admin/settings/views/general.php:34
+msgid "Default POS Customer"
+msgstr "Por defecto POS Cliente"
+
+#: includes/admin/settings/views/general.php:35
+msgid ""
+"The default customer for POS orders, eg: Guest or create a new customer."
+msgstr ""
+"El cliente predeterminado para los pedidos de punto de venta, por ejemplo: "
+"Invitado o crear un nuevo cliente."
+
+#: includes/admin/settings/views/general.php:46
+msgid "Discount Quick Keys"
+msgstr "Descuento Teclas Rápidas"
+
+#: includes/admin/settings/views/general.php:47
+msgid "Configure discount keys for quick numpad entry"
+msgstr ""
+"Configurar teclas de descuento para la entrada del teclado numérico rápida"
+
+#: includes/admin/settings/views/hotkeys.php:1
+msgid "Keyboard Shortcuts"
+msgstr "Atajos De Teclado"
+
+#: includes/admin/settings/views/hotkeys.php:4
+msgid ""
+"You can trigger certain events in WooCommerce POS using keyboard shortcuts "
+"(HotKeys)."
+msgstr ""
+"Puede desencadenar ciertos eventos en WooCommerce POS utilizando atajos de "
+"teclado (teclas de acceso rápido)."
+
+#: includes/admin/settings/views/hotkeys.php:5
+msgid ""
+"HotKeys can also be used as a prefix for your barcode scanner or card reader."
+msgstr ""
+"HotKeys también se pueden utilizar como un prefijo para el escáner de código "
+"de barras o lector de tarjetas."
+
+#: includes/admin/settings/views/tools.php:33
+msgid "Receipt Template"
+msgstr "Plantilla de Recibo"
+
+#: includes/admin/settings/views/tools.php:36
+msgid "View Sample Receipt"
+msgstr "Ver Recibo de muestra"
+
+#: includes/admin/settings/views/tools.php:41
+msgid "<strong class=\"red\">Template path:</strong> %s"
+msgstr "<strong class=\"red\">Ruta Plantilla:</strong> %s"
+
+#: includes/admin/settings/views/tools.php:47
+msgid "Legacy Server Support"
+msgstr "Soporte de servidores heredados"
+
+#: includes/admin/settings/views/tools.php:53
+msgid "Emulate RESTful HTTP methods to support legacy servers."
+msgstr "Emular métodos HTTP RESTful para apoyar a los servidores heredados."
+
+#: includes/admin/settings/views/tools.php:58
+msgid "Local Data"
+msgstr "Datos locales"
+
+#: includes/admin/settings/views/tools.php:63
+msgid "Clear Local Data"
+msgstr "Borrar datos local"
+
+#: includes/admin/settings/views/tools.php:66
+msgid "Clear All Local Data"
+msgstr "Borrar todos los datos local"
+
+#: includes/admin/views/order-details.php:2
+msgid "Order type"
+msgstr "Tipo de orden"
+
+#: includes/admin/views/settings.php:13
+msgid ""
+"There has been an error loading the settings, please contact <a href="
+"\"mailto:support@woopos.com.au\">support</a>"
+msgstr ""
+"Se ha producido un error al cargar los ajustes, póngase en contacto con <a "
+"href=\"mailto:support@woopos.com.au\">soporte</a>"
+
+#: includes/api/class-wc-pos-i18n.php:69
+msgid "To Pay"
+msgstr "A Pagar"
+
+#: includes/api/class-wc-pos-i18n.php:70
+msgid "Paid"
+msgstr "Pagado"
+
+#: includes/api/class-wc-pos-i18n.php:71
+msgid "Unpaid"
+msgstr "No pagado"
+
+#: includes/api/class-wc-pos-i18n.php:72
+msgid "Email Receipt"
+msgstr "Email Recibo"
+
+#: includes/api/class-wc-pos-i18n.php:75
+msgid "Support Form"
+msgstr "Formulario de Soporte"
+
+#. translators: wordpress
+#. translators: woocommerce
+#. translators: wordpress
+#: includes/api/class-wc-pos-i18n.php:89
+#: includes/views/print/tmpl-receipt.php:142
+#: includes/views/support/tmpl-form.php:6
+msgid "Email"
+msgstr "Email"
+
+#: includes/api/class-wc-pos-i18n.php:98
+msgid "Process Payment"
+msgstr "Proceso de Pago"
+
+#: includes/api/class-wc-pos-i18n.php:103
+msgid "Return to Sale"
+msgstr "Volver a la Venta"
+
+#: includes/api/class-wc-pos-i18n.php:106
+msgid "Send"
+msgstr "Enviar"
+
+#: includes/api/class-wc-pos-i18n.php:109
+msgid "Void"
+msgstr "Anular"
+
+#: includes/api/class-wc-pos-i18n.php:114
+msgid "Enable legacy server support"
+msgstr "Habilitar soporte de servidor legado"
+
+#: includes/api/class-wc-pos-i18n.php:124
+msgid "Your browser is not supported!"
+msgstr "¡Su navegador no está soportado!"
+
+#: includes/api/class-wc-pos-i18n.php:125
+msgid "Unable to use RESTful HTTP methods"
+msgstr "No se puede utilizar métodos HTTP RESTful"
+
+#: includes/api/class-wc-pos-i18n.php:130
+msgid "No payment gateways enabled."
+msgstr "Sin pasarelas de pago habilitadas."
+
+#: includes/api/class-wc-pos-i18n.php:133
+msgid ""
+"WooCommerce POS will not work in <a href=\"%s\">Private Mode</a>, please "
+"disable Private Browsing."
+msgstr ""
+"WooCommerce POS no funcionará en <a href=\"%s\">modo privado,</a> por favor "
+"desactive la navegación privada."
+
+#: includes/api/class-wc-pos-orders.php:475
+msgid "There was an error processing the payment"
+msgstr "Hubo un error al procesar el pago."
+
+#: includes/api/class-wc-pos-orders.php:501
+msgid "You are now being redirected offsite to complete the payment. "
+msgstr "Ahora está siendo redirigido fuera del sitio para completar el pago."
+
+#: includes/api/class-wc-pos-orders.php:502
+msgid "<a href=\"%s\">Click here</a> if you are not redirected automatically. "
+msgstr "<a href=\"%s\">Haga clic aquí</a> si usted no está redirigido."
+
+#: includes/api/class-wc-pos-orders.php:516
+msgid "POS Transaction completed."
+msgstr "Completó Transacción POS."
+
+#: includes/api/class-wc-pos-orders.php:846
+#: includes/api/class-wc-pos-support.php:65
+msgid "Email sent"
+msgstr "Correo enviado"
+
+#: includes/api/class-wc-pos-orders.php:852
+#: includes/api/class-wc-pos-support.php:71
+msgid "There was an error sending the email"
+msgstr "Se ha producido un error al enviar el correo electrónico"
+
+#: includes/api/class-wc-pos-settings.php:132
+msgid "There is no settings id"
+msgstr "No hay ajustes de Identificación"
+
+#: includes/api/class-wc-pos-settings.php:152
+msgid "No handler found for %s settings"
+msgstr "No encontrado controlador para la configuración %s"
+
+#: includes/class-wc-pos-activator.php:188
+msgid ""
+"<strong>WooCommerce POS</strong> requires <a href=\"%s\">WooCommerce %s or "
+"higher</a>. Please <a href=\"%s\">install and activate WooCommerce</a>"
+msgstr ""
+"<strong>WooCommerce POS</strong> requiere <a href=\"%s\">WooCommerce %s o "
+"superior.</a> Por favor, <a href=\"%s\">instalar y activar WooCommerce</a>"
+
+#: includes/class-wc-pos-activator.php:207
+msgid ""
+"<strong>WooCommerce POS</strong> requires PHP %s or higher. Read more "
+"information about <a href=\"%s\">how you can update</a>"
+msgstr ""
+"<strong>WooCommerce POS</strong> requiere PHP %s o superior. Lea más "
+"información acerca de <a href=\"%s\">cómo se puede actualizar</a>"
+
+#: includes/class-wc-pos-api.php:107
+msgid "User not authorized to access WooCommerce POS"
+msgstr "Usuario no autorizado para gestionar WooCommerce POS"
+
+#: includes/class-wc-pos-server.php:46
+msgid "Invalid security nonce"
+msgstr "Nonce de seguridad no válido"
+
+#: includes/class-wc-pos-status.php:28
+msgid "WC Version"
+msgstr "Versión WooCommerce"
+
+#: includes/class-wc-pos-status.php:35
+msgid "WooCommerce >= %s required"
+msgstr "Se requiere WooCommerce %s o superior."
+
+#: includes/class-wc-pos-status.php:67
+msgid "PHP >= %s required"
+msgstr "PHP >= %s requerido"
+
+#: includes/class-wc-pos-status.php:88
+msgid "WC REST API"
+msgstr "WC REST API"
+
+#: includes/class-wc-pos-status.php:89
+msgid "API is active"
+msgstr "API está activa."
+
+#: includes/class-wc-pos-status.php:126
+msgid "Access to the REST API is required"
+msgstr "Acceso a REST API es requerida"
+
+#: includes/class-wc-pos-status.php:146
+msgid ""
+"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to "
+"work correctly"
+msgstr ""
+"<strong>WooCommerce REST API </strong> requiere permalinks <em>amigables</"
+"em> para que funcione correctamente."
+
+#: includes/class-wc-pos-status.php:150
+msgid "Enable permalinks"
+msgstr "Habilitar permalinks"
+
+#: includes/gateways/class-wc-pos-card.php:20
+msgid "Card"
+msgstr "Tarjeta"
+
+#: includes/gateways/class-wc-pos-card.php:52
+#: includes/gateways/class-wc-pos-card.php:55
+#: includes/gateways/class-wc-pos-card.php:84
+#: includes/gateways/class-wc-pos-card.php:118
+msgid "Cashback"
+msgstr "Devolución"
+
+#: includes/gateways/class-wc-pos-cash.php:20
+msgid "Cash"
+msgstr "Dinero"
+
+#: includes/gateways/class-wc-pos-cash.php:52
+#: includes/gateways/class-wc-pos-cash.php:55
+#: includes/gateways/class-wc-pos-cash.php:91
+#: includes/views/print/tmpl-receipt.php:246
+msgid "Amount Tendered"
+msgstr "Importe recibido"
+
+#: includes/products/class-wc-pos-visibility.php:23
+msgid "POS & Online"
+msgstr "POS & En linea"
+
+#: includes/products/class-wc-pos-visibility.php:24
+#: includes/products/class-wc-pos-visibility.php:87
+msgid "POS Only"
+msgstr "Solo POS"
+
+#: includes/products/class-wc-pos-visibility.php:25
+#: includes/products/class-wc-pos-visibility.php:88
+msgid "Online Only"
+msgstr "En linea solamente"
+
+#: includes/products/views/post-metabox-visibility-select.php:11
+#: includes/products/views/quick-edit-visibility-select.php:14
+msgid "POS visibility"
+msgstr "Visible en POS"
+
+#: includes/views/modals/browser.php:2
+msgid "Sorry, it seems your browser is not supported by WooCommerce POS. "
+msgstr ""
+"Lo sentimos, parece que su navegador no está soportado por WooCommerce POS."
+
+#: includes/views/modals/browser.php:3
+msgid ""
+"If possible, please <a href=\"http://browsehappy.com/\">update your browser</"
+"a>, we recommend either Chrome or Firefox."
+msgstr ""
+"Si es posible, por favor, <a href=\"http://browsehappy.com/\"> actualize su "
+"navegador </a>, se recomienda ya sea Chrome o Firefox."
+
+#: includes/views/modals/browser.php:7
+msgid ""
+"If you believe you have received this message in error please contact "
+"support via <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</"
+"a>"
+msgstr ""
+"Si usted cree que ha recibido este mensaje por error, por favor póngase en "
+"contacto con soporte en <a href=\"mailto:support@woopos.com.au"
+"\">support@woopos.com.au</a>"
+
+#: includes/views/pos/products/tmpl-filter.php:7
+msgid "Scan Barcode"
+msgstr "Escanear código de barras"
+
+#: includes/views/print/tmpl-receipt.php:115
+msgid "Billing Address"
+msgstr "Dirección factura"
+
+#: includes/views/print/tmpl-receipt.php:118
+msgid "Shipping Address"
+msgstr "Dirección envío"
+
+#: includes/views/print/tmpl-receipt.php:127
+msgid "Order Date"
+msgstr "Fecha pedido"
+
+#: includes/views/print/tmpl-receipt.php:132
+msgid "Cashier"
+msgstr "Cajero"
+
+#: includes/views/print/tmpl-receipt.php:137
+msgid "Payment Method"
+msgstr "Método de pago"
+
+#: includes/views/support/tmpl-form.php:11
+msgid "Describe your problem here ..."
+msgstr "Describa su problema aquí..."
+
+#: includes/views/support/tmpl-form.php:18
+msgid "Append POS system report"
+msgstr "Anexar informe POS del sistema"
+
+#: includes/views/support/tmpl-status.php:31
+msgid "Local Storage"
+msgstr "Almacén local"
+
+#: includes/views/template.php:8
+msgid "Point of Sale"
+msgstr "Punto de Venta"
+
+#: includes/views/tmpl-pagination.php:2
+msgid "Showing %s of %s"
+msgstr "Mostrando %s de %s"
+
+#: includes/views/tmpl-pagination.php:3
+msgid "%s in queue"
+msgstr "%s en la cola"
+
+#. Description of the plugin/theme
+msgid ""
+"A simple front-end for taking WooCommerce orders at the Point of Sale. "
+"Requires <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</"
+"a>."
+msgstr ""
+"Una sencilla interfaz para la toma de pedidos WooCommerce en el Punto de "
+"Venta. Requiere <a href=\"http://wordpress.org/plugins/woocommerce/"
+"\">WooCommerce</a>."
+
+#: includes/admin/class-wc-pos-permalink.php:30
+msgctxt "Permalink setting, eg: /pos"
+msgid "POS base"
+msgstr "Base de POS"
+
+#: includes/admin/settings/class-wc-pos-hotkeys.php:22
+#: includes/api/class-wc-pos-i18n.php:58
+msgctxt "keyboard shortcuts"
+msgid "HotKeys"
+msgstr "HotKeys"
+
+#: includes/admin/settings/views/checkout.php:143
+msgctxt "POS checkout settings"
+msgid "Show payment gateway icon."
+msgstr "Mostrar icono de la pasarela de pago."
+
+#: includes/admin/settings/views/general.php:40
+msgctxt "Default customer setting"
+msgid "Use cashier account"
+msgstr "Utilice la cuenta de caja"
+
+#: includes/api/class-wc-pos-i18n.php:47
+msgctxt "system status: browser capabilities"
+msgid "Browser"
+msgstr "Navegador"
+
+#: includes/api/class-wc-pos-i18n.php:73
+msgctxt "order status, ie: open order in cart"
+msgid "Open"
+msgstr "Abierto"
+
+#: includes/api/class-wc-pos-i18n.php:74
+#: includes/gateways/class-wc-pos-cash.php:93
+#: includes/views/print/tmpl-receipt.php:250
+msgctxt "Money returned from cash sale"
+msgid "Change"
+msgstr "Cambio"
+
+#: includes/api/class-wc-pos-i18n.php:82
+msgctxt "system status: delete local records"
+msgid "Clear"
+msgstr "limpiar"
+
+#: includes/api/class-wc-pos-i18n.php:101
+msgctxt "restore default settings"
+msgid "Restore defaults"
+msgstr "Restaurar los valores predeterminados"
+
+#: includes/api/class-wc-pos-i18n.php:102
+msgctxt "Numpad return key"
+msgid "return"
+msgstr "retorno"
+
+#: includes/api/class-wc-pos-i18n.php:136
+msgctxt "eg: 23 records"
+msgid "record |||| records"
+msgstr "expediente |||| expedientes"
+
+#: includes/api/class-wc-pos-params.php:113
+msgctxt "Product tab: 'On Sale' products"
+msgid "On Sale"
+msgstr "En venta"
+
+#: includes/views/pos/cart/tmpl-panel.php:2
+#: includes/views/pos/receipt/tmpl-panel.php:3
+#: includes/views/print/tmpl-receipt.php:157
+msgctxt "Abbreviation of Quantity"
+msgid "Qty"
+msgstr "Cant"
+
+#: includes/views/pos/cart/tmpl-totals.php:19
+#: includes/views/pos/cart/tmpl-totals.php:30
+#: includes/views/pos/receipt/tmpl-totals.php:29
+#: includes/views/pos/receipt/tmpl-totals.php:39
+#: includes/views/print/tmpl-receipt.php:215
+#: includes/views/print/tmpl-receipt.php:225
+msgctxt "abbreviation for includes (tax)"
+msgid "incl."
+msgstr "incl."

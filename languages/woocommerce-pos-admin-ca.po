@@ -86,7 +86,7 @@ msgstr "Garanteix l'accès al Pos"
 msgid ""
 "By default, access to the POS is limited to Administrator and Shop Manager "
 "roles."
-msgstr ""
+msgstr "Per defecte l'accès al POS està limitat als ros d'Adiministrador i "
 "Per defecte, l'accès al POS està limitat als rols d'Administrador i Gestor "
 "de la botiga."
 
@@ -123,19 +123,19 @@ msgstr "Envia correus de notificació de WooCommerce per a les comandes de POS"
 
 #: includes/admin/settings/views/checkout.php:32
 msgid "Enable admin emails"
-msgstr ""
+msgstr "Habilita els correus a l'administrador"
 
 #: includes/admin/settings/views/checkout.php:35
 msgid "Enable customer emails"
-msgstr ""
+msgstr "Habilita els correus als clients"
 
 #: includes/admin/settings/views/checkout.php:41
 msgid "Receipt Printing"
-msgstr ""
+msgstr "S'està imprimint el rebut"
 
 #: includes/admin/settings/views/checkout.php:45
 msgid "Automatically print receipt after checkout"
-msgstr ""
+msgstr "Imprimeix el rebut automàticament després de la compra"
 
 #: includes/admin/settings/views/checkout.php:54
 msgid ""
@@ -143,7 +143,7 @@ msgid ""
 "display order at the Point of Sale. "
 msgstr ""
 "S'han instal·lat les següents passarel·les de pagament. Ordeneu-les "
-"segonsvulgueu qe es mostrin al Point of Sale. "
+"segons vulgueu qe es mostrin al Point of Sale. "
 
 #: includes/admin/settings/views/checkout.php:55
 msgid ""
@@ -271,15 +271,15 @@ msgstr "Emula els mètodes RESTful HTTP de suport antic als servidors"
 
 #: includes/admin/settings/views/tools.php:54
 msgid "Local Data"
-msgstr ""
+msgstr "Dades locals"
 
 #: includes/admin/settings/views/tools.php:59
 msgid "Clear Local Data"
-msgstr ""
+msgstr "Buida les dades locals"
 
 #: includes/admin/settings/views/tools.php:62
 msgid "Clear All Local Data"
-msgstr ""
+msgstr "Buida totes les dades locals"
 
 #: includes/admin/views/order-details.php:2
 msgid "Order type"

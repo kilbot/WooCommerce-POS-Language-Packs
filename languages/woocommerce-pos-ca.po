@@ -6,15 +6,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
-"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
+"Packs/issues\n"
 "POT-Creation-Date: 2015-12-18 01:35:18+00:00\n"
 "PO-Revision-Date: 2017-05-29 15:18+0000\n"
 "Last-Translator: transmetent <info@transmetent.com>\n"
-"Language-Team: Catalan (http://www.transifex.com/kilbot/woocommerce-pos/language/ca/)\n"
+"Language-Team: Catalan (http://www.transifex.com/kilbot/woocommerce-pos/"
+"language/ca/)\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: grunt-wp-i18n 0.5.3\n"
 
@@ -85,18 +87,23 @@ msgstr "Garanteix l'accès al Pos"
 msgid ""
 "By default, access to the POS is limited to Administrator and Shop Manager "
 "roles."
-msgstr "Per defecte, l'accès al POS està limitat als rols d'Administrador i Gestor de la botiga."
+msgstr ""
+"Per defecte, l'accès al POS està limitat als rols d'Administrador i Gestor "
+"de la botiga."
 
 #: includes/admin/settings/views/access.php:11
 msgid ""
 "It is recommended that you <strong>do not change</strong> the default "
 "settings unless you are fully aware of the consequences."
-msgstr "Us recomanem que <strong>no feu canvis</strong> als paràmetres per defecte, si no teniu clares les conseqüències."
+msgstr ""
+"Us recomanem que <strong>no feu canvis</strong> als paràmetres per defecte, "
+"si no teniu clares les conseqüències."
 
 #: includes/admin/settings/views/access.php:12
 #: includes/admin/settings/views/checkout.php:60
 #: includes/admin/settings/views/hotkeys.php:6
-msgid "For more information please visit <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
+msgid ""
+"For more information please visit <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
 msgstr "Més informació a: <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
 
 #: includes/admin/settings/views/checkout.php:13
@@ -133,23 +140,31 @@ msgstr "Imprimeix els rebuts automàticament després del pagament"
 
 #: includes/admin/settings/views/checkout.php:54
 msgid ""
-"Installed gateways are listed below. Drag and drop gateways to control their"
-" display order at the Point of Sale. "
-msgstr "S'han instal·lat les següents passarel·les de pagament. Ordeneu-les segonsvulgueu qe es mostrin al Point of Sale. "
+"Installed gateways are listed below. Drag and drop gateways to control their "
+"display order at the Point of Sale. "
+msgstr ""
+"S'han instal·lat les següents passarel·les de pagament. Ordeneu-les "
+"segonsvulgueu qe es mostrin al Point of Sale. "
 
 #: includes/admin/settings/views/checkout.php:55
 msgid ""
 "Payment Gateways enabled here will be available at the Point of Sale. "
 "Payment Gateways enabled on the settings page will be available in your "
 "Online Store. "
-msgstr "Les passarel·les de pagament que habiliteu aquí estaran disponibles pel POSLes passarel·les de pagament habilitades als paràmetrs estaran disponibles a la botiga online. "
+msgstr ""
+"Les passarel·les de pagament que habiliteu aquí estaran disponibles pel "
+"POSLes passarel·les de pagament habilitades als paràmetrs estaran "
+"disponibles a la botiga online. "
 
 #: includes/admin/settings/views/checkout.php:59
 msgid ""
 "It is your responsibility to ensure the security of your customer's "
 "information. Transmitting credit card or other sensitive information should "
 "only be done using a secure connnection."
-msgstr "És la vostra responsabilitat garantir la seguretat de la informació dels clientsla transmissió del número de targeta o informació sensible s'hauria de fer mitjançant una connexió segura. "
+msgstr ""
+"És la vostra responsabilitat garantir la seguretat de la informació dels "
+"clientsla transmissió del número de targeta o informació sensible s'hauria "
+"de fer mitjançant una connexió segura. "
 
 #: includes/admin/settings/views/checkout.php:65
 msgid "Gateway Display"
@@ -193,7 +208,9 @@ msgstr "Permet quantitats amb decimals"
 
 #: includes/admin/settings/views/general.php:24
 msgid "Allows items to have decimal values in the quantity field, eg: 0.25"
-msgstr "Permet que els articles tinguin valors decimals al camp de quantitat. Per exxemple: 0.25"
+msgstr ""
+"Permet que els articles tinguin valors decimals al camp de quantitat. Per "
+"exxemple: 0.25"
 
 #: includes/admin/settings/views/general.php:34
 msgid "Default POS Customer"
@@ -202,7 +219,9 @@ msgstr "Client predeterminat del POS"
 #: includes/admin/settings/views/general.php:35
 msgid ""
 "The default customer for POS orders, eg: Guest or create a new customer."
-msgstr "El client predeterminat per les comandes fetes pel POS. Ex: invitat o creeu un nou client."
+msgstr ""
+"El client predeterminat per les comandes fetes pel POS. Ex: invitat o creeu "
+"un nou client."
 
 #: includes/admin/settings/views/general.php:46
 msgid "Discount Quick Keys"
@@ -220,13 +239,16 @@ msgstr "Dreceres del teclat"
 msgid ""
 "You can trigger certain events in WooCommerce POS using keyboard shortcuts "
 "(HotKeys)."
-msgstr "Podeu activar algns esdeveniments de WooCommerce POS utilitzant dreceres del teclat "
+msgstr ""
+"Podeu activar algns esdeveniments de WooCommerce POS utilitzant dreceres del "
+"teclat "
 
 #: includes/admin/settings/views/hotkeys.php:5
 msgid ""
-"HotKeys can also be used as a prefix for your barcode scanner or card "
-"reader."
-msgstr "Les tecles de drecera també es poden utilitzar com a prefix pels escanners de codisde barres o lectors de targetes."
+"HotKeys can also be used as a prefix for your barcode scanner or card reader."
+msgstr ""
+"Les tecles de drecera també es poden utilitzar com a prefix pels escanners "
+"de codisde barres o lectors de targetes."
 
 #: includes/admin/settings/views/tools.php:33
 msgid "Receipt Template"
@@ -266,9 +288,11 @@ msgstr "Tipus de comanda"
 
 #: includes/admin/views/settings.php:13
 msgid ""
-"There has been an error loading the settings, please contact <a "
-"href=\"mailto:support@woopos.com.au\">support</a>"
-msgstr "S'ha produit un error mentre s'estava carregant la configuració, contacteu per <a href=\"mailto:support@woopos.com.au\">suport</a>"
+"There has been an error loading the settings, please contact <a href="
+"\"mailto:support@woopos.com.au\">support</a>"
+msgstr ""
+"S'ha produit un error mentre s'estava carregant la configuració, contacteu "
+"per <a href=\"mailto:support@woopos.com.au\">suport</a>"
 
 #: includes/api/class-wc-pos-i18n.php:69
 msgid "To Pay"
@@ -335,7 +359,9 @@ msgstr "No hi ha cap mètode de pagament habilitat"
 msgid ""
 "WooCommerce POS will not work in <a href=\"%s\">Private Mode</a>, please "
 "disable Private Browsing."
-msgstr "WooCommerce POS no funciona en <a href=\"%s\">Mode privat</a>, si us plau, desactiveu la navegació privada."
+msgstr ""
+"WooCommerce POS no funciona en <a href=\"%s\">Mode privat</a>, si us plau, "
+"desactiveu la navegació privada."
 
 #: includes/api/class-wc-pos-orders.php:475
 msgid "There was an error processing the payment"
@@ -347,7 +373,9 @@ msgstr "Esteu sent redirigit fora del web per a completar el pagament"
 
 #: includes/api/class-wc-pos-orders.php:502
 msgid "<a href=\"%s\">Click here</a> if you are not redirected automatically. "
-msgstr "<a href=\"%s\">Feu clic aquí</a> si no se us està redireccionant automàticament."
+msgstr ""
+"<a href=\"%s\">Feu clic aquí</a> si no se us està redireccionant "
+"automàticament."
 
 #: includes/api/class-wc-pos-orders.php:516
 msgid "POS Transaction completed."
@@ -375,13 +403,17 @@ msgstr "No s'ha trobat gestor per %s paràmetres"
 msgid ""
 "<strong>WooCommerce POS</strong> requires <a href=\"%s\">WooCommerce %s or "
 "higher</a>. Please <a href=\"%s\">install and activate WooCommerce</a>"
-msgstr "<strong>WooCommerce POS</strong> necessita <a href=\"%s\">WooCommerce %s o superior</a>. Si us plau <a href=\"%s\">instal·leu i activeu WooCommerce</a>"
+msgstr ""
+"<strong>WooCommerce POS</strong> necessita <a href=\"%s\">WooCommerce %s o "
+"superior</a>. Si us plau <a href=\"%s\">instal·leu i activeu WooCommerce</a>"
 
 #: includes/class-wc-pos-activator.php:207
 msgid ""
 "<strong>WooCommerce POS</strong> requires PHP %s or higher. Read more "
 "information about <a href=\"%s\">how you can update</a>"
-msgstr "<strong>WooCommerce POS</strong> necessita PHP %s o superior. Llegiu més informació sobre <a href=\"%s\">com actualitzar-vos</a>"
+msgstr ""
+"<strong>WooCommerce POS</strong> necessita PHP %s o superior. Llegiu més "
+"informació sobre <a href=\"%s\">com actualitzar-vos</a>"
 
 #: includes/class-wc-pos-api.php:107
 msgid "User not authorized to access WooCommerce POS"
@@ -417,9 +449,11 @@ msgstr "Es necessita l'accés a la REST API"
 
 #: includes/class-wc-pos-status.php:146
 msgid ""
-"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to"
-" work correctly"
-msgstr "<strong>La REST API de WooCommerceI</strong> necessita enllaços permanents <em>fàcils</em> per funcionar correctament"
+"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to "
+"work correctly"
+msgstr ""
+"<strong>La REST API de WooCommerceI</strong> necessita enllaços permanents "
+"<em>fàcils</em> per funcionar correctament"
 
 #: includes/class-wc-pos-status.php:150
 msgid "Enable permalinks"
@@ -472,16 +506,20 @@ msgstr "Sembla que el seu navegador no és compatible amb Woocommerce Pos."
 
 #: includes/views/modals/browser.php:3
 msgid ""
-"If possible, please <a href=\"http://browsehappy.com/\">update your "
-"browser</a>, we recommend either Chrome or Firefox."
-msgstr "Us recomanem que <a href=\"http://browsehappy.com/\">actualitzeu el vostre navegador</a>, us recomanem Firefox o Chrome."
+"If possible, please <a href=\"http://browsehappy.com/\">update your browser</"
+"a>, we recommend either Chrome or Firefox."
+msgstr ""
+"Us recomanem que <a href=\"http://browsehappy.com/\">actualitzeu el vostre "
+"navegador</a>, us recomanem Firefox o Chrome."
 
 #: includes/views/modals/browser.php:7
 msgid ""
 "If you believe you have received this message in error please contact "
-"support via <a "
-"href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
-msgstr "Si creieu que heu rebut aquest missatge per error, si us plau demaneu suport via <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
+"support via <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</"
+"a>"
+msgstr ""
+"Si creieu que heu rebut aquest missatge per error, si us plau demaneu suport "
+"via <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
 
 #: includes/views/pos/products/tmpl-filter.php:7
 msgid "Scan Barcode"
@@ -534,9 +572,11 @@ msgstr "%s pendents"
 #. Description of the plugin/theme
 msgid ""
 "A simple front-end for taking WooCommerce orders at the Point of Sale. "
-"Requires <a "
+"Requires <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</"
+"a>."
+msgstr ""
+"Un Punt de Venda senzill per a fer comandes de WooCommerce. Necessita <a "
 "href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a>."
-msgstr "Un Punt de Venda senzill per a fer comandes de WooCommerce. Necessita <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a>."
 
 #: includes/admin/class-wc-pos-permalink.php:30
 msgctxt "Permalink setting, eg: /pos"

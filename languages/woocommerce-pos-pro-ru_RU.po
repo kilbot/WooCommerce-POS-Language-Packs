@@ -5,16 +5,20 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
-"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
+"Packs/issues\n"
 "POT-Creation-Date: 2015-10-29 13:23:19+00:00\n"
 "PO-Revision-Date: 2017-05-19 00:27+0000\n"
 "Last-Translator: Dmitry Petrov <didpetrov@gmail.com>\n"
-"Language-Team: Russian (Russia) (http://www.transifex.com/kilbot/woocommerce-pos/language/ru_RU/)\n"
+"Language-Team: Russian (Russia) (http://www.transifex.com/kilbot/woocommerce-"
+"pos/language/ru_RU/)\n"
+"Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru_RU\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: grunt-wp-i18n 0.5.3\n"
 
 #: includes/class-wc-pos-pro-ajax.php:84
@@ -132,9 +136,12 @@ msgstr "Ни один магазин не создан. <a href=\"%s\">Созд�
 
 #. Description of the plugin/theme
 msgid ""
-"WooCommerce POS Pro adds extra functionality to the free plugin. Requires <a"
-" href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce POS</a>."
-msgstr "WooCommerce POS Pro добавляет дополнительные функции бесплатному плагину. Требуется  <a href=\"http://wordpress.org/plugins/woocommerce-pos/\"> WooCommerce POS</a>."
+"WooCommerce POS Pro adds extra functionality to the free plugin. Requires <a "
+"href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce POS</a>."
+msgstr ""
+"WooCommerce POS Pro добавляет дополнительные функции бесплатному плагину. "
+"Требуется  <a href=\"http://wordpress.org/plugins/woocommerce-pos/\"> "
+"WooCommerce POS</a>."
 
 #: includes/views/print/receipt.php:200
 msgctxt "Abbreviation of Quantity"

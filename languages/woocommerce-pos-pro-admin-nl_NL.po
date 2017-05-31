@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-10-29 13:23:19+00:00\n"
+"POT-Creation-Date: 2017-05-31 11:35:22+00:00\n"
 "PO-Revision-Date: 2016-05-11 09:35+0000\n"
 "Last-Translator: M Messaoudi <mo.messaoudi.rotterdam@gmail.com>\n"
 "Language-Team: Dutch (Netherlands) (http://www.transifex.com/kilbot/"
@@ -388,10 +388,6 @@ msgstr "Licentie emailadres"
 msgid "License Key"
 msgstr "Licentie key"
 
-#: includes/admin/views/stores/address.php:55
-msgid "loading"
-msgstr "aan het laden"
-
 #: includes/admin/views/stores/opening-hours.php:21
 msgid "Opening Hours notes"
 msgstr "Speciale opningstijden"
@@ -469,3 +465,6 @@ msgstr ""
 "<strong>WooCommerce KASSA(POS) Pro</strong> vereist <a href=\"%s"
 "\">WooCommerce KASSA(POS)</a>. <a href=\"%s\">installeer en activeer "
 "WooCommerce KASSA(POS)</a>"
+
+#~ msgid "loading"
+#~ msgstr "aan het laden"

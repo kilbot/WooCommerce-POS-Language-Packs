@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-10-29 13:23:19+00:00\n"
+"POT-Creation-Date: 2017-05-31 11:35:22+00:00\n"
 "PO-Revision-Date: 2016-01-06 11:18+0000\n"
 "Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/kilbot/"
@@ -19,15 +19,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: grunt-wp-i18n 0.5.3\n"
 
-#: includes/class-wc-pos-pro-ajax.php:84
+#: includes/class-wc-pos-pro-ajax.php:86
 msgid "Invalid security nonce"
 msgstr "Nonce de segurança inválido"
 
-#: includes/class-wc-pos-pro-i18n.php:109
+#: includes/class-wc-pos-pro-i18n.php:110
 msgid "Edit Customer"
 msgstr "Editar cliente"
 
-#: includes/class-wc-pos-pro-i18n.php:110
+#: includes/class-wc-pos-pro-i18n.php:111
 #: includes/views/customers/tmpl-actions.php:13
 msgid "Add New Customer"
 msgstr "Adicionar Novo cliente"
@@ -84,7 +84,7 @@ msgstr "Não Stores encontrados em lixo."
 #: includes/class-wc-pos-pro-template.php:65
 #: includes/views/customers/tmpl-panel.php:7
 #: includes/views/modals/tmpl-customer-edit.php:12
-#: includes/views/print/receipt.php:185
+#: includes/views/print/tmpl-receipt.php:185
 msgid "Email"
 msgstr "E-mail"
 
@@ -92,31 +92,31 @@ msgstr "E-mail"
 msgid "Add Customer"
 msgstr "Adicionar ao Cliente"
 
-#: includes/views/print/receipt.php:4
+#: includes/views/print/tmpl-receipt.php:4
 msgid "Receipt"
 msgstr "Recibo"
 
-#: includes/views/print/receipt.php:170
+#: includes/views/print/tmpl-receipt.php:170
 msgid "Order Date"
 msgstr "Data do pedido"
 
-#: includes/views/print/receipt.php:175
+#: includes/views/print/tmpl-receipt.php:175
 msgid "Cashier"
 msgstr "Caixa"
 
-#: includes/views/print/receipt.php:180
+#: includes/views/print/tmpl-receipt.php:180
 msgid "Payment Method"
 msgstr "Método de pagamento"
 
-#: includes/views/print/receipt.php:231
+#: includes/views/print/tmpl-receipt.php:231
 msgid "Cart Subtotal"
 msgstr "subtotal do carrinho"
 
-#: includes/views/print/receipt.php:289
+#: includes/views/print/tmpl-receipt.php:289
 msgid "Amount Tendered"
 msgstr "Quantia recebida"
 
-#: includes/views/products/tmpl-list-item.php:74
+#: includes/views/products/tmpl-list-item.php:72
 msgid "On Sale?"
 msgstr "Em promoção?"
 
@@ -141,17 +141,18 @@ msgstr ""
 "Requer <a href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce "
 "POS.</a>"
 
-#: includes/views/print/receipt.php:200
+#: includes/views/print/tmpl-receipt.php:200
 msgctxt "Abbreviation of Quantity"
 msgid "Qty"
 msgstr "Qtde"
 
-#: includes/views/print/receipt.php:258 includes/views/print/receipt.php:268
+#: includes/views/print/tmpl-receipt.php:258
+#: includes/views/print/tmpl-receipt.php:268
 msgctxt "abbreviation for includes (tax)"
 msgid "incl."
 msgstr "inclu."
 
-#: includes/views/print/receipt.php:293
+#: includes/views/print/tmpl-receipt.php:293
 msgctxt "Money returned from cash sale"
 msgid "Change"
 msgstr "Troco"

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-10-29 13:23:18+00:00\n"
+"POT-Creation-Date: 2017-05-31 11:32:56+00:00\n"
 "PO-Revision-Date: 2015-07-15 16:05+0000\n"
 "Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
 "Language-Team: Hindi (India) (http://www.transifex.com/p/woocommerce-pos/"
@@ -26,7 +26,7 @@ msgstr "ऑनलाइन स्टोर"
 #: includes/admin/class-wc-pos-gateways.php:32
 #: includes/admin/class-wc-pos-menu.php:34
 #: includes/admin/class-wc-pos-menu.php:35
-#: includes/admin/class-wc-pos-orders.php:94
+#: includes/admin/class-wc-pos-orders.php:95
 #: includes/admin/views/order-details.php:5
 msgid "POS"
 msgstr "पीओएस"
@@ -41,7 +41,7 @@ msgstr "देखें पीओएस"
 msgid "Upgrade to Pro"
 msgstr "प्रो में अपग्रेड"
 
-#: includes/admin/class-wc-pos-orders.php:95
+#: includes/admin/class-wc-pos-orders.php:96
 #: includes/admin/views/order-details.php:4
 msgid "Online"
 msgstr "ऑनलाइन"
@@ -288,7 +288,7 @@ msgstr ""
 "सेटिंग लोड करने में त्रुटि हुई है, कृपया संपर्क करें <a href=\"mailto:support@woopos.com.au"
 "\">समर्थन</a>"
 
-#: includes/class-wc-pos-activator.php:188
+#: includes/class-wc-pos-activator.php:194
 #, fuzzy
 msgid ""
 "<strong>WooCommerce POS</strong> requires <a href=\"%s\">WooCommerce %s or "
@@ -297,7 +297,7 @@ msgstr ""
 "<strong>WooCommerce स्थिति</strong> की आवश्यकता है <a href=\"%s\">WooCommerce</"
 "a> । कृपया <a href=\"%s\">स्थापित करें और WooCommerce को सक्रिय</a>"
 
-#: includes/class-wc-pos-activator.php:207
+#: includes/class-wc-pos-activator.php:213
 #, fuzzy
 msgid ""
 "<strong>WooCommerce POS</strong> requires PHP %s or higher. Read more "

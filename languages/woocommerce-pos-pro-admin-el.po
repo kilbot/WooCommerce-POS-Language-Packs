@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-10-29 13:23:19+00:00\n"
+"POT-Creation-Date: 2017-05-31 11:35:22+00:00\n"
 "PO-Revision-Date: 2015-11-14 18:09+0000\n"
 "Last-Translator: Marios <mariospolycarpou@hotmail.com>\n"
 "Language-Team: Greek (http://www.transifex.com/kilbot/woocommerce-pos/"
@@ -396,10 +396,6 @@ msgstr "Αδειοδοτημένο Email"
 msgid "License Key"
 msgstr "Κλειδί Άδειας Χρήσης"
 
-#: includes/admin/views/stores/address.php:55
-msgid "loading"
-msgstr "φόρτωση"
-
 #: includes/admin/views/stores/opening-hours.php:21
 msgid "Opening Hours notes"
 msgstr "Σημειώσεις Ωραρίου Λειτουργίας"
@@ -480,3 +476,6 @@ msgstr ""
 "Το <strong>WooCommerce POS Pro</strong> απαιτεί το <a href=\"%s"
 "\">WooCommerce POS</a>. Παρακαλούμε <a href=\"%s\">εγκαταστήστε και "
 "ενεργοποιήστε το WooCommerce POS</a>"
+
+#~ msgid "loading"
+#~ msgstr "φόρτωση"

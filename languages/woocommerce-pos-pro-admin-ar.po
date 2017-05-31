@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-10-29 13:23:19+00:00\n"
+"POT-Creation-Date: 2017-05-31 11:35:22+00:00\n"
 "PO-Revision-Date: 2016-05-02 04:43+0000\n"
 "Last-Translator: Mustafa Mohammed <mustafamsy@gmail.com>\n"
 "Language-Team: Arabic (http://www.transifex.com/kilbot/woocommerce-pos/"
@@ -376,10 +376,6 @@ msgstr "البريد الإلكتروني الخاص بالرخصة"
 msgid "License Key"
 msgstr "رقم الرخصة"
 
-#: includes/admin/views/stores/address.php:55
-msgid "loading"
-msgstr "تحميل"
-
 #: includes/admin/views/stores/opening-hours.php:21
 msgid "Opening Hours notes"
 msgstr "ملاحظة ساعات الدوا"
@@ -453,3 +449,6 @@ msgid ""
 msgstr ""
 "<strong>WooCommerce POS Pro</strong> تتطلب <a href=\"%s\">WooCommerce POS</"
 "a>. الرجاء <a href=\"%s\">تنصيب وتفعيل ووكوكرس نقطة المبيعات</a>"
+
+#~ msgid "loading"
+#~ msgstr "تحميل"

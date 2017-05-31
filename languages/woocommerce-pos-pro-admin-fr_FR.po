@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-10-29 13:23:19+00:00\n"
+"POT-Creation-Date: 2017-05-31 11:35:22+00:00\n"
 "PO-Revision-Date: 2015-12-10 16:09+0000\n"
 "Last-Translator: Steven Roh <stivikipirdi@gmail.com>\n"
 "Language-Team: French (France) (http://www.transifex.com/kilbot/woocommerce-"
@@ -394,10 +394,6 @@ msgstr "Email de la licence"
 msgid "License Key"
 msgstr "Clé de la licence"
 
-#: includes/admin/views/stores/address.php:55
-msgid "loading"
-msgstr "chargement"
-
 #: includes/admin/views/stores/opening-hours.php:21
 msgid "Opening Hours notes"
 msgstr "Remarques sur les heures d'ouverture"
@@ -478,3 +474,6 @@ msgstr ""
 "<strong>WooCommerce POS Pro</strong> requiert <a href=\"%s\">WooCommerce "
 "POS</a>. Veuillez svp <a href=\"%s\">installer et configurer WooCommerce "
 "POS</a>"
+
+#~ msgid "loading"
+#~ msgstr "chargement"

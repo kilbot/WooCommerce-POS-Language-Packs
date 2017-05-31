@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-10-29 13:23:19+00:00\n"
+"POT-Creation-Date: 2017-05-31 11:35:22+00:00\n"
 "PO-Revision-Date: 2015-09-18 06:38+0000\n"
 "Last-Translator: Tran Ngoc Thanh Tung <thomastrant@gmail.com>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/kilbot/woocommerce-pos/"
@@ -386,10 +386,6 @@ msgstr "Giấy phép Email"
 msgid "License Key"
 msgstr "Mã bản quyền"
 
-#: includes/admin/views/stores/address.php:55
-msgid "loading"
-msgstr "tải"
-
 #: includes/admin/views/stores/opening-hours.php:21
 msgid "Opening Hours notes"
 msgstr "Giờ mở cửa ghi chú"
@@ -465,3 +461,6 @@ msgid ""
 msgstr ""
 "<strong>WooCommerce POS Pro</strong> đòi hỏi <a href=\"%s\">WooCommerce POS."
 "</a> Hãy <a href=\"%s\">cài đặt và kích hoạt WooCommerce POS</a>"
+
+#~ msgid "loading"
+#~ msgstr "tải"

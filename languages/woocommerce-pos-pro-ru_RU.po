@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-10-29 13:23:19+00:00\n"
+"POT-Creation-Date: 2017-05-31 11:35:22+00:00\n"
 "PO-Revision-Date: 2017-05-19 00:27+0000\n"
 "Last-Translator: Dmitry Petrov <didpetrov@gmail.com>\n"
 "Language-Team: Russian (Russia) (http://www.transifex.com/kilbot/woocommerce-"
@@ -21,15 +21,15 @@ msgstr ""
 "%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: grunt-wp-i18n 0.5.3\n"
 
-#: includes/class-wc-pos-pro-ajax.php:84
+#: includes/class-wc-pos-pro-ajax.php:86
 msgid "Invalid security nonce"
 msgstr "Неверные защитные данные"
 
-#: includes/class-wc-pos-pro-i18n.php:109
+#: includes/class-wc-pos-pro-i18n.php:110
 msgid "Edit Customer"
 msgstr "Редактировать клиента"
 
-#: includes/class-wc-pos-pro-i18n.php:110
+#: includes/class-wc-pos-pro-i18n.php:111
 #: includes/views/customers/tmpl-actions.php:13
 msgid "Add New Customer"
 msgstr "Добавить нового клиента"
@@ -86,7 +86,7 @@ msgstr "Магазины не найден в корзине"
 #: includes/class-wc-pos-pro-template.php:65
 #: includes/views/customers/tmpl-panel.php:7
 #: includes/views/modals/tmpl-customer-edit.php:12
-#: includes/views/print/receipt.php:185
+#: includes/views/print/tmpl-receipt.php:185
 msgid "Email"
 msgstr "Электронный адрес"
 
@@ -94,31 +94,31 @@ msgstr "Электронный адрес"
 msgid "Add Customer"
 msgstr "Добавить клиента"
 
-#: includes/views/print/receipt.php:4
+#: includes/views/print/tmpl-receipt.php:4
 msgid "Receipt"
 msgstr "Квитанция"
 
-#: includes/views/print/receipt.php:170
+#: includes/views/print/tmpl-receipt.php:170
 msgid "Order Date"
 msgstr "Дата заказа"
 
-#: includes/views/print/receipt.php:175
+#: includes/views/print/tmpl-receipt.php:175
 msgid "Cashier"
 msgstr "Кассир"
 
-#: includes/views/print/receipt.php:180
+#: includes/views/print/tmpl-receipt.php:180
 msgid "Payment Method"
 msgstr "Метод оплаты"
 
-#: includes/views/print/receipt.php:231
+#: includes/views/print/tmpl-receipt.php:231
 msgid "Cart Subtotal"
 msgstr "Сумма в корзине"
 
-#: includes/views/print/receipt.php:289
+#: includes/views/print/tmpl-receipt.php:289
 msgid "Amount Tendered"
 msgstr "ИТОГО:"
 
-#: includes/views/products/tmpl-list-item.php:74
+#: includes/views/products/tmpl-list-item.php:72
 msgid "On Sale?"
 msgstr "В продаже?"
 
@@ -143,17 +143,18 @@ msgstr ""
 "Требуется  <a href=\"http://wordpress.org/plugins/woocommerce-pos/\"> "
 "WooCommerce POS</a>."
 
-#: includes/views/print/receipt.php:200
+#: includes/views/print/tmpl-receipt.php:200
 msgctxt "Abbreviation of Quantity"
 msgid "Qty"
 msgstr "Кол-во"
 
-#: includes/views/print/receipt.php:258 includes/views/print/receipt.php:268
+#: includes/views/print/tmpl-receipt.php:258
+#: includes/views/print/tmpl-receipt.php:268
 msgctxt "abbreviation for includes (tax)"
 msgid "incl."
 msgstr "Включительно"
 
-#: includes/views/print/receipt.php:293
+#: includes/views/print/tmpl-receipt.php:293
 msgctxt "Money returned from cash sale"
 msgid "Change"
 msgstr "Изменить"

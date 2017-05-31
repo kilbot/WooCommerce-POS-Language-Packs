@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-10-29 13:23:18+00:00\n"
+"POT-Creation-Date: 2017-05-31 11:32:56+00:00\n"
 "PO-Revision-Date: 2016-02-11 08:00+0000\n"
 "Last-Translator: Javier Gomez <gestion@sugo.es>\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/kilbot/woocommerce-"
@@ -27,7 +27,7 @@ msgstr "Tienda online"
 #: includes/admin/class-wc-pos-gateways.php:32
 #: includes/admin/class-wc-pos-menu.php:34
 #: includes/admin/class-wc-pos-menu.php:35
-#: includes/admin/class-wc-pos-orders.php:94
+#: includes/admin/class-wc-pos-orders.php:95
 #: includes/admin/views/order-details.php:5
 msgid "POS"
 msgstr "Punto de Venta"
@@ -42,7 +42,7 @@ msgstr "Ver POS"
 msgid "Upgrade to Pro"
 msgstr "Actualiza a PRO"
 
-#: includes/admin/class-wc-pos-orders.php:95
+#: includes/admin/class-wc-pos-orders.php:96
 #: includes/admin/views/order-details.php:4
 msgid "Online"
 msgstr "En linea"
@@ -299,7 +299,7 @@ msgstr ""
 "Se ha producido un error al cargar los ajustes, póngase en contacto con <a "
 "href=\"mailto:support@woopos.com.au\">soporte</a>"
 
-#: includes/class-wc-pos-activator.php:188
+#: includes/class-wc-pos-activator.php:194
 msgid ""
 "<strong>WooCommerce POS</strong> requires <a href=\"%s\">WooCommerce %s or "
 "higher</a>. Please <a href=\"%s\">install and activate WooCommerce</a>"
@@ -307,7 +307,7 @@ msgstr ""
 "<strong>WooCommerce POS</strong> requiere <a href=\"%s\">WooCommerce% s o "
 "superior.</a> Por favor, <a href=\"%s\">instalar y activar WooCommerce</a>"
 
-#: includes/class-wc-pos-activator.php:207
+#: includes/class-wc-pos-activator.php:213
 msgid ""
 "<strong>WooCommerce POS</strong> requires PHP %s or higher. Read more "
 "information about <a href=\"%s\">how you can update</a>"

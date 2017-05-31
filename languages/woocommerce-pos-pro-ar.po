@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-10-29 13:23:19+00:00\n"
+"POT-Creation-Date: 2017-05-31 11:35:22+00:00\n"
 "PO-Revision-Date: 2016-05-02 04:44+0000\n"
 "Last-Translator: Mustafa Mohammed <mustafamsy@gmail.com>\n"
 "Language-Team: Arabic (http://www.transifex.com/kilbot/woocommerce-pos/"
@@ -20,15 +20,15 @@ msgstr ""
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "X-Generator: grunt-wp-i18n 0.5.3\n"
 
-#: includes/class-wc-pos-pro-ajax.php:84
+#: includes/class-wc-pos-pro-ajax.php:86
 msgid "Invalid security nonce"
 msgstr "رقم تعريف للعملية غير صالح"
 
-#: includes/class-wc-pos-pro-i18n.php:109
+#: includes/class-wc-pos-pro-i18n.php:110
 msgid "Edit Customer"
 msgstr "تعديل العميل"
 
-#: includes/class-wc-pos-pro-i18n.php:110
+#: includes/class-wc-pos-pro-i18n.php:111
 #: includes/views/customers/tmpl-actions.php:13
 msgid "Add New Customer"
 msgstr "أضف عميل جديد"
@@ -85,7 +85,7 @@ msgstr "لا يوجد متجر في سلة المهملات."
 #: includes/class-wc-pos-pro-template.php:65
 #: includes/views/customers/tmpl-panel.php:7
 #: includes/views/modals/tmpl-customer-edit.php:12
-#: includes/views/print/receipt.php:185
+#: includes/views/print/tmpl-receipt.php:185
 msgid "Email"
 msgstr "البريد"
 
@@ -93,31 +93,31 @@ msgstr "البريد"
 msgid "Add Customer"
 msgstr "أضف عميل"
 
-#: includes/views/print/receipt.php:4
+#: includes/views/print/tmpl-receipt.php:4
 msgid "Receipt"
 msgstr "الفاتورة"
 
-#: includes/views/print/receipt.php:170
+#: includes/views/print/tmpl-receipt.php:170
 msgid "Order Date"
 msgstr "تاريخ الطلب"
 
-#: includes/views/print/receipt.php:175
+#: includes/views/print/tmpl-receipt.php:175
 msgid "Cashier"
 msgstr "الكاشير"
 
-#: includes/views/print/receipt.php:180
+#: includes/views/print/tmpl-receipt.php:180
 msgid "Payment Method"
 msgstr "طريقة الدفع"
 
-#: includes/views/print/receipt.php:231
+#: includes/views/print/tmpl-receipt.php:231
 msgid "Cart Subtotal"
 msgstr "مجموع المشتريات"
 
-#: includes/views/print/receipt.php:289
+#: includes/views/print/tmpl-receipt.php:289
 msgid "Amount Tendered"
 msgstr "المبلغ المستلم"
 
-#: includes/views/products/tmpl-list-item.php:74
+#: includes/views/products/tmpl-list-item.php:72
 msgid "On Sale?"
 msgstr "تحت الخصم؟"
 
@@ -141,17 +141,18 @@ msgstr ""
 "ووكومرس POS النسخة الاحترافية تضيف خصائص ومزايا على النسخة المجانية. مطلوب "
 "<a href=\"http://wordpress.org/plugins/woocommerce-pos/\">ووكومرس POS</a>."
 
-#: includes/views/print/receipt.php:200
+#: includes/views/print/tmpl-receipt.php:200
 msgctxt "Abbreviation of Quantity"
 msgid "Qty"
 msgstr "كمية"
 
-#: includes/views/print/receipt.php:258 includes/views/print/receipt.php:268
+#: includes/views/print/tmpl-receipt.php:258
+#: includes/views/print/tmpl-receipt.php:268
 msgctxt "abbreviation for includes (tax)"
 msgid "incl."
 msgstr "ضمن"
 
-#: includes/views/print/receipt.php:293
+#: includes/views/print/tmpl-receipt.php:293
 msgctxt "Money returned from cash sale"
 msgid "Change"
 msgstr "تغيير"

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-10-29 13:23:19+00:00\n"
+"POT-Creation-Date: 2017-05-31 11:35:22+00:00\n"
 "PO-Revision-Date: 2015-09-22 06:05+0000\n"
 "Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
 "Language-Team: Swedish (Sweden) (http://www.transifex.com/kilbot/woocommerce-"
@@ -385,10 +385,6 @@ msgstr "Licens E"
 msgid "License Key"
 msgstr "Licensnyckel"
 
-#: includes/admin/views/stores/address.php:55
-msgid "loading"
-msgstr "lastning"
-
 #: includes/admin/views/stores/opening-hours.php:21
 msgid "Opening Hours notes"
 msgstr "Öppettider anteckningar"
@@ -464,3 +460,6 @@ msgid ""
 msgstr ""
 "<strong>WooCommerce POS Pro</strong> kräver <a href=\"%s\">WooCommerce POS</"
 "a> . Vänligen <a href=\"%s\">installera och aktivera WooCommerce POS</a>"
+
+#~ msgid "loading"
+#~ msgstr "lastning"

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-10-29 13:23:19+00:00\n"
+"POT-Creation-Date: 2017-05-31 11:35:22+00:00\n"
 "PO-Revision-Date: 2015-10-28 08:41+0000\n"
 "Last-Translator: Krzysztof Kościelski <krzysztof@koscielski.pl>\n"
 "Language-Team: Polish (Poland) (http://www.transifex.com/kilbot/woocommerce-"
@@ -384,10 +384,6 @@ msgstr "Adres email licencji"
 msgid "License Key"
 msgstr "Klucz licencyjny"
 
-#: includes/admin/views/stores/address.php:55
-msgid "loading"
-msgstr "ładuję"
-
 #: includes/admin/views/stores/opening-hours.php:21
 msgid "Opening Hours notes"
 msgstr "Notatki do godzin otwarcia"
@@ -464,3 +460,6 @@ msgstr ""
 "<strong>WooCommerce POS Pro</strong> wymaga  <a href=\"%s\">WooCommerce POS</"
 "a>. Prosimy <a href=\"%s\">zainstalować i aktywować wtyczkę WooCommerce POS</"
 "a>"
+
+#~ msgid "loading"
+#~ msgstr "ładuję"

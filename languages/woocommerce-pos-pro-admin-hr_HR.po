@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2015-10-29 13:23:19+00:00\n"
+"POT-Creation-Date: 2017-05-31 11:35:22+00:00\n"
 "PO-Revision-Date: 2016-02-06 13:30+0000\n"
 "Last-Translator: mladen šalaj <mladen.salaj@gmail.com>\n"
 "Language-Team: Croatian (Croatia) (http://www.transifex.com/kilbot/"
@@ -382,10 +382,6 @@ msgstr "Korisnički E-mail"
 msgid "License Key"
 msgstr "Korisnički Ključ"
 
-#: includes/admin/views/stores/address.php:55
-msgid "loading"
-msgstr "učitavanje"
-
 #: includes/admin/views/stores/opening-hours.php:21
 msgid "Opening Hours notes"
 msgstr "Radno vrijeme bilješke"
@@ -461,3 +457,6 @@ msgid ""
 msgstr ""
 "<strong>WooCommerce POS Pro</strong> zahtjeva <a href=\"%s\">WooCommerce "
 "POS</a>. Molimo <a href=\"%s\">instalirajte i aktivirajte WooCommerce POS</a>"
+
+#~ msgid "loading"
+#~ msgstr "učitavanje"

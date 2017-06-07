@@ -1,47 +1,47 @@
-# Copyright (c) 2015 kilbot
+# Copyright (C) 2017 kilbot
 # This file is distributed under the Copyright 2015 The Kilbot Factory.
+# Translators:
+# transmetent <info@transmetent.com>, 2015,2017
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce POS Pro 0.4.0-alpha\n"
+"Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
 "POT-Creation-Date: 2017-05-31 11:35:22+00:00\n"
-"PO-Revision-Date: 2015-03-13 04:49:21+00:00\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2017-06-07 06:19+0000\n"
+"Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
+"Language-Team: Catalan (http://www.transifex.com/kilbot/woocommerce-pos/"
+"language/ca/)\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: grunt-wp-i18n 0.4.9\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: grunt-wp-i18n1.0.0\n"
 
 #: includes/admin/class-wc-pos-pro-am.php:72
 msgid "The %s License Key has not been activated, so the plugin is inactive!"
 msgstr ""
-"No s'ha activat la clau de la llicència %s, per tant l'extensió resta "
-"inactiva'"
+"El %s Codi de Llicència no està activat, per tant el plugin està inactiu."
 
 #: includes/admin/class-wc-pos-pro-am.php:73
 msgid ""
 " <a href=\"%s\">Click here</a> to activate the license key and the plugin."
-msgstr ""
-" Feu <a href=\"%s\">clic aquí</a> per activar la llicència i l'extensió."
+msgstr " <a href=\"%s\">Fes clic aquí</a> per activar el plugin."
 
 #: includes/admin/class-wc-pos-pro-am.php:106
 msgid ""
 "<b>Warning!</b> You're blocking external requests which means you won't be "
 "able to get %s updates. Please add %s to %s."
 msgstr ""
-"<b>Compte!</b> Esteu blocant sol·licituds externes. Això implica deixar de "
-"rebre %s actualitzacis. Afegiu %s a %s."
 
 #: includes/admin/class-wc-pos-pro-am.php:232
 msgid "Unable to connect to the activation server"
-msgstr "No s'ha pogut connectar amb el servidor d'activació"
+msgstr "No es pot connectar al servidor d'activació"
 
 #: includes/admin/class-wc-pos-pro-am.php:267
 msgid "Unable to parse the server response"
-msgstr "No s'ha pogut analitar la resposta del servidor"
+msgstr "No es pot analitzar la resposta del servidor"
 
 #: includes/admin/class-wc-pos-pro-am.php:279
 msgid "Invalid Request"
@@ -50,15 +50,15 @@ msgstr "Sol·licitud incorrecta"
 #: includes/admin/class-wc-pos-pro-am.php:281
 #: includes/admin/class-wc-pos-pro-am.php:285
 msgid "Invalid License Key"
-msgstr "Codi de llicència no vàlid"
+msgstr "Clau de llicència incorrecta"
 
 #: includes/admin/class-wc-pos-pro-am.php:282
 msgid "Activation error"
-msgstr "S'ha produït un error en l'activació"
+msgstr "S'ha produït un error durant l'activació"
 
 #: includes/admin/class-wc-pos-pro-am.php:283
 msgid "Exceeded maximum number of activations"
-msgstr "S'ha excedit el nombre màxim d'activacions"
+msgstr "Heu sobrepassat el nombre màxim d'activacions"
 
 #: includes/admin/class-wc-pos-pro-am.php:284
 msgid "Invalid Instance ID"
@@ -66,11 +66,11 @@ msgstr ""
 
 #: includes/admin/class-wc-pos-pro-am.php:286
 msgid "Subscription is not active"
-msgstr "Subscripció inactiva"
+msgstr "La subscripció no està activada"
 
 #: includes/admin/class-wc-pos-pro-am.php:289
 msgid "Invalid Response"
-msgstr "Resposta no vàlida"
+msgstr "Resposta incorrecta"
 
 #: includes/admin/class-wc-pos-pro-am.php:307
 msgid ""
@@ -160,73 +160,73 @@ msgstr ""
 #: includes/admin/reports/views/sales-table.php:18
 #: includes/admin/reports/views/sales-table.php:20
 msgid "POS"
-msgstr ""
+msgstr "POS"
 
 #: includes/admin/class-wc-pos-pro-reports.php:30
 msgid "POS vs Online"
-msgstr ""
+msgstr "POS vs Online"
 
 #: includes/admin/class-wc-pos-pro-reports.php:36
 msgid "Sales by cashier"
-msgstr ""
+msgstr "Vendes per caixer"
 
 #: includes/admin/class-wc-pos-pro-reports.php:42
 msgid "Sales by store"
-msgstr ""
+msgstr "Vendes per botiga"
 
 #: includes/admin/class-wc-pos-pro-reports.php:48
 msgid "Sales by payment method"
-msgstr ""
+msgstr "Vendes per mètode de pagament"
 
 #: includes/admin/class-wc-pos-pro-stores.php:62
 msgid "Stores"
-msgstr ""
+msgstr "Botigues"
 
 #: includes/admin/class-wc-pos-pro-stores.php:129
 msgid "Open POS"
-msgstr ""
+msgstr "Obre el POS"
 
 #: includes/admin/class-wc-pos-pro-stores.php:148
 #: includes/admin/views/order-details.php:2
 msgid "Store"
-msgstr ""
+msgstr "Botiga"
 
 #: includes/admin/class-wc-pos-pro-stores.php:165
 msgid "Preview Receipt"
-msgstr ""
+msgstr "Previsualitza el tiquet"
 
 #: includes/admin/class-wc-pos-pro-stores.php:180
 msgid "Opening Hours"
-msgstr ""
+msgstr "Hores d'obertura"
 
 #: includes/admin/class-wc-pos-pro-stores.php:189
 msgid "Logo"
-msgstr ""
+msgstr "Logo"
 
 #: includes/admin/class-wc-pos-pro-stores.php:212
 msgid "Receipt Options"
-msgstr ""
+msgstr "Opcions de tiquet"
 
 #: includes/admin/class-wc-pos-pro-stores.php:277
 msgid "Set featured image"
-msgstr ""
+msgstr "Estableix la imatge"
 
 #: includes/admin/class-wc-pos-pro-stores.php:277
 #: includes/admin/class-wc-pos-pro-stores.php:293
 msgid "Set store logo"
-msgstr ""
+msgstr "Estableix el logo de la botiga"
 
 #: includes/admin/class-wc-pos-pro-stores.php:278
 msgid "Remove featured image"
-msgstr ""
+msgstr "Suprimeix la imatge"
 
 #: includes/admin/class-wc-pos-pro-stores.php:278
 msgid "Remove store logo"
-msgstr ""
+msgstr "Suprimeix la imatge del logo"
 
 #: includes/admin/class-wc-pos-pro-stores.php:292
 msgid "Set Store Logo"
-msgstr ""
+msgstr "Escull el logo de la botiga"
 
 #: includes/admin/class-wc-pos-pro-stores.php:369
 msgid ""
@@ -241,34 +241,34 @@ msgstr ""
 #: includes/admin/reports/class-wc-pos-pro-sales.php:270
 #: includes/admin/reports/class-wc-pos-pro-sales.php:276
 msgid "POS Sales"
-msgstr ""
+msgstr "Vendes del POS"
 
 #: includes/admin/reports/class-wc-pos-pro-sales.php:174
 #: includes/admin/reports/class-wc-pos-pro-sales.php:177
 #: includes/admin/reports/class-wc-pos-pro-sales.php:244
 #: includes/admin/reports/class-wc-pos-pro-sales.php:258
 msgid "Online Sales"
-msgstr ""
+msgstr "Vendes online"
 
 #: includes/admin/reports/class-wc-pos-pro-store.php:59
 msgid "No Stores found."
-msgstr ""
+msgstr "No s'ha trobat cap botiga"
 
 #: includes/admin/reports/class-wc-pos-pro-store.php:61
 msgid "Add New Store"
-msgstr ""
+msgstr "Afegeix una botiga"
 
 #: includes/admin/reports/views/sales-table.php:4
 msgid "Period"
-msgstr ""
+msgstr "Període"
 
 #: includes/admin/reports/views/sales-table.php:5
 msgid "Orders"
-msgstr ""
+msgstr "Comandes"
 
 #: includes/admin/reports/views/sales-table.php:6
 msgid "Total Sales"
-msgstr ""
+msgstr "Total de vendes"
 
 #: includes/admin/reports/views/sales-table.php:6
 msgid "This is the sum of the 'Order Total' field within your orders."
@@ -276,23 +276,25 @@ msgstr ""
 
 #: includes/admin/reports/views/sales-table.php:7
 msgid "Total Shipping"
-msgstr ""
+msgstr "Total d'enviaments"
 
 #: includes/admin/reports/views/sales-table.php:7
 msgid "This is the sum of the 'Shipping Total' field within your orders."
-msgstr ""
+msgstr "Aquest és el sumatori del camp «Total enviaments» en les comandes"
 
 #: includes/admin/reports/views/sales-table.php:8
 msgid "Total Tax"
-msgstr ""
+msgstr "Total d'impostos"
 
 #: includes/admin/reports/views/sales-table.php:8
 msgid "This is the total tax for the rate (shipping tax + product tax)."
 msgstr ""
+"Aquest és el total d'impostos (impostos d'enviament + impostos pels "
+"productes)"
 
 #: includes/admin/reports/views/sales-table.php:9
 msgid "Net profit"
-msgstr ""
+msgstr "Benefici net"
 
 #: includes/admin/reports/views/sales-table.php:9
 msgid "Total sales minus shipping and tax."
@@ -304,15 +306,15 @@ msgstr ""
 #: includes/admin/reports/views/sales-table.php:19
 #: includes/admin/reports/views/sales-table.php:21
 msgid "Online"
-msgstr ""
+msgstr "Online"
 
 #: includes/admin/reports/views/sales-table.php:55
 msgid "Total"
-msgstr ""
+msgstr "Total"
 
 #: includes/admin/settings/class-wc-pos-pro-license.php:18
 msgid "Pro License"
-msgstr ""
+msgstr "Llicència pro"
 
 #: includes/admin/settings/views/customers.php:7
 msgid "Customer Options"
@@ -328,15 +330,15 @@ msgstr ""
 
 #: includes/admin/settings/views/license.php:7
 msgid "Pro License Activation"
-msgstr ""
+msgstr "Activació de la llicència pro"
 
 #: includes/admin/settings/views/license.php:11
 msgid "Thank you!"
-msgstr ""
+msgstr "Gràcies!"
 
 #: includes/admin/settings/views/license.php:11
 msgid "Your license is active"
-msgstr ""
+msgstr "La vostra llicència és activa"
 
 #: includes/admin/settings/views/license.php:17
 msgid "License Email"
@@ -380,7 +382,7 @@ msgstr ""
 
 #: includes/admin/views/stores/receipt-options.php:17
 msgid "Footer"
-msgstr ""
+msgstr "Peu"
 
 #: includes/admin/views/stores/receipt-options.php:18
 msgid "Further footer information, e.g. copyright or branding"

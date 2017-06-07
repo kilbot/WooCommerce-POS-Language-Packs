@@ -1,4 +1,4 @@
-# Copyright (C) 2015 kilbot
+# Copyright (C) 2017 kilbot
 # This file is distributed under the Copyright 2015 The Kilbot Factory.
 # Translators:
 # Tran Ngoc Thanh Tung <thomastrant@gmail.com>, 2015
@@ -8,8 +8,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
 "POT-Creation-Date: 2017-05-31 11:35:22+00:00\n"
-"PO-Revision-Date: 2015-09-18 06:38+0000\n"
-"Last-Translator: Tran Ngoc Thanh Tung <thomastrant@gmail.com>\n"
+"PO-Revision-Date: 2017-06-07 06:19+0000\n"
+"Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/kilbot/woocommerce-pos/"
 "language/vi/)\n"
 "Language: vi\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: grunt-wp-i18n 0.5.3\n"
+"X-Generator: grunt-wp-i18n1.0.0\n"
 
 #: includes/admin/class-wc-pos-pro-am.php:72
 msgid "The %s License Key has not been activated, so the plugin is inactive!"
@@ -148,7 +148,7 @@ msgid ""
 "soon. You can purchase a new subscription from your account <a href=\"%s\" "
 "target=\"_blank\">dashboard</a>."
 msgstr ""
-"Các thuê bao cho% s đã được đặt trong thùng rác và sẽ sớm bị xóa. Bạn có thể "
+"Các thuê bao cho %s đã được đặt trong thùng rác và sẽ sớm bị xóa. Bạn có thể "
 "mua một thuê bao mới từ tài khoản của bạn <a href=\"%s\" target=\"_blank"
 "\">bảng điều khiển.</a>"
 
@@ -157,7 +157,7 @@ msgid ""
 "A subscription for %s could not be found. You can purchase a subscription "
 "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
 msgstr ""
-"Một thuê bao cho% s không thể được tìm thấy. Bạn có thể mua một thuê bao từ "
+"Một thuê bao cho %s không thể được tìm thấy. Bạn có thể mua một thuê bao từ "
 "tài khoản của bạn <a href=\"%s\" target=\"_blank\">bảng điều khiển.</a>"
 
 #: includes/admin/class-wc-pos-pro-am.php:316
@@ -165,8 +165,8 @@ msgid ""
 "%s has not been activated. Go to the settings page and enter the license key "
 "and license email to activate %s."
 msgstr ""
-"% s chưa được kích hoạt. Tới trang cài đặt và nhập key bản quyền và giấy "
-"phép email để kích hoạt% s."
+"%s chưa được kích hoạt. Tới trang cài đặt và nhập key bản quyền và giấy phép "
+"email để kích hoạt %s."
 
 #: includes/admin/class-wc-pos-pro-am.php:317
 msgid ""
@@ -174,7 +174,7 @@ msgid ""
 "subscription expiring. You can reactivate or purchase a license key from "
 "your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
 msgstr ""
-"Cho phép tải về cho% s đã bị thu hồi có thể là do một key bản quyền hoặc "
+"Cho phép tải về cho %s đã bị thu hồi có thể là do một key bản quyền hoặc "
 "đăng ký hết hạn. Bạn có thể kích hoạt lại hoặc mua key bản quyền từ tài "
 "khoản của bạn <a href=\"%s\" target=\"_blank\">bảng điều khiển.</a>"
 
@@ -185,7 +185,7 @@ msgid ""
 "your email inbox, if not you can get it by logging into your account <a href="
 "\"%s\" target=\"_blank\">dashboard</a>."
 msgstr ""
-"Bạn thay đổi đăng ký cho% s, vì vậy bạn sẽ cần phải nhập mới API License Key "
+"Bạn thay đổi đăng ký cho %s, vì vậy bạn sẽ cần phải nhập mới API License Key "
 "của bạn trong trang cài đặt. The Key Giấy phép nên đã đến trong hộp thư đến "
 "email của bạn, nếu không bạn có thể có được nó bằng cách đăng nhập vào tài "
 "khoản của bạn <a href=\"%s\" target=\"_blank\">bảng điều khiển.</a>"
@@ -201,11 +201,11 @@ msgstr "POS"
 
 #: includes/admin/class-wc-pos-pro-reports.php:30
 msgid "POS vs Online"
-msgstr "POS vs Trực tuyến"
+msgstr "POS và Online"
 
 #: includes/admin/class-wc-pos-pro-reports.php:36
 msgid "Sales by cashier"
-msgstr "Bán hàng theo nhân viên thu ngân"
+msgstr "Bán hàng bởi nhân viên thu ngân"
 
 #: includes/admin/class-wc-pos-pro-reports.php:42
 msgid "Sales by store"
@@ -230,7 +230,7 @@ msgstr "Cửa hàng"
 
 #: includes/admin/class-wc-pos-pro-stores.php:165
 msgid "Preview Receipt"
-msgstr "Xem trước Receipt"
+msgstr "Xem trước biên lai"
 
 #: includes/admin/class-wc-pos-pro-stores.php:180
 msgid "Opening Hours"
@@ -242,7 +242,7 @@ msgstr "Logo"
 
 #: includes/admin/class-wc-pos-pro-stores.php:212
 msgid "Receipt Options"
-msgstr "Tùy chọn nhận"
+msgstr "Tùy chọn biên lai"
 
 #: includes/admin/class-wc-pos-pro-stores.php:277
 msgid "Set featured image"
@@ -255,15 +255,15 @@ msgstr "Set biểu tượng cửa hàng"
 
 #: includes/admin/class-wc-pos-pro-stores.php:278
 msgid "Remove featured image"
-msgstr "Di chuyển hình ảnh nổi bật"
+msgstr "Bỏ hình ảnh nổi bật"
 
 #: includes/admin/class-wc-pos-pro-stores.php:278
 msgid "Remove store logo"
-msgstr "Di chuyển cửa hàng biểu tượng"
+msgstr "Bỏ cửa hàng biểu tượng"
 
 #: includes/admin/class-wc-pos-pro-stores.php:292
 msgid "Set Store Logo"
-msgstr "Đặt hàng Logo"
+msgstr "Đặt Logo cửa hàng"
 
 #: includes/admin/class-wc-pos-pro-stores.php:369
 msgid ""
@@ -280,7 +280,7 @@ msgstr ""
 #: includes/admin/reports/class-wc-pos-pro-sales.php:270
 #: includes/admin/reports/class-wc-pos-pro-sales.php:276
 msgid "POS Sales"
-msgstr "POS bán hàng"
+msgstr "Bán hàng POS"
 
 #: includes/admin/reports/class-wc-pos-pro-sales.php:174
 #: includes/admin/reports/class-wc-pos-pro-sales.php:177
@@ -461,6 +461,3 @@ msgid ""
 msgstr ""
 "<strong>WooCommerce POS Pro</strong> đòi hỏi <a href=\"%s\">WooCommerce POS."
 "</a> Hãy <a href=\"%s\">cài đặt và kích hoạt WooCommerce POS</a>"
-
-#~ msgid "loading"
-#~ msgstr "tải"

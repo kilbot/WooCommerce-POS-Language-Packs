@@ -1,4 +1,4 @@
-# Copyright (C) 2015 kilbot
+# Copyright (C) 2017 kilbot
 # This file is distributed under the Copyright 2015 The Kilbot Factory.
 # Translators:
 # Egbert Jan van den Bussche <egbert@vandenbussche.nl>, 2015
@@ -10,8 +10,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
 "POT-Creation-Date: 2017-05-31 11:35:22+00:00\n"
-"PO-Revision-Date: 2016-05-11 09:35+0000\n"
-"Last-Translator: M Messaoudi <mo.messaoudi.rotterdam@gmail.com>\n"
+"PO-Revision-Date: 2017-06-07 06:19+0000\n"
+"Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
 "Language-Team: Dutch (Netherlands) (http://www.transifex.com/kilbot/"
 "woocommerce-pos/language/nl_NL/)\n"
 "Language: nl_NL\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: grunt-wp-i18n 0.5.3\n"
+"X-Generator: grunt-wp-i18n1.0.0\n"
 
 #: includes/admin/class-wc-pos-pro-am.php:72
 msgid "The %s License Key has not been activated, so the plugin is inactive!"
@@ -465,6 +465,3 @@ msgstr ""
 "<strong>WooCommerce KASSA(POS) Pro</strong> vereist <a href=\"%s"
 "\">WooCommerce KASSA(POS)</a>. <a href=\"%s\">installeer en activeer "
 "WooCommerce KASSA(POS)</a>"
-
-#~ msgid "loading"
-#~ msgstr "aan het laden"

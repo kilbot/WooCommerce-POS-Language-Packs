@@ -12,6 +12,7 @@ module.exports = function(grunt) {
     'de_DE',
     'de_CH',
     'el',
+    'es_AR',
     'es_CL',
     'es_ES',
     'es_MX',
@@ -36,8 +37,10 @@ module.exports = function(grunt) {
     'ru_RU',
     'sk_SK',
     'sl_SI',
+    'sq',
     'sv_SE',
     'sw',
+    'tr_TR',
     'vi',
     'zh_CN',
     'zh_TW'
@@ -48,6 +51,12 @@ module.exports = function(grunt) {
     clean: {
       mo: ['languages/**/*.mo'],
       po: ['languages/**/*.po~']
+    },
+
+    shell: {
+      pullTx: {
+        command: 'tx pull -a'
+      }
     }
 
   });
@@ -125,6 +134,6 @@ module.exports = function(grunt) {
 
   });
 
-  grunt.registerTask('default', ['msgmerge', 'timestamp', 'package', 'clean']);
+  grunt.registerTask('default', ['shell', 'msgmerge', 'timestamp', 'package', 'clean']);
 
 };

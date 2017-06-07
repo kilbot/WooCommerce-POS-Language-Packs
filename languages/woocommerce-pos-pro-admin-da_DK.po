@@ -1,16 +1,16 @@
-# Copyright (C) 2015 kilbot
+# Copyright (C) 2017 kilbot
 # This file is distributed under the Copyright 2015 The Kilbot Factory.
 # Translators:
 # Carsten Meldgaard <cm@geekmedia.dk>, 2015
-# tntc1978 <tntc1978@gmail.com>, 2015
+# Thomas Clausen <tntc1978@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
 "POT-Creation-Date: 2017-05-31 11:35:22+00:00\n"
-"PO-Revision-Date: 2015-12-22 19:57+0000\n"
-"Last-Translator: tntc1978 <tntc1978@gmail.com>\n"
+"PO-Revision-Date: 2017-06-07 06:19+0000\n"
+"Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
 "Language-Team: Danish (Denmark) (http://www.transifex.com/kilbot/woocommerce-"
 "pos/language/da_DK/)\n"
 "Language: da_DK\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: grunt-wp-i18n 0.5.3\n"
+"X-Generator: grunt-wp-i18n1.0.0\n"
 
 #: includes/admin/class-wc-pos-pro-am.php:72
 msgid "The %s License Key has not been activated, so the plugin is inactive!"
@@ -456,6 +456,3 @@ msgid ""
 msgstr ""
 "<strong>WooCommerce POS Pro</strong> kræver <a href=\"%s\">WooCommerce POS</"
 "a>. <a href=\"%s\">Installer og aktiver venligst WooCommerce POS</a>"
-
-#~ msgid "loading"
-#~ msgstr "henter"

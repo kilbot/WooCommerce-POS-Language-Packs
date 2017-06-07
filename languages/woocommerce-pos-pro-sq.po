@@ -5,27 +5,29 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
-"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
-"POT-Creation-Date: 2015-10-29 13:23:19+00:00\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
+"Packs/issues\n"
+"POT-Creation-Date: 2017-05-31 11:35:22+00:00\n"
 "PO-Revision-Date: 2016-04-27 16:47+0000\n"
 "Last-Translator: Besnik Spahija <besnik.spahija@gmail.com>\n"
-"Language-Team: Albanian (http://www.transifex.com/kilbot/woocommerce-pos/language/sq/)\n"
+"Language-Team: Albanian (http://www.transifex.com/kilbot/woocommerce-pos/"
+"language/sq/)\n"
+"Language: sq\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sq\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: grunt-wp-i18n 0.5.3\n"
 
-#: includes/class-wc-pos-pro-ajax.php:84
+#: includes/class-wc-pos-pro-ajax.php:86
 msgid "Invalid security nonce"
 msgstr "Invalid security nonce"
 
-#: includes/class-wc-pos-pro-i18n.php:109
+#: includes/class-wc-pos-pro-i18n.php:110
 msgid "Edit Customer"
 msgstr "Edito Klientin"
 
-#: includes/class-wc-pos-pro-i18n.php:110
+#: includes/class-wc-pos-pro-i18n.php:111
 #: includes/views/customers/tmpl-actions.php:13
 msgid "Add New Customer"
 msgstr "Shto Klientin i Ri"
@@ -82,7 +84,7 @@ msgstr "Nuk gjinden furnitor ne shport."
 #: includes/class-wc-pos-pro-template.php:65
 #: includes/views/customers/tmpl-panel.php:7
 #: includes/views/modals/tmpl-customer-edit.php:12
-#: includes/views/print/receipt.php:185
+#: includes/views/print/tmpl-receipt.php:185
 msgid "Email"
 msgstr "Email"
 
@@ -90,31 +92,31 @@ msgstr "Email"
 msgid "Add Customer"
 msgstr "Shto Klintin"
 
-#: includes/views/print/receipt.php:4
+#: includes/views/print/tmpl-receipt.php:4
 msgid "Receipt"
 msgstr "Kuponi"
 
-#: includes/views/print/receipt.php:170
+#: includes/views/print/tmpl-receipt.php:170
 msgid "Order Date"
 msgstr "Data e Porosisë"
 
-#: includes/views/print/receipt.php:175
+#: includes/views/print/tmpl-receipt.php:175
 msgid "Cashier"
 msgstr "Arkatari"
 
-#: includes/views/print/receipt.php:180
+#: includes/views/print/tmpl-receipt.php:180
 msgid "Payment Method"
 msgstr "Mënyra e Pageses"
 
-#: includes/views/print/receipt.php:231
+#: includes/views/print/tmpl-receipt.php:231
 msgid "Cart Subtotal"
 msgstr "Nëntotali i shportes"
 
-#: includes/views/print/receipt.php:289
+#: includes/views/print/tmpl-receipt.php:289
 msgid "Amount Tendered"
 msgstr "Shuma e Tenderuar"
 
-#: includes/views/products/tmpl-list-item.php:74
+#: includes/views/products/tmpl-list-item.php:72
 msgid "On Sale?"
 msgstr "Në Shitje?"
 
@@ -132,21 +134,25 @@ msgstr "Ska Furnitor. <a href=\"%s\">Krijo nje furnitor të ri</a>."
 
 #. Description of the plugin/theme
 msgid ""
-"WooCommerce POS Pro adds extra functionality to the free plugin. Requires <a"
-" href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce POS</a>."
-msgstr "WooCommerce POS Pro shton funksionalitetin shtesë për të plugin lirë. Kërko <a href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce POS</a>."
+"WooCommerce POS Pro adds extra functionality to the free plugin. Requires <a "
+"href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce POS</a>."
+msgstr ""
+"WooCommerce POS Pro shton funksionalitetin shtesë për të plugin lirë. Kërko "
+"<a href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce POS</"
+"a>."
 
-#: includes/views/print/receipt.php:200
+#: includes/views/print/tmpl-receipt.php:200
 msgctxt "Abbreviation of Quantity"
 msgid "Qty"
 msgstr "Sasia"
 
-#: includes/views/print/receipt.php:258 includes/views/print/receipt.php:268
+#: includes/views/print/tmpl-receipt.php:258
+#: includes/views/print/tmpl-receipt.php:268
 msgctxt "abbreviation for includes (tax)"
 msgid "incl."
 msgstr "Përfshi"
 
-#: includes/views/print/receipt.php:293
+#: includes/views/print/tmpl-receipt.php:293
 msgctxt "Money returned from cash sale"
 msgid "Change"
 msgstr "Ndrysho"

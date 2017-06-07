@@ -1,4 +1,4 @@
-# Copyright (C) 2015 kilbot
+# Copyright (C) 2017 kilbot
 # This file is distributed under the Copyright 2015 The Kilbot Factory.
 # Translators:
 msgid ""
@@ -7,10 +7,10 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
 "POT-Creation-Date: 2017-05-31 11:35:22+00:00\n"
-"PO-Revision-Date: 2015-06-18 10:39+0000\n"
+"PO-Revision-Date: 2017-06-07 06:19+0000\n"
 "Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
-"Language-Team: Russian (Russia) (http://www.transifex.com/projects/p/"
-"woocommerce-pos/language/ru_RU/)\n"
+"Language-Team: Russian (Russia) (http://www.transifex.com/kilbot/woocommerce-"
+"pos/language/ru_RU/)\n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
-"X-Generator: grunt-wp-i18n 0.5.2\n"
+"X-Generator: grunt-wp-i18n1.0.0\n"
 
 #: includes/admin/class-wc-pos-pro-am.php:72
 msgid "The %s License Key has not been activated, so the plugin is inactive!"
@@ -180,7 +180,7 @@ msgstr ""
 
 #: includes/admin/class-wc-pos-pro-stores.php:62
 msgid "Stores"
-msgstr ""
+msgstr "Магазины"
 
 #: includes/admin/class-wc-pos-pro-stores.php:129
 msgid "Open POS"
@@ -189,7 +189,7 @@ msgstr ""
 #: includes/admin/class-wc-pos-pro-stores.php:148
 #: includes/admin/views/order-details.php:2
 msgid "Store"
-msgstr ""
+msgstr "Магазин"
 
 #: includes/admin/class-wc-pos-pro-stores.php:165
 msgid "Preview Receipt"
@@ -252,11 +252,11 @@ msgstr ""
 
 #: includes/admin/reports/class-wc-pos-pro-store.php:59
 msgid "No Stores found."
-msgstr ""
+msgstr "Магазины не найден"
 
 #: includes/admin/reports/class-wc-pos-pro-store.php:61
 msgid "Add New Store"
-msgstr ""
+msgstr "Добавить новый магазин"
 
 #: includes/admin/reports/views/sales-table.php:4
 msgid "Period"
@@ -304,7 +304,7 @@ msgstr ""
 #: includes/admin/reports/views/sales-table.php:19
 #: includes/admin/reports/views/sales-table.php:21
 msgid "Online"
-msgstr ""
+msgstr "Онлайн"
 
 #: includes/admin/reports/views/sales-table.php:55
 msgid "Total"

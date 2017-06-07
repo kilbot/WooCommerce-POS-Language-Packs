@@ -1,17 +1,23 @@
-# Translation of WooCommerce POS Pro Admin in Norwegian (Bokmål)
-# This file is distributed under the same license as the WooCommerce POS Pro Admin package.
+# Copyright (C) 2017 kilbot
+# This file is distributed under the Copyright 2015 The Kilbot Factory.
+# Translators:
+# Stig Andersen <stig@r8edge.no>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce POS Pro Admin\n"
+"Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
 "POT-Creation-Date: 2017-05-31 11:35:22+00:00\n"
-"PO-Revision-Date: 2014-11-14 13:34:41+0000\n"
+"PO-Revision-Date: 2017-06-07 06:19+0000\n"
+"Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
+"Language-Team: Norwegian Bokmål (Norway) (http://www.transifex.com/kilbot/"
+"woocommerce-pos/language/nb_NO/)\n"
+"Language: nb_NO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/0.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: grunt-wp-i18n1.0.0\n"
 
 #: includes/admin/class-wc-pos-pro-am.php:72
 msgid "The %s License Key has not been activated, so the plugin is inactive!"
@@ -42,9 +48,8 @@ msgstr ""
 
 #: includes/admin/class-wc-pos-pro-am.php:281
 #: includes/admin/class-wc-pos-pro-am.php:285
-#, fuzzy
 msgid "Invalid License Key"
-msgstr "Lisens-nøkkel"
+msgstr ""
 
 #: includes/admin/class-wc-pos-pro-am.php:282
 msgid "Activation error"
@@ -154,7 +159,7 @@ msgstr ""
 #: includes/admin/reports/views/sales-table.php:18
 #: includes/admin/reports/views/sales-table.php:20
 msgid "POS"
-msgstr ""
+msgstr "Kasseapparat"
 
 #: includes/admin/class-wc-pos-pro-reports.php:30
 msgid "POS vs Online"
@@ -162,7 +167,7 @@ msgstr ""
 
 #: includes/admin/class-wc-pos-pro-reports.php:36
 msgid "Sales by cashier"
-msgstr ""
+msgstr "Salg per ekspeditør"
 
 #: includes/admin/class-wc-pos-pro-reports.php:42
 msgid "Sales by store"
@@ -305,9 +310,8 @@ msgid "Total"
 msgstr ""
 
 #: includes/admin/settings/class-wc-pos-pro-license.php:18
-#, fuzzy
 msgid "Pro License"
-msgstr "Lisens-nøkkel"
+msgstr ""
 
 #: includes/admin/settings/views/customers.php:7
 msgid "Customer Options"
@@ -322,9 +326,8 @@ msgid "Select a meta field to use as the product barcode"
 msgstr ""
 
 #: includes/admin/settings/views/license.php:7
-#, fuzzy
 msgid "Pro License Activation"
-msgstr "Lisens-aktivering"
+msgstr ""
 
 #: includes/admin/settings/views/license.php:11
 msgid "Thank you!"
@@ -336,11 +339,11 @@ msgstr ""
 
 #: includes/admin/settings/views/license.php:17
 msgid "License Email"
-msgstr "Lisens-epost"
+msgstr ""
 
 #: includes/admin/settings/views/license.php:25
 msgid "License Key"
-msgstr "Lisens-nøkkel"
+msgstr ""
 
 #: includes/admin/views/stores/opening-hours.php:21
 msgid "Opening Hours notes"
@@ -409,6 +412,3 @@ msgid ""
 "<strong>WooCommerce POS Pro</strong> requires <a href=\"%s\">WooCommerce "
 "POS</a>. Please <a href=\"%s\">install and activate WooCommerce POS</a>"
 msgstr ""
-
-#~ msgid "License Activation"
-#~ msgstr "Lisens-aktivering"

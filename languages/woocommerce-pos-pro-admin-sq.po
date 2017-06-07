@@ -1,0 +1,414 @@
+# Copyright (C) 2017 kilbot
+# This file is distributed under the Copyright 2015 The Kilbot Factory.
+# Translators:
+# Besnik Spahija <besnik.spahija@gmail.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce POS\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
+"Packs/issues\n"
+"POT-Creation-Date: 2017-05-31 11:35:22+00:00\n"
+"PO-Revision-Date: 2017-06-07 06:19+0000\n"
+"Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
+"Language-Team: Albanian (http://www.transifex.com/kilbot/woocommerce-pos/"
+"language/sq/)\n"
+"Language: sq\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: grunt-wp-i18n1.0.0\n"
+
+#: includes/admin/class-wc-pos-pro-am.php:72
+msgid "The %s License Key has not been activated, so the plugin is inactive!"
+msgstr ""
+
+#: includes/admin/class-wc-pos-pro-am.php:73
+msgid ""
+" <a href=\"%s\">Click here</a> to activate the license key and the plugin."
+msgstr ""
+
+#: includes/admin/class-wc-pos-pro-am.php:106
+msgid ""
+"<b>Warning!</b> You're blocking external requests which means you won't be "
+"able to get %s updates. Please add %s to %s."
+msgstr ""
+
+#: includes/admin/class-wc-pos-pro-am.php:232
+msgid "Unable to connect to the activation server"
+msgstr ""
+
+#: includes/admin/class-wc-pos-pro-am.php:267
+msgid "Unable to parse the server response"
+msgstr ""
+
+#: includes/admin/class-wc-pos-pro-am.php:279
+msgid "Invalid Request"
+msgstr "Kërkesë e pa vlefshme"
+
+#: includes/admin/class-wc-pos-pro-am.php:281
+#: includes/admin/class-wc-pos-pro-am.php:285
+msgid "Invalid License Key"
+msgstr "Liqenë e pa vlefshme"
+
+#: includes/admin/class-wc-pos-pro-am.php:282
+msgid "Activation error"
+msgstr "Gabim aktivizimi"
+
+#: includes/admin/class-wc-pos-pro-am.php:283
+msgid "Exceeded maximum number of activations"
+msgstr ""
+
+#: includes/admin/class-wc-pos-pro-am.php:284
+msgid "Invalid Instance ID"
+msgstr ""
+
+#: includes/admin/class-wc-pos-pro-am.php:286
+msgid "Subscription is not active"
+msgstr ""
+
+#: includes/admin/class-wc-pos-pro-am.php:289
+msgid "Invalid Response"
+msgstr ""
+
+#: includes/admin/class-wc-pos-pro-am.php:307
+msgid ""
+"A license key for %s could not be found. Maybe you forgot to enter a license "
+"key when setting up %s, or the key was deactivated in your account. You can "
+"reactivate or purchase a license key from your account <a href=\"%s\" target="
+"\"_blank\">dashboard</a>."
+msgstr ""
+
+#: includes/admin/class-wc-pos-pro-am.php:308
+msgid ""
+"The license key for %s has expired. You can reactivate or purchase a license "
+"key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+
+#: includes/admin/class-wc-pos-pro-am.php:309
+msgid ""
+"The subscription for %s is on-hold. You can reactivate the subscription from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+
+#: includes/admin/class-wc-pos-pro-am.php:310
+msgid ""
+"The subscription for %s has been cancelled. You can renew the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>. A new "
+"license key will be emailed to you after your order has been completed."
+msgstr ""
+
+#: includes/admin/class-wc-pos-pro-am.php:311
+msgid ""
+"The subscription for %s has expired. You can reactivate the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+
+#: includes/admin/class-wc-pos-pro-am.php:312
+msgid ""
+"The subscription for %s has been suspended. You can reactivate the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+
+#: includes/admin/class-wc-pos-pro-am.php:313
+msgid ""
+"The subscription for %s is still pending. You can check on the status of the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+
+#: includes/admin/class-wc-pos-pro-am.php:314
+msgid ""
+"The subscription for %s has been placed in the trash and will be deleted "
+"soon. You can purchase a new subscription from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr ""
+
+#: includes/admin/class-wc-pos-pro-am.php:315
+msgid ""
+"A subscription for %s could not be found. You can purchase a subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+
+#: includes/admin/class-wc-pos-pro-am.php:316
+msgid ""
+"%s has not been activated. Go to the settings page and enter the license key "
+"and license email to activate %s."
+msgstr ""
+
+#: includes/admin/class-wc-pos-pro-am.php:317
+msgid ""
+"Download permission for %s has been revoked possibly due to a license key or "
+"subscription expiring. You can reactivate or purchase a license key from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+
+#: includes/admin/class-wc-pos-pro-am.php:318
+msgid ""
+"You changed the subscription for %s, so you will need to enter your new API "
+"License Key in the settings page. The License Key should have arrived in "
+"your email inbox, if not you can get it by logging into your account <a href="
+"\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+
+#: includes/admin/class-wc-pos-pro-reports.php:27
+#: includes/admin/reports/views/sales-table.php:12
+#: includes/admin/reports/views/sales-table.php:14
+#: includes/admin/reports/views/sales-table.php:16
+#: includes/admin/reports/views/sales-table.php:18
+#: includes/admin/reports/views/sales-table.php:20
+msgid "POS"
+msgstr "POS"
+
+#: includes/admin/class-wc-pos-pro-reports.php:30
+msgid "POS vs Online"
+msgstr "POS vs Online"
+
+#: includes/admin/class-wc-pos-pro-reports.php:36
+msgid "Sales by cashier"
+msgstr "Shitje sipas arkatarit"
+
+#: includes/admin/class-wc-pos-pro-reports.php:42
+msgid "Sales by store"
+msgstr "Shitje sipas furnitorit"
+
+#: includes/admin/class-wc-pos-pro-reports.php:48
+msgid "Sales by payment method"
+msgstr "Shitje sipas mënyres së pageses "
+
+#: includes/admin/class-wc-pos-pro-stores.php:62
+msgid "Stores"
+msgstr "Furnitorët"
+
+#: includes/admin/class-wc-pos-pro-stores.php:129
+msgid "Open POS"
+msgstr "Hap POS"
+
+#: includes/admin/class-wc-pos-pro-stores.php:148
+#: includes/admin/views/order-details.php:2
+msgid "Store"
+msgstr "Furnitori"
+
+#: includes/admin/class-wc-pos-pro-stores.php:165
+msgid "Preview Receipt"
+msgstr "Rishiko Kuponin"
+
+#: includes/admin/class-wc-pos-pro-stores.php:180
+msgid "Opening Hours"
+msgstr "Orari i Punes"
+
+#: includes/admin/class-wc-pos-pro-stores.php:189
+msgid "Logo"
+msgstr "Logo"
+
+#: includes/admin/class-wc-pos-pro-stores.php:212
+msgid "Receipt Options"
+msgstr "Opcionet e Kuponit"
+
+#: includes/admin/class-wc-pos-pro-stores.php:277
+msgid "Set featured image"
+msgstr ""
+
+#: includes/admin/class-wc-pos-pro-stores.php:277
+#: includes/admin/class-wc-pos-pro-stores.php:293
+msgid "Set store logo"
+msgstr ""
+
+#: includes/admin/class-wc-pos-pro-stores.php:278
+msgid "Remove featured image"
+msgstr ""
+
+#: includes/admin/class-wc-pos-pro-stores.php:278
+msgid "Remove store logo"
+msgstr "Largo logon e Furnitorit"
+
+#: includes/admin/class-wc-pos-pro-stores.php:292
+msgid "Set Store Logo"
+msgstr "Vendos Logon e Furitorit"
+
+#: includes/admin/class-wc-pos-pro-stores.php:369
+msgid ""
+"Please <a href=\"%s\">read the docs</a> for information on how to customize "
+"your POS receipts."
+msgstr ""
+
+#: includes/admin/reports/class-wc-pos-pro-sales.php:168
+#: includes/admin/reports/class-wc-pos-pro-sales.php:171
+#: includes/admin/reports/class-wc-pos-pro-sales.php:238
+#: includes/admin/reports/class-wc-pos-pro-sales.php:252
+#: includes/admin/reports/class-wc-pos-pro-sales.php:270
+#: includes/admin/reports/class-wc-pos-pro-sales.php:276
+msgid "POS Sales"
+msgstr "POS Shitje"
+
+#: includes/admin/reports/class-wc-pos-pro-sales.php:174
+#: includes/admin/reports/class-wc-pos-pro-sales.php:177
+#: includes/admin/reports/class-wc-pos-pro-sales.php:244
+#: includes/admin/reports/class-wc-pos-pro-sales.php:258
+msgid "Online Sales"
+msgstr "Shitje Online"
+
+#: includes/admin/reports/class-wc-pos-pro-store.php:59
+msgid "No Stores found."
+msgstr "Nuk gjindet Furnitori"
+
+#: includes/admin/reports/class-wc-pos-pro-store.php:61
+msgid "Add New Store"
+msgstr "Shto një furnitor të ri"
+
+#: includes/admin/reports/views/sales-table.php:4
+msgid "Period"
+msgstr "Perioda"
+
+#: includes/admin/reports/views/sales-table.php:5
+msgid "Orders"
+msgstr "Porositë"
+
+#: includes/admin/reports/views/sales-table.php:6
+msgid "Total Sales"
+msgstr "Total Shitje"
+
+#: includes/admin/reports/views/sales-table.php:6
+msgid "This is the sum of the 'Order Total' field within your orders."
+msgstr ""
+
+#: includes/admin/reports/views/sales-table.php:7
+msgid "Total Shipping"
+msgstr "Total dërgesa"
+
+#: includes/admin/reports/views/sales-table.php:7
+msgid "This is the sum of the 'Shipping Total' field within your orders."
+msgstr "Kjo është shuma e 'Totalit të dërgesave\" në porosin tuaj."
+
+#: includes/admin/reports/views/sales-table.php:8
+msgid "Total Tax"
+msgstr "Total Taks"
+
+#: includes/admin/reports/views/sales-table.php:8
+msgid "This is the total tax for the rate (shipping tax + product tax)."
+msgstr ""
+
+#: includes/admin/reports/views/sales-table.php:9
+msgid "Net profit"
+msgstr "Neto profiti"
+
+#: includes/admin/reports/views/sales-table.php:9
+msgid "Total sales minus shipping and tax."
+msgstr "Shitjet totale minus dergesa dhe taksa"
+
+#: includes/admin/reports/views/sales-table.php:13
+#: includes/admin/reports/views/sales-table.php:15
+#: includes/admin/reports/views/sales-table.php:17
+#: includes/admin/reports/views/sales-table.php:19
+#: includes/admin/reports/views/sales-table.php:21
+msgid "Online"
+msgstr "Online"
+
+#: includes/admin/reports/views/sales-table.php:55
+msgid "Total"
+msgstr "Total"
+
+#: includes/admin/settings/class-wc-pos-pro-license.php:18
+msgid "Pro License"
+msgstr "Liqenca Pro"
+
+#: includes/admin/settings/views/customers.php:7
+msgid "Customer Options"
+msgstr "Opcinet e Klientit"
+
+#: includes/admin/settings/views/general.php:5
+msgid "Barcode Field"
+msgstr "Fusha e Barkodit"
+
+#: includes/admin/settings/views/general.php:6
+msgid "Select a meta field to use as the product barcode"
+msgstr ""
+
+#: includes/admin/settings/views/license.php:7
+msgid "Pro License Activation"
+msgstr "Aktivizimi i Liqences Pro"
+
+#: includes/admin/settings/views/license.php:11
+msgid "Thank you!"
+msgstr "Faleminderit!"
+
+#: includes/admin/settings/views/license.php:11
+msgid "Your license is active"
+msgstr "Liqenca juaj është aktive"
+
+#: includes/admin/settings/views/license.php:17
+msgid "License Email"
+msgstr ""
+
+#: includes/admin/settings/views/license.php:25
+msgid "License Key"
+msgstr ""
+
+#: includes/admin/views/stores/opening-hours.php:21
+msgid "Opening Hours notes"
+msgstr ""
+
+#: includes/admin/views/stores/opening-hours.php:22
+msgid "eg: Closed public holidays"
+msgstr ""
+
+#: includes/admin/views/stores/opening-hours.php:27
+msgid ""
+"You can add opening hours to your website using a widget. <a href=\"%s"
+"\">Read the docs</a> for more information."
+msgstr ""
+
+#: includes/admin/views/stores/receipt-options.php:9
+msgid "Complimentary Close"
+msgstr ""
+
+#: includes/admin/views/stores/receipt-options.php:10
+msgid ""
+"Personal notes or season greetings, e.g. Thank You for Your Order! or Merry "
+"Christmas!"
+msgstr ""
+
+#: includes/admin/views/stores/receipt-options.php:13
+msgid "Returns Policy"
+msgstr ""
+
+#: includes/admin/views/stores/receipt-options.php:14
+msgid "Returns policy, terms and conditions"
+msgstr ""
+
+#: includes/admin/views/stores/receipt-options.php:17
+msgid "Footer"
+msgstr ""
+
+#: includes/admin/views/stores/receipt-options.php:18
+msgid "Further footer information, e.g. copyright or branding"
+msgstr ""
+
+#: includes/admin/views/stores/tax-rate.php:8
+msgid "Calculate Tax Based On"
+msgstr ""
+
+#: includes/admin/views/stores/tax-rate.php:10
+msgid "this store address"
+msgstr ""
+
+#: includes/admin/views/stores/tax-rate.php:11
+msgid "base location"
+msgstr ""
+
+#: includes/admin/views/stores/tax-rate.php:39
+msgid "No tax rates set"
+msgstr ""
+
+#: includes/admin/views/stores/tax-rate.php:43
+msgid ""
+"The tax rates above will be used at the point of sale. You can <a href=\"%s"
+"\">change the tax rate</a> in WooCommerce settings."
+msgstr ""
+
+#: includes/class-wc-pos-pro-activator.php:155
+msgid ""
+"<strong>WooCommerce POS Pro</strong> requires <a href=\"%s\">WooCommerce "
+"POS</a>. Please <a href=\"%s\">install and activate WooCommerce POS</a>"
+msgstr ""

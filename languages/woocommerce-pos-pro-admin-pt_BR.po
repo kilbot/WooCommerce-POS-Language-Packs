@@ -1,4 +1,4 @@
-# Copyright (C) 2015 kilbot
+# Copyright (C) 2017 kilbot
 # This file is distributed under the Copyright 2015 The Kilbot Factory.
 # Translators:
 # Paul Kilmurray <paul@kilbot.com.au>, 2016
@@ -8,7 +8,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
 "POT-Creation-Date: 2017-05-31 11:35:22+00:00\n"
-"PO-Revision-Date: 2016-01-06 11:20+0000\n"
+"PO-Revision-Date: 2017-06-07 06:19+0000\n"
 "Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/kilbot/"
 "woocommerce-pos/language/pt_BR/)\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: grunt-wp-i18n 0.5.3\n"
+"X-Generator: grunt-wp-i18n1.0.0\n"
 
 #: includes/admin/class-wc-pos-pro-am.php:72
 msgid "The %s License Key has not been activated, so the plugin is inactive!"
@@ -146,7 +146,7 @@ msgid ""
 "soon. You can purchase a new subscription from your account <a href=\"%s\" "
 "target=\"_blank\">dashboard</a>."
 msgstr ""
-"A inscrição para% s foi colocado no lixo e será suprimido logo. Você pode "
+"A inscrição para %s foi colocado no lixo e será suprimido logo. Você pode "
 "adquirir uma nova subscrição da sua conta <a href=\"%s\" target=\"_blank"
 "\">dashboard.</a>"
 
@@ -155,7 +155,7 @@ msgid ""
 "A subscription for %s could not be found. You can purchase a subscription "
 "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
 msgstr ""
-"A inscrição para% s não pôde ser encontrado. Você pode adquirir uma "
+"A inscrição para %s não pôde ser encontrado. Você pode adquirir uma "
 "assinatura de sua conta <a href=\"%s\" target=\"_blank\">dashboard.</a>"
 
 #: includes/admin/class-wc-pos-pro-am.php:316
@@ -163,8 +163,8 @@ msgid ""
 "%s has not been activated. Go to the settings page and enter the license key "
 "and license email to activate %s."
 msgstr ""
-"% s não foi ativado. Vá para a página de configurações e insira a chave de "
-"licença e e-mail de licença para ativar% s."
+"%s não foi ativado. Vá para a página de configurações e insira a chave de "
+"licença e e-mail de licença para ativar %s."
 
 #: includes/admin/class-wc-pos-pro-am.php:317
 msgid ""
@@ -172,7 +172,7 @@ msgid ""
 "subscription expiring. You can reactivate or purchase a license key from "
 "your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
 msgstr ""
-"Baixar permissão para% s foi revogado, possivelmente devido a uma chave de "
+"Baixar permissão para %s foi revogado, possivelmente devido a uma chave de "
 "licença ou expiração da subscrição. Você pode reativar ou comprar uma chave "
 "de licença de sua conta <a href=\"%s\" target=\"_blank\">dashboard.</a>"
 
@@ -183,7 +183,7 @@ msgid ""
 "your email inbox, if not you can get it by logging into your account <a href="
 "\"%s\" target=\"_blank\">dashboard</a>."
 msgstr ""
-"Você mudou a subscrição para% s, então você terá que digitar sua nova chave "
+"Você mudou a subscrição para %s, então você terá que digitar sua nova chave "
 "de licença API na página de configurações. A chave de licença deve ter "
 "chegado em sua caixa de entrada de e-mail, se você não pode obtê-lo, "
 "entrando em sua conta <a href=\"%s\" target=\"_blank\">dashboard.</a>"
@@ -460,6 +460,3 @@ msgid ""
 msgstr ""
 "<strong>WooCommerce POS Pro</strong> requer <a href=\"%s\">WooCommerce POS.</"
 "a> Por favor, <a href=\"%s\">instalar e ativar WooCommerce POS</a>"
-
-#~ msgid "loading"
-#~ msgstr "Carregando"

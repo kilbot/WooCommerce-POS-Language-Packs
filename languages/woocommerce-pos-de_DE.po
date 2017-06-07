@@ -9,17 +9,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
-"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
-"Packs/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
 "POT-Creation-Date: 2017-06-05 10:02:27+00:00\n"
-"PO-Revision-Date: 2017-06-07 06:58+0000\n"
+"PO-Revision-Date: 2017-06-07 06:59+0000\n"
 "Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
-"Language-Team: German (Germany) (http://www.transifex.com/kilbot/woocommerce-"
-"pos/language/de_DE/)\n"
-"Language: de_DE\n"
+"Language-Team: German (Germany) (http://www.transifex.com/kilbot/woocommerce-pos/language/de_DE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: de_DE\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: grunt-wp-i18n 0.5.4\n"
 
@@ -37,9 +35,7 @@ msgstr "Sie werden nun umgeleitet offsite, um die Zahlung zu beenden."
 #: includes/api/class-wc-pos-orders.php:526
 #: includes/apiv2/class-wc-pos-orders.php:370
 msgid "<a href=\"%s\">Click here</a> if you are not redirected automatically. "
-msgstr ""
-"<a href=\"%s\">Klicken Sie hier,</a> wenn Sie nicht automatisch "
-"weitergeleitet werden."
+msgstr "<a href=\"%s\">Klicken Sie hier,</a> wenn Sie nicht automatisch weitergeleitet werden."
 
 #: includes/api/class-wc-pos-orders.php:540
 #: includes/apiv2/class-wc-pos-orders.php:160
@@ -82,7 +78,8 @@ msgstr "E-Mail-Quittung"
 msgid "Support Form"
 msgstr "Support-Formular"
 
-#: includes/class-wc-pos-i18n.php:352 includes/views/pos/cart/tmpl-totals.php:8
+#: includes/class-wc-pos-i18n.php:352
+#: includes/views/pos/cart/tmpl-totals.php:8
 #: includes/views/pos/receipt/tmpl-totals.php:7
 #: includes/views/pos/receipt/tmpl-totals.php:49
 #: includes/views/print/tmpl-receipt.php:193
@@ -93,7 +90,8 @@ msgstr "Rabatt"
 #. translators: wordpress
 #. translators: woocommerce
 #. translators: wordpress
-#: includes/class-wc-pos-i18n.php:354 includes/views/print/tmpl-receipt.php:142
+#: includes/class-wc-pos-i18n.php:354
+#: includes/views/print/tmpl-receipt.php:142
 #: includes/views/support/tmpl-form.php:16
 msgid "Email"
 msgstr "E-Mail-Adresse"
@@ -156,7 +154,7 @@ msgstr "WooCommerce >= %s erforderlich"
 
 #: includes/class-wc-pos-status.php:60
 msgid "PHP Version"
-msgstr ""
+msgstr "PHP Version"
 
 #: includes/class-wc-pos-status.php:67
 msgid "PHP >= %s required"
@@ -176,11 +174,9 @@ msgstr "Zugriff auf REST API wird benötigt"
 
 #: includes/class-wc-pos-status.php:146
 msgid ""
-"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to "
-"work correctly"
-msgstr ""
-"<strong>WooCommerce REST API</strong> benötigt <em>pretty</em> Permalinks um "
-"korrekt zu funktionieren"
+"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to"
+" work correctly"
+msgstr "<strong>WooCommerce REST API</strong> benötigt <em>pretty</em> Permalinks um korrekt zu funktionieren"
 
 #: includes/class-wc-pos-status.php:150
 msgid "Enable permalinks"
@@ -210,27 +206,20 @@ msgstr "Bezahlter Betrag"
 
 #: includes/views/modals/browser.php:2
 msgid "Sorry, it seems your browser is not supported by WooCommerce POS. "
-msgstr ""
-"Es tut uns leid. Es scheint, als ob Ihr Browser vom WooCommerce-Kassensystem "
-"aktuell noch nicht unterstützt wird."
+msgstr "Es tut uns leid. Es scheint, als ob Ihr Browser vom WooCommerce-Kassensystem aktuell noch nicht unterstützt wird."
 
 #: includes/views/modals/browser.php:3
 msgid ""
-"If possible, please <a href=\"http://browsehappy.com/\">update your browser</"
-"a>, we recommend either Chrome or Firefox."
-msgstr ""
-"Bitte <a href=\"http://browsehappy.com/\">aktualisieren Sie Ihren Browser</"
-"a>, wenn m&ouml;glich. Wir empfehlen sowohl Firefox als auch Chrome"
+"If possible, please <a href=\"http://browsehappy.com/\">update your "
+"browser</a>, we recommend either Chrome or Firefox."
+msgstr "Bitte <a href=\"http://browsehappy.com/\">aktualisieren Sie Ihren Browser</a>, wenn m&ouml;glich. Wir empfehlen sowohl Firefox als auch Chrome"
 
 #: includes/views/modals/browser.php:7
 msgid ""
 "If you believe you have received this message in error please contact "
-"support via <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</"
-"a>"
-msgstr ""
-"Wenn Sie glauben, dass Sie diese Nachricht irrtümlich erhalten haben, "
-"kontaktieren Sie bitte unseren Support über <a href=\"mailto:support@woopos."
-"com.au\">support@woopos.com.au</a>"
+"support via <a "
+"href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
+msgstr "Wenn Sie glauben, dass Sie diese Nachricht irrtümlich erhalten haben, kontaktieren Sie bitte unseren Support über <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
 
 #: includes/views/pos/products/tmpl-filter.php:7
 msgid "Scan Barcode"
@@ -291,12 +280,9 @@ msgstr "%s in der Warteschlange"
 #. Description of the plugin/theme
 msgid ""
 "A simple front-end for taking WooCommerce orders at the Point of Sale. "
-"Requires <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</"
-"a>."
-msgstr ""
-"Ein einfaches Front-End zur Aufnahme von WooCommerce-Bestellungen an der "
-"Kasse. Es wird <a href=\"http://wordpress.org/plugins/woocommerce/"
-"\">WooCommerce</a> benötigt."
+"Requires <a "
+"href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a>."
+msgstr "Ein einfaches Front-End zur Aufnahme von WooCommerce-Bestellungen an der Kasse. Es wird <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a> benötigt."
 
 #: includes/class-wc-pos-i18n.php:312
 msgctxt "system status: browser capabilities"

@@ -4,7 +4,7 @@
 # Felix Witte <info@duka-dogo.de>, 2015
 # Jan Saarmann <republicprde@googlemail.com>, 2016
 # Ottnorml <ottnorml@gmail.com>, 2015
-# Paul Kilmurray <paul@kilbot.com.au>, 2015
+# Paul Kilmurray <paul@kilbot.com.au>, 2015,2017
 # Tim, 2015
 msgid ""
 msgstr ""
@@ -12,7 +12,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
 "POT-Creation-Date: 2017-06-05 10:02:27+00:00\n"
-"PO-Revision-Date: 2017-06-07 06:17+0000\n"
+"PO-Revision-Date: 2017-06-07 06:58+0000\n"
 "Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
 "Language-Team: German (Germany) (http://www.transifex.com/kilbot/woocommerce-"
 "pos/language/de_DE/)\n"
@@ -88,7 +88,7 @@ msgstr "Support-Formular"
 #: includes/views/print/tmpl-receipt.php:193
 #: includes/views/print/tmpl-receipt.php:235
 msgid "Discount"
-msgstr ""
+msgstr "Rabatt"
 
 #. translators: wordpress
 #. translators: woocommerce
@@ -246,7 +246,7 @@ msgstr "Versandadresse"
 
 #: includes/views/print/tmpl-receipt.php:123
 msgid "Order Number"
-msgstr ""
+msgstr "Bestellnummer"
 
 #: includes/views/print/tmpl-receipt.php:127
 msgid "Order Date"
@@ -262,7 +262,7 @@ msgstr "Zahlungsart"
 
 #: includes/views/support/tmpl-form.php:20
 msgid "Message"
-msgstr ""
+msgstr "Nachricht"
 
 #: includes/views/support/tmpl-form.php:21
 msgid "Describe your problem here ..."

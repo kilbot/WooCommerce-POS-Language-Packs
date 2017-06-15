@@ -2,7 +2,7 @@
 # This file is distributed under the GPL-2.0+.
 # Translators:
 # Egbert Jan van den Bussche <egbert@vandenbussche.nl>, 2015
-# Paul Kilmurray <paul@kilbot.com.au>, 2015
+# Paul Kilmurray <paul@kilbot.com.au>, 2015,2017
 # Yasin Kilic <yasinkilic@me.com>, 2016
 msgid ""
 msgstr ""
@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
 "POT-Creation-Date: 2017-06-05 10:02:27+00:00\n"
-"PO-Revision-Date: 2017-06-07 06:17+0000\n"
+"PO-Revision-Date: 2017-06-15 08:49+0000\n"
 "Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
 "Language-Team: Dutch (Netherlands) (http://www.transifex.com/kilbot/"
 "woocommerce-pos/language/nl_NL/)\n"
@@ -87,7 +87,7 @@ msgstr "Support formulier"
 #: includes/views/print/tmpl-receipt.php:193
 #: includes/views/print/tmpl-receipt.php:235
 msgid "Discount"
-msgstr ""
+msgstr "Korting"
 
 #. translators: wordpress
 #. translators: woocommerce
@@ -155,7 +155,7 @@ msgstr "WooCommerce >= %s is vereist"
 
 #: includes/class-wc-pos-status.php:60
 msgid "PHP Version"
-msgstr ""
+msgstr "PHP versie"
 
 #: includes/class-wc-pos-status.php:67
 msgid "PHP >= %s required"
@@ -242,7 +242,7 @@ msgstr "Verzendadres"
 
 #: includes/views/print/tmpl-receipt.php:123
 msgid "Order Number"
-msgstr ""
+msgstr "Bestellingsnummer"
 
 #: includes/views/print/tmpl-receipt.php:127
 msgid "Order Date"
@@ -258,7 +258,7 @@ msgstr "Betaalmethode"
 
 #: includes/views/support/tmpl-form.php:20
 msgid "Message"
-msgstr ""
+msgstr "Bericht"
 
 #: includes/views/support/tmpl-form.php:21
 msgid "Describe your problem here ..."

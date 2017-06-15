@@ -1,78 +1,81 @@
-# Copyright (C) 2015 kilbot
+# Copyright (C) 2017 kilbot
 # This file is distributed under the Copyright 2015 The Kilbot Factory.
+# Translators:
+# None Business <grimberg20@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce POS Pro 0.4.0-rc\n"
+"Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
 "POT-Creation-Date: 2017-05-31 11:35:22+00:00\n"
-"PO-Revision-Date: 2015-05-29 17:35:38+00:00\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2017-06-14 21:29+0000\n"
+"Last-Translator: None Business <grimberg20@gmail.com>\n"
+"Language-Team: Finnish (http://www.transifex.com/kilbot/woocommerce-pos/"
+"language/fi/)\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: grunt-wp-i18n 0.5.2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: grunt-wp-i18n1.0.0\n"
 
 #: includes/class-wc-pos-pro-ajax.php:86
 msgid "Invalid security nonce"
-msgstr ""
+msgstr "Virheellinne suojaus"
 
 #: includes/class-wc-pos-pro-i18n.php:110
 msgid "Edit Customer"
-msgstr ""
+msgstr "Muokkaa asiakasta"
 
 #: includes/class-wc-pos-pro-i18n.php:111
 #: includes/views/customers/tmpl-actions.php:13
 msgid "Add New Customer"
-msgstr ""
+msgstr "Lisää uusi asiakas"
 
 #: includes/class-wc-pos-pro-stores.php:57
 #: includes/class-wc-pos-pro-stores.php:59
 #: includes/class-wc-pos-pro-stores.php:65
 msgid "Stores"
-msgstr ""
+msgstr "Kaupat"
 
 #: includes/class-wc-pos-pro-stores.php:58
 #: includes/class-wc-pos-pro-stores.php:103
 #: includes/widgets/class-wc-pos-pro-hours.php:82
 msgid "Store"
-msgstr ""
+msgstr "Kauppa"
 
 #: includes/class-wc-pos-pro-stores.php:60
 #: includes/class-wc-pos-pro-stores.php:61
 msgid "Add New Store"
-msgstr ""
+msgstr "Lisää uusi kauppa"
 
 #: includes/class-wc-pos-pro-stores.php:62
 msgid "New Store"
-msgstr ""
+msgstr "Uusi kauppa"
 
 #: includes/class-wc-pos-pro-stores.php:63
 msgid "Edit Store"
-msgstr ""
+msgstr "Muokkaa kauppaa"
 
 #: includes/class-wc-pos-pro-stores.php:64
 msgid "View Store"
-msgstr ""
+msgstr "Tarkastele kauppaa"
 
 #: includes/class-wc-pos-pro-stores.php:66
 msgid "Search Stores"
-msgstr ""
+msgstr "Etsi kauppoja"
 
 #: includes/class-wc-pos-pro-stores.php:67
 msgid "Parent Store:"
-msgstr ""
+msgstr "Pää-myymälä"
 
 #: includes/class-wc-pos-pro-stores.php:68
 msgid "No Stores found."
-msgstr ""
+msgstr "Kauppoja ei löytynyt"
 
 #: includes/class-wc-pos-pro-stores.php:69
 msgid "No Stores found in Trash."
-msgstr ""
+msgstr "Kauppoja ei löytynyt roskakorista"
 
 #. translators: woocommerce
 #. translators: wordpress
@@ -83,70 +86,73 @@ msgstr ""
 #: includes/views/modals/tmpl-customer-edit.php:12
 #: includes/views/print/tmpl-receipt.php:185
 msgid "Email"
-msgstr ""
+msgstr "Sähköposti"
 
 #: includes/views/pos/cart/tmpl-customer.php:5
 msgid "Add Customer"
-msgstr ""
+msgstr "Lisää asiakas"
 
 #: includes/views/print/tmpl-receipt.php:4
 msgid "Receipt"
-msgstr ""
+msgstr "Kuitti"
 
 #: includes/views/print/tmpl-receipt.php:170
 msgid "Order Date"
-msgstr ""
+msgstr "Tilaus päivämäärä"
 
 #: includes/views/print/tmpl-receipt.php:175
 msgid "Cashier"
-msgstr ""
+msgstr "Myyjä"
 
 #: includes/views/print/tmpl-receipt.php:180
 msgid "Payment Method"
-msgstr ""
+msgstr "Maksutapa"
 
 #: includes/views/print/tmpl-receipt.php:231
 msgid "Cart Subtotal"
-msgstr ""
+msgstr "Ostoskorin välisumma"
 
 #: includes/views/print/tmpl-receipt.php:289
 msgid "Amount Tendered"
-msgstr ""
+msgstr "Summa tarjottu"
 
 #: includes/views/products/tmpl-list-item.php:72
 msgid "On Sale?"
-msgstr ""
+msgstr "Alennuksessa?"
 
 #: includes/widgets/class-wc-pos-pro-hours.php:17
 msgid "Store Opening Hours"
-msgstr ""
+msgstr "Kaupan aukeamisaika"
 
 #: includes/widgets/class-wc-pos-pro-hours.php:18
 msgid "Display store hours set in WooCommerce POS"
-msgstr ""
+msgstr "Näytä kaupan aukioloajat asetettuna WooCommerce myyntipisteessä"
 
 #: includes/widgets/class-wc-pos-pro-hours.php:88
 msgid "No stores. <a href=\"%s\">Create a new store</a>."
-msgstr ""
+msgstr "Ei kauppoja. <a href=\"%s\">Luo uusi kauppa</a>."
 
 #. Description of the plugin/theme
 msgid ""
 "WooCommerce POS Pro adds extra functionality to the free plugin. Requires <a "
 "href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce POS</a>."
 msgstr ""
+"WooCommerce myyntipiste Pro lisää lisä ominaisuuksia verrattuna "
+"ilmaisversioon. Vaatii <a href=\"http://wordpress.org/plugins/woocommerce-"
+"pos/\">WooCommerce myyntipisteen</a>."
 
 #: includes/views/print/tmpl-receipt.php:200
 msgctxt "Abbreviation of Quantity"
 msgid "Qty"
-msgstr ""
+msgstr "Määrä"
 
 #: includes/views/print/tmpl-receipt.php:258
 #: includes/views/print/tmpl-receipt.php:268
 msgctxt "abbreviation for includes (tax)"
 msgid "incl."
-msgstr ""
+msgstr "Sisältyy"
 
 #: includes/views/print/tmpl-receipt.php:293
 msgctxt "Money returned from cash sale"
 msgid "Change"
-msgstr ""
+msgstr "Vaihda"

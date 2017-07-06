@@ -1,7 +1,8 @@
-# Copyright (C) 2015 kilbot
+# Copyright (C) 2017 kilbot
 # This file is distributed under the Copyright 2015 The Kilbot Factory.
 # Translators:
 # Javier Gomez <gestion@sugo.es>, 2015
+# Juan Plaza <desarrollo@isos.cl>, 2017
 # Paul Kilmurray <paul@kilbot.com.au>, 2015
 msgid ""
 msgstr ""
@@ -9,8 +10,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
 "POT-Creation-Date: 2017-05-31 11:35:22+00:00\n"
-"PO-Revision-Date: 2015-11-25 02:51+0000\n"
-"Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
+"PO-Revision-Date: 2017-06-21 17:46+0000\n"
+"Last-Translator: Juan Plaza <desarrollo@isos.cl>\n"
 "Language-Team: Spanish (Chile) (http://www.transifex.com/kilbot/woocommerce-"
 "pos/language/es_CL/)\n"
 "Language: es_CL\n"
@@ -18,11 +19,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: grunt-wp-i18n 0.5.3\n"
+"X-Generator: grunt-wp-i18n1.0.0\n"
 
 #: includes/class-wc-pos-pro-ajax.php:86
 msgid "Invalid security nonce"
-msgstr "Nonce de seguridad no válido"
+msgstr "Número de seguridad único no válido"
 
 #: includes/class-wc-pos-pro-i18n.php:110
 msgid "Edit Customer"
@@ -48,15 +49,15 @@ msgstr "Tienda"
 #: includes/class-wc-pos-pro-stores.php:60
 #: includes/class-wc-pos-pro-stores.php:61
 msgid "Add New Store"
-msgstr "Añadir tienda nueva"
+msgstr "Añadir Nueva Tienda"
 
 #: includes/class-wc-pos-pro-stores.php:62
 msgid "New Store"
-msgstr "Nueva tienda"
+msgstr "Nueva Tienda"
 
 #: includes/class-wc-pos-pro-stores.php:63
 msgid "Edit Store"
-msgstr "Editar tienda"
+msgstr "Editar Tienda"
 
 #: includes/class-wc-pos-pro-stores.php:64
 msgid "View Store"
@@ -68,15 +69,15 @@ msgstr "Buscar Tiendas"
 
 #: includes/class-wc-pos-pro-stores.php:67
 msgid "Parent Store:"
-msgstr "Tienda principal:"
+msgstr "Tienda Principal:"
 
 #: includes/class-wc-pos-pro-stores.php:68
 msgid "No Stores found."
-msgstr "No se encontraron tiendas."
+msgstr "No se encontraron Tiendas."
 
 #: includes/class-wc-pos-pro-stores.php:69
 msgid "No Stores found in Trash."
-msgstr "No se encontraron tiendas en la papelera"
+msgstr "No se encontraron Tiendas en la Papelera"
 
 #. translators: woocommerce
 #. translators: wordpress
@@ -99,7 +100,7 @@ msgstr "Recibo"
 
 #: includes/views/print/tmpl-receipt.php:170
 msgid "Order Date"
-msgstr "Fecha pedido"
+msgstr "Fecha de Pedido"
 
 #: includes/views/print/tmpl-receipt.php:175
 msgid "Cashier"
@@ -107,15 +108,15 @@ msgstr "Cajero"
 
 #: includes/views/print/tmpl-receipt.php:180
 msgid "Payment Method"
-msgstr "Método de pago"
+msgstr "Método de Pago"
 
 #: includes/views/print/tmpl-receipt.php:231
 msgid "Cart Subtotal"
-msgstr "Subtotal de la cesta"
+msgstr "Subtotal del carro"
 
 #: includes/views/print/tmpl-receipt.php:289
 msgid "Amount Tendered"
-msgstr "Importe recibido"
+msgstr "Importe Recibido"
 
 #: includes/views/products/tmpl-list-item.php:72
 msgid "On Sale?"
@@ -123,7 +124,7 @@ msgstr "En Venta?"
 
 #: includes/widgets/class-wc-pos-pro-hours.php:17
 msgid "Store Opening Hours"
-msgstr "Horarios de apertura de la tienda"
+msgstr "Horarios de Apertura de la Tienda"
 
 #: includes/widgets/class-wc-pos-pro-hours.php:18
 msgid "Display store hours set in WooCommerce POS"
@@ -131,7 +132,7 @@ msgstr "Enseñar el horario establecido en WooCommerce POS"
 
 #: includes/widgets/class-wc-pos-pro-hours.php:88
 msgid "No stores. <a href=\"%s\">Create a new store</a>."
-msgstr "No hay tiendas. <a href=\"%s\">Crear una tienda nueva</a> ."
+msgstr "No hay tiendas. <a href=\"%s\">Crear una nueva tienda</a> ."
 
 #. Description of the plugin/theme
 msgid ""

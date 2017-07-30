@@ -1,21 +1,20 @@
 # Copyright (C) 2017 kilbot
 # This file is distributed under the GPL-2.0+.
 # Translators:
+# Olav Solvang <olav.solvang@gmail.com>, 2017
 # Stig Andersen <stig@r8edge.no>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
-"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
-"Packs/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
 "POT-Creation-Date: 2017-06-05 10:02:27+00:00\n"
-"PO-Revision-Date: 2017-06-07 06:17+0000\n"
-"Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
-"Language-Team: Norwegian Bokmål (Norway) (http://www.transifex.com/kilbot/"
-"woocommerce-pos/language/nb_NO/)\n"
-"Language: nb_NO\n"
+"PO-Revision-Date: 2017-07-30 19:50+0000\n"
+"Last-Translator: Olav Solvang <olav.solvang@gmail.com>\n"
+"Language-Team: Norwegian Bokmål (Norway) (http://www.transifex.com/kilbot/woocommerce-pos/language/nb_NO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: nb_NO\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: grunt-wp-i18n 0.5.4\n"
 
@@ -23,38 +22,38 @@ msgstr ""
 #: includes/apiv2/class-wc-pos-orders.php:167
 #: includes/apiv2/class-wc-pos-orders.php:344
 msgid "There was an error processing the payment"
-msgstr ""
+msgstr "Det skjedde en feil i prosesseringen av betalingen"
 
 #: includes/api/class-wc-pos-orders.php:525
 #: includes/apiv2/class-wc-pos-orders.php:369
 msgid "You are now being redirected offsite to complete the payment. "
-msgstr ""
+msgstr "Du sende nå vekk fra siden for å gjøre ferdig betalingen"
 
 #: includes/api/class-wc-pos-orders.php:526
 #: includes/apiv2/class-wc-pos-orders.php:370
 msgid "<a href=\"%s\">Click here</a> if you are not redirected automatically. "
-msgstr ""
+msgstr "<a href=\"%s\">Klikk her</a> hvis du ikke vidersendes automatisk."
 
 #: includes/api/class-wc-pos-orders.php:540
 #: includes/apiv2/class-wc-pos-orders.php:160
 msgid "POS Transaction completed."
-msgstr ""
+msgstr "POS-transaksjon ferdig."
 
 #: includes/class-wc-pos-ajax.php:109 includes/class-wc-pos-ajax.php:133
 msgid "Email sent"
-msgstr ""
+msgstr "Epost sendt"
 
 #: includes/class-wc-pos-ajax.php:117 includes/class-wc-pos-ajax.php:138
 msgid "There was an error sending the email"
-msgstr ""
+msgstr "Det skjedde en feil med sendingen av eposten"
 
 #: includes/class-wc-pos-ajax.php:171 includes/class-wc-pos-server.php:46
 msgid "Invalid security nonce"
-msgstr ""
+msgstr "Ugyldig sikkerhetsnøkkel"
 
 #: includes/class-wc-pos-api.php:49 includes/class-wc-pos-apiv2.php:37
 msgid "User not authorized to access WooCommerce POS"
-msgstr ""
+msgstr "Denne brukeren er ikke autorisert for WooCommerce POS"
 
 #: includes/class-wc-pos-i18n.php:334
 msgid "To Pay"
@@ -66,7 +65,7 @@ msgstr "Betalt"
 
 #: includes/class-wc-pos-i18n.php:336
 msgid "Unpaid"
-msgstr ""
+msgstr "Ubetalt"
 
 #: includes/class-wc-pos-i18n.php:337
 msgid "Email Receipt"
@@ -74,20 +73,22 @@ msgstr "Kvittering på epost"
 
 #: includes/class-wc-pos-i18n.php:340
 msgid "Support Form"
-msgstr ""
+msgstr "Support-skjema"
 
-#: includes/class-wc-pos-i18n.php:352 includes/views/pos/cart/tmpl-totals.php:8
+#: includes/class-wc-pos-i18n.php:352
+#: includes/views/pos/cart/tmpl-totals.php:8
 #: includes/views/pos/receipt/tmpl-totals.php:7
 #: includes/views/pos/receipt/tmpl-totals.php:49
 #: includes/views/print/tmpl-receipt.php:193
 #: includes/views/print/tmpl-receipt.php:235
 msgid "Discount"
-msgstr ""
+msgstr "Rabatt"
 
 #. translators: wordpress
 #. translators: woocommerce
 #. translators: wordpress
-#: includes/class-wc-pos-i18n.php:354 includes/views/print/tmpl-receipt.php:142
+#: includes/class-wc-pos-i18n.php:354
+#: includes/views/print/tmpl-receipt.php:142
 #: includes/views/support/tmpl-form.php:16
 msgid "Email"
 msgstr "Epost"
@@ -110,7 +111,7 @@ msgstr "Annullér"
 
 #: includes/class-wc-pos-i18n.php:379
 msgid "Enable legacy server support"
-msgstr ""
+msgstr "Slå på legacy serversupport"
 
 #: includes/class-wc-pos-i18n.php:390
 msgid "Your browser is not supported!"
@@ -118,7 +119,7 @@ msgstr "Nettleseren din støttes ikke!"
 
 #: includes/class-wc-pos-i18n.php:391
 msgid "Unable to use RESTful HTTP methods"
-msgstr ""
+msgstr "Klarte ikke å bruke RESTful HTTP-metoder"
 
 #: includes/class-wc-pos-i18n.php:396
 msgid "No payment gateways enabled."
@@ -130,31 +131,31 @@ msgstr "Kasseapparat"
 
 #: includes/class-wc-pos-settings.php:168
 msgid "There is no settings id"
-msgstr ""
+msgstr "Det er ikke noen instillings-id"
 
 #: includes/class-wc-pos-settings.php:186
 msgid "No handler found for %s settings"
-msgstr ""
+msgstr "Ingen handler funnet for %s innstillinger"
 
 #: includes/class-wc-pos-settings.php:223
 msgid "Settings error"
-msgstr ""
+msgstr "Feil i innstillingene"
 
 #: includes/class-wc-pos-status.php:28
 msgid "WC Version"
-msgstr ""
+msgstr "WC-versjon"
 
 #: includes/class-wc-pos-status.php:35
 msgid "WooCommerce >= %s required"
-msgstr ""
+msgstr "WooCommerce >= %s kreves"
 
 #: includes/class-wc-pos-status.php:60
 msgid "PHP Version"
-msgstr ""
+msgstr "PHP versjon"
 
 #: includes/class-wc-pos-status.php:67
 msgid "PHP >= %s required"
-msgstr ""
+msgstr "PHP >= %s kreves"
 
 #: includes/class-wc-pos-status.php:88
 msgid "WC REST API"
@@ -170,13 +171,13 @@ msgstr "Det kreves tilgang til REST API"
 
 #: includes/class-wc-pos-status.php:146
 msgid ""
-"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to "
-"work correctly"
-msgstr ""
+"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to"
+" work correctly"
+msgstr "<strong>WooCommerce REST API</strong> krever<em>pretty</em> permalinks for å fungere skikkelig"
 
 #: includes/class-wc-pos-status.php:150
 msgid "Enable permalinks"
-msgstr ""
+msgstr "Slå på permalinker"
 
 #: includes/gateways/class-wc-pos-card.php:20
 msgid "Card"
@@ -202,22 +203,20 @@ msgstr "Beløp"
 
 #: includes/views/modals/browser.php:2
 msgid "Sorry, it seems your browser is not supported by WooCommerce POS. "
-msgstr ""
+msgstr "Beklager. Nettleseren din støttes ikke av WooCommerce POS"
 
 #: includes/views/modals/browser.php:3
 msgid ""
-"If possible, please <a href=\"http://browsehappy.com/\">update your browser</"
-"a>, we recommend either Chrome or Firefox."
-msgstr ""
-"Hvis du har mulighet, vennligst <a href=\"http://browsehappy.com/\">oppdater "
-"nettleseren.</a> Vi anbefaler Chrome eller Firefox."
+"If possible, please <a href=\"http://browsehappy.com/\">update your "
+"browser</a>, we recommend either Chrome or Firefox."
+msgstr "Hvis du har mulighet, vennligst <a href=\"http://browsehappy.com/\">oppdater nettleseren.</a> Vi anbefaler Chrome eller Firefox."
 
 #: includes/views/modals/browser.php:7
 msgid ""
 "If you believe you have received this message in error please contact "
-"support via <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</"
-"a>"
-msgstr ""
+"support via <a "
+"href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
+msgstr "Hvis du mener du har mottatt denne meldingen ved en feil, vennligst konyakt support via <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
 
 #: includes/views/pos/products/tmpl-filter.php:7
 msgid "Scan Barcode"
@@ -229,11 +228,11 @@ msgstr "Faktura-adresse"
 
 #: includes/views/print/tmpl-receipt.php:118
 msgid "Shipping Address"
-msgstr "Post-adresse"
+msgstr "Leveringsadressen"
 
 #: includes/views/print/tmpl-receipt.php:123
 msgid "Order Number"
-msgstr ""
+msgstr "Ordrenummer"
 
 #: includes/views/print/tmpl-receipt.php:127
 msgid "Order Date"
@@ -249,7 +248,7 @@ msgstr "Betalingsmetode"
 
 #: includes/views/support/tmpl-form.php:20
 msgid "Message"
-msgstr ""
+msgstr "Melding"
 
 #: includes/views/support/tmpl-form.php:21
 msgid "Describe your problem here ..."
@@ -261,7 +260,7 @@ msgstr "Legg til POS systemrapport"
 
 #: includes/views/support/tmpl-status.php:31
 msgid "Local Storage"
-msgstr ""
+msgstr "Lokal lagring"
 
 #: includes/views/template.php:8
 msgid "Point of Sale"
@@ -269,33 +268,33 @@ msgstr "Kasse"
 
 #: includes/views/tmpl-pagination.php:2
 msgid "Showing %s of %s"
-msgstr ""
+msgstr "Viser %s av %s"
 
 #: includes/views/tmpl-pagination.php:3
 msgid "%s in queue"
-msgstr ""
+msgstr "%s i kø"
 
 #. Description of the plugin/theme
 msgid ""
 "A simple front-end for taking WooCommerce orders at the Point of Sale. "
-"Requires <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</"
-"a>."
-msgstr ""
+"Requires <a "
+"href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a>."
+msgstr "En enkel front-end for å ta bruke WooCommerce som butikk-kasse. Krever <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a>."
 
 #: includes/class-wc-pos-i18n.php:312
 msgctxt "system status: browser capabilities"
 msgid "Browser"
-msgstr ""
+msgstr "Nettleser"
 
 #: includes/class-wc-pos-i18n.php:323
 msgctxt "keyboard shortcuts"
 msgid "HotKeys"
-msgstr ""
+msgstr "Hurtigtaster"
 
 #: includes/class-wc-pos-i18n.php:338
 msgctxt "order status, ie: open order in cart"
 msgid "Open"
-msgstr ""
+msgstr "Åpne"
 
 #: includes/class-wc-pos-i18n.php:339
 #: includes/gateways/class-wc-pos-cash.php:93
@@ -307,22 +306,22 @@ msgstr "Veksel"
 #: includes/class-wc-pos-i18n.php:347
 msgctxt "system status: delete local records"
 msgid "Clear"
-msgstr ""
+msgstr "Blank ut"
 
 #: includes/class-wc-pos-i18n.php:366
 msgctxt "restore default settings"
 msgid "Restore defaults"
-msgstr ""
+msgstr "Tilbakestill til originalinstillinger"
 
 #: includes/class-wc-pos-i18n.php:367
 msgctxt "Numpad return key"
 msgid "return"
-msgstr ""
+msgstr "return"
 
 #: includes/class-wc-pos-i18n.php:401
 msgctxt "eg: 23 records"
 msgid "record |||| records"
-msgstr ""
+msgstr "nota |||| noter"
 
 #: includes/class-wc-pos-params.php:85
 msgctxt "Product tab: 'On Sale' products"

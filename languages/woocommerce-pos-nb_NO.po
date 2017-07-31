@@ -6,15 +6,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
-"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
+"Packs/issues\n"
 "POT-Creation-Date: 2017-06-05 10:02:27+00:00\n"
 "PO-Revision-Date: 2017-07-30 19:50+0000\n"
 "Last-Translator: Olav Solvang <olav.solvang@gmail.com>\n"
-"Language-Team: Norwegian Bokmål (Norway) (http://www.transifex.com/kilbot/woocommerce-pos/language/nb_NO/)\n"
+"Language-Team: Norwegian Bokmål (Norway) (http://www.transifex.com/kilbot/"
+"woocommerce-pos/language/nb_NO/)\n"
+"Language: nb_NO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: nb_NO\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: grunt-wp-i18n 0.5.4\n"
 
@@ -75,8 +77,7 @@ msgstr "Kvittering på epost"
 msgid "Support Form"
 msgstr "Support-skjema"
 
-#: includes/class-wc-pos-i18n.php:352
-#: includes/views/pos/cart/tmpl-totals.php:8
+#: includes/class-wc-pos-i18n.php:352 includes/views/pos/cart/tmpl-totals.php:8
 #: includes/views/pos/receipt/tmpl-totals.php:7
 #: includes/views/pos/receipt/tmpl-totals.php:49
 #: includes/views/print/tmpl-receipt.php:193
@@ -87,8 +88,7 @@ msgstr "Rabatt"
 #. translators: wordpress
 #. translators: woocommerce
 #. translators: wordpress
-#: includes/class-wc-pos-i18n.php:354
-#: includes/views/print/tmpl-receipt.php:142
+#: includes/class-wc-pos-i18n.php:354 includes/views/print/tmpl-receipt.php:142
 #: includes/views/support/tmpl-form.php:16
 msgid "Email"
 msgstr "Epost"
@@ -171,9 +171,11 @@ msgstr "Det kreves tilgang til REST API"
 
 #: includes/class-wc-pos-status.php:146
 msgid ""
-"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to"
-" work correctly"
-msgstr "<strong>WooCommerce REST API</strong> krever<em>pretty</em> permalinks for å fungere skikkelig"
+"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to "
+"work correctly"
+msgstr ""
+"<strong>WooCommerce REST API</strong> krever<em>pretty</em> permalinks for å "
+"fungere skikkelig"
 
 #: includes/class-wc-pos-status.php:150
 msgid "Enable permalinks"
@@ -207,16 +209,21 @@ msgstr "Beklager. Nettleseren din støttes ikke av WooCommerce POS"
 
 #: includes/views/modals/browser.php:3
 msgid ""
-"If possible, please <a href=\"http://browsehappy.com/\">update your "
-"browser</a>, we recommend either Chrome or Firefox."
-msgstr "Hvis du har mulighet, vennligst <a href=\"http://browsehappy.com/\">oppdater nettleseren.</a> Vi anbefaler Chrome eller Firefox."
+"If possible, please <a href=\"http://browsehappy.com/\">update your browser</"
+"a>, we recommend either Chrome or Firefox."
+msgstr ""
+"Hvis du har mulighet, vennligst <a href=\"http://browsehappy.com/\">oppdater "
+"nettleseren.</a> Vi anbefaler Chrome eller Firefox."
 
 #: includes/views/modals/browser.php:7
 msgid ""
 "If you believe you have received this message in error please contact "
-"support via <a "
-"href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
-msgstr "Hvis du mener du har mottatt denne meldingen ved en feil, vennligst konyakt support via <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
+"support via <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</"
+"a>"
+msgstr ""
+"Hvis du mener du har mottatt denne meldingen ved en feil, vennligst konyakt "
+"support via <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</"
+"a>"
 
 #: includes/views/pos/products/tmpl-filter.php:7
 msgid "Scan Barcode"
@@ -277,9 +284,11 @@ msgstr "%s i kø"
 #. Description of the plugin/theme
 msgid ""
 "A simple front-end for taking WooCommerce orders at the Point of Sale. "
-"Requires <a "
+"Requires <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</"
+"a>."
+msgstr ""
+"En enkel front-end for å ta bruke WooCommerce som butikk-kasse. Krever <a "
 "href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a>."
-msgstr "En enkel front-end for å ta bruke WooCommerce som butikk-kasse. Krever <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a>."
 
 #: includes/class-wc-pos-i18n.php:312
 msgctxt "system status: browser capabilities"

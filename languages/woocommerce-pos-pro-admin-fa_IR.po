@@ -1,0 +1,411 @@
+# Copyright (C) 2017 kilbot
+# This file is distributed under the Copyright 2015 The Kilbot Factory.
+# Translators:
+# Pouria Hector <pouria.hector.ph@gmail.com>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce POS\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
+"POT-Creation-Date: 2017-05-31 11:35:22+00:00\n"
+"PO-Revision-Date: 2017-08-08 11:32+0000\n"
+"Last-Translator: Pouria Hector <pouria.hector.ph@gmail.com>\n"
+"Language-Team: Persian (Iran) (http://www.transifex.com/kilbot/woocommerce-pos/language/fa_IR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fa_IR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: grunt-wp-i18n1.0.0\n"
+
+#: includes/admin/class-wc-pos-pro-am.php:72
+msgid "The %s License Key has not been activated, so the plugin is inactive!"
+msgstr "کلید مجوز٪ s فعال نشده است، بنابراین پلاگین غیرفعال است!"
+
+#: includes/admin/class-wc-pos-pro-am.php:73
+msgid " <a href=\"%s\">Click here</a> to activate the license key and the plugin."
+msgstr "برای فعال کردن کلید مجوز و افزونه اینجا را کلیک کنید"
+
+#: includes/admin/class-wc-pos-pro-am.php:106
+msgid ""
+"<b>Warning!</b> You're blocking external requests which means you won't be "
+"able to get %s updates. Please add %s to %s."
+msgstr "هشدار! 1 مسدود کردن درخواست های خارجی است که بدین معنی است که شما قادر به دریافت٪ s به روز رسانی نیستید. لطفا٪ s را به٪ s اضافه کنید"
+
+#: includes/admin/class-wc-pos-pro-am.php:232
+msgid "Unable to connect to the activation server"
+msgstr "قادر به اتصال به سرور فعال نیست"
+
+#: includes/admin/class-wc-pos-pro-am.php:267
+msgid "Unable to parse the server response"
+msgstr "قادر به تجزیه پاسخ سرور نیست"
+
+#: includes/admin/class-wc-pos-pro-am.php:279
+msgid "Invalid Request"
+msgstr "درخواست نامعتبر"
+
+#: includes/admin/class-wc-pos-pro-am.php:281
+#: includes/admin/class-wc-pos-pro-am.php:285
+msgid "Invalid License Key"
+msgstr "کلید مجوز نامعتبر"
+
+#: includes/admin/class-wc-pos-pro-am.php:282
+msgid "Activation error"
+msgstr "خطای فعالسازی"
+
+#: includes/admin/class-wc-pos-pro-am.php:283
+msgid "Exceeded maximum number of activations"
+msgstr "بیش از حداکثر تعداد فعال سازی"
+
+#: includes/admin/class-wc-pos-pro-am.php:284
+msgid "Invalid Instance ID"
+msgstr "شناسه نمونه نامعتبر"
+
+#: includes/admin/class-wc-pos-pro-am.php:286
+msgid "Subscription is not active"
+msgstr "اشتراک فعال نیست"
+
+#: includes/admin/class-wc-pos-pro-am.php:289
+msgid "Invalid Response"
+msgstr "پاسخ نادرست"
+
+#: includes/admin/class-wc-pos-pro-am.php:307
+msgid ""
+"A license key for %s could not be found. Maybe you forgot to enter a license"
+" key when setting up %s, or the key was deactivated in your account. You can"
+" reactivate or purchase a license key from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr "کلید مجوز برای٪ s یافت نشد شاید در هنگام تنظیم٪ s فراموش کرده اید کلید مجوز را وارد کنید یا کلید در حساب کاربری شما غیرفعال شده است. شما می توانید یک مجوز را از حساب 1dashboard1 خود مجددا فعال کنید یا آن را خریداری کنید."
+
+#: includes/admin/class-wc-pos-pro-am.php:308
+msgid ""
+"The license key for %s has expired. You can reactivate or purchase a license"
+" key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "کلید مجوز٪ s منقضی شده است. شما می توانید یک مجوز را از حساب 1dashboard1 خود مجددا فعال کنید یا آن را خریداری کنید."
+
+#: includes/admin/class-wc-pos-pro-am.php:309
+msgid ""
+"The subscription for %s is on-hold. You can reactivate the subscription from"
+" your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "اشتراک برای٪ s در حالت تعلیق است شما می توانید اشتراک را از حساب 1dashboard1 خود فعال کنید."
+
+#: includes/admin/class-wc-pos-pro-am.php:310
+msgid ""
+"The subscription for %s has been cancelled. You can renew the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>. A new "
+"license key will be emailed to you after your order has been completed."
+msgstr "اشتراک برای٪ s لغو شده است. شما می توانید اشتراک را از حساب 1dashboard1 خود تجدید نظر کنید. پس از اتمام سفارش، یک کلید مجوز جدید به شما ایمیل خواهد شد."
+
+#: includes/admin/class-wc-pos-pro-am.php:311
+msgid ""
+"The subscription for %s has expired. You can reactivate the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "عضویت برای٪ s منقضی شده است. شما می توانید اشتراک را از حساب 1dashboard1 خود فعال کنید."
+
+#: includes/admin/class-wc-pos-pro-am.php:312
+msgid ""
+"The subscription for %s has been suspended. You can reactivate the "
+"subscription from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr "شتراک٪ s به حالت تعلیق درآمده است. شما می توانید اشتراک را از حساب 1dashboard1 خود فعال کنید"
+
+#: includes/admin/class-wc-pos-pro-am.php:313
+msgid ""
+"The subscription for %s is still pending. You can check on the status of the"
+" subscription from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr "اشتراک برای٪ s هنوز در انتظار است. شما می توانید وضعیت اشتراک از حساب 1dashboard1 خود را بررسی کنید."
+
+#: includes/admin/class-wc-pos-pro-am.php:314
+msgid ""
+"The subscription for %s has been placed in the trash and will be deleted "
+"soon. You can purchase a new subscription from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr "اشتراک٪ s در سطل زباله قرار داده شده و به زودی حذف خواهد شد. شما می توانید یک اشتراک جدید را از حساب 1dashboard1 خود خریداری کنید"
+
+#: includes/admin/class-wc-pos-pro-am.php:315
+msgid ""
+"A subscription for %s could not be found. You can purchase a subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "اشتراک برای٪ s یافت نشد شما می توانید یک اشتراک از حساب 1dashboard1 خود خریداری کنید."
+
+#: includes/admin/class-wc-pos-pro-am.php:316
+msgid ""
+"%s has not been activated. Go to the settings page and enter the license key"
+" and license email to activate %s."
+msgstr "٪ s فعال نشده است برای فعال کردن٪ s به صفحه تنظیمات بروید و کلید مجوز و مجوز ایمیل را وارد کنید."
+
+#: includes/admin/class-wc-pos-pro-am.php:317
+msgid ""
+"Download permission for %s has been revoked possibly due to a license key or"
+" subscription expiring. You can reactivate or purchase a license key from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "مجوز دانلود٪ s به احتمال زیاد به دلیل کلید مجوز یا عضویت منقضی شده لغو شده است. شما می توانید یک مجوز را از حساب 1dashboard1 خود مجددا فعال کنید یا آن را خریداری کنید."
+
+#: includes/admin/class-wc-pos-pro-am.php:318
+msgid ""
+"You changed the subscription for %s, so you will need to enter your new API "
+"License Key in the settings page. The License Key should have arrived in "
+"your email inbox, if not you can get it by logging into your account <a "
+"href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "شما اشتراک٪ s را تغییر دادید، بنابراین باید کلید مجوز API خود را در صفحه تنظیمات وارد کنید. کلید مجوز باید در صندوق ورودی خود وارد شود، اگر نه شما می توانید آن را با ورود به حساب کاربری خود 1dashboard1 دریافت کنید."
+
+#: includes/admin/class-wc-pos-pro-reports.php:27
+#: includes/admin/reports/views/sales-table.php:12
+#: includes/admin/reports/views/sales-table.php:14
+#: includes/admin/reports/views/sales-table.php:16
+#: includes/admin/reports/views/sales-table.php:18
+#: includes/admin/reports/views/sales-table.php:20
+msgid "POS"
+msgstr "فروشگاه"
+
+#: includes/admin/class-wc-pos-pro-reports.php:30
+msgid "POS vs Online"
+msgstr "فروشگاه در مقابل آنلاین"
+
+#: includes/admin/class-wc-pos-pro-reports.php:36
+msgid "Sales by cashier"
+msgstr "فروش توسط صندوقدار"
+
+#: includes/admin/class-wc-pos-pro-reports.php:42
+msgid "Sales by store"
+msgstr "فروش توسط فروشگاه"
+
+#: includes/admin/class-wc-pos-pro-reports.php:48
+msgid "Sales by payment method"
+msgstr "فروش با روش پرداخت"
+
+#: includes/admin/class-wc-pos-pro-stores.php:62
+msgid "Stores"
+msgstr "مغازه ها"
+
+#: includes/admin/class-wc-pos-pro-stores.php:129
+msgid "Open POS"
+msgstr "فروشگاه باز شود"
+
+#: includes/admin/class-wc-pos-pro-stores.php:148
+#: includes/admin/views/order-details.php:2
+msgid "Store"
+msgstr "فروشگاه"
+
+#: includes/admin/class-wc-pos-pro-stores.php:165
+msgid "Preview Receipt"
+msgstr "رسید پیش نمایش"
+
+#: includes/admin/class-wc-pos-pro-stores.php:180
+msgid "Opening Hours"
+msgstr "ساعات کار"
+
+#: includes/admin/class-wc-pos-pro-stores.php:189
+msgid "Logo"
+msgstr "لوگو"
+
+#: includes/admin/class-wc-pos-pro-stores.php:212
+msgid "Receipt Options"
+msgstr "گزینه های دریافت"
+
+#: includes/admin/class-wc-pos-pro-stores.php:277
+msgid "Set featured image"
+msgstr "تنظیم تصویر برجسته"
+
+#: includes/admin/class-wc-pos-pro-stores.php:277
+#: includes/admin/class-wc-pos-pro-stores.php:293
+msgid "Set store logo"
+msgstr "لوگو فروشگاه را تنظیم کنید"
+
+#: includes/admin/class-wc-pos-pro-stores.php:278
+msgid "Remove featured image"
+msgstr "حذف تصویر برجسته"
+
+#: includes/admin/class-wc-pos-pro-stores.php:278
+msgid "Remove store logo"
+msgstr "حذف آرم فروشگاه"
+
+#: includes/admin/class-wc-pos-pro-stores.php:292
+msgid "Set Store Logo"
+msgstr "لوگوی فروشگاه را تنظیم کنید"
+
+#: includes/admin/class-wc-pos-pro-stores.php:369
+msgid ""
+"Please <a href=\"%s\">read the docs</a> for information on how to customize "
+"your POS receipts."
+msgstr "لطفا 1 docs1 را برای اطلاعات در مورد چگونگی سفارشی درآمد فروشگاه خود ببینید."
+
+#: includes/admin/reports/class-wc-pos-pro-sales.php:168
+#: includes/admin/reports/class-wc-pos-pro-sales.php:171
+#: includes/admin/reports/class-wc-pos-pro-sales.php:238
+#: includes/admin/reports/class-wc-pos-pro-sales.php:252
+#: includes/admin/reports/class-wc-pos-pro-sales.php:270
+#: includes/admin/reports/class-wc-pos-pro-sales.php:276
+msgid "POS Sales"
+msgstr "فروش فروشگاه"
+
+#: includes/admin/reports/class-wc-pos-pro-sales.php:174
+#: includes/admin/reports/class-wc-pos-pro-sales.php:177
+#: includes/admin/reports/class-wc-pos-pro-sales.php:244
+#: includes/admin/reports/class-wc-pos-pro-sales.php:258
+msgid "Online Sales"
+msgstr "فروش آنلاین"
+
+#: includes/admin/reports/class-wc-pos-pro-store.php:59
+msgid "No Stores found."
+msgstr "هیچ فروشگاهی یافت نشد"
+
+#: includes/admin/reports/class-wc-pos-pro-store.php:61
+msgid "Add New Store"
+msgstr "اضافه کردن فروشگاه جدید"
+
+#: includes/admin/reports/views/sales-table.php:4
+msgid "Period"
+msgstr "دوره زمانی"
+
+#: includes/admin/reports/views/sales-table.php:5
+msgid "Orders"
+msgstr "سفارشات"
+
+#: includes/admin/reports/views/sales-table.php:6
+msgid "Total Sales"
+msgstr "کل فروش"
+
+#: includes/admin/reports/views/sales-table.php:6
+msgid "This is the sum of the 'Order Total' field within your orders."
+msgstr "این مبلغ مجموعۀ سفارش کل در سفارشات شما است."
+
+#: includes/admin/reports/views/sales-table.php:7
+msgid "Total Shipping"
+msgstr "مجموع حمل و نقل"
+
+#: includes/admin/reports/views/sales-table.php:7
+msgid "This is the sum of the 'Shipping Total' field within your orders."
+msgstr "این مبلغ مجموع حمل و نقل در سفارشات شما است."
+
+#: includes/admin/reports/views/sales-table.php:8
+msgid "Total Tax"
+msgstr "مالیات کل"
+
+#: includes/admin/reports/views/sales-table.php:8
+msgid "This is the total tax for the rate (shipping tax + product tax)."
+msgstr "ین مالیات کل برای نرخ (مالیات حمل و نقل + مالیات بر محصول) است."
+
+#: includes/admin/reports/views/sales-table.php:9
+msgid "Net profit"
+msgstr "سود خالص"
+
+#: includes/admin/reports/views/sales-table.php:9
+msgid "Total sales minus shipping and tax."
+msgstr "کل فروش منهای حمل و نقل و مالیات."
+
+#: includes/admin/reports/views/sales-table.php:13
+#: includes/admin/reports/views/sales-table.php:15
+#: includes/admin/reports/views/sales-table.php:17
+#: includes/admin/reports/views/sales-table.php:19
+#: includes/admin/reports/views/sales-table.php:21
+msgid "Online"
+msgstr "آنلاین"
+
+#: includes/admin/reports/views/sales-table.php:55
+msgid "Total"
+msgstr "جمع"
+
+#: includes/admin/settings/class-wc-pos-pro-license.php:18
+msgid "Pro License"
+msgstr "لایسنس حرفه ای"
+
+#: includes/admin/settings/views/customers.php:7
+msgid "Customer Options"
+msgstr "گزینه های مشتری"
+
+#: includes/admin/settings/views/general.php:5
+msgid "Barcode Field"
+msgstr "زمینه بارکد"
+
+#: includes/admin/settings/views/general.php:6
+msgid "Select a meta field to use as the product barcode"
+msgstr "یک زمینه متا برای استفاده به عنوان بارکد محصول انتخاب کنید"
+
+#: includes/admin/settings/views/license.php:7
+msgid "Pro License Activation"
+msgstr "فعالسازی لایسنس حرفه ای"
+
+#: includes/admin/settings/views/license.php:11
+msgid "Thank you!"
+msgstr "متشکرم!"
+
+#: includes/admin/settings/views/license.php:11
+msgid "Your license is active"
+msgstr "مجوز شما فعال است"
+
+#: includes/admin/settings/views/license.php:17
+msgid "License Email"
+msgstr "ایمیل مجوز"
+
+#: includes/admin/settings/views/license.php:25
+msgid "License Key"
+msgstr "کلید مجوز"
+
+#: includes/admin/views/stores/opening-hours.php:21
+msgid "Opening Hours notes"
+msgstr "ساعتهای باز کردن یادداشت ها"
+
+#: includes/admin/views/stores/opening-hours.php:22
+msgid "eg: Closed public holidays"
+msgstr "به عنوان مثال: تعطیلات عمومی بسته است"
+
+#: includes/admin/views/stores/opening-hours.php:27
+msgid ""
+"You can add opening hours to your website using a widget. <a "
+"href=\"%s\">Read the docs</a> for more information."
+msgstr "با استفاده از یک ویجت می توانید ساعتهای باز به وب سایت خود اضافه کنید. 1 اطلاعات docs1 را بخوانید."
+
+#: includes/admin/views/stores/receipt-options.php:9
+msgid "Complimentary Close"
+msgstr "بستن مناسب"
+
+#: includes/admin/views/stores/receipt-options.php:10
+msgid ""
+"Personal notes or season greetings, e.g. Thank You for Your Order! or Merry "
+"Christmas!"
+msgstr "یادداشت های شخصی یا جلسات فصل، به عنوان مثال از سفارش شما متشکریم! یا کریسمس مبارک"
+
+#: includes/admin/views/stores/receipt-options.php:13
+msgid "Returns Policy"
+msgstr "سیاست را برمی گرداند"
+
+#: includes/admin/views/stores/receipt-options.php:14
+msgid "Returns policy, terms and conditions"
+msgstr "سیاست، شرایط و شرایط را باز می گرداند"
+
+#: includes/admin/views/stores/receipt-options.php:17
+msgid "Footer"
+msgstr "پاورقی"
+
+#: includes/admin/views/stores/receipt-options.php:18
+msgid "Further footer information, e.g. copyright or branding"
+msgstr "اطلاعات بیشتر در پایین صفحه، به عنوان مثال کپی رایت یا نام تجاری"
+
+#: includes/admin/views/stores/tax-rate.php:8
+msgid "Calculate Tax Based On"
+msgstr "محاسبه مالیات بر اساس"
+
+#: includes/admin/views/stores/tax-rate.php:10
+msgid "this store address"
+msgstr "آدرس این فروشگاه"
+
+#: includes/admin/views/stores/tax-rate.php:11
+msgid "base location"
+msgstr "محل پایه"
+
+#: includes/admin/views/stores/tax-rate.php:39
+msgid "No tax rates set"
+msgstr "هیچ نرخ مالیاتی تعیین نشده است"
+
+#: includes/admin/views/stores/tax-rate.php:43
+msgid ""
+"The tax rates above will be used at the point of sale. You can <a "
+"href=\"%s\">change the tax rate</a> in WooCommerce settings."
+msgstr "نرخ مالیات بالا در نقطه فروش استفاده می شود. شما می توانید نرخ مالیات 1 را در تنظیمات WooCommerce تغییر دهید."
+
+#: includes/class-wc-pos-pro-activator.php:155
+msgid ""
+"<strong>WooCommerce POS Pro</strong> requires <a href=\"%s\">WooCommerce "
+"POS</a>. Please <a href=\"%s\">install and activate WooCommerce POS</a>"
+msgstr "WooCommerce POS Pro1 نیاز به 2WooCommerce POS2. لطفا WooCommerce POS3 را نصب و فعال کنید"

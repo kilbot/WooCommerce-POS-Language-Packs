@@ -1,0 +1,345 @@
+# Copyright (C) 2017 kilbot
+# This file is distributed under the GPL-2.0+.
+# Translators:
+# Pouria Hector <pouria.hector.ph@gmail.com>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce POS\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
+"POT-Creation-Date: 2017-06-05 10:02:27+00:00\n"
+"PO-Revision-Date: 2017-08-08 11:27+0000\n"
+"Last-Translator: Pouria Hector <pouria.hector.ph@gmail.com>\n"
+"Language-Team: Persian (Iran) (http://www.transifex.com/kilbot/woocommerce-pos/language/fa_IR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fa_IR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+
+#: includes/api/class-wc-pos-orders.php:499
+#: includes/apiv2/class-wc-pos-orders.php:167
+#: includes/apiv2/class-wc-pos-orders.php:344
+msgid "There was an error processing the payment"
+msgstr "خطایی در پردازش پرداخت وجود داشت"
+
+#: includes/api/class-wc-pos-orders.php:525
+#: includes/apiv2/class-wc-pos-orders.php:369
+msgid "You are now being redirected offsite to complete the payment. "
+msgstr "شما اکنون به خارج از سایت هدایت می شوید تا پرداخت را تکمیل کنید."
+
+#: includes/api/class-wc-pos-orders.php:526
+#: includes/apiv2/class-wc-pos-orders.php:370
+msgid "<a href=\"%s\">Click here</a> if you are not redirected automatically. "
+msgstr "اینجا کلیک کنید اگر شما به صورت خودکار هدایت نمی شوید."
+
+#: includes/api/class-wc-pos-orders.php:540
+#: includes/apiv2/class-wc-pos-orders.php:160
+msgid "POS Transaction completed."
+msgstr "معامله فروشگاه تکمیل شد"
+
+#: includes/class-wc-pos-ajax.php:109 includes/class-wc-pos-ajax.php:133
+msgid "Email sent"
+msgstr "ایمیل فرستاده شد"
+
+#: includes/class-wc-pos-ajax.php:117 includes/class-wc-pos-ajax.php:138
+msgid "There was an error sending the email"
+msgstr "هنگام ارسال ایمیل، خطایی رخ داد"
+
+#: includes/class-wc-pos-ajax.php:171 includes/class-wc-pos-server.php:46
+msgid "Invalid security nonce"
+msgstr "امنیت غیرمجاز نامعتبر"
+
+#: includes/class-wc-pos-api.php:49 includes/class-wc-pos-apiv2.php:37
+msgid "User not authorized to access WooCommerce POS"
+msgstr "کاربر مجاز به دسترسی به فروشگاه  ووکامرس نیست"
+
+#: includes/class-wc-pos-i18n.php:334
+msgid "To Pay"
+msgstr "برای پرداخت"
+
+#: includes/class-wc-pos-i18n.php:335
+msgid "Paid"
+msgstr "پرداخت شده"
+
+#: includes/class-wc-pos-i18n.php:336
+msgid "Unpaid"
+msgstr "پرداخت نشده"
+
+#: includes/class-wc-pos-i18n.php:337
+msgid "Email Receipt"
+msgstr "دریافت ایمیل"
+
+#: includes/class-wc-pos-i18n.php:340
+msgid "Support Form"
+msgstr "فرم پشتیبانی"
+
+#: includes/class-wc-pos-i18n.php:352
+#: includes/views/pos/cart/tmpl-totals.php:8
+#: includes/views/pos/receipt/tmpl-totals.php:7
+#: includes/views/pos/receipt/tmpl-totals.php:49
+#: includes/views/print/tmpl-receipt.php:193
+#: includes/views/print/tmpl-receipt.php:235
+msgid "Discount"
+msgstr "تخفیف"
+
+#. translators: wordpress
+#. translators: woocommerce
+#. translators: wordpress
+#: includes/class-wc-pos-i18n.php:354
+#: includes/views/print/tmpl-receipt.php:142
+#: includes/views/support/tmpl-form.php:16
+msgid "Email"
+msgstr "ایمیل"
+
+#: includes/class-wc-pos-i18n.php:363
+msgid "Process Payment"
+msgstr "فرآیند پرداخت"
+
+#: includes/class-wc-pos-i18n.php:368
+msgid "Return to Sale"
+msgstr "بازگشت به فروش"
+
+#: includes/class-wc-pos-i18n.php:371
+msgid "Send"
+msgstr "ارسال"
+
+#: includes/class-wc-pos-i18n.php:374
+msgid "Void"
+msgstr "خالی"
+
+#: includes/class-wc-pos-i18n.php:379
+msgid "Enable legacy server support"
+msgstr "پشتیبانی از سرور قدیمی را فعال کنید"
+
+#: includes/class-wc-pos-i18n.php:390
+msgid "Your browser is not supported!"
+msgstr "مرورگر شما پشتیبانی نمی شود!"
+
+#: includes/class-wc-pos-i18n.php:391
+msgid "Unable to use RESTful HTTP methods"
+msgstr "امکان استفاده از روشهای HTTP RESTful وجود ندارد"
+
+#: includes/class-wc-pos-i18n.php:396
+msgid "No payment gateways enabled."
+msgstr "هیچ دروازه ی پرداختی فعال نیست"
+
+#: includes/class-wc-pos-params.php:232
+msgid "POS"
+msgstr "فروشگاه"
+
+#: includes/class-wc-pos-settings.php:168
+msgid "There is no settings id"
+msgstr "شناسه تنظیمات وجود ندارد"
+
+#: includes/class-wc-pos-settings.php:186
+msgid "No handler found for %s settings"
+msgstr "هیچ دستیاری برای٪ s تنظیم نشده است"
+
+#: includes/class-wc-pos-settings.php:223
+msgid "Settings error"
+msgstr "خطای تنظیمات"
+
+#: includes/class-wc-pos-status.php:28
+msgid "WC Version"
+msgstr "نسخه WC"
+
+#: includes/class-wc-pos-status.php:35
+msgid "WooCommerce >= %s required"
+msgstr "WooCommerce> =٪ s مورد نیاز است"
+
+#: includes/class-wc-pos-status.php:60
+msgid "PHP Version"
+msgstr "نسخه پی اچ پی"
+
+#: includes/class-wc-pos-status.php:67
+msgid "PHP >= %s required"
+msgstr "PHP> =٪ s مورد نیاز است"
+
+#: includes/class-wc-pos-status.php:88
+msgid "WC REST API"
+msgstr "WC REST API"
+
+#: includes/class-wc-pos-status.php:89
+msgid "API is active"
+msgstr "API فعال است"
+
+#: includes/class-wc-pos-status.php:126
+msgid "Access to the REST API is required"
+msgstr "دسترسی به API REST مورد نیاز است"
+
+#: includes/class-wc-pos-status.php:146
+msgid ""
+"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to"
+" work correctly"
+msgstr "<strong>WooCommerce REST API</strong> به permalinks <em>صحیح</em>نیاز دارد"
+
+#: includes/class-wc-pos-status.php:150
+msgid "Enable permalinks"
+msgstr "فعال کردن پیوندها"
+
+#: includes/gateways/class-wc-pos-card.php:20
+msgid "Card"
+msgstr "کارت"
+
+#: includes/gateways/class-wc-pos-card.php:52
+#: includes/gateways/class-wc-pos-card.php:55
+#: includes/gateways/class-wc-pos-card.php:84
+#: includes/gateways/class-wc-pos-card.php:118
+msgid "Cashback"
+msgstr "بازپرداخت نقدی"
+
+#: includes/gateways/class-wc-pos-cash.php:20
+msgid "Cash"
+msgstr "نقدی"
+
+#: includes/gateways/class-wc-pos-cash.php:52
+#: includes/gateways/class-wc-pos-cash.php:55
+#: includes/gateways/class-wc-pos-cash.php:91
+#: includes/views/print/tmpl-receipt.php:246
+msgid "Amount Tendered"
+msgstr "مبلغ مناقصه"
+
+#: includes/views/modals/browser.php:2
+msgid "Sorry, it seems your browser is not supported by WooCommerce POS. "
+msgstr "با عرض پوزش، به نظر می رسد مرورگر شما توسط WooCommerce POS  پشتیبانی نمی شود."
+
+#: includes/views/modals/browser.php:3
+msgid ""
+"If possible, please <a href=\"http://browsehappy.com/\">update your "
+"browser</a>, we recommend either Chrome or Firefox."
+msgstr "اگر ممکن است، لطفا مرورگر خود را<a href=\"http://browsehappy.com/\"> بروز رسانی کنید</a>، ما  کروم یا فایرفاکس را توصیه می کنیم."
+
+#: includes/views/modals/browser.php:7
+msgid ""
+"If you believe you have received this message in error please contact "
+"support via <a "
+"href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
+msgstr "اگر فکر می کنید این پیام را به صورت خطا دریافت کرده اید، با پشتیبانی از طریق <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a> تماس بگیرید"
+
+#: includes/views/pos/products/tmpl-filter.php:7
+msgid "Scan Barcode"
+msgstr "اسکن بارکد"
+
+#: includes/views/print/tmpl-receipt.php:115
+msgid "Billing Address"
+msgstr "آدرس قبض"
+
+#: includes/views/print/tmpl-receipt.php:118
+msgid "Shipping Address"
+msgstr "آدرس حمل و نقل"
+
+#: includes/views/print/tmpl-receipt.php:123
+msgid "Order Number"
+msgstr "شماره سفارش"
+
+#: includes/views/print/tmpl-receipt.php:127
+msgid "Order Date"
+msgstr "تاریخ سفارش"
+
+#: includes/views/print/tmpl-receipt.php:132
+msgid "Cashier"
+msgstr "صندوقدار"
+
+#: includes/views/print/tmpl-receipt.php:137
+msgid "Payment Method"
+msgstr "روش پرداخت"
+
+#: includes/views/support/tmpl-form.php:20
+msgid "Message"
+msgstr "پیام"
+
+#: includes/views/support/tmpl-form.php:21
+msgid "Describe your problem here ..."
+msgstr "مشکل خود را در اینجا توضیح دهید ..."
+
+#: includes/views/support/tmpl-form.php:28
+msgid "Append POS system report"
+msgstr "گزارش سیستم فروشگاه را اضافه کن"
+
+#: includes/views/support/tmpl-status.php:31
+msgid "Local Storage"
+msgstr "ذخیره سازی محلی"
+
+#: includes/views/template.php:8
+msgid "Point of Sale"
+msgstr "نقطه فروش"
+
+#: includes/views/tmpl-pagination.php:2
+msgid "Showing %s of %s"
+msgstr "نمایش٪ s از٪ s"
+
+#: includes/views/tmpl-pagination.php:3
+msgid "%s in queue"
+msgstr "٪ s در صف"
+
+#. Description of the plugin/theme
+msgid ""
+"A simple front-end for taking WooCommerce orders at the Point of Sale. "
+"Requires <a "
+"href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a>."
+msgstr "یک Front-end ساده برای گرفتن سفارشات ووکامرس درفروشگاه.<a href=\"http://wordpress.org/plugins/woocommerce/\">نیاز به ووکامرس دارد</a>"
+
+#: includes/class-wc-pos-i18n.php:312
+msgctxt "system status: browser capabilities"
+msgid "Browser"
+msgstr "مرورگر"
+
+#: includes/class-wc-pos-i18n.php:323
+msgctxt "keyboard shortcuts"
+msgid "HotKeys"
+msgstr "کلیدهای میانبر"
+
+#: includes/class-wc-pos-i18n.php:338
+msgctxt "order status, ie: open order in cart"
+msgid "Open"
+msgstr "باز کن"
+
+#: includes/class-wc-pos-i18n.php:339
+#: includes/gateways/class-wc-pos-cash.php:93
+#: includes/views/print/tmpl-receipt.php:250
+msgctxt "Money returned from cash sale"
+msgid "Change"
+msgstr "تغییر دادن"
+
+#: includes/class-wc-pos-i18n.php:347
+msgctxt "system status: delete local records"
+msgid "Clear"
+msgstr "پاک کردن"
+
+#: includes/class-wc-pos-i18n.php:366
+msgctxt "restore default settings"
+msgid "Restore defaults"
+msgstr "بازگرداندن پیش فرض ها"
+
+#: includes/class-wc-pos-i18n.php:367
+msgctxt "Numpad return key"
+msgid "return"
+msgstr "بازگشت"
+
+#: includes/class-wc-pos-i18n.php:401
+msgctxt "eg: 23 records"
+msgid "record |||| records"
+msgstr "ضبط |||| سوابق"
+
+#: includes/class-wc-pos-params.php:85
+msgctxt "Product tab: 'On Sale' products"
+msgid "On Sale"
+msgstr "حراج"
+
+#: includes/views/pos/cart/tmpl-panel.php:2
+#: includes/views/pos/receipt/tmpl-panel.php:3
+#: includes/views/print/tmpl-receipt.php:157
+msgctxt "Abbreviation of Quantity"
+msgid "Qty"
+msgstr "تعداد"
+
+#: includes/views/pos/cart/tmpl-totals.php:19
+#: includes/views/pos/cart/tmpl-totals.php:30
+#: includes/views/pos/receipt/tmpl-totals.php:29
+#: includes/views/pos/receipt/tmpl-totals.php:39
+#: includes/views/print/tmpl-receipt.php:215
+#: includes/views/print/tmpl-receipt.php:225
+msgctxt "abbreviation for includes (tax)"
+msgid "incl."
+msgstr "شامل"

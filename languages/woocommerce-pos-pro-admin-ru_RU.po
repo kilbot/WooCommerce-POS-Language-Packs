@@ -1,14 +1,15 @@
 # Copyright (C) 2017 kilbot
 # This file is distributed under the Copyright 2015 The Kilbot Factory.
 # Translators:
+# Sergey Khramtsov <6664045@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
 "POT-Creation-Date: 2017-05-31 11:35:22+00:00\n"
-"PO-Revision-Date: 2017-06-07 06:19+0000\n"
-"Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
+"PO-Revision-Date: 2017-08-08 13:46+0000\n"
+"Last-Translator: Sergey Khramtsov <6664045@gmail.com>\n"
 "Language-Team: Russian (Russia) (http://www.transifex.com/kilbot/woocommerce-"
 "pos/language/ru_RU/)\n"
 "Language: ru_RU\n"
@@ -22,12 +23,14 @@ msgstr ""
 
 #: includes/admin/class-wc-pos-pro-am.php:72
 msgid "The %s License Key has not been activated, so the plugin is inactive!"
-msgstr ""
+msgstr "Лицензионный ключ не был активирован, плагин не активен!"
 
 #: includes/admin/class-wc-pos-pro-am.php:73
 msgid ""
 " <a href=\"%s\">Click here</a> to activate the license key and the plugin."
 msgstr ""
+"<a href=\"%s\">Нажмите здесь</a>чтобы активировать лицензионный ключ и "
+"плагин."
 
 #: includes/admin/class-wc-pos-pro-am.php:106
 msgid ""
@@ -37,7 +40,7 @@ msgstr ""
 
 #: includes/admin/class-wc-pos-pro-am.php:232
 msgid "Unable to connect to the activation server"
-msgstr ""
+msgstr "Не могу подключиться к серверу активации"
 
 #: includes/admin/class-wc-pos-pro-am.php:267
 msgid "Unable to parse the server response"
@@ -50,15 +53,15 @@ msgstr ""
 #: includes/admin/class-wc-pos-pro-am.php:281
 #: includes/admin/class-wc-pos-pro-am.php:285
 msgid "Invalid License Key"
-msgstr ""
+msgstr "Неверный лицензионный ключ"
 
 #: includes/admin/class-wc-pos-pro-am.php:282
 msgid "Activation error"
-msgstr ""
+msgstr "Ошибка активации"
 
 #: includes/admin/class-wc-pos-pro-am.php:283
 msgid "Exceeded maximum number of activations"
-msgstr ""
+msgstr "Превышено максимальное число активаций"
 
 #: includes/admin/class-wc-pos-pro-am.php:284
 msgid "Invalid Instance ID"

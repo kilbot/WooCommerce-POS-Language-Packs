@@ -2,14 +2,15 @@
 # This file is distributed under the GPL-2.0+.
 # Translators:
 # Dmitry Petrov <didpetrov@gmail.com>, 2017
+# Sergey Khramtsov <6664045@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
 "POT-Creation-Date: 2017-06-05 10:02:27+00:00\n"
-"PO-Revision-Date: 2017-06-07 06:17+0000\n"
-"Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
+"PO-Revision-Date: 2017-08-08 19:11+0000\n"
+"Last-Translator: Sergey Khramtsov <6664045@gmail.com>\n"
 "Language-Team: Russian (Russia) (http://www.transifex.com/kilbot/woocommerce-"
 "pos/language/ru_RU/)\n"
 "Language: ru_RU\n"
@@ -86,7 +87,7 @@ msgstr "Поддержка"
 #: includes/views/print/tmpl-receipt.php:193
 #: includes/views/print/tmpl-receipt.php:235
 msgid "Discount"
-msgstr ""
+msgstr "Скидка"
 
 #. translators: wordpress
 #. translators: woocommerce
@@ -154,11 +155,11 @@ msgstr "Требуется версия WooCommerce %s или новее"
 
 #: includes/class-wc-pos-status.php:60
 msgid "PHP Version"
-msgstr ""
+msgstr "Версия PHP"
 
 #: includes/class-wc-pos-status.php:67
 msgid "PHP >= %s required"
-msgstr ""
+msgstr "Требуется версия PHP %s и выше"
 
 #: includes/class-wc-pos-status.php:88
 msgid "WC REST API"
@@ -237,7 +238,7 @@ msgstr "Адрес доставки"
 
 #: includes/views/print/tmpl-receipt.php:123
 msgid "Order Number"
-msgstr ""
+msgstr "Номер заказа"
 
 #: includes/views/print/tmpl-receipt.php:127
 msgid "Order Date"
@@ -253,7 +254,7 @@ msgstr "Метод оплаты"
 
 #: includes/views/support/tmpl-form.php:20
 msgid "Message"
-msgstr ""
+msgstr "Сообщение"
 
 #: includes/views/support/tmpl-form.php:21
 msgid "Describe your problem here ..."

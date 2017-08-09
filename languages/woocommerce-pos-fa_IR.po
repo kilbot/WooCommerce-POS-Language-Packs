@@ -5,15 +5,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
-"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
+"Packs/issues\n"
 "POT-Creation-Date: 2017-06-05 10:02:27+00:00\n"
 "PO-Revision-Date: 2017-08-08 11:27+0000\n"
 "Last-Translator: Pouria Hector <pouria.hector.ph@gmail.com>\n"
-"Language-Team: Persian (Iran) (http://www.transifex.com/kilbot/woocommerce-pos/language/fa_IR/)\n"
+"Language-Team: Persian (Iran) (http://www.transifex.com/kilbot/woocommerce-"
+"pos/language/fa_IR/)\n"
+"Language: fa_IR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fa_IR\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: grunt-wp-i18n 0.5.4\n"
 
@@ -74,8 +76,7 @@ msgstr "دریافت ایمیل"
 msgid "Support Form"
 msgstr "فرم پشتیبانی"
 
-#: includes/class-wc-pos-i18n.php:352
-#: includes/views/pos/cart/tmpl-totals.php:8
+#: includes/class-wc-pos-i18n.php:352 includes/views/pos/cart/tmpl-totals.php:8
 #: includes/views/pos/receipt/tmpl-totals.php:7
 #: includes/views/pos/receipt/tmpl-totals.php:49
 #: includes/views/print/tmpl-receipt.php:193
@@ -86,8 +87,7 @@ msgstr "تخفیف"
 #. translators: wordpress
 #. translators: woocommerce
 #. translators: wordpress
-#: includes/class-wc-pos-i18n.php:354
-#: includes/views/print/tmpl-receipt.php:142
+#: includes/class-wc-pos-i18n.php:354 includes/views/print/tmpl-receipt.php:142
 #: includes/views/support/tmpl-form.php:16
 msgid "Email"
 msgstr "ایمیل"
@@ -170,9 +170,10 @@ msgstr "دسترسی به API REST مورد نیاز است"
 
 #: includes/class-wc-pos-status.php:146
 msgid ""
-"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to"
-" work correctly"
-msgstr "<strong>WooCommerce REST API</strong> به permalinks <em>صحیح</em>نیاز دارد"
+"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to "
+"work correctly"
+msgstr ""
+"<strong>WooCommerce REST API</strong> به permalinks <em>صحیح</em>نیاز دارد"
 
 #: includes/class-wc-pos-status.php:150
 msgid "Enable permalinks"
@@ -202,20 +203,26 @@ msgstr "مبلغ مناقصه"
 
 #: includes/views/modals/browser.php:2
 msgid "Sorry, it seems your browser is not supported by WooCommerce POS. "
-msgstr "با عرض پوزش، به نظر می رسد مرورگر شما توسط WooCommerce POS  پشتیبانی نمی شود."
+msgstr ""
+"با عرض پوزش، به نظر می رسد مرورگر شما توسط WooCommerce POS  پشتیبانی نمی شود."
 
 #: includes/views/modals/browser.php:3
 msgid ""
-"If possible, please <a href=\"http://browsehappy.com/\">update your "
-"browser</a>, we recommend either Chrome or Firefox."
-msgstr "اگر ممکن است، لطفا مرورگر خود را<a href=\"http://browsehappy.com/\"> بروز رسانی کنید</a>، ما  کروم یا فایرفاکس را توصیه می کنیم."
+"If possible, please <a href=\"http://browsehappy.com/\">update your browser</"
+"a>, we recommend either Chrome or Firefox."
+msgstr ""
+"اگر ممکن است، لطفا مرورگر خود را<a href=\"http://browsehappy.com/\"> بروز "
+"رسانی کنید</a>، ما  کروم یا فایرفاکس را توصیه می کنیم."
 
 #: includes/views/modals/browser.php:7
 msgid ""
 "If you believe you have received this message in error please contact "
-"support via <a "
-"href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
-msgstr "اگر فکر می کنید این پیام را به صورت خطا دریافت کرده اید، با پشتیبانی از طریق <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a> تماس بگیرید"
+"support via <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</"
+"a>"
+msgstr ""
+"اگر فکر می کنید این پیام را به صورت خطا دریافت کرده اید، با پشتیبانی از طریق "
+"<a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a> تماس "
+"بگیرید"
 
 #: includes/views/pos/products/tmpl-filter.php:7
 msgid "Scan Barcode"
@@ -276,9 +283,11 @@ msgstr "٪ s در صف"
 #. Description of the plugin/theme
 msgid ""
 "A simple front-end for taking WooCommerce orders at the Point of Sale. "
-"Requires <a "
-"href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a>."
-msgstr "یک Front-end ساده برای گرفتن سفارشات ووکامرس درفروشگاه.<a href=\"http://wordpress.org/plugins/woocommerce/\">نیاز به ووکامرس دارد</a>"
+"Requires <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</"
+"a>."
+msgstr ""
+"یک Front-end ساده برای گرفتن سفارشات ووکامرس درفروشگاه.<a href=\"http://"
+"wordpress.org/plugins/woocommerce/\">نیاز به ووکامرس دارد</a>"
 
 #: includes/class-wc-pos-i18n.php:312
 msgctxt "system status: browser capabilities"

@@ -5,15 +5,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
-"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
+"Packs/issues\n"
 "POT-Creation-Date: 2017-05-31 11:35:22+00:00\n"
 "PO-Revision-Date: 2017-08-08 11:32+0000\n"
 "Last-Translator: Pouria Hector <pouria.hector.ph@gmail.com>\n"
-"Language-Team: Persian (Iran) (http://www.transifex.com/kilbot/woocommerce-pos/language/fa_IR/)\n"
+"Language-Team: Persian (Iran) (http://www.transifex.com/kilbot/woocommerce-"
+"pos/language/fa_IR/)\n"
+"Language: fa_IR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fa_IR\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: grunt-wp-i18n1.0.0\n"
 
@@ -22,14 +24,17 @@ msgid "The %s License Key has not been activated, so the plugin is inactive!"
 msgstr "کلید مجوز٪ s فعال نشده است، بنابراین پلاگین غیرفعال است!"
 
 #: includes/admin/class-wc-pos-pro-am.php:73
-msgid " <a href=\"%s\">Click here</a> to activate the license key and the plugin."
+msgid ""
+" <a href=\"%s\">Click here</a> to activate the license key and the plugin."
 msgstr "برای فعال کردن کلید مجوز و افزونه اینجا را کلیک کنید"
 
 #: includes/admin/class-wc-pos-pro-am.php:106
 msgid ""
 "<b>Warning!</b> You're blocking external requests which means you won't be "
 "able to get %s updates. Please add %s to %s."
-msgstr "هشدار! 1 مسدود کردن درخواست های خارجی است که بدین معنی است که شما قادر به دریافت٪ s به روز رسانی نیستید. لطفا٪ s را به٪ s اضافه کنید"
+msgstr ""
+"هشدار! 1 مسدود کردن درخواست های خارجی است که بدین معنی است که شما قادر به "
+"دریافت٪ s به روز رسانی نیستید. لطفا٪ s را به٪ s اضافه کنید"
 
 #: includes/admin/class-wc-pos-pro-am.php:232
 msgid "Unable to connect to the activation server"
@@ -70,84 +75,111 @@ msgstr "پاسخ نادرست"
 
 #: includes/admin/class-wc-pos-pro-am.php:307
 msgid ""
-"A license key for %s could not be found. Maybe you forgot to enter a license"
-" key when setting up %s, or the key was deactivated in your account. You can"
-" reactivate or purchase a license key from your account <a href=\"%s\" "
-"target=\"_blank\">dashboard</a>."
-msgstr "کلید مجوز برای٪ s یافت نشد شاید در هنگام تنظیم٪ s فراموش کرده اید کلید مجوز را وارد کنید یا کلید در حساب کاربری شما غیرفعال شده است. شما می توانید یک مجوز را از حساب 1dashboard1 خود مجددا فعال کنید یا آن را خریداری کنید."
+"A license key for %s could not be found. Maybe you forgot to enter a license "
+"key when setting up %s, or the key was deactivated in your account. You can "
+"reactivate or purchase a license key from your account <a href=\"%s\" target="
+"\"_blank\">dashboard</a>."
+msgstr ""
+"کلید مجوز برای٪ s یافت نشد شاید در هنگام تنظیم٪ s فراموش کرده اید کلید مجوز "
+"را وارد کنید یا کلید در حساب کاربری شما غیرفعال شده است. شما می توانید یک "
+"مجوز را از حساب 1dashboard1 خود مجددا فعال کنید یا آن را خریداری کنید."
 
 #: includes/admin/class-wc-pos-pro-am.php:308
 msgid ""
-"The license key for %s has expired. You can reactivate or purchase a license"
-" key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
-msgstr "کلید مجوز٪ s منقضی شده است. شما می توانید یک مجوز را از حساب 1dashboard1 خود مجددا فعال کنید یا آن را خریداری کنید."
+"The license key for %s has expired. You can reactivate or purchase a license "
+"key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"کلید مجوز٪ s منقضی شده است. شما می توانید یک مجوز را از حساب 1dashboard1 خود "
+"مجددا فعال کنید یا آن را خریداری کنید."
 
 #: includes/admin/class-wc-pos-pro-am.php:309
 msgid ""
-"The subscription for %s is on-hold. You can reactivate the subscription from"
-" your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
-msgstr "اشتراک برای٪ s در حالت تعلیق است شما می توانید اشتراک را از حساب 1dashboard1 خود فعال کنید."
+"The subscription for %s is on-hold. You can reactivate the subscription from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"اشتراک برای٪ s در حالت تعلیق است شما می توانید اشتراک را از حساب 1dashboard1 "
+"خود فعال کنید."
 
 #: includes/admin/class-wc-pos-pro-am.php:310
 msgid ""
 "The subscription for %s has been cancelled. You can renew the subscription "
 "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>. A new "
 "license key will be emailed to you after your order has been completed."
-msgstr "اشتراک برای٪ s لغو شده است. شما می توانید اشتراک را از حساب 1dashboard1 خود تجدید نظر کنید. پس از اتمام سفارش، یک کلید مجوز جدید به شما ایمیل خواهد شد."
+msgstr ""
+"اشتراک برای٪ s لغو شده است. شما می توانید اشتراک را از حساب 1dashboard1 خود "
+"تجدید نظر کنید. پس از اتمام سفارش، یک کلید مجوز جدید به شما ایمیل خواهد شد."
 
 #: includes/admin/class-wc-pos-pro-am.php:311
 msgid ""
 "The subscription for %s has expired. You can reactivate the subscription "
 "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
-msgstr "عضویت برای٪ s منقضی شده است. شما می توانید اشتراک را از حساب 1dashboard1 خود فعال کنید."
+msgstr ""
+"عضویت برای٪ s منقضی شده است. شما می توانید اشتراک را از حساب 1dashboard1 خود "
+"فعال کنید."
 
 #: includes/admin/class-wc-pos-pro-am.php:312
 msgid ""
 "The subscription for %s has been suspended. You can reactivate the "
-"subscription from your account <a href=\"%s\" "
-"target=\"_blank\">dashboard</a>."
-msgstr "شتراک٪ s به حالت تعلیق درآمده است. شما می توانید اشتراک را از حساب 1dashboard1 خود فعال کنید"
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+"شتراک٪ s به حالت تعلیق درآمده است. شما می توانید اشتراک را از حساب "
+"1dashboard1 خود فعال کنید"
 
 #: includes/admin/class-wc-pos-pro-am.php:313
 msgid ""
-"The subscription for %s is still pending. You can check on the status of the"
-" subscription from your account <a href=\"%s\" "
-"target=\"_blank\">dashboard</a>."
-msgstr "اشتراک برای٪ s هنوز در انتظار است. شما می توانید وضعیت اشتراک از حساب 1dashboard1 خود را بررسی کنید."
+"The subscription for %s is still pending. You can check on the status of the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+"اشتراک برای٪ s هنوز در انتظار است. شما می توانید وضعیت اشتراک از حساب "
+"1dashboard1 خود را بررسی کنید."
 
 #: includes/admin/class-wc-pos-pro-am.php:314
 msgid ""
 "The subscription for %s has been placed in the trash and will be deleted "
 "soon. You can purchase a new subscription from your account <a href=\"%s\" "
 "target=\"_blank\">dashboard</a>."
-msgstr "اشتراک٪ s در سطل زباله قرار داده شده و به زودی حذف خواهد شد. شما می توانید یک اشتراک جدید را از حساب 1dashboard1 خود خریداری کنید"
+msgstr ""
+"اشتراک٪ s در سطل زباله قرار داده شده و به زودی حذف خواهد شد. شما می توانید "
+"یک اشتراک جدید را از حساب 1dashboard1 خود خریداری کنید"
 
 #: includes/admin/class-wc-pos-pro-am.php:315
 msgid ""
 "A subscription for %s could not be found. You can purchase a subscription "
 "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
-msgstr "اشتراک برای٪ s یافت نشد شما می توانید یک اشتراک از حساب 1dashboard1 خود خریداری کنید."
+msgstr ""
+"اشتراک برای٪ s یافت نشد شما می توانید یک اشتراک از حساب 1dashboard1 خود "
+"خریداری کنید."
 
 #: includes/admin/class-wc-pos-pro-am.php:316
 msgid ""
-"%s has not been activated. Go to the settings page and enter the license key"
-" and license email to activate %s."
-msgstr "٪ s فعال نشده است برای فعال کردن٪ s به صفحه تنظیمات بروید و کلید مجوز و مجوز ایمیل را وارد کنید."
+"%s has not been activated. Go to the settings page and enter the license key "
+"and license email to activate %s."
+msgstr ""
+"٪ s فعال نشده است برای فعال کردن٪ s به صفحه تنظیمات بروید و کلید مجوز و مجوز "
+"ایمیل را وارد کنید."
 
 #: includes/admin/class-wc-pos-pro-am.php:317
 msgid ""
-"Download permission for %s has been revoked possibly due to a license key or"
-" subscription expiring. You can reactivate or purchase a license key from "
+"Download permission for %s has been revoked possibly due to a license key or "
+"subscription expiring. You can reactivate or purchase a license key from "
 "your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
-msgstr "مجوز دانلود٪ s به احتمال زیاد به دلیل کلید مجوز یا عضویت منقضی شده لغو شده است. شما می توانید یک مجوز را از حساب 1dashboard1 خود مجددا فعال کنید یا آن را خریداری کنید."
+msgstr ""
+"مجوز دانلود٪ s به احتمال زیاد به دلیل کلید مجوز یا عضویت منقضی شده لغو شده "
+"است. شما می توانید یک مجوز را از حساب 1dashboard1 خود مجددا فعال کنید یا آن "
+"را خریداری کنید."
 
 #: includes/admin/class-wc-pos-pro-am.php:318
 msgid ""
 "You changed the subscription for %s, so you will need to enter your new API "
 "License Key in the settings page. The License Key should have arrived in "
-"your email inbox, if not you can get it by logging into your account <a "
-"href=\"%s\" target=\"_blank\">dashboard</a>."
-msgstr "شما اشتراک٪ s را تغییر دادید، بنابراین باید کلید مجوز API خود را در صفحه تنظیمات وارد کنید. کلید مجوز باید در صندوق ورودی خود وارد شود، اگر نه شما می توانید آن را با ورود به حساب کاربری خود 1dashboard1 دریافت کنید."
+"your email inbox, if not you can get it by logging into your account <a href="
+"\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"شما اشتراک٪ s را تغییر دادید، بنابراین باید کلید مجوز API خود را در صفحه "
+"تنظیمات وارد کنید. کلید مجوز باید در صندوق ورودی خود وارد شود، اگر نه شما می "
+"توانید آن را با ورود به حساب کاربری خود 1dashboard1 دریافت کنید."
 
 #: includes/admin/class-wc-pos-pro-reports.php:27
 #: includes/admin/reports/views/sales-table.php:12
@@ -228,7 +260,8 @@ msgstr "لوگوی فروشگاه را تنظیم کنید"
 msgid ""
 "Please <a href=\"%s\">read the docs</a> for information on how to customize "
 "your POS receipts."
-msgstr "لطفا 1 docs1 را برای اطلاعات در مورد چگونگی سفارشی درآمد فروشگاه خود ببینید."
+msgstr ""
+"لطفا 1 docs1 را برای اطلاعات در مورد چگونگی سفارشی درآمد فروشگاه خود ببینید."
 
 #: includes/admin/reports/class-wc-pos-pro-sales.php:168
 #: includes/admin/reports/class-wc-pos-pro-sales.php:171
@@ -352,9 +385,11 @@ msgstr "به عنوان مثال: تعطیلات عمومی بسته است"
 
 #: includes/admin/views/stores/opening-hours.php:27
 msgid ""
-"You can add opening hours to your website using a widget. <a "
-"href=\"%s\">Read the docs</a> for more information."
-msgstr "با استفاده از یک ویجت می توانید ساعتهای باز به وب سایت خود اضافه کنید. 1 اطلاعات docs1 را بخوانید."
+"You can add opening hours to your website using a widget. <a href=\"%s"
+"\">Read the docs</a> for more information."
+msgstr ""
+"با استفاده از یک ویجت می توانید ساعتهای باز به وب سایت خود اضافه کنید. 1 "
+"اطلاعات docs1 را بخوانید."
 
 #: includes/admin/views/stores/receipt-options.php:9
 msgid "Complimentary Close"
@@ -364,7 +399,9 @@ msgstr "بستن مناسب"
 msgid ""
 "Personal notes or season greetings, e.g. Thank You for Your Order! or Merry "
 "Christmas!"
-msgstr "یادداشت های شخصی یا جلسات فصل، به عنوان مثال از سفارش شما متشکریم! یا کریسمس مبارک"
+msgstr ""
+"یادداشت های شخصی یا جلسات فصل، به عنوان مثال از سفارش شما متشکریم! یا کریسمس "
+"مبارک"
 
 #: includes/admin/views/stores/receipt-options.php:13
 msgid "Returns Policy"
@@ -400,12 +437,16 @@ msgstr "هیچ نرخ مالیاتی تعیین نشده است"
 
 #: includes/admin/views/stores/tax-rate.php:43
 msgid ""
-"The tax rates above will be used at the point of sale. You can <a "
-"href=\"%s\">change the tax rate</a> in WooCommerce settings."
-msgstr "نرخ مالیات بالا در نقطه فروش استفاده می شود. شما می توانید نرخ مالیات 1 را در تنظیمات WooCommerce تغییر دهید."
+"The tax rates above will be used at the point of sale. You can <a href=\"%s"
+"\">change the tax rate</a> in WooCommerce settings."
+msgstr ""
+"نرخ مالیات بالا در نقطه فروش استفاده می شود. شما می توانید نرخ مالیات 1 را "
+"در تنظیمات WooCommerce تغییر دهید."
 
 #: includes/class-wc-pos-pro-activator.php:155
 msgid ""
 "<strong>WooCommerce POS Pro</strong> requires <a href=\"%s\">WooCommerce "
 "POS</a>. Please <a href=\"%s\">install and activate WooCommerce POS</a>"
-msgstr "WooCommerce POS Pro1 نیاز به 2WooCommerce POS2. لطفا WooCommerce POS3 را نصب و فعال کنید"
+msgstr ""
+"WooCommerce POS Pro1 نیاز به 2WooCommerce POS2. لطفا WooCommerce POS3 را نصب "
+"و فعال کنید"

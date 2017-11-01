@@ -1,6 +1,7 @@
 # Copyright (C) 2017 kilbot
 # This file is distributed under the Copyright 2015 The Kilbot Factory.
 # Translators:
+# Bøffelberget Lillestrøm <post@boffelberget.no>, 2017
 # Stig Andersen <stig@r8edge.no>, 2017
 msgid ""
 msgstr ""
@@ -8,8 +9,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
 "POT-Creation-Date: 2017-05-31 11:35:22+00:00\n"
-"PO-Revision-Date: 2017-07-30 19:50+0000\n"
-"Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
+"PO-Revision-Date: 2017-10-04 12:03+0000\n"
+"Last-Translator: Bøffelberget Lillestrøm <post@boffelberget.no>\n"
 "Language-Team: Norwegian Bokmål (Norway) (http://www.transifex.com/kilbot/"
 "woocommerce-pos/language/nb_NO/)\n"
 "Language: nb_NO\n"
@@ -179,7 +180,7 @@ msgstr ""
 
 #: includes/admin/class-wc-pos-pro-stores.php:62
 msgid "Stores"
-msgstr ""
+msgstr "Butikker"
 
 #: includes/admin/class-wc-pos-pro-stores.php:129
 msgid "Open POS"
@@ -188,7 +189,7 @@ msgstr ""
 #: includes/admin/class-wc-pos-pro-stores.php:148
 #: includes/admin/views/order-details.php:2
 msgid "Store"
-msgstr ""
+msgstr "Butikk"
 
 #: includes/admin/class-wc-pos-pro-stores.php:165
 msgid "Preview Receipt"
@@ -196,11 +197,11 @@ msgstr ""
 
 #: includes/admin/class-wc-pos-pro-stores.php:180
 msgid "Opening Hours"
-msgstr ""
+msgstr "Åpningstider"
 
 #: includes/admin/class-wc-pos-pro-stores.php:189
 msgid "Logo"
-msgstr ""
+msgstr "Logo"
 
 #: includes/admin/class-wc-pos-pro-stores.php:212
 msgid "Receipt Options"
@@ -213,7 +214,7 @@ msgstr ""
 #: includes/admin/class-wc-pos-pro-stores.php:277
 #: includes/admin/class-wc-pos-pro-stores.php:293
 msgid "Set store logo"
-msgstr ""
+msgstr "Velg butikklogo"
 
 #: includes/admin/class-wc-pos-pro-stores.php:278
 msgid "Remove featured image"
@@ -251,11 +252,11 @@ msgstr ""
 
 #: includes/admin/reports/class-wc-pos-pro-store.php:59
 msgid "No Stores found."
-msgstr ""
+msgstr "Ingen butikker funnet."
 
 #: includes/admin/reports/class-wc-pos-pro-store.php:61
 msgid "Add New Store"
-msgstr ""
+msgstr "Legg til ny butikk"
 
 #: includes/admin/reports/views/sales-table.php:4
 msgid "Period"

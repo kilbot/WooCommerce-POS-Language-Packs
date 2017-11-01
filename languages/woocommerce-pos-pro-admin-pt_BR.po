@@ -1,6 +1,7 @@
 # Copyright (C) 2017 kilbot
 # This file is distributed under the Copyright 2015 The Kilbot Factory.
 # Translators:
+# Eduardo Mangucci <eduardomangucci@gmail.com>, 2017
 # Paul Kilmurray <paul@kilbot.com.au>, 2016
 msgid ""
 msgstr ""
@@ -8,8 +9,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
 "POT-Creation-Date: 2017-05-31 11:35:22+00:00\n"
-"PO-Revision-Date: 2017-06-07 06:19+0000\n"
-"Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
+"PO-Revision-Date: 2017-10-14 19:42+0000\n"
+"Last-Translator: Eduardo Mangucci <eduardomangucci@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/kilbot/"
 "woocommerce-pos/language/pt_BR/)\n"
 "Language: pt_BR\n"
@@ -49,7 +50,7 @@ msgstr "Não é possível analisar a resposta do servidor"
 
 #: includes/admin/class-wc-pos-pro-am.php:279
 msgid "Invalid Request"
-msgstr "pedido inválido"
+msgstr "Pedido inválido"
 
 #: includes/admin/class-wc-pos-pro-am.php:281
 #: includes/admin/class-wc-pos-pro-am.php:285

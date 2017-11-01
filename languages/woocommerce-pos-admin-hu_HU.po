@@ -1,20 +1,22 @@
-# Copyright (C) 2015 kilbot
+# Copyright (C) 2017 kilbot
 # This file is distributed under the GPL-2.0+.
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce POS 0.4.5\n"
+"Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2017-05-31 11:32:56+00:00\n"
-"PO-Revision-Date: 2015-10-29 13:23:18+00:00\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: hu\n"
+"POT-Creation-Date: 2017-06-05 10:02:27+00:00\n"
+"PO-Revision-Date: 2015-06-10 14:18+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Hungarian (Hungary) (http://www.transifex.com/kilbot/"
+"woocommerce-pos/language/hu_HU/)\n"
+"Language: hu_HU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: grunt-wp-i18n 0.5.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
 
 #: includes/admin/class-wc-pos-gateways.php:31
 msgid "Online Store"
@@ -26,7 +28,7 @@ msgstr ""
 #: includes/admin/class-wc-pos-orders.php:95
 #: includes/admin/views/order-details.php:5
 msgid "POS"
-msgstr ""
+msgstr "POS"
 
 #: includes/admin/class-wc-pos-menu.php:44
 #: includes/admin/class-wc-pos-menu.php:45
@@ -306,7 +308,7 @@ msgstr ""
 #: includes/admin/settings/class-wc-pos-hotkeys.php:22
 msgctxt "keyboard shortcuts"
 msgid "HotKeys"
-msgstr ""
+msgstr "Gyorsbillentyűk"
 
 #: includes/admin/settings/views/checkout.php:143
 msgctxt "POS checkout settings"

@@ -1,19 +1,23 @@
-# Copyright (C) 2015 kilbot
+# Copyright (C) 2017 kilbot
 # This file is distributed under the GPL-2.0+.
+# Translators:
+# pojung wu <wupojung@gmail.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce POS 0.4.1\n"
+"Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2017-05-31 11:32:56+00:00\n"
-"PO-Revision-Date: 2015-07-10 12:11:16+00:00\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2017-06-05 10:02:27+00:00\n"
+"PO-Revision-Date: 2017-09-22 10:17+0000\n"
+"Last-Translator: pojung wu <wupojung@gmail.com>\n"
+"Language-Team: Chinese (Taiwan) (http://www.transifex.com/kilbot/woocommerce-"
+"pos/language/zh_TW/)\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: grunt-wp-i18n 0.5.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
 
 #: includes/admin/class-wc-pos-gateways.php:31
 msgid "Online Store"
@@ -25,7 +29,7 @@ msgstr ""
 #: includes/admin/class-wc-pos-orders.php:95
 #: includes/admin/views/order-details.php:5
 msgid "POS"
-msgstr ""
+msgstr "POS"
 
 #: includes/admin/class-wc-pos-menu.php:44
 #: includes/admin/class-wc-pos-menu.php:45
@@ -35,7 +39,7 @@ msgstr ""
 #: includes/admin/class-wc-pos-menu.php:53
 #: includes/admin/settings/views/checkout.php:101
 msgid "Upgrade to Pro"
-msgstr ""
+msgstr "升級到專業版"
 
 #: includes/admin/class-wc-pos-orders.php:96
 #: includes/admin/views/order-details.php:4
@@ -51,7 +55,7 @@ msgstr ""
 #: includes/admin/settings/views/checkout.php:106
 #: includes/admin/settings/views/checkout.php:111
 msgid "Settings"
-msgstr ""
+msgstr "設定"
 
 #: includes/admin/settings/class-wc-pos-access.php:25
 msgid "POS Access"
@@ -67,7 +71,7 @@ msgstr ""
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:45
 msgid "New order"
-msgstr ""
+msgstr "新訂單"
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:46
 msgid "Sync with server"
@@ -94,7 +98,7 @@ msgstr ""
 #: includes/admin/settings/views/hotkeys.php:6
 msgid ""
 "For more information please visit <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
-msgstr ""
+msgstr "更多資料請瀏覽<a href=\"%1$s\" target=\"_blank\">%1$s</a>"
 
 #: includes/admin/settings/views/checkout.php:13
 msgid "Completed Order Status"
@@ -106,7 +110,7 @@ msgstr ""
 
 #: includes/admin/settings/views/checkout.php:27
 msgid "Order Emails"
-msgstr ""
+msgstr "訂購Emails"
 
 #: includes/admin/settings/views/checkout.php:28
 msgid "Send WooCommerce notification emails for POS orders"
@@ -158,11 +162,11 @@ msgstr ""
 
 #: includes/admin/settings/views/checkout.php:74
 msgid "POS Status"
-msgstr ""
+msgstr "POS 狀態"
 
 #: includes/admin/settings/views/checkout.php:75
 msgid "POS Settings"
-msgstr ""
+msgstr "POS 設定"
 
 #: includes/admin/settings/views/checkout.php:126
 msgid "Payment method title."
@@ -211,7 +215,7 @@ msgstr ""
 
 #: includes/admin/settings/views/hotkeys.php:1
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "鍵盤快捷鍵"
 
 #: includes/admin/settings/views/hotkeys.php:4
 msgid ""
@@ -246,15 +250,15 @@ msgstr ""
 
 #: includes/admin/settings/views/tools.php:54
 msgid "Local Data"
-msgstr ""
+msgstr "本地端資料"
 
 #: includes/admin/settings/views/tools.php:59
 msgid "Clear Local Data"
-msgstr ""
+msgstr "清除本地端資料"
 
 #: includes/admin/settings/views/tools.php:62
 msgid "Clear All Local Data"
-msgstr ""
+msgstr "清除所有本地端資料"
 
 #: includes/admin/views/order-details.php:2
 msgid "Order type"
@@ -290,7 +294,7 @@ msgstr ""
 #: includes/products/class-wc-pos-visibility.php:25
 #: includes/products/class-wc-pos-visibility.php:88
 msgid "Online Only"
-msgstr ""
+msgstr "線上限定"
 
 #: includes/products/views/post-metabox-visibility-select.php:11
 #: includes/products/views/quick-edit-visibility-select.php:14
@@ -305,7 +309,7 @@ msgstr ""
 #: includes/admin/settings/class-wc-pos-hotkeys.php:22
 msgctxt "keyboard shortcuts"
 msgid "HotKeys"
-msgstr ""
+msgstr "熱鍵"
 
 #: includes/admin/settings/views/checkout.php:143
 msgctxt "POS checkout settings"

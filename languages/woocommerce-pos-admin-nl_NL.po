@@ -1,4 +1,4 @@
-# Copyright (C) 2015 kilbot
+# Copyright (C) 2017 kilbot
 # This file is distributed under the GPL-2.0+.
 # Translators:
 # Egbert Jan van den Bussche <egbert@vandenbussche.nl>, 2015
@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2017-05-31 11:32:56+00:00\n"
-"PO-Revision-Date: 2015-09-22 06:03+0000\n"
+"POT-Creation-Date: 2017-06-05 10:02:27+00:00\n"
+"PO-Revision-Date: 2017-09-23 21:22+0000\n"
 "Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
 "Language-Team: Dutch (Netherlands) (http://www.transifex.com/kilbot/"
 "woocommerce-pos/language/nl_NL/)\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: grunt-wp-i18n 0.5.3\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
 
 #: includes/admin/class-wc-pos-gateways.php:31
 msgid "Online Store"
@@ -55,9 +55,8 @@ msgstr "Online"
 #: includes/admin/settings/views/checkout.php:76
 #: includes/admin/settings/views/checkout.php:106
 #: includes/admin/settings/views/checkout.php:111
-#, fuzzy
 msgid "Settings"
-msgstr "KASSA instellingen"
+msgstr "Instellingen"
 
 #: includes/admin/settings/class-wc-pos-access.php:25
 msgid "POS Access"
@@ -271,15 +270,15 @@ msgstr "Emuleer RESTful HTTP methodes om legacy servers te ondersteunen."
 
 #: includes/admin/settings/views/tools.php:54
 msgid "Local Data"
-msgstr ""
+msgstr "Locale Data"
 
 #: includes/admin/settings/views/tools.php:59
 msgid "Clear Local Data"
-msgstr ""
+msgstr "Verwijder Local Data"
 
 #: includes/admin/settings/views/tools.php:62
 msgid "Clear All Local Data"
-msgstr ""
+msgstr "Verwijder alle Lokale data"
 
 #: includes/admin/views/order-details.php:2
 msgid "Order type"
@@ -294,22 +293,20 @@ msgstr ""
 "op met <a href=\"mailto:support@woopos.com.au\">support</a>"
 
 #: includes/class-wc-pos-activator.php:194
-#, fuzzy
 msgid ""
 "<strong>WooCommerce POS</strong> requires <a href=\"%s\">WooCommerce %s or "
 "higher</a>. Please <a href=\"%s\">install and activate WooCommerce</a>"
 msgstr ""
-"<strong>WooCommerce KASSA(POS)</strong> vereist <a href=\"%s\">WooCommerce</"
-"a>. <a href=\"%s\">installeer en activeer WooCommerce</a>"
+"<strong>WooCommerce POS</strong> vereist <a href=\"%s\">WooCommerce %s of "
+"nieuwer</a>. <a href=\"%s\">installeer en activeer WooCommerce</a>"
 
 #: includes/class-wc-pos-activator.php:213
-#, fuzzy
 msgid ""
 "<strong>WooCommerce POS</strong> requires PHP %s or higher. Read more "
 "information about <a href=\"%s\">how you can update</a>"
 msgstr ""
-"<strong>WooCommerce KASSA(POS)</strong> vereist <a href=\"%s\">WooCommerce</"
-"a>. <a href=\"%s\">installeer en activeer WooCommerce</a>"
+"<strong>WooCommerce POS</strong> vereist PHP %s of nieuwer. Lees meer "
+"informatie over <a href=\"%s\">hoe kan je updaten</a>"
 
 #: includes/products/class-wc-pos-visibility.php:23
 msgid "POS & Online"

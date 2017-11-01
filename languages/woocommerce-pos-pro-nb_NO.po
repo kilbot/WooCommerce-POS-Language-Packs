@@ -1,6 +1,7 @@
 # Copyright (C) 2017 kilbot
 # This file is distributed under the Copyright 2015 The Kilbot Factory.
 # Translators:
+# Bøffelberget Lillestrøm <post@boffelberget.no>, 2017
 # Stig Andersen <stig@r8edge.no>, 2017
 msgid ""
 msgstr ""
@@ -8,8 +9,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
 "POT-Creation-Date: 2017-05-31 11:35:22+00:00\n"
-"PO-Revision-Date: 2017-07-30 19:38+0000\n"
-"Last-Translator: Stig Andersen <stig@r8edge.no>\n"
+"PO-Revision-Date: 2017-10-04 12:02+0000\n"
+"Last-Translator: Bøffelberget Lillestrøm <post@boffelberget.no>\n"
 "Language-Team: Norwegian Bokmål (Norway) (http://www.transifex.com/kilbot/"
 "woocommerce-pos/language/nb_NO/)\n"
 "Language: nb_NO\n"
@@ -25,57 +26,57 @@ msgstr "Ugyldig sikkerhetsnøkkel"
 
 #: includes/class-wc-pos-pro-i18n.php:110
 msgid "Edit Customer"
-msgstr ""
+msgstr "Rediger kunde"
 
 #: includes/class-wc-pos-pro-i18n.php:111
 #: includes/views/customers/tmpl-actions.php:13
 msgid "Add New Customer"
-msgstr ""
+msgstr "Legg til ny kunde"
 
 #: includes/class-wc-pos-pro-stores.php:57
 #: includes/class-wc-pos-pro-stores.php:59
 #: includes/class-wc-pos-pro-stores.php:65
 msgid "Stores"
-msgstr ""
+msgstr "Butikker"
 
 #: includes/class-wc-pos-pro-stores.php:58
 #: includes/class-wc-pos-pro-stores.php:103
 #: includes/widgets/class-wc-pos-pro-hours.php:82
 msgid "Store"
-msgstr ""
+msgstr "Butikk"
 
 #: includes/class-wc-pos-pro-stores.php:60
 #: includes/class-wc-pos-pro-stores.php:61
 msgid "Add New Store"
-msgstr ""
+msgstr "Legg til ny butikk"
 
 #: includes/class-wc-pos-pro-stores.php:62
 msgid "New Store"
-msgstr ""
+msgstr "Ny butikk"
 
 #: includes/class-wc-pos-pro-stores.php:63
 msgid "Edit Store"
-msgstr ""
+msgstr "Rediger butikk"
 
 #: includes/class-wc-pos-pro-stores.php:64
 msgid "View Store"
-msgstr ""
+msgstr "Vis butikk"
 
 #: includes/class-wc-pos-pro-stores.php:66
 msgid "Search Stores"
-msgstr ""
+msgstr "Søk i butikker"
 
 #: includes/class-wc-pos-pro-stores.php:67
 msgid "Parent Store:"
-msgstr ""
+msgstr "Overordnet butikk:"
 
 #: includes/class-wc-pos-pro-stores.php:68
 msgid "No Stores found."
-msgstr ""
+msgstr "Ingen butikker funnet."
 
 #: includes/class-wc-pos-pro-stores.php:69
 msgid "No Stores found in Trash."
-msgstr ""
+msgstr "Ingen butikker funnet i søppelkurv."
 
 #. translators: woocommerce
 #. translators: wordpress
@@ -90,7 +91,7 @@ msgstr "Epost"
 
 #: includes/views/pos/cart/tmpl-customer.php:5
 msgid "Add Customer"
-msgstr ""
+msgstr "Legg til kunde"
 
 #: includes/views/print/tmpl-receipt.php:4
 msgid "Receipt"
@@ -110,7 +111,7 @@ msgstr "Betalingsmetode"
 
 #: includes/views/print/tmpl-receipt.php:231
 msgid "Cart Subtotal"
-msgstr ""
+msgstr "Handlekurv subtotal"
 
 #: includes/views/print/tmpl-receipt.php:289
 msgid "Amount Tendered"
@@ -118,11 +119,11 @@ msgstr "Beløp"
 
 #: includes/views/products/tmpl-list-item.php:72
 msgid "On Sale?"
-msgstr ""
+msgstr "På tilbud?"
 
 #: includes/widgets/class-wc-pos-pro-hours.php:17
 msgid "Store Opening Hours"
-msgstr ""
+msgstr "Åpningstider for butikk"
 
 #: includes/widgets/class-wc-pos-pro-hours.php:18
 msgid "Display store hours set in WooCommerce POS"

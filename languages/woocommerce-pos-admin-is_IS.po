@@ -1,4 +1,4 @@
-# Copyright (C) 2015 kilbot
+# Copyright (C) 2017 kilbot
 # This file is distributed under the GPL-2.0+.
 # Translators:
 # Hafsteinn Viktorsson <hafsteinn.viktorsson@gmail.com>, 2016
@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2017-05-31 11:32:56+00:00\n"
-"PO-Revision-Date: 2016-08-24 06:50+0000\n"
+"POT-Creation-Date: 2017-06-05 10:02:27+00:00\n"
+"PO-Revision-Date: 2017-09-23 22:55+0000\n"
 "Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
 "Language-Team: Icelandic (Iceland) (http://www.transifex.com/kilbot/"
 "woocommerce-pos/language/is_IS/)\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n % 10 != 1 || n % 100 == 11);\n"
-"X-Generator: grunt-wp-i18n 0.5.3\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
 
 #: includes/admin/class-wc-pos-gateways.php:31
 msgid "Online Store"

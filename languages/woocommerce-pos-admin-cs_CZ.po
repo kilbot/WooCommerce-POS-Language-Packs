@@ -1,4 +1,4 @@
-# Copyright (C) 2015 kilbot
+# Copyright (C) 2017 kilbot
 # This file is distributed under the GPL-2.0+.
 # Translators:
 # Laco Tousek <laco.tousek@gmail.com>, 2015
@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
-"POT-Creation-Date: 2017-05-31 11:32:56+00:00\n"
-"PO-Revision-Date: 2015-09-16 23:33+0000\n"
-"Last-Translator: Laco Tousek <laco.tousek@gmail.com>\n"
+"POT-Creation-Date: 2017-06-05 10:02:27+00:00\n"
+"PO-Revision-Date: 2017-09-23 21:22+0000\n"
+"Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
 "Language-Team: Czech (Czech Republic) (http://www.transifex.com/kilbot/"
 "woocommerce-pos/language/cs_CZ/)\n"
 "Language: cs_CZ\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: grunt-wp-i18n 0.5.3\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
 
 #: includes/admin/class-wc-pos-gateways.php:31
 msgid "Online Store"
@@ -55,9 +55,8 @@ msgstr "Online"
 #: includes/admin/settings/views/checkout.php:76
 #: includes/admin/settings/views/checkout.php:106
 #: includes/admin/settings/views/checkout.php:111
-#, fuzzy
 msgid "Settings"
-msgstr "Nastavení POS"
+msgstr "Nastavení"
 
 #: includes/admin/settings/class-wc-pos-access.php:25
 msgid "POS Access"
@@ -270,15 +269,15 @@ msgstr "Emulovat RESTful HTTP metody pro podporu legacy serveru "
 
 #: includes/admin/settings/views/tools.php:54
 msgid "Local Data"
-msgstr ""
+msgstr "Lokální data"
 
 #: includes/admin/settings/views/tools.php:59
 msgid "Clear Local Data"
-msgstr ""
+msgstr "Vymazat lokální data"
 
 #: includes/admin/settings/views/tools.php:62
 msgid "Clear All Local Data"
-msgstr ""
+msgstr "Vymazat všechna lokální data"
 
 #: includes/admin/views/order-details.php:2
 msgid "Order type"
@@ -293,22 +292,16 @@ msgstr ""
 "\"mailto:support@woopos.com.au\">support</a>"
 
 #: includes/class-wc-pos-activator.php:194
-#, fuzzy
 msgid ""
 "<strong>WooCommerce POS</strong> requires <a href=\"%s\">WooCommerce %s or "
 "higher</a>. Please <a href=\"%s\">install and activate WooCommerce</a>"
 msgstr ""
-"<strong>WooCommerce POS</strong> vyžaduje<a href=\"%s\">WooCommerce</a>. "
-"Prosím, <a href=\"%s\">nainstalujte a aktivujte WooCommerce</a>"
 
 #: includes/class-wc-pos-activator.php:213
-#, fuzzy
 msgid ""
 "<strong>WooCommerce POS</strong> requires PHP %s or higher. Read more "
 "information about <a href=\"%s\">how you can update</a>"
 msgstr ""
-"<strong>WooCommerce POS</strong> vyžaduje<a href=\"%s\">WooCommerce</a>. "
-"Prosím, <a href=\"%s\">nainstalujte a aktivujte WooCommerce</a>"
 
 #: includes/products/class-wc-pos-visibility.php:23
 msgid "POS & Online"

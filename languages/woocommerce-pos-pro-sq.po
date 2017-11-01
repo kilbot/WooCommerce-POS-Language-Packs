@@ -1,4 +1,4 @@
-# Copyright (C) 2015 kilbot
+# Copyright (C) 2017 kilbot
 # This file is distributed under the Copyright 2015 The Kilbot Factory.
 # Translators:
 # Besnik Spahija <besnik.spahija@gmail.com>, 2016
@@ -8,7 +8,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
 "POT-Creation-Date: 2017-05-31 11:35:22+00:00\n"
-"PO-Revision-Date: 2016-04-27 16:47+0000\n"
+"PO-Revision-Date: 2017-09-22 22:04+0000\n"
 "Last-Translator: Besnik Spahija <besnik.spahija@gmail.com>\n"
 "Language-Team: Albanian (http://www.transifex.com/kilbot/woocommerce-pos/"
 "language/sq/)\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: grunt-wp-i18n 0.5.3\n"
+"X-Generator: grunt-wp-i18n1.0.0\n"
 
 #: includes/class-wc-pos-pro-ajax.php:86
 msgid "Invalid security nonce"

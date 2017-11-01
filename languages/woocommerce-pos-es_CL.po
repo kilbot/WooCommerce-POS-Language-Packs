@@ -12,7 +12,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
 "POT-Creation-Date: 2017-06-05 10:02:27+00:00\n"
-"PO-Revision-Date: 2017-06-21 17:10+0000\n"
+"PO-Revision-Date: 2017-09-23 21:55+0000\n"
 "Last-Translator: Juan Plaza <desarrollo@isos.cl>\n"
 "Language-Team: Spanish (Chile) (http://www.transifex.com/kilbot/woocommerce-"
 "pos/language/es_CL/)\n"
@@ -54,7 +54,7 @@ msgstr "Se ha producido un error al enviar el correo electrónico"
 
 #: includes/class-wc-pos-ajax.php:171 includes/class-wc-pos-server.php:46
 msgid "Invalid security nonce"
-msgstr "Nonce de seguridad no válido"
+msgstr "Número de seguridad único no válido"
 
 #: includes/class-wc-pos-api.php:49 includes/class-wc-pos-apiv2.php:37
 msgid "User not authorized to access WooCommerce POS"

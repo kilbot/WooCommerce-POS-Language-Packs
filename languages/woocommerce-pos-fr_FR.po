@@ -30,7 +30,7 @@ msgstr "Il y a eu un problème au cours de la procédure de paiement."
 #: includes/api/class-wc-pos-orders.php:525
 #: includes/apiv2/class-wc-pos-orders.php:369
 msgid "You are now being redirected offsite to complete the payment. "
-msgstr "Vous êtes maintenant redirigés vers le partenaire de paiement. A tout de suite ..."
+msgstr "Vous êtes maintenant redirigé vers le partenaire de paiement."
 
 #: includes/api/class-wc-pos-orders.php:526
 #: includes/apiv2/class-wc-pos-orders.php:370
@@ -44,7 +44,7 @@ msgstr "Transaction terminée."
 
 #: includes/class-wc-pos-ajax.php:109 includes/class-wc-pos-ajax.php:133
 msgid "Email sent"
-msgstr "Email envoyé"
+msgstr "E-mail envoyé"
 
 #: includes/class-wc-pos-ajax.php:117 includes/class-wc-pos-ajax.php:138
 msgid "There was an error sending the email"
@@ -60,7 +60,7 @@ msgstr "L'utilisateur n'est pas autorisé à accéder au point de vente WooComme
 
 #: includes/class-wc-pos-i18n.php:334
 msgid "To Pay"
-msgstr "A régler"
+msgstr "À régler"
 
 #: includes/class-wc-pos-i18n.php:335
 msgid "Paid"
@@ -72,7 +72,7 @@ msgstr "Impayé"
 
 #: includes/class-wc-pos-i18n.php:337
 msgid "Email Receipt"
-msgstr "Envoyer le reçu par email"
+msgstr "Envoyer le reçu par e-mail"
 
 #: includes/class-wc-pos-i18n.php:340
 msgid "Support Form"
@@ -94,7 +94,7 @@ msgstr "Réduction"
 #: includes/views/print/tmpl-receipt.php:142
 #: includes/views/support/tmpl-form.php:16
 msgid "Email"
-msgstr "Email"
+msgstr "E-mail"
 
 #: includes/class-wc-pos-i18n.php:363
 msgid "Process Payment"
@@ -118,7 +118,7 @@ msgstr "Activer la compatibilité avec d'anciens serveurs"
 
 #: includes/class-wc-pos-i18n.php:390
 msgid "Your browser is not supported!"
-msgstr "Votre navigateur n'est pas supporté !"
+msgstr "Votre navigateur n'est pas compatible !"
 
 #: includes/class-wc-pos-i18n.php:391
 msgid "Unable to use RESTful HTTP methods"
@@ -195,18 +195,18 @@ msgstr "Retour de monnaie"
 
 #: includes/gateways/class-wc-pos-cash.php:20
 msgid "Cash"
-msgstr "Espèces"
+msgstr "Espèce"
 
 #: includes/gateways/class-wc-pos-cash.php:52
 #: includes/gateways/class-wc-pos-cash.php:55
 #: includes/gateways/class-wc-pos-cash.php:91
 #: includes/views/print/tmpl-receipt.php:246
 msgid "Amount Tendered"
-msgstr "Montant reçu / remis par le client"
+msgstr "Montant remis par le client"
 
 #: includes/views/modals/browser.php:2
 msgid "Sorry, it seems your browser is not supported by WooCommerce POS. "
-msgstr "Désolé, il semble que votre navigateur ne soit pas supporté par WooCommerce POS."
+msgstr "Désolé, il semble que votre navigateur ne soit pas compatible avec WooCommerce POS."
 
 #: includes/views/modals/browser.php:3
 msgid ""
@@ -255,7 +255,7 @@ msgstr "Message"
 
 #: includes/views/support/tmpl-form.php:21
 msgid "Describe your problem here ..."
-msgstr "Décrivez votre problème ici ..."
+msgstr "Décrivez votre problème ici..."
 
 #: includes/views/support/tmpl-form.php:28
 msgid "Append POS system report"

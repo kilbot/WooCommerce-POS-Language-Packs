@@ -119,21 +119,21 @@ msgstr ""
 
 #: includes/admin/settings/views/checkout.php:27
 msgid "Order Emails"
-msgstr "Emails de commande"
+msgstr "E-mails de commande"
 
 #: includes/admin/settings/views/checkout.php:28
 msgid "Send WooCommerce notification emails for POS orders"
 msgstr ""
-"Envoyer les emails de notification WooCommerce pour les commandes point de "
+"Envoyer les e-mails de notification WooCommerce pour les commandes point de "
 "vente"
 
 #: includes/admin/settings/views/checkout.php:32
 msgid "Enable admin emails"
-msgstr "Activer emails administrateur"
+msgstr "Activer e-mails administrateur"
 
 #: includes/admin/settings/views/checkout.php:35
 msgid "Enable customer emails"
-msgstr "Autoriser les emails client"
+msgstr "Autoriser les e-mails client"
 
 #: includes/admin/settings/views/checkout.php:41
 msgid "Receipt Printing"

@@ -262,7 +262,7 @@ msgstr "Quittungs-Vorlage ansehen"
 
 #: includes/admin/settings/views/tools.php:38
 msgid "<strong class=\"red\">Template path:</strong> %s"
-msgstr "<strong class=\"red\">Vorlagen-Pfad:%</strong> s"
+msgstr "<strong class=\"red\">Vorlagen-Pfad:</strong> %s"
 
 #: includes/admin/settings/views/tools.php:43
 msgid "Legacy Server Support"

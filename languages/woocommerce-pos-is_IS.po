@@ -2,6 +2,7 @@
 # This file is distributed under the GPL-2.0+.
 # Translators:
 # Hafsteinn Viktorsson <hafsteinn.viktorsson@gmail.com>, 2016
+# Markus Stefansson <m@hafstudio.is>, 2018
 # Paul Kilmurray <paul@kilbot.com.au>, 2016
 msgid ""
 msgstr ""
@@ -9,9 +10,9 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
 "POT-Creation-Date: 2017-06-05 10:02:27+00:00\n"
-"PO-Revision-Date: 2017-09-23 22:55+0000\n"
-"Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
-"Language-Team: Icelandic (Iceland) (http://www.transifex.com/kilbot/"
+"PO-Revision-Date: 2015-06-10 14:18+0000\n"
+"Last-Translator: Markus Stefansson <m@hafstudio.is>, 2018\n"
+"Language-Team: Icelandic (Iceland) (http://www.transifex.com/wcpos/"
 "woocommerce-pos/language/is_IS/)\n"
 "Language: is_IS\n"
 "MIME-Version: 1.0\n"
@@ -83,7 +84,7 @@ msgstr "þjónustuform"
 #: includes/views/print/tmpl-receipt.php:193
 #: includes/views/print/tmpl-receipt.php:235
 msgid "Discount"
-msgstr ""
+msgstr "Afsláttur"
 
 #. translators: wordpress
 #. translators: woocommerce
@@ -95,7 +96,7 @@ msgstr "Tölvupóstur"
 
 #: includes/class-wc-pos-i18n.php:363
 msgid "Process Payment"
-msgstr "Staða greiðslu"
+msgstr "Greiða"
 
 #: includes/class-wc-pos-i18n.php:368
 msgid "Return to Sale"
@@ -151,7 +152,7 @@ msgstr "WooCommerce útgáfa >= %s er nauðsynleg"
 
 #: includes/class-wc-pos-status.php:60
 msgid "PHP Version"
-msgstr ""
+msgstr "PHP útgáfa"
 
 #: includes/class-wc-pos-status.php:67
 msgid "PHP >= %s required"
@@ -190,7 +191,7 @@ msgstr "Kort"
 #: includes/gateways/class-wc-pos-card.php:84
 #: includes/gateways/class-wc-pos-card.php:118
 msgid "Cashback"
-msgstr "Kassabók"
+msgstr "Afgangur"
 
 #: includes/gateways/class-wc-pos-cash.php:20
 msgid "Cash"
@@ -231,15 +232,15 @@ msgstr "Skanna strikamerki"
 
 #: includes/views/print/tmpl-receipt.php:115
 msgid "Billing Address"
-msgstr "Heimilisfanf greiðenda"
+msgstr "Heimilisfang greiðenda"
 
 #: includes/views/print/tmpl-receipt.php:118
 msgid "Shipping Address"
-msgstr "Heimilisfanf móttakanda"
+msgstr "Heimilisfang móttakanda"
 
 #: includes/views/print/tmpl-receipt.php:123
 msgid "Order Number"
-msgstr ""
+msgstr "Pöntunar númer"
 
 #: includes/views/print/tmpl-receipt.php:127
 msgid "Order Date"
@@ -255,7 +256,7 @@ msgstr "Tegund greiðslu"
 
 #: includes/views/support/tmpl-form.php:20
 msgid "Message"
-msgstr ""
+msgstr "Skilaboð"
 
 #: includes/views/support/tmpl-form.php:21
 msgid "Describe your problem here ..."

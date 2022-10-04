@@ -3,21 +3,22 @@
 # Translators:
 # Coşkun Ergül <ergulcoskun@gmail.com>, 2016
 # Demokrasi <demokrasi@hotmail.com>, 2016
+# b55fd14d408b0e55df9da9af64858180_0e45257, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
 "POT-Creation-Date: 2017-06-05 10:02:27+00:00\n"
-"PO-Revision-Date: 2017-09-22 20:19+0000\n"
-"Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
-"Language-Team: Turkish (Turkey) (http://www.transifex.com/kilbot/woocommerce-"
+"PO-Revision-Date: 2015-06-10 14:18+0000\n"
+"Last-Translator: b55fd14d408b0e55df9da9af64858180_0e45257, 2021\n"
+"Language-Team: Turkish (Turkey) (http://www.transifex.com/wcpos/woocommerce-"
 "pos/language/tr_TR/)\n"
 "Language: tr_TR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: grunt-wp-i18n 0.5.4\n"
 
 #: includes/api/class-wc-pos-orders.php:499
@@ -83,7 +84,7 @@ msgstr "Destek Formu"
 #: includes/views/print/tmpl-receipt.php:193
 #: includes/views/print/tmpl-receipt.php:235
 msgid "Discount"
-msgstr ""
+msgstr "İndirim"
 
 #. translators: wordpress
 #. translators: woocommerce
@@ -99,7 +100,7 @@ msgstr ""
 
 #: includes/class-wc-pos-i18n.php:368
 msgid "Return to Sale"
-msgstr ""
+msgstr "Satışa Dön"
 
 #: includes/class-wc-pos-i18n.php:371
 msgid "Send"
@@ -107,7 +108,7 @@ msgstr "Gönder"
 
 #: includes/class-wc-pos-i18n.php:374
 msgid "Void"
-msgstr ""
+msgstr "İptal"
 
 #: includes/class-wc-pos-i18n.php:379
 msgid "Enable legacy server support"
@@ -115,7 +116,7 @@ msgstr ""
 
 #: includes/class-wc-pos-i18n.php:390
 msgid "Your browser is not supported!"
-msgstr ""
+msgstr "Tarayıcınız desteklenmiyor!"
 
 #: includes/class-wc-pos-i18n.php:391
 msgid "Unable to use RESTful HTTP methods"
@@ -139,7 +140,7 @@ msgstr ""
 
 #: includes/class-wc-pos-settings.php:223
 msgid "Settings error"
-msgstr ""
+msgstr "Ayar hatası"
 
 #: includes/class-wc-pos-status.php:28
 msgid "WC Version"
@@ -220,19 +221,19 @@ msgstr ""
 
 #: includes/views/pos/products/tmpl-filter.php:7
 msgid "Scan Barcode"
-msgstr ""
+msgstr "Barkod Tarama"
 
 #: includes/views/print/tmpl-receipt.php:115
 msgid "Billing Address"
-msgstr ""
+msgstr "Fatura Adresi"
 
 #: includes/views/print/tmpl-receipt.php:118
 msgid "Shipping Address"
-msgstr ""
+msgstr "Teslimat Adresi"
 
 #: includes/views/print/tmpl-receipt.php:123
 msgid "Order Number"
-msgstr ""
+msgstr "Sipariş Numarası"
 
 #: includes/views/print/tmpl-receipt.php:127
 msgid "Order Date"

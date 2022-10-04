@@ -2,15 +2,16 @@
 # This file is distributed under the GPL-2.0+.
 # Translators:
 # pojung wu <wupojung@gmail.com>, 2016
+# Ted Huang <ted@wedar.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
 "POT-Creation-Date: 2017-06-05 10:02:27+00:00\n"
-"PO-Revision-Date: 2017-09-22 10:17+0000\n"
-"Last-Translator: pojung wu <wupojung@gmail.com>\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.com/kilbot/woocommerce-"
+"PO-Revision-Date: 2015-06-10 14:18+0000\n"
+"Last-Translator: Ted Huang <ted@wedar.com>, 2017\n"
+"Language-Team: Chinese (Taiwan) (http://www.transifex.com/wcpos/woocommerce-"
 "pos/language/zh_TW/)\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
@@ -262,7 +263,7 @@ msgstr "清除所有本地端資料"
 
 #: includes/admin/views/order-details.php:2
 msgid "Order type"
-msgstr ""
+msgstr "訂單類型"
 
 #: includes/admin/views/settings.php:13
 msgid ""
@@ -284,12 +285,12 @@ msgstr ""
 
 #: includes/products/class-wc-pos-visibility.php:23
 msgid "POS & Online"
-msgstr ""
+msgstr "POS&線上"
 
 #: includes/products/class-wc-pos-visibility.php:24
 #: includes/products/class-wc-pos-visibility.php:87
 msgid "POS Only"
-msgstr ""
+msgstr "POS限定"
 
 #: includes/products/class-wc-pos-visibility.php:25
 #: includes/products/class-wc-pos-visibility.php:88

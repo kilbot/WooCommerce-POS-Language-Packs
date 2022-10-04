@@ -6,15 +6,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
-"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
+"Packs/issues\n"
 "POT-Creation-Date: 2017-06-05 10:02:27+00:00\n"
-"PO-Revision-Date: 2018-06-29 08:24+0000\n"
-"Last-Translator: Johannes Gangsö <johannes@aikadesign.fi>\n"
-"Language-Team: Finnish (http://www.transifex.com/kilbot/woocommerce-pos/language/fi/)\n"
+"PO-Revision-Date: 2015-06-10 14:18+0000\n"
+"Last-Translator: Johannes Gangsö <johannes@aikadesign.fi>, 2018\n"
+"Language-Team: Finnish (http://www.transifex.com/wcpos/woocommerce-pos/"
+"language/fi/)\n"
+"Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: grunt-wp-i18n 0.5.4\n"
 
@@ -27,12 +29,15 @@ msgstr "Maksunkäsittelyssä tapahtui virhe"
 #: includes/api/class-wc-pos-orders.php:525
 #: includes/apiv2/class-wc-pos-orders.php:369
 msgid "You are now being redirected offsite to complete the payment. "
-msgstr "Sinut uudelleenohjataan kolmannen osapuolen sivustolle maksamista varten."
+msgstr ""
+"Sinut uudelleenohjataan kolmannen osapuolen sivustolle maksamista varten."
 
 #: includes/api/class-wc-pos-orders.php:526
 #: includes/apiv2/class-wc-pos-orders.php:370
 msgid "<a href=\"%s\">Click here</a> if you are not redirected automatically. "
-msgstr "<a href=\"%s\">Klikkaa tästä</a> jos selain ei uudelleenohjaudu automaattisesti."
+msgstr ""
+"<a href=\"%s\">Klikkaa tästä</a> jos selain ei uudelleenohjaudu "
+"automaattisesti."
 
 #: includes/api/class-wc-pos-orders.php:540
 #: includes/apiv2/class-wc-pos-orders.php:160
@@ -53,7 +58,7 @@ msgstr "Kertakäyttöavaimen vahvistus epäonnistui"
 
 #: includes/class-wc-pos-api.php:49 includes/class-wc-pos-apiv2.php:37
 msgid "User not authorized to access WooCommerce POS"
-msgstr "Käyttäjällä ei pääsyoikeutta WooCommerce kassapäätteelle"
+msgstr "Käyttäjällä ei pääsyoikeutta kassapäätteelle"
 
 #: includes/class-wc-pos-i18n.php:334
 msgid "To Pay"
@@ -75,8 +80,7 @@ msgstr "Lähetä kuitti sähköpostilla"
 msgid "Support Form"
 msgstr "Tukipyyntö"
 
-#: includes/class-wc-pos-i18n.php:352
-#: includes/views/pos/cart/tmpl-totals.php:8
+#: includes/class-wc-pos-i18n.php:352 includes/views/pos/cart/tmpl-totals.php:8
 #: includes/views/pos/receipt/tmpl-totals.php:7
 #: includes/views/pos/receipt/tmpl-totals.php:49
 #: includes/views/print/tmpl-receipt.php:193
@@ -87,8 +91,7 @@ msgstr "Alennus"
 #. translators: wordpress
 #. translators: woocommerce
 #. translators: wordpress
-#: includes/class-wc-pos-i18n.php:354
-#: includes/views/print/tmpl-receipt.php:142
+#: includes/class-wc-pos-i18n.php:354 includes/views/print/tmpl-receipt.php:142
 #: includes/views/support/tmpl-form.php:16
 msgid "Email"
 msgstr "Sähköposti"
@@ -171,9 +174,11 @@ msgstr "Pääsy REST API:in on vaadittu"
 
 #: includes/class-wc-pos-status.php:146
 msgid ""
-"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to"
-" work correctly"
-msgstr "<strong>Woocommerce REST API</strong> edellyttää <em>selkokielisiä kestolinkkejä</em> toimiakseen oikein"
+"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to "
+"work correctly"
+msgstr ""
+"<strong>Woocommerce REST API</strong> edellyttää <em>selkokielisiä "
+"kestolinkkejä</em> toimiakseen oikein"
 
 #: includes/class-wc-pos-status.php:150
 msgid "Enable permalinks"
@@ -203,20 +208,24 @@ msgstr "Maksettu"
 
 #: includes/views/modals/browser.php:2
 msgid "Sorry, it seems your browser is not supported by WooCommerce POS. "
-msgstr "WooCommerce kassapääte ei valitettavasti tue käyttämääsi selainta."
+msgstr "WooCommerce POS ei valitettavasti tue käyttämääsi selainta."
 
 #: includes/views/modals/browser.php:3
 msgid ""
-"If possible, please <a href=\"http://browsehappy.com/\">update your "
-"browser</a>, we recommend either Chrome or Firefox."
-msgstr "Suosittelemme käyttämään <a href=\"http://browsehappy.com/\">Chromea tai Firefoxia</a>."
+"If possible, please <a href=\"http://browsehappy.com/\">update your browser</"
+"a>, we recommend either Chrome or Firefox."
+msgstr ""
+"Suosittelemme käyttämään <a href=\"http://browsehappy.com/\">Chromea tai "
+"Firefoxia</a>."
 
 #: includes/views/modals/browser.php:7
 msgid ""
 "If you believe you have received this message in error please contact "
-"support via <a "
-"href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
-msgstr "Jos uskot saaneesi tämän viestin aiheetta, ole hyvä ja ota yhteyttä tukeen <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
+"support via <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</"
+"a>"
+msgstr ""
+"Jos uskot saaneesi tämän viestin aiheetta, ole hyvä ja ota yhteyttä tukeen "
+"<a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
 
 #: includes/views/pos/products/tmpl-filter.php:7
 msgid "Scan Barcode"
@@ -256,7 +265,7 @@ msgstr "Kuvaile ongelmaasi tähän..."
 
 #: includes/views/support/tmpl-form.php:28
 msgid "Append POS system report"
-msgstr "Liitä kassapäätteen järjestelmäraportti"
+msgstr "Liitä WooCommerce POS -järjestelmäraportti"
 
 #: includes/views/support/tmpl-status.php:31
 msgid "Local Storage"
@@ -277,9 +286,12 @@ msgstr "%s jonossa"
 #. Description of the plugin/theme
 msgid ""
 "A simple front-end for taking WooCommerce orders at the Point of Sale. "
-"Requires <a "
-"href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a>."
-msgstr "Yksinkertainen WooCommerce-kauppaan yhdistetty kassapääte. Vaatii <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce-lisäosan</a> toimiakseen."
+"Requires <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</"
+"a>."
+msgstr ""
+"Yksinkertainen WooCommerce-kauppaan yhdistetty kassapääte. Vaatii <a href="
+"\"http://wordpress.org/plugins/woocommerce/\">WooCommerce-lisäosan</a> "
+"toimiakseen."
 
 #: includes/class-wc-pos-i18n.php:312
 msgctxt "system status: browser capabilities"
@@ -301,7 +313,7 @@ msgstr "Avaa"
 #: includes/views/print/tmpl-receipt.php:250
 msgctxt "Money returned from cash sale"
 msgid "Change"
-msgstr "Vaihda"
+msgstr "Vaihtoraha"
 
 #: includes/class-wc-pos-i18n.php:347
 msgctxt "system status: delete local records"
@@ -316,12 +328,12 @@ msgstr "Palauta oletukset"
 #: includes/class-wc-pos-i18n.php:367
 msgctxt "Numpad return key"
 msgid "return"
-msgstr "Palaa"
+msgstr "OK"
 
 #: includes/class-wc-pos-i18n.php:401
 msgctxt "eg: 23 records"
 msgid "record |||| records"
-msgstr "äänitys |||| äänitykset"
+msgstr "rivi |||| riviä"
 
 #: includes/class-wc-pos-params.php:85
 msgctxt "Product tab: 'On Sale' products"
@@ -343,4 +355,4 @@ msgstr "Määrä"
 #: includes/views/print/tmpl-receipt.php:225
 msgctxt "abbreviation for includes (tax)"
 msgid "incl."
-msgstr "Sisältyy"
+msgstr "sis."

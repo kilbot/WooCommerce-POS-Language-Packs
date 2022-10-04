@@ -2,6 +2,7 @@
 # This file is distributed under the Copyright 2015 The Kilbot Factory.
 # Translators:
 # Dorian PIERRE <dody56@gmail.com>, 2015
+# E H <ehavet@yahoo.fr>, 2019
 # Steven Roh <stivikipirdi@gmail.com>, 2015
 msgid ""
 msgstr ""
@@ -9,20 +10,21 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
 "POT-Creation-Date: 2017-05-31 11:35:22+00:00\n"
-"PO-Revision-Date: 2017-09-23 21:22+0000\n"
-"Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
-"Language-Team: French (France) (http://www.transifex.com/kilbot/woocommerce-"
+"PO-Revision-Date: 2015-06-10 14:19+0000\n"
+"Last-Translator: E H <ehavet@yahoo.fr>, 2019\n"
+"Language-Team: French (France) (http://www.transifex.com/wcpos/woocommerce-"
 "pos/language/fr_FR/)\n"
 "Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
+"1000000 == 0 ? 1 : 2;\n"
 "X-Generator: grunt-wp-i18n1.0.0\n"
 
 #: includes/class-wc-pos-pro-ajax.php:86
 msgid "Invalid security nonce"
-msgstr "Nonce de sécurité invalide"
+msgstr "Code de sécurité invalide"
 
 #: includes/class-wc-pos-pro-i18n.php:110
 msgid "Edit Customer"

@@ -6,15 +6,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
-"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
+"Packs/issues\n"
 "POT-Creation-Date: 2017-06-05 10:02:27+00:00\n"
-"PO-Revision-Date: 2018-09-04 11:05+0000\n"
-"Last-Translator: Jenny Mellåker <jenny@mellaker.se>\n"
-"Language-Team: Swedish (Sweden) (http://www.transifex.com/kilbot/woocommerce-pos/language/sv_SE/)\n"
+"PO-Revision-Date: 2015-06-10 14:18+0000\n"
+"Last-Translator: Jenny Mellåker <jenny@mellaker.se>, 2018\n"
+"Language-Team: Swedish (Sweden) (http://www.transifex.com/wcpos/woocommerce-"
+"pos/language/sv_SE/)\n"
+"Language: sv_SE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sv_SE\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: grunt-wp-i18n 0.5.4\n"
 
@@ -62,11 +64,11 @@ msgstr "POS Tillgång"
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:42
 msgid "Help screen"
-msgstr "Hjälp skärm"
+msgstr "Hjälpskärm"
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:43
 msgid "Barcode search"
-msgstr "Streckkod sökning"
+msgstr "Sök på streckkod"
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:45
 msgid "New order"
@@ -78,29 +80,35 @@ msgstr "Synkronisera med server"
 
 #: includes/admin/settings/views/access.php:7
 msgid "Grant POS Access"
-msgstr "Grant POS Tillgång"
+msgstr "Ge POS åtkomst"
 
 #: includes/admin/settings/views/access.php:10
 msgid ""
 "By default, access to the POS is limited to Administrator and Shop Manager "
 "roles."
-msgstr "Som standard är åtkomst till POS begränsad till administratör och butikschef roller."
+msgstr ""
+"Som standard är åtkomst till POS begränsad till administratör och butikschef "
+"roller."
 
 #: includes/admin/settings/views/access.php:11
 msgid ""
 "It is recommended that you <strong>do not change</strong> the default "
 "settings unless you are fully aware of the consequences."
-msgstr "Det rekommenderas att du <strong>inte ändrar</strong> standardinställningarna om du inte är fullt medveten om konsekvenserna."
+msgstr ""
+"Det rekommenderas att du <strong>inte ändrar</strong> "
+"standardinställningarna om du inte är fullt medveten om konsekvenserna."
 
 #: includes/admin/settings/views/access.php:12
 #: includes/admin/settings/views/checkout.php:60
 #: includes/admin/settings/views/hotkeys.php:6
-msgid "For more information please visit <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
-msgstr "För mer information besök <a href=\"%1$s\" target=\"_blank\">% 1 $ s</a>"
+msgid ""
+"For more information please visit <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
+msgstr ""
+"För mer information besök <a href=\"%1$s\" target=\"_blank\">% 1 $ s</a>"
 
 #: includes/admin/settings/views/checkout.php:13
 msgid "Completed Order Status"
-msgstr "Avslutade Orderstatus"
+msgstr "Orderstatus Färdigbehandlad"
 
 #: includes/admin/settings/views/checkout.php:14
 msgid "Change the default order status for POS sales"
@@ -108,7 +116,7 @@ msgstr "Ändra standardorderstatus för POS försäljning"
 
 #: includes/admin/settings/views/checkout.php:27
 msgid "Order Emails"
-msgstr "Beställ e-post"
+msgstr "Order e-post"
 
 #: includes/admin/settings/views/checkout.php:28
 msgid "Send WooCommerce notification emails for POS orders"
@@ -124,31 +132,39 @@ msgstr "Aktivera kund e-postmeddelanden"
 
 #: includes/admin/settings/views/checkout.php:41
 msgid "Receipt Printing"
-msgstr "Kvittoutskrifts"
+msgstr "Kvittoutskrift"
 
 #: includes/admin/settings/views/checkout.php:45
 msgid "Automatically print receipt after checkout"
-msgstr "Automatiskt ut kvitto efter kassan"
+msgstr "Skriv ut kvitto automatiskt efter köp"
 
 #: includes/admin/settings/views/checkout.php:54
 msgid ""
-"Installed gateways are listed below. Drag and drop gateways to control their"
-" display order at the Point of Sale. "
-msgstr "Installerade gateways är listade nedan. Dra och släpp gateways för att kontrollera deras visningsordning vid Point of Sale."
+"Installed gateways are listed below. Drag and drop gateways to control their "
+"display order at the Point of Sale. "
+msgstr ""
+"Installerade gateways är listade nedan. Dra och släpp gateways för att "
+"kontrollera deras visningsordning vid Point of Sale."
 
 #: includes/admin/settings/views/checkout.php:55
 msgid ""
 "Payment Gateways enabled here will be available at the Point of Sale. "
 "Payment Gateways enabled on the settings page will be available in your "
 "Online Store. "
-msgstr "Betalningsgateways aktiverade här kommer att finnas tillgänglig på Point of Sale. Betalningsgateways aktiverade på inställningssidan kommer att finnas tillgängliga i ditt Online Store."
+msgstr ""
+"Betalningsgateways aktiverade här kommer att finnas tillgänglig på Point of "
+"Sale. Betalningsgateways aktiverade på inställningssidan kommer att finnas "
+"tillgängliga i ditt Online Store."
 
 #: includes/admin/settings/views/checkout.php:59
 msgid ""
 "It is your responsibility to ensure the security of your customer's "
 "information. Transmitting credit card or other sensitive information should "
 "only be done using a secure connnection."
-msgstr "Det är ditt ansvar att garantera säkerheten för kundens uppgifter. Sändning kreditkort eller annan känslig information ska endast göras med en säker connnection."
+msgstr ""
+"Det är ditt ansvar att garantera säkerheten för kundens uppgifter. Sändning "
+"kreditkort eller annan känslig information ska endast göras med en säker "
+"connnection."
 
 #: includes/admin/settings/views/checkout.php:65
 msgid "Gateway Display"
@@ -156,7 +172,7 @@ msgstr "Gateway-display"
 
 #: includes/admin/settings/views/checkout.php:73
 msgid "Online Status"
-msgstr "Inloggningsstatus"
+msgstr "Onlinestatus"
 
 #: includes/admin/settings/views/checkout.php:74
 msgid "POS Status"
@@ -168,11 +184,11 @@ msgstr "POS-inställningar"
 
 #: includes/admin/settings/views/checkout.php:126
 msgid "Payment method title."
-msgstr "Betalningssätt titel."
+msgstr "Titel för betalningssätt"
 
 #: includes/admin/settings/views/checkout.php:133
 msgid "Payment method description that will be shown in the POS."
-msgstr "Betalning metodbeskrivning som kommer att visas i POS."
+msgstr "Metodbeskrivning för betalningssätt som kommer att visas i POS."
 
 #: includes/admin/settings/views/checkout.php:139
 msgid "Icon"
@@ -180,7 +196,7 @@ msgstr "Ikon"
 
 #: includes/admin/settings/views/general.php:13
 msgid "Product Visibility"
-msgstr "Produkt Sikt"
+msgstr "Produktsynlighet"
 
 #: includes/admin/settings/views/general.php:17
 msgid "Enable <a href=\"%s\">POS Only products</a>"
@@ -205,11 +221,11 @@ msgstr "Standard kund för POS order, t.ex. gäst eller skapa en ny kund."
 
 #: includes/admin/settings/views/general.php:46
 msgid "Discount Quick Keys"
-msgstr "Rabatterade Snabbtangenter"
+msgstr "Snabbtangenter för rabatter"
 
 #: includes/admin/settings/views/general.php:47
 msgid "Configure discount keys for quick numpad entry"
-msgstr "Konfigurera rabatt knappar för snabb numpad posten"
+msgstr "Konfigurera rabattknappar för siffertangentbord"
 
 #: includes/admin/settings/views/hotkeys.php:1
 msgid "Keyboard Shortcuts"
@@ -219,13 +235,16 @@ msgstr "Tangentbordsgenvägar"
 msgid ""
 "You can trigger certain events in WooCommerce POS using keyboard shortcuts "
 "(HotKeys)."
-msgstr "Du kan utlösa vissa händelser i WooCommerce POS använder kortkommandon (snabbtangenter)."
+msgstr ""
+"Du kan utlösa vissa händelser i WooCommerce POS använder kortkommandon "
+"(snabbtangenter)."
 
 #: includes/admin/settings/views/hotkeys.php:5
 msgid ""
-"HotKeys can also be used as a prefix for your barcode scanner or card "
-"reader."
-msgstr "Snabbtangenter kan också användas som ett prefix för streckkodsläsare eller kortläsare."
+"HotKeys can also be used as a prefix for your barcode scanner or card reader."
+msgstr ""
+"Snabbtangenter kan också användas som ett prefix för streckkodsläsare eller "
+"kortläsare."
 
 #: includes/admin/settings/views/tools.php:33
 msgid "Receipt Template"
@@ -233,7 +252,7 @@ msgstr "Mottagande mall"
 
 #: includes/admin/settings/views/tools.php:36
 msgid "View Sample Receipt"
-msgstr "Visa prov Kvitto"
+msgstr "Visa test kvitto"
 
 #: includes/admin/settings/views/tools.php:38
 msgid "<strong class=\"red\">Template path:</strong> %s"
@@ -241,7 +260,7 @@ msgstr "<strong class=\"red\">Mall sökväg:%</strong> s"
 
 #: includes/admin/settings/views/tools.php:43
 msgid "Legacy Server Support"
-msgstr "Arv Server Support"
+msgstr "Ärv Server Support"
 
 #: includes/admin/settings/views/tools.php:49
 msgid "Emulate RESTful HTTP methods to support legacy servers."
@@ -265,21 +284,27 @@ msgstr "Ordertyp"
 
 #: includes/admin/views/settings.php:13
 msgid ""
-"There has been an error loading the settings, please contact <a "
-"href=\"mailto:support@woopos.com.au\">support</a>"
-msgstr "Det har varit ett fel inställningar, kontakta <a href=\"mailto:support@woopos.com.au\">support</a>"
+"There has been an error loading the settings, please contact <a href="
+"\"mailto:support@woopos.com.au\">support</a>"
+msgstr ""
+"Det har varit ett fel inställningar, kontakta <a href=\"mailto:"
+"support@woopos.com.au\">support</a>"
 
 #: includes/class-wc-pos-activator.php:194
 msgid ""
 "<strong>WooCommerce POS</strong> requires <a href=\"%s\">WooCommerce %s or "
 "higher</a>. Please <a href=\"%s\">install and activate WooCommerce</a>"
-msgstr "WooCommerce POS kräver WooCommerce %s eller högre. Var snäll och installera och aktivera WooCommerce"
+msgstr ""
+"WooCommerce POS kräver WooCommerce %s eller högre. Var snäll och installera "
+"och aktivera WooCommerce"
 
 #: includes/class-wc-pos-activator.php:213
 msgid ""
 "<strong>WooCommerce POS</strong> requires PHP %s or higher. Read more "
 "information about <a href=\"%s\">how you can update</a>"
-msgstr "WooCommerce POS kräver PHP %s eller högre. Läs mer information om hur du kan uppdatera"
+msgstr ""
+"WooCommerce POS kräver PHP %s eller högre. Läs mer information om hur du kan "
+"uppdatera"
 
 #: includes/products/class-wc-pos-visibility.php:23
 msgid "POS & Online"
@@ -313,9 +338,9 @@ msgstr "Snabbtangenter"
 #: includes/admin/settings/views/checkout.php:143
 msgctxt "POS checkout settings"
 msgid "Show payment gateway icon."
-msgstr "Visa betalning gateway ikonen."
+msgstr "Visa ikon för betalsätt"
 
 #: includes/admin/settings/views/general.php:40
 msgctxt "Default customer setting"
 msgid "Use cashier account"
-msgstr "Använd kassören konto"
+msgstr "Använd kassörkonto"

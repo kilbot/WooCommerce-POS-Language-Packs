@@ -1,6 +1,7 @@
 # Copyright (C) 2017 kilbot
 # This file is distributed under the GPL-2.0+.
 # Translators:
+# al k <alakazhoum@gmail.com>, 2019
 # Dorian PIERRE <dody56@gmail.com>, 2015
 # E H <ehavet@yahoo.fr>, 2019
 # Paul Kilmurray <paul@kilbot.com.au>, 2015
@@ -9,16 +10,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
-"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-Packs/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
+"Packs/issues\n"
 "POT-Creation-Date: 2017-06-05 10:02:27+00:00\n"
-"PO-Revision-Date: 2019-02-04 10:46+0000\n"
-"Last-Translator: E H <ehavet@yahoo.fr>\n"
-"Language-Team: French (France) (http://www.transifex.com/kilbot/woocommerce-pos/language/fr_FR/)\n"
+"PO-Revision-Date: 2015-06-10 14:18+0000\n"
+"Last-Translator: al k <alakazhoum@gmail.com>, 2019\n"
+"Language-Team: French (France) (http://www.transifex.com/wcpos/woocommerce-"
+"pos/language/fr_FR/)\n"
+"Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr_FR\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
+"1000000 == 0 ? 1 : 2;\n"
 "X-Generator: grunt-wp-i18n 0.5.4\n"
 
 #: includes/api/class-wc-pos-orders.php:499
@@ -30,12 +34,14 @@ msgstr "Il y a eu un problème au cours de la procédure de paiement."
 #: includes/api/class-wc-pos-orders.php:525
 #: includes/apiv2/class-wc-pos-orders.php:369
 msgid "You are now being redirected offsite to complete the payment. "
-msgstr "Vous êtes maintenant redirigés vers le partenaire de paiement. A tout de suite ..."
+msgstr ""
+"Vous allez être redirigé vers le partenaire de paiement. À tout de suite."
 
 #: includes/api/class-wc-pos-orders.php:526
 #: includes/apiv2/class-wc-pos-orders.php:370
 msgid "<a href=\"%s\">Click here</a> if you are not redirected automatically. "
-msgstr "<a href=\"%s\">Cliquez ici</a> si vous n'êtes pas redirigés automatiquement."
+msgstr ""
+"<a href=\"%s\">Cliquez ici</a> si vous n'êtes pas redirigés automatiquement."
 
 #: includes/api/class-wc-pos-orders.php:540
 #: includes/apiv2/class-wc-pos-orders.php:160
@@ -44,7 +50,7 @@ msgstr "Transaction terminée."
 
 #: includes/class-wc-pos-ajax.php:109 includes/class-wc-pos-ajax.php:133
 msgid "Email sent"
-msgstr "Email envoyé"
+msgstr "E-mail envoyé"
 
 #: includes/class-wc-pos-ajax.php:117 includes/class-wc-pos-ajax.php:138
 msgid "There was an error sending the email"
@@ -56,11 +62,12 @@ msgstr "Code de sécurité invalide"
 
 #: includes/class-wc-pos-api.php:49 includes/class-wc-pos-apiv2.php:37
 msgid "User not authorized to access WooCommerce POS"
-msgstr "L'utilisateur n'est pas autorisé à accéder au point de vente WooCommerce"
+msgstr ""
+"L'utilisateur n'est pas autorisé à accéder au point de vente WooCommerce"
 
 #: includes/class-wc-pos-i18n.php:334
 msgid "To Pay"
-msgstr "A régler"
+msgstr "À payer"
 
 #: includes/class-wc-pos-i18n.php:335
 msgid "Paid"
@@ -72,14 +79,13 @@ msgstr "Impayé"
 
 #: includes/class-wc-pos-i18n.php:337
 msgid "Email Receipt"
-msgstr "Envoyer le reçu par email"
+msgstr "Envoyer le reçu par e-mail"
 
 #: includes/class-wc-pos-i18n.php:340
 msgid "Support Form"
 msgstr "Formulaire de support"
 
-#: includes/class-wc-pos-i18n.php:352
-#: includes/views/pos/cart/tmpl-totals.php:8
+#: includes/class-wc-pos-i18n.php:352 includes/views/pos/cart/tmpl-totals.php:8
 #: includes/views/pos/receipt/tmpl-totals.php:7
 #: includes/views/pos/receipt/tmpl-totals.php:49
 #: includes/views/print/tmpl-receipt.php:193
@@ -90,11 +96,10 @@ msgstr "Réduction"
 #. translators: wordpress
 #. translators: woocommerce
 #. translators: wordpress
-#: includes/class-wc-pos-i18n.php:354
-#: includes/views/print/tmpl-receipt.php:142
+#: includes/class-wc-pos-i18n.php:354 includes/views/print/tmpl-receipt.php:142
 #: includes/views/support/tmpl-form.php:16
 msgid "Email"
-msgstr "Email"
+msgstr "E-mail"
 
 #: includes/class-wc-pos-i18n.php:363
 msgid "Process Payment"
@@ -118,7 +123,7 @@ msgstr "Activer la compatibilité avec d'anciens serveurs"
 
 #: includes/class-wc-pos-i18n.php:390
 msgid "Your browser is not supported!"
-msgstr "Votre navigateur n'est pas supporté !"
+msgstr "Votre navigateur n'est pas compatible !"
 
 #: includes/class-wc-pos-i18n.php:391
 msgid "Unable to use RESTful HTTP methods"
@@ -174,9 +179,11 @@ msgstr "L'accès à l'API REST est nécessaire"
 
 #: includes/class-wc-pos-status.php:146
 msgid ""
-"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to"
-" work correctly"
-msgstr "L'<strong>API WooCommerce REST</strong> nécessite de <em>jolies</em> permaliens pour fonctionner correctement"
+"<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to "
+"work correctly"
+msgstr ""
+"L'<strong>API WooCommerce REST</strong> nécessite de <em>jolies</em> "
+"permaliens pour fonctionner correctement"
 
 #: includes/class-wc-pos-status.php:150
 msgid "Enable permalinks"
@@ -195,31 +202,38 @@ msgstr "Retour de monnaie"
 
 #: includes/gateways/class-wc-pos-cash.php:20
 msgid "Cash"
-msgstr "Espèces"
+msgstr "Espèce"
 
 #: includes/gateways/class-wc-pos-cash.php:52
 #: includes/gateways/class-wc-pos-cash.php:55
 #: includes/gateways/class-wc-pos-cash.php:91
 #: includes/views/print/tmpl-receipt.php:246
 msgid "Amount Tendered"
-msgstr "Montant reçu / remis par le client"
+msgstr "Montant reçu"
 
 #: includes/views/modals/browser.php:2
 msgid "Sorry, it seems your browser is not supported by WooCommerce POS. "
-msgstr "Désolé, il semble que votre navigateur ne soit pas supporté par WooCommerce POS."
+msgstr ""
+"Désolé, il semble que votre navigateur ne soit pas supporté par WooCommerce "
+"POS."
 
 #: includes/views/modals/browser.php:3
 msgid ""
-"If possible, please <a href=\"http://browsehappy.com/\">update your "
-"browser</a>, we recommend either Chrome or Firefox."
-msgstr "Si possible, merci de <a href=\"http://browsehappy.com/\">mettre à jour votre navigateur</a>, nous vous recommandons d'utiliser Chrome ou Firefox."
+"If possible, please <a href=\"http://browsehappy.com/\">update your browser</"
+"a>, we recommend either Chrome or Firefox."
+msgstr ""
+"Si possible, merci de <a href=\"http://browsehappy.com/\">mettre à jour "
+"votre navigateur</a>, nous vous recommandons d'utiliser Chrome ou Firefox."
 
 #: includes/views/modals/browser.php:7
 msgid ""
 "If you believe you have received this message in error please contact "
-"support via <a "
-"href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
-msgstr "Si vous pensez avoir reçu ce message par erreur, veuillez svp contacter le support via <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</a>"
+"support via <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</"
+"a>"
+msgstr ""
+"Si vous pensez avoir reçu ce message par erreur, veuillez svp contacter le "
+"support via <a href=\"mailto:support@woopos.com.au\">support@woopos.com.au</"
+"a>"
 
 #: includes/views/pos/products/tmpl-filter.php:7
 msgid "Scan Barcode"
@@ -280,9 +294,12 @@ msgstr "%s en attente"
 #. Description of the plugin/theme
 msgid ""
 "A simple front-end for taking WooCommerce orders at the Point of Sale. "
-"Requires <a "
-"href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a>."
-msgstr "Un front-office simple pour prendre les commandes WooCommerce sur le Point de vente / en magasin. Nécessite <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a>."
+"Requires <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</"
+"a>."
+msgstr ""
+"Une interface simple pour prendre les commandes WooCommerce sur le point de "
+"vente / en magasin. Nécessite <a href=\"http://wordpress.org/plugins/"
+"woocommerce/\">WooCommerce</a>."
 
 #: includes/class-wc-pos-i18n.php:312
 msgctxt "system status: browser capabilities"
@@ -329,7 +346,7 @@ msgstr "enregistrement |||| enregistrements"
 #: includes/class-wc-pos-params.php:85
 msgctxt "Product tab: 'On Sale' products"
 msgid "On Sale"
-msgstr "En soldes"
+msgstr "En solde"
 
 #: includes/views/pos/cart/tmpl-panel.php:2
 #: includes/views/pos/receipt/tmpl-panel.php:3
@@ -346,4 +363,4 @@ msgstr "Qté"
 #: includes/views/print/tmpl-receipt.php:225
 msgctxt "abbreviation for includes (tax)"
 msgid "incl."
-msgstr "incl."
+msgstr "inclus"

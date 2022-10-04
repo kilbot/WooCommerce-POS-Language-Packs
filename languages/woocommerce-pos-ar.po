@@ -1,6 +1,7 @@
 # Copyright (C) 2017 kilbot
 # This file is distributed under the GPL-2.0+.
 # Translators:
+# chakib dabbek <it.kamlts@gmail.com>, 2021
 # Mustafa Mohammed <mustafamsy@gmail.com>, 2015-2016
 msgid ""
 msgstr ""
@@ -8,9 +9,9 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
 "POT-Creation-Date: 2017-06-05 10:02:27+00:00\n"
-"PO-Revision-Date: 2017-09-23 21:22+0000\n"
-"Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
-"Language-Team: Arabic (http://www.transifex.com/kilbot/woocommerce-pos/"
+"PO-Revision-Date: 2015-06-10 14:18+0000\n"
+"Last-Translator: chakib dabbek <it.kamlts@gmail.com>, 2021\n"
+"Language-Team: Arabic (http://www.transifex.com/wcpos/woocommerce-pos/"
 "language/ar/)\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
@@ -83,7 +84,7 @@ msgstr "نموذج الدعم"
 #: includes/views/print/tmpl-receipt.php:193
 #: includes/views/print/tmpl-receipt.php:235
 msgid "Discount"
-msgstr ""
+msgstr "تخفيض"
 
 #. translators: wordpress
 #. translators: woocommerce
@@ -151,7 +152,7 @@ msgstr "ووكومرس >= %s مطلوب"
 
 #: includes/class-wc-pos-status.php:60
 msgid "PHP Version"
-msgstr ""
+msgstr "إصدار PHP"
 
 #: includes/class-wc-pos-status.php:67
 msgid "PHP >= %s required"
@@ -238,7 +239,7 @@ msgstr "عنوان الشحن"
 
 #: includes/views/print/tmpl-receipt.php:123
 msgid "Order Number"
-msgstr ""
+msgstr "رقم الطلب"
 
 #: includes/views/print/tmpl-receipt.php:127
 msgid "Order Date"
@@ -254,7 +255,7 @@ msgstr "طريقة الدفع"
 
 #: includes/views/support/tmpl-form.php:20
 msgid "Message"
-msgstr ""
+msgstr "بعث رسالة"
 
 #: includes/views/support/tmpl-form.php:21
 msgid "Describe your problem here ..."

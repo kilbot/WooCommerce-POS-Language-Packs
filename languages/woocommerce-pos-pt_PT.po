@@ -1,21 +1,23 @@
 # Copyright (C) 2017 kilbot
 # This file is distributed under the GPL-2.0+.
 # Translators:
+# Manuela Silva <mmsrs@sky.com>, 2022
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
 "POT-Creation-Date: 2017-06-05 10:02:27+00:00\n"
-"PO-Revision-Date: 2017-09-22 10:17+0000\n"
-"Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
-"Language-Team: Portuguese (Portugal) (http://www.transifex.com/kilbot/"
+"PO-Revision-Date: 2015-06-10 14:18+0000\n"
+"Last-Translator: Manuela Silva <mmsrs@sky.com>, 2022\n"
+"Language-Team: Portuguese (Portugal) (http://www.transifex.com/wcpos/"
 "woocommerce-pos/language/pt_PT/)\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
+"1000000 == 0 ? 1 : 2;\n"
 "X-Generator: grunt-wp-i18n 0.5.4\n"
 
 #: includes/api/class-wc-pos-orders.php:499
@@ -57,7 +59,7 @@ msgstr ""
 
 #: includes/class-wc-pos-i18n.php:334
 msgid "To Pay"
-msgstr "Pagar"
+msgstr "Para Pagar"
 
 #: includes/class-wc-pos-i18n.php:335
 msgid "Paid"
@@ -65,7 +67,7 @@ msgstr "Pago"
 
 #: includes/class-wc-pos-i18n.php:336
 msgid "Unpaid"
-msgstr ""
+msgstr "Por pagar"
 
 #: includes/class-wc-pos-i18n.php:337
 msgid "Email Receipt"
@@ -73,7 +75,7 @@ msgstr "Recibo por e-mail"
 
 #: includes/class-wc-pos-i18n.php:340
 msgid "Support Form"
-msgstr ""
+msgstr "Formulário de Suporte"
 
 #: includes/class-wc-pos-i18n.php:352 includes/views/pos/cart/tmpl-totals.php:8
 #: includes/views/pos/receipt/tmpl-totals.php:7
@@ -93,11 +95,11 @@ msgstr "E-mail"
 
 #: includes/class-wc-pos-i18n.php:363
 msgid "Process Payment"
-msgstr "Registrar pagamento"
+msgstr "Registar Pagamento"
 
 #: includes/class-wc-pos-i18n.php:368
 msgid "Return to Sale"
-msgstr "Retornar para a venda"
+msgstr "Voltar para Venda"
 
 #: includes/class-wc-pos-i18n.php:371
 msgid "Send"
@@ -105,7 +107,7 @@ msgstr "Enviar"
 
 #: includes/class-wc-pos-i18n.php:374
 msgid "Void"
-msgstr "Cancelar"
+msgstr "Invalidar"
 
 #: includes/class-wc-pos-i18n.php:379
 msgid "Enable legacy server support"
@@ -113,7 +115,7 @@ msgstr ""
 
 #: includes/class-wc-pos-i18n.php:390
 msgid "Your browser is not supported!"
-msgstr "Seu navegador não é suportado!"
+msgstr "O seu navegador não é suportado!"
 
 #: includes/class-wc-pos-i18n.php:391
 msgid "Unable to use RESTful HTTP methods"
@@ -141,7 +143,7 @@ msgstr ""
 
 #: includes/class-wc-pos-status.php:28
 msgid "WC Version"
-msgstr ""
+msgstr "Versão WC"
 
 #: includes/class-wc-pos-status.php:35
 msgid "WooCommerce >= %s required"
@@ -153,7 +155,7 @@ msgstr ""
 
 #: includes/class-wc-pos-status.php:67
 msgid "PHP >= %s required"
-msgstr ""
+msgstr "PHP >= %s obrigatório"
 
 #: includes/class-wc-pos-status.php:88
 msgid "WC REST API"
@@ -172,10 +174,12 @@ msgid ""
 "<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to "
 "work correctly"
 msgstr ""
+"<strong>WooCommerce API REST</strong> requer ligações permanentes "
+"<em>simples</em> para funcionar corretamente"
 
 #: includes/class-wc-pos-status.php:150
 msgid "Enable permalinks"
-msgstr ""
+msgstr "Ativar ligações permanentes"
 
 #: includes/gateways/class-wc-pos-card.php:20
 msgid "Card"
@@ -208,7 +212,7 @@ msgid ""
 "If possible, please <a href=\"http://browsehappy.com/\">update your browser</"
 "a>, we recommend either Chrome or Firefox."
 msgstr ""
-"Se possível, por favor <a href=\"http://browsehappy.com/\">atualize seu "
+"Se possível, por favor, <a href=\"http://browsehappy.com/\">atualize o seu "
 "navegador</a>, nós recomendamos o Chrome ou o Firefox."
 
 #: includes/views/modals/browser.php:7
@@ -220,23 +224,23 @@ msgstr ""
 
 #: includes/views/pos/products/tmpl-filter.php:7
 msgid "Scan Barcode"
-msgstr "Código de barras"
+msgstr "Código de Barras"
 
 #: includes/views/print/tmpl-receipt.php:115
 msgid "Billing Address"
-msgstr "Endereço de cobrança"
+msgstr "Morada de Faturação"
 
 #: includes/views/print/tmpl-receipt.php:118
 msgid "Shipping Address"
-msgstr "Endereço de entrega"
+msgstr "Morada de Entrega"
 
 #: includes/views/print/tmpl-receipt.php:123
 msgid "Order Number"
-msgstr ""
+msgstr "Número do Pedido"
 
 #: includes/views/print/tmpl-receipt.php:127
 msgid "Order Date"
-msgstr "Data do pedido"
+msgstr "Data do Pedido"
 
 #: includes/views/print/tmpl-receipt.php:132
 msgid "Cashier"
@@ -244,7 +248,7 @@ msgstr "Caixa"
 
 #: includes/views/print/tmpl-receipt.php:137
 msgid "Payment Method"
-msgstr "Método de pagamento"
+msgstr "Método de Pagamento"
 
 #: includes/views/support/tmpl-form.php:20
 msgid "Message"
@@ -252,7 +256,7 @@ msgstr ""
 
 #: includes/views/support/tmpl-form.php:21
 msgid "Describe your problem here ..."
-msgstr "Descreva seu problema aqui..."
+msgstr "Descreva aqui o seu problema..."
 
 #: includes/views/support/tmpl-form.php:28
 msgid "Append POS system report"
@@ -260,7 +264,7 @@ msgstr "Anexar relatório do sistema POS"
 
 #: includes/views/support/tmpl-status.php:31
 msgid "Local Storage"
-msgstr ""
+msgstr "Armazenamento Local"
 
 #: includes/views/template.php:8
 msgid "Point of Sale"
@@ -284,7 +288,7 @@ msgstr ""
 #: includes/class-wc-pos-i18n.php:312
 msgctxt "system status: browser capabilities"
 msgid "Browser"
-msgstr ""
+msgstr "Navegador"
 
 #: includes/class-wc-pos-i18n.php:323
 msgctxt "keyboard shortcuts"
@@ -306,12 +310,12 @@ msgstr "Troco"
 #: includes/class-wc-pos-i18n.php:347
 msgctxt "system status: delete local records"
 msgid "Clear"
-msgstr ""
+msgstr "Limpar"
 
 #: includes/class-wc-pos-i18n.php:366
 msgctxt "restore default settings"
 msgid "Restore defaults"
-msgstr ""
+msgstr "Restaurar predefinições"
 
 #: includes/class-wc-pos-i18n.php:367
 msgctxt "Numpad return key"
@@ -321,7 +325,7 @@ msgstr ""
 #: includes/class-wc-pos-i18n.php:401
 msgctxt "eg: 23 records"
 msgid "record |||| records"
-msgstr ""
+msgstr "registo |||| registos"
 
 #: includes/class-wc-pos-params.php:85
 msgctxt "Product tab: 'On Sale' products"
@@ -343,4 +347,4 @@ msgstr "Qtd."
 #: includes/views/print/tmpl-receipt.php:225
 msgctxt "abbreviation for includes (tax)"
 msgid "incl."
-msgstr "inclu."
+msgstr "incl."

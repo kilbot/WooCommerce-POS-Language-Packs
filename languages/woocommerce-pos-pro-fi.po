@@ -1,6 +1,7 @@
 # Copyright (C) 2017 kilbot
 # This file is distributed under the Copyright 2015 The Kilbot Factory.
 # Translators:
+# Johannes Gangsö <johannes@aikadesign.fi>, 2018
 # None Business <grimberg20@gmail.com>, 2017
 msgid ""
 msgstr ""
@@ -8,9 +9,9 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
 "POT-Creation-Date: 2017-05-31 11:35:22+00:00\n"
-"PO-Revision-Date: 2017-09-22 10:17+0000\n"
-"Last-Translator: None Business <grimberg20@gmail.com>\n"
-"Language-Team: Finnish (http://www.transifex.com/kilbot/woocommerce-pos/"
+"PO-Revision-Date: 2015-06-10 14:19+0000\n"
+"Last-Translator: Johannes Gangsö <johannes@aikadesign.fi>, 2018\n"
+"Language-Team: Finnish (http://www.transifex.com/wcpos/woocommerce-pos/"
 "language/fi/)\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +22,7 @@ msgstr ""
 
 #: includes/class-wc-pos-pro-ajax.php:86
 msgid "Invalid security nonce"
-msgstr "Virheellinne suojaus"
+msgstr "Kertakäyttöavaimen vahvistus epäonnistui"
 
 #: includes/class-wc-pos-pro-i18n.php:110
 msgid "Edit Customer"
@@ -36,46 +37,46 @@ msgstr "Lisää uusi asiakas"
 #: includes/class-wc-pos-pro-stores.php:59
 #: includes/class-wc-pos-pro-stores.php:65
 msgid "Stores"
-msgstr "Kaupat"
+msgstr "Myymälät"
 
 #: includes/class-wc-pos-pro-stores.php:58
 #: includes/class-wc-pos-pro-stores.php:103
 #: includes/widgets/class-wc-pos-pro-hours.php:82
 msgid "Store"
-msgstr "Kauppa"
+msgstr "Myymälä"
 
 #: includes/class-wc-pos-pro-stores.php:60
 #: includes/class-wc-pos-pro-stores.php:61
 msgid "Add New Store"
-msgstr "Lisää uusi kauppa"
+msgstr "Lisää myymälä"
 
 #: includes/class-wc-pos-pro-stores.php:62
 msgid "New Store"
-msgstr "Uusi kauppa"
+msgstr "Lisää myymälä"
 
 #: includes/class-wc-pos-pro-stores.php:63
 msgid "Edit Store"
-msgstr "Muokkaa kauppaa"
+msgstr "Muokkaa myymälää"
 
 #: includes/class-wc-pos-pro-stores.php:64
 msgid "View Store"
-msgstr "Tarkastele kauppaa"
+msgstr "Avaa kassapääte"
 
 #: includes/class-wc-pos-pro-stores.php:66
 msgid "Search Stores"
-msgstr "Etsi kauppoja"
+msgstr "Etsi myymälöitä"
 
 #: includes/class-wc-pos-pro-stores.php:67
 msgid "Parent Store:"
-msgstr "Pää-myymälä"
+msgstr "Ylätaso:"
 
 #: includes/class-wc-pos-pro-stores.php:68
 msgid "No Stores found."
-msgstr "Kauppoja ei löytynyt"
+msgstr "Ei myymälöitä."
 
 #: includes/class-wc-pos-pro-stores.php:69
 msgid "No Stores found in Trash."
-msgstr "Kauppoja ei löytynyt roskakorista"
+msgstr "Roskakorissa ei myymälöitä."
 
 #. translators: woocommerce
 #. translators: wordpress
@@ -98,7 +99,7 @@ msgstr "Kuitti"
 
 #: includes/views/print/tmpl-receipt.php:170
 msgid "Order Date"
-msgstr "Tilaus päivämäärä"
+msgstr "Päiväys"
 
 #: includes/views/print/tmpl-receipt.php:175
 msgid "Cashier"
@@ -110,7 +111,7 @@ msgstr "Maksutapa"
 
 #: includes/views/print/tmpl-receipt.php:231
 msgid "Cart Subtotal"
-msgstr "Ostoskorin välisumma"
+msgstr "Välisumma"
 
 #: includes/views/print/tmpl-receipt.php:289
 msgid "Amount Tendered"
@@ -122,24 +123,24 @@ msgstr "Alennuksessa?"
 
 #: includes/widgets/class-wc-pos-pro-hours.php:17
 msgid "Store Opening Hours"
-msgstr "Kaupan aukeamisaika"
+msgstr "Aukioloajat"
 
 #: includes/widgets/class-wc-pos-pro-hours.php:18
 msgid "Display store hours set in WooCommerce POS"
-msgstr "Näytä kaupan aukioloajat asetettuna WooCommerce myyntipisteessä"
+msgstr "Näytä myymälän aukioloajat"
 
 #: includes/widgets/class-wc-pos-pro-hours.php:88
 msgid "No stores. <a href=\"%s\">Create a new store</a>."
-msgstr "Ei kauppoja. <a href=\"%s\">Luo uusi kauppa</a>."
+msgstr "Ei myymälöitä. <a href=\"%s\">Luo myymälä</a>."
 
 #. Description of the plugin/theme
 msgid ""
 "WooCommerce POS Pro adds extra functionality to the free plugin. Requires <a "
 "href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce POS</a>."
 msgstr ""
-"WooCommerce myyntipiste Pro lisää lisä ominaisuuksia verrattuna "
-"ilmaisversioon. Vaatii <a href=\"http://wordpress.org/plugins/woocommerce-"
-"pos/\">WooCommerce myyntipisteen</a>."
+"WooCommerce POS Pro -lisäosa tuo lisäominaisuuksia kassapäätteeseen. Vaatii "
+"<a href=\"http://wordpress.org/plugins/woocommerce-pos/\">WooCommerce POS -"
+"lisäosan</a>."
 
 #: includes/views/print/tmpl-receipt.php:200
 msgctxt "Abbreviation of Quantity"
@@ -150,9 +151,9 @@ msgstr "Määrä"
 #: includes/views/print/tmpl-receipt.php:268
 msgctxt "abbreviation for includes (tax)"
 msgid "incl."
-msgstr "Sisältyy"
+msgstr "sis."
 
 #: includes/views/print/tmpl-receipt.php:293
 msgctxt "Money returned from cash sale"
 msgid "Change"
-msgstr "Vaihda"
+msgstr "Vaihtoraha"

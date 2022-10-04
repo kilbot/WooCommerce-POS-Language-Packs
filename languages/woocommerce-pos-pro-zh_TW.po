@@ -1,15 +1,16 @@
 # Copyright (C) 2017 kilbot
 # This file is distributed under the Copyright 2015 The Kilbot Factory.
 # Translators:
+# Ted Huang <ted@wedar.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
 "POT-Creation-Date: 2017-05-31 11:35:22+00:00\n"
-"PO-Revision-Date: 2017-09-22 10:17+0000\n"
-"Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.com/kilbot/woocommerce-"
+"PO-Revision-Date: 2015-06-10 14:19+0000\n"
+"Last-Translator: Ted Huang <ted@wedar.com>, 2017\n"
+"Language-Team: Chinese (Taiwan) (http://www.transifex.com/wcpos/woocommerce-"
 "pos/language/zh_TW/)\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
@@ -24,45 +25,45 @@ msgstr "無效的安全隨機數"
 
 #: includes/class-wc-pos-pro-i18n.php:110
 msgid "Edit Customer"
-msgstr ""
+msgstr "編輯會員資料"
 
 #: includes/class-wc-pos-pro-i18n.php:111
 #: includes/views/customers/tmpl-actions.php:13
 msgid "Add New Customer"
-msgstr ""
+msgstr "新增會員資料"
 
 #: includes/class-wc-pos-pro-stores.php:57
 #: includes/class-wc-pos-pro-stores.php:59
 #: includes/class-wc-pos-pro-stores.php:65
 msgid "Stores"
-msgstr ""
+msgstr "門市"
 
 #: includes/class-wc-pos-pro-stores.php:58
 #: includes/class-wc-pos-pro-stores.php:103
 #: includes/widgets/class-wc-pos-pro-hours.php:82
 msgid "Store"
-msgstr ""
+msgstr "門市"
 
 #: includes/class-wc-pos-pro-stores.php:60
 #: includes/class-wc-pos-pro-stores.php:61
 msgid "Add New Store"
-msgstr ""
+msgstr "新增門市"
 
 #: includes/class-wc-pos-pro-stores.php:62
 msgid "New Store"
-msgstr ""
+msgstr "新門市"
 
 #: includes/class-wc-pos-pro-stores.php:63
 msgid "Edit Store"
-msgstr ""
+msgstr "編輯門市資料"
 
 #: includes/class-wc-pos-pro-stores.php:64
 msgid "View Store"
-msgstr ""
+msgstr "瀏覽門市"
 
 #: includes/class-wc-pos-pro-stores.php:66
 msgid "Search Stores"
-msgstr ""
+msgstr "搜尋門市"
 
 #: includes/class-wc-pos-pro-stores.php:67
 msgid "Parent Store:"
@@ -70,11 +71,11 @@ msgstr ""
 
 #: includes/class-wc-pos-pro-stores.php:68
 msgid "No Stores found."
-msgstr ""
+msgstr "找不到門市"
 
 #: includes/class-wc-pos-pro-stores.php:69
 msgid "No Stores found in Trash."
-msgstr ""
+msgstr "垃圾桶中沒有門市資料"
 
 #. translators: woocommerce
 #. translators: wordpress
@@ -89,11 +90,11 @@ msgstr "電子郵件"
 
 #: includes/views/pos/cart/tmpl-customer.php:5
 msgid "Add Customer"
-msgstr ""
+msgstr "新增會員"
 
 #: includes/views/print/tmpl-receipt.php:4
 msgid "Receipt"
-msgstr ""
+msgstr "訂單明細"
 
 #: includes/views/print/tmpl-receipt.php:170
 msgid "Order Date"
@@ -101,7 +102,7 @@ msgstr "訂購日期"
 
 #: includes/views/print/tmpl-receipt.php:175
 msgid "Cashier"
-msgstr ""
+msgstr "收銀員"
 
 #: includes/views/print/tmpl-receipt.php:180
 msgid "Payment Method"
@@ -109,7 +110,7 @@ msgstr "付款方式"
 
 #: includes/views/print/tmpl-receipt.php:231
 msgid "Cart Subtotal"
-msgstr ""
+msgstr "購物車小計"
 
 #: includes/views/print/tmpl-receipt.php:289
 msgid "Amount Tendered"
@@ -117,19 +118,19 @@ msgstr "量承投"
 
 #: includes/views/products/tmpl-list-item.php:72
 msgid "On Sale?"
-msgstr ""
+msgstr "特價？"
 
 #: includes/widgets/class-wc-pos-pro-hours.php:17
 msgid "Store Opening Hours"
-msgstr ""
+msgstr "門市營業時間"
 
 #: includes/widgets/class-wc-pos-pro-hours.php:18
 msgid "Display store hours set in WooCommerce POS"
-msgstr ""
+msgstr "在POS系統中顯示營業時間"
 
 #: includes/widgets/class-wc-pos-pro-hours.php:88
 msgid "No stores. <a href=\"%s\">Create a new store</a>."
-msgstr ""
+msgstr "找不到門市. <a href=\"%s\">建立新門市</a>"
 
 #. Description of the plugin/theme
 msgid ""

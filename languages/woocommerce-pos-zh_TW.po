@@ -2,15 +2,16 @@
 # This file is distributed under the GPL-2.0+.
 # Translators:
 # Paul Kilmurray <paul@kilbot.com.au>, 2015
+# Ted Huang <ted@wedar.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce POS\n"
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
 "POT-Creation-Date: 2017-06-05 10:02:27+00:00\n"
-"PO-Revision-Date: 2017-09-22 10:17+0000\n"
-"Last-Translator: Paul Kilmurray <paul@kilbot.com.au>\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.com/kilbot/woocommerce-"
+"PO-Revision-Date: 2015-06-10 14:18+0000\n"
+"Last-Translator: Ted Huang <ted@wedar.com>, 2017\n"
+"Language-Team: Chinese (Taiwan) (http://www.transifex.com/wcpos/woocommerce-"
 "pos/language/zh_TW/)\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
@@ -58,15 +59,15 @@ msgstr "用戶無權訪問WooCommerce POS"
 
 #: includes/class-wc-pos-i18n.php:334
 msgid "To Pay"
-msgstr "支付"
+msgstr "付款"
 
 #: includes/class-wc-pos-i18n.php:335
 msgid "Paid"
-msgstr "付費"
+msgstr "已付款"
 
 #: includes/class-wc-pos-i18n.php:336
 msgid "Unpaid"
-msgstr "未付"
+msgstr "未付款"
 
 #: includes/class-wc-pos-i18n.php:337
 msgid "Email Receipt"
@@ -74,7 +75,7 @@ msgstr "電子郵件收據"
 
 #: includes/class-wc-pos-i18n.php:340
 msgid "Support Form"
-msgstr "支持表格"
+msgstr "聯絡表格"
 
 #: includes/class-wc-pos-i18n.php:352 includes/views/pos/cart/tmpl-totals.php:8
 #: includes/views/pos/receipt/tmpl-totals.php:7
@@ -82,7 +83,7 @@ msgstr "支持表格"
 #: includes/views/print/tmpl-receipt.php:193
 #: includes/views/print/tmpl-receipt.php:235
 msgid "Discount"
-msgstr ""
+msgstr "優惠"
 
 #. translators: wordpress
 #. translators: woocommerce
@@ -94,15 +95,15 @@ msgstr "電子郵件"
 
 #: includes/class-wc-pos-i18n.php:363
 msgid "Process Payment"
-msgstr "流程付款"
+msgstr "進行付款"
 
 #: includes/class-wc-pos-i18n.php:368
 msgid "Return to Sale"
-msgstr "回到銷售"
+msgstr "回到銷售頁面"
 
 #: includes/class-wc-pos-i18n.php:371
 msgid "Send"
-msgstr "發送"
+msgstr "傳送"
 
 #: includes/class-wc-pos-i18n.php:374
 msgid "Void"
@@ -114,7 +115,7 @@ msgstr ""
 
 #: includes/class-wc-pos-i18n.php:390
 msgid "Your browser is not supported!"
-msgstr "您的瀏覽器不支持！"
+msgstr "您的瀏覽器不支援！"
 
 #: includes/class-wc-pos-i18n.php:391
 msgid "Unable to use RESTful HTTP methods"
@@ -122,7 +123,7 @@ msgstr ""
 
 #: includes/class-wc-pos-i18n.php:396
 msgid "No payment gateways enabled."
-msgstr "沒有支付網關啟用。"
+msgstr "無可用付款方式。"
 
 #: includes/class-wc-pos-params.php:232
 msgid "POS"
@@ -138,7 +139,7 @@ msgstr "沒有找到處理程序％s的設置"
 
 #: includes/class-wc-pos-settings.php:223
 msgid "Settings error"
-msgstr "設置錯誤"
+msgstr "設定錯誤"
 
 #: includes/class-wc-pos-status.php:28
 msgid "WC Version"
@@ -150,7 +151,7 @@ msgstr "WooCommerce >= ％s 的要求"
 
 #: includes/class-wc-pos-status.php:60
 msgid "PHP Version"
-msgstr ""
+msgstr "PHP版本"
 
 #: includes/class-wc-pos-status.php:67
 msgid "PHP >= %s required"
@@ -162,7 +163,7 @@ msgstr "WC REST API"
 
 #: includes/class-wc-pos-status.php:89
 msgid "API is active"
-msgstr "API是積極的"
+msgstr "API已啟用"
 
 #: includes/class-wc-pos-status.php:126
 msgid "Access to the REST API is required"
@@ -187,7 +188,7 @@ msgstr "卡"
 #: includes/gateways/class-wc-pos-card.php:84
 #: includes/gateways/class-wc-pos-card.php:118
 msgid "Cashback"
-msgstr "現金返還"
+msgstr "退款"
 
 #: includes/gateways/class-wc-pos-cash.php:20
 msgid "Cash"
@@ -198,7 +199,7 @@ msgstr "現金"
 #: includes/gateways/class-wc-pos-cash.php:91
 #: includes/views/print/tmpl-receipt.php:246
 msgid "Amount Tendered"
-msgstr "量承投"
+msgstr "付款金額"
 
 #: includes/views/modals/browser.php:2
 msgid "Sorry, it seems your browser is not supported by WooCommerce POS. "
@@ -223,7 +224,7 @@ msgstr ""
 
 #: includes/views/pos/products/tmpl-filter.php:7
 msgid "Scan Barcode"
-msgstr "掃描條形碼"
+msgstr "掃描條碼"
 
 #: includes/views/print/tmpl-receipt.php:115
 msgid "Billing Address"
@@ -235,7 +236,7 @@ msgstr "收件地址"
 
 #: includes/views/print/tmpl-receipt.php:123
 msgid "Order Number"
-msgstr ""
+msgstr "訂單編號"
 
 #: includes/views/print/tmpl-receipt.php:127
 msgid "Order Date"
@@ -243,7 +244,7 @@ msgstr "訂購日期"
 
 #: includes/views/print/tmpl-receipt.php:132
 msgid "Cashier"
-msgstr ""
+msgstr "收銀員"
 
 #: includes/views/print/tmpl-receipt.php:137
 msgid "Payment Method"
@@ -251,7 +252,7 @@ msgstr "付款方式"
 
 #: includes/views/support/tmpl-form.php:20
 msgid "Message"
-msgstr ""
+msgstr "訊息"
 
 #: includes/views/support/tmpl-form.php:21
 msgid "Describe your problem here ..."
@@ -267,7 +268,7 @@ msgstr ""
 
 #: includes/views/template.php:8
 msgid "Point of Sale"
-msgstr "銷售點"
+msgstr "POS"
 
 #: includes/views/tmpl-pagination.php:2
 msgid "Showing %s of %s"
@@ -299,7 +300,7 @@ msgstr "熱鍵"
 #: includes/class-wc-pos-i18n.php:338
 msgctxt "order status, ie: open order in cart"
 msgid "Open"
-msgstr "開放"
+msgstr "開啟"
 
 #: includes/class-wc-pos-i18n.php:339
 #: includes/gateways/class-wc-pos-cash.php:93
@@ -311,7 +312,7 @@ msgstr "變化"
 #: includes/class-wc-pos-i18n.php:347
 msgctxt "system status: delete local records"
 msgid "Clear"
-msgstr "明確"
+msgstr "清除"
 
 #: includes/class-wc-pos-i18n.php:366
 msgctxt "restore default settings"
@@ -331,7 +332,7 @@ msgstr "記錄||||記錄"
 #: includes/class-wc-pos-params.php:85
 msgctxt "Product tab: 'On Sale' products"
 msgid "On Sale"
-msgstr "在售"
+msgstr "特價中"
 
 #: includes/views/pos/cart/tmpl-panel.php:2
 #: includes/views/pos/receipt/tmpl-panel.php:3

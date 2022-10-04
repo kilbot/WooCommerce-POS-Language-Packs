@@ -1,25 +1,25 @@
 [main]
 host = https://www.transifex.com
 
-[woocommerce-pos.woocommerce-pos-pro-admin-pot]
+[o:wcpos:p:woocommerce-pos:r:woocommerce-pos-admin-pot]
 file_filter = languages/woocommerce-pos-pro-admin-<lang>.po
 source_file = resources/woocommerce-pos-pro-admin.pot
 source_lang = en
 type = PO
 
-[woocommerce-pos.woocommerce-pos-pro-pot]
+[o:wcpos:p:woocommerce-pos:r:woocommerce-pos-pro-pot]
 file_filter = languages/woocommerce-pos-pro-<lang>.po
 source_file = resources/woocommerce-pos-pro.pot
 source_lang = en
 type = PO
 
-[woocommerce-pos.woocommerce-pos-admin-pot]
+[o:wcpos:p:woocommerce-pos:r:woocommerce-pos-admin-pot]
 file_filter = languages/woocommerce-pos-admin-<lang>.po
 source_file = resources/woocommerce-pos-admin.pot
 source_lang = en
 type = PO
 
-[woocommerce-pos.woocommerce-pos-pot]
+[o:wcpos:p:woocommerce-pos:r:woocommerce-pos-pot]
 file_filter = languages/woocommerce-pos-<lang>.po
 source_file = resources/woocommerce-pos.pot
 source_lang = en

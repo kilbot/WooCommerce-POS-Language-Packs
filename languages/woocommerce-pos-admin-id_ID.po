@@ -1,6 +1,7 @@
 # Copyright (C) 2017 kilbot
 # This file is distributed under the GPL-2.0+.
 # Translators:
+# Bryan Tanjung <bryantanjung@gmail.com>, 2018
 # Mahaskoro Mr. <mahaskoro@gmail.com>, 2017
 # Mubarak Anis <apakatacreative@gmail.com>, 2016
 # Wira Ade Putra <razaqa.com@gmail.com>, 2015
@@ -10,9 +11,9 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
 "POT-Creation-Date: 2017-06-05 10:02:27+00:00\n"
-"PO-Revision-Date: 2017-09-22 11:52+0000\n"
-"Last-Translator: Mahaskoro Mr. <mahaskoro@gmail.com>\n"
-"Language-Team: Indonesian (Indonesia) (http://www.transifex.com/kilbot/"
+"PO-Revision-Date: 2015-06-10 14:18+0000\n"
+"Last-Translator: Bryan Tanjung <bryantanjung@gmail.com>, 2018\n"
+"Language-Team: Indonesian (Indonesia) (http://www.transifex.com/wcpos/"
 "woocommerce-pos/language/id_ID/)\n"
 "Language: id_ID\n"
 "MIME-Version: 1.0\n"
@@ -145,6 +146,8 @@ msgid ""
 "Installed gateways are listed below. Drag and drop gateways to control their "
 "display order at the Point of Sale. "
 msgstr ""
+"Berikut adalah daftar Gateways yang terpasang. Tarik dan letakan gateways "
+"untuk mengatur urutan tampilan di Point of Sale."
 
 #: includes/admin/settings/views/checkout.php:55
 msgid ""
@@ -152,6 +155,9 @@ msgid ""
 "Payment Gateways enabled on the settings page will be available in your "
 "Online Store. "
 msgstr ""
+"Payment Gateways yang diaktifkan disini akan tersedia di Point Of Sale. "
+"Payment Gateways yang diaktifkan di halaman pengaturan akan tersedia di toko "
+"online anda."
 
 #: includes/admin/settings/views/checkout.php:59
 msgid ""
@@ -159,6 +165,9 @@ msgid ""
 "information. Transmitting credit card or other sensitive information should "
 "only be done using a secure connnection."
 msgstr ""
+"Menjaga keamanan informasi pelanggan adalah tanggung jawab anda sebagai "
+"penjual. Disarankan hanya menggunakan koneksi yang aman untuk mengirim "
+"informasi kartu kredit dan informasi sensitif lainya."
 
 #: includes/admin/settings/views/checkout.php:65
 msgid "Gateway Display"
@@ -260,7 +269,7 @@ msgstr "Dukungan Server Lawas"
 
 #: includes/admin/settings/views/tools.php:49
 msgid "Emulate RESTful HTTP methods to support legacy servers."
-msgstr ""
+msgstr "Meniru cara RESTful HTTP untuk mendukung server warisan"
 
 #: includes/admin/settings/views/tools.php:54
 msgid "Local Data"
@@ -283,18 +292,25 @@ msgid ""
 "There has been an error loading the settings, please contact <a href="
 "\"mailto:support@woopos.com.au\">support</a>"
 msgstr ""
+"Terjadi kendala memuat pengaturan,Harap hubungi <a href=\"mailto:"
+"support@woopos.com.au\">bantuan</a>"
 
 #: includes/class-wc-pos-activator.php:194
 msgid ""
 "<strong>WooCommerce POS</strong> requires <a href=\"%s\">WooCommerce %s or "
 "higher</a>. Please <a href=\"%s\">install and activate WooCommerce</a>"
 msgstr ""
+"<strong>WooCommerce POS</strong> membutuhkan <a href=\"%s\">WooCommerce %s "
+"atau diatasnya </a>. Mohon <a href=\"%s\">Install dan aktifkan WooCommerce </"
+"a>"
 
 #: includes/class-wc-pos-activator.php:213
 msgid ""
 "<strong>WooCommerce POS</strong> requires PHP %s or higher. Read more "
 "information about <a href=\"%s\">how you can update</a>"
 msgstr ""
+"<strong>WooCommerce POS </strong>membutuhkan PHP %s atau di atasnya. Baca "
+"informasi lebih lanjut tentang <a href=\"%s\">bagaimana cara memperbarui</a>"
 
 #: includes/products/class-wc-pos-visibility.php:23
 msgid "POS & Online"
@@ -328,7 +344,7 @@ msgstr "Pintasan"
 #: includes/admin/settings/views/checkout.php:143
 msgctxt "POS checkout settings"
 msgid "Show payment gateway icon."
-msgstr ""
+msgstr "Tampilkan lambang payment gateway"
 
 #: includes/admin/settings/views/general.php:40
 msgctxt "Default customer setting"

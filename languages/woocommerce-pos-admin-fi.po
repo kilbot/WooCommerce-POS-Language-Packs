@@ -1,6 +1,7 @@
 # Copyright (C) 2017 kilbot
 # This file is distributed under the GPL-2.0+.
 # Translators:
+# Johannes Gangsö <johannes@aikadesign.fi>, 2018
 # None Business <grimberg20@gmail.com>, 2017
 msgid ""
 msgstr ""
@@ -8,9 +9,9 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/kilbot/WooCommerce-POS-Language-"
 "Packs/issues\n"
 "POT-Creation-Date: 2017-06-05 10:02:27+00:00\n"
-"PO-Revision-Date: 2017-09-22 10:17+0000\n"
-"Last-Translator: None Business <grimberg20@gmail.com>\n"
-"Language-Team: Finnish (http://www.transifex.com/kilbot/woocommerce-pos/"
+"PO-Revision-Date: 2015-06-10 14:18+0000\n"
+"Last-Translator: Johannes Gangsö <johannes@aikadesign.fi>, 2018\n"
+"Language-Team: Finnish (http://www.transifex.com/wcpos/woocommerce-pos/"
 "language/fi/)\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
@@ -29,22 +30,22 @@ msgstr "Verkkokauppa"
 #: includes/admin/class-wc-pos-orders.php:95
 #: includes/admin/views/order-details.php:5
 msgid "POS"
-msgstr "Myyntipiste"
+msgstr "Kassapääte"
 
 #: includes/admin/class-wc-pos-menu.php:44
 #: includes/admin/class-wc-pos-menu.php:45
 msgid "View POS"
-msgstr "Tarkastele myyntipistettä"
+msgstr "Avaa kassapääte"
 
 #: includes/admin/class-wc-pos-menu.php:53
 #: includes/admin/settings/views/checkout.php:101
 msgid "Upgrade to Pro"
-msgstr "Päivitä Pro:hon"
+msgstr "Päivitä Pro -versioon"
 
 #: includes/admin/class-wc-pos-orders.php:96
 #: includes/admin/views/order-details.php:4
 msgid "Online"
-msgstr "Verkossa"
+msgstr "Verkkokauppa"
 
 #. translators: wordpress
 #. translators: woocommerce
@@ -59,11 +60,11 @@ msgstr "Asetukset"
 
 #: includes/admin/settings/class-wc-pos-access.php:25
 msgid "POS Access"
-msgstr "Myyntipiste pääsy"
+msgstr "Pääsyoikeudet"
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:42
 msgid "Help screen"
-msgstr "Apua ikkuna"
+msgstr "Ohje"
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:43
 msgid "Barcode search"
@@ -71,23 +72,23 @@ msgstr "Viivakoodi haku"
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:45
 msgid "New order"
-msgstr "Uusi tilaus"
+msgstr "Uusi tapahtuma"
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:46
 msgid "Sync with server"
-msgstr "Synkronoi serverille"
+msgstr "Synkronoi palvelimelta"
 
 #: includes/admin/settings/views/access.php:7
 msgid "Grant POS Access"
-msgstr "Anna myyntipiste pääsy"
+msgstr "Salli pääsy kassapäätteelle"
 
 #: includes/admin/settings/views/access.php:10
 msgid ""
 "By default, access to the POS is limited to Administrator and Shop Manager "
 "roles."
 msgstr ""
-"Lähtökohtaisesti pääsy myyntipisteeseen on rajattu Admineihin ja kaupan "
-"ylläpitäjien rooleihin."
+"Lähtökohtaisesti pääsy kassapäätteelle on sallittu vain sivuston "
+"ylläpitäjille ja kaupan ylläpitäjille."
 
 #: includes/admin/settings/views/access.php:11
 msgid ""
@@ -107,11 +108,11 @@ msgstr ""
 
 #: includes/admin/settings/views/checkout.php:13
 msgid "Completed Order Status"
-msgstr "Valmis tilaustila"
+msgstr "Valmiin tilauksen tila"
 
 #: includes/admin/settings/views/checkout.php:14
 msgid "Change the default order status for POS sales"
-msgstr "Muuta lähtökohtaista tilaus tilaa myyntipiste myyntiin."
+msgstr "Valitse, mihin tilaan valmiit kassapäätetapahtumat asetetaan"
 
 #: includes/admin/settings/views/checkout.php:27
 msgid "Order Emails"
@@ -119,15 +120,17 @@ msgstr "Tilaus sähköpostit"
 
 #: includes/admin/settings/views/checkout.php:28
 msgid "Send WooCommerce notification emails for POS orders"
-msgstr "Lähetä WooCommerce ilmoitus sähköpostitse myynpiste tilauksista"
+msgstr ""
+"Lähetä WooCommercen sähköposti-ilmoitus myös kassapäätteellä tehdyistä "
+"tilauksista"
 
 #: includes/admin/settings/views/checkout.php:32
 msgid "Enable admin emails"
-msgstr "Ota käyttöön admin sähköposti"
+msgstr "Aktivoi sähköposti-ilmoitukset ylläpitäjälle"
 
 #: includes/admin/settings/views/checkout.php:35
 msgid "Enable customer emails"
-msgstr "Ota käyttöön asiakas sähköpostit"
+msgstr "Aktivoi sähköposti-ilmoitukset asiakkaalle"
 
 #: includes/admin/settings/views/checkout.php:41
 msgid "Receipt Printing"
@@ -135,15 +138,15 @@ msgstr "Kuitin tulostus"
 
 #: includes/admin/settings/views/checkout.php:45
 msgid "Automatically print receipt after checkout"
-msgstr "Automaattisesti tulosta kuitti ostotapahtuman jälkeen"
+msgstr "Tulosta kuitti automaattisesti maksutapahtuman jälkeen"
 
 #: includes/admin/settings/views/checkout.php:54
 msgid ""
 "Installed gateways are listed below. Drag and drop gateways to control their "
 "display order at the Point of Sale. "
 msgstr ""
-"Asennetut maksuväylät ovat listattuna alla. Raahaa ja pudota maksuväyliä "
-"hallitaksesi niiden esiintymistä myynti-ikkunassa."
+"Asennetut maksutavat ovat listattuna alla. Raahaa ja pudota maksuväyliä "
+"muuttaaksesi niiden järjestystä kassapäätteellä."
 
 #: includes/admin/settings/views/checkout.php:55
 msgid ""
@@ -151,8 +154,8 @@ msgid ""
 "Payment Gateways enabled on the settings page will be available in your "
 "Online Store. "
 msgstr ""
-"Täällä aktivoidut maksuväylät ovat käytettävissä myynti-ikkunnassa. "
-"Maksuväylät asetukset sivulla ovat käytettävissä verkkokaupassa."
+"Tässä voit aktivoida kassapäätteellä käytettävät maksutavat. Verkkokaupassa "
+"käytettävät maksutavat tulee aktivoida WooCommerce Asetukset sivulla."
 
 #: includes/admin/settings/views/checkout.php:59
 msgid ""
@@ -166,31 +169,31 @@ msgstr ""
 
 #: includes/admin/settings/views/checkout.php:65
 msgid "Gateway Display"
-msgstr "Maksuväylä näkymä"
+msgstr "Maksutavat"
 
 #: includes/admin/settings/views/checkout.php:73
 msgid "Online Status"
-msgstr "Verkon tila"
+msgstr "Käytössä verkkokaupassa"
 
 #: includes/admin/settings/views/checkout.php:74
 msgid "POS Status"
-msgstr "Myyntipisteen tila"
+msgstr "Käytössä kassapäätteellä"
 
 #: includes/admin/settings/views/checkout.php:75
 msgid "POS Settings"
-msgstr "Myyntipisteen asetukset"
+msgstr "Kassapäätteen asetukset"
 
 #: includes/admin/settings/views/checkout.php:126
 msgid "Payment method title."
-msgstr "Myynti tavan otsikko"
+msgstr "Maksutavan nimi"
 
 #: includes/admin/settings/views/checkout.php:133
 msgid "Payment method description that will be shown in the POS."
-msgstr "Myyntitavan kuvaus joka näkyy myyntipisteessä"
+msgstr "Maksutavan kuvaus, joka näkyy kassapäätteellä."
 
 #: includes/admin/settings/views/checkout.php:139
 msgid "Icon"
-msgstr "Ikoni"
+msgstr "Kuvake"
 
 #: includes/admin/settings/views/general.php:13
 msgid "Product Visibility"
@@ -198,11 +201,11 @@ msgstr "Tuotteen näkyvyys"
 
 #: includes/admin/settings/views/general.php:17
 msgid "Enable <a href=\"%s\">POS Only products</a>"
-msgstr "Aktivoi <a href=\"%s\">Vain myyntipiste tuotteet</a>"
+msgstr "Aktivoi <a href=\"%s\">Vain kassapääte tuotteet</a>"
 
 #: includes/admin/settings/views/general.php:23
 msgid "Allow Decimal Quantity"
-msgstr "Salli desimaali määrä"
+msgstr "Salli desimaalit Määrä-kentässä"
 
 #: includes/admin/settings/views/general.php:24
 msgid "Allows items to have decimal values in the quantity field, eg: 0.25"
@@ -210,61 +213,58 @@ msgstr "Salli tuotteiden desimaalimäärät määrä kentässä, esimerkiksi: 0.
 
 #: includes/admin/settings/views/general.php:34
 msgid "Default POS Customer"
-msgstr "Oletusarvoinen myyntipiste asiakas"
+msgstr "Oletusasiakas kassapäätteellä"
 
 #: includes/admin/settings/views/general.php:35
 msgid ""
 "The default customer for POS orders, eg: Guest or create a new customer."
 msgstr ""
-"Oletusarvoinen asiakas myyntipiste tilauksissa, esimerkiksi vieras tai luo "
+"Oletusasiakas, mikä on valittuna kassapäätteellä, kuten: Vieras tai Syötä "
 "uusi asiakas."
 
 #: includes/admin/settings/views/general.php:46
 msgid "Discount Quick Keys"
-msgstr "Alennuksen pikavalinnat"
+msgstr "Pika-alennukset"
 
 #: includes/admin/settings/views/general.php:47
 msgid "Configure discount keys for quick numpad entry"
-msgstr "Määritä alennusnapit numpadiin pikaista valintaa varten"
+msgstr "Määritä pika-alennuksia, jotka näytetään numeronäppäimistössä"
 
 #: includes/admin/settings/views/hotkeys.php:1
 msgid "Keyboard Shortcuts"
-msgstr "Näppäimistön pikavalinnat"
+msgstr "Pikanäppäimet"
 
 #: includes/admin/settings/views/hotkeys.php:4
 msgid ""
 "You can trigger certain events in WooCommerce POS using keyboard shortcuts "
 "(HotKeys)."
-msgstr ""
-"Voit aktivoida tiettyjä tapahtumia WooCommerce myyntipisteessä käyttäen "
-"näppäimistön pikakuvakkeita (pikanäppäimet)"
+msgstr "Voit käyttää tiettyjä kassapäätteen toimintoja pikanäppäinten avulla."
 
 #: includes/admin/settings/views/hotkeys.php:5
 msgid ""
 "HotKeys can also be used as a prefix for your barcode scanner or card reader."
 msgstr ""
-"pikanäppäimiä voidaan myös käyttää etuliitteenä sinun viivakoodinlukijalle "
-"tai kortinlukijalle"
+"Pikanäppäimet voi ohjelmoida myös viivakoodin lukijaan tai korttipäätteeseen."
 
 #: includes/admin/settings/views/tools.php:33
 msgid "Receipt Template"
-msgstr "Kuitti sapluuna"
+msgstr "Kuittipohja"
 
 #: includes/admin/settings/views/tools.php:36
 msgid "View Sample Receipt"
-msgstr "Katsele esimerkki kuittia"
+msgstr "Esikatsele kuittia"
 
 #: includes/admin/settings/views/tools.php:38
 msgid "<strong class=\"red\">Template path:</strong> %s"
-msgstr "<strong class=\"red\">Sapluuna osoite</strong>%s"
+msgstr "<strong class=\"red\">Sivupohjan polku</strong> %s"
 
 #: includes/admin/settings/views/tools.php:43
 msgid "Legacy Server Support"
-msgstr "Vanha palvelintuki"
+msgstr "Aktivoi tuki vanhoille palvelimille"
 
 #: includes/admin/settings/views/tools.php:49
 msgid "Emulate RESTful HTTP methods to support legacy servers."
-msgstr "Jäljittele RESTful HTTP metodia tukeaksei vanhempia palvelimia"
+msgstr "Jäljittele RESTful HTTP metodia tukeaksesi vanhempia palvelimia"
 
 #: includes/admin/settings/views/tools.php:54
 msgid "Local Data"
@@ -280,7 +280,7 @@ msgstr "Tyhjennä kaikki paikallinen data"
 
 #: includes/admin/views/order-details.php:2
 msgid "Order type"
-msgstr "Tilaus tyyppi"
+msgstr "Tilauksen tyyppi"
 
 #: includes/admin/views/settings.php:13
 msgid ""
@@ -295,41 +295,41 @@ msgid ""
 "<strong>WooCommerce POS</strong> requires <a href=\"%s\">WooCommerce %s or "
 "higher</a>. Please <a href=\"%s\">install and activate WooCommerce</a>"
 msgstr ""
-"<strong>WooCommerce myyntipiste</strong> vaatii <a href=\"%s\">WooCommerce%s "
-"tai uudemman</a>. Ole hyvä ja <a href=\"%s\">asenna ja aktivoi WooCommerce</"
-"a>"
+"<strong>WooCommerce POS -lisäosa</strong> vaatii <a href=\"%s\">WooCommerce"
+"%s tai uudemman</a>. Ole hyvä ja <a href=\"%s\">asenna ja aktivoi "
+"WooCommerce</a>"
 
 #: includes/class-wc-pos-activator.php:213
 msgid ""
 "<strong>WooCommerce POS</strong> requires PHP %s or higher. Read more "
 "information about <a href=\"%s\">how you can update</a>"
 msgstr ""
-"<strong>WooCommerce myyntipiste</strong>vaatii PHP%s tai korkeamman. Lue "
+"<strong>WooCommerce POS -lisäosa</strong>vaatii PHP%s tai korkeamman. Lue "
 "lisää kuinka päivittää <a href=\"%s\">täältä</a>"
 
 #: includes/products/class-wc-pos-visibility.php:23
 msgid "POS & Online"
-msgstr "Myyntipiste ja verkossa"
+msgstr "Kassapääte & Verkkokauppa"
 
 #: includes/products/class-wc-pos-visibility.php:24
 #: includes/products/class-wc-pos-visibility.php:87
 msgid "POS Only"
-msgstr "Vain myyntipiste"
+msgstr "Vain kassapääte"
 
 #: includes/products/class-wc-pos-visibility.php:25
 #: includes/products/class-wc-pos-visibility.php:88
 msgid "Online Only"
-msgstr "Vain verkossa"
+msgstr "Vain verkkokauppa"
 
 #: includes/products/views/post-metabox-visibility-select.php:11
 #: includes/products/views/quick-edit-visibility-select.php:14
 msgid "POS visibility"
-msgstr "Myyntipiste näkyvyys"
+msgstr "Näkyvyys kassapäätteellä"
 
 #: includes/admin/class-wc-pos-permalink.php:30
 msgctxt "Permalink setting, eg: /pos"
 msgid "POS base"
-msgstr "Myyntipiste pohja"
+msgstr "Kassapäätteen polkutunnus"
 
 #: includes/admin/settings/class-wc-pos-hotkeys.php:22
 msgctxt "keyboard shortcuts"
@@ -339,7 +339,7 @@ msgstr "Pikanäppäimet"
 #: includes/admin/settings/views/checkout.php:143
 msgctxt "POS checkout settings"
 msgid "Show payment gateway icon."
-msgstr "Näytä maksuväylän ikoni"
+msgstr "Näytä maksutavan kuvake"
 
 #: includes/admin/settings/views/general.php:40
 msgctxt "Default customer setting"
